@@ -19,6 +19,7 @@ https://twitter.com/project_kotlin[Twitter]
 https://www.reddit.com/r/Kotlin/[/r/Kotlin]
 https://www.quora.com/Kotlin?share=1[Quora Kotlin]
 https://github.com/trending?l=kotlin[Trending Kotlin on Github]
+http://antonioleiva.com/[Antonio Leiva - Android and any other monsters]
 
 == Single Posts
 _:tv:_ Nov 03, 2014 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL]
