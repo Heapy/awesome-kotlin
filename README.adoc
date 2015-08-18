@@ -1,0 +1,54 @@
+= Awesome Kotlin
+:linkattrs:
+:hardbreaks:
+
+A curated list of awesome Kotlin related stuff Inspired by awesome-java.
+
+== Official Links
+
+http://kotlinlang.org/[Home Page]
+http://kotlinlang.org/docs/reference/[Language Reference]
+http://blog.jetbrains.com/kotlin/[Blog]
+http://try.kotlinlang.org/[Try Kotlin!]
+http://youtrack.jetbrains.com/issues/KT[Issue Tracker]
+https://github.com/jetbrains/kotlin[Kotlin Repository]
+https://twitter.com/project_kotlin[Twitter]
+
+== Resources
+
+https://www.reddit.com/r/Kotlin/[/r/Kotlin]
+https://www.quora.com/Kotlin?share=1[Quora Kotlin]
+https://github.com/trending?l=kotlin[Trending Kotlin on Github]
+
+== Single Posts
+_:tv:_ Nov 03, 2014 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL]
+_:tv:_ Aug 12, 2015     https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav]
+
+== Libraries
+
+=== Android
+https://github.com/JetBrains/anko[JetBrains/anko, title="Pleasant Android application development."]
+https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife, title="View injection library for Android."]
+https://github.com/pawegio/KAndroid[pawegio/KAndroid, title="Kotlin library for Android"]
+
+=== Web
+https://github.com/TinyMission/kara[TinyMission/kara, title="Web framework written in Kotlin"]
+
+=== Util
+https://github.com/JetBrains/spek[JetBrains/spek, title="A specification framework for Kotlin"]
+
+=== Misc
+https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin]
+
+
+== Projects
+
+=== Android
+https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin, title="A showcase music app for Android entirely written using Kotlin language"]
+https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example, title="Example of Android project showing integration with Kotlin and Dagger 2"]
+
+=== Misc
+https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy, title="Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient"]
+
+''''
+NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
