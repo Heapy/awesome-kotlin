@@ -21,8 +21,12 @@ https://github.com/trending?l=kotlin[Trending Kotlin on Github]
 http://antonioleiva.com/[Antonio Leiva - Android and any other monsters]
 
 == Single Posts
-_:tv:_ Nov 03, 2014 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL]
-_:tv:_ Aug 12, 2015     https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav]
+_:tv:_              Nov 03, 2014 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL]
+_:page_facing_up:_  Jul 06, 2015 https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language]
+_:page_facing_up:_  Jul 20, 2015 http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3]
+_:page_facing_up:_  Aug 06, 2015 http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/[Building APIs on the JVM Using Kotlin and Spark – Part 1]
+_:tv:_              Aug 12, 2015 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav]
+
 
 == Libraries
 
@@ -46,6 +50,9 @@ https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for 
 === Android
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin] - A showcase music app for Android entirely written using Kotlin language
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example] - Example of Android project showing integration with Kotlin and Dagger 2
+
+=== Web
+https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest] - Basic Spring Boot app in Kotlin
 
 === Misc
 https://github.com/JetBrains/swot[JetBrains/swot] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
