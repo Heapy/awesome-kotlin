@@ -1,5 +1,4 @@
 = Awesome Kotlin
-:linkattrs:
 :hardbreaks:
 
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
@@ -28,28 +27,28 @@ _:tv:_ Aug 12, 2015     https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 -
 == Libraries
 
 === Android
-https://github.com/JetBrains/anko[JetBrains/anko, title="Pleasant Android application development."]
-https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife, title="View injection library for Android."]
-https://github.com/pawegio/KAndroid[pawegio/KAndroid, title="Kotlin library for Android"]
+https://github.com/JetBrains/anko[JetBrains/anko] - Pleasant Android application development.
+https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife] - View injection library for Android.
+https://github.com/pawegio/KAndroid[pawegio/KAndroid] - Kotlin library for Android
 
 === Web
-https://github.com/TinyMission/kara[TinyMission/kara, title="Web framework written in Kotlin"]
+https://github.com/TinyMission/kara[TinyMission/kara] - Web framework written in Kotlin
 
 === Util
-https://github.com/JetBrains/spek[JetBrains/spek, title="A specification framework for Kotlin"]
+https://github.com/JetBrains/spek[JetBrains/spek] - A specification framework for Kotlin
 
 === Misc
-https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin]
-
+https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for Kotlin
 
 == Projects
 
 === Android
-https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin, title="A showcase music app for Android entirely written using Kotlin language"]
-https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example, title="Example of Android project showing integration with Kotlin and Dagger 2"]
+https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin] - A showcase music app for Android entirely written using Kotlin language
+https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example] - Example of Android project showing integration with Kotlin and Dagger 2
 
 === Misc
-https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy, title="Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient"]
+https://github.com/JetBrains/swot[JetBrains/swot] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
+https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient
 
 ''''
 NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
