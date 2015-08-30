@@ -50,6 +50,8 @@ https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql] - NoSQL database
 === Misc
 https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for Kotlin.
 https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar] - Fibers, Channels and Actors for the JVM.
+https://github.com/mplatvoet/kovenant[mplatvoet/kovenant] - Kovenant. Promises for Kotlin.
+https://github.com/klutter/klutter[klutter/klutter] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
 
 == Projects
 
