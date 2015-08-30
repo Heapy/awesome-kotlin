@@ -68,3 +68,5 @@ https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy] - Simple server 
 
 ''''
 NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
+
+image::http://i.creativecommons.org/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
