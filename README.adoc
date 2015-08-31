@@ -28,6 +28,7 @@ _:page_facing_up:_  Apr 02, 2013 http://www.oracle.com/technetwork/articles/java
 _:tv:_              Nov 03, 2014 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL]
 _:page_facing_up:_  Jul 06, 2015 https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language]
 _:page_facing_up:_  Jul 20, 2015 http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3]
+_:page_facing_up:_  Jul 31, 2015 http://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)]
 _:page_facing_up:_  Aug 06, 2015 http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/[Building APIs on the JVM Using Kotlin and Spark – Part 1]
 _:tv:_              Aug 12, 2015 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav]
 _:page_facing_up:_  Aug 26, 2015 https://www.linkedin.com/grp/post/7417237-6042285669181648896[Production Ready Kotlin]
