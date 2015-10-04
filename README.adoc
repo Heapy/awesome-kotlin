@@ -22,6 +22,10 @@ https://www.quora.com/Kotlin?share=1[Quora Kotlin]
 https://github.com/trending?l=kotlin[Trending Kotlin on Github]
 http://antonioleiva.com/[Antonio Leiva - Android and any other monsters]
 
+== Books
+https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova]
+https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva]
+
 == Single Posts
 _:page_facing_up:_  Jan 23, 2013 http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/[The Adventurous Developer’s Guide to JVM languages – Kotlin]
 _:page_facing_up:_  Apr 02, 2013 http://www.oracle.com/technetwork/articles/java/breslav-1932170.html[The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav]
