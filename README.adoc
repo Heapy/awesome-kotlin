@@ -70,6 +70,10 @@ https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-e
 === Web
 https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest] - Basic Spring Boot app in Kotlin.
 
+=== Build tools
+https://github.com/brikk/brikk[brikk/brikk] - NPM-like dependency manager
+https://github.com/cbeust/kobalt[cbeust/kobalt] - Build system inspired by Gradle
+
 === Misc
 https://github.com/JetBrains/swot[JetBrains/swot] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
