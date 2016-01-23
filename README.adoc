@@ -49,6 +49,7 @@ https://github.com/pawegio/KAndroid[pawegio/KAndroid] - Kotlin library for Andro
 https://github.com/TinyMission/kara[TinyMission/kara] - Web framework written in Kotlin.
 https://github.com/jean79/yested[jean79/yested] - A Kotlin framework for building web applications in Javascript.
 https://github.com/hhariri/wasabi[hhariri/wasabi] - An HTTP Framework built with Kotlin for the JVM.
+https://github.com/Kotlin/ktor - Web backend framework for Kotlin
 
 === Util
 https://github.com/JetBrains/spek[JetBrains/spek] - A specification framework for Kotlin.
