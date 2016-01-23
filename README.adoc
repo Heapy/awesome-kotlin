@@ -57,6 +57,11 @@ https://github.com/JetBrains/spek[JetBrains/spek] - A specification framework fo
 === Database
 https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql] - NoSQL database query and access library for Kotlin.
 
+=== JSON
+https://github.com/cbeust/klaxon[cbeust/klaxon] - Lightweight library to parse JSON in Kotlin.
+https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson] - Gson for Kotlin
+https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotlin] - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
+
 === Misc
 https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for Kotlin.
 https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar] - Fibers, Channels and Actors for the JVM.
