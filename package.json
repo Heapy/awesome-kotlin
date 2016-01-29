@@ -1,0 +1,30 @@
+{
+  "name": "awesome-kotlin",
+  "version": "1.0.0",
+  "description": "Awesome list for Kotlin",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "webpack": "^1.12.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaBy/awesome-kotlin.git"
+  },
+  "keywords": [
+    "kotlin"
+  ],
+  "author": "Ibragimov Ruslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaBy/awesome-kotlin/issues"
+  },
+  "homepage": "https://github.com/JavaBy/awesome-kotlin#readme"
+}
