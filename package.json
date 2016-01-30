@@ -8,15 +8,22 @@
     "react-dom": "^0.14.7"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.7.2",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
+    "postcss-loader": "^0.8.0",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

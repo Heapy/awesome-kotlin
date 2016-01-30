@@ -18,15 +18,21 @@ var config = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             loader: 'babel'
+        }, {
+            test: /\.less$/,
+            loader: 'style!css?modules!postcss!less'
         }]
     },
 
+    postcss: [
+        require('autoprefixer')
+    ],
 
     devtool: 'eval-source-map',
 
     plugins: [
         new HtmlWebpackPlugin({
-            template: __dirname + "/app/index.html"
+            template: path.resolve(__dirname, "app/index.html")
         })
     ],
 
