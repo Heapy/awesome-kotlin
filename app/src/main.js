@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './component.jsx';
+import Logo from './logo.jsx';
 import './style.less'
+import 'css!normalize.css'
 
 main();
 
 function main() {
-    ReactDOM.render(<Hello />, document.getElementById('root'));
+    ReactDOM.render(<Logo />, document.getElementById('root'));
 }

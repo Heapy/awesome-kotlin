@@ -21,6 +21,9 @@ var config = {
         }, {
             test: /\.less$/,
             loader: 'style!css?modules!postcss!less'
+        }, {
+            test: /\.(png|jpg|gif|svg)$/,
+            loader: "url?limit=8192"
         }]
     },
 
