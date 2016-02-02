@@ -27,7 +27,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -37,7 +37,7 @@
   "keywords": [
     "kotlin"
   ],
-  "author": "Ibragimov Ruslan",
+  "author": "Ibragimov Ruslan, Labushkina Hanna",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JavaBy/awesome-kotlin/issues"
