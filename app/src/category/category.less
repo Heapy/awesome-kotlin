@@ -1,0 +1,19 @@
+.category {
+  display:block;
+  .generate-columns(6);
+
+  .generate-columns(@n, @i: 0) when (@i =< @n) {
+    @it: @n - @i;
+    &_block@{it} {
+      background:rgba((0 + @i * 20), 128, (255 - @i * 20), .10);
+      }
+    .generate-columns(@n, (@i + 1));
+    }
+
+  &_wrapper {
+    display:block;
+    max-width:1024px;
+    margin:auto;
+    padding:30px 20px;
+    }
+  }

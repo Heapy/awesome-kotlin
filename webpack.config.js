@@ -20,7 +20,7 @@ var config = {
             loader: 'babel'
         }, {
             test: /\.less$/,
-            loader: 'style!css?modules!postcss!less'
+            loader: 'style!css?modules&localIdentName=[name]_[local]!postcss!less'
         }, {
             test: /\.(png|jpg|gif|svg)$/,
             loader: "url?limit=8192"
