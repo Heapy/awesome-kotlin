@@ -1,7 +1,9 @@
 const request = require('request');
+const fs = require('fs');
+
 const getStarCount = repository => {
     var options = {
-        url: `https://api.github.com/repos/JavaBy/awesome-kotlin`,
+        url: `https://api.github.com/repos/${repository}`,
         headers: {
             'User-Agent': 'Awesome-Kotlin-List'
         }
@@ -19,7 +21,7 @@ const getStarCount = repository => {
     });
 };
 
-const data = require('./Kotlin.js')
+const data = require('./Kotlin.js').default;
 const promises = [];
 
 data.forEach(category => {
@@ -34,13 +36,14 @@ data.forEach(category => {
     });
 });
 
-getStarCount('JavaBy/awesome-kotlin').then(data => {
-    console.log(data);
-})
-
-
 Promise.all(promises).then(() => {
-    console.log('done');
+    fs.writeFile("./Kotlin.json", JSON.stringify(data), function(err) {
+        if(err) {
+            return console.log(err);
+        }
+
+        console.log("The file was saved!");
+    });
 }, function(reason) {
-    console.log(reason)
+    console.error(reason)
 });
