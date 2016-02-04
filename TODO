@@ -8,3 +8,6 @@ http://www.pro-react.com/materials/appendixA/
 https://github.com/petehunt/react-webpack-template/blob/master/package.json
 http://flexboxin5.com/
 https://github.com/JavaBy/awesome-kotlin
+
+
+build=1 webpack -p
