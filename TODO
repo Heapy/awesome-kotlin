@@ -1,7 +1,11 @@
-1. Service Worker https://serviceworke.rs/push-simple_demo.html
+1. port all data - stars input manually
+2. enable search
+3. write star automatically counter
+4. Service Worker https://serviceworke.rs/push-simple_demo.html
    | -- Push Notifications about changes
    | -- Offline
-2.
+5. ...
+
 
 
 http://www.pro-react.com/materials/appendixA/
