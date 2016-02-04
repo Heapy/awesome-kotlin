@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+const isBuild = Boolean(process.env.build);
 
 var config = {
     entry: path.resolve(__dirname, 'app/src/main.js'),
@@ -31,8 +32,6 @@ var config = {
         require('autoprefixer')
     ],
 
-    devtool: 'eval-source-map',
-
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, "app/index.html")
@@ -45,5 +44,11 @@ var config = {
         inline: true
     }
 };
+
+if (isBuild) {
+    config.devtool = 'source-map';
+} else {
+    config.devtool = 'eval-source-map';
+}
 
 module.exports = config;
