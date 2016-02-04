@@ -21,6 +21,7 @@
     "less": "^2.6.0",
     "less-loader": "^2.2.2",
     "postcss-loader": "^0.8.0",
+    "request": "^2.69.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.12",

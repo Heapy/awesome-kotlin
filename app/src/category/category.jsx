@@ -8,9 +8,12 @@ export default class Category extends React.Component {
             <section className={`${styles.category} ${styles.category_block1}`}>
                 <div className={styles.category_wrapper}>
                     <h2>{this.props.category.name}</h2>
-                    {this.props.category.subcategories.map((subcategory, i) => {
-                        return <List links={subcategory} key={i}/>;
-                    })}
+                    <hr/>
+                    <div className={styles.category_wrapper_lists}>
+                        {this.props.category.subcategories.map((subcategory, i) => {
+                            return <List links={subcategory} key={i}/>;
+                        })}
+                    </div>
                 </div>
             </section>
         );
