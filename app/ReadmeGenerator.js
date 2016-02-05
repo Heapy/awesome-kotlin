@@ -26,6 +26,8 @@ A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
 
+*Checkout our new site with search and repository stars:* https://javaby.github.io/awesome-kotlin/[https://javaby.github.io/awesome-kotlin/]
+
 ${getLinks()}
 
 ''''
