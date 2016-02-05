@@ -74,6 +74,12 @@ const data = [{
             href: 'https://github.com/JakeWharton/kotterknife',
             type: 'github'
         }, {
+            name: 'nsk-mironov/kotlin-jetpack',
+            desc: 'A collection of useful extension methods for Android.',
+            href: 'https://github.com/nsk-mironov/kotlin-jetpack',
+            type: 'github',
+            tags: ['android', 'bindings']
+        }, {
             name: 'pawegio/KAndroid',
             desc: 'Kotlin library for Android',
             href: 'https://github.com/pawegio/KAndroid',
