@@ -6,6 +6,10 @@ const getStarCount = repository => {
         url: `https://api.github.com/repos/${repository}`,
         headers: {
             'User-Agent': 'Awesome-Kotlin-List'
+        },
+        'auth': {
+            'user': 'IRus',
+            'pass': 'https://github.com/settings/tokens'
         }
     };
 
@@ -15,7 +19,12 @@ const getStarCount = repository => {
                 var info = JSON.parse(body);
                 resolve(info.stargazers_count);
             } else {
-                reject(error);
+                reject({
+                    repository: repository,
+                    error: error,
+                    status: response.statusCode,
+                    body: body
+                });
             }
         });
     });
@@ -37,13 +46,13 @@ data.forEach(category => {
 });
 
 Promise.all(promises).then(() => {
-    fs.writeFile("./Kotlin.json", JSON.stringify(data), function(err) {
-        if(err) {
-            return console.log(err);
+    fs.writeFile("./Kotlin.json", JSON.stringify(data), error => {
+        if (error) {
+            console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
         }
 
         console.log("The file was saved!");
     });
-}, function(reason) {
-    console.error(reason)
+}, reason => {
+    console.error(`Error while stars getting ${JSON.stringify(reason)}`);
 });
