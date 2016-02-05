@@ -1,0 +1,52 @@
+{
+  "name": "awesome-kotlin",
+  "version": "1.0.0",
+  "description": "Awesome list for Kotlin",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^3.0.3",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^2.7.2",
+    "json-loader": "^0.5.4",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
+    "postcss-loader": "^0.8.0",
+    "request": "^2.69.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stars": "node ./app/Stars.js",
+    "readme": "node ./app/ReadmeGenerator.js",
+    "build": "npm run stars && npm run readme && build=1 webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaBy/awesome-kotlin.git"
+  },
+  "keywords": [
+    "kotlin"
+  ],
+  "author": "Ibragimov Ruslan, Labushkina Hanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaBy/awesome-kotlin/issues"
+  },
+  "homepage": "https://github.com/JavaBy/awesome-kotlin#readme"
+}
