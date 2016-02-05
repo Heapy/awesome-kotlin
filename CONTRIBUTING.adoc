@@ -1,0 +1,12 @@
+= Contribution Guidelines
+
+
+== Adding to this list
+
+For now building of readme and html not fully automated, so if you won't read README.dev, setup node/npm/webpack feel
+free to just create issue with your link, we will do this job for you.
+
+For now any link to repository that contains > 20 stars will be 100% approved. Other links will be check for their
+value for Kotlin.
+
+*Happy contributing!*
