@@ -1,0 +1,10 @@
+npm run stars - generate Kotlin.json from Kotlin.js with starts
+npm run readme - generate README.adoc from Kotlin.js
+npm run build - contains starts and readme tasks, and generates index.html and bundle.js in dist folder
+
+
+TODO:
+
+Service Worker https://serviceworke.rs/push-simple_demo.html
+   | -- Push Notifications about changes
+   | -- Offline

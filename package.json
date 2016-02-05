@@ -29,8 +29,12 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stars": "node ./app/Stars.js",
+    "readme": "node ./app/ReadmeGenerator.js",
+    "build": "npm run stars && npm run readme && build=1 webpack -p"
   },
   "repository": {
     "type": "git",

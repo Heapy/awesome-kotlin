@@ -46,7 +46,7 @@ data.forEach(category => {
 });
 
 Promise.all(promises).then(() => {
-    fs.writeFile("./Kotlin.json", JSON.stringify(data), error => {
+    fs.writeFile("./app/Kotlin.json", JSON.stringify(data), error => {
         if (error) {
             console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
         }
