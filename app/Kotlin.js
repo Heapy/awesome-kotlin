@@ -25,7 +25,7 @@ const data = [{
             href: 'https://github.com/jetbrains/kotlin'
         }, {
             name: 'Twitter',
-            href: 'https://twitter.com/project_kotlin'
+            href: 'https://twitter.com/kotlin'
         }]
     }, {
         name: "Resources",
@@ -251,6 +251,12 @@ const data = [{
             desc: 'Basic Spring Boot app in Kotlin.',
             href: 'https://github.com/ssoudan/ktSpringTest',
             type: 'github'
+        }, {
+            name: 'IRus/kotlin-dev-proxy',
+            desc: 'Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.',
+            href: 'https://github.com/IRus/kotlin-dev-proxy',
+            type: 'github',
+            tags: ['tags', 'rest', 'web']
         }]
     }, {
         name: "Build tools",
@@ -258,11 +264,6 @@ const data = [{
             name: 'cbeust/kobalt',
             desc: 'Build system inspired by Gradle.',
             href: 'https://github.com/cbeust/kobalt',
-            type: 'github'
-        }, {
-            name: 'IRus/kotlin-dev-proxy',
-            desc: 'Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.',
-            href: 'https://github.com/IRus/kotlin-dev-proxy',
             type: 'github'
         }]
     }, {
