@@ -1,6 +1,7 @@
 
 = Awesome Kotlin
 :hardbreaks:
+:toc:
 
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
@@ -17,7 +18,7 @@ http://try.kotlinlang.org/[Try Kotlin!]
 http://blog.jetbrains.com/kotlin/[Blog] 
 http://youtrack.jetbrains.com/issues/KT[Issue Tracker] 
 https://github.com/jetbrains/kotlin[Kotlin Repository] 
-https://twitter.com/project_kotlin[Twitter] 
+https://twitter.com/kotlin[Twitter] 
 
 === Resources
 https://www.reddit.com/r/Kotlin/[/r/Kotlin] 
@@ -85,10 +86,10 @@ https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-e
 
 === Web
 https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest] - Basic Spring Boot app in Kotlin.
+https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 
 === Build tools
 https://github.com/cbeust/kobalt[cbeust/kobalt] - Build system inspired by Gradle.
-https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 
 === Examples
 https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
