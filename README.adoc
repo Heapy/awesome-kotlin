@@ -1,6 +1,8 @@
 
 = Awesome Kotlin
 :hardbreaks:
+:toc:
+:toc-placement!:
 
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
@@ -8,29 +10,7 @@ image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e
 
 *Checkout our new site with search and repository stars:* https://javaby.github.io/awesome-kotlin/[https://javaby.github.io/awesome-kotlin/]
 
-. <<Links>>
-.. <<Official Links>>
-.. <<Resources>>
-.. <<Books>>
-. <<Libraries/Frameworks>>
-.. <<Android>>
-.. <<Web>>
-.. <<Tests>>
-.. <<Dependency Injection>>
-.. <<Functional Programming>>
-.. <<JSON>>
-.. <<Database>>
-.. <<Tools>>
-.. <<Misc>>
-. <<Projects>>
-.. <<Android>>
-.. <<Web>>
-.. <<Build tools>>
-.. <<Examples>>
-. <<Articles, Videos, Blog Posts>>
-.. <<Posts>>
-.. <<Videos>>
-.. <<Webinars>>
+toc::[]
 
 == Links
 === Official Links
