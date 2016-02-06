@@ -1,7 +1,8 @@
 
 = Awesome Kotlin
 :hardbreaks:
-:toc:
+
+toc::[]
 
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
