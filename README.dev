@@ -1,6 +1,8 @@
-npm run stars - generate Kotlin.json from Kotlin.js with starts
+npm start      - run dev server
+npm run stars  - generate Kotlin.json from Kotlin.js with starts
 npm run readme - generate README.adoc from Kotlin.js
-npm run build - contains starts and readme tasks, and generates index.html and bundle.js in dist folder
+npm run pack   - build project and put builded project in dist folder
+npm run build  - contains stars, readme and pack tasks
 
 
 TODO:

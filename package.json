@@ -29,12 +29,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "prestart": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "stars": "node ./app/Stars.js",
     "readme": "node ./app/ReadmeGenerator.js",
-    "build": "npm run stars && npm run readme && build=1 webpack -p"
+    "pack": "build=1 node node_modules/webpack/bin/webpack.js -p",
+    "build": "npm run stars && npm run readme && npm run pack"
   },
   "repository": {
     "type": "git",
