@@ -57,6 +57,7 @@ https://github.com/JetBrains/spek[JetBrains/spek^] - A specification framework f
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
+https://github.com/kohesive/injekt[kohesive/injekt^] - kohesive/injekt.
 
 === Functional Programming
 https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
@@ -74,6 +75,9 @@ https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides 
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
 https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
+
+=== Desktop
+https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
 
 === Misc
 https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
@@ -107,7 +111,8 @@ https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSamp
 http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html[Exploring the Kotlin Standard Library^] - Jan 22, 2013
 http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/[The Adventurous Developer’s Guide to JVM languages – Kotlin^] - Jan 23, 2013
 http://www.oracle.com/technetwork/articles/java/breslav-1932170.html[The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav^] - Apr 02, 2013
-undefined[Non-trivial constructors in Kotlin^] - Dec 1, 2014
+http://alexshabanov.com/category/languages/kotlin/[Non-trivial constructors in Kotlin^] - Dec 01, 2014
+http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/[Quasar and Kotlin – a Powerful Match^] - Jun 04, 2015
 https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language^] - Jul 06, 2015
 http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3^] - Jul 20, 2015
 http://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)^] - Jul 31, 2015
@@ -116,6 +121,7 @@ https://www.linkedin.com/grp/post/7417237-6042285669181648896[Production Ready K
 https://realm.io/news/droidcon-michael-pardo-kotlin/[Kotlin: New Hope in a Java 6 Wasteland^] - Aug 27, 2015
 https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP^] - Sep 18, 2015
 http://kotlin4android.com/[Blog about Kotlin language and Android development.^] - Oct 21, 2015
+https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
 https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.^] - Jan 16, 2016
 
 === Videos

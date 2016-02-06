@@ -212,6 +212,15 @@ const data = [{
             type: 'github'
         }]
     }, {
+        name: "Desktop",
+        links: [{
+            name: 'edvin/tornadofx',
+            desc: 'Lightweight JavaFX Framework for Kotlin/',
+            href: 'https://github.com/edvin/tornadofx',
+            type: 'github',
+            tags: ['javafx', 'desktop', 'application']
+        }]
+    }, {
         name: "Misc",
         links: [{
             name: 'Kotlin/kotlinx.reflect.lite',
@@ -325,8 +334,14 @@ const data = [{
             href: 'http://www.oracle.com/technetwork/articles/java/breslav-1932170.html'
         }, {
             name: 'Non-trivial constructors in Kotlin',
-            desc: 'Dec 1, 2014',
+            desc: 'Dec 01, 2014',
             href: 'http://alexshabanov.com/category/languages/kotlin/'
+        }, {
+            name: 'Quasar and Kotlin – a Powerful Match',
+            desc: 'Jun 04, 2015',
+            href: 'http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/',
+            type: 'post',
+            tags: ['quasar', 'fibers']
         }, {
             name: 'Why Kotlin is my next programming language',
             desc: 'Jul 06, 2015',
@@ -362,6 +377,12 @@ const data = [{
             href: 'http://kotlin4android.com/',
             type: 'blog',
             tags: ['android']
+        }, {
+            name: 'Playing with Spring Boot, Vaadin and Kotlin.',
+            desc: 'Jan 10, 2016',
+            href: 'https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin',
+            type: 'post',
+            tags: ['vaadin', 'spring', 'web']
         }, {
             name: 'Mimicking Kotlin Builders in Java and Python.',
             desc: 'Jan 16, 2016',
