@@ -22,6 +22,7 @@ const template = `
 = Awesome Kotlin
 :hardbreaks:
 :toc:
+:toc-placement!:
 
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
