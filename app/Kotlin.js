@@ -291,7 +291,7 @@ const data = [{
             type: 'github',
             tags: ['ratpack']
         }, {
-            name: 'wangjiegulu/KotlinAndroidSample',
+            name: 'wangjiegulu/ KotlinAndroidSample',
             desc: 'Android sample with kotlin.',
             href: 'https://github.com/wangjiegulu/KotlinAndroidSample',
             type: 'github',

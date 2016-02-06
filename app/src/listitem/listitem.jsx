@@ -6,10 +6,10 @@ export default class Listitem extends React.Component {
         if (this.props.link.star) {
             return (
                 <span className={styles.listitem_star}>
+                    <span className={styles.listitem_star_count}>{this.props.link.star}</span>
                     <img src={require("./star.svg")}
                          alt="Star"
                          className={styles.listitem_star_icon}/>
-                    <span>{this.props.link.star}</span>
                 </span>
             )
         }
@@ -18,8 +18,8 @@ export default class Listitem extends React.Component {
     render() {
         return (
             <li className={styles.listitem}>
-                <a href={this.props.link.href} className={styles.listitem_link}>{this.props.link.name}</a>
-                {this.getStars()}
+              {this.getStars()}
+                <a href={this.props.link.href} target="_blank" className={styles.listitem_link}>{this.props.link.name}</a>
                 <p className={styles.listitem_description}>{this.props.link.desc}</p>
             </li>
         );

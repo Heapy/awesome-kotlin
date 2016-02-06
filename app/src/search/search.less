@@ -1,6 +1,8 @@
 .search {
+  @import "../vars";
+
   display: block;
-  background: rgba(255,255,255,.8);
+  background:rgba(242, 242, 242, 0.7);
 
   * {
     box-sizing: border-box;
@@ -20,7 +22,7 @@
     background: #fff url('../search/search.svg') 98.8% 13px no-repeat;
     background-size: 26px 26px;
     padding: 10px 40px 10px 15px;
-    outline-color: #F58A1F;
+    outline-color: @accent;
     color: #3C4E67;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;

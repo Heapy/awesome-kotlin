@@ -58,7 +58,7 @@ export default class Page extends React.Component {
                 <Head />
                 <Search onChange={this.onSearchValueChanged.bind(this)}  />
                 {this.state.data.map((category, i) => {
-                    return <Category category={category} key={i}/>;
+                    return <Category category={category} number={i} key={i}/>;
                 })}
             </div>
         );

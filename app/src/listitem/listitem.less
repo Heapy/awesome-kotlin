@@ -1,16 +1,51 @@
-.listitem {
+@import "../vars";
 
-  &_star_icon {
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
-    display: inline-block;
-    color: #000000;
+.listitem {
+  padding:10px 5px;
+
+  &_link {
+    display:block;
+
+    text-decoration:none;
+    color:darken(@blue, 15%);
+    &:hover {
+      color:@dark-blue;
+      }
     }
 
   &_description {
-    color: #808080;
-    font-size: 0.9em;
+    margin:0;
+
+    font-size:14px;
+    color: @gray;
+    &:empty {
+      display:none;
+      }
     }
 
+  &_star {
+    float:right;
+
+    + .listitem_link {
+      padding-right:60px;
+      }
+
+    &_icon {
+      display:inline-block;
+      vertical-align:top;
+      width: 20px;
+      height: 20px;
+
+      background-size: 20px 20px;
+      color: @light-blue;
+      }
+    &_count {
+      display:inline-block;
+      vertical-align:top;
+
+      color:darken(@blue, 15%);
+      font-size:14px;
+      line-height:20px;
+      }
+    }
   }
