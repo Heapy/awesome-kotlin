@@ -119,6 +119,12 @@ const data = [{
             href: 'https://github.com/Kotlin/kotlinx.html',
             type: 'github',
             tags: ['html']
+        }, {
+            name: 'MarioAriasC/KotlinPrimavera',
+            desc: 'Spring support libraries for Kotlin.',
+            href: 'https://github.com/MarioAriasC/KotlinPrimavera',
+            type: 'github',
+            tags: ['spring']
         }]
     }, {
         name: "Tests",
@@ -137,22 +143,40 @@ const data = [{
             type: 'github'
         }]
     }, {
+        name: "Functional Programming",
+        links: [{
+            name: 'MarioAriasC/funKTionale',
+            desc: 'Functional constructs for Kotlin.',
+            href: 'https://github.com/MarioAriasC/funKTionale',
+            type: 'github',
+            tags: ['fp', 'functional']
+        }, {
+            name: 'ReactiveX/RxKotlin',
+            desc: 'RxJava bindings for Kotlin.',
+            href: 'https://github.com/ReactiveX/RxKotlin',
+            type: 'github',
+            tags: ['fp', 'functional']
+        }]
+    }, {
         name: "JSON",
         links: [{
             name: 'cbeust/klaxon',
             desc: 'Lightweight library to parse JSON in Kotlin.',
             href: 'https://github.com/cbeust/klaxon',
-            type: 'github'
+            type: 'github',
+            tags: ['json']
         }, {
             name: 'SalomonBrys/Kotson',
             desc: 'Gson for Kotlin.',
             href: 'https://github.com/SalomonBrys/Kotson',
-            type: 'github'
+            type: 'github',
+            tags: ['json']
         }, {
             name: 'FasterXML/jackson-module-kotlin',
             desc: 'Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.',
             href: 'https://github.com/FasterXML/jackson-module-kotlin',
-            type: 'github'
+            type: 'github',
+            tags: ['json', 'jakson']
         }]
     }, {
         name: "Database",
@@ -188,11 +212,6 @@ const data = [{
             href: 'https://github.com/Kotlin/kotlinx.reflect.lite',
             type: 'github',
             tags: ['reflection']
-        }, {
-            name: 'ReactiveX/RxKotlin',
-            desc: 'RxJava bindings for Kotlin.',
-            href: 'https://github.com/ReactiveX/RxKotlin',
-            type: 'github'
         }, {
             name: 'puniverse/quasar',
             desc: 'Fibers, Channels and Actors for the JVM.',
@@ -343,7 +362,7 @@ const data = [{
             tags: ['builders']
         }]
     }, {
-        name: "Youtube",
+        name: "Videos",
         links: [{
             name: 'JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav',
             desc: 'Aug 12, 2015',
@@ -365,6 +384,21 @@ const data = [{
             href: 'https://www.youtube.com/watch?v=80xgl3KThvM',
             type: 'youtube',
             tags: ['nosql', 'database', 'mondodb']
+        }]
+    }, {
+        name: "Webinars",
+        links: [{
+            name: 'Functional Programming with Kotlin ',
+            desc: 'Nov 5, 2015',
+            href: 'http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/',
+            type: 'webinar',
+            tags: ['functional', 'webinar']
+        }, {
+            name: 'Quasar: Efficient and Elegant Fibers, Channels and Actors',
+            desc: 'Sep 22, 2015',
+            href: 'http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/',
+            type: 'webinar',
+            tags: ['webinar', 'fibers', 'channels', 'actors']
         }]
     }]
 }];

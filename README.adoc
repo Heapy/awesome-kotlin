@@ -46,12 +46,17 @@ https://github.com/TinyMission/kara[TinyMission/kara] - Web framework written in
 https://github.com/jean79/yested[jean79/yested] - A Kotlin framework for building web applications in Javascript.
 https://github.com/hhariri/wasabi[hhariri/wasabi] - An HTTP Framework built with Kotlin for the JVM.
 https://github.com/Kotlin/kotlinx.html[Kotlin/kotlinx.html] - Kotlin DSL for HTML.
+https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera] - Spring support libraries for Kotlin.
 
 === Tests
 https://github.com/JetBrains/spek[JetBrains/spek] - A specification framework for Kotlin.
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein] - Painless Kotlin Dependency Injection .
+
+=== Functional Programming
+https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale] - Functional constructs for Kotlin.
+https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for Kotlin.
 
 === JSON
 https://github.com/cbeust/klaxon[cbeust/klaxon] - Lightweight library to parse JSON in Kotlin.
@@ -68,7 +73,6 @@ https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders] - KBuilders turns 
 
 === Misc
 https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
-https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin] - RxJava bindings for Kotlin.
 https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar] - Fibers, Channels and Actors for the JVM.
 https://github.com/mplatvoet/kovenant[mplatvoet/kovenant] - Kovenant. Promises for Kotlin.
 https://github.com/klutter/klutter[klutter/klutter] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
@@ -110,11 +114,15 @@ https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP] - Sep 18, 2
 http://kotlin4android.com/[Blog about Kotlin language and Android development.] - Oct 21, 2015
 https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.] - Jan 16, 2016
 
-=== Youtube
+=== Videos
 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav] - Aug 12, 2015
 https://www.youtube.com/watch?v=vmjfIRsawlg[vJUG: Kotlin for Java developers.] - Dec 11, 2014
 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL] - Nov 03, 2014
 https://www.youtube.com/watch?v=80xgl3KThvM[Kotlin NoSQL for MongoDB in Action.] - Oct 22, 2014
+
+=== Webinars
+http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/[Functional Programming with Kotlin ] - Nov 5, 2015
+http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/[Quasar: Efficient and Elegant Fibers, Channels and Actors] - Sep 22, 2015
 
 
 
