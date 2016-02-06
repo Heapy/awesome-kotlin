@@ -1,19 +1,36 @@
 .category {
-  display: block;
+  @import "../vars";
+  // уговорил, захардкодила. Надеюсь, это сделало тебя немного счастливее)
+  &:nth-child(2n) {
+    background:white;
+    }
+  &:nth-child(2n+1) {
+    background:rgba(255, 255, 255, .6);
+    }
 
+  display: block;
+  border-bottom: 1px solid rgba(204, 204, 204, .2);
+  border-top: 1px solid white;
+
+  &_title {
+    position: relative;
+    overflow: hidden;
+
+    color: darken(@blue, 15%);
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform:uppercase;
+    font-size:30px;
+  }
   &_wrapper {
     display: block;
     max-width: 1024px;
     margin: auto;
     padding: 30px 20px;
+    overflow:hidden;
 
     &_lists {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-content: flex-start;
-      align-items: flex-start;
+
       }
     }
   }
