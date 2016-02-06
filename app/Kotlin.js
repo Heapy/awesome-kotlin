@@ -140,7 +140,14 @@ const data = [{
             name: 'SalomonBrys/Kodein',
             desc: 'Painless Kotlin Dependency Injection .',
             href: 'https://github.com/SalomonBrys/Kodein',
-            type: 'github'
+            type: 'github',
+            tags: ['di', 'dependency injection']
+        }, {
+            name: 'kohesive/injekt',
+            desc: 'kohesive/injekt.',
+            href: 'https://github.com/kohesive/injekt',
+            type: 'github',
+            tags: ['di', 'dependency injection']
         }]
     }, {
         name: "Functional Programming",
@@ -319,7 +326,7 @@ const data = [{
         }, {
             name: 'Non-trivial constructors in Kotlin',
             desc: 'Dec 1, 2014',
-            hred: 'http://alexshabanov.com/category/languages/kotlin/'
+            href: 'http://alexshabanov.com/category/languages/kotlin/'
         }, {
             name: 'Why Kotlin is my next programming language',
             desc: 'Jul 06, 2015',
@@ -393,7 +400,7 @@ const data = [{
             desc: 'Nov 5, 2015',
             href: 'http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/',
             type: 'webinar',
-            tags: ['functional', 'webinar']
+            tags: ['fp', 'functional', 'webinar']
         }, {
             name: 'Quasar: Efficient and Elegant Fibers, Channels and Actors',
             desc: 'Sep 22, 2015',
