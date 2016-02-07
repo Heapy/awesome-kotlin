@@ -1,160 +1,36 @@
-- name: Spek
-  description: A Specification Framework
-  type: Library
-  link: https://github.com/JetBrains/spek
-
-- name: Wasabi
-  description: An HTTP Framework
-  type: Framework
-  link: https://github.com/hhariri/wasabi
-
-- name: Kara
-  description: An MVC Framework
-  type: Framework
-  link: http://www.karaframework.com
-
-- name: Humanizer for JVM
-  description: Humanizer Library
-  type: Library
-  link: https://github.com/MehdiK/Humanizer.jvm
-
-- name: Kotlin-NoSQL
-  description: NoSQL MongoDB access for Kotlin
-  type: Library
-  link: https://github.com/cheptsov/kotlin-nosql
-
-- name: FunKtionale
-  description: Functional Helpers for Kotlin
-  type: Library
-  link: https://github.com/MarioAriasC/funKTionale
-
-- name: KotlinPrimavera
-  description: Kotlin Wrapper for Spring Framework
-  type: Library
-  link: https://github.com/MarioAriasC/KotlinPrimavera
-
-- name: Sublime Package
-  description: A Sublime Package for Kotlin
-  type: Tools
-  link: https://github.com/vkostyukov/kotlin-sublime-package
-
-- name: Kotlin Vim
-  description: Kotlin Syntax Highlighter for Vim
-  type: Tools
-  link: https://github.com/udalov/kotlin-vim
-
-- name: Griffon Plugin
-  description: Griffon Support
-  type: Tools
-  link: https://github.com/griffon/griffon-kotlin-plugin
-
 - name: Android Rivers
   description: RSS Readers for Android
   type: Android App
   link: https://github.com/dodyg/AndroidRivers
-
-- name: RxKotlin
-  description: Kotlin Bindings for RxJava
-  type: Library
-  link: https://github.com/ReactiveX/RxKotlin
 
 - name: Solr-Undertow
   description: Solr Standalone Tiny and High performant server
   type: Application
   link: https://github.com/bremeld/solr-undertow
 
-- name: Yested
-  description: A Web Framework
-  type: Framework
-  link: http://www.yested.net
-
 - name: Kotlin-Hashids
   description: Library that generates short, unique, non-sequential hashes from numbers.
   type: Library
   link: http://hashids.org/kotlin/
-
-- name: Android Kotlin Extensions
-  description: A collection of Android Kotlin extensions
-  type: Library
-  link: https://github.com/ragunathjawahar/android-kotlin-extensions
-
-- name: KAndroid
-  description: Kotlin library for Android
-  type: Library
-  link: https://github.com/pawegio/KAndroid
-
-- name: Kovenant
-  description: Promises for Kotlin and Android
-  type: Library
-  link: https://github.com/mplatvoet/kovenant
 
 - name: Progress
   description: Simple Progress tracking
   type: Library
   link: https://github.com/mplatvoet/progress
 
-- name: Injekt
-  description: Dependency Injection / Object Factory for Kotlin
-  type: Library
-  link: https://github.com/kohesive/injekt
-
-- name: Fuel
-  description: HTTP Client library written in Kotlin
-  type: Library
-  link: https://github.com/kittinunf/Fuel
-
-- name: Klutter
-  description: Small helper libraries for Kotlin, usually extensions to other libraries
-  type: Library
-  link: https://github.com/klutter/klutter
-
-- name: Kodein
-  description: Painless Kotlin Dependency Injection
-  type: Library
-  link: https://github.com/SalomonBrys/Kodein
-
-- name: Kovert
-  description: An invisible REST framework for Kotlin
-  type: Library
-  link: https://github.com/kohesive/kovert
-
-- name: khttp
-  description: HTTP client similar to Python's requests.
-  type: Library
-  link: https://github.com/jkcclemens/khttp
-
 http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
 
 ## Libraries
 - [Koi](https://github.com/mcxiaoke/kotlin-koi) - A lightweight kotlin library for Android, including many useful extensions, async functions and quick adapter.
-- [Wasabi](https://github.com/hhariri/wasabi) - An HTTP Framework
-- [Kara Web Framework](https://github.com/TinyMission/kara) - Kara is a web framework for the JVM written in Kotlin.
-- [Kovenant](https://github.com/mplatvoet/kovenant) - Promises for Kotlin
-- [KAndroid](https://github.com/pawegio/KAndroid) - Kotlin library for Android providing useful extensions to eliminate boilerplate code
-- [Fuel](https://github.com/kittinunf/Fuel) - The easiest HTTP networking library for Kotlin/Android.
-- [funKTionale](https://github.com/MarioAriasC/funKTionale) - Functional constructs and patterns for Kotlin
-- [Kotson](https://github.com/SalomonBrys/Kotson) - Gson for Kotlin, Kotson enables you to parse and write JSON with Google's Gson using a conciser and easier syntax.
 - [Kwery](https://github.com/andrewoma/kwery) - Kwery is an SQL library for Kotlin.
-- [Kotlin NoSQL](https://github.com/cheptsov/kotlin-nosql) - Kotlin NoSQL is a reactive and type-safe DSL for working with NoSQL databases.
 - [Exposed](https://github.com/JetBrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
-- [Klaxon](https://github.com/cbeust/klaxon) - Klaxon is a lightweight library to parse JSON in Kotlin.
 - [KBinding](https://github.com/BennyWang/KBinding) - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
-- [jackson-module-kotlin](https://github.com/FasterXML/jackson-module-kotlin) - Module that adds support for serialization/deserialization of Kotlin classes and data classes.
-- [Kodein](https://github.com/SalomonBrys/Kodein) - Kodein: Kotlin Dependency Injection
-- [KBuilders](https://github.com/Levelmoney/kbuilders) - KBuilders turns your Java builders into beautiful Type-Safe Builders.
-- [Tornado FX](https://github.com/edvin/tornadofx) - A New JavaFX App Framework for Kotlin.
-- [Spek](http://jetbrains.github.io/spek) - A Specification Framework for Kotlin
-- [Klutter](https://github.com/kohesive/klutter) - Library of many small useful things
-- [Kovert](https://github.com/kohesive/kovert) - an invisible, super easy and powerful REST and Web framework overt Vert.x or Undertow
-- [Injekt](https://github.com/kohesive/injekt) - native Kotlin dependency injection (object registry style)
 - [Solr-Undertow](https://github.com/kohesive/solr-undertow) - standalone high perforamnce, simple Solr server. Embeddeable as a library.
 
 ## Samples
 - [kotlin-examples](https://github.com/JetBrains/kotlin-examples)
-- [Bandhook-Kotlin](https://github.com/antoniolg/Bandhook-Kotlin)
 - [AndroidRivers](https://github.com/dodyg/AndroidRivers)
 - [Kotlin for Android Developers](https://github.com/antoniolg/Kotlin-for-Android-Developers)
-- [kotlin-dagger-example](https://github.com/damianpetla/kotlin-dagger-example)
 - [Kotlin101](https://github.com/dodyg/Kotlin101)
 - [kotlin_android_base_framework](https://github.com/nekocode/kotlin_android_base_framework)
 
@@ -195,8 +71,6 @@ http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
 ## Tools
 - [IntelliJ IDEA 15](https://www.jetbrains.com/idea/download/) - The best Kotlin IDE, support Java, Groovy, Scala and Android development.
 - [dokka](https://github.com/Kotlin/dokka) - Dokka is a documentation engine for Kotlin, performing the same function as javadoc for Java.
-- [kotlin-vim](https://github.com/udalov/kotlin-vim) - Kotlin plugin for Vim. Featuring syntax highlighting and basic indentation
-- [kotlin-sublime-package](https://github.com/vkostyukov/kotlin-sublime-package) - Sublime Text 2 Package for Kotlin Programming Language
 - [language-kotlin](https://atom.io/packages/language-kotlin) - Kotlin language support in Atom
 - [kotlin-plugin-eclipse](https://marketplace.eclipse.org/content/kotlin-plugin-eclipse) - The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.
 - [android-parcelable-intellij-plugin-kotlin](https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin) - Plugin which generates Android Parcelable boilerplate code in Intellji/Android Studio.

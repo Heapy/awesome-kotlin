@@ -88,7 +88,7 @@ const data = [{
             tags: ['android', 'bindings']
         }, {
             name: 'pawegio/KAndroid',
-            desc: 'Kotlin library for Android',
+            desc: 'Kotlin library for Android providing useful extensions to eliminate boilerplate code.',
             href: 'https://github.com/pawegio/KAndroid',
             type: 'github',
             tags: ['android']
@@ -102,6 +102,12 @@ const data = [{
             name: 'TouK/bubble',
             desc: 'Library for obtaining screen orientation when orientation is blocked in AndroidManifest.',
             href: 'https://github.com/TouK/bubble',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'ragunathjawahar/kaffeine',
+            desc: 'Kaffeine is a Kotlin-flavored Android library for accelerating development.',
+            href: 'https://github.com/ragunathjawahar/kaffeine',
             type: 'github',
             tags: ['android']
         }]
@@ -139,6 +145,12 @@ const data = [{
             href: 'https://github.com/MarioAriasC/KotlinPrimavera',
             type: 'github',
             tags: ['spring']
+        }, {
+            name: 'kohesive/kovert',
+            desc: 'An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.',
+            href: 'https://github.com/kohesive/kovert',
+            type: 'github',
+            tags: ['web', 'http', 'rest', 'vert.x', 'undertow']
         }]
     }, {
         name: "Tests",
@@ -164,7 +176,7 @@ const data = [{
             tags: ['di', 'dependency injection']
         }, {
             name: 'kohesive/injekt',
-            desc: 'kohesive/injekt.',
+            desc: 'Dependency Injection / Object Factory for Kotlin',
             href: 'https://github.com/kohesive/injekt',
             type: 'github',
             tags: ['di', 'dependency injection']
@@ -184,7 +196,7 @@ const data = [{
             type: 'github',
             tags: ['fp', 'functional']
         }, {
-            name: 'https://github.com/kittinunf/Result',
+            name: 'kittinunf/Result',
             desc: 'The modelling for success/failure of operations in Kotlin.',
             href: 'https://github.com/kittinunf/Result',
             type: 'github',
@@ -200,7 +212,7 @@ const data = [{
             tags: ['json']
         }, {
             name: 'SalomonBrys/Kotson',
-            desc: 'Gson for Kotlin.',
+            desc: 'Gson for Kotlin, Kotson enables you to parse and write JSON with Google\'s Gson using a conciser and easier syntax.',
             href: 'https://github.com/SalomonBrys/Kotson',
             type: 'github',
             tags: ['json']
@@ -248,6 +260,18 @@ const data = [{
             desc: 'KBuilders turns your Java builders into beautiful Type-Safe Builders.',
             href: 'https://github.com/Levelmoney/kbuilders',
             type: 'github'
+        }, {
+            name: 'vkostyukov/kotlin-sublime-package',
+            desc: 'A Sublime Package for Kotlin.',
+            href: 'https://github.com/vkostyukov/kotlin-sublime-package',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'udalov/kotlin-vim',
+            desc: 'Kotlin Syntax Highlighter for Vim.',
+            href: 'https://github.com/udalov/kotlin-vim',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
         }]
     }, {
         name: "Desktop",
@@ -257,6 +281,27 @@ const data = [{
             href: 'https://github.com/edvin/tornadofx',
             type: 'github',
             tags: ['javafx', 'desktop', 'application']
+        }, {
+            name: 'griffon/griffon-kotlin-plugin',
+            desc: 'Griffon Support',
+            href: 'https://github.com/griffon/griffon-kotlin-plugin',
+            type: 'github',
+            tags: ['griffon']
+        }]
+    }, {
+        name: 'Http Clients',
+        links: [{
+            name: 'kittinunf/Fuel',
+            desc: 'The easiest HTTP networking library for Kotlin/Android.',
+            href: 'https://github.com/kittinunf/Fuel',
+            type: 'github',
+            tags: ['http', 'http client', 'file upload']
+        }, {
+            name: 'jkcclemens/khttp',
+            desc: 'Kotlin HTTP requests library.',
+            href: 'https://github.com/jkcclemens/khttp',
+            type: 'github',
+            tags: ['http', 'http client']
         }]
     }, {
         name: "Misc",
@@ -272,10 +317,17 @@ const data = [{
             href: 'https://github.com/puniverse/quasar/tree/master/quasar-kotlin',
             type: 'github'
         }, {
+            name: 'MehdiK/Humanizer.jvm',
+            desc: 'Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.',
+            href: 'https://github.com/MehdiK/Humanizer.jvm',
+            type: 'github',
+            tags: ['pluralization']
+        }, {
             name: 'mplatvoet/kovenant',
-            desc: 'Kovenant. Promises for Kotlin.',
+            desc: 'Promises for Kotlin and Android',
             href: 'https://github.com/mplatvoet/kovenant',
-            type: 'github'
+            type: 'github',
+            tags: ['promise', 'android']
         }, {
             name: 'klutter/klutter',
             desc: 'A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.',

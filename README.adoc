@@ -14,6 +14,7 @@ toc::[]
 
 == Links
 === Official Links
+https://github.com/JetBrains/kotlin[JetBrains/kotlin^] 
 http://kotlinlang.org/[Home Page^] 
 http://kotlinlang.org/docs/reference/[Language Reference^] 
 http://kotlinslackin.herokuapp.com/[Slack (1400+ users)^] 
@@ -43,6 +44,7 @@ https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View inje
 https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
 https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android
 https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
+https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
 
 === Web
 https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
@@ -54,6 +56,7 @@ https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - S
 
 === Tests
 https://github.com/JetBrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
+https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
@@ -62,15 +65,18 @@ https://github.com/kohesive/injekt[kohesive/injekt^] - kohesive/injekt.
 === Functional Programming
 https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
 https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin^] - RxJava bindings for Kotlin.
+https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
 
 === JSON
 https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
 https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson^] - Gson for Kotlin.
 https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotlin^] - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
+https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 
 === Database
 https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
 https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
 
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
