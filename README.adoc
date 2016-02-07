@@ -42,9 +42,10 @@ https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers 
 https://github.com/JetBrains/anko[JetBrains/anko^] - Pleasant Android application development.
 https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
 https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
-https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android
+https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.
 https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
 https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
+https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
 
 === Web
 https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
@@ -53,6 +54,7 @@ https://github.com/jean79/yested[jean79/yested^] - A Kotlin framework for buildi
 https://github.com/hhariri/wasabi[hhariri/wasabi^] - An HTTP Framework built with Kotlin for the JVM.
 https://github.com/Kotlin/kotlinx.html[Kotlin/kotlinx.html^] - Kotlin DSL for HTML.
 https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
+https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 
 === Tests
 https://github.com/JetBrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
@@ -60,7 +62,7 @@ https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Ham
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
-https://github.com/kohesive/injekt[kohesive/injekt^] - kohesive/injekt.
+https://github.com/kohesive/injekt[kohesive/injekt^] - Dependency Injection / Object Factory for Kotlin
 
 === Functional Programming
 https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
@@ -69,7 +71,7 @@ https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for succe
 
 === JSON
 https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
-https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson^] - Gson for Kotlin.
+https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson^] - Gson for Kotlin, Kotson enables you to parse and write JSON with Google's Gson using a conciser and easier syntax.
 https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotlin^] - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
 https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 
@@ -81,14 +83,22 @@ https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database ac
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
 https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
+https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
+https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
 
 === Desktop
 https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
+https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^] - Griffon Support
+
+=== Http Clients
+https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
+https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
 
 === Misc
 https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
 https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^] - Fibers, Channels and Actors for the JVM.
-https://github.com/mplatvoet/kovenant[mplatvoet/kovenant^] - Kovenant. Promises for Kotlin.
+https://github.com/MehdiK/Humanizer.jvm[MehdiK/Humanizer.jvm^] - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
+https://github.com/mplatvoet/kovenant[mplatvoet/kovenant^] - Promises for Kotlin and Android
 https://github.com/klutter/klutter[klutter/klutter^] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
 
 
