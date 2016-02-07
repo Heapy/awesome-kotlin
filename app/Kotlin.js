@@ -110,6 +110,18 @@ const data = [{
             href: 'https://github.com/ragunathjawahar/kaffeine',
             type: 'github',
             tags: ['android']
+        }, {
+            name: 'mcxiaoke/kotlin-koi',
+            desc: 'Koi, a lightweight kotlin library for Android Development.',
+            href: 'https://github.com/mcxiaoke/kotlin-koi',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'BennyWang/KBinding',
+            desc: 'Android View Model binding framework write in kotlin, base on anko, simple but powerful.',
+            href: 'https://github.com/BennyWang/KBinding',
+            type: 'github',
+            tags: ['android', 'bindings']
         }]
     }, {
         name: "Web",
@@ -232,10 +244,17 @@ const data = [{
     }, {
         name: "Database",
         links: [{
+            name: 'JetBrains/Exposed',
+            desc: 'Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.',
+            href: 'https://github.com/JetBrains/Exposed',
+            type: 'github',
+            tags: ['database', 'query', 'schema', 'dao']
+        }, {
             name: 'cheptsov/kotlin-nosql',
             desc: 'NoSQL database query and access library for Kotlin.',
             href: 'https://github.com/cheptsov/kotlin-nosql',
-            type: 'github'
+            type: 'github',
+            tags: ['database', 'mongodb', 'query']
         }, {
             name: 'jankotek/mapdb',
             desc: 'MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.',
@@ -245,6 +264,12 @@ const data = [{
             name: 'seratch/kotliquery',
             desc: 'A handy database access library in Kotlin.',
             href: 'https://github.com/seratch/kotliquery',
+            type: 'github',
+            tags: ['database', 'sql', 'query']
+        }, {
+            name: 'andrewoma/kwery',
+            desc: 'Kwery is an SQL library for Kotlin.',
+            href: 'https://github.com/andrewoma/kwery',
             type: 'github',
             tags: ['database', 'sql', 'query']
         }]
@@ -333,6 +358,24 @@ const data = [{
             desc: 'A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.',
             href: 'https://github.com/klutter/klutter',
             type: 'github'
+        }, {
+            name: 'kohesive/solr-undertow',
+            desc: 'Solr Standalone Tiny and High performant server.',
+            href: 'https://github.com/kohesive/solr-undertow',
+            type: 'github',
+            tags: ['solr', 'undertow']
+        }, {
+            name: 'leprosus/kotlin-hashids',
+            desc: 'Library that generates short, unique, non-sequential hashes from numbers.',
+            href: 'https://github.com/leprosus/kotlin-hashids',
+            type: 'github',
+            tags: ['hash']
+        }, {
+            name: 'mplatvoet/progress',
+            desc: 'Progress for Kotlin.',
+            href: 'https://github.com/mplatvoet/progress',
+            type: 'github',
+            tags: ['progress']
         }]
     }]
 }, {
@@ -349,6 +392,12 @@ const data = [{
             desc: 'Example of Android project showing integration with Kotlin and Dagger 2.',
             href: 'https://github.com/damianpetla/kotlin-dagger-example',
             type: 'github'
+        }, {
+            name: 'dodyg/AndroidRivers',
+            desc: 'RSS Readers for Android.',
+            href: 'https://github.com/dodyg/AndroidRivers',
+            type: 'github',
+            tags: ['rss', 'android']
         }]
     }, {
         name: "Web",

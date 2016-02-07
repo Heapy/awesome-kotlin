@@ -46,6 +46,8 @@ https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Andr
 https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
 https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
 https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
+https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
+https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
 
 === Web
 https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
@@ -76,9 +78,11 @@ https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotl
 https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 
 === Database
+https://github.com/JetBrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
 https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
 https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
+https://github.com/andrewoma/kwery[andrewoma/kwery^] - Kwery is an SQL library for Kotlin.
 
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
@@ -100,12 +104,16 @@ https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^]
 https://github.com/MehdiK/Humanizer.jvm[MehdiK/Humanizer.jvm^] - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
 https://github.com/mplatvoet/kovenant[mplatvoet/kovenant^] - Promises for Kotlin and Android
 https://github.com/klutter/klutter[klutter/klutter^] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
+https://github.com/kohesive/solr-undertow[kohesive/solr-undertow^] - Solr Standalone Tiny and High performant server.
+https://github.com/leprosus/kotlin-hashids[leprosus/kotlin-hashids^] - Library that generates short, unique, non-sequential hashes from numbers.
+https://github.com/mplatvoet/progress[mplatvoet/progress^] - Progress for Kotlin.
 
 
 == Projects
 === Android
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
+https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
 
 === Web
 https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.

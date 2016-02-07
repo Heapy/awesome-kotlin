@@ -1,31 +1,4 @@
-- name: Android Rivers
-  description: RSS Readers for Android
-  type: Android App
-  link: https://github.com/dodyg/AndroidRivers
-
-- name: Solr-Undertow
-  description: Solr Standalone Tiny and High performant server
-  type: Application
-  link: https://github.com/bremeld/solr-undertow
-
-- name: Kotlin-Hashids
-  description: Library that generates short, unique, non-sequential hashes from numbers.
-  type: Library
-  link: http://hashids.org/kotlin/
-
-- name: Progress
-  description: Simple Progress tracking
-  type: Library
-  link: https://github.com/mplatvoet/progress
-
 http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
-
-## Libraries
-- [Koi](https://github.com/mcxiaoke/kotlin-koi) - A lightweight kotlin library for Android, including many useful extensions, async functions and quick adapter.
-- [Kwery](https://github.com/andrewoma/kwery) - Kwery is an SQL library for Kotlin.
-- [Exposed](https://github.com/JetBrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
-- [KBinding](https://github.com/BennyWang/KBinding) - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
-- [Solr-Undertow](https://github.com/kohesive/solr-undertow) - standalone high perforamnce, simple Solr server. Embeddeable as a library.
 
 ## Samples
 - [kotlin-examples](https://github.com/JetBrains/kotlin-examples)
@@ -57,7 +30,6 @@ http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
 - [Type-safe Web with Kotlin](https://jaxenter.com/type-safe-web-with-kotlin-106187.html)
 
 ## Videos
-- [Kotlin: A New Hope in a Java 6 Wasteland](https://realm.io/news/droidcon-michael-pardo-kotlin/)
 - [Advancing Android Development with Kotlin](https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/)
 - [Functional Programming with Kotlin](https://www.youtube.com/watch?v=AhA-Q7MOre0&feature=youtu.be)
 - [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
