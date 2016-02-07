@@ -3,6 +3,11 @@ const data = [{
     subcategories: [{
         name: "Official Links",
         links: [{
+            name: 'JetBrains/kotlin',
+            href: 'https://github.com/JetBrains/kotlin',
+            type: 'github',
+            tags: ['kotlin']
+        }, {
             name: 'Home Page',
             href: 'http://kotlinlang.org/'
         }, {
@@ -67,12 +72,14 @@ const data = [{
             name: 'JetBrains/anko',
             desc: 'Pleasant Android application development.',
             href: 'https://github.com/JetBrains/anko',
-            type: 'github'
+            type: 'github',
+            tags: ['android']
         }, {
             name: 'JakeWharton/kotterknife',
             desc: 'View injection library for Android',
             href: 'https://github.com/JakeWharton/kotterknife',
-            type: 'github'
+            type: 'github',
+            tags: ['android']
         }, {
             name: 'nsk-mironov/kotlin-jetpack',
             desc: 'A collection of useful extension methods for Android.',
@@ -83,11 +90,18 @@ const data = [{
             name: 'pawegio/KAndroid',
             desc: 'Kotlin library for Android',
             href: 'https://github.com/pawegio/KAndroid',
-            type: 'github'
+            type: 'github',
+            tags: ['android']
         }, {
             name: 'chibatching/Kotpref',
             desc: 'Android SharedPreference delegation for Kotlin.',
             href: 'https://github.com/chibatching/Kotpref',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'TouK/bubble',
+            desc: 'Library for obtaining screen orientation when orientation is blocked in AndroidManifest.',
+            href: 'https://github.com/TouK/bubble',
             type: 'github',
             tags: ['android']
         }]
@@ -133,6 +147,12 @@ const data = [{
             desc: 'A specification framework for Kotlin.',
             href: 'https://github.com/JetBrains/spek',
             type: 'github'
+        }, {
+            name: 'npryce/hamkrest',
+            desc: 'A reimplementation of Hamcrest to take advantage of Kotlin language features.',
+            href: 'https://github.com/npryce/hamkrest',
+            type: 'github',
+            tags: ['test', 'assert']
         }]
     }, {
         name: "Dependency Injection",
@@ -163,6 +183,12 @@ const data = [{
             href: 'https://github.com/ReactiveX/RxKotlin',
             type: 'github',
             tags: ['fp', 'functional']
+        }, {
+            name: 'https://github.com/kittinunf/Result',
+            desc: 'The modelling for success/failure of operations in Kotlin.',
+            href: 'https://github.com/kittinunf/Result',
+            type: 'github',
+            tags: ['fp', 'functional', 'monad']
         }]
     }, {
         name: "JSON",
@@ -184,6 +210,12 @@ const data = [{
             href: 'https://github.com/FasterXML/jackson-module-kotlin',
             type: 'github',
             tags: ['json', 'jakson']
+        }, {
+            name: 'fboldog/ext4klaxon',
+            desc: 'Type Extensions (Long, Int, Enum, Date) for Klaxon.',
+            href: 'https://github.com/fboldog/ext4klaxon',
+            type: 'github',
+            tags: ['json']
         }]
     }, {
         name: "Database",
@@ -197,6 +229,12 @@ const data = [{
             desc: 'MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.',
             href: 'https://github.com/jankotek/mapdb/tree/mapdb3',
             type: 'github'
+        }, {
+            name: 'seratch/kotliquery',
+            desc: 'A handy database access library in Kotlin.',
+            href: 'https://github.com/seratch/kotliquery',
+            type: 'github',
+            tags: ['database', 'sql', 'query']
         }]
     }, {
         name: "Tools",

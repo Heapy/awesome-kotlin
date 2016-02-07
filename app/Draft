@@ -1,21 +1,131 @@
-https://kotlinlang.org/docs/resources.html
+- name: Spek
+  description: A Specification Framework
+  type: Library
+  link: https://github.com/JetBrains/spek
+
+- name: Wasabi
+  description: An HTTP Framework
+  type: Framework
+  link: https://github.com/hhariri/wasabi
+
+- name: Kara
+  description: An MVC Framework
+  type: Framework
+  link: http://www.karaframework.com
+
+- name: Humanizer for JVM
+  description: Humanizer Library
+  type: Library
+  link: https://github.com/MehdiK/Humanizer.jvm
+
+- name: Kotlin-NoSQL
+  description: NoSQL MongoDB access for Kotlin
+  type: Library
+  link: https://github.com/cheptsov/kotlin-nosql
+
+- name: FunKtionale
+  description: Functional Helpers for Kotlin
+  type: Library
+  link: https://github.com/MarioAriasC/funKTionale
+
+- name: KotlinPrimavera
+  description: Kotlin Wrapper for Spring Framework
+  type: Library
+  link: https://github.com/MarioAriasC/KotlinPrimavera
+
+- name: Sublime Package
+  description: A Sublime Package for Kotlin
+  type: Tools
+  link: https://github.com/vkostyukov/kotlin-sublime-package
+
+- name: Kotlin Vim
+  description: Kotlin Syntax Highlighter for Vim
+  type: Tools
+  link: https://github.com/udalov/kotlin-vim
+
+- name: Griffon Plugin
+  description: Griffon Support
+  type: Tools
+  link: https://github.com/griffon/griffon-kotlin-plugin
+
+- name: Android Rivers
+  description: RSS Readers for Android
+  type: Android App
+  link: https://github.com/dodyg/AndroidRivers
+
+- name: RxKotlin
+  description: Kotlin Bindings for RxJava
+  type: Library
+  link: https://github.com/ReactiveX/RxKotlin
+
+- name: Solr-Undertow
+  description: Solr Standalone Tiny and High performant server
+  type: Application
+  link: https://github.com/bremeld/solr-undertow
+
+- name: Yested
+  description: A Web Framework
+  type: Framework
+  link: http://www.yested.net
+
+- name: Kotlin-Hashids
+  description: Library that generates short, unique, non-sequential hashes from numbers.
+  type: Library
+  link: http://hashids.org/kotlin/
+
+- name: Android Kotlin Extensions
+  description: A collection of Android Kotlin extensions
+  type: Library
+  link: https://github.com/ragunathjawahar/android-kotlin-extensions
+
+- name: KAndroid
+  description: Kotlin library for Android
+  type: Library
+  link: https://github.com/pawegio/KAndroid
+
+- name: Kovenant
+  description: Promises for Kotlin and Android
+  type: Library
+  link: https://github.com/mplatvoet/kovenant
+
+- name: Progress
+  description: Simple Progress tracking
+  type: Library
+  link: https://github.com/mplatvoet/progress
+
+- name: Injekt
+  description: Dependency Injection / Object Factory for Kotlin
+  type: Library
+  link: https://github.com/kohesive/injekt
+
+- name: Fuel
+  description: HTTP Client library written in Kotlin
+  type: Library
+  link: https://github.com/kittinunf/Fuel
+
+- name: Klutter
+  description: Small helper libraries for Kotlin, usually extensions to other libraries
+  type: Library
+  link: https://github.com/klutter/klutter
+
+- name: Kodein
+  description: Painless Kotlin Dependency Injection
+  type: Library
+  link: https://github.com/SalomonBrys/Kodein
+
+- name: Kovert
+  description: An invisible REST framework for Kotlin
+  type: Library
+  link: https://github.com/kohesive/kovert
+
+- name: khttp
+  description: HTTP client similar to Python's requests.
+  type: Library
+  link: https://github.com/jkcclemens/khttp
+
 http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
 
-Found an other list newly created list, lol
-
-## Website
-- [Kotlin Home](https://kotlinlang.org/)
-- [Kotlin Documents](https://kotlinlang.org/docs/reference/)
-- [Try Kotlin in your Browser](https://try.kotlinlang.org/)
-- [Kotlin Blog](blog.jetbrains.com/kotlin)
-- [Kotlin GitHub](https://github.com/JetBrains/kotlin)
-- [Kotlin Koans](https://github.com/Kotlin/kotlin-koans)
-- [Issue Tracker](https://youtrack.jetbrains.com/issues/KT)
-
 ## Libraries
-- [Anko](https://github.com/Kotlin/anko) - Anko is a library which makes Android application development faster and easier.
-- [RxKotlin](https://github.com/ReactiveX/RxKotlin) - Kotlin Adaptor for RxJava
-- [Kotter Knife](https://github.com/JakeWharton/kotterknife) - View "injection" library for Android.
 - [Koi](https://github.com/mcxiaoke/kotlin-koi) - A lightweight kotlin library for Android, including many useful extensions, async functions and quick adapter.
 - [Wasabi](https://github.com/hhariri/wasabi) - An HTTP Framework
 - [Kara Web Framework](https://github.com/TinyMission/kara) - Kara is a web framework for the JVM written in Kotlin.
@@ -28,12 +138,10 @@ Found an other list newly created list, lol
 - [Kotlin NoSQL](https://github.com/cheptsov/kotlin-nosql) - Kotlin NoSQL is a reactive and type-safe DSL for working with NoSQL databases.
 - [Exposed](https://github.com/JetBrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 - [Klaxon](https://github.com/cbeust/klaxon) - Klaxon is a lightweight library to parse JSON in Kotlin.
-- [Kobalt ](https://github.com/cbeust/kobalt) - Kobalt is a modern and versatile build system.
 - [KBinding](https://github.com/BennyWang/KBinding) - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
 - [jackson-module-kotlin](https://github.com/FasterXML/jackson-module-kotlin) - Module that adds support for serialization/deserialization of Kotlin classes and data classes.
 - [Kodein](https://github.com/SalomonBrys/Kodein) - Kodein: Kotlin Dependency Injection
 - [KBuilders](https://github.com/Levelmoney/kbuilders) - KBuilders turns your Java builders into beautiful Type-Safe Builders.
-- [Result](https://github.com/kittinunf/Result) - This is a tiny framework for modelling success/failure of operations in Kotlin.
 - [Tornado FX](https://github.com/edvin/tornadofx) - A New JavaFX App Framework for Kotlin.
 - [Spek](http://jetbrains.github.io/spek) - A Specification Framework for Kotlin
 - [Klutter](https://github.com/kohesive/klutter) - Library of many small useful things
