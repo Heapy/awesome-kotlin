@@ -376,6 +376,12 @@ const data = [{
             href: 'https://github.com/mplatvoet/progress',
             type: 'github',
             tags: ['progress']
+        }, {
+            name: 'leprosus/kotlin-cli',
+            desc: 'Kotlin-CLI - command line interface options parser for Kotlin.',
+            href: 'https://github.com/leprosus/kotlin-cli',
+            type: 'github',
+            tags: ['cli', 'command line interface']
         }]
     }]
 }, {

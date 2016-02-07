@@ -107,6 +107,7 @@ https://github.com/klutter/klutter[klutter/klutter^] - A mix of random small lib
 https://github.com/kohesive/solr-undertow[kohesive/solr-undertow^] - Solr Standalone Tiny and High performant server.
 https://github.com/leprosus/kotlin-hashids[leprosus/kotlin-hashids^] - Library that generates short, unique, non-sequential hashes from numbers.
 https://github.com/mplatvoet/progress[mplatvoet/progress^] - Progress for Kotlin.
+https://github.com/leprosus/kotlin-cli[leprosus/kotlin-cli^] - Kotlin-CLI - command line interface options parser for Kotlin.
 
 
 == Projects
