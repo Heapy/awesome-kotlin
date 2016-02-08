@@ -240,6 +240,12 @@ const data = [{
             href: 'https://github.com/udalov/kotlin-vim',
             type: 'github',
             tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'sargunster/kotlin-textmate-bundle',
+            desc: 'Kotlin bundle for TextMate.',
+            href: 'https://github.com/sargunster/kotlin-textmate-bundle',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
         }]
     }, {
         name: "Desktop",
