@@ -78,6 +78,7 @@ https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin
 https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
 https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
 https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
+https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
 
 === Desktop
 https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
