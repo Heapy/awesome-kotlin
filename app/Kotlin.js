@@ -325,6 +325,12 @@ const data = [{
             href: 'https://github.com/leprosus/kotlin-cli',
             type: 'github',
             tags: ['cli', 'command line interface']
+        }, {
+            name: 'sargunster/CakeParse',
+            desc: 'Simple parser combinator library for Kotlin.',
+            href: 'https://github.com/sargunster/CakeParse',
+            type: 'github',
+            tags: ['parser', 'combinator', 'grammar', 'lexer']
         }]
     }]
 }, {
