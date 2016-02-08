@@ -38,17 +38,6 @@ https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers 
 
 
 == Libraries/Frameworks
-=== Android
-https://github.com/JetBrains/anko[JetBrains/anko^] - Pleasant Android application development.
-https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
-https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
-https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.
-https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
-https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
-https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
-https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
-https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
-
 === Web
 https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
 https://github.com/TinyMission/kara[TinyMission/kara^] - Web framework written in Kotlin.
@@ -111,11 +100,6 @@ https://github.com/leprosus/kotlin-cli[leprosus/kotlin-cli^] - Kotlin-CLI - comm
 
 
 == Projects
-=== Android
-https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
-https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
-https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
-
 === Web
 https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
 https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
@@ -123,12 +107,33 @@ https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server
 === Build tools
 https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
 
+=== Misc
+https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
+
 === Examples
 https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
 https://github.com/JetBrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 https://github.com/robfletcher/midcentury-ipsum[robfletcher/midcentury-ipsum^] - Swingin’ filler text for your jet-age web page.
 https://github.com/robfletcher/lazybones-kotlin[robfletcher/lazybones-kotlin^] - The Lazybones app migrated to Kotlin as a learning exercise.
 https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
+
+
+== Android
+=== Libraries
+https://github.com/JetBrains/anko[JetBrains/anko^] - Pleasant Android application development.
+https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
+https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
+https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.
+https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
+https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
+https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
+https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
+https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
+
+=== Projects
+https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
+https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
+https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
 
 
 == Articles, Videos, Blog Posts

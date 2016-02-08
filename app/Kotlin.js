@@ -67,63 +67,6 @@ const data = [{
 }, {
     name: "Libraries/Frameworks",
     subcategories: [{
-        name: "Android",
-        links: [{
-            name: 'JetBrains/anko',
-            desc: 'Pleasant Android application development.',
-            href: 'https://github.com/JetBrains/anko',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'JakeWharton/kotterknife',
-            desc: 'View injection library for Android',
-            href: 'https://github.com/JakeWharton/kotterknife',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'nsk-mironov/kotlin-jetpack',
-            desc: 'A collection of useful extension methods for Android.',
-            href: 'https://github.com/nsk-mironov/kotlin-jetpack',
-            type: 'github',
-            tags: ['android', 'bindings']
-        }, {
-            name: 'pawegio/KAndroid',
-            desc: 'Kotlin library for Android providing useful extensions to eliminate boilerplate code.',
-            href: 'https://github.com/pawegio/KAndroid',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'chibatching/Kotpref',
-            desc: 'Android SharedPreference delegation for Kotlin.',
-            href: 'https://github.com/chibatching/Kotpref',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'TouK/bubble',
-            desc: 'Library for obtaining screen orientation when orientation is blocked in AndroidManifest.',
-            href: 'https://github.com/TouK/bubble',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'ragunathjawahar/kaffeine',
-            desc: 'Kaffeine is a Kotlin-flavored Android library for accelerating development.',
-            href: 'https://github.com/ragunathjawahar/kaffeine',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'mcxiaoke/kotlin-koi',
-            desc: 'Koi, a lightweight kotlin library for Android Development.',
-            href: 'https://github.com/mcxiaoke/kotlin-koi',
-            type: 'github',
-            tags: ['android']
-        }, {
-            name: 'BennyWang/KBinding',
-            desc: 'Android View Model binding framework write in kotlin, base on anko, simple but powerful.',
-            href: 'https://github.com/BennyWang/KBinding',
-            type: 'github',
-            tags: ['android', 'bindings']
-        }]
-    }, {
         name: "Web",
         links: [{
             name: 'Kotlin/ktor',
@@ -387,25 +330,6 @@ const data = [{
 }, {
     name: "Projects",
     subcategories: [{
-        name: "Android",
-        links: [{
-            name: 'antoniolg/Bandhook-Kotlin',
-            desc: 'A showcase music app for Android entirely written using Kotlin language.',
-            href: 'https://github.com/antoniolg/Bandhook-Kotlin',
-            type: 'github'
-        }, {
-            name: 'damianpetla/kotlin-dagger-example',
-            desc: 'Example of Android project showing integration with Kotlin and Dagger 2.',
-            href: 'https://github.com/damianpetla/kotlin-dagger-example',
-            type: 'github'
-        }, {
-            name: 'dodyg/AndroidRivers',
-            desc: 'RSS Readers for Android.',
-            href: 'https://github.com/dodyg/AndroidRivers',
-            type: 'github',
-            tags: ['rss', 'android']
-        }]
-    }, {
         name: "Web",
         links: [{
             name: 'ssoudan/ktSpringTest',
@@ -426,6 +350,15 @@ const data = [{
             desc: 'Build system inspired by Gradle.',
             href: 'https://github.com/cbeust/kobalt',
             type: 'github'
+        }]
+    }, {
+        name: "Misc",
+        links: [{
+            name: 'brikk/brikk',
+            desc: 'Brikk dependency manager (Kotlin, KotlinJS, Java, ...).',
+            href: 'https://github.com/brikk/brikk',
+            type: 'github',
+            tags: ['dependency managment']
         }]
     }, {
         name: "Examples",
@@ -458,6 +391,85 @@ const data = [{
             href: 'https://github.com/wangjiegulu/KotlinAndroidSample',
             type: 'github',
             tags: ['android', 'sample']
+        }]
+    }]
+}, {
+    name: "Android",
+    subcategories: [{
+        name: "Libraries",
+        links: [{
+            name: 'JetBrains/anko',
+            desc: 'Pleasant Android application development.',
+            href: 'https://github.com/JetBrains/anko',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'JakeWharton/kotterknife',
+            desc: 'View injection library for Android',
+            href: 'https://github.com/JakeWharton/kotterknife',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'nsk-mironov/kotlin-jetpack',
+            desc: 'A collection of useful extension methods for Android.',
+            href: 'https://github.com/nsk-mironov/kotlin-jetpack',
+            type: 'github',
+            tags: ['android', 'bindings']
+        }, {
+            name: 'pawegio/KAndroid',
+            desc: 'Kotlin library for Android providing useful extensions to eliminate boilerplate code.',
+            href: 'https://github.com/pawegio/KAndroid',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'chibatching/Kotpref',
+            desc: 'Android SharedPreference delegation for Kotlin.',
+            href: 'https://github.com/chibatching/Kotpref',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'TouK/bubble',
+            desc: 'Library for obtaining screen orientation when orientation is blocked in AndroidManifest.',
+            href: 'https://github.com/TouK/bubble',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'ragunathjawahar/kaffeine',
+            desc: 'Kaffeine is a Kotlin-flavored Android library for accelerating development.',
+            href: 'https://github.com/ragunathjawahar/kaffeine',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'mcxiaoke/kotlin-koi',
+            desc: 'Koi, a lightweight kotlin library for Android Development.',
+            href: 'https://github.com/mcxiaoke/kotlin-koi',
+            type: 'github',
+            tags: ['android']
+        }, {
+            name: 'BennyWang/KBinding',
+            desc: 'Android View Model binding framework write in kotlin, base on anko, simple but powerful.',
+            href: 'https://github.com/BennyWang/KBinding',
+            type: 'github',
+            tags: ['android', 'bindings']
+        }]
+    }, {
+        name: "Projects",
+        links: [{
+            name: 'antoniolg/Bandhook-Kotlin',
+            desc: 'A showcase music app for Android entirely written using Kotlin language.',
+            href: 'https://github.com/antoniolg/Bandhook-Kotlin',
+            type: 'github'
+        }, {
+            name: 'damianpetla/kotlin-dagger-example',
+            desc: 'Example of Android project showing integration with Kotlin and Dagger 2.',
+            href: 'https://github.com/damianpetla/kotlin-dagger-example',
+            type: 'github'
+        }, {
+            name: 'dodyg/AndroidRivers',
+            desc: 'RSS Readers for Android.',
+            href: 'https://github.com/dodyg/AndroidRivers',
+            type: 'github',
+            tags: ['rss', 'android']
         }]
     }]
 }, {
