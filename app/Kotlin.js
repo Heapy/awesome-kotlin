@@ -120,6 +120,11 @@ const data = [{
             href: 'https://github.com/npryce/hamkrest',
             type: 'github',
             tags: ['test', 'assert']
+        }, {
+            name: 'nhaarman/mockito-kotlin',
+            desc: 'Using Mockito with Kotlin.',
+            href: 'https://github.com/nhaarman/mockito-kotlin',
+            type: 'github'
         }]
     }, {
         name: "Dependency Injection",
