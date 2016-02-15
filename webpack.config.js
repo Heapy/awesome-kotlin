@@ -34,7 +34,9 @@ var config = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "app/index.html")
+            template: path.resolve(__dirname, "app/index.html"),
+            favicon: path.resolve(__dirname, "app/favicon.ico"),
+            hash: true
         })
     ],
 
