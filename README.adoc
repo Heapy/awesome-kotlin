@@ -51,6 +51,7 @@ https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy 
 https://github.com/JetBrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
 https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 https://github.com/nhaarman/mockito-kotlin[nhaarman/mockito-kotlin^] - Using Mockito with Kotlin.
+https://github.com/MarkusAmshove/Kluent[MarkusAmshove/Kluent^] - Fluent Assertion-Library for Kotlin
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .

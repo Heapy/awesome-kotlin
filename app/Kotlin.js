@@ -124,7 +124,14 @@ const data = [{
             name: 'nhaarman/mockito-kotlin',
             desc: 'Using Mockito with Kotlin.',
             href: 'https://github.com/nhaarman/mockito-kotlin',
-            type: 'github'
+            type: 'github',
+            tags: ['test', 'mock']
+        }, {
+            name: 'MarkusAmshove/Kluent',
+            desc: 'Fluent Assertion-Library for Kotlin',
+            href: 'https://github.com/MarkusAmshove/Kluent',
+            type: 'github',
+            tags: ['test', 'assert']
         }]
     }, {
         name: "Dependency Injection",
