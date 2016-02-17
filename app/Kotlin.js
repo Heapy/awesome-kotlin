@@ -494,6 +494,12 @@ const data = [{
             href: 'https://github.com/dodyg/AndroidRivers',
             type: 'github',
             tags: ['rss', 'android']
+        }, {
+            name: 'MakinGiants/android_banjo_tuner',
+            desc: 'App that plays sounds helping to tune a brazilian banjo.',
+            href: 'https://github.com/MakinGiants/android_banjo_tuner',
+            type: 'github',
+            tags: ['android', 'application', 'tuner']
         }]
     }]
 }, {

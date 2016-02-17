@@ -138,7 +138,8 @@ https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model 
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
 https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
-https://github.com/MakinGiants/android_banjo_tuner[makinGIANTS/Banjen^] - App that plays sounds helping to tune a brazilian banjo.
+https://github.com/MakinGiants/android_banjo_tuner[MakinGiants/android_banjo_tuner^] - App that plays sounds helping to tune a brazilian banjo.
+
 
 == Articles, Videos, Blog Posts
 === Posts
