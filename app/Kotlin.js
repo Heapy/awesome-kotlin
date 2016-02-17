@@ -579,7 +579,7 @@ const data = [{
         }, {
             name: 'Developing Spring Boot applications with Kotlin.',
             desc: 'Feb 15, 2016',
-            href: 'https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlins',
+            href: 'https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin',
             type: 'post',
             tags: ['spring', 'web']
         }]
