@@ -2,3 +2,5 @@ node_modules
 .idea
 npm-debug.log
 dist
+app/Kotlin.json
+settings.js

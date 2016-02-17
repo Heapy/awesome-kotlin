@@ -16,3 +16,19 @@ instead of spending time figuring out of how to install node.js for example.
 Any links will be check for their value for Kotlin.
 
 *Happy contributing!*
+
+== How to update webpage?
+
+Create file `settings.js` in root folder (same folder where this file placed) with following content:
+----
+// settings.js
+exports.default = {
+    user: 'YourGithubUsername',
+    pass: 'Token, which you can generate here: https://github.com/settings/tokens'
+};
+----
+
+. Now you can run `npm run build`, this command will generate json for website, website and readme
+. Then commit and push `Kotlin.js` and `README.adoc`, and create pull request.
+. Now switch branch to `gh-pages`, copy `bundle.js` from `dist` folder to root folder.
+. Commit, push, create pull request.

@@ -1,16 +1,22 @@
 const request = require('request');
 const fs = require('fs');
 
+function getSettings() {
+    try {
+        return require('../settings.js').default;
+    } catch (e) {
+        return null;
+    }
+}
+const settings = getSettings();
+
 const getStarCount = repository => {
     var options = {
         url: `https://api.github.com/repos/${repository}`,
         headers: {
             'User-Agent': 'Awesome-Kotlin-List'
         },
-        'auth': {
-            'user': 'IRus',
-            'pass': 'https://github.com/settings/tokens'
-        }
+        auth: settings
     };
 
     return new Promise((resolve, reject) => {
