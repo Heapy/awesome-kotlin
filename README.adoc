@@ -158,6 +158,7 @@ https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP^] - Sep 18, 
 http://kotlin4android.com/[Blog about Kotlin language and Android development.^] - Oct 21, 2015
 https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
 https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.^] - Jan 16, 2016
+https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlins[Developing Spring Boot applications with Kotlin.^] - Feb 15, 2016
 
 === Videos
 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav^] - Aug 12, 2015

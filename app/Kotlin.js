@@ -576,6 +576,12 @@ const data = [{
             href: 'https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/',
             type: 'post',
             tags: ['builders']
+        }, {
+            name: 'Developing Spring Boot applications with Kotlin.',
+            desc: 'Feb 15, 2016',
+            href: 'https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlins',
+            type: 'post',
+            tags: ['spring', 'web']
         }]
     }, {
         name: "Videos",
