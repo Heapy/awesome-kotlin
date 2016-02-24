@@ -595,7 +595,7 @@ const data = [{
             type: 'post',
             tags: ['android']
         }, {
-            name: 'Kotlin & Android: A Brass Tacks Experiment, Part 2.',
+            name: 'Kotlin & Android: A Brass Tacks Experiment, Part 3.',
             desc: 'Feb 16, 2016',
             href: 'https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h',
             type: 'post',
