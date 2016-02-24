@@ -23,6 +23,7 @@
     "less-loader": "^2.2.2",
     "postcss-loader": "^0.8.0",
     "request": "^2.69.0",
+    "rss": "^1.2.1",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
@@ -33,6 +34,7 @@
     "prestart": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "stars": "node ./app/Stars.js",
+    "rss": "node ./app/Rss.js",
     "readme": "node ./app/ReadmeGenerator.js",
     "pack": "build=1 node node_modules/webpack/bin/webpack.js -p",
     "build": "npm run stars && npm run readme && npm run pack"
