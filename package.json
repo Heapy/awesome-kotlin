@@ -38,7 +38,7 @@
     "rss": "node ./app/RssGenerator.js",
     "readme": "node ./app/ReadmeGenerator.js",
     "pack": "build=1 node node_modules/webpack/bin/webpack.js -p",
-    "build": "npm run stars && npm run readme && npm run pack"
+    "build": "npm run stars && npm run readme && npm run pack && npm run rss"
   },
   "repository": {
     "type": "git",

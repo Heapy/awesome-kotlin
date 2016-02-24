@@ -14,7 +14,7 @@ const data = [{
             name: 'Language Reference',
             href: 'http://kotlinlang.org/docs/reference/'
         }, {
-            name: 'Slack (1400+ users)',
+            name: 'Slack (2000+ users)',
             href: 'http://kotlinslackin.herokuapp.com/'
         }, {
             name: 'Try Kotlin!',
