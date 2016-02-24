@@ -161,6 +161,9 @@ http://kotlin4android.com/[Blog about Kotlin language and Android development.^]
 https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
 https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.^] - Jan 16, 2016
 https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin[Developing Spring Boot applications with Kotlin.^] - Feb 15, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-1-3e5028491bcc#.5c7ixfzdv[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Feb 1, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-2-c67661cfdf5f#.4s2hprcjw[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Feb 1, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Feb 16, 2016
 
 === Videos
 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav^] - Aug 12, 2015
