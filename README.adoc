@@ -10,6 +10,8 @@ image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e
 
 *Checkout our new site with search and repository stars:* https://javaby.github.io/awesome-kotlin/[https://javaby.github.io/awesome-kotlin/]
 
+*RSS with information! Suggest links in issues (just create issue with link)* https://javaby.github.io/awesome-kotlin/rss.xml[RSS Link]
+
 toc::[]
 
 == Links
