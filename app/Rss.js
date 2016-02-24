@@ -1,28 +1,28 @@
-var fs = require('fs');
-var RSS = require('rss');
+/*
+Sample feed item:
 
-var feed = new RSS({
-    title: 'Kotlin Programming Language.',
-    description: 'News, blog posts, projects, podcasts, videos and other. All information about Kotlin.',
-    feed_url: 'https://javaby.github.io/awesome-kotlin/rss.xml',
-    site_url: 'https://javaby.github.io/awesome-kotlin/',
-    image_url: 'https://javaby.github.io/awesome-kotlin/favicon.ico',
-    docs: 'https://validator.w3.org/feed/docs/rss2.html',
-    managingEditor: 'ruslan@ibragimov.by (Ruslan Ibragimov)',
-    webMaster: 'ruslan@ibragimov.by (Ruslan Ibragimov)',
-    copyright: 'CC0 1.0 Universal (CC0 1.0)',
-    language: 'en',
-    categories: ['Kotlin','Programming','JVM'],
-    pubDate: new Date().toUTCString(),
-    ttl: '30',
-    generator: 'node-rss'
-});
-
-
-fs.writeFile("./dist/rss.xml", feed.xml(), error => {
-    if (error) {
-        console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
+{
+    title: '',
+    description: 'Content, can be HTML.',
+    url: '',
+    categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4'],
+    author: 'Yoda Master',
+    date: 'Feb 24, 2016',
+    enclosure: {
+        url: 'http://site.com/file.jpg',
+        size: 1337,
+        type: 'image/jpeg'
     }
+}
+*/
 
-    console.log("The file was saved!");
-});
+exports.default = [{
+    title: '[RU] Kotlin 1.0. Задай вопрос команде.',
+    description: `На этой неделе случилось важное для нас событие — вышла первая версия языка программирования Kotlin! 
+    Так как почти вся разработка Kotlin велась в Питерском офисе компании JetBrains, многие хабровчане уже знают, 
+    что такое Kotlin и пробовали его на практике, поэтому этот пост больше для комментариев: задавайте любые вопросы и команда Kotlin ответит. Мы онлайн!`,
+    url: 'https://habrahabr.ru/company/JetBrains/blog/277573/',
+    categories: ['JetBrains', 'Kotlin'],
+    author: 'Роман Белов',
+    date: 'Feb 19, 2016'
+}];
