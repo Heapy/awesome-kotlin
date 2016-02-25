@@ -113,7 +113,8 @@ const data = [{
             name: 'JetBrains/spek',
             desc: 'A specification framework for Kotlin.',
             href: 'https://github.com/JetBrains/spek',
-            type: 'github'
+            type: 'github',
+            tags: ['test', 'assert', 'bdd']
         }, {
             name: 'npryce/hamkrest',
             desc: 'A reimplementation of Hamcrest to take advantage of Kotlin language features.',
@@ -128,10 +129,16 @@ const data = [{
             tags: ['test', 'mock']
         }, {
             name: 'MarkusAmshove/Kluent',
-            desc: 'Fluent Assertion-Library for Kotlin',
+            desc: 'Fluent Assertion-Library for Kotlin.',
             href: 'https://github.com/MarkusAmshove/Kluent',
             type: 'github',
             tags: ['test', 'assert']
+        }, {
+            name: 'winterbe/expekt',
+            desc: ' BDD assertion library for Kotlin.',
+            href: 'https://github.com/winterbe/expekt',
+            type: 'github',
+            tags: ['test', 'assert', 'bdd']
         }]
     }, {
         name: "Dependency Injection",
