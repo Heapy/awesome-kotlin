@@ -3,7 +3,7 @@ Sample feed item:
 
 {
     title: '',
-    description: 'Content, can be HTML.',
+    description: `Content, can be HTML.`,
     url: '',
     categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4'],
     author: 'Yoda Master',
@@ -100,7 +100,7 @@ exports.default = [{
     }
 }, {
     title: 'The Kobalt diaries: testing',
-    description: `<p><a href="http://beust.com/kobalt">Kobalt</a> automatically detects how to run your tests based on the test dependencies that you declared:</p><div class="syntaxhighlighter nogutter  " id="highlighter_159528"><div class="bar                            "><div class="toolbar"><a class="item viewSource" style="width: 16px; height: 16px;" title="view source" href="#viewSource">view source</a><div class="item copyToClipboard"><embed id="highlighter_159528_clipboard" type="application/x-shockwave-flash" title="copy to clipboard" allowscriptaccess="always" wmode="transparent" flashvars="highlighterId=highlighter_159528" menu="false" src="scripts/clipboard.swf" width="16" height="16"></div><a class="item printSource" style="width: 16px; height: 16px;" title="print" href="#printSource">print</a><a class="item about" style="width: 16px; height: 16px;" title="?" href="#about">?</a></div></div><div class="lines"><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">dependenciesTest {</code></td></tr></tbody></table></div><div class="line alt2"><table><tbody><tr><td class="content"><code class="spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="plain">compile(</code><code class="string">"org.testng:testng:6.9.9"</code><code class="plain">)</code></td></tr></tbody></table></div><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">}</code></td></tr></tbody></table></div></div></div><p>By default, Kobalt supports TestNG, JUnit and Spek. You can also configure how your tests run<br>with the <code>test{}</code> directive:</p>`,
+    description: `<p><a href="http://beust.com/kobalt">Kobalt</a> automatically detects how to run your tests based on the test dependencies that you declared:</p><div class="syntaxhighlighter"><div class="lines"><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">dependenciesTest {</code></td></tr></tbody></table></div><div class="line alt2"><table><tbody><tr><td class="content"><code class="spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="plain">compile(</code><code class="string">"org.testng:testng:6.9.9"</code><code class="plain">)</code></td></tr></tbody></table></div><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">}</code></td></tr></tbody></table></div></div></div><p>By default, Kobalt supports TestNG, JUnit and Spek. You can also configure how your tests run<br>with the <code>test{}</code> directive:</p>`,
     url: 'http://beust.com/weblog/2016/02/20/the-kobalt-diaries-testing/',
     categories: ['Kotlin', 'Kobalt'],
     author: 'Cédric Beust',
@@ -116,4 +116,11 @@ exports.default = [{
         url: 'http://cdn.radio-t.com/rt_podcast484.mp3',
         size: 72259834
     }
+}, {
+    title: 'Kotlin — Love at first line',
+    description: require('./articles/1').default,
+    url: 'https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.p5hp6dxlh',
+    categories: ['Anko', 'Android', 'Kotlin'],
+    author: 'Dimitar Kotevski',
+    date: 'Feb 21, 2016 12:13'
 }];
