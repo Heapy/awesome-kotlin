@@ -16,6 +16,8 @@ Sample feed item:
 }
 */
 
+const markdown = require('./markdown').default;
+
 exports.default = [{
     title: '[RU] Kotlin 1.0. Задай вопрос команде.',
     description: `На этой неделе случилось важное для нас событие — вышла первая версия языка программирования Kotlin!  Так как почти вся разработка Kotlin велась в Питерском офисе компании JetBrains, многие хабровчане уже знают, что такое Kotlin и пробовали его на практике, поэтому этот пост больше для комментариев: задавайте любые вопросы и команда Kotlin ответит. Мы онлайн!`,
@@ -118,7 +120,7 @@ exports.default = [{
     }
 }, {
     title: 'Kotlin — Love at first line',
-    description: require('./articles/1').default,
+    description: markdown('1.md'),
     url: 'https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.p5hp6dxlh',
     categories: ['Anko', 'Android', 'Kotlin'],
     author: 'Dimitar Kotevski',

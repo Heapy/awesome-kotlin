@@ -4,7 +4,7 @@ const moment = require('moment');
 const items = require('./Rss.js');
 
 const feed = new RSS({
-    title: 'Kotlin Programming Language.',
+    title: 'Kotlin Programming Language',
     description: 'News, blog posts, projects, podcasts, videos and other. All information about Kotlin.',
     feed_url: 'https://javaby.github.io/awesome-kotlin/rss.xml',
     site_url: 'https://javaby.github.io/awesome-kotlin/',
