@@ -7,7 +7,7 @@ fi
 
 npm run build
 
-git add README.adoc app/Rss.js app/Kotlin.js
+git add README.adoc app/rss/articles/* app/Kotlin.js
 git commit -m "$1"
 git push
 

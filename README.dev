@@ -2,7 +2,7 @@ npm start      - run dev server
 npm run stars  - generate Kotlin.json from Kotlin.js with starts
 npm run readme - generate `README.adoc` from Kotlin.js
 npm run pack   - build project and put builded project in dist folder
-npm run rss    - generates rss feed from `Rss.js` file in dist directory
+npm run rss    - generates rss feed from articles in articles directory in dist directory
 npm run build  - contains stars, readme, rss and pack tasks
 
 
