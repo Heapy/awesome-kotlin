@@ -1,3 +1,13 @@
+---
+title: Kotlin — Love at first line
+url: https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.p5hp6dxlh
+categories:
+    - Anko
+    - Android
+    - Kotlin
+author: Dimitar Kotevski
+date: Feb 21, 2016 12:13
+---
 ## Kotlin — Love at first line
 
 Kotlin 1.0 has been [released](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)
