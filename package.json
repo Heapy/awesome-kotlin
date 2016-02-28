@@ -25,6 +25,7 @@
     "moment": "^2.11.2",
     "postcss-loader": "^0.8.0",
     "remark": "^4.1.1",
+    "remark-highlight.js": "^3.0.0",
     "remark-html": "^3.0.0",
     "request": "^2.69.0",
     "rss": "^1.2.1",

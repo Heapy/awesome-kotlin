@@ -27,7 +27,7 @@ If we have a function that boils down to a single expression, we can use the sin
 
 Extensions allow us to extend any existing class by adding functions and properties without the need to inherit from that class.
 
-```
+```kotlin
 fun ViewGroup.inflate(
     @LayoutRes layoutRes: Int,
     attachToRoot: Boolean = false) =
@@ -40,7 +40,7 @@ fun ViewGroup.inflate(
 The extension function above adds the **.inflate(...)** method to the ViewGroup class, so instead of doing this every time:
 
 
-```
+```kotlin
 val view = LayoutInflater
     .from(parent)
     .inflate(R.layout.todo_list_item, parent, false)
@@ -49,14 +49,14 @@ val view = LayoutInflater
 now we can just do this:
 
 
-```
+```kotlin
 val view = parent.inflate(R.layout.todo_list_item)
 ```
 
 or:
 
 
-```
+```kotlin
 val view = parent.inflate(R.layout.todo_list_item,
     attachToRoot = true)
 ```
@@ -72,7 +72,7 @@ Intentionally left blank.
 Forget about NullPointerExceptions. Kotlin has 2 types of variables, nullable and non-nullable. If we declare our variable as non-nullable — the compiler won’t let us assign a null value to it. Only nullable variables can be null.
 
 
-```
+```kotlin
 var nonNullable: String = "This is a title" // Non-nullable variable
 var nullable: String? = null // Nullable variable
 ```
@@ -82,7 +82,7 @@ In case of the *nonNullable* variable, we can safely call methods on it, without
 In case of the *nullable* variable, we can safely call methods with the help of the *safe-trasversal operator (?.)*, and forget about null checks:
 
 
-```
+```kotlin
 val length = nullable?.length
 ```
 
@@ -97,7 +97,7 @@ That can be inconvenient sometimes. For example, in the code sample above, we wa
 In cases like that, we can use the **elvis operator ( ?: )**.
 
 
-```
+```kotlin
 val length = nullable?.length ?: 0
 ```
 
@@ -106,7 +106,7 @@ The elvis operator will use the left side value if it’s not null. In case the 
 You can even use it to make your sanity checks more readable.
 
 
-```
+```kotlin
     ...
 }
 ```
@@ -114,7 +114,7 @@ You can even use it to make your sanity checks more readable.
 With help of the elvis operator, the same method in Kotlin will look like this:
 
 
-```
+```kotlin
 public fun myMethod(str: String?) {
     // Sanity check
     str ?: return
@@ -132,7 +132,7 @@ Unlike in Java, where we are used to define all of our class properties **_priva
 The simplest definition looks like this:
 
 
-```
+```kotlin
 class Task {
    var completed = false
 }
@@ -141,7 +141,7 @@ class Task {
 And we can access the property:
 
 
-```
+```kotlin
 val task = Task()
 if (task.completed) ...
 ```
@@ -149,7 +149,7 @@ if (task.completed) ...
 If we wan’t to expose just the getter and allow setting the value only from within the class:
 
 
-```
+```kotlin
 var completed = false
     private set
 ```
@@ -157,7 +157,7 @@ var completed = false
 And if we want to have completely custom behaviour:
 
 
-```
+```kotlin
 var completedInt = 0
 var completed: Boolean
     get() = completedInt == 1
@@ -169,7 +169,7 @@ var completed: Boolean
 Kotlin allows us to declare lazy properties — properties that are initialized when we first access them.
 
 
-```
+```kotlin
 private val recyclerView by lazy {
     find<RecyclerView>(R.id.task_list_new)
 }
@@ -182,7 +182,7 @@ When we first access the **recyclerView** property, the lambda expression is eva
 In Kotlin we can observe properties. The syntax for declaring such properties is the following:
 
 
-```
+```kotlin
 var tasks by Delegates.observable(mutableListOf<Task>()) {
     prop, old, new ->
         notifyDataSetChanged()
@@ -202,7 +202,7 @@ Anko is a great library and has a lot of great extensions. I will list a couple.
 It replaces the findViewById(int id) method. This extension function returns the view already cast to the given type T, so there is no need to cast it.
 
 
-```
+```kotlin
 val recyclerView = find<RecyclerView>(R.id.task_list_new)
 ```
 
@@ -211,7 +211,7 @@ val recyclerView = find<RecyclerView>(R.id.task_list_new)
 Anko has great support for SQLite databases. For a complete overview, check their [guide](https://github.com/Kotlin/anko/blob/master/doc/SQLITE.md#anko-heart-sqlite). I will just show you one example:
 
 
-```
+```kotlin
 fun allTasks() = use {
     select(table)
         .orderBy(completed)
@@ -227,7 +227,7 @@ The **use {…}** function opens the database for us, and closes it after the gi
 The **select(…)…exec {}** call chain, selects data from the database. And the **parseList(parser)** call parses the rows of data and returns a list of objects, that our **parser** returns. The definition of our **parser** is:
 
 
-```
+```kotlin
 val parser = rowParser {
     id: Int, name: String, priority: Int, completed: Int ->
     Task(id, name, priority, completed)
