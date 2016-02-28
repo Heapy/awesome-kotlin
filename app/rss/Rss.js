@@ -51,46 +51,5 @@ exports.default = [{
     author: 'Gabriela Motroc',
     date: 'Feb 16, 2016 17:11'
 }, {
-    title: 'Developing Spring Boot applications with Kotlin.',
-    description: `Just in time for Kotlin 1.0 release, we are adding support for Kotlin language to https://start.spring.io in order to make it easier to start new Spring Boot projects with this language. \n This blog post is also an opportunity for me to explain why I find this language interesting, to show you a sample project in detail and to give you some hints.`,
-    url: 'https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin',
-    categories: ['Kotlin', 'Spring'],
-    author: 'Sébastien Deleuze',
-    date: 'Feb 15, 2016 12:58'
-}, {
-    title: '[RU] Немного о Kotlin.',
-    description: `На днях JetBrains после пятилетней работы выпустила первый релиз языка Kotlin. Давайте посмотрим, что же это за язык, попробуем разобраться зачем и для кого он, какие имеет функциональные особенности. Скорее всего в статью затесались и личные впечатления от языка, но я старался, чтобы они не влияли на изложение полезной информации. Если вы еще ничего или почти ничего не знаете о Kotlin, то я завидую вам, ибо по моему ощущению почитать про инструмент, который ты долго ждал, сродни распаковке новогоднего подарка. Впрочем судите сами.`,
-    url: 'https://habrahabr.ru/post/277479/',
-    categories: ['Kotlin', 'Review'],
-    author: '@fogone',
-    date: 'Feb 20, 2016  08:25'
-}, {
-    title: '[RU] DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.',
-    description: `Темы выпуска: Сравнение разных конфигурации сети в Kubernetes, Kotlin наконец вышел в версии 1.0, Vulkan тоже вышел в 1.0, критическая уязвимость в glibc, ZFS в Ubuntu 16.04, снова Rust, и про Монады. И, конечно, ответы на вопросы слушателей.`,
-    url: 'http://devzen.ru/episode-0080/',
-    categories: ['Podcast', 'Kotlin'],
-    author: 'DevZen Podcast',
-    date: 'Feb 20, 2016 11:34',
-    enclosure: {
-        url: 'http://devzen.ru/download/2016/devzen-0080-2016-02-19-3280e712a2cc1485.mp3',
-        size: 55240704
-    }
-}, {
-    title: 'The Kobalt diaries: testing',
-    description: `<p><a href="http://beust.com/kobalt">Kobalt</a> automatically detects how to run your tests based on the test dependencies that you declared:</p><div class="syntaxhighlighter"><div class="lines"><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">dependenciesTest {</code></td></tr></tbody></table></div><div class="line alt2"><table><tbody><tr><td class="content"><code class="spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="plain">compile(</code><code class="string">"org.testng:testng:6.9.9"</code><code class="plain">)</code></td></tr></tbody></table></div><div class="line alt1"><table><tbody><tr><td class="content"><code class="plain">}</code></td></tr></tbody></table></div></div></div><p>By default, Kobalt supports TestNG, JUnit and Spek. You can also configure how your tests run<br>with the <code>test{}</code> directive:</p>`,
-    url: 'http://beust.com/weblog/2016/02/20/the-kobalt-diaries-testing/',
-    categories: ['Kotlin', 'Kobalt'],
-    author: 'Cédric Beust',
-    date: 'Feb 20, 2016 10:35'
-}, {
-    title: '[RU] Радио-Т 484',
-    description: `Kotlin дорос до версии 1.0`,
-    url: 'https://radio-t.com/p/2016/02/20/podcast-484/',
-    categories: ['Podcast', 'Kotlin'],
-    author: 'Umputun, Bobuk, Gray, Ksenks',
-    date: 'Feb 20, 2016 15:44',
-    enclosure: {
-        url: 'http://cdn.radio-t.com/rt_podcast484.mp3',
-        size: 72259834
-    }
+
 }];

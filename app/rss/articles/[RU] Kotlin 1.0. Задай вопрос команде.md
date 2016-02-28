@@ -1,5 +1,5 @@
 ---
-title: [RU] Kotlin 1.0. Задай вопрос команде.
+title: '[RU] Kotlin 1.0. Задай вопрос команде.'
 url: https://habrahabr.ru/company/JetBrains/blog/277573/
 categories:
     - JetBrains
