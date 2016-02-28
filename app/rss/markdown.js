@@ -1,19 +1,10 @@
-const fs = require('fs');
 const remark = require('remark');
 const html = require('remark-html');
-const yamlConfig = require('remark-yaml-config');
 
-const processor = remark().use(yamlConfig).use(html);
-const config =
-`---
-remark:
-  commonmark: true
----
-`;
+const processor = remark().use(html);
 
-exports.default = function (file) {
-    const content = fs.readFileSync(`./app/rss/articles/${file}`, {encoding: 'UTF-8'});
-
-
-    return processor.process(`${config}\n${content}`);
+module.exports = function (content) {
+    return processor.process(content, {
+        commonmark: true
+    });
 };
