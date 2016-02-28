@@ -1,7 +1,8 @@
 const fs = require('fs');
 const RSS = require('rss');
 const moment = require('moment');
-const items = require('./Rss.js');
+const fm = require('front-matter');
+const markdown = require('./markdown');
 
 const feed = new RSS({
     title: 'Kotlin Programming Language',
@@ -22,7 +23,28 @@ const feed = new RSS({
 
 const parseDate = date => moment(date, 'MMM DD, YYYY');
 
-items.default
+const articles = fs.readdirSync('./app/rss/articles');
+
+articles
+    .map(article => {
+        console.log(article);
+        const content = fs.readFileSync(`./app/rss/articles/${article}`, {encoding: 'UTF-8'});
+
+        return fm(content);
+    })
+    .map(article => {
+        const attr =  article.attributes;
+
+        if (!attr.title || !attr.url || !attr.categories || !attr.author || !attr.date) {
+            throw new Error(`Metadata not complete: ${JSON.stringify(attr)}`);
+        }
+
+        return article;
+    })
+    .map(article => {
+        article.attributes.description = markdown(article.body);
+        return article.attributes;
+    })
     .sort((a, b) =>  {
         if (parseDate(a.date).isBefore(parseDate(b.date))) {
             return -1;
