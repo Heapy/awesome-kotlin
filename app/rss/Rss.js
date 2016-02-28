@@ -1,30 +1,5 @@
-/*
-Sample feed item:
-
-{
-    title: '',
-    description: `Content, can be HTML.`,
-    url: '',
-    categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4'],
-    author: 'Yoda Master',
-    date: 'Feb 24, 2016 11:00',
-    enclosure: {
-        url: 'http://site.com/file.jpg',
-        size: 1337,
-        type: 'image/jpeg'
-    }
-}
-*/
-
-const markdown = require('./markdown').default;
-
 exports.default = [{
-    title: '[RU] Kotlin 1.0. Задай вопрос команде.',
-    description: `На этой неделе случилось важное для нас событие — вышла первая версия языка программирования Kotlin!  Так как почти вся разработка Kotlin велась в Питерском офисе компании JetBrains, многие хабровчане уже знают, что такое Kotlin и пробовали его на практике, поэтому этот пост больше для комментариев: задавайте любые вопросы и команда Kotlin ответит. Мы онлайн!`,
-    url: 'https://habrahabr.ru/company/JetBrains/blog/277573/',
-    categories: ['JetBrains', 'Kotlin'],
-    author: 'Роман Белов',
-    date: 'Feb 19, 2016 16:30'
+
 }, {
     title: 'A Very Peculiar, but Possibly Cunning Kotlin Language Feature.',
     description: `This has caught me by surprise. After studying the Kotlin language to learn about how to best leverage this interesting new language for jOOQ, I stumbled upon this puzzler. What do you think the following program will print? fun main(args: Array) { (1..5).forEach { if (it == 3) return print(it) } print("done") } Well... You...`,
@@ -118,11 +93,4 @@ exports.default = [{
         url: 'http://cdn.radio-t.com/rt_podcast484.mp3',
         size: 72259834
     }
-}, {
-    title: 'Kotlin — Love at first line',
-    description: markdown('1.md'),
-    url: 'https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.p5hp6dxlh',
-    categories: ['Anko', 'Android', 'Kotlin'],
-    author: 'Dimitar Kotevski',
-    date: 'Feb 21, 2016 12:13'
 }];
