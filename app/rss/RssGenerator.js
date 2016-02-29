@@ -7,9 +7,9 @@ const markdown = require('./markdown');
 const feed = new RSS({
     title: 'Kotlin Programming Language',
     description: 'News, blog posts, projects, podcasts, videos and other. All information about Kotlin.',
-    feed_url: 'https://javaby.github.io/awesome-kotlin/rss.xml',
-    site_url: 'https://javaby.github.io/awesome-kotlin/',
-    image_url: 'https://javaby.github.io/awesome-kotlin/favicon.ico',
+    feed_url: 'http://kotlin.link/rss.xml',
+    site_url: 'http://kotlin.link/',
+    image_url: 'http://kotlin.link/favicon.ico',
     docs: 'https://validator.w3.org/feed/docs/rss2.html',
     managingEditor: 'ruslan@ibragimov.by (Ruslan Ibragimov)',
     webMaster: 'ruslan@ibragimov.by (Ruslan Ibragimov)',
@@ -47,9 +47,9 @@ articles
     })
     .sort((a, b) =>  {
         if (parseDate(a.date).isBefore(parseDate(b.date))) {
-            return -1;
-        } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
             return 1;
+        } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
+            return -1;
         } else {
             return 0;
         }
