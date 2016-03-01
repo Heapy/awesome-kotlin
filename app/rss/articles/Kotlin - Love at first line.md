@@ -222,9 +222,9 @@ fun allTasks() = use {
 }
 ```
 
-The **use {…}** function opens the database for us, and closes it after the given lambda executes. So we don’t have to worry about closing it anymore and can forget about all those **try {…} catch(…) {…} finally {…}** blocks. Inside the lambda that we pass to the **use** function, **this** references our database. That is the power of Kotlin’s **type-safe builders**. Read more about them [here](http://blog.jetbrains.com/kotlin/2011/10/dsls-in-kotlin-part-1-whats-in-the-toolbox-builders/) and [here](https://kotlinlang.org/docs/reference/type-safe-builders.html).
+The **use {...}** function opens the database for us, and closes it after the given lambda executes. So we don’t have to worry about closing it anymore and can forget about all those **try {...} catch(...) {...} finally {...}** blocks. Inside the lambda that we pass to the **use** function, **this** references our database. That is the power of Kotlin’s **type-safe builders**. Read more about them [here](http://blog.jetbrains.com/kotlin/2011/10/dsls-in-kotlin-part-1-whats-in-the-toolbox-builders/) and [here](https://kotlinlang.org/docs/reference/type-safe-builders.html).
 
-The **select(…)…exec {}** call chain, selects data from the database. And the **parseList(parser)** call parses the rows of data and returns a list of objects, that our **parser** returns. The definition of our **parser** is:
+The **select(...)...exec {}** call chain, selects data from the database. And the **parseList(parser)** call parses the rows of data and returns a list of objects, that our **parser** returns. The definition of our **parser** is:
 
 
 ```kotlin

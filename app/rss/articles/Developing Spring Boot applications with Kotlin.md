@@ -151,4 +151,4 @@ Last tip, the Java to Kotlin converter available in IntelliJ IDEA (Menu Code -> 
 
 ## Feedbacks
 
-We are interested by your feedbacks about developing Spring applications with Kotlin. This blog post is just an introduction, there is much more to say especially about using Spring Boot with more Kotlin idiomatic code like with [Exposed](https://github.com/JetBrains/Exposed) SQL library, so stay tuned …
+We are interested by your feedbacks about developing Spring applications with Kotlin. This blog post is just an introduction, there is much more to say especially about using Spring Boot with more Kotlin idiomatic code like with [Exposed](https://github.com/JetBrains/Exposed) SQL library, so stay tuned ...
