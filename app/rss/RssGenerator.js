@@ -26,6 +26,7 @@ const parseDate = date => moment(date, 'MMM DD, YYYY');
 const articles = fs.readdirSync('./app/rss/articles');
 
 articles
+    .filter(article => !article.startsWith('.'))
     .map(article => {
         console.log(article);
         const content = fs.readFileSync(`./app/rss/articles/${article}`, {encoding: 'UTF-8'});
