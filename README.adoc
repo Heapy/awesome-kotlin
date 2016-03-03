@@ -167,10 +167,12 @@ https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-2-c6
 https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Feb 16, 2016
 
 === Videos
+https://vimeo.com/151846078[Fun with Kotlin^] - Jan 14, 2016
 https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav^] - Aug 12, 2015
 https://www.youtube.com/watch?v=vmjfIRsawlg[vJUG: Kotlin for Java developers.^] - Dec 11, 2014
 https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL^] - Nov 03, 2014
 https://www.youtube.com/watch?v=80xgl3KThvM[Kotlin NoSQL for MongoDB in Action.^] - Oct 22, 2014
+https://vimeo.com/105758307[Kotlin vs Java puzzlers - Svetlana Isakova^] - Sep 10, 2014
 
 === Webinars
 http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/[Functional Programming with Kotlin ^] - Nov 5, 2015

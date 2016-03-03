@@ -611,6 +611,12 @@ const data = [{
     }, {
         name: "Videos",
         links: [{
+            name: 'Fun with Kotlin',
+            desc: 'Jan 14, 2016',
+            href: 'https://vimeo.com/151846078',
+            type: 'vimeo',
+            tags: ['kotlin']
+        }, {
             name: 'JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav',
             desc: 'Aug 12, 2015',
             href: 'https://www.youtube.com/watch?v=2IhT8HACc2E',
@@ -631,6 +637,11 @@ const data = [{
             href: 'https://www.youtube.com/watch?v=80xgl3KThvM',
             type: 'youtube',
             tags: ['nosql', 'database', 'mondodb']
+        }, {
+            name: 'Kotlin vs Java puzzlers - Svetlana Isakova',
+            desc: 'Sep 10, 2014',
+            href: 'https://vimeo.com/105758307',
+            type: 'vimeo'
         }]
     }, {
         name: "Webinars",
