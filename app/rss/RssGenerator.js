@@ -23,15 +23,19 @@ const feed = new RSS({
 
 const parseDate = date => moment(date, 'MMM DD, YYYY');
 
-const articles = fs.readdirSync('./app/rss/articles');
+const articlesDir = fs.readdirSync('./app/rss/articles');
 
-articles
+const articles = articlesDir
     .filter(article => !article.startsWith('.'))
+    .filter(article => article !== 'README.md')
     .map(article => {
         console.log(article);
         const content = fs.readFileSync(`./app/rss/articles/${article}`, {encoding: 'UTF-8'});
 
-        return fm(content);
+        const data = fm(content);
+
+        data.attributes.file = article;
+        return data;
     })
     .map(article => {
         const attr =  article.attributes;
@@ -54,11 +58,29 @@ articles
         } else {
             return 0;
         }
-    })
-    .forEach(it => feed.item(it));
+    });
+
+articles.forEach(it => feed.item(it));
 
 
 fs.writeFile("./dist/rss.xml", feed.xml(), error => {
+    if (error) {
+        console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
+    }
+
+    console.log("The file was saved!");
+});
+
+
+const readme = `# Articles
+
+${articles.map(it => {
+    return `[${it.title}](./${it.file})`;
+}).join('\n')}
+
+`;
+
+fs.writeFile("./app/rss/articles/README.md", readme, error => {
     if (error) {
         console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
     }
