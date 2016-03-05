@@ -4,7 +4,6 @@
   "description": "Awesome list for Kotlin",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.6.1",
     "normalize.css": "^3.0.3",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"

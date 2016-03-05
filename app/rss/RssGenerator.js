@@ -1,4 +1,5 @@
 const fs = require('fs');
+const file = require('../File');
 const RSS = require('rss');
 const moment = require('moment');
 const fm = require('front-matter');
@@ -25,6 +26,16 @@ const parseDate = date => moment(date, 'MMM DD, YYYY');
 
 const articlesDir = fs.readdirSync('./app/rss/articles');
 
+const sortByDate = (a, b) =>  {
+    if (parseDate(a.date).isBefore(parseDate(b.date))) {
+        return 1;
+    } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
+        return -1;
+    } else {
+        return 0;
+    }
+};
+
 const articles = articlesDir
     .filter(article => !article.startsWith('.'))
     .filter(article => article !== 'README.md')
@@ -50,40 +61,12 @@ const articles = articlesDir
         article.attributes.description = markdown(article.body);
         return article.attributes;
     })
-    .sort((a, b) =>  {
-        if (parseDate(a.date).isBefore(parseDate(b.date))) {
-            return 1;
-        } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
-            return -1;
-        } else {
-            return 0;
-        }
-    });
+    .sort(sortByDate);
 
 articles.forEach(it => feed.item(it));
 
+const links = articles.map(it => `* ${parseDate(it.date).format('MMM DD, YYYY')} [${it.title}](./${encodeURI(it.file)})`);
+const readme = `# Articles\n${links.join('\n')}`;
 
-fs.writeFile("./dist/rss.xml", feed.xml(), error => {
-    if (error) {
-        console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
-    }
-
-    console.log("The file was saved!");
-});
-
-
-const readme = `# Articles
-
-${articles.map(it => {
-    return `[${it.title}](./${it.file})`;
-}).join('\n')}
-
-`;
-
-fs.writeFile("./app/rss/articles/README.md", readme, error => {
-    if (error) {
-        console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
-    }
-
-    console.log("The file was saved!");
-});
+file.write(`./dist/rss.xml`, feed.xml());
+file.write('./app/rss/articles/README.md', readme);
