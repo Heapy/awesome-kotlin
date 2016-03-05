@@ -22,7 +22,7 @@ Any links will be check for their value for Kotlin.
 Create file `settings.js` in root folder (same folder where this file placed) with following content:
 ----
 // settings.js
-exports.default = {
+module.exports = {
     user: 'YourGithubUsername',
     pass: 'Token, which you can generate here: https://github.com/settings/tokens'
 };

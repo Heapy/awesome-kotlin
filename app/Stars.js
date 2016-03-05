@@ -1,9 +1,9 @@
 const request = require('request');
-const fs = require('fs');
+const fs = require('./File');
 
 function getSettings() {
     try {
-        return require('../settings.js').default;
+        return require('../settings.js');
     } catch (e) {
         return null;
     }
@@ -28,7 +28,7 @@ const getStarCount = repository => {
                 reject({
                     repository: repository,
                     error: error,
-                    status: response.statusCode,
+                    status: response ? response.statusCode : '',
                     body: body
                 });
             }
@@ -52,13 +52,7 @@ data.forEach(category => {
 });
 
 Promise.all(promises).then(() => {
-    fs.writeFile("./app/Kotlin.json", JSON.stringify(data), error => {
-        if (error) {
-            console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
-        }
-
-        console.log("The file was saved!");
-    });
+    fs.write("./app/Kotlin.json", JSON.stringify(data));
 }, reason => {
     console.error(`Error while stars getting ${JSON.stringify(reason)}`);
 });

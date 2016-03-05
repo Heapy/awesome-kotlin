@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('./File');
 
 const getLinks = () => {
     const data = require('./Kotlin.js').default;
@@ -42,10 +42,4 @@ NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writer
 image::http://i.creativecommons.org/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
 `;
 
-fs.writeFile("./README.adoc", template, error => {
-    if (error) {
-        console.log(`Error while writing file to fs: ${JSON.stringify(error)}`);
-    }
-
-    console.log("The file was saved!");
-});
+fs.write('./README.adoc', template);
