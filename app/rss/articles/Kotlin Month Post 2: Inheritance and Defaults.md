@@ -1,6 +1,6 @@
 ---
 title: 'Kotlin Month Post 2: Inheritance and Defaults'
-url: https://programmingideaswithjake.wordpress.com/2016/02/27/kotlin-month-post-1-assorted-features/
+url: https://programmingideaswithjake.wordpress.com/2016/03/05/kotlin-month-post-2-inheritance-and-defaults/
 categories:
     - Kotlin
 author: Jacob Zimmerman
