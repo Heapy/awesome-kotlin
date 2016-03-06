@@ -1,4 +1,5 @@
 # Articles
+* Mar 05, 2016 [Kotlin Month Post 2: Inheritance and Defaults](./Kotlin%20Month%20Post%202:%20Inheritance%20and%20Defaults.md)
 * Mar 04, 2016 [[RU] Видео со встречи JUG.ru с разработчиками Kotlin](./%5BRU%5D%20%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D1%81%D0%BE%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8%20JUG.ru%20%D1%81%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8%20Kotlin.md)
 * Mar 03, 2016 [Kotlin: a new JVM language you should try](./Kotlin:%20a%20new%20JVM%20language%20you%20should%20try.md)
 * Mar 02, 2016 [Kotlin для начинающих](./%5BRU%5D%20Kotlin%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85.md)
@@ -9,9 +10,9 @@
 * Feb 24, 2016 [Kotlin - 2 Years On](./Kotlin%20-%202%20Years%20On.md)
 * Feb 23, 2016 [Kotlin 1.0 is finally released!](./Kotlin%201.0%20is%20finally%20released!.md)
 * Feb 23, 2016 [An Introduction to Kotlin](./An%20Introduction%20to%20Kotlin.md)
-* Feb 22, 2016 [More Kotlin Features to Love](./More%20Kotlin%20Features%20to%20Love.md)
 * Feb 22, 2016 [A Very Peculiar, but Possibly Cunning Kotlin Language Feature.](./A%20Very%20Peculiar,%20but%20Possibly%20Cunning%20Kotlin%20Language%20Feature.md)
 * Feb 22, 2016 [Kotlin: Easily storing a list in SharedPreferences with Custom Accessors](./Kotlin:%20Easily%20storing%20a%20list%20in%20SharedPreferences%20with%20Custom%20Accessors.md)
+* Feb 22, 2016 [More Kotlin Features to Love](./More%20Kotlin%20Features%20to%20Love.md)
 * Feb 21, 2016 [Kotlin — Love at first line](./Kotlin%20-%20Love%20at%20first%20line.md)
 * Feb 20, 2016 [[RU] Радио-Т 484](./%5BRU%5D%20%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A2%20484.md)
 * Feb 20, 2016 [The Kobalt diaries: testing](./The%20Kobalt%20diaries:%20testing.md)
