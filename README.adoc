@@ -104,6 +104,7 @@ https://github.com/leprosus/kotlin-hashids[leprosus/kotlin-hashids^] - Library t
 https://github.com/mplatvoet/progress[mplatvoet/progress^] - Progress for Kotlin.
 https://github.com/leprosus/kotlin-cli[leprosus/kotlin-cli^] - Kotlin-CLI - command line interface options parser for Kotlin.
 https://github.com/sargunster/CakeParse[sargunster/CakeParse^] - Simple parser combinator library for Kotlin.
+https://github.com/sargunster/KtUnits[sargunster/KtUnits^] - Tiny unit conversion library for Kotlin.
 
 
 == Projects
