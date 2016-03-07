@@ -356,6 +356,12 @@ const data = [{
             href: 'https://github.com/sargunster/CakeParse',
             type: 'github',
             tags: ['parser', 'combinator', 'grammar', 'lexer']
+        }, {
+            name: 'sargunster/KtUnits',
+            desc: 'Tiny unit conversion library for Kotlin.',
+            href: 'https://github.com/sargunster/KtUnits',
+            type: 'github',
+            tags: ['time', 'unit', 'conversion']
         }]
     }]
 }, {
