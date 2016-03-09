@@ -175,6 +175,12 @@ const data = [{
             href: 'https://github.com/kittinunf/Result',
             type: 'github',
             tags: ['fp', 'functional', 'monad']
+        }, {
+            name: 'brianegan/bansa',
+            desc: ' A state container for Kotlin & Java, inspired by Elm & Redux.',
+            href: 'https://github.com/brianegan/bansa',
+            type: 'github',
+            tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
         }]
     }, {
         name: "JSON",
@@ -234,6 +240,12 @@ const data = [{
             href: 'https://github.com/andrewoma/kwery',
             type: 'github',
             tags: ['database', 'sql', 'query']
+        }, {
+            name: 'square/sqldelight',
+            desc: 'Generates Java models from CREATE TABLE statements.',
+            href: 'https://github.com/square/sqldelight',
+            type: 'github',
+            tags: ['database', 'sql', 'type-safe builder']
         }]
     }, {
         name: "Tools",
@@ -488,6 +500,12 @@ const data = [{
             href: 'https://github.com/BennyWang/KBinding',
             type: 'github',
             tags: ['android', 'bindings']
+        }, {
+            name: 'inaka/KillerTask',
+            desc: ' Android AsyncTask wrapper library, written in Kotlin.',
+            href: 'https://github.com/inaka/KillerTask',
+            type: 'github',
+            tags: ['android', 'AsyncTasks']
         }]
     }, {
         name: "Projects",
@@ -513,6 +531,12 @@ const data = [{
             href: 'https://github.com/MakinGiants/android_banjo_tuner',
             type: 'github',
             tags: ['android', 'application', 'tuner']
+        }, {
+            name: 'inaka/kotlillon',
+            desc: 'Android Kotlin Examples',
+            href: 'https://github.com/inaka/kotlillon',
+            type: 'github',
+            tags: ['android', 'application']
         }]
     }]
 }, {

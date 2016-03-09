@@ -64,6 +64,7 @@ https://github.com/kohesive/injekt[kohesive/injekt^] - Dependency Injection / Ob
 https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
 https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin^] - RxJava bindings for Kotlin.
 https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
+https://github.com/brianegan/bansa[brianegan/bansa^] -  A state container for Kotlin & Java, inspired by Elm & Redux.
 
 === JSON
 https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
@@ -77,6 +78,7 @@ https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL databas
 https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
 https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
 https://github.com/andrewoma/kwery[andrewoma/kwery^] - Kwery is an SQL library for Kotlin.
+https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models from CREATE TABLE statements.
 
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
@@ -137,12 +139,14 @@ https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orie
 https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
 https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
 https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
+https://github.com/inaka/KillerTask[inaka/KillerTask^] -  Android AsyncTask wrapper library, written in Kotlin.
 
 === Projects
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
 https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
 https://github.com/MakinGiants/android_banjo_tuner[MakinGiants/android_banjo_tuner^] - App that plays sounds helping to tune a brazilian banjo.
+https://github.com/inaka/kotlillon[inaka/kotlillon^] - Android Kotlin Examples
 
 
 == Articles, Videos, Blog Posts
