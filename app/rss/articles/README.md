@@ -1,4 +1,5 @@
 # Articles
+* Mar 06, 2016 [Solving the Josephus problem in Kotlin](./Solving%20the%20Josephus%20problem%20in%20Kotlin.md)
 * Mar 05, 2016 [Kotlin Month Post 2: Inheritance and Defaults](./Kotlin%20Month%20Post%202:%20Inheritance%20and%20Defaults.md)
 * Mar 04, 2016 [[RU] Видео со встречи JUG.ru с разработчиками Kotlin](./%5BRU%5D%20%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%20%D1%81%D0%BE%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8%20JUG.ru%20%D1%81%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8%20Kotlin.md)
 * Mar 03, 2016 [Kotlin: a new JVM language you should try](./Kotlin:%20a%20new%20JVM%20language%20you%20should%20try.md)
