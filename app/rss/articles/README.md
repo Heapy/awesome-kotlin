@@ -28,3 +28,4 @@
 * Feb 15, 2016 [Kotlin 1.0 Released: Pragmatic Language for JVM and Android](./Kotlin%201.0%20Released:%20Pragmatic%20Language%20for%20JVM%20and%20Android.md)
 * Feb 04, 2016 [[RU] Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.](./%5BRU%5D%20Podcast%20%D0%A0%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%20%D0%9F%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2:%20Episode%20102%20%E2%80%94%20Kotlin,%20%D1%82%D0%B5%D1%81%D1%82%D1%8B%20%D0%B8%20%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BE%D0%BD.md)
 * Feb 04, 2016 [Kotlin & Android: A Brass Tacks Experiment, Part 4](./Kotlin%20&%20Android:%20A%20Brass%20Tacks%20Experiment,%20Part%204.md)
+* Oct 30, 2015 [Exploring the Kotlin standard library](./Exploring%20the%20Kotlin%20standard%20library.md)
