@@ -7,7 +7,6 @@
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
-image:https://travis-ci.org/JavaBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/JavaBy/awesome-kotlin"]
 
 *Checkout our new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
 
@@ -84,9 +83,7 @@ https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models
 === Tools
 https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
 https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
-https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
-https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
-https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
+https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils for Kotlin.
 
 === Desktop
 https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
@@ -95,6 +92,11 @@ https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^]
 === Http Clients
 https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
 https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
+
+=== Editors
+https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
+https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
+https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
 
 === Misc
 https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.

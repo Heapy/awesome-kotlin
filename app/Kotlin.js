@@ -260,23 +260,11 @@ const data = [{
             href: 'https://github.com/Levelmoney/kbuilders',
             type: 'github'
         }, {
-            name: 'vkostyukov/kotlin-sublime-package',
-            desc: 'A Sublime Package for Kotlin.',
-            href: 'https://github.com/vkostyukov/kotlin-sublime-package',
+            name: 'holgerbrandl/kscript',
+            desc: 'Scripting utils for Kotlin.',
+            href: 'https://github.com/holgerbrandl/kscript',
             type: 'github',
-            tags: ['editor', 'ide', 'language']
-        }, {
-            name: 'udalov/kotlin-vim',
-            desc: 'Kotlin Syntax Highlighter for Vim.',
-            href: 'https://github.com/udalov/kotlin-vim',
-            type: 'github',
-            tags: ['editor', 'ide', 'language']
-        }, {
-            name: 'sargunster/kotlin-textmate-bundle',
-            desc: 'Kotlin bundle for TextMate.',
-            href: 'https://github.com/sargunster/kotlin-textmate-bundle',
-            type: 'github',
-            tags: ['editor', 'ide', 'language']
+            tags: ['bash', 'scripting', 'kts']
         }]
     }, {
         name: "Desktop",
@@ -309,6 +297,27 @@ const data = [{
             tags: ['http', 'http client']
         }]
     }, {
+        name: "Editors",
+        links: [{
+            name: 'vkostyukov/kotlin-sublime-package',
+            desc: 'A Sublime Package for Kotlin.',
+            href: 'https://github.com/vkostyukov/kotlin-sublime-package',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'udalov/kotlin-vim',
+            desc: 'Kotlin Syntax Highlighter for Vim.',
+            href: 'https://github.com/udalov/kotlin-vim',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'sargunster/kotlin-textmate-bundle',
+            desc: 'Kotlin bundle for TextMate.',
+            href: 'https://github.com/sargunster/kotlin-textmate-bundle',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }]
+    },{
         name: "Misc",
         links: [{
             name: 'Kotlin/kotlinx.reflect.lite',
