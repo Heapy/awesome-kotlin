@@ -7,6 +7,7 @@
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
+image:https://travis-ci.org/JavaBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/JavaBy/awesome-kotlin"]
 
 *Checkout our new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
 
@@ -16,7 +17,7 @@ toc::[]
 
 == Links
 === Official Links
-https://github.com/JetBrains/kotlin[JetBrains/kotlin^] 
+https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
 http://kotlinlang.org/[Home Page^] 
 http://kotlinlang.org/docs/reference/[Language Reference^] 
 http://kotlinslackin.herokuapp.com/[Slack (2000+ users)^] 
@@ -50,7 +51,7 @@ https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - S
 https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 
 === Tests
-https://github.com/JetBrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
+https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
 https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 https://github.com/nhaarman/mockito-kotlin[nhaarman/mockito-kotlin^] - Using Mockito with Kotlin.
 https://github.com/MarkusAmshove/Kluent[MarkusAmshove/Kluent^] - Fluent Assertion-Library for Kotlin.
@@ -73,7 +74,7 @@ https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotl
 https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 
 === Database
-https://github.com/JetBrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
+https://github.com/jetbrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
 https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
 https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
@@ -125,7 +126,7 @@ https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin,
 
 === Examples
 https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
-https://github.com/JetBrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
+https://github.com/jetbrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 https://github.com/robfletcher/midcentury-ipsum[robfletcher/midcentury-ipsum^] - Swingin’ filler text for your jet-age web page.
 https://github.com/robfletcher/lazybones-kotlin[robfletcher/lazybones-kotlin^] - The Lazybones app migrated to Kotlin as a learning exercise.
 https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
@@ -133,7 +134,7 @@ https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSamp
 
 == Android
 === Libraries
-https://github.com/JetBrains/anko[JetBrains/anko^] - Pleasant Android application development.
+https://github.com/jetbrains/anko[JetBrains/anko^] - Pleasant Android application development.
 https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
 https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
 https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.

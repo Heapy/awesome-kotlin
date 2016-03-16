@@ -36,7 +36,7 @@ const getStarCount = repository => {
     });
 };
 
-const data = require('./Kotlin.js').default;
+const data = require('./Kotlin.js');
 const promises = [];
 
 data.forEach(category => {

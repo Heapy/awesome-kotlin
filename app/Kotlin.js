@@ -4,7 +4,7 @@ const data = [{
         name: "Official Links",
         links: [{
             name: 'JetBrains/kotlin',
-            href: 'https://github.com/JetBrains/kotlin',
+            href: 'https://github.com/jetbrains/kotlin',
             type: 'github',
             tags: ['kotlin']
         }, {
@@ -112,7 +112,7 @@ const data = [{
         links: [{
             name: 'JetBrains/spek',
             desc: 'A specification framework for Kotlin.',
-            href: 'https://github.com/JetBrains/spek',
+            href: 'https://github.com/jetbrains/spek',
             type: 'github',
             tags: ['test', 'assert', 'bdd']
         }, {
@@ -214,7 +214,7 @@ const data = [{
         links: [{
             name: 'JetBrains/Exposed',
             desc: 'Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.',
-            href: 'https://github.com/JetBrains/Exposed',
+            href: 'https://github.com/jetbrains/Exposed',
             type: 'github',
             tags: ['database', 'query', 'schema', 'dao']
         }, {
@@ -429,7 +429,7 @@ const data = [{
         }, {
             name: 'JetBrains/swot',
             desc: 'Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.',
-            href: 'https://github.com/JetBrains/swot',
+            href: 'https://github.com/jetbrains/swot',
             type: 'github'
         }, {
             name: 'robfletcher/midcentury-ipsum',
@@ -458,7 +458,7 @@ const data = [{
         links: [{
             name: 'JetBrains/anko',
             desc: 'Pleasant Android application development.',
-            href: 'https://github.com/JetBrains/anko',
+            href: 'https://github.com/jetbrains/anko',
             type: 'github',
             tags: ['android']
         }, {
@@ -700,4 +700,4 @@ const data = [{
     }]
 }];
 
-exports.default = data;
+module.exports = data;
