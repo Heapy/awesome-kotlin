@@ -23,13 +23,12 @@ http://kotlinlang.org/docs/reference/[Language Reference^]
 http://kotlinslackin.herokuapp.com/[Slack (2000+ users)^] 
 http://try.kotlinlang.org/[Try Kotlin!^] 
 http://blog.jetbrains.com/kotlin/[Blog^] 
-http://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
-https://github.com/jetbrains/kotlin[Kotlin Repository^] 
+https://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
 https://twitter.com/kotlin[Twitter^] 
 
 === Resources
 https://www.reddit.com/r/Kotlin/[/r/Kotlin^] 
-https://www.quora.com/Kotlin?share=1[Quora Kotlin^] 
+https://www.quora.com/topic/Kotlin[Quora Kotlin^] 
 https://github.com/trending?l=kotlin[Trending Kotlin on Github^] 
 http://antonioleiva.com/[Antonio Leiva - Android and any other monsters^] 
 https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237[LinkedIn: Kotlin Developers (Join!)^] 
@@ -104,7 +103,7 @@ https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - L
 https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^] - Fibers, Channels and Actors for the JVM.
 https://github.com/MehdiK/Humanizer.jvm[MehdiK/Humanizer.jvm^] - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
 https://github.com/mplatvoet/kovenant[mplatvoet/kovenant^] - Promises for Kotlin and Android
-https://github.com/klutter/klutter[klutter/klutter^] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
+https://github.com/kohesive/klutter[kohesive/klutter^] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
 https://github.com/kohesive/solr-undertow[kohesive/solr-undertow^] - Solr Standalone Tiny and High performant server.
 https://github.com/leprosus/kotlin-hashids[leprosus/kotlin-hashids^] - Library that generates short, unique, non-sequential hashes from numbers.
 https://github.com/mplatvoet/progress[mplatvoet/progress^] - Progress for Kotlin.
@@ -134,7 +133,7 @@ https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSamp
 
 == Android
 === Libraries
-https://github.com/jetbrains/anko[JetBrains/anko^] - Pleasant Android application development.
+https://github.com/Kotlin/anko[Kotlin/anko^] - Pleasant Android application development.
 https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
 https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
 https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.
@@ -162,7 +161,7 @@ http://alexshabanov.com/category/languages/kotlin/[Non-trivial constructors in K
 http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/[Quasar and Kotlin – a Powerful Match^] - Jun 04, 2015
 https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language^] - Jul 06, 2015
 http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3^] - Jul 20, 2015
-http://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)^] - Jul 31, 2015
+https://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)^] - Jul 31, 2015
 http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/[Building APIs on the JVM Using Kotlin and Spark – Part 1^] - Aug 06, 2015
 https://www.linkedin.com/grp/post/7417237-6042285669181648896[Production Ready Kotlin^] - Aug 26, 2015
 https://realm.io/news/droidcon-michael-pardo-kotlin/[Kotlin: New Hope in a Java 6 Wasteland^] - Aug 27, 2015
@@ -192,4 +191,4 @@ http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-
 ''''
 NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
 
-image::http://i.creativecommons.org/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
+image::https://licensebuttons.net/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]

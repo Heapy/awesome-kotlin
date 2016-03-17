@@ -24,10 +24,7 @@ const data = [{
             href: 'http://blog.jetbrains.com/kotlin/'
         }, {
             name: 'Issue Tracker',
-            href: 'http://youtrack.jetbrains.com/issues/KT'
-        }, {
-            name: 'Kotlin Repository',
-            href: 'https://github.com/jetbrains/kotlin'
+            href: 'https://youtrack.jetbrains.com/issues/KT'
         }, {
             name: 'Twitter',
             href: 'https://twitter.com/kotlin'
@@ -39,7 +36,7 @@ const data = [{
             href: 'https://www.reddit.com/r/Kotlin/'
         }, {
             name: 'Quora Kotlin',
-            href: 'https://www.quora.com/Kotlin?share=1'
+            href: 'https://www.quora.com/topic/Kotlin'
         }, {
             name: 'Trending Kotlin on Github',
             href: 'https://github.com/trending?l=kotlin'
@@ -343,9 +340,9 @@ const data = [{
             type: 'github',
             tags: ['promise', 'android']
         }, {
-            name: 'klutter/klutter',
+            name: 'kohesive/klutter',
             desc: 'A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.',
-            href: 'https://github.com/klutter/klutter',
+            href: 'https://github.com/kohesive/klutter',
             type: 'github'
         }, {
             name: 'kohesive/solr-undertow',
@@ -456,9 +453,9 @@ const data = [{
     subcategories: [{
         name: "Libraries",
         links: [{
-            name: 'JetBrains/anko',
+            name: 'Kotlin/anko',
             desc: 'Pleasant Android application development.',
-            href: 'https://github.com/jetbrains/anko',
+            href: 'https://github.com/Kotlin/anko',
             type: 'github',
             tags: ['android']
         }, {
@@ -586,7 +583,7 @@ const data = [{
         }, {
             name: 'Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)',
             desc: 'Jul 31, 2015',
-            href: 'http://habrahabr.ru/company/jugru/blog/263905/'
+            href: 'https://habrahabr.ru/company/jugru/blog/263905/'
         }, {
             name: 'Building APIs on the JVM Using Kotlin and Spark – Part 1',
             desc: 'Aug 06, 2015',

@@ -40,7 +40,7 @@ ${getLinks()}
 ''''
 NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
 
-image::http://i.creativecommons.org/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
+image::https://licensebuttons.net/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
 `;
 
 fs.write('./README.adoc', template);
