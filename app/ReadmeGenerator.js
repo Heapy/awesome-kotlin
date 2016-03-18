@@ -27,7 +27,7 @@ const template = `
 A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 
 image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
-image:https://travis-ci.org/JavaBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/JavaBy/awesome-kotlin"]
+image:https://api.travis-ci.org/JavaBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/JavaBy/awesome-kotlin"]
 
 *Checkout our new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
 
