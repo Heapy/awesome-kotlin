@@ -1,4 +1,5 @@
 # Articles
+* Mar 22, 2016 [Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru](./%5BRU%5D%20%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9%20%D0%91%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%20%D0%B8%20%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9%20%D0%96%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%20%D0%BE%20Kotlin%201.0%20%D0%BD%D0%B0%20jug.msk.ru.md)
 * Mar 17, 2016 [Kotlin Educational Plugin](./Kotlin%20Educational%20Plugin.md)
 * Mar 16, 2016 [Kotlin 1.0.1 is Here!](./Kotlin%201.0.1%20is%20Here.md)
 * Mar 06, 2016 [Solving the Josephus problem in Kotlin](./Solving%20the%20Josephus%20problem%20in%20Kotlin.md)
