@@ -55,6 +55,7 @@ https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Ham
 https://github.com/nhaarman/mockito-kotlin[nhaarman/mockito-kotlin^] - Using Mockito with Kotlin.
 https://github.com/MarkusAmshove/Kluent[MarkusAmshove/Kluent^] - Fluent Assertion-Library for Kotlin.
 https://github.com/winterbe/expekt[winterbe/expekt^] -  BDD assertion library for Kotlin.
+https://github.com/kotlintest/kotlintest[kotlintest/kotlintest^] - KotlinTest is a flexible and comprehensive testing tool for the Kotlin ecosystem based on and heavily inspired by the superb Scalatest.
 
 === Dependency Injection
 https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .

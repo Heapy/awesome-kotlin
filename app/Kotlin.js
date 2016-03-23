@@ -136,6 +136,12 @@ const data = [{
             href: 'https://github.com/winterbe/expekt',
             type: 'github',
             tags: ['test', 'assert', 'bdd']
+        }, {
+            name: 'kotlintest/kotlintest',
+            desc: 'KotlinTest is a flexible and comprehensive testing tool for the Kotlin ecosystem based on and heavily inspired by the superb Scalatest.',
+            href: 'https://github.com/kotlintest/kotlintest',
+            type: 'github',
+            tags: ['test', 'bdd', 'matchers']
         }]
     }, {
         name: "Dependency Injection",
