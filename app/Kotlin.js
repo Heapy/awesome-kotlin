@@ -386,6 +386,12 @@ const data = [{
             href: 'https://github.com/sargunster/KtUnits',
             type: 'github',
             tags: ['time', 'unit', 'conversion']
+        }, {
+            name: 'hotchemi/khronos',
+            desc: 'An intuitive Date extensions in Kotlin.',
+            href: 'https://github.com/hotchemi/khronos',
+            type: 'github',
+            tags: ['time', 'date']
         }]
     }]
 }, {
