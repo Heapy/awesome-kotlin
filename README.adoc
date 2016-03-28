@@ -76,7 +76,7 @@ https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Lo
 === Database
 https://github.com/jetbrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
-https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+https://github.com/jankotek/mapdb[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
 https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
 https://github.com/andrewoma/kwery[andrewoma/kwery^] - Kwery is an SQL library for Kotlin.
 https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models from CREATE TABLE statements.

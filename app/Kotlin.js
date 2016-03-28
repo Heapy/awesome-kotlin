@@ -229,7 +229,7 @@ const data = [{
         }, {
             name: 'jankotek/mapdb',
             desc: 'MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.',
-            href: 'https://github.com/jankotek/mapdb/tree/mapdb3',
+            href: 'https://github.com/jankotek/mapdb',
             type: 'github'
         }, {
             name: 'seratch/kotliquery',
