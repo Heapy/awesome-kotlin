@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JavaBy/awesome-kotlin.git"
+    "url": "git+https://github.com/KotlinBy/awesome-kotlin.git"
   },
   "keywords": [
     "kotlin"
@@ -54,7 +54,7 @@
   "author": "Ibragimov Ruslan, Labushkina Hanna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JavaBy/awesome-kotlin/issues"
+    "url": "https://github.com/KotlinBy/awesome-kotlin/issues"
   },
-  "homepage": "https://github.com/JavaBy/awesome-kotlin#readme"
+  "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme"
 }

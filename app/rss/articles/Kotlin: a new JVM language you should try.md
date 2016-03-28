@@ -315,7 +315,7 @@ Kotlin creators have resisted the need to redefine much of the external tooling 
 
 There is a growing community around the language so perhaps not surprisingly one can already find a good selection of open-source libraries and frameworks written in Kotlin. If you want to stick with your favourite Java framework, you don’t have to make a full transition to Kotlin as you can use your existing framework in Kotlin without too much hassle and even mix Java and Kotlin code in a single codebase.
 
-The official Kotlin website lists several [tools, libraries and frameworks](https://kotlinlang.org/docs/resources.html), covering MVC/Web, HTTP client, dependency injection and text editor support among over things. Also, the [Awesome Kotlin](https://javaby.github.io/awesome-kotlin/) GitHub website offers a great selection of resources to explore.
+The official Kotlin website lists several [tools, libraries and frameworks](https://kotlinlang.org/docs/resources.html), covering MVC/Web, HTTP client, dependency injection and text editor support among over things. Also, the [Awesome Kotlin](https://kotlin.link) GitHub website offers a great selection of resources to explore.
 
 ## Summary
 

@@ -25,6 +25,6 @@ enclosure:
 ## Полезняшки
 
 1. Клиент для Redis - [Medis](https://github.com/luin/medis)
-1. http://javaby.github.io/awesome-kotlin/ or http://kotlin.link/
+1. http://kotlin.link/
 1. https://github.com/Originate/git-town
 1. https://libraries.io/
