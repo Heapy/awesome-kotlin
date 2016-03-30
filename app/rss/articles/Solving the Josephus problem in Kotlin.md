@@ -8,7 +8,7 @@ date: Mar 06, 2016 16:00
 ---
 I recently stumbled upon a [post](http://www.danvk.org/josephus.html) telling about the [Josephus problem](https://en.wikipedia.org/wiki/Josephus_problem) and trying to solve it in different scripting languages. For the sake of brevity, here’s the problem (taken from the referenced post):
 
-> Flavius Josephus was a roman historian of Jewish origin. During the Jewish-Roman wars of the first century AD, he was in a cave with fellow soldiers, 40 men in all, surrounded by enemy Roman troops. They decided to commit suicide by standing in a ring and counting off each third man. Each man so designated was to commit suicide…Josephus, not wanting to die, managed to place himself in the position of the last survivor.
+> Flavius Josephus was a roman historian of Jewish origin. During the Jewish-Roman wars of the first century AD, he was in a cave with fellow soldiers, 40 men in all, surrounded by enemy Roman troops. They decided to commit suicide by standing in a ring and counting off each third man. Each man so designated was to commit suicide...Josephus, not wanting to die, managed to place himself in the position of the last survivor.
 
 > In the general version of the problem, there are n soldiers numbered from 1 to n and each k-th soldier will be eliminated. The count starts from the first soldier. What is the number of the last survivor?
 
