@@ -6,7 +6,6 @@ before_script:
   - npm install
 script:
   - awesome_bot README.adoc --white-list http://kotlin.link/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.linkedin.com/grp/post/7417237-6042285669181648896
-after_success:
   - bash ./deploy.sh
 cache:
   directories:
