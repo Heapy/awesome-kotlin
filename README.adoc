@@ -145,6 +145,7 @@ https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffein
 https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
 https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
 https://github.com/inaka/KillerTask[inaka/KillerTask^] -  Android AsyncTask wrapper library, written in Kotlin.
+https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 
 === Projects
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
