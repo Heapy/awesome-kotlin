@@ -1,7 +1,8 @@
-language: node_js
-node_js: 5
+language: ruby
+rvm: 2.2
 before_script:
   - gem install awesome_bot
+  - nvm install 5
   - npm install
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - echo "GitHub configuration"
