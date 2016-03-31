@@ -6,7 +6,6 @@ rm -rf dist || exit 0;
 mkdir dist;
 
 # run our compile script
-nvm install 5
 npm run ci
 
 # go to the dist directory and create a *new* Git repo
