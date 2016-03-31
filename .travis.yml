@@ -1,9 +1,33 @@
-language: ruby
+language:
+  - ruby
+  - node_js
 rvm: 2.2
+node_js: 5
 before_script:
   - gem install awesome_bot
+  - npm install
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo "GitHub configuration"
+  - git config user.name "TravisCI"
+  - git config user.email "ruslan@ibragimov.by"
+  - git config --global push.default simple
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://$GH_TOKEN:@github.com" > .git/credentials
+  - git pull origin master
 script:
   - awesome_bot README.adoc --white-list http://kotlin.link/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.linkedin.com/grp/post/7417237-6042285669181648896
+  - npm run build
+before_deploy:
+  - npm run stars
+  - npm run rss
+  - npm run pack
+deploy:
+  - git checkout gh-pages
+  - cp ./dist/rss.xml rss.xml
+  - cp ./dist/index.html index.html
+  - cp ./dist/bundle.js bundle.js
+  - git commit -am "Website updated"
+  - git push origin gh-pages
 cache:
   directories:
   - node_modules
