@@ -24,6 +24,6 @@ after_success:
   - cp ./dist/bundle.js bundle.js
   - git commit -am "Website updated"
   - git push origin gh-pages
-cache:
-  directories:
-  - node_modules
+#cache:
+#  directories:
+#  - node_modules
