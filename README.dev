@@ -11,3 +11,10 @@ TODO:
 Service Worker https://serviceworke.rs/push-simple_demo.html
    | -- Push Notifications about changes
    | -- Offline
+
+
+// required: https!
+serviceworker-loader
+var registerServiceWorker = require("serviceworker!./sw.js");
+registerServiceWorker({ scope: '/' }).then(success, error);
+view-source:https://serviceworke.rs/offline-fallback/
