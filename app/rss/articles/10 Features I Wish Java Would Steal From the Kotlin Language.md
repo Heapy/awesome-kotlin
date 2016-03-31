@@ -4,7 +4,7 @@ url: http://blog.jooq.org/2016/03/31/10-features-i-wish-java-would-steal-from-th
 categories:
     - Kotlin
     - Java
-author: '@schneist'
+author: Lukas Eder
 date: Mar 31, 2016 12:10
 ---
 This article is overdue. After the hype around the [release of Kotlin 1.0](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/) has settled, let’s have a serious look at some Kotlin language features that we should have in Java as well.
@@ -392,7 +392,7 @@ public interface AliasFor {
 }
 ```
 
-Now _that_ would look nice. But given Java’s existing syntax, this might just be a unicorn, so let’s move on to…
+Now _that_ would look nice. But given Java’s existing syntax, this might just be a unicorn, so let’s move on to...
 
 ## 10\. Flow-sensitive typing
 
@@ -437,7 +437,7 @@ public interface IEnumerable<out T> : IEnumerable
 
 The keyword `out` here means that the generic type `T` is _produced_ from the type `IEnumerable` (as opposed to `in`, which stands for consumption). In C#, Scala, Ceylon, Kotlin, and many other languages, we can declare this on the type declaration, rather than on its usage (although, many languages allow for both). In this case, we say that `IEnumerable` is covariant with its type `T`, which means again that `IEnumerable<Integer>` is a subtype of `IEnumerable<Object>`
 
-In Java, this isn’t possible, which is why we have a [bazillion question by Java newbies on Stack Overflow](http://stackoverflow.com/q/4288084/521799). Why can’t I…
+In Java, this isn’t possible, which is why we have a [bazillion question by Java newbies on Stack Overflow](http://stackoverflow.com/q/4288084/521799). Why can’t I...
 
 ```java
 Iterable<String> strings = Arrays.asList("abc");
