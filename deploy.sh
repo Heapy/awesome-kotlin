@@ -7,6 +7,7 @@ mkdir dist;
 
 # run our compile script
 npm run ci
+cp CNAME ./dist/
 
 # go to the dist directory and create a *new* Git repo
 cd dist
