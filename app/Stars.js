@@ -1,14 +1,13 @@
 const request = require('request');
 const fs = require('./File');
 
-function getSettings() {
-    try {
-        return require('../settings.js');
-    } catch (e) {
-        return null;
-    }
+const user = process.env.GH_USER;
+const pass = process.env.GH_TOKEN;
+
+if (!user || !pass) {
+    throw new Error(`You should run this script only when you added GH_USER and GH_TOKEN to env. 
+Token can be found here: https://github.com/settings/tokens`);
 }
-const settings = getSettings();
 
 const getStarCount = repository => {
     var options = {
@@ -16,7 +15,7 @@ const getStarCount = repository => {
         headers: {
             'User-Agent': 'Awesome-Kotlin-List'
         },
-        auth: settings
+        auth: {user, pass}
     };
 
     return new Promise((resolve, reject) => {

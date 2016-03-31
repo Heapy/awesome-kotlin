@@ -3,4 +3,3 @@ node_modules
 npm-debug.log
 dist
 app/Kotlin.json
-settings.js
