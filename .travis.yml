@@ -13,12 +13,10 @@ before_script:
   - git pull origin master
 script:
   - awesome_bot README.adoc --white-list http://kotlin.link/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.linkedin.com/grp/post/7417237-6042285669181648896
-  - npm run build
-before_deploy:
   - npm run stars
   - npm run rss
   - npm run pack
-deploy:
+after_success:
   - git checkout gh-pages
   - cp ./dist/rss.xml rss.xml
   - cp ./dist/index.html index.html
