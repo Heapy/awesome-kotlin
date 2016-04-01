@@ -1,10 +1,10 @@
 ---
 title: 'Why I don't want to use Kotlin for Android Development yet'
-url: http://artemzin.com/blog/why-i-dont-want-to-use-kotlin-for-android-development-yet/
+url: 'http://artemzin.com/blog/why-i-dont-want-to-use-kotlin-for-android-development-yet/'
 categories:
     - Android
     - Kotlin
-author: JetBrains
+author: Artem Zinnatullin
 date: Mar 11, 2016 19:58
 ---
 Even though Kotlin is better than Java in many points it still has significant (in my opinion) drawbacks.
