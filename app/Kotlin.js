@@ -561,6 +561,12 @@ const data = [{
             href: 'https://github.com/inaka/kotlillon',
             type: 'github',
             tags: ['android', 'application']
+        }, {
+            name: 'MakinGiants/todayhistory',
+            desc: 'App that shows what happened today in history.',
+            href: 'https://github.com/MakinGiants/todayhistory',
+            type: 'github',
+            tags: ['android', 'application']
         }]
     }]
 }, {
