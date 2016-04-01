@@ -550,9 +550,9 @@ const data = [{
             type: 'github',
             tags: ['rss', 'android']
         }, {
-            name: 'MakinGiants/android_banjo_tuner',
+            name: 'MakinGiants/banjen-android-banjo-tuner',
             desc: 'App that plays sounds helping to tune a brazilian banjo.',
-            href: 'https://github.com/MakinGiants/android_banjo_tuner',
+            href: 'https://github.com/MakinGiants/banjen-android-banjo-tuner',
             type: 'github',
             tags: ['android', 'application', 'tuner']
         }, {

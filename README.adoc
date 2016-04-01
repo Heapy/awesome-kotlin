@@ -151,7 +151,7 @@ https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerpla
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
 https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
-https://github.com/MakinGiants/android_banjo_tuner[MakinGiants/android_banjo_tuner^] - App that plays sounds helping to tune a brazilian banjo.
+https://github.com/MakinGiants/banjen-android-banjo-tuner[MakinGiants/banjen-android-banjo-tuner^] - App that plays sounds helping to tune a brazilian banjo.
 https://github.com/inaka/kotlillon[inaka/kotlillon^] - Android Kotlin Examples
 https://github.com/MakinGiants/todayhistory[MakinGiants/todayhistory^] - App that shows what happened today in history.
 
