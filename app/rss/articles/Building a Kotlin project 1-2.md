@@ -1,4 +1,4 @@
- ---
+---
 title: 'Building a Kotlin project 1/2'
 url: http://cirorizzo.net/2016/03/04/building-a-kotlin-project/
 categories:
