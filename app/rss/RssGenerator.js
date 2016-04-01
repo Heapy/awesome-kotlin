@@ -38,7 +38,6 @@ const sortByDate = (a, b) =>  {
 
 const articles = articlesDir
     .filter(article => !article.startsWith('.'))
-    .filter(article => article !== 'README.md')
     .map(article => {
         console.log(article);
         const content = fs.readFileSync(`./app/rss/articles/${article}`, {encoding: 'UTF-8'});
@@ -61,12 +60,7 @@ const articles = articlesDir
         article.attributes.description = markdown(article.body);
         return article.attributes;
     })
-    .sort(sortByDate);
-
-articles.forEach(it => feed.item(it));
-
-const links = articles.map(it => `* ${parseDate(it.date).format('MMM DD, YYYY')} [${it.title}](./${encodeURI(it.file)})`);
-const readme = `# Articles\n${links.join('\n')}`;
+    .sort(sortByDate)
+    .forEach(it => feed.item(it));
 
 file.write(`./dist/rss.xml`, feed.xml());
-file.write('./app/rss/articles/README.md', readme);
