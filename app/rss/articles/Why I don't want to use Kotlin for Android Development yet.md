@@ -1,5 +1,5 @@
 ---
-title: 'Why I don\'t want to use Kotlin for Android Development yet'
+title: "Why I don't want to use Kotlin for Android Development yet"
 url: 'http://artemzin.com/blog/why-i-dont-want-to-use-kotlin-for-android-development-yet/'
 categories:
     - Android
