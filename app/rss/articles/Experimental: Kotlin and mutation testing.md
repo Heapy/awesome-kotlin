@@ -8,7 +8,7 @@ categories:
 author: Nicolas Frankel
 date: Apr 03, 2016 15:36
 ---
-[![](/wp-content/resources/experimental-kotlin-mutation-testing/icon_Kotlin.png)](https://kotlinlang.org/)Since about a year and a half, I do a [lot](https://player.vimeo.com/video/105758362) [of](https://youtu.be/uC_8l69ArXs) [presentations](https://youtu.be/biLyXaJwO3c) on [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing). In those, my point is to show that [Code Coverage](https://en.wikipedia.org/wiki/Code_coverage)‘s only benefit is that it’s easy to compute but that it’s meaningless – hence Mutation Testing.
+[![](https://blog.frankel.ch/wp-content/resources/experimental-kotlin-mutation-testing/icon_Kotlin.png)](https://kotlinlang.org/)Since about a year and a half, I do a [lot](https://player.vimeo.com/video/105758362) [of](https://youtu.be/uC_8l69ArXs) [presentations](https://youtu.be/biLyXaJwO3c) on [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing). In those, my point is to show that [Code Coverage](https://en.wikipedia.org/wiki/Code_coverage)‘s only benefit is that it’s easy to compute but that it’s meaningless – hence Mutation Testing.
 
 Since some time, I’ve been interested in [Kotlin](http://kotlinlang.org), a language from JetBrains that runs on the JVM. It’s only natural that I wanted to check how Mutation Testing could be applied to the Kotlin language. As Kotlin is too young to have its own dedicated mutation testing tool, I used [Pit](http://pitest.org), a Java dedicated tool. I didn’t expected much, here are my findings.
 
@@ -20,8 +20,8 @@ mvn org.pitest:pitest-maven:mutationCoverage
 
 Interestingly enough, this works perfectly well, in terms of mutation coverage execution, but also regarding referencing the lines that are the source of the problem.
 
-![](/wp-content/resources/experimental-kotlin-mutation-testing/duplicatemath.png)
-![](/wp-content/resources/experimental-kotlin-mutation-testing/lowpredicate.png)
+![](https://blog.frankel.ch/wp-content/resources/experimental-kotlin-mutation-testing/duplicatemath.png)
+![](https://blog.frankel.ch/wp-content/resources/experimental-kotlin-mutation-testing/lowpredicate.png)
 
 I wanted to go further, to use a _real_ project. The Kotlin folks were kind enough to redirect me to [KTor](https://github.com/Kotlin/ktor), a Kotlin-based web framework. I tried the same command, but limited on a single module – ktor-features/ktor-server-sessions (I have no clue what it does, that is not relevant anyway). Aye, there’s the rub.
 
@@ -45,7 +45,7 @@ removed call to kotlin/jvm/internal/Intrinsics::checkParameterIsNotNull → NO_C
 
 Here’s a sample of the report:
 
-![](/wp-content/resources/experimental-kotlin-mutation-testing/pullablelinkedlist.png)
+![](https://blog.frankel.ch/wp-content/resources/experimental-kotlin-mutation-testing/pullablelinkedlist.png)
 
 Again, Pit is able to bind the real lines to the problems found. Isn’t life good? If you stop at this point, it probably is. But running Pit on another project – say, ktor-features/ktor-locations fails miserably.
 
@@ -61,6 +61,6 @@ mvn org.pitest:pitest-maven:mutationCoverage -DexcludedClasses=org.jetbrains.kto
 
 It works again and produces expected results:
 
-![](/wp-content/resources/experimental-kotlin-mutation-testing/conversionservice.png)
+![](https://blog.frankel.ch/wp-content/resources/experimental-kotlin-mutation-testing/conversionservice.png)
 
 There are no mutation testing tools for Kotlin (yet), and considering Java ecosystem’s history, there might never be one. However, mutation testing is an invaluable tool to assert the real quality of your tests. Even if Pit is not a perfect match for Kotlin, it would be foolish to discard it.
