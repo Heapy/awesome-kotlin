@@ -11,7 +11,7 @@ by [Donn Felker](https://twitter.com/donnfelker)
 
 ### Getting Started With Kotlin and Anko on Android
 
-I’m just going to say it like it is …
+I’m just going to say it like it is ...
 
 > Android is stuck in Java 6 purgatory.
 
