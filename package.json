@@ -44,7 +44,7 @@
     "pages": "node ./app/rss/PagesGenerator.js",
     "readme": "node ./app/ReadmeGenerator.js",
     "pack": "build=1 node node_modules/webpack/bin/webpack.js -p",
-    "ci": "npm run stars && npm run pack && npm run rss",
+    "ci": "npm run stars && npm run pack && npm run rss && npm run pages",
     "build": "npm run stars && npm run readme && npm run pack && npm run rss"
   },
   "repository": {

@@ -1,6 +1,5 @@
 const file = require('../File');
 const RSS = require('rss');
-const moment = require('moment');
 
 const feed = new RSS({
     title: 'Kotlin Programming Language',
@@ -19,20 +18,7 @@ const feed = new RSS({
     generator: 'node-rss'
 });
 
-const parseDate = date => moment(date, 'MMM DD, YYYY');
-
-const sortByDate = (a, b) =>  {
-    if (parseDate(a.date).isBefore(parseDate(b.date))) {
-        return 1;
-    } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
-        return -1;
-    } else {
-        return 0;
-    }
-};
-
 const articles = require('./articles')
-    .sort(sortByDate)
     .forEach(it => feed.item(it));
 
 file.write(`./dist/rss.xml`, feed.xml());

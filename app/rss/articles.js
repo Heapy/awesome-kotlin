@@ -2,6 +2,19 @@ const fm = require('front-matter');
 const fs = require('fs');
 const markdown = require('./markdown');
 const articlesDir = fs.readdirSync('./app/rss/articles');
+const moment = require('moment');
+
+const parseDate = date => moment(date, 'MMM DD, YYYY');
+
+const sortByDate = (a, b) =>  {
+    if (parseDate(a.date).isBefore(parseDate(b.date))) {
+        return 1;
+    } else if (parseDate(a.date).isAfter(parseDate(b.date))) {
+        return -1;
+    } else {
+        return 0;
+    }
+};
 
 module.exports = articlesDir
     .filter(article => !article.startsWith('.'))
@@ -25,4 +38,5 @@ module.exports = articlesDir
     .map(article => {
         article.attributes.description = markdown(article.body);
         return article.attributes;
-    });
+    })
+    .sort(sortByDate);
