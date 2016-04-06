@@ -7,7 +7,7 @@ categories:
     - Teamcity2DSL
     - Kotlin
 author: Eugene Petrenko
-date: Mar 08 2016 21:02
+date: Mar 08, 2016 21:02
 ---
 
 Easy to use. This is one of a main tasks to solve then new tool is created. For the world of DSL this
