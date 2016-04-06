@@ -21,6 +21,12 @@ const getHtml = (article) => `
 <meta charset="UTF-8">
 <title>${article.title}</title>
 <style>
+  img {
+    max-width: 900px;
+    display: block;
+    margin: 0 auto; 
+  }
+  
   body {
     display:flex;
     flex-direction: row;
@@ -51,7 +57,7 @@ const getHtml = (article) => `
       <h2>by ${article.author}</h2>
     ${article.description}
   </section>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/github.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
 </body>
 </html>
