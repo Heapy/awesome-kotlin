@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "babel-polyfill": "^6.7.4",
+    "lodash": "^4.8.2",
     "normalize.css": "^3.0.3",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
