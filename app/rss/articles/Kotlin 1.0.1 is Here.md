@@ -19,10 +19,10 @@ Please find the full change log [here](https://github.com/JetBrains/kotlin/blob/
 * it’s 47 fixes in the compiler, library and Gradle plugin improvements (performance),
 * Compatibility with Gradle 2.12,
 * IDE features:
-* * Compatibility with IDEA 2016,
-* * Kotlin Education Plugin (for IDEA 2016),
-* * [KT-9752](https://youtrack.jetbrains.com/issue/KT-9752) More usable file chooser for “Move declaration to another file”,
-* * [KT-9697](https://youtrack.jetbrains.com/issue/KT-9697) Move method to companion object and back,
+    * Compatibility with IDEA 2016,
+    * Kotlin Education Plugin (for IDEA 2016),
+    * [KT-9752](https://youtrack.jetbrains.com/issue/KT-9752) More usable file chooser for “Move declaration to another file”,
+    * [KT-9697](https://youtrack.jetbrains.com/issue/KT-9697) Move method to companion object and back,
 * and 39 assorted fixes in the IDE.
 
 We thank the participants of the EAP who tried the preview builds and reported feedback. Please join the [EAP](https://discuss.kotlinlang.org/t/kotlin-1-0-1-eap/1525) and let’s make Kotlin better together!

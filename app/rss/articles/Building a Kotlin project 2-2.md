@@ -157,7 +157,7 @@ Basically are the `View` and the `Adapter` ones; in our case `MainActivity` and 
 
 Before starting with their implementation, let's go through the `Layout` designing.
 
-![Kitten App](/content/images/2016/03/xkittenApp-1.png.pagespeed.ic.ulo4yWl6Cg.png) To design it we need basically of two elements the <mark>main container</mark> and the <mark>item container</mark>.
+![Kitten App](http://cirorizzo.net/content/images/2016/03/xkittenApp-1.png.pagespeed.ic.ulo4yWl6Cg.png) To design it we need basically of two elements the <mark>main container</mark> and the <mark>item container</mark>.
 
 The <mark>main container</mark> is the element containing the list of the item and we're going to place it in the `activity_main.xml` contained in the `res->layout` folder of the project; this one has been automatically created during the initial phase of [Project Creation](http://www.cirorizzo.net/building-a-kotlin-project/).
 
