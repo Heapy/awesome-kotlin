@@ -9,7 +9,7 @@ date: Mar 29, 2016 09:19
 ---
 ### Rest API plumbing with kotlin
 
-As a startup developper, I spend a lot of my time dealing with REST APIs. It can be internal APIs for our web applications or external APIs for integration with online services (email, documents, …). For both uses, Kotlin features help a lot. Lets see how.
+As a startup developper, I spend a lot of my time dealing with REST APIs. It can be internal APIs for our web applications or external APIs for integration with online services (email, documents, ...). For both uses, Kotlin features help a lot. Lets see how.
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*hzb7OdfBZ9vYEosTTfLddg.png)
 _Internal and external REST calls_
@@ -43,7 +43,7 @@ In less than 20 lines of kotlin we have defined our REST call, the URL and the f
 
 #### External APIs and the bounded context pattern
 
-Beyond the issue of connecting with an external API and the technical part of it (remote calls, authentication,…) as developers we have to manage the [**Bounded Context pattern**](http://martinfowler.com/bliki/BoundedContext.html).
+Beyond the issue of connecting with an external API and the technical part of it (remote calls, authentication,...) as developers we have to manage the [**Bounded Context pattern**](http://martinfowler.com/bliki/BoundedContext.html).
 
 The external system has its own domain model, which makes sense in its context, but is certainly different from our model/context.
 

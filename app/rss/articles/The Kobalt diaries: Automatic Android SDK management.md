@@ -41,7 +41,7 @@ The Kobalt Android plug-in will then automatically download everything you need 
 * If `$ANDROID_HOME` is specified, use it and make sure a valid SDK is there. If that environment variable is not specified, install the SDK in a default location (`~/.android-sdk`).
 * If no Build Tools are installed, install them.
 * Then go through all the Google and Android dependencies for that project and install them as needed.
-* And a few other things…
+* And a few other things...
 
 A typical run on a clean machine with nothing installed will look like this:
 
