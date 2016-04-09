@@ -95,6 +95,8 @@ https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking
 https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
 
 === Editors
+https://github.com/JetBrains/intellij-community[JetBrains/intellij-community^] - IntelliJ IDEA Community Edition
+https://github.com/alexmt/atom-kotlin-language[alexmt/atom-kotlin-language^] - Adds syntax highlighting to Kotlin files in Atom
 https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
 https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
 https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
@@ -127,10 +129,12 @@ https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin,
 
 === Examples
 https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
+https://github.com/JetBrains/kotlin-examples[JetBrains/kotlin-examples^] - Various examples for Kotlin
 https://github.com/jetbrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 https://github.com/robfletcher/midcentury-ipsum[robfletcher/midcentury-ipsum^] - Swingin’ filler text for your jet-age web page.
 https://github.com/robfletcher/lazybones-kotlin[robfletcher/lazybones-kotlin^] - The Lazybones app migrated to Kotlin as a learning exercise.
 https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
+https://github.com/dodyg/Kotlin101[dodyg/Kotlin101^] - 101 examples for Kotlin Programming language.
 
 
 == Android
@@ -147,8 +151,12 @@ https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model 
 https://github.com/inaka/KillerTask[inaka/KillerTask^] -  Android AsyncTask wrapper library, written in Kotlin.
 https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 
+=== Frameworks
+https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
+
 === Projects
 https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
+https://github.com/antoniolg/Kotlin-for-Android-Developers[antoniolg/Kotlin-for-Android-Developers^] - Companion App for the book "Kotlin Android Developers"
 https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
 https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
 https://github.com/MakinGiants/banjen-android-banjo-tuner[MakinGiants/banjen-android-banjo-tuner^] - App that plays sounds helping to tune a brazilian banjo.

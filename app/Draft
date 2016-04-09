@@ -1,13 +1,6 @@
-http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-release-candidate-is-out/
+
 https://github.com/AlmasB/FXGL
 https://medium.com/@ahmedrizwan
-
-## Samples
-- [kotlin-examples](https://github.com/JetBrains/kotlin-examples)
-- [AndroidRivers](https://github.com/dodyg/AndroidRivers)
-- [Kotlin for Android Developers](https://github.com/antoniolg/Kotlin-for-Android-Developers)
-- [Kotlin101](https://github.com/dodyg/Kotlin101)
-- [kotlin_android_base_framework](https://github.com/nekocode/kotlin_android_base_framework)
 
 ## Tutorials
 - [Kotlin for Android (I~IV)](http://antonioleiva.com/kotlin/)
@@ -37,15 +30,7 @@ https://medium.com/@ahmedrizwan
 - [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
 - [Programming Android with Kotlin](https://www.youtube.com/watch?v=011AL3Z6VmM&feature=youtu.be)
 
-## Books
-
-- [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers) - This book is not meant to be a language reference, but a tool for Android developers to learn Kotlin and be able to continue with their own projects by themselves.
-- [Kotlin in Action (MEAP)](https://www.manning.com/books/kotlin-in-action) - Kotlin in Action takes experienced Java developers from the language basics all the way through building applications to run on the JVM and Android devices.
-
 ## Tools
-- [IntelliJ IDEA 15](https://www.jetbrains.com/idea/download/) - The best Kotlin IDE, support Java, Groovy, Scala and Android development.
-- [dokka](https://github.com/Kotlin/dokka) - Dokka is a documentation engine for Kotlin, performing the same function as javadoc for Java.
-- [language-kotlin](https://atom.io/packages/language-kotlin) - Kotlin language support in Atom
 - [kotlin-plugin-eclipse](https://marketplace.eclipse.org/content/kotlin-plugin-eclipse) - The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.
 - [android-parcelable-intellij-plugin-kotlin](https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin) - Plugin which generates Android Parcelable boilerplate code in Intellji/Android Studio.
 
@@ -53,26 +38,6 @@ https://medium.com/@ahmedrizwan
 - [kotlin-for-android-developers-zh](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md)
 - [Kotlin-in-Chinese](https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details)
 - [Kotlin Reference in Chinese](http://www.jianshu.com/notebooks/2822252/latest)
-
-# Kotlin-Resources
-To Aggregate resources to learn and understand Kotlin
-
-[WIP] I will keep updating this as i find resources while learning kotlin for a project.
-
-## Introduction
-* [Kotlin documentation](https://kotlinlang.org/docs/reference/)
-
-## Language features
-* [Higher-Order Functions and Lambdas](https://kotlinlang.org/docs/reference/lambdas.html)
-* [Null Safety](https://kotlinlang.org/docs/reference/null-safety.html)
-* [Extensions](https://kotlinlang.org/docs/reference/extensions.html)
-* [Classes and Inheritance](https://kotlinlang.org/docs/reference/classes.html#inheritance)
-* [Control Flow](https://kotlinlang.org/docs/reference/control-flow.html)
-* [Type Checks and Casts](https://kotlinlang.org/docs/reference/typecasts.html)
-* [Properties and Fields](https://kotlinlang.org/docs/reference/properties.html)
-* [Multi-Declarations](https://kotlinlang.org/docs/reference/multi-declarations.html)
-* [Generics](https://kotlinlang.org/docs/reference/generics.html)
-*
 
 ## Quick Start
 * [Kotlin Cheat sheet Part 1](https://gist.github.com/dodyg/5823184)
@@ -100,7 +65,6 @@ To Aggregate resources to learn and understand Kotlin
 * [Andoid app with Kotlin and MVP](https://github.com/michaldrabik/KotlinMVP)
 
 ## Android apps built with Kotlin on Github
-* [Kotlin examples from JetBrains](https://github.com/JetBrains/kotlin-example)
 * [Blood sugar tracking App for Android](https://github.com/nlefler/Glucloser)
 * [Android app for generating color palettes](https://github.com/hzsweers/palettehelper)
 * [A Weather Android App in Kotlin](https://github.com/dpolishuk/weather-android-kotlin)

@@ -302,6 +302,18 @@ const data = [{
     }, {
         name: "Editors",
         links: [{
+            name: 'JetBrains/intellij-community',
+            desc: 'IntelliJ IDEA Community Edition',
+            href: 'https://github.com/JetBrains/intellij-community',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'alexmt/atom-kotlin-language',
+            desc: 'Adds syntax highlighting to Kotlin files in Atom',
+            href: 'https://github.com/alexmt/atom-kotlin-language',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
+        }, {
             name: 'vkostyukov/kotlin-sublime-package',
             desc: 'A Sublime Package for Kotlin.',
             href: 'https://github.com/vkostyukov/kotlin-sublime-package',
@@ -436,6 +448,12 @@ const data = [{
             type: 'github',
             tags: ['koans']
         }, {
+            name: 'JetBrains/kotlin-examples',
+            desc: 'Various examples for Kotlin',
+            href: 'https://github.com/JetBrains/kotlin-examples',
+            type: 'github',
+            tags: ['maven', 'gradle', 'android', 'realm', 'buttetknife', 'dagger', 'dbflow', 'junit-test', 'dokka']
+        }, {
             name: 'JetBrains/swot',
             desc: 'Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.',
             href: 'https://github.com/jetbrains/swot',
@@ -458,6 +476,12 @@ const data = [{
             href: 'https://github.com/wangjiegulu/KotlinAndroidSample',
             type: 'github',
             tags: ['android', 'sample']
+        }, {
+            name: 'dodyg/Kotlin101',
+            desc: '101 examples for Kotlin Programming language.',
+            href: 'https://github.com/dodyg/Kotlin101',
+            type: 'github',
+            tags: ['examples']
         }]
     }]
 }, {
@@ -532,12 +556,27 @@ const data = [{
             tags: ['android', 'annotation processing']
         }]
     }, {
+        name: "Frameworks",
+        links: [{
+            name: 'nekocode/kotgo',
+            desc: 'An android development framwork on kotlin using MVP architecture.',
+            href: 'https://github.com/nekocode/kotgo',
+            type: 'github',
+            tags: ['android']
+        }]
+    }, {
         name: "Projects",
         links: [{
             name: 'antoniolg/Bandhook-Kotlin',
             desc: 'A showcase music app for Android entirely written using Kotlin language.',
             href: 'https://github.com/antoniolg/Bandhook-Kotlin',
             type: 'github'
+        }, {
+            name: 'antoniolg/Kotlin-for-Android-Developers',
+            desc: 'Companion App for the book "Kotlin Android Developers"',
+            href: 'https://github.com/antoniolg/Kotlin-for-Android-Developers',
+            type: 'github',
+            tags: ['android']
         }, {
             name: 'damianpetla/kotlin-dagger-example',
             desc: 'Example of Android project showing integration with Kotlin and Dagger 2.',
