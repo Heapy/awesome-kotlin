@@ -15,7 +15,7 @@ const _ = require('lodash');
  */
 const articles = require('./articles');
 
-const formatDate = date => moment(date, 'MMM DD, YYYY hh:mm').format('MMM DD, YYYY');
+const formatDate = date => moment(date, 'MMM DD, YYYY hh:mm').format('MMMM YYYY');
 
 const getCategoryName = name => {
     switch (name) {

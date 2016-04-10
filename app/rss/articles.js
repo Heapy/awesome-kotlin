@@ -18,8 +18,8 @@ const sortByDate = (a, b) =>  {
 
 const getFileName = name => {
     const escaped = name
-        .replace(new RegExp('[/ :!,\'"`+#)(-]', 'g'), '_')
-        .replace(new RegExp('_+', 'g'), '_')
+        .replace(new RegExp('[/ :!,\'"`+#)(-]', 'g'), '-')
+        .replace(new RegExp('-+', 'g'), '-')
         .replace(new RegExp('\\.', 'g'), '');
 
     return `${escaped}.html`
