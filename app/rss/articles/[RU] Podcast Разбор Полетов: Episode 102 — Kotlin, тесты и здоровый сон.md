@@ -1,5 +1,5 @@
 ---
-title: '[RU] Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.'
+title: '(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.'
 url: http://razbor-poletov.com/2016/02/episode-102.html
 categories:
     - Kotlin

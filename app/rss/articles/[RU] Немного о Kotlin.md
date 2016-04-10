@@ -1,5 +1,5 @@
 ---
-title: '[RU] Немного о Kotlin.'
+title: '(RU) Немного о Kotlin.'
 url: https://habrahabr.ru/post/277479/
 categories:
     - Kotlin

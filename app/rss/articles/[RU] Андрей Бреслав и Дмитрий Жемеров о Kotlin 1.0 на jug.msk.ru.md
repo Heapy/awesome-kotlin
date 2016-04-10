@@ -1,5 +1,5 @@
 ---
-title: 'Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru'
+title: '(RU) Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru'
 url: https://habrahabr.ru/post/279667/
 categories:
     - Kotlin

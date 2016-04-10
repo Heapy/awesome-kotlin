@@ -1,5 +1,5 @@
 ---
-title: '[RU] Релиз Kotlin 1.0, языка программирования для JVM и Android.'
+title: '(RU) Релиз Kotlin 1.0, языка программирования для JVM и Android.'
 url: http://www.opennet.ru/opennews/art.shtml?num=43882
 categories:
     - Kotlin

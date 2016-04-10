@@ -1,5 +1,5 @@
 ---
-title: 'SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains'
+title: '(RU) SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains'
 url: https://sdcast.ksdaemon.ru/2016/03/sdcast-41/
 categories:
     - Kotlin

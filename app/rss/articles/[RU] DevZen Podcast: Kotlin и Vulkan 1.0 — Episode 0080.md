@@ -1,5 +1,5 @@
 ---
-title: '[RU] DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.'
+title: '(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.'
 url: http://devzen.ru/episode-0080/
 categories:
     - Podcast

@@ -1,5 +1,5 @@
 ---
-title: 'Kotlin для начинающих'
+title: '(RU) Kotlin для начинающих'
 url: https://habrahabr.ru/post/278277/
 categories:
     - Kotlin

@@ -164,6 +164,20 @@ https://github.com/inaka/kotlillon[inaka/kotlillon^] - Android Kotlin Examples
 https://github.com/MakinGiants/todayhistory[MakinGiants/todayhistory^] - App that shows what happened today in history.
 
 
+== Kotlin User Groups
+=== Europe
+http://www.meetup.com/Stockholm-Kotlin-User-Group/[Stockholm Kotlin User Group^] - kug
+http://www.meetup.com/Kotlin-Manchester/[Kotlin Developers in Manchester^] - United Kingdom
+http://bkug.by/[Belarus Kotlin User Group^] - Belarus
+http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/[Kotlin User Group Munich^] - Deutschland
+
+=== America
+http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] - USA
+
+=== Asia
+https://kotlin.doorkeeper.jp/[Japan Kotlin User Group^] - Japan
+
+
 == Articles, Videos, Blog Posts
 === Posts
 http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html[Exploring the Kotlin Standard Library^] - Jan 22, 2013
@@ -211,7 +225,7 @@ http://kotlin.link/articles/Ubuntu-Make-16-03-Released-With-Eclipse-JEE-And-Inte
 http://kotlin.link/articles/Kotlin’s-Android-Roadmap.html[Kotlin’s Android Roadmap^] - March 2016
 http://kotlin.link/articles/Rest-API-plumbing-with-kotlin.html[Rest API plumbing with kotlin^] - March 2016
 http://kotlin.link/articles/Creating-an-AndroidWear-watchface-using-Kotlin.html[Creating an AndroidWear watchface using Kotlin^] - March 2016
-http://kotlin.link/articles/Андрей-Бреслав-и-Дмитрий-Жемеров-о-Kotlin-1-0-на-jug-msk-ru.html[Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru^] - March 2016
+http://kotlin.link/articles/RU-Андрей-Бреслав-и-Дмитрий-Жемеров-о-Kotlin-1-0-на-jug-msk-ru.html[(RU) Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru^] - March 2016
 http://kotlin.link/articles/Writing-a-RESTful-backend-using-Kotlin-and-Spring-Boot.html[Writing a RESTful backend using Kotlin and Spring Boot^] - March 2016
 http://kotlin.link/articles/How-to-Hot-Deploy-Java-Kotlin-classes-in-Dev.html[How to Hot Deploy Java/Kotlin classes in Dev^] - March 2016
 http://kotlin.link/articles/A-Geospatial-Messenger-with-Kotlin-Spring-Boot-and-PostgreSQL.html[A Geospatial Messenger with Kotlin, Spring Boot and PostgreSQL^] - March 2016
@@ -225,18 +239,18 @@ http://kotlin.link/articles/Kotlin-Retrofit-RxAndroid-Realm.html[Kotlin : Retrof
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Wrap-Up.html[Kotlin & Android: A Brass Tacks Experiment Wrap-Up^] - March 2016
 http://kotlin.link/articles/Feedback-on-the-Josephus-problem.html[Feedback on the Josephus problem^] - March 2016
 http://kotlin.link/articles/Kotlin-Month-Post-3-Safety.html[Kotlin Month Post 3: Safety^] - March 2016
-http://kotlin.link/articles/SDCast-41-в-гостях-Андрей-Бреслав-руководитель-проекта-Kotlin-в-компании-JetBrains.html[SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains^] - March 2016
+http://kotlin.link/articles/RU-SDCast-41-в-гостях-Андрей-Бреслав-руководитель-проекта-Kotlin-в-компании-JetBrains.html[(RU) SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains^] - March 2016
 http://kotlin.link/articles/Why-I-don-t-want-to-use-Kotlin-for-Android-Development-yet.html[Why I don't want to use Kotlin for Android Development yet^] - March 2016
 http://kotlin.link/articles/Getting-Started-with-Kotlin-and-Anko-on-Android.html[Getting Started with Kotlin and Anko on Android^] - March 2016
 http://kotlin.link/articles/A-DSL-Workbench-with-Gradle-and-Kotlin.html[A DSL Workbench with Gradle and Kotlin^] - March 2016
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-6.html[Kotlin & Android: A Brass Tacks Experiment, Part 6^] - March 2016
 http://kotlin.link/articles/Solving-the-Josephus-problem-in-Kotlin.html[Solving the Josephus problem in Kotlin^] - March 2016
 http://kotlin.link/articles/Kotlin-Month-Post-2-Inheritance-and-Defaults.html[Kotlin Month Post 2: Inheritance and Defaults^] - March 2016
-http://kotlin.link/articles/RU-Видео-со-встречи-JUG-ru-с-разработчиками-Kotlin.html[[RU] Видео со встречи JUG.ru с разработчиками Kotlin^] - March 2016
+http://kotlin.link/articles/RU-Видео-со-встречи-JUG-ru-с-разработчиками-Kotlin.html[(RU) Видео со встречи JUG.ru с разработчиками Kotlin^] - March 2016
 http://kotlin.link/articles/Building-a-Kotlin-project-2-2.html[Building a Kotlin project 2/2^] - March 2016
 http://kotlin.link/articles/Building-a-Kotlin-project-1-2.html[Building a Kotlin project 1/2^] - March 2016
 http://kotlin.link/articles/Kotlin-a-new-JVM-language-you-should-try.html[Kotlin: a new JVM language you should try^] - March 2016
-http://kotlin.link/articles/Kotlin-для-начинающих.html[Kotlin для начинающих^] - March 2016
+http://kotlin.link/articles/RU-Kotlin-для-начинающих.html[(RU) Kotlin для начинающих^] - March 2016
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-5.html[Kotlin & Android: A Brass Tacks Experiment, Part 5^] - March 2016
 http://kotlin.link/articles/Developing-on-Android-sucks-a-lot-less-with-Kotlin.html[Developing on Android sucks a lot less with Kotlin^] - March 2016
 
@@ -254,19 +268,19 @@ http://kotlin.link/articles/A-Very-Peculiar-but-Possibly-Cunning-Kotlin-Language
 http://kotlin.link/articles/More-Kotlin-Features-to-Love.html[More Kotlin Features to Love^] - February 2016
 http://kotlin.link/articles/Kotlin — Love-at-first-line.html[Kotlin — Love at first line^] - February 2016
 http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - February 2016
-http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[[RU] DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - February 2016
-http://kotlin.link/articles/RU-Немного-о-Kotlin.html[[RU] Немного о Kotlin.^] - February 2016
+http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - February 2016
+http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - February 2016
 http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - February 2016
-http://kotlin.link/articles/RU-Радио-Т-484.html[[RU] Радио-Т 484^] - February 2016
+http://kotlin.link/articles/RU-Радио-Т-484.html[(RU) Радио-Т 484^] - February 2016
 http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - February 2016
-http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[[RU] Kotlin 1.0. Задай вопрос команде.^] - February 2016
+http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - February 2016
 http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - February 2016
-http://kotlin.link/articles/RU-Релиз-Kotlin-1-0-языка-программирования-для-JVM-и-Android.html[[RU] Релиз Kotlin 1.0, языка программирования для JVM и Android.^] - February 2016
+http://kotlin.link/articles/RU-Релиз-Kotlin-1-0-языка-программирования-для-JVM-и-Android.html[(RU) Релиз Kotlin 1.0, языка программирования для JVM и Android.^] - February 2016
 http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - February 2016
 http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - February 2016
 http://kotlin.link/articles/JVM-Newcomer-Kotlin-1-0-is-GA.html[JVM Newcomer Kotlin 1.0 is GA^] - February 2016
 http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html[The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class^] - February 2016
-http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[[RU] Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - February 2016
+http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - February 2016
 http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - February 2016
 http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - February 2016
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - February 2016
