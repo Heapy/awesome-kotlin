@@ -21,6 +21,8 @@ const getCategoryName = name => {
     switch (name) {
         case 'webinar':
             return 'Webinars';
+        case 'slides':
+            return 'Slides';
         case 'video':
             return 'Videos';
         default:
@@ -62,4 +64,4 @@ const videos = articles.filter(it => it.type === 'video');
 const slides = articles.filter(it => it.type === 'slides');
 
 
-module.exports = getCategories([posts, webinars]);
+module.exports = getCategories([posts, webinars, videos, slides]);

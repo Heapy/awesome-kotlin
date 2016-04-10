@@ -1,6 +1,7 @@
 ---
 title: 'Kotlin DSL: Anko'
 url: https://docs.google.com/presentation/d/12mkyGQZO22kf0_6kp2K6xyFdpg0nBLqGtNcVR-cV4M8/pub
+type: slides
 categories:
     - Kotlin
     - Android
