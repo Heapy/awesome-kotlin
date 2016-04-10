@@ -742,22 +742,9 @@ const data = [{
             href: 'https://vimeo.com/105758307',
             type: 'vimeo'
         }]
-    }, {
-        name: "Webinars",
-        links: [{
-            name: 'Functional Programming with Kotlin ',
-            desc: 'Nov 5, 2015',
-            href: 'http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/',
-            type: 'webinar',
-            tags: ['fp', 'functional', 'webinar']
-        }, {
-            name: 'Quasar: Efficient and Elegant Fibers, Channels and Actors',
-            desc: 'Sep 22, 2015',
-            href: 'http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/',
-            type: 'webinar',
-            tags: ['webinar', 'fibers', 'channels', 'actors']
-        }]
     }]
 }];
+
+require("./rss/DataGenerator").forEach(category => data.push(category));
 
 module.exports = data;

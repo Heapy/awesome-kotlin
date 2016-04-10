@@ -3,7 +3,7 @@ set -e # exit with nonzero exit code if anything fails
 
 # clear and re-create the dist directory
 rm -rf dist || exit 0;
-mkdir dist;
+mkdir -p ./dist/articles;
 
 # run our compile script
 npm run ci

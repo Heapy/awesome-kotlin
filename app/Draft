@@ -39,24 +39,9 @@ https://medium.com/@ahmedrizwan
 - [Kotlin-in-Chinese](https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details)
 - [Kotlin Reference in Chinese](http://www.jianshu.com/notebooks/2822252/latest)
 
-## Quick Start
-* [Kotlin Cheat sheet Part 1](https://gist.github.com/dodyg/5823184)
-* [Kotlin Cheat Sheet Part 2](https://gist.github.com/dodyg/5616605)
-
-## Comparison of Kotlin with other languages
-* [Exploring Kotlin (vs Groovy)](http://blog.cacoethes.co.uk/software/exploring-kotlin)
-*  [Scala vs Ceylon vs Kotlin](http://blog.lunatech.com/2011/08/24/scala-ceylon-kotlin-goals)
-
 ## Kotlin with Android
 * [Using Project Kotlin for Android](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit?hl=en&forcehl=1#heading=h.96ldte2znfpc) by [Jake Wharton](https://github.com/JakeWharton)
 * [Android, Rx and Kotlin: a case study](http://beust.com/weblog/2015/03/23/android-rx-and-kotlin-a-case-study/)
-
-
-## Librairies in Kotlin
-* [Kotterknife - Butterknife for kotling: View "injection" library for Android]
- (https://github.com/JakeWharton/kotterknife)
-* [Anko : A DSL for writing Android layouts](https://github.com/JetBrains/anko)
-* [RxKotlin](https://github.com/ReactiveX/RxKotlin)
 
 ## Kotlin examples
 * [Kotlin workshop by JetBrains](https://github.com/JetBrains/workshop-jb)

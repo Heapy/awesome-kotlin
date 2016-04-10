@@ -16,6 +16,14 @@ const sortByDate = (a, b) =>  {
     }
 };
 
+const getFileName = name => {
+    const escaped = name
+        .replace(new RegExp('[/ :!,\'"`+#)(-]', 'g'), '_')
+        .replace(new RegExp('\\.', 'g'), '');
+
+    return `${escaped}.html`
+};
+
 module.exports = articlesDir
     .filter(article => !article.startsWith('.'))
     .map(article => {
@@ -33,6 +41,10 @@ module.exports = articlesDir
             throw new Error(`Metadata not complete: ${JSON.stringify(attr)}`);
         }
 
+        return article;
+    })
+    .map(article => {
+        article.attributes.filename = getFileName(article.attributes.title);
         return article;
     })
     .map(article => {
