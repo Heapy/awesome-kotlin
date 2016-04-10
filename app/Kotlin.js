@@ -609,6 +609,54 @@ const data = [{
         }]
     }]
 }, {
+    name: "Kotlin User Groups",
+    subcategories: [{
+        name: 'Europe',
+        links: [{
+            name: 'Stockholm Kotlin User Group',
+            desc: 'kug',
+            href: 'http://www.meetup.com/Stockholm-Kotlin-User-Group/',
+            type: 'kug',
+            tags: ['Sweden']
+        }, {
+            name: 'Kotlin Developers in Manchester',
+            desc: 'United Kingdom',
+            href: 'http://www.meetup.com/Kotlin-Manchester/',
+            type: 'kug',
+            tags: ['United Kingdom']
+        }, {
+            name: 'Belarus Kotlin User Group',
+            desc: 'Belarus',
+            href: 'http://bkug.by/',
+            type: 'kug',
+            tags: ['Belarus']
+        }, {
+            name: 'Kotlin User Group Munich',
+            desc: 'Deutschland',
+            href: 'http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/',
+            type: 'kug',
+            tags: ['Deutschland']
+        }]
+    }, {
+        name: 'America',
+        links: [{
+            name: 'Bay Area Kotlin User Group',
+            desc: 'USA',
+            href: 'http://www.meetup.com/Bay-Area-Kotlin-User-Group/',
+            type: 'kug',
+            tags: ['USA']
+        }]
+    }, {
+        name: 'Asia',
+        links: [{
+            name: 'Japan Kotlin User Group',
+            desc: 'Japan',
+            href: 'https://kotlin.doorkeeper.jp/',
+            type: 'kug',
+            tags: ['Japan']
+        }]
+    }]
+}, {
     name: "Articles, Videos, Blog Posts",
     subcategories: [{
         name: "Posts",
