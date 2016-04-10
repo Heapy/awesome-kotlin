@@ -18,9 +18,20 @@ const sortByDate = (a, b) =>  {
 
 const getFileName = name => {
     const escaped = name
-        .replace(new RegExp('[/ :!,\'"`+#)(-]', 'g'), '-')
-        .replace(new RegExp('-+', 'g'), '-')
-        .replace(new RegExp('\\.', 'g'), '');
+        .split('') // split string on array of symbols
+        .map(it => it.charCodeAt(0)) // convert string in corresponding codes
+        .map(code => { // replace all special symbols with dash
+            // See html codes: 32 - space, 47 - slash, 58 - colon, 64 - at, 91 - opening bracket, 96 - grave accent
+            if ((code > 31 && code < 48) || (code > 57 && code < 65) || (code > 90 && code < 97)) {
+                return '-';
+            } else {
+                return String.fromCharCode(code); // return symbol instead of his code
+            }
+        })
+        .join('')
+       .replace(new RegExp('-$', 'g'), '') // Replace last dash in string with ''
+       .replace(new RegExp('^-', 'g'), '') // Replace first dash in string with ''
+       .replace(new RegExp('-+', 'g'), '-'); // Replace multiple dashes with one dash
 
     return `${escaped}.html`
 };
