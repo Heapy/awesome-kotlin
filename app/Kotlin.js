@@ -736,30 +736,6 @@ const data = [{
             href: 'https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/',
             type: 'post',
             tags: ['builders']
-        }, {
-            name: 'Developing Spring Boot applications with Kotlin.',
-            desc: 'Feb 15, 2016',
-            href: 'https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin',
-            type: 'post',
-            tags: ['spring', 'web']
-        }, {
-            name: 'Kotlin & Android: A Brass Tacks Experiment, Part 1.',
-            desc: 'Feb 1, 2016',
-            href: 'https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-1-3e5028491bcc#.5c7ixfzdv',
-            type: 'post',
-            tags: ['android']
-        }, {
-            name: 'Kotlin & Android: A Brass Tacks Experiment, Part 2.',
-            desc: 'Feb 1, 2016',
-            href: 'https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-2-c67661cfdf5f#.4s2hprcjw',
-            type: 'post',
-            tags: ['android']
-        }, {
-            name: 'Kotlin & Android: A Brass Tacks Experiment, Part 3.',
-            desc: 'Feb 16, 2016',
-            href: 'https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h',
-            type: 'post',
-            tags: ['android']
         }]
     }]
 }];
