@@ -89,6 +89,7 @@ https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils
 === Desktop
 https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
 https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^] - Griffon Support
+https://github.com/AlmasB/FXGL[AlmasB/FXGL^] - JavaFX 8 Game Library written in Java + Kotlin
 
 === Http Clients
 https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
@@ -205,40 +206,40 @@ https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84
 === April 2016
 http://kotlin.link/articles/The-Kobalt-diaries-Automatic-Android-SDK-management.html[The Kobalt diaries: Automatic Android SDK management^] - Cédric Beust
 http://kotlin.link/articles/Kotlin-Digest-2016-Q1.html[Kotlin Digest 2016.Q1^] - Roman Belov
-http://kotlin.link/articles/Kotlin’s-killer-features.html[Kotlin’s killer features^] - Jasper Sprengers
 http://kotlin.link/articles/Kotlin-Practical-Experience.html[Kotlin: Practical Experience^] - Allen Wallis
+http://kotlin.link/articles/Kotlin’s-killer-features.html[Kotlin’s killer features^] - Jasper Sprengers
 http://kotlin.link/articles/Exploring-Delegation-in-Kotlin.html[Exploring Delegation in Kotlin^] - @codemonkeyism
 http://kotlin.link/articles/Experimental-Kotlin-and-mutation-testing.html[Experimental: Kotlin and mutation testing^] - Nicolas Frankel
 
 === March 2016
 http://kotlin.link/articles/10-Features-I-Wish-Java-Would-Steal-From-the-Kotlin-Language.html[10 Features I Wish Java Would Steal From the Kotlin Language^] - Lukas Eder
-http://kotlin.link/articles/Kotlin’s-Android-Roadmap.html[Kotlin’s Android Roadmap^] - Dmitry Jemerov
 http://kotlin.link/articles/Ubuntu-Make-16-03-Released-With-Eclipse-JEE-And-IntelliJ-IDEA-EAP-Support-More.html[Ubuntu Make 16.03 Released With Eclipse JEE And IntelliJ IDEA EAP Support, More^] - Alin Andrei
+http://kotlin.link/articles/Kotlin’s-Android-Roadmap.html[Kotlin’s Android Roadmap^] - Dmitry Jemerov
 http://kotlin.link/articles/Rest-API-plumbing-with-kotlin.html[Rest API plumbing with kotlin^] - Gaetan Zoritchak
 http://kotlin.link/articles/Creating-an-AndroidWear-watchface-using-Kotlin.html[Creating an AndroidWear watchface using Kotlin^] - Roberto Perez
-http://kotlin.link/articles/RU-Андрей-Бреслав-и-Дмитрий-Жемеров-о-Kotlin-1-0-на-jug-msk-ru.html[(RU) Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru^] - Дмитрий Белобородов
 http://kotlin.link/articles/Writing-a-RESTful-backend-using-Kotlin-and-Spring-Boot.html[Writing a RESTful backend using Kotlin and Spring Boot^] - Dimitar Kotevski
 http://kotlin.link/articles/How-to-Hot-Deploy-Java-Kotlin-classes-in-Dev.html[How to Hot Deploy Java/Kotlin classes in Dev^] - Jan Vladimir Mostert
+http://kotlin.link/articles/RU-Андрей-Бреслав-и-Дмитрий-Жемеров-о-Kotlin-1-0-на-jug-msk-ru.html[(RU) Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru^] - Дмитрий Белобородов
 http://kotlin.link/articles/A-Geospatial-Messenger-with-Kotlin-Spring-Boot-and-PostgreSQL.html[A Geospatial Messenger with Kotlin, Spring Boot and PostgreSQL^] - Sébastien Deleuze
-http://kotlin.link/articles/Kotlin-Month-Post-4-Properties.html[Kotlin Month Post 4: Properties^] - Jacob Zimmerman
 http://kotlin.link/articles/Algebraic-Data-Types-In-Kotlin.html[Algebraic Data Types In Kotlin^] - Mike Gehard
+http://kotlin.link/articles/Kotlin-Month-Post-4-Properties.html[Kotlin Month Post 4: Properties^] - Jacob Zimmerman
 http://kotlin.link/articles/Kotlin-Educational-Plugin.html[Kotlin Educational Plugin^] - Roman Belov
+http://kotlin.link/articles/Using-Kotlin-For-Tests-in-Android.html[Using Kotlin For Tests in Android^] - Sergii Zhuk
 http://kotlin.link/articles/Kotlin-1-0-1-is-Here.html[Kotlin 1.0.1 is Here!^] - Andrey Breslav
 http://kotlin.link/articles/Kotlin-recipes-for-Android-I-OnGlobalLayoutListener.html[Kotlin recipes for Android (I): OnGlobalLayoutListener^] - Antonio Leiva
-http://kotlin.link/articles/Using-Kotlin-For-Tests-in-Android.html[Using Kotlin For Tests in Android^] - Sergii Zhuk
 http://kotlin.link/articles/Kotlin-Retrofit-RxAndroid-Realm.html[Kotlin : Retrofit + RxAndroid + Realm^] - Ahmed Rizwan
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Wrap-Up.html[Kotlin & Android: A Brass Tacks Experiment Wrap-Up^] - Doug Stevenson
-http://kotlin.link/articles/Feedback-on-the-Josephus-problem.html[Feedback on the Josephus problem^] - Nicolas Frankel
 http://kotlin.link/articles/Kotlin-Month-Post-3-Safety.html[Kotlin Month Post 3: Safety^] - Jacob Zimmerman
-http://kotlin.link/articles/Why-I-don-t-want-to-use-Kotlin-for-Android-Development-yet.html[Why I don't want to use Kotlin for Android Development yet^] - Artem Zinnatullin
+http://kotlin.link/articles/Feedback-on-the-Josephus-problem.html[Feedback on the Josephus problem^] - Nicolas Frankel
 http://kotlin.link/articles/RU-SDCast-41-в-гостях-Андрей-Бреслав-руководитель-проекта-Kotlin-в-компании-JetBrains.html[(RU) SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains^] - Андрей Бреслав, Константин Буркалев
+http://kotlin.link/articles/Why-I-don-t-want-to-use-Kotlin-for-Android-Development-yet.html[Why I don't want to use Kotlin for Android Development yet^] - Artem Zinnatullin
 http://kotlin.link/articles/Getting-Started-with-Kotlin-and-Anko-on-Android.html[Getting Started with Kotlin and Anko on Android^] - Donn Felker
 http://kotlin.link/articles/A-DSL-Workbench-with-Gradle-and-Kotlin.html[A DSL Workbench with Gradle and Kotlin^] - Eugene Petrenko
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-6.html[Kotlin & Android: A Brass Tacks Experiment, Part 6^] - Doug Stevenson
 http://kotlin.link/articles/Solving-the-Josephus-problem-in-Kotlin.html[Solving the Josephus problem in Kotlin^] - Nicolas Franke
 http://kotlin.link/articles/Kotlin-Month-Post-2-Inheritance-and-Defaults.html[Kotlin Month Post 2: Inheritance and Defaults^] - Jacob Zimmerman
-http://kotlin.link/articles/Building-a-Kotlin-project-1-2.html[Building a Kotlin project 1/2^] - Ciro Rizzo
 http://kotlin.link/articles/Building-a-Kotlin-project-2-2.html[Building a Kotlin project 2/2^] - Ciro Rizzo
+http://kotlin.link/articles/Building-a-Kotlin-project-1-2.html[Building a Kotlin project 1/2^] - Ciro Rizzo
 http://kotlin.link/articles/RU-Видео-со-встречи-JUG-ru-с-разработчиками-Kotlin.html[(RU) Видео со встречи JUG.ru с разработчиками Kotlin^] - JetBrains
 http://kotlin.link/articles/Kotlin-a-new-JVM-language-you-should-try.html[Kotlin: a new JVM language you should try^] - Rafal Gancarz
 http://kotlin.link/articles/RU-Kotlin-для-начинающих.html[(RU) Kotlin для начинающих^] - @Devcolibri
@@ -246,42 +247,42 @@ http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-5.html[
 http://kotlin.link/articles/Developing-on-Android-sucks-a-lot-less-with-Kotlin.html[Developing on Android sucks a lot less with Kotlin^] - Kuno Qing
 
 === February 2016
-http://kotlin.link/articles/Как-себе-выстрелить-в-ногу-в-Kotlin.html[Как себе выстрелить в ногу в Kotlin^] - @ov7a
 http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-part-3-Data-Classes.html[The Journey of a Spring Boot application from Java 8 to Kotlin, part 3: Data Classes^] - Mike Gehard
+http://kotlin.link/articles/Как-себе-выстрелить-в-ногу-в-Kotlin.html[Как себе выстрелить в ногу в Kotlin^] - @ov7a
 http://kotlin.link/articles/Kotlin-and-Ceylon.html[Kotlin and Ceylon^] - Elvira
 http://kotlin.link/articles/Kotlin-Month-Post-1-Assorted-Features.html[Kotlin Month Post 1: Assorted Features^] - Jacob Zimmerman
 http://kotlin.link/articles/Kotlin-2-Years-On.html[Kotlin - 2 Years On^] - James Hughes
-http://kotlin.link/articles/Kotlin-1-0-is-finally-released.html[Kotlin 1.0 is finally released!^] - Jacob Zimmerman
 http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-part-2-Configuration-Classes.html[The Journey of a Spring Boot application from Java 8 to Kotlin, part 2: Configuration Classes^] - Mike Gehard
 http://kotlin.link/articles/An-Introduction-to-Kotlin.html[An Introduction to Kotlin^] - Mike Plummer
+http://kotlin.link/articles/Kotlin-1-0-is-finally-released.html[Kotlin 1.0 is finally released!^] - Jacob Zimmerman
+http://kotlin.link/articles/More-Kotlin-Features-to-Love.html[More Kotlin Features to Love^] - Jim Baca
 http://kotlin.link/articles/A-Very-Peculiar-but-Possibly-Cunning-Kotlin-Language-Feature.html[A Very Peculiar, but Possibly Cunning Kotlin Language Feature.^] - Lukas Eder
 http://kotlin.link/articles/Kotlin-Easily-storing-a-list-in-SharedPreferences-with-Custom-Accessors.html[Kotlin: Easily storing a list in SharedPreferences with Custom Accessors^] - Dennis Lysenko
-http://kotlin.link/articles/More-Kotlin-Features-to-Love.html[More Kotlin Features to Love^] - Jim Baca
 http://kotlin.link/articles/Kotlin — Love-at-first-line.html[Kotlin — Love at first line^] - Dimitar Kotevski
-http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
-http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
-http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
 http://kotlin.link/articles/RU-Радио-Т-484.html[(RU) Радио-Т 484^] - Umputun, Bobuk, Gray, Ksenks
 http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
+http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
+http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
+http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
 http://kotlin.link/articles/RU-Релиз-Kotlin-1-0-языка-программирования-для-JVM-и-Android.html[(RU) Релиз Kotlin 1.0, языка программирования для JVM и Android.^] - Open Source
-http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - Andrey Breslav
-http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - Sébastien Deleuze
 http://kotlin.link/articles/JVM-Newcomer-Kotlin-1-0-is-GA.html[JVM Newcomer Kotlin 1.0 is GA^] - Lucy Carey
+http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - Sébastien Deleuze
+http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - Andrey Breslav
 http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html[The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class^] - Mike Gehard
-http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Any
-http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - Andrey Breslav
-http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
 http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
+http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
+http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - Andrey Breslav
 http://kotlin.link/articles/Kotlin-Coding.html[Kotlin Coding^] - Ciro Rizzo
+http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff
 
 === January 2016
 http://kotlin.link/articles/KillerTask-the-solution-to-AsyncTask-implementation.html[KillerTask, the solution to AsyncTask implementation^] - Fernando Ramirez
 http://kotlin.link/articles/My-Kotlin-Adventure.html[My Kotlin Adventure^] - Ciro Rizzo
-http://kotlin.link/articles/Kotlin-the-somewhat-obscure-modern-Android-friendly-programming-language.html[Kotlin, the somewhat obscure modern Android-friendly programming language^] - Brandon Kase
 http://kotlin.link/articles/Android-development-with-Kotlin.html[Android development with Kotlin^] - Fernando Ramirez
+http://kotlin.link/articles/Kotlin-the-somewhat-obscure-modern-Android-friendly-programming-language.html[Kotlin, the somewhat obscure modern Android-friendly programming language^] - Brandon Kase
 http://kotlin.link/articles/Kotlin-XML-Binding.html[Kotlin XML Binding^] - Eugene Petrenko
 
 === December 2015
@@ -294,8 +295,8 @@ http://kotlin.link/articles/Setting-up-Kotlin-with-Android-and-tests.html[Settin
 http://kotlin.link/articles/Exploring-the-Kotlin-standard-library.html[Exploring the Kotlin standard library^] - Cédric Beust
 
 === June 2015
-http://kotlin.link/articles/RxAndroid-and-Kotlin-Part-1.html[RxAndroid and Kotlin (Part 1)^] - Ahmed Rizwan
 http://kotlin.link/articles/Exploring-Kotlin.html[Exploring Kotlin^] - Peter Ledbrook
+http://kotlin.link/articles/RxAndroid-and-Kotlin-Part-1.html[RxAndroid and Kotlin (Part 1)^] - Ahmed Rizwan
 
 
 == Webinars

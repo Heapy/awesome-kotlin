@@ -283,6 +283,12 @@ const data = [{
             href: 'https://github.com/griffon/griffon-kotlin-plugin',
             type: 'github',
             tags: ['griffon']
+        }, {
+            name: 'AlmasB/FXGL',
+            desc: 'JavaFX 8 Game Library written in Java + Kotlin',
+            href: 'https://github.com/AlmasB/FXGL',
+            type: 'github',
+            tags: ['javafx', 'desktop', 'games']
         }]
     }, {
         name: 'Http Clients',

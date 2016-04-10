@@ -4,7 +4,7 @@ const markdown = require('./markdown');
 const articlesDir = fs.readdirSync('./app/rss/articles');
 const moment = require('moment');
 
-const parseDate = date => moment(date, 'MMM DD, YYYY');
+const parseDate = date => moment(date, 'MMM DD, YYYY hh:mm');
 
 const sortByDate = (a, b) =>  {
     if (parseDate(a.date).isBefore(parseDate(b.date))) {

@@ -1,5 +1,3 @@
-
-https://github.com/AlmasB/FXGL
 https://medium.com/@ahmedrizwan
 
 ## Tutorials
@@ -23,12 +21,6 @@ https://medium.com/@ahmedrizwan
 - [Swift is like Kotlin](http://nilhcem.github.io/swift-is-like-kotlin/)
 - [Backlog Android: From Java to Kotlin With Lots of Fun](https://nulab-inc.com/blog/nulab/backlog-android-from-java-to-kotlin-with-lots-of-fun/)
 - [Type-safe Web with Kotlin](https://jaxenter.com/type-safe-web-with-kotlin-106187.html)
-
-## Videos
-- [Advancing Android Development with Kotlin](https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/)
-- [Functional Programming with Kotlin](https://www.youtube.com/watch?v=AhA-Q7MOre0&feature=youtu.be)
-- [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
-- [Programming Android with Kotlin](https://www.youtube.com/watch?v=011AL3Z6VmM&feature=youtu.be)
 
 ## Tools
 - [kotlin-plugin-eclipse](https://marketplace.eclipse.org/content/kotlin-plugin-eclipse) - The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.
@@ -60,7 +52,6 @@ https://medium.com/@ahmedrizwan
 * [Advancing Development with Kotlin (Droidcon UK 2015) by Jake Wharton](https://speakerdeck.com/jakewharton/advancing-development-with-kotlin-droidcon-uk-2015)
 * [10 Extension Functions of Kotlin in Android Development](https://speakerdeck.com/magiepooh/10-extension-functions-of-kotlin-in-android-development)
 
-
 ## Videos
 * [Kotlin: Practical Aspects of JVM Language Implementation](https://www.youtube.com/watch?v=SdvFwRmyVRM)
 * [Using Kotlin in an existing Java code base](https://www.youtube.com/watch?v=eDHUabQMRb4)
@@ -71,8 +62,9 @@ https://medium.com/@ahmedrizwan
 * [Introduction to Kotlin: Making the Java Platform a Better Place](https://www.youtube.com/watch?v=sP9R9Nc3sRA)
 * [Advanced Kotlin: New Features and More](https://www.youtube.com/watch?v=rwsvbSve_BI)
 * [Functional Programming with Kotlin](https://www.youtube.com/watch?v=AhA-Q7MOre0)
-* [Kotlin: Practical Aspects of JVM Language Implementation](https://www.youtube.com/watch?v=SdvFwRmyVRM)
 * [Advancing Android Development with the Kotlin Language
 ](http://jakewharton.com/presentation/2015-11-06-oredev/)
 * [Advancing Development with the Kotlin Language at Droidcon London](https://skillsmatter.com/skillscasts/6651-advancing-development-with-the-kotlin-language)
-
+* [Advancing Android Development with Kotlin](https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/)
+* [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
+* [Programming Android with Kotlin](https://www.youtube.com/watch?v=011AL3Z6VmM&feature=youtu.be)
