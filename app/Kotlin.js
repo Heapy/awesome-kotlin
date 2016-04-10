@@ -614,7 +614,7 @@ const data = [{
         name: 'Europe',
         links: [{
             name: 'Stockholm Kotlin User Group',
-            desc: 'kug',
+            desc: 'Sweden',
             href: 'http://www.meetup.com/Stockholm-Kotlin-User-Group/',
             type: 'kug',
             tags: ['Sweden']
