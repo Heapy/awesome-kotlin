@@ -3,9 +3,9 @@ title: '10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming'
 url: http://petersommerhoff.com/dev/kotlin/kotlin-beginner-tutorial/
 categories:
     - Kotlin
-    -
-author: Any
-date: Feb 04, 2016 21:54
+    - Videos
+author: Peter Sommerhoff
+date: Feb 02, 2016 17:37
 ---
 
 # 10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming
