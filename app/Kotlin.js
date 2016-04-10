@@ -730,12 +730,6 @@ const data = [{
             href: 'https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin',
             type: 'post',
             tags: ['vaadin', 'spring', 'web']
-        }, {
-            name: 'Mimicking Kotlin Builders in Java and Python.',
-            desc: 'Jan 16, 2016',
-            href: 'https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/',
-            type: 'post',
-            tags: ['builders']
         }]
     }]
 }];

@@ -195,11 +195,6 @@ https://realm.io/news/droidcon-michael-pardo-kotlin/[Kotlin: New Hope in a Java 
 https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP^] - Sep 18, 2015
 http://kotlin4android.com/[Blog about Kotlin language and Android development.^] - Oct 21, 2015
 https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
-https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.^] - Jan 16, 2016
-https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin[Developing Spring Boot applications with Kotlin.^] - Feb 15, 2016
-https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-1-3e5028491bcc#.5c7ixfzdv[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Feb 1, 2016
-https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-2-c67661cfdf5f#.4s2hprcjw[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Feb 1, 2016
-https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Feb 16, 2016
 
 
 == Articles, Blog Posts
@@ -266,21 +261,25 @@ http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного
 http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
+http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
 http://kotlin.link/articles/RU-Релиз-Kotlin-1-0-языка-программирования-для-JVM-и-Android.html[(RU) Релиз Kotlin 1.0, языка программирования для JVM и Android.^] - Open Source
 http://kotlin.link/articles/JVM-Newcomer-Kotlin-1-0-is-GA.html[JVM Newcomer Kotlin 1.0 is GA^] - Lucy Carey
 http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - Sébastien Deleuze
 http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - Andrey Breslav
 http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html[The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class^] - Mike Gehard
-http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
+http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - Andrey Breslav
 http://kotlin.link/articles/Kotlin-Coding.html[Kotlin Coding^] - Ciro Rizzo
 http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff
+http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-2.html[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Doug Stevenson
+http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-1.html[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Doug Stevenson
 
 === January 2016
 http://kotlin.link/articles/KillerTask-the-solution-to-AsyncTask-implementation.html[KillerTask, the solution to AsyncTask implementation^] - Fernando Ramirez
 http://kotlin.link/articles/My-Kotlin-Adventure.html[My Kotlin Adventure^] - Ciro Rizzo
+http://kotlin.link/articles/Mimicking-Kotlin-Builders-in-Java-and-Python.html[Mimicking Kotlin Builders in Java and Python^] - Jacob Zimmerman
 http://kotlin.link/articles/Android-development-with-Kotlin.html[Android development with Kotlin^] - Fernando Ramirez
 http://kotlin.link/articles/Kotlin-the-somewhat-obscure-modern-Android-friendly-programming-language.html[Kotlin, the somewhat obscure modern Android-friendly programming language^] - Brandon Kase
 http://kotlin.link/articles/Kotlin-XML-Binding.html[Kotlin XML Binding^] - Eugene Petrenko
