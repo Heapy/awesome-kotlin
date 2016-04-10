@@ -41,7 +41,7 @@ const getCategory = entities => {
                 links: groups[group].map(it => {
                     return {
                         name: it.title,
-                        desc: formatDate(it.date),
+                        desc: it.author,
                         href: `http://kotlin.link/articles/${it.filename}`,
                         type: it.type || 'article',
                         tags: it.categories
