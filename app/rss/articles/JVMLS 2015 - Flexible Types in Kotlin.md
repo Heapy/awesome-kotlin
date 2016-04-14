@@ -5,7 +5,7 @@ type: video
 categories:
     - Kotlin
 author: Andrey Breslav
-date: Aug 12, 2016 21:54
+date: Aug 12, 2015 21:54
 ---
 
 <iframe width="960" height="480" src="https://www.youtube.com/embed/2IhT8HACc2E" frameborder="0" allowfullscreen></iframe>
