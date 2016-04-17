@@ -120,7 +120,7 @@ The old way doesn’t work any more and prints fixing instructions to the output
 For the users of IntelliJ IDEA, automatic updates may not work in the IDE, so you’ll need to download the plugin and install it from a zip file:
 
 *   Download [here](https://plugins.jetbrains.com/plugin/download?pr=&updateId=23813)
-*   Go to _Preferences | Plugins_ and click _Install plugin from disk…_
+*   Go to _Preferences | Plugins_ and click _Install plugin from disk..._
 
 Sorry for the inconvenience.
 

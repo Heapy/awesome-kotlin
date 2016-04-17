@@ -69,7 +69,7 @@ While designing my framework. I decided that I shouldn’t be using plain Java f
 
 Luckily there’s Kotlin, which is becoming a rising start in Android development. Kotlin is modern JVM language that provides modern language features which are missing in Java. It heavily reduces the boilerplate code and it’s interoperable with Java. It works great with Android and it’s supported in Android Studio (Kotlin was created by JetBrains, the maker of IntelliJ IDEA).
 
-#### **And LatteKit Was Born…**
+#### **And LatteKit Was Born...**
 
 There’s so much to talk about LatteKit and how I built it. The concept should be clear though. If you know minimal Kotlin & CSS with Android knowledge, you should be able to pick up the concept quickly. I created a quick example & documentation in the github repository. There is also a full sample which shows how much lines of code you will save when using the library, it’s really a lot. Available at:
 
