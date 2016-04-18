@@ -179,26 +179,13 @@ http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] -
 https://kotlin.doorkeeper.jp/[Japan Kotlin User Group^] - Japan
 
 
-== Articles, Videos, Blog Posts
-=== Posts
-http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html[Exploring the Kotlin Standard Library^] - Jan 22, 2013
-http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/[The Adventurous Developer’s Guide to JVM languages – Kotlin^] - Jan 23, 2013
-http://www.oracle.com/technetwork/articles/java/breslav-1932170.html[The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav^] - Apr 02, 2013
-http://alexshabanov.com/category/languages/kotlin/[Non-trivial constructors in Kotlin^] - Dec 01, 2014
-http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/[Quasar and Kotlin – a Powerful Match^] - Jun 04, 2015
-https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language^] - Jul 06, 2015
-http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3^] - Jul 20, 2015
-https://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)^] - Jul 31, 2015
-http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/[Building APIs on the JVM Using Kotlin and Spark – Part 1^] - Aug 06, 2015
-https://www.linkedin.com/grp/post/7417237-6042285669181648896[Production Ready Kotlin^] - Aug 26, 2015
-https://realm.io/news/droidcon-michael-pardo-kotlin/[Kotlin: New Hope in a Java 6 Wasteland^] - Aug 27, 2015
-https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP^] - Sep 18, 2015
-http://kotlin4android.com/[Blog about Kotlin language and Android development.^] - Oct 21, 2015
-https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
-
-
 == Articles, Blog Posts
 === April 2016
+http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
+http://kotlin.link/articles/Few-thoughts-about-Kotlin-and-why-I-like-it-so-much.html[Few thoughts about Kotlin and why I like it so much^] - Dhananjay Nene
+http://kotlin.link/articles/Kotlin-for-Scala-Developers.html[Kotlin for Scala Developers^] - Stephen Samuel
+http://kotlin.link/articles/Kotlin-Post-1-0-Roadmap.html[Kotlin Post-1.0 Roadmap^] - Dmitry Jemerov
+http://kotlin.link/articles/Making-Android-Development-Easier.html[Making Android Development Easier^] - Maan Najjar
 http://kotlin.link/articles/The-Kobalt-diaries-Automatic-Android-SDK-management.html[The Kobalt diaries: Automatic Android SDK management^] - Cédric Beust
 http://kotlin.link/articles/Kotlin-Digest-2016-Q1.html[Kotlin Digest 2016.Q1^] - Roman Belov
 http://kotlin.link/articles/Kotlin-Practical-Experience.html[Kotlin: Practical Experience^] - Allen Wallis
@@ -282,6 +269,7 @@ http://kotlin.link/articles/My-Kotlin-Adventure.html[My Kotlin Adventure^] - Cir
 http://kotlin.link/articles/Mimicking-Kotlin-Builders-in-Java-and-Python.html[Mimicking Kotlin Builders in Java and Python^] - Jacob Zimmerman
 http://kotlin.link/articles/Android-development-with-Kotlin.html[Android development with Kotlin^] - Fernando Ramirez
 http://kotlin.link/articles/Kotlin-the-somewhat-obscure-modern-Android-friendly-programming-language.html[Kotlin, the somewhat obscure modern Android-friendly programming language^] - Brandon Kase
+http://kotlin.link/articles/Playing-with-Spring-Boot-Vaadin-and-Kotlin.html[Playing with Spring Boot, Vaadin and Kotlin^] - Nicolas Frankel
 http://kotlin.link/articles/Kotlin-XML-Binding.html[Kotlin XML Binding^] - Eugene Petrenko
 
 === December 2015
@@ -293,9 +281,35 @@ http://kotlin.link/articles/Setting-up-Kotlin-with-Android-and-tests.html[Settin
 === October 2015
 http://kotlin.link/articles/Exploring-the-Kotlin-standard-library.html[Exploring the Kotlin standard library^] - Cédric Beust
 
+=== September 2015
+http://kotlin.link/articles/Kotlin-❤-FP.html[Kotlin ❤ FP^] - Mike Hearn
+
+=== August 2015
+http://kotlin.link/articles/Building-APIs-on-the-JVM-Using-Kotlin-and-Spark-–-Part-1.html[Building APIs on the JVM Using Kotlin and Spark – Part 1^] - Travis Spencer
+
+=== July 2015
+http://kotlin.link/articles/RU-Без-слайдов-интервью-с-Дмитрием-Жемеровым-из-JetBrains.html[(RU) Без слайдов: интервью с Дмитрием Жемеровым из JetBrains^] - Алексей Фёдоров
+http://kotlin.link/articles/Android-Kotlin-3.html[Android + Kotlin = <3^] - Michael Sattler
+http://kotlin.link/articles/Why-Kotlin-is-my-next-programming-language.html[Why Kotlin is my next programming language^] - Mike Hearn
+
 === June 2015
 http://kotlin.link/articles/Exploring-Kotlin.html[Exploring Kotlin^] - Peter Ledbrook
 http://kotlin.link/articles/RxAndroid-and-Kotlin-Part-1.html[RxAndroid and Kotlin (Part 1)^] - Ahmed Rizwan
+http://kotlin.link/articles/Quasar-and-Kotlin-a-Powerful-Match.html[Quasar and Kotlin - a Powerful Match^] - Fabio
+
+=== December 2014
+http://kotlin.link/articles/Non-trivial-constructors-in-Kotlin.html[Non-trivial constructors in Kotlin^] - Alex Shabanov
+
+=== April 2013
+http://kotlin.link/articles/The-Advent-of-Kotlin-A-Conversation-with-JetBrains-Andrey-Breslav.html[The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav^] - Janice J. Heiss
+
+=== February 2013
+http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-3.html[Exploring the Kotlin Standard Library - Part 3^] - Jamie McCrindle
+
+=== January 2013
+http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-2.html[Exploring the Kotlin Standard Library - Part 2^] - Jamie McCrindle
+http://kotlin.link/articles/The-Adventurous-Developer’s-Guide-to-JVM-languages-–-Kotlin.html[The Adventurous Developer’s Guide to JVM languages – Kotlin^] - Simon Maple
+http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-1.html[Exploring the Kotlin Standard Library - Part 1^] - Jamie McCrindle
 
 
 == Webinars
@@ -307,14 +321,14 @@ http://kotlin.link/articles/Quasar-Efficient-and-Elegant-Fibers-Channels-and-Act
 
 
 == Videos
-=== October 2016
-http://kotlin.link/articles/Kotlin-NoSQL-for-MongoDB-in-Action.html[Kotlin NoSQL for MongoDB in Action^] - Andrey Cheptsov
-
-=== August 2016
-http://kotlin.link/articles/JVMLS-2015-Flexible-Types-in-Kotlin.html[JVMLS 2015 - Flexible Types in Kotlin^] - Andrey Breslav
-
 === January 2016
 http://kotlin.link/articles/Fun-with-Kotlin.html[Fun with Kotlin^] - Eder Bastos
+
+=== October 2015
+http://kotlin.link/articles/Kotlin-NoSQL-for-MongoDB-in-Action.html[Kotlin NoSQL for MongoDB in Action^] - Andrey Cheptsov
+
+=== August 2015
+http://kotlin.link/articles/JVMLS-2015-Flexible-Types-in-Kotlin.html[JVMLS 2015 - Flexible Types in Kotlin^] - Andrey Breslav
 
 === December 2014
 http://kotlin.link/articles/Kotlin-for-Java-developers.html[Kotlin for Java developers^] - Hadi Hariri
@@ -329,6 +343,9 @@ http://kotlin.link/articles/Kotlin-vs-Java-puzzlers.html[Kotlin vs Java puzzlers
 == Slides
 === April 2016
 http://kotlin.link/articles/Kotlin-DSL-Anko.html[Kotlin DSL: Anko^] - @maciekjanusz
+
+=== May 2015
+http://kotlin.link/articles/Kotlin-New-Hope-in-a-Java-6-Wasteland.html[Kotlin: New Hope in a Java 6 Wasteland^] - Michael Pardo
 
 
 
