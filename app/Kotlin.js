@@ -667,10 +667,6 @@ const data = [{
     subcategories: [{
         name: "Posts",
         links: [{
-            name: 'Building APIs on the JVM Using Kotlin and Spark – Part 1',
-            desc: 'Aug 06, 2015',
-            href: 'http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/'
-        }, {
             name: 'Production Ready Kotlin',
             desc: 'Aug 26, 2015',
             href: 'https://www.linkedin.com/grp/post/7417237-6042285669181648896'
