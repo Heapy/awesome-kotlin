@@ -1,6 +1,6 @@
 ---
-title: ''
-url: url
+title: 'Quasar and Kotlin - a Powerful Match'
+url: http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/
 categories:
     - Kotlin
     - Quasar

@@ -1,5 +1,5 @@
 ---
-title: 'The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav'
+title: 'The Advent of Kotlin: A Conversation with JetBrains'' Andrey Breslav'
 url: http://www.oracle.com/technetwork/articles/java/breslav-1932170.html
 categories:
     - Kotlin
