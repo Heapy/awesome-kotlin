@@ -5,7 +5,7 @@ before_script:
   - nvm install 5
   - npm install
 script:
-  - awesome_bot README.adoc --white-list http://kotlin.link/,http://bkug.by/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.linkedin.com/grp/post/7417237-6042285669181648896
+  - awesome_bot README.adoc --white-list http://kotlin.link/,http://bkug.by/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT
   - bash ./deploy.sh
 cache:
   directories:

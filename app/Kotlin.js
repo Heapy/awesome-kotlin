@@ -662,37 +662,6 @@ const data = [{
             tags: ['Japan']
         }]
     }]
-}, {
-    name: "Articles, Videos, Blog Posts",
-    subcategories: [{
-        name: "Posts",
-        links: [{
-            name: 'Production Ready Kotlin',
-            desc: 'Aug 26, 2015',
-            href: 'https://www.linkedin.com/grp/post/7417237-6042285669181648896'
-        }, {
-            name: 'Kotlin: New Hope in a Java 6 Wasteland',
-            desc: 'Aug 27, 2015',
-            href: 'https://realm.io/news/droidcon-michael-pardo-kotlin/'
-        }, {
-            name: 'Kotlin ❤ FP',
-            desc: 'Sep 18, 2015',
-            href: 'https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a',
-            tags: ['functional']
-        }, {
-            name: 'Blog about Kotlin language and Android development.',
-            desc: 'Oct 21, 2015',
-            href: 'http://kotlin4android.com/',
-            type: 'blog',
-            tags: ['android']
-        }, {
-            name: 'Playing with Spring Boot, Vaadin and Kotlin.',
-            desc: 'Jan 10, 2016',
-            href: 'https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin',
-            type: 'post',
-            tags: ['vaadin', 'spring', 'web']
-        }]
-    }]
 }];
 
 require("./rss/DataGenerator").forEach(category => data.push(category));

@@ -18,7 +18,7 @@ The IDE support was the first ‘challenge’ I was faced with. As an Eclipse us
 
 ### Elegant coding
 
-Coding in Kotlin really does provide some very elegant code. It removes the need for null checks, uses primary constructors, smart casts, range expressions… the list goes on. Let’s take a look at an example.
+Coding in Kotlin really does provide some very elegant code. It removes the need for null checks, uses primary constructors, smart casts, range expressions... the list goes on. Let’s take a look at an example.
 
 From my Java background I did like the combination of the `is`/`as` casting with the `when` structure. In Java terms, consider them as `instance of`, cast – `(A) obj` and `case` respectively. The `is` usage will also infer a cast if you go ahead and use the object straight away. E.g: `if (stream is Reader) stream.close()` In this example, the `stream.close()` is being called via the `Reader` interface. This would be the same as saying `if (stream is Reader) (stream as Reader).close()` but the extra code is not needed. This in combination with when allows you to switch over a variable, but not just using its value as you can get a richer involvement. Consider the following:
 
@@ -83,7 +83,7 @@ val l = b.length() // error: variable 'b' can be null
 
 By knowing which vars can be null, the Kotlin compiler mandates that when you dereference a nullable type, you do so using one of the following methods:
 
-Hmmm, I’m half way through writing this blog post and I’ve not mentioned anything that’s strikingly new or innovative… let’s continue and see how we go.
+Hmmm, I’m half way through writing this blog post and I’ve not mentioned anything that’s strikingly new or innovative... let’s continue and see how we go.
 
 Safe calls in Kotlin are very similar to those in Groovy, including the notation. By dereferencing a nullable type using ‘`.?`‘ like in the example below, tells the compiler to call length on object b, unless it is null, in which case do nothing.
 
@@ -107,7 +107,7 @@ This example extends the `Int` class to return the absolute value it contains.
 
 Functions are very powerful and are well used on the JVM in many languages (Still not in Java, until Java 8). Kotlin also allows the use of higher order functions which means you can pass a function as an argument to a method call (function literal).
 
-Almost at the end now, and still nothing that I would call really stand out, knee smackingly amazing. Don’t misunderstand my point, I think Kotlin is a very nice language but so far it’s been getting that way by extracting pieces of existing languages and putting a new spin on it. Maybe this is to be expected given the exposure the JetBrains team have had to all the existing languages they support, and maybe this is what they intended to produce. Do we need extra languages to please every persons development style in the development community? Maybe… Maybe not.
+Almost at the end now, and still nothing that I would call really stand out, knee smackingly amazing. Don’t misunderstand my point, I think Kotlin is a very nice language but so far it’s been getting that way by extracting pieces of existing languages and putting a new spin on it. Maybe this is to be expected given the exposure the JetBrains team have had to all the existing languages they support, and maybe this is what they intended to produce. Do we need extra languages to please every persons development style in the development community? Maybe... Maybe not.
 
 ### Documentation/Help
 
