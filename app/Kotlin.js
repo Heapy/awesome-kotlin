@@ -667,14 +667,6 @@ const data = [{
     subcategories: [{
         name: "Posts",
         links: [{
-            name: 'Android + Kotlin = <3',
-            desc: '',
-            href: ''
-        }, {
-            name: 'Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)',
-            desc: 'Jul 31, 2015',
-            href: 'https://habrahabr.ru/company/jugru/blog/263905/'
-        }, {
             name: 'Building APIs on the JVM Using Kotlin and Spark – Part 1',
             desc: 'Aug 06, 2015',
             href: 'http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/'
