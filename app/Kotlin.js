@@ -668,8 +668,8 @@ const data = [{
         name: "Posts",
         links: [{
             name: 'Android + Kotlin = <3',
-            desc: 'Jul 20, 2015',
-            href: 'http://blog.zuehlke.com/en/android-kotlin/'
+            desc: '',
+            href: ''
         }, {
             name: 'Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)',
             desc: 'Jul 31, 2015',

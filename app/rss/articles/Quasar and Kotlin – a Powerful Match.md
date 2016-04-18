@@ -17,71 +17,71 @@ Following the release of [Kotlin M12](http://blog.jetbrains.com/kotlin/2015/05/k
 Enabling Quasar support for Kotlin in your project is as easy as adding `quasar-kotlin` as a dependency and using one of Kotlin plugins for build systems, for example [Gradle’s](http://kotlinlang.org/docs/reference/using-gradle.html). We’ll start from a bird’s-eye view of our [ping-pong actor test](https://github.com/puniverse/quasar/blob/master/quasar-kotlin/src/test/kotlin/co/paralleluniverse/kotlin/actors/PingPong.kt) and then we’ll zoom in:
 
 ```kotlin
-    data class Msg(val txt: String, val from: ActorRef<Any?>)
+data class Msg(val txt: String, val from: ActorRef<Any?>)
 
-    class Ping(val n: Int) : Actor() {
-        Suspendable override fun doRun() {
-            val pong = ActorRegistry.getActor<Any?>("pong")
-            for(i in 1..n) {
-                pong.send(Msg("ping", self()))          // Fiber-blocking
-                receive {                               // Fiber-blocking
-                    when (it) {
-                        "pong" -> println("Ping received pong")
-                        else -> null                    // Discard
-                    }
+class Ping(val n: Int) : Actor() {
+    Suspendable override fun doRun() {
+        val pong = ActorRegistry.getActor<Any?>("pong")
+        for(i in 1..n) {
+            pong.send(Msg("ping", self()))          // Fiber-blocking
+            receive {                               // Fiber-blocking
+                when (it) {
+                    "pong" -> println("Ping received pong")
+                    else -> null                    // Discard
                 }
             }
-            pong.send("finished")                       // Fiber-blocking
-            println("Ping exiting")
         }
+        pong.send("finished")                       // Fiber-blocking
+        println("Ping exiting")
     }
+}
 
-    class Pong() : Actor() {
-        Suspendable override fun doRun() {
-            while (true) {
-                // snippet Kotlin Actors example
-                receive(1000, TimeUnit.MILLISECONDS) {  // Fiber-blocking
-                    when (it) {
-                        is Msg -> {
-                            if (it.txt == "ping")
-                                it.from.send("pong")    // Fiber-blocking
-                        }
-                        "finished" -> {
-                            println("Pong received 'finished', exiting")
-                            return                      // Non-local return, exit actor
-                        }
-                        is Timeout -> {
-                            println("Pong timeout in 'receive', exiting")
-                            return                      // Non-local return, exit actor
-                        }
-                        else -> defer()
+class Pong() : Actor() {
+    Suspendable override fun doRun() {
+        while (true) {
+            // snippet Kotlin Actors example
+            receive(1000, TimeUnit.MILLISECONDS) {  // Fiber-blocking
+                when (it) {
+                    is Msg -> {
+                        if (it.txt == "ping")
+                            it.from.send("pong")    // Fiber-blocking
                     }
+                    "finished" -> {
+                        println("Pong received 'finished', exiting")
+                        return                      // Non-local return, exit actor
+                    }
+                    is Timeout -> {
+                        println("Pong timeout in 'receive', exiting")
+                        return                      // Non-local return, exit actor
+                    }
+                    else -> defer()
                 }
-                // end of snippet
             }
+            // end of snippet
         }
     }
+}
 
-    public class Tests {
-        Test public fun testActors() {
-            spawn(register("pong", Pong()))
-            spawn(Ping(3))
-        }
+public class Tests {
+    Test public fun testActors() {
+        spawn(register("pong", Pong()))
+        spawn(Ping(3))
     }
+}
 ```
 
 ## Data
 
 ```kotlin
-    data class Msg(val txt: String = "Hello", val from: ActorRef<Any?>)
+data class Msg(val txt: String = "Hello", val from: ActorRef<Any?>)
 ```
 
 Yes, Kotlin supports [data classes](http://kotlinlang.org/docs/reference/data-classes.html). This means that when you need a one-liner to hold some info, it can be a one-liner for real. Kotlin will generate sensible `equals`, `hashCode`, `toString` as well as deconstruction support, so that you can easily write:
 
 ```kotlin
-    val myMsg = Msg(txt = "Hi", from = me)
-    // ...
-    val (txt, from) = myMsg
+val myMsg = Msg(txt = "Hi", from = me)
+// ...
+val (txt, from) = myMsg
 ```
 
 Add to that type inference, a shorter construction syntax for class instances (no `new` needed), default parameter values, invocation with named arguments and support for immutability with `val` declarations and you’ve got a full toolbox for your message-crafting actor needs (and more). Should you need to copy your message in full or in part:
