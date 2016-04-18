@@ -667,33 +667,6 @@ const data = [{
     subcategories: [{
         name: "Posts",
         links: [{
-            name: 'Exploring the Kotlin Standard Library',
-            desc: 'Jan 22, 2013',
-            href: 'http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html',
-            tags: []
-        }, {
-            name: 'The Adventurous Developer’s Guide to JVM languages – Kotlin',
-            desc: 'Jan 23, 2013',
-            href: 'http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/'
-        }, {
-            name: 'The Advent of Kotlin: A Conversation with JetBrains\' Andrey Breslav',
-            desc: 'Apr 02, 2013',
-            href: 'http://www.oracle.com/technetwork/articles/java/breslav-1932170.html'
-        }, {
-            name: 'Non-trivial constructors in Kotlin',
-            desc: 'Dec 01, 2014',
-            href: 'http://alexshabanov.com/category/languages/kotlin/'
-        }, {
-            name: 'Quasar and Kotlin – a Powerful Match',
-            desc: 'Jun 04, 2015',
-            href: 'http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/',
-            type: 'post',
-            tags: ['quasar', 'fibers']
-        }, {
-            name: 'Why Kotlin is my next programming language',
-            desc: 'Jul 06, 2015',
-            href: 'https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3'
-        }, {
             name: 'Android + Kotlin = <3',
             desc: 'Jul 20, 2015',
             href: 'http://blog.zuehlke.com/en/android-kotlin/'
