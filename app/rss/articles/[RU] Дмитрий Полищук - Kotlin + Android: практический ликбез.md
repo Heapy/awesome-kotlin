@@ -1,6 +1,6 @@
 ---
 title: '(RU) Дмитрий Полищук - Kotlin + Android: практический ликбез'
-url: Дмитрий Полищук - Kotlin + Android: практический ликбез
+url: https://www.youtube.com/watch?v=2oVpnArCdWI
 type: video
 categories:
     - Kotlin
