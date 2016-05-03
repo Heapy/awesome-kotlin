@@ -19,7 +19,12 @@ export default class Listitem extends React.Component {
         return (
             <li className={styles.listitem}>
               {this.getStars()}
-                <a href={this.props.link.href} target="_blank" className={styles.listitem_link}>{this.props.link.name}</a>
+                <a href={this.props.link.href}
+                   target="_blank"
+                   rel="nofollow noopener"
+                   className={styles.listitem_link}>
+                    {this.props.link.name}
+                </a>
                 <p className={styles.listitem_description}>{this.props.link.desc}</p>
             </li>
         );
