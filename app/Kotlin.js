@@ -560,6 +560,12 @@ const data = [{
             href: 'https://github.com/grandstaish/paperparcel',
             type: 'github',
             tags: ['android', 'annotation processing']
+        }, {
+            name: 'graknol/AnvilKotlin',
+            desc: 'Minimal UI library for Android inspired by React.',
+            href: 'https://github.com/graknol/AnvilKotlin',
+            type: 'github',
+            tags: ['android', 'react', 'view']
         }]
     }, {
         name: "Frameworks",
