@@ -211,6 +211,12 @@ const data = [{
             href: 'https://github.com/fboldog/ext4klaxon',
             type: 'github',
             tags: ['json']
+        }, {
+            name: 'Jire/KTON',
+            desc: 'Object notation in pure Kotlin!',
+            href: 'https://github.com/Jire/KTON',
+            type: 'github',
+            tags: ['JSON', 'XML']
         }]
     }, {
         name: "Database",
@@ -410,6 +416,12 @@ const data = [{
             href: 'https://github.com/hotchemi/khronos',
             type: 'github',
             tags: ['time', 'date']
+        }, {
+            name: 'npryce/konfig',
+            desc: 'A Type Safe Configuration API for Kotlin',
+            href: 'https://github.com/npryce/konfig',
+            type: 'github',
+            tags: ['configuration']
         }]
     }]
 }, {
@@ -618,6 +630,12 @@ const data = [{
             href: 'https://github.com/MakinGiants/todayhistory',
             type: 'github',
             tags: ['android', 'application']
+        }, {
+            name: 'SidneyXu/AndroidDemoIn4Languages',
+            desc: 'Comparison between Java, Groovy, Scala, Kotlin in Android Development.',
+            href: 'https://github.com/SidneyXu/AndroidDemoIn4Languages',
+            type: 'github',
+            tags: ['Java', 'Groovy', 'Scala', 'Kotlin', 'Android']
         }]
     }]
 }, {
