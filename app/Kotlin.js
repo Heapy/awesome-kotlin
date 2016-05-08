@@ -422,6 +422,12 @@ const data = [{
             href: 'https://github.com/npryce/konfig',
             type: 'github',
             tags: ['configuration']
+        }, {
+            name: 'ingokegel/jclasslib',
+            desc: ' jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.',
+            href: 'https://github.com/ingokegel/jclasslib',
+            type: 'github',
+            tags: ['bytecode']
         }]
     }]
 }, {
