@@ -356,7 +356,22 @@ const data = [{
             type: 'github',
             tags: ['editor', 'ide', 'language']
         }]
-    },{
+    }, {
+        name: "JavaScript",
+        links:[{
+            name: 'danfma/reako',
+            desc: 'A react wrapper to the kotlin library.',
+            href: 'https://github.com/danfma/reako',
+            type: 'github',
+            tags: ['react', 'javascript', 'ui']
+        }, {
+            name: 'andrewoma/reakt',
+            desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
+            href: 'https://github.com/andrewoma/reakt',
+            type: 'github',
+            tags: ['react', 'javascript', 'ui']
+        }]
+    }, {
         name: "Misc",
         links: [{
             name: 'Kotlin/kotlinx.reflect.lite',
