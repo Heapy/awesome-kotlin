@@ -28,6 +28,12 @@ const data = [{
         }, {
             name: 'Twitter',
             href: 'https://twitter.com/kotlin'
+        }, {
+            name: 'Kotlin/KEEP',
+            desc: 'Kotlin Evolution and Enhancement Process',
+            href: 'https://github.com/Kotlin/KEEP',
+            type: 'github',
+            tags: ['keep', 'async', 'await']
         }]
     }, {
         name: "Resources",
