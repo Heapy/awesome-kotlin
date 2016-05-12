@@ -142,6 +142,12 @@ const data = [{
             href: 'https://github.com/kotlintest/kotlintest',
             type: 'github',
             tags: ['test', 'bdd', 'matchers']
+        }, {
+            name: 'dmcg/konsent',
+            desc: 'An acceptance test library for Kotlin.',
+            href: 'https://github.com/dmcg/konsent',
+            type: 'github',
+            tags: ['test', 'bdd', 'gherkin']
         }]
     }, {
         name: "Dependency Injection",
