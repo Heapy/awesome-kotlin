@@ -138,7 +138,7 @@ const data = [{
             tags: ['test', 'assert']
         }, {
             name: 'winterbe/expekt',
-            desc: ' BDD assertion library for Kotlin.',
+            desc: 'BDD assertion library for Kotlin.',
             href: 'https://github.com/winterbe/expekt',
             type: 'github',
             tags: ['test', 'assert', 'bdd']
@@ -154,6 +154,12 @@ const data = [{
             href: 'https://github.com/dmcg/konsent',
             type: 'github',
             tags: ['test', 'bdd', 'gherkin']
+        }, {
+            name: 'raniejade/kspec',
+            desc: 'Kotlin Specification Framework.',
+            href: 'https://github.com/raniejade/kspec',
+            type: 'github',
+            tags: ['test', 'bdd']
         }]
     }, {
         name: "Dependency Injection",
