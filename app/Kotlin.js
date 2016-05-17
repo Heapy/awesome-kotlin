@@ -365,9 +365,9 @@ const data = [{
     }, {
         name: "JavaScript",
         links:[{
-            name: 'danfma/reako',
+            name: 'danfma/kotlinjs-react',
             desc: 'A react wrapper to the kotlin library.',
-            href: 'https://github.com/danfma/reako',
+            href: 'https://github.com/danfma/kotlinjs-react',
             type: 'github',
             tags: ['react', 'javascript', 'ui']
         }, {
