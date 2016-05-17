@@ -8,7 +8,7 @@ const getLinks = () => {
             const links = subcategory.links.map(link => {
                 const getDesc = desc => desc ? `- ${desc}` : '';
 
-                return `${link.href}[${link.name}^] ${getDesc(link.desc)}`;
+                return `* ${link.href}[${link.name}^] ${getDesc(link.desc)}`;
             }).join('\n');
 
             return `=== ${subcategory.name}\n${links}\n`

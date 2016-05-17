@@ -670,6 +670,12 @@ const data = [{
             type: 'github',
             tags: ['android', 'application']
         }, {
+            name: 'RxKotlin/Pocket',
+            desc: 'This app help user to save links easily, and can export to Evernote as weekly.',
+            href: 'https://github.com/RxKotlin/Pocket',
+            type: 'github',
+            tags: ['android', 'application', 'rx']
+        }, {
             name: 'SidneyXu/AndroidDemoIn4Languages',
             desc: 'Comparison between Java, Groovy, Scala, Kotlin in Android Development.',
             href: 'https://github.com/SidneyXu/AndroidDemoIn4Languages',
