@@ -107,7 +107,7 @@ toc::[]
 * https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
 
 === JavaScript
-* https://github.com/danfma/reako[danfma/reako^] - A react wrapper to the kotlin library.
+* https://github.com/danfma/kotlinjs-react[danfma/kotlinjs-react^] - A react wrapper to the kotlin library.
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
 
 === Misc
