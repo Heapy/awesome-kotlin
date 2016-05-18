@@ -109,6 +109,12 @@ const data = [{
             href: 'https://github.com/kohesive/kovert',
             type: 'github',
             tags: ['web', 'http', 'rest', 'vert.x', 'undertow']
+        }, {
+            name: 'sdeleuze/spring-kotlin',
+            desc: 'Kotlin extensions for Spring projects.',
+            href: 'https://github.com/sdeleuze/spring-kotlin',
+            type: 'github',
+            tags: ['spring', 'extensions']
         }]
     }, {
         name: "Tests",
