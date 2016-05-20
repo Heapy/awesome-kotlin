@@ -492,6 +492,12 @@ const data = [{
             desc: 'Build system inspired by Gradle.',
             href: 'https://github.com/cbeust/kobalt',
             type: 'github'
+        }, {
+            name: 'gradle/gradle-script-kotlin',
+            desc: 'Kotlin language support for Gradle build scripts.',
+            href: 'https://github.com/gradle/gradle-script-kotlin',
+            type: 'github',
+            tags: ['gradle', 'build']
         }]
     }, {
         name: "Misc",

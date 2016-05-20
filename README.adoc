@@ -49,6 +49,7 @@ toc::[]
 * https://github.com/Kotlin/kotlinx.html[Kotlin/kotlinx.html^] - Kotlin DSL for HTML.
 * https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
+* https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
 
 === Tests
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
@@ -134,6 +135,7 @@ toc::[]
 
 === Build tools
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
+* https://github.com/gradle/gradle-script-kotlin[gradle/gradle-script-kotlin^] - Kotlin language support for Gradle build scripts.
 
 === Misc
 * https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
@@ -194,6 +196,9 @@ toc::[]
 
 == Articles, Blog Posts
 === May 2016
+* http://kotlin.link/articles/Gradle-Meets-Kotlin.html[Gradle Meets Kotlin^] - Hadi Hariri
+* http://kotlin.link/articles/Kotlin-Meets-Gradle.html[Kotlin Meets Gradle^] - Chris Beams
+* http://kotlin.link/articles/Gradle-Elevates-the-Build-to-First-Class-Programming-With-Kotlin-Language.html[Gradle Elevates the Build to First-Class Programming With Kotlin Language^] - BusinessWire
 * http://kotlin.link/articles/Kotlin-1-0-2-is-Here.html[Kotlin 1.0.2 is Here^] - Dmitry Jemerov
 * http://kotlin.link/articles/Kosent.html[Kosent^] - Duncan McGregor
 * http://kotlin.link/articles/Testing-in-Kotlin.html[Testing in Kotlin^] - Stephen Samuel
