@@ -4,7 +4,7 @@ set -e # exit with nonzero exit code if anything fails
 # check current branch
 branch=$(git rev-parse --abbrev-ref HEAD)
 if [ 'master' != $branch ]; then
-    echo "Deploy only on master branch.";
+    echo "Deploy only on master branch. Current branch: '$branch'.";
     exit 0;
 fi
 
