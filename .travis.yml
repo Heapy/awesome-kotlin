@@ -1,5 +1,5 @@
 language: node_js
-node_js: 5
+node_js: 4
 before_script:
   - npm test
 script:
@@ -7,11 +7,3 @@ script:
 cache:
   directories:
   - node_modules
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
