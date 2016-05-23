@@ -9,20 +9,12 @@ if (!user || !pass) {
 Token can be found here: https://github.com/settings/tokens`);
 }
 
-const getStarCount = repository => {
-    var options = {
-        url: `https://api.github.com/repos/${repository}`,
-        headers: {
-            'User-Agent': 'Awesome-Kotlin-List'
-        },
-        auth: {user, pass}
-    };
-
+const JSON_GET = (options, handler) => {
     return new Promise((resolve, reject) => {
         request(options, (error, response, body) => {
             if (!error && response.statusCode == 200) {
                 var info = JSON.parse(body);
-                resolve(info.stargazers_count);
+                resolve(handler(info));
             } else {
                 reject({
                     repository: repository,
@@ -35,6 +27,29 @@ const getStarCount = repository => {
     });
 };
 
+const getGithubStarCount = repository => {
+    var options = {
+        url: `https://api.github.com/repos/${repository}`,
+        headers: {
+            'User-Agent': 'Awesome-Kotlin-List'
+        },
+        auth: {user, pass}
+    };
+
+    return JSON_GET(options, json => json.stargazers_count);
+};
+
+const getBitbucketWatcherCount = repository => {
+    var options = {
+        url: `https://api.bitbucket.org/2.0/repositories/${repository}/watchers`,
+        headers: {
+            'User-Agent': 'Awesome-Kotlin-List'
+        }
+    };
+
+    return JSON_GET(options, json => json.size);
+};
+
 const data = require('./Kotlin.js');
 const promises = [];
 
@@ -42,8 +57,12 @@ data.forEach(category => {
     category.subcategories.forEach(subcategory => {
         subcategory.links.forEach(link => {
             if (link.type === 'github') {
-                promises.push(getStarCount(link.name).then(stars => {
+                promises.push(getGithubStarCount(link.name).then(stars => {
                     link.star = stars;
+                }));
+            } else if (link.type === 'bitbucket') {
+                promises.push(getBitbucketWatcherCount(link.name).then(watchers => {
+                    link.star = watchers;
                 }));
             }
         });

@@ -107,6 +107,12 @@ toc::[]
 * https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
 * https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
 
+=== Syntax Highlighters
+* https://github.com/jneen/rouge[jneen/rouge^] - A pure-ruby code highlighter that is compatible with pygments. (wip)
+* https://github.com/isagalaev/highlight.js[isagalaev/highlight.js^] - Javascript syntax highlighter. (out-of-date)
+* https://github.com/github/linguist[github/linguist^] - For Ruby/Github, uses Sublime package
+* https://bitbucket.org/birkenfeld/pygments-main[birkenfeld/pygments-main^] - Python syntax highlighter.
+
 === JavaScript
 * https://github.com/danfma/kotlinjs-react[danfma/kotlinjs-react^] - A react wrapper to the kotlin library.
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
