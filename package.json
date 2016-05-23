@@ -40,7 +40,7 @@
   "scripts": {
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "prestart": "npm install",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./app/LinkChecker.js",
     "stars": "node ./app/Stars.js",
     "rss": "node ./app/rss/RssGenerator.js",
     "pages": "node ./app/rss/PagesGenerator.js",
