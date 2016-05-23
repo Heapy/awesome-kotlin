@@ -1,6 +1,13 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
+# check current branch
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ 'master' != $branch ]; then
+    echo "Deploy only on master branch.";
+    exit 0;
+fi
+
 # clear and re-create the dist directory
 rm -rf dist || exit 0;
 mkdir -p ./dist/articles;
