@@ -1,11 +1,8 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
-export -p
-
 # check current branch
-branch=$(git rev-parse --abbrev-ref HEAD)
-if [ 'master' != $branch ]; then
+if [ 'master' != $TRAVIS_BRANCH ]; then
     echo "Deploy only on master branch. Current branch: '$branch'.";
     exit 0;
 fi
