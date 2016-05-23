@@ -369,6 +369,33 @@ const data = [{
             tags: ['editor', 'ide', 'language']
         }]
     }, {
+        name: "Syntax Highlighters",
+        links: [{
+            name: 'jneen/rouge',
+            desc: 'A pure-ruby code highlighter that is compatible with pygments. (wip)',
+            href: 'https://github.com/jneen/rouge',
+            type: 'github',
+            tags: ['syntax', 'higlight']
+        }, {
+            name: 'isagalaev/highlight.js',
+            desc: 'Javascript syntax highlighter. (out-of-date)',
+            href: 'https://github.com/isagalaev/highlight.js',
+            type: 'github',
+            tags: ['syntax', 'higlight']
+        }, {
+            name: 'github/linguist',
+            desc: 'Ruby/Github, uses Sublime package',
+            href: 'https://github.com/github/linguist',
+            type: 'github',
+            tags: ['syntax', 'higlight']
+        }, {
+            name: 'birkenfeld/pygments-main',
+            desc: 'Python syntax highlighter.',
+            href: 'https://bitbucket.org/birkenfeld/pygments-main',
+            type: 'bitbucket',
+            tags: ['syntax', 'higlight']
+        }]
+    }, {
         name: "JavaScript",
         links:[{
             name: 'danfma/kotlinjs-react',
