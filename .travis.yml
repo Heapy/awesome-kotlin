@@ -6,6 +6,7 @@ before_script:
   - npm install
 script:
   - awesome_bot README.adoc --white-list http://kotlin.link/,http://bkug.by/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.reddit.com/r/Kotlin/,https://www.quora.com/topic/Kotlin
+before_deploy: "git stash"
 deploy:
   provider: script
   script: deploy.sh
@@ -14,3 +15,5 @@ deploy:
 cache:
   directories:
   - node_modules
+notifications:
+  email: false
