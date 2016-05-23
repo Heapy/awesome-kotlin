@@ -8,6 +8,8 @@ if [ 'master' != $branch ]; then
     exit 0;
 fi
 
+export -p
+
 # clear and re-create the dist directory
 rm -rf dist || exit 0;
 mkdir -p ./dist/articles;
