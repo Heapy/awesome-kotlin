@@ -110,7 +110,7 @@ toc::[]
 === Syntax Highlighters
 * https://github.com/jneen/rouge[jneen/rouge^] - A pure-ruby code highlighter that is compatible with pygments. (wip)
 * https://github.com/isagalaev/highlight.js[isagalaev/highlight.js^] - Javascript syntax highlighter. (out-of-date)
-* https://github.com/github/linguist[github/linguist^] - Ruby/Github, uses Sublime package
+* https://github.com/github/linguist[github/linguist^] - For Ruby/Github, uses Sublime package
 * https://bitbucket.org/birkenfeld/pygments-main[birkenfeld/pygments-main^] - Python syntax highlighter.
 
 === JavaScript

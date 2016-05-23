@@ -384,7 +384,7 @@ const data = [{
             tags: ['syntax', 'higlight']
         }, {
             name: 'github/linguist',
-            desc: 'Ruby/Github, uses Sublime package',
+            desc: 'For Ruby/Github, uses Sublime package',
             href: 'https://github.com/github/linguist',
             type: 'github',
             tags: ['syntax', 'higlight']
