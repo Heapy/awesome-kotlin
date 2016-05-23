@@ -1,6 +1,7 @@
 language: node_js
-node_js: 4
+node_js: 5
 before_script:
+  - npm install || cat npm-debug.log
   - npm test
 script:
   - bash ./deploy.sh
