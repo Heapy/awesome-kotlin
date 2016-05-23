@@ -1,11 +1,9 @@
-language: ruby
-rvm: 2.2
+language: node_js
+node_js: 5
 before_script:
-  - gem install awesome_bot
-  - nvm install 5
-  - npm install
+  - npm install --dev
+  - npm test
 script:
-  - awesome_bot README.adoc --white-list http://kotlin.link/,http://bkug.by/,https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237,https://youtrack.jetbrains.com/issues/KT,https://www.reddit.com/r/Kotlin/,https://www.quora.com/topic/Kotlin
   - bash ./deploy.sh
 cache:
   directories:

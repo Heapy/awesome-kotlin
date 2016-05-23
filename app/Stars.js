@@ -1,4 +1,5 @@
 const request = require('request');
+const _ = require('lodash');
 const fs = require('./File');
 
 const user = process.env.GH_USER;
@@ -9,7 +10,7 @@ if (!user || !pass) {
 Token can be found here: https://github.com/settings/tokens`);
 }
 
-const JSON_GET = (options, handler) => {
+const JSON_GET = (options, repository, handler) => {
     return new Promise((resolve, reject) => {
         request(options, (error, response, body) => {
             if (!error && response.statusCode == 200) {
@@ -36,7 +37,7 @@ const getGithubStarCount = repository => {
         auth: {user, pass}
     };
 
-    return JSON_GET(options, json => json.stargazers_count);
+    return JSON_GET(options, repository, json => json.stargazers_count);
 };
 
 const getBitbucketWatcherCount = repository => {
@@ -47,30 +48,31 @@ const getBitbucketWatcherCount = repository => {
         }
     };
 
-    return JSON_GET(options, json => json.size);
+    return JSON_GET(options, repository, json => json.size);
 };
 
 const data = require('./Kotlin.js');
-const promises = [];
-
-data.forEach(category => {
-    category.subcategories.forEach(subcategory => {
-        subcategory.links.forEach(link => {
+const promises = _.flattenDeep(data.forEach(category => {
+    return category.subcategories.forEach(subcategory => {
+        return subcategory.links.forEach(link => {
             if (link.type === 'github') {
-                promises.push(getGithubStarCount(link.name).then(stars => {
+                return getGithubStarCount(link.name).then(stars => {
                     link.star = stars;
-                }));
+                });
             } else if (link.type === 'bitbucket') {
-                promises.push(getBitbucketWatcherCount(link.name).then(watchers => {
+                return getBitbucketWatcherCount(link.name).then(watchers => {
                     link.star = watchers;
-                }));
+                });
+            } else {
+                return Promise.resolve();
             }
         });
     });
-});
+}));
 
 Promise.all(promises).then(() => {
     fs.write("./app/Kotlin.json", JSON.stringify(data));
 }, reason => {
     console.error(`Error while stars getting ${JSON.stringify(reason)}`);
+    process.exit(1);
 });

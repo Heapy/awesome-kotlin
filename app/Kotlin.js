@@ -42,7 +42,8 @@ const data = [{
             href: 'https://www.reddit.com/r/Kotlin/'
         }, {
             name: 'Quora Kotlin',
-            href: 'https://www.quora.com/topic/Kotlin'
+            href: 'https://www.quora.com/topic/Kotlin',
+            whitelisted: true
         }, {
             name: 'Trending Kotlin on Github',
             href: 'https://github.com/trending?l=kotlin'
@@ -52,7 +53,8 @@ const data = [{
             type: 'blog'
         }, {
             name: 'LinkedIn: Kotlin Developers (Join!)',
-            href: 'https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237'
+            href: 'https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237',
+            whitelisted: true
         }, {
             name: 'Kotlin - Google+',
             href: 'https://plus.google.com/communities/104597899765146112928'
@@ -743,7 +745,8 @@ const data = [{
             desc: 'Belarus',
             href: 'http://bkug.by/',
             type: 'kug',
-            tags: ['Belarus']
+            tags: ['Belarus'],
+            whitelisted: true
         }, {
             name: 'Kotlin User Group Munich',
             desc: 'Deutschland',
