@@ -52,9 +52,9 @@ const getBitbucketWatcherCount = repository => {
 };
 
 const data = require('./Kotlin.js');
-const promises = _.flattenDeep(data.forEach(category => {
-    return category.subcategories.forEach(subcategory => {
-        return subcategory.links.forEach(link => {
+const promises = _.flattenDeep(data.map(category => {
+    return category.subcategories.map(subcategory => {
+        return subcategory.links.map(link => {
             if (link.type === 'github') {
                 return getGithubStarCount(link.name).then(stars => {
                     link.star = stars;
