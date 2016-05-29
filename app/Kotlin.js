@@ -544,6 +544,15 @@ const data = [{
             tags: ['dependency managment']
         }]
     }, {
+        name: "Desktop",
+        links: [{
+            name: 'ice1000/Dekoder',
+            desc: ' A kotlin music player, materially designed.',
+            href: 'https://github.com/ice1000/Dekoder',
+            type: 'github',
+            tags: ['JavaFX', 'Desktop', 'Player']
+        }]
+    }, {
         name: "Examples",
         links: [{
             name: 'Kotlin/kotlin-koans',
