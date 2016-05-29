@@ -20,7 +20,7 @@ toc::[]
 * https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
 * http://kotlinlang.org/[Home Page^] 
 * http://kotlinlang.org/docs/reference/[Language Reference^] 
-* http://kotlinslackin.herokuapp.com/[Slack (2400+ users)^] 
+* http://kotlinslackin.herokuapp.com/[Slack (3000+ users)^] 
 * http://try.kotlinlang.org/[Try Kotlin!^] 
 * http://blog.jetbrains.com/kotlin/[Blog^] 
 * https://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
@@ -138,6 +138,7 @@ toc::[]
 === Web
 * https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
 * https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
+* https://github.com/ratpack/example-ratpack-gradle-kotlin-app[ratpack/example-ratpack-gradle-kotlin-app^] - An example of a Kotlin Ratpack app built with Gradle.
 
 === Build tools
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
@@ -145,6 +146,9 @@ toc::[]
 
 === Misc
 * https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
+
+=== Desktop
+* https://github.com/ice1000/Dekoder[ice1000/Dekoder^] -  A kotlin music player, materially designed.
 
 === Examples
 * https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
