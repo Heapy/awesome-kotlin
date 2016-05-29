@@ -14,7 +14,7 @@ const data = [{
             name: 'Language Reference',
             href: 'http://kotlinlang.org/docs/reference/'
         }, {
-            name: 'Slack (2400+ users)',
+            name: 'Slack (3000+ users)',
             href: 'http://kotlinslackin.herokuapp.com/'
         }, {
             name: 'Try Kotlin!',
@@ -513,6 +513,12 @@ const data = [{
             href: 'https://github.com/IRus/kotlin-dev-proxy',
             type: 'github',
             tags: ['tags', 'rest', 'web']
+        }, {
+            name: 'ratpack/example-ratpack-gradle-kotlin-app',
+            desc: 'An example of a Kotlin Ratpack app built with Gradle.',
+            href: 'https://github.com/ratpack/example-ratpack-gradle-kotlin-app',
+            type: 'github',
+            tags: ['ratpack', 'gradle', 'rest', 'web']
         }]
     }, {
         name: "Build tools",
