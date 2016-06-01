@@ -38,7 +38,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "webpack-dev-server",
     "prestart": "npm install",
     "test": "node ./app/LinkChecker.js",
     "stars": "node ./app/Stars.js",

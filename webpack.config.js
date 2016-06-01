@@ -1,9 +1,9 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const isBuild = Boolean(process.env.build);
 
-var config = {
+const config = {
     entry: path.resolve(__dirname, 'app/src/main.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
