@@ -24,6 +24,10 @@ const HEAD = url => {
     });
 };
 
+const isWhiteListed = url => {
+    return url.includes('http://kotlin.link/articles/');
+};
+
 const data = require('./Kotlin.js');
 const promises = _.flattenDeep(data.map(category => {
     return category.subcategories.map(subcategory => {
@@ -31,6 +35,10 @@ const promises = _.flattenDeep(data.map(category => {
             if (!link.whitelisted) {
                 return HEAD(link.href).catch(error => {
                     console.error(`Url '${link.href}' error: '${JSON.stringify(error)}'`);
+
+                    if (isWhiteListed(link.href)) {
+                        return false;
+                    }
                     return true;
                 });
             } else {
