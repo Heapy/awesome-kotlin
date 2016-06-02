@@ -168,6 +168,12 @@ const data = [{
             href: 'https://github.com/raniejade/kspec',
             type: 'github',
             tags: ['test', 'bdd']
+        }, {
+            name: 'EPadronU/balin',
+            desc: 'Balin is a browser automation library for Kotlin. It\'s basically a Selenium-WebDriver wrapper library inspired by Geb.',
+            href: 'https://github.com/EPadronU/balin',
+            type: 'github',
+            tags: ['test', 'selenium', 'UI', 'automation']
         }]
     }, {
         name: "Dependency Injection",

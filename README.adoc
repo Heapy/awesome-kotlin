@@ -60,6 +60,7 @@ toc::[]
 * https://github.com/kotlintest/kotlintest[kotlintest/kotlintest^] - KotlinTest is a flexible and comprehensive testing tool for the Kotlin ecosystem based on and heavily inspired by the superb Scalatest.
 * https://github.com/dmcg/konsent[dmcg/konsent^] - An acceptance test library for Kotlin.
 * https://github.com/raniejade/kspec[raniejade/kspec^] - Kotlin Specification Framework.
+* https://github.com/EPadronU/balin[EPadronU/balin^] - Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb.
 
 === Dependency Injection
 * https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
