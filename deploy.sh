@@ -14,6 +14,7 @@ mkdir -p ./dist/articles;
 # run our compile script
 npm run ci
 cp CNAME ./dist/
+cp robots.txt ./dist/
 
 # go to the dist directory and create a *new* Git repo
 cd dist
