@@ -207,10 +207,12 @@ toc::[]
 
 == Articles, Blog Posts
 === June 2016
+* http://kotlin.link/articles/When-Kotlin-met-Gradle.html[When Kotlin met Gradle^] - Gabriela Motroc
 * http://kotlin.link/articles/Kotlin-Eclipse-Plugin-0-7-Is-Here.html[Kotlin Eclipse Plugin 0.7 Is Here!^] - Nikolay Krasko
 * http://kotlin.link/articles/Where-We-Stand-What-s-Next-for-Kotlin.html[Where We Stand & What's Next for Kotlin^] - Andrey Breslav
 
 === May 2016
+* http://kotlin.link/articles/Kotlin-dragging-java-into-the-modern-world.html[Kotlin, dragging java into the modern world^] - Tim Gray
 * http://kotlin.link/articles/Gradle-Meets-Kotlin.html[Gradle Meets Kotlin^] - Hadi Hariri
 * http://kotlin.link/articles/Kotlin-Meets-Gradle.html[Kotlin Meets Gradle^] - Chris Beams
 * http://kotlin.link/articles/Gradle-Elevates-the-Build-to-First-Class-Programming-With-Kotlin-Language.html[Gradle Elevates the Build to First-Class Programming With Kotlin Language^] - BusinessWire
@@ -224,8 +226,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Grobunov
-* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
+* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
