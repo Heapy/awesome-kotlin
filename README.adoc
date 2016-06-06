@@ -207,6 +207,7 @@ toc::[]
 
 == Articles, Blog Posts
 === June 2016
+* http://kotlin.link/articles/Kotlin-Eclipse-Plugin-0-7-Is-Here.html[Kotlin Eclipse Plugin 0.7 Is Here!^] - Nikolay Krasko
 * http://kotlin.link/articles/Where-We-Stand-What-s-Next-for-Kotlin.html[Where We Stand & What's Next for Kotlin^] - Andrey Breslav
 
 === May 2016
