@@ -293,6 +293,12 @@ const data = [{
             href: 'https://github.com/x2bool/kuery',
             type: 'github',
             tags: ['database', 'sql', 'type-safe builder']
+        }, {
+            name: 'Litote/kmongo',
+            desc: 'KMongo - Kotlin toolkit for Mongo',
+            href: 'https://github.com/Litote/kmongo',
+            type: 'github',
+            tags: ['database', 'mongodb', 'query']
         }]
     }, {
         name: "Tools",
