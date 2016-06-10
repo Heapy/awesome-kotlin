@@ -287,6 +287,12 @@ const data = [{
             href: 'https://github.com/square/sqldelight',
             type: 'github',
             tags: ['database', 'sql', 'type-safe builder']
+        }, {
+            name: 'x2bool/kuery',
+            desc: 'Typesafe SQL with Kotlin.',
+            href: 'https://github.com/x2bool/kuery',
+            type: 'github',
+            tags: ['database', 'sql', 'type-safe builder']
         }]
     }, {
         name: "Tools",

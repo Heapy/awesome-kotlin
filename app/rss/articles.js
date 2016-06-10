@@ -22,7 +22,11 @@ const getFileName = name => {
         .map(it => it.charCodeAt(0)) // convert string in corresponding codes
         .map(code => { // replace all special symbols with dash
             // See html codes: 32 - space, 47 - slash, 58 - colon, 64 - at, 91 - opening bracket, 96 - grave accent
-            if ((code > 31 && code < 48) || (code > 57 && code < 65) || (code > 90 && code < 97)) {
+            // http://ascii-code.com/
+            if ((code > 31 && code < 48) || 
+                (code > 57 && code < 65) || 
+                (code > 90 && code < 97) || 
+                (code > 122 && code < 256)) {
                 return '-';
             } else {
                 return String.fromCharCode(code); // return symbol instead of his code
