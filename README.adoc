@@ -212,9 +212,12 @@ toc::[]
 * http://kotlin.link/articles/Архитектор-Kotlin-Язык-программирования-—-рабочий-инструмент-Если-никогда-их-не-менять-можно-отстать-от-жизни-.html[Архитектор Kotlin: «Язык программирования — рабочий инструмент. Если никогда их не менять, можно отстать от жизни» ^] - yankoits
 * http://kotlin.link/articles/When-Kotlin-met-Gradle.html[When Kotlin met Gradle^] - Gabriela Motroc
 * http://kotlin.link/articles/Kotlin-Eclipse-Plugin-0-7-Is-Here.html[Kotlin Eclipse Plugin 0.7 Is Here!^] - Nikolay Krasko
+* http://kotlin.link/articles/What’s-in-store-for-Kotlin-this-year.html[What’s in store for Kotlin this year^] - Gabriela Motroc
 * http://kotlin.link/articles/Where-We-Stand-What-s-Next-for-Kotlin.html[Where We Stand & What's Next for Kotlin^] - Andrey Breslav
 
 === May 2016
+* http://kotlin.link/articles/Neural-Networks-in-Kotlin-part-2.html[Neural Networks in Kotlin (part 2)^] - Cédric Beust
+* http://kotlin.link/articles/Neural-Network-in-Kotlin.html[Neural Network in Kotlin^] - Cédric Beust
 * http://kotlin.link/articles/Kotlin-dragging-java-into-the-modern-world.html[Kotlin, dragging java into the modern world^] - Tim Gray
 * http://kotlin.link/articles/Gradle-Meets-Kotlin.html[Gradle Meets Kotlin^] - Hadi Hariri
 * http://kotlin.link/articles/Kotlin-Meets-Gradle.html[Kotlin Meets Gradle^] - Chris Beams
@@ -316,9 +319,6 @@ toc::[]
 * http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-2.html[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-1.html[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Doug Stevenson
-
-=== Invalid date
-* http://kotlin.link/articles/What’s-in-store-for-Kotlin-this-year.html[What’s in store for Kotlin this year^] - Gabriela Motroc
 
 === January 2016
 * http://kotlin.link/articles/KillerTask-the-solution-to-AsyncTask-implementation.html[KillerTask, the solution to AsyncTask implementation^] - Fernando Ramirez
