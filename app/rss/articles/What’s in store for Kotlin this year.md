@@ -4,7 +4,7 @@ url: https://jaxenter.com/whats-in-store-for-kotlin-this-year-126672.html
 categories:
     - Kotlin
 author: Gabriela Motroc 
-date: Jub 02, 2016 00:00
+date: Jun 02, 2016 00:00
 ---
 *Taking a peek into the near future*
 
