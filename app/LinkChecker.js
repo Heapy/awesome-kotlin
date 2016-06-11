@@ -24,8 +24,10 @@ const HEAD = url => {
     });
 };
 
-const isWhiteListed = url => {
-    return url.includes('http://kotlin.link/articles/');
+const isWhiteListed = (url, status) => {
+    // TODO: Externalize configuration
+    return (url.includes('http://kotlin.link/articles/') && status === 404) ||
+        (url === 'https://www.reddit.com/r/Kotlin/' && status === 503);
 };
 
 const data = require('./Kotlin.js');
@@ -36,7 +38,7 @@ const promises = _.flattenDeep(data.map(category => {
                 return HEAD(link.href).catch(error => {
                     console.error(`Url '${link.href}' error: '${JSON.stringify(error)}'`);
 
-                    if (isWhiteListed(link.href)) {
+                    if (isWhiteListed(link.href, error.status)) {
                         return false;
                     }
                     return true;
