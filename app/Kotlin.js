@@ -318,6 +318,12 @@ const data = [{
             href: 'https://github.com/holgerbrandl/kscript',
             type: 'github',
             tags: ['bash', 'scripting', 'kts']
+        }, {
+            name: 'jtransc/jtransc',
+            desc: 'JVM AOT compiler created in Kotlin.',
+            href: 'https://github.com/jtransc/jtransc',
+            type: 'github',
+            tags: ['aot', 'compiller']
         }]
     }, {
         name: "Desktop",

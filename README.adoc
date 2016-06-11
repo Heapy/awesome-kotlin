@@ -93,6 +93,7 @@ toc::[]
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
 * https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
 * https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils for Kotlin.
+* https://github.com/jtransc/jtransc[jtransc/jtransc^] - JVM AOT compiler created in Kotlin.
 
 === Desktop
 * https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
