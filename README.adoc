@@ -210,6 +210,7 @@ toc::[]
 
 == Articles, Blog Posts
 === June 2016
+* http://kotlin.link/articles/News-from-KotlinTest.html[News from KotlinTest^] - medium
 * http://kotlin.link/articles/Meet-the-Kotlin-Team-at-Gradle-Summit.html[Meet the Kotlin Team at Gradle Summit^] - Dmitry Jemerov
 * http://kotlin.link/articles/Архитектор-Kotlin-Язык-программирования-—-рабочий-инструмент-Если-никогда-их-не-менять-можно-отстать-от-жизни-.html[Архитектор Kotlin: «Язык программирования — рабочий инструмент. Если никогда их не менять, можно отстать от жизни» ^] - yankoits
 * http://kotlin.link/articles/Kotlin-1-0-3-EAP.html[Kotlin 1.0.3 EAP^] - Pavel Talanov
