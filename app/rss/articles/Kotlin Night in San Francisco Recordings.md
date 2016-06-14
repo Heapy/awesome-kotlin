@@ -5,7 +5,7 @@ categories:
     - Kotlin
     - 'K.Night'
 author: Roman Belov
-date: Jun 14, 2016 00:00
+date: Jun 14, 2016 15:32
 ---
 On May 17th we held an evening event at San Francisco in cooperation with Realm and Netflix. Thanks to everyone who joined us this evening! There were great talks and important announcements, and the good news is that all of them were recorded:
 
