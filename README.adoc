@@ -210,6 +210,7 @@ toc::[]
 
 == Articles, Blog Posts
 === June 2016
+* http://kotlin.link/articles/Kotlin-null-safety-and-its-performance-considerations-part-1.html[Kotlin null safety and its performance considerations -- part 1^] - Konrad Kamiński
 * http://kotlin.link/articles/Kotlin-Native.html[Kotlin Native^] - Mike Hearn
 * http://kotlin.link/articles/Kotlin-Night-in-San-Francisco-Recordings.html[Kotlin Night in San Francisco Recordings^] - Roman Belov
 * http://kotlin.link/articles/News-from-KotlinTest.html[News from KotlinTest^] - medium
