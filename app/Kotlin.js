@@ -620,6 +620,21 @@ const data = [{
             type: 'github',
             tags: ['examples']
         }]
+    }, {
+        name: 'Idea Plugins',
+        links: [{
+            name: 'Vektah/CodeGlance',
+            desc: 'Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.',
+            href: 'https://github.com/Vektah/CodeGlance',
+            type: 'github',
+            tags: ['idea', 'plugin']
+        }, {
+            name: 'intellij-rust/intellij-rust',
+            desc: 'Rust IDE built using the IntelliJ Platform.',
+            href: 'https://github.com/intellij-rust/intellij-rust',
+            type: 'github',
+            tags: ['idea', 'plugin', 'rust']
+        }]
     }]
 }, {
     name: "Android",
@@ -761,6 +776,12 @@ const data = [{
             href: 'https://github.com/SidneyXu/AndroidDemoIn4Languages',
             type: 'github',
             tags: ['Java', 'Groovy', 'Scala', 'Kotlin', 'Android']
+        }, {
+            name: 'inorichi/tachiyomi',
+            desc: ' Free and open source manga reader for Android.',
+            href: 'https://github.com/inorichi/tachiyomi',
+            type: 'github',
+            tags: ['android', 'application']
         }]
     }]
 }, {
