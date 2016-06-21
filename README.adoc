@@ -136,6 +136,7 @@ toc::[]
 * https://github.com/hotchemi/khronos[hotchemi/khronos^] - An intuitive Date extensions in Kotlin.
 * https://github.com/npryce/konfig[npryce/konfig^] - A Type Safe Configuration API for Kotlin
 * https://github.com/ingokegel/jclasslib[ingokegel/jclasslib^] -  jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
+* https://github.com/holgerbrandl/krangl[holgerbrandl/krangl^] - krangl is a {K}otlin library for data w{rangl}ing
 
 
 == Projects

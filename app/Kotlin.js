@@ -520,6 +520,12 @@ const data = [{
             href: 'https://github.com/ingokegel/jclasslib',
             type: 'github',
             tags: ['bytecode']
+        }, {
+            name: 'holgerbrandl/krangl',
+            desc: 'krangl is a {K}otlin library for data w{rangl}ing',
+            href: 'https://github.com/holgerbrandl/krangl',
+            type: 'github',
+            tags: ['tabular data', 'data processing']
         }]
     }]
 }, {
