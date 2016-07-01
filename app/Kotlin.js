@@ -117,6 +117,12 @@ const data = [{
             href: 'https://github.com/sdeleuze/spring-kotlin',
             type: 'github',
             tags: ['spring', 'extensions']
+        }, {
+            name: 'Kotlin/kotlinx.coroutines',
+            desc: 'Libraries built upon Kotlin coroutines.',
+            href: 'https://github.com/Kotlin/kotlinx.coroutines',
+            type: 'github',
+            tags: ['async', 'await', 'yield', 'generator']
         }]
     }, {
         name: "Tests",

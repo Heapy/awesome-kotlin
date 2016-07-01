@@ -50,6 +50,7 @@ toc::[]
 * https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
+* https://github.com/Kotlin/kotlinx.coroutines[Kotlin/kotlinx.coroutines^] - Libraries built upon Kotlin coroutines.
 
 === Tests
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
@@ -164,6 +165,10 @@ toc::[]
 * https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
 * https://github.com/dodyg/Kotlin101[dodyg/Kotlin101^] - 101 examples for Kotlin Programming language.
 
+=== Idea Plugins
+* https://github.com/Vektah/CodeGlance[Vektah/CodeGlance^] - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
+* https://github.com/intellij-rust/intellij-rust[intellij-rust/intellij-rust^] - Rust IDE built using the IntelliJ Platform.
+
 
 == Android
 === Libraries
@@ -193,6 +198,7 @@ toc::[]
 * https://github.com/MakinGiants/todayhistory[MakinGiants/todayhistory^] - App that shows what happened today in history.
 * https://github.com/RxKotlin/Pocket[RxKotlin/Pocket^] - This app help user to save links easily, and can export to Evernote as weekly.
 * https://github.com/SidneyXu/AndroidDemoIn4Languages[SidneyXu/AndroidDemoIn4Languages^] - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
+* https://github.com/inorichi/tachiyomi[inorichi/tachiyomi^] -  Free and open source manga reader for Android.
 
 
 == Kotlin User Groups
@@ -211,6 +217,7 @@ toc::[]
 
 == Articles, Blog Posts
 === June 2016
+* http://kotlin.link/articles/Kotlin-1-0-3-Is-Here.html[Kotlin 1.0.3 Is Here!^] - Roman Belov
 * http://kotlin.link/articles/Ad-hoc-polymorphism-in-Kotlin.html[Ad-hoc polymorphism in Kotlin^] - Cédric Beust
 * http://kotlin.link/articles/Kotlin-null-safety-and-its-performance-considerations-part-1.html[Kotlin null safety and its performance considerations -- part 1^] - Konrad Kamiński
 * http://kotlin.link/articles/Kotlin-Native.html[Kotlin Native^] - Mike Hearn
