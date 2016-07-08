@@ -35,7 +35,7 @@ This talk is not an introduction to Kotlin. If you want to learn Kotlin, there a
 
 Kotlin 1.0 released in February 2016. Since then we were doing incremental updates: 1.0.2 is our current version, and we are working on 1.1 (a feature driven release, although I am not giving you a date yet). The Early Access Program (EAP) will start this summer.
 
-In this slide (_see video_) we have the people that have used Kotlin (_maybe not admitting it publicly!_). JetBrains is a big user, we were probably the first to start trying it in production. We have over half a million lines of code and production in different projects, from IntelliJ production of our main IDE to server side products (…to everything). A few projects are written in Kotlin from scratch. Others are catching up. We are grateful to everyone trying Kotlin in production. It is such an early stage of the release time! Join in, you will be in a good company.
+In this slide (_see video_) we have the people that have used Kotlin (_maybe not admitting it publicly!_). JetBrains is a big user, we were probably the first to start trying it in production. We have over half a million lines of code and production in different projects, from IntelliJ production of our main IDE to server side products (...to everything). A few projects are written in Kotlin from scratch. Others are catching up. We are grateful to everyone trying Kotlin in production. It is such an early stage of the release time! Join in, you will be in a good company.
 
 And being in a good company, you will not be alone. We have a lively community, Slack, forums, StackOverflow, full of people who are happy to tell you what you are doing wrong, and how to fix whatever issues you have. Come over to our GitHub Project, it is open source, you can join (we already have over 100 OSS contributors!). If you are stuck, we will work as hard as we can to be responsive. If you have a critical issue, we will role it out as an EAP build, which you can use to work on the problem.
 
@@ -65,11 +65,11 @@ _This slide does not mention anything about binary compatibility, because that g
 
 ### New Targets 07:49
 
-And for 1.1… we are planning many things!
+And for 1.1... we are planning many things!
 
 1.  **Java 8/9**. Our current target is Java 6: whatever you compile in Kotlin can run on anything that runs Java 6, including Java 8/9 (but it does not use the features of 8/9). We are working on generating default methods for Java 8\. In Kotlin, you can always implement methods and interfaces, but if you want to extend such an interface in Java, Java 6 would not know that those methods are implemented (Java 8 would). We also have some issues with Stream API collection in Java 8\. We have a support library for Java 8 streams, but that will be removed in Kotlin 1.1 and we will just support natively in the compiler.
 
-2.  The JavaScript backend for Kotlin has been around for years, but we de-prioritized it to shape 1.0 for Java as soon as we could. We are working on it again, and all the language features are covered. We are working on runtime module support (amd, umd, common.js). JavaScript has many common toolchains (npm, browserify, gulp, …), and we will try to support as many of them as we can.
+2.  The JavaScript backend for Kotlin has been around for years, but we de-prioritized it to shape 1.0 for Java as soon as we could. We are working on it again, and all the language features are covered. We are working on runtime module support (amd, umd, common.js). JavaScript has many common toolchains (npm, browserify, gulp, ...), and we will try to support as many of them as we can.
 
 3.  Another popular question, can I run Kotlin in a native environment without a virtual machine? The current answer is no; at least, not easily. No code is written in this section yet, and it is probably not going to be available in 1.1, but we are looking into this and we will probably have some news sometime later.
 
@@ -107,7 +107,7 @@ More or less works, like lamda over there. Same thing you will be able to do wit
 
 ### Enhancements for Properties 13:54
 
-If you do not know what delegated properties are… Google it, because they are cool. _(Ed. note: [Here you go!](https://kotlinlang.org/docs/reference/delegated-properties.html))_ This is something that allows good re-using code, Kotlin. Good news: in 1.1 we will allow that as a local variable. Now you can use **delegated properties** on a top level or in a class; you will be able to do it in a function. This enables DSLs, and this will help us with new cases.
+If you do not know what delegated properties are... Google it, because they are cool. _(Ed. note: [Here you go!](https://kotlinlang.org/docs/reference/delegated-properties.html))_ This is something that allows good re-using code, Kotlin. Good news: in 1.1 we will allow that as a local variable. Now you can use **delegated properties** on a top level or in a class; you will be able to do it in a function. This enables DSLs, and this will help us with new cases.
 
 ```kotlin
 fun foo() {
@@ -166,7 +166,7 @@ A map from N to string is a sequence of pairs, map entries of keys and values. I
 
 I have a black screen for you (_see video_). You are not supposed to read the code. All you care about is this staircase of brackets. This is the picture I Googled by the query ‘callback hell’. This picture is a typical piece of JavaScript (not only JavaScript, other languages suffer from this as well). This illustrates the world of asyncronist computation as it is, more or less, today in many languages.
 
-We want to be asynchronist as much as we can, because we like to offload things on different threads or other different ways of execution. The way I want to read from a file is: “Here is my file, I want to read from it. When the read is done, here is my callback, call it when it is finished”. That is great; I can call something, I am not blocking. I can continue working; the read will do its work. But, if after that read I want to write, and then another read, each next asynchronist call has to be nested inside that callback. It is a callback in a callback in a callback in a callback… and at the end I have this staircase. It is okay if it fits in 115 lines, but sometimes it does not. And this is why some languages have async/await.
+We want to be asynchronist as much as we can, because we like to offload things on different threads or other different ways of execution. The way I want to read from a file is: “Here is my file, I want to read from it. When the read is done, here is my callback, call it when it is finished”. That is great; I can call something, I am not blocking. I can continue working; the read will do its work. But, if after that read I want to write, and then another read, each next asynchronist call has to be nested inside that callback. It is a callback in a callback in a callback in a callback... and at the end I have this staircase. It is okay if it fits in 115 lines, but sometimes it does not. And this is why some languages have async/await.
 
 ### Asynchronous Computation 19:10
 

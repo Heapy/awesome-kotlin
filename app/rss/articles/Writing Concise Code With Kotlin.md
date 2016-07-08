@@ -296,6 +296,6 @@ Of course you are free to add properties and methods to Kotlin objects, just as 
 
 ## Closing Words
 
-I hope this quick overview gave you some more understanding of the Kotlin programming language and how it handles some of the more annoying aspects of Java in more convenient ways. Kotlin’s syntax is generally rather concise but still perfectly expressive (“data class …”, “object …”, “{ it.length > 6 }”) which makes your code more readable and thus maintainable.
+I hope this quick overview gave you some more understanding of the Kotlin programming language and how it handles some of the more annoying aspects of Java in more convenient ways. Kotlin’s syntax is generally rather concise but still perfectly expressive (“data class ...”, “object ...”, “{ it.length > 6 }”) which makes your code more readable and thus maintainable.
 
 If you’re interested in learning more about the Kotlin programming language, you can check out my [10 tutorial videos for Kotlin](http://petersommerhoff.com/dev/kotlin/kotlin-beginner-tutorial/). They give you a gentle introduction to the language and help you with the setup to get started (don’t worry, it’s not that much). Alternatively, you can also jump ahead and [check out the full Kotlin course hosted on Udemy](https://www.udemy.com/kotlin-course/?couponCode=AMAZINGREADERS25). The link contains a 50% discount coupon for my blog readers.

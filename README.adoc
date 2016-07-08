@@ -216,6 +216,9 @@ toc::[]
 
 
 == Articles, Blog Posts
+=== July 2016
+* http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html[Never say final: mocking Kotlin classes in unit tests^] - Danny Preussler
+
 === June 2016
 * http://kotlin.link/articles/Kotlin-1-0-3-Is-Here.html[Kotlin 1.0.3 Is Here!^] - Roman Belov
 * http://kotlin.link/articles/Ad-hoc-polymorphism-in-Kotlin.html[Ad-hoc polymorphism in Kotlin^] - Cédric Beust

@@ -279,7 +279,7 @@ fun findUserNameWithLet(userId: Int): String? =
     getUser (userId)?.let { it.name }
 ```
 
-`let` is essentially an [extension function](https://kotlinlang.org/docs/reference/extensions.html#extension-functions) (i.e. a method of a class which you can define outside of the class definition) that can be invoked on any type. It takes a [lambda expression](https://kotlinlang.org/docs/reference/lambdas.html#lambda-expressions-and-anonymous-functions) as its parameter and calls the expression with `this` as an argument. If a _lambda expression_ has only one parameter then we may skip declaring it and simply access the parameter via the name… `it`. Therefore in the example above `this` inside the lambda (`this` is of type `SimpleUser` – the type returned by the `getUser` method) is accessible as `it`. The value of the _lambda expression_ is returned as the result of the `let` function.
+`let` is essentially an [extension function](https://kotlinlang.org/docs/reference/extensions.html#extension-functions) (i.e. a method of a class which you can define outside of the class definition) that can be invoked on any type. It takes a [lambda expression](https://kotlinlang.org/docs/reference/lambdas.html#lambda-expressions-and-anonymous-functions) as its parameter and calls the expression with `this` as an argument. If a _lambda expression_ has only one parameter then we may skip declaring it and simply access the parameter via the name... `it`. Therefore in the example above `this` inside the lambda (`this` is of type `SimpleUser` – the type returned by the `getUser` method) is accessible as `it`. The value of the _lambda expression_ is returned as the result of the `let` function.
 
 The equivalent Java code for `findUserNameWithLet` is as follows:
 
@@ -535,7 +535,7 @@ public void explicitCase() {
 
 As we can see the rule is simple – every time we go from the _plaform type_ to non-`null` type a runtime check is generated. Once weʼre in the `null`-safe world no additional validation is needed.
 
-In the examples above weʼve seen that the `checkExpressionValueIsNotNull` method takes a variable name as the second parameter. This is done so that when a `null` value is passed youʼll see an error message with the name of the variable in it. But as the name of the method implies the second parameter does not have to be a variable name. In fact itʼs always an expression name, but in the cases presented above we had simple one-variable expressions. If we had a more complicated expression…:
+In the examples above weʼve seen that the `checkExpressionValueIsNotNull` method takes a variable name as the second parameter. This is done so that when a `null` value is passed youʼll see an error message with the name of the variable in it. But as the name of the method implies the second parameter does not have to be a variable name. In fact itʼs always an expression name, but in the cases presented above we had simple one-variable expressions. If we had a more complicated expression...:
 
 ```kotlin
 fun funnyCase() {

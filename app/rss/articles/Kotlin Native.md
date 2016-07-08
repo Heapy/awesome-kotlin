@@ -27,7 +27,7 @@ Here’s an entirely unscientific summary of the top reasons why people so often
 
 This list covers two of the three reasons cited by [the Scala Native website](http://www.scala-native.org/) for why it exists. The other reason is that Scala Native is extending the language to support C++ like constructs that are normally forbidden by the JVM, like forced stack allocation, but building a better C++ is already being handled by Rust. I suspect that trying to convert Scala or Kotlin into C++/Rust competitors wouldn’t go well.
 
-Sometimes people think a ‘native’ version of a managed language would fix problems that have nothing to do with compiler technology, like [this guy](https://news.ycombinator.com/item?id=11226023) who believes it would change font rendering. I’ve seen ‘native’ become a mythical cure-all for any frustration or problem the user might have … which isn’t surprising, given that most people have no experience with managed-to-native technologies.
+Sometimes people think a ‘native’ version of a managed language would fix problems that have nothing to do with compiler technology, like [this guy](https://news.ycombinator.com/item?id=11226023) who believes it would change font rendering. I’ve seen ‘native’ become a mythical cure-all for any frustration or problem the user might have ... which isn’t surprising, given that most people have no experience with managed-to-native technologies.
 
 ### A ‘Kotlin Native’ would make slower code
 
@@ -88,7 +88,7 @@ But the existence of projects like JNA seem to disprove this — you can hav
 
 ### Conclusion
 
-Kotlin doesn’t need an LLVM backend, and by extension I believe neither does Scala. Creating such a thing would be a huge and ongoing drain of manpower, take a long time, and end up duplicating work already being done elsewhere in the JVM ecosystem … very likely with worse results.
+Kotlin doesn’t need an LLVM backend, and by extension I believe neither does Scala. Creating such a thing would be a huge and ongoing drain of manpower, take a long time, and end up duplicating work already being done elsewhere in the JVM ecosystem ... very likely with worse results.
 
 Instead, I think the right direction for the community to go is:
 

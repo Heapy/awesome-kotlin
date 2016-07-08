@@ -41,7 +41,7 @@ output = f(0.1 * w11-output - 0.2 * w12-output
        = 0.42
 ```
 
-As you can see, calculating the output of a neural network is fairly straightforward and fast, much faster than actually training that network. Once you have created your networks and you are satisfied with its results, you can just pass around the characteristics of that network (weights, sizes, …) and any device (even phones) can then use that network.
+As you can see, calculating the output of a neural network is fairly straightforward and fast, much faster than actually training that network. Once you have created your networks and you are satisfied with its results, you can just pass around the characteristics of that network (weights, sizes, ...) and any device (even phones) can then use that network.
 
 ## Revisiting the xor network
 

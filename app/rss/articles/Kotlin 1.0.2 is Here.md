@@ -44,7 +44,7 @@ We’ve resumed work on our JavaScript backend, and the version 1.0.2 fills in m
 
 ### Maven Archetype
 
-We’re now providing a Maven archetype to easily create Kotlin projects. Use “New project | Maven | Create from Archetype…” in IntelliJ IDEA, or the following command line:
+We’re now providing a Maven archetype to easily create Kotlin projects. Use “New project | Maven | Create from Archetype...” in IntelliJ IDEA, or the following command line:
 
 ```kotlin
 mvn archetype:generate -Dfilter=org.jetbrains.kotlin:

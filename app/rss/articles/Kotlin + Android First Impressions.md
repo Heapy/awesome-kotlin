@@ -59,7 +59,7 @@ You could also use [Anko](https://github.com/Kotlin/anko) which is a UI library 
 
 Maybe one day I’ll write another blog on Anko or something :).
 
-## The future…
+## The future...
 
 So what are the chances that Kotlin will indeed be the official, main go-to when coding in Android?
 

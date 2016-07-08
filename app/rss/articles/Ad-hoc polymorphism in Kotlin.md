@@ -16,7 +16,7 @@ Here is what the [Haskell wiki](https://wiki.haskell.org/Polymorphism) has to sa
 
 Before we get into details, let’s define exactly what we are trying to do and why we’re trying to do it. One intuitive way of looking at ad-hoc polymorphism is that it enables us to retroactively make values conform to a certain type. This is a bit abstract but I’m pretty sure you have encountered this problem many times before even if you never realized it. Let’s look at a simple example.
 
-A library typically defines types and then offers functions that take parameters and returns values of that type. The only way to make use of that library is to find a way to bring your objects into that library’s object world, or in other words, be able to convert your objects to objects that this library expects and vice versa. You will find many examples of type classes if you do a simple search: values that behave like a Number, Functor, Applicative, Monad, Monoid, Equality, Comparability, etc… In order not to repeat what’s already out there and in an effort to remain focused on concrete problems, I’m going to pick a different field: JSON.
+A library typically defines types and then offers functions that take parameters and returns values of that type. The only way to make use of that library is to find a way to bring your objects into that library’s object world, or in other words, be able to convert your objects to objects that this library expects and vice versa. You will find many examples of type classes if you do a simple search: values that behave like a Number, Functor, Applicative, Monad, Monoid, Equality, Comparability, etc... In order not to repeat what’s already out there and in an effort to remain focused on concrete problems, I’m going to pick a different field: JSON.
 
 The need to parse JSON and also convert your objects to JSON is pretty much universal, so in all likeliness, you are already using a JSON library in your code. And at some point, you have had to ask yourself a very simple question: “How do I convert my current objects to JSON so I can use this library”. The library probably defines some kind of `JsonObject` type and most of its API is defined in terms of this type, either with functions accepting parameters of that type or returning such values:
 
@@ -26,7 +26,7 @@ interface JsonObject {
 }
 ```
 
-In order to leverage this library, converting your objects so they conform to this interface is very important, and once you have converted your objects, you gain full access to all the functionalities that this library offers, such as pretty printing in JSON, doing search/replaces in JSON, reshaping JSON object from one form to another, etc…
+In order to leverage this library, converting your objects so they conform to this interface is very important, and once you have converted your objects, you gain full access to all the functionalities that this library offers, such as pretty printing in JSON, doing search/replaces in JSON, reshaping JSON object from one form to another, etc...
 
 If you own (i.e. you are the author of) these classes, doing so is very easy. For example, you can modify your class to implement that interface:
 
@@ -36,7 +36,7 @@ class Account : JsonObject {
 }
 ```
 
-The advantage of this approach is that you can now pass all your `Account` values directly to functions of the JSON libraries that accept a `JsonObject`. This is very useful, but the downside is that you have now polluted your class with a concern that make your design more bloated. If you are going to extend this approach to other types, very soon, your `Account` class will extend multiple interfaces filling various functionalities, and you have now tied your business logic to a lot of dependencies (i.e. you now need this JSON library in order to compile your `Account`…).
+The advantage of this approach is that you can now pass all your `Account` values directly to functions of the JSON libraries that accept a `JsonObject`. This is very useful, but the downside is that you have now polluted your class with a concern that make your design more bloated. If you are going to extend this approach to other types, very soon, your `Account` class will extend multiple interfaces filling various functionalities, and you have now tied your business logic to a lot of dependencies (i.e. you now need this JSON library in order to compile your `Account`...).
 
 Another approach is simply to write a function that converts your business objects to `JsonObjects`:
 

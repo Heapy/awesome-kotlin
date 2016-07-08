@@ -14,8 +14,8 @@ date: Apr 09, 2016 15:36
 
 * [Introduction: A few words about this](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664)
 * [Part 1:](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-1-e0f51fc1a8b3) [Configuring Android Studio with Kotlin](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-1-e0f51fc1a8b3)
-* [Part 2: MainActivity.kt: Syntax, Null Safety and more…](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-2-e53317ffcbe9)
-* [Part 3: NewsFragment.kt: Extension Functions, Android Extensions…](https://medium.com/@juanchosaravia/keddit-part-3-extension-functions-android-extensions-and-more-faa7d232f232)
+* [Part 2: MainActivity.kt: Syntax, Null Safety and more...](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-2-e53317ffcbe9)
+* [Part 3: NewsFragment.kt: Extension Functions, Android Extensions...](https://medium.com/@juanchosaravia/keddit-part-3-extension-functions-android-extensions-and-more-faa7d232f232)
 * [Part 4: RecyclerView — Delegate Adapters & Data Classes with Kotlin](https://medium.com/@juanchosaravia/keddit-part-4-recyclerview-delegate-adapters-data-classes-with-kotlin-9248f44327f7)
 * [Part 5: Kotlin, RxJava & RxAndroid](https://medium.com/@juanchosaravia/keddit-part-5-kotlin-rxjava-rxandroid-105f95bfcd22)
 * [Part 6: API — Retrofit & Kotlin](https://medium.com/@juanchosaravia/keddit-part-6-api-retrofit-kotlin-d309074af0)
