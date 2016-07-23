@@ -399,6 +399,12 @@ const data = [{
             href: 'https://github.com/sargunster/kotlin-textmate-bundle',
             type: 'github',
             tags: ['editor', 'ide', 'language']
+        }, {
+            name: 'ice1000/NppExtension',
+            desc: 'Kotlin Language extension for Notepad++',
+            href: 'https://github.com/ice1000/NppExtension',
+            type: 'github',
+            tags: ['editor', 'ide', 'language']
         }]
     }, {
         name: "Syntax Highlighters",

@@ -111,6 +111,7 @@ toc::[]
 * https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
 * https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
 * https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
+* https://github.com/ice1000/NppExtension[ice1000/NppExtension^] - Kotlin Language extension for Notepad++
 
 === Syntax Highlighters
 * https://github.com/jneen/rouge[jneen/rouge^] - A pure-ruby code highlighter that is compatible with pygments. (wip)
