@@ -191,7 +191,7 @@ const data = [{
             tags: ['di', 'dependency injection']
         }, {
             name: 'kohesive/injekt',
-            desc: 'Dependency Injection / Object Factory for Kotlin',
+            desc: '(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin',
             href: 'https://github.com/kohesive/injekt',
             type: 'github',
             tags: ['di', 'dependency injection']
@@ -522,7 +522,7 @@ const data = [{
             tags: ['configuration']
         }, {
             name: 'ingokegel/jclasslib',
-            desc: ' jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.',
+            desc: 'jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.',
             href: 'https://github.com/ingokegel/jclasslib',
             type: 'github',
             tags: ['bytecode']
@@ -532,6 +532,18 @@ const data = [{
             href: 'https://github.com/holgerbrandl/krangl',
             type: 'github',
             tags: ['tabular data', 'data processing']
+        }, {
+            name: 'debop/koda-time',
+            desc: 'Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)',
+            href: 'https://github.com/debop/koda-time',
+            type: 'github',
+            tags: ['joda-time', 'jsr-310']
+        }, {
+            name: 'MicroUtils/kotlin.logging',
+            desc: 'Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.',
+            href: 'https://github.com/MicroUtils/kotlin.logging',
+            type: 'github',
+            tags: ['logging', 'slf4j']
         }]
     }]
 }, {

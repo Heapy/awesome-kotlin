@@ -65,7 +65,7 @@ toc::[]
 
 === Dependency Injection
 * https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
-* https://github.com/kohesive/injekt[kohesive/injekt^] - Dependency Injection / Object Factory for Kotlin
+* https://github.com/kohesive/injekt[kohesive/injekt^] - (Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin
 
 === Functional Programming
 * https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
@@ -136,8 +136,10 @@ toc::[]
 * https://github.com/sargunster/KtUnits[sargunster/KtUnits^] - Tiny unit conversion library for Kotlin.
 * https://github.com/hotchemi/khronos[hotchemi/khronos^] - An intuitive Date extensions in Kotlin.
 * https://github.com/npryce/konfig[npryce/konfig^] - A Type Safe Configuration API for Kotlin
-* https://github.com/ingokegel/jclasslib[ingokegel/jclasslib^] -  jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
+* https://github.com/ingokegel/jclasslib[ingokegel/jclasslib^] - jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
 * https://github.com/holgerbrandl/krangl[holgerbrandl/krangl^] - krangl is a {K}otlin library for data w{rangl}ing
+* https://github.com/debop/koda-time[debop/koda-time^] - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
+* https://github.com/MicroUtils/kotlin.logging[MicroUtils/kotlin.logging^] - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
 
 
 == Projects
