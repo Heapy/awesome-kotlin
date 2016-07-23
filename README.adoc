@@ -219,6 +219,7 @@ toc::[]
 
 == Articles, Blog Posts
 === July 2016
+* http://kotlin.link/articles/First-glimpse-of-Kotlin-1-1-Coroutines-Type-aliases-and-more.html[First glimpse of Kotlin 1.1: Coroutines, Type aliases and more^] - Andrey Breslav
 * http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html[Never say final: mocking Kotlin classes in unit tests^] - Danny Preussler
 
 === June 2016
