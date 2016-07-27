@@ -325,6 +325,12 @@ const data = [{
             type: 'github',
             tags: ['bash', 'scripting', 'kts']
         }, {
+            name: 'shyiko/ktlint',
+            desc: 'Kotlin linter.',
+            href: 'https://github.com/shyiko/ktlint',
+            type: 'github',
+            tags: ['style', 'linter']
+        }, {
             name: 'jtransc/jtransc',
             desc: 'JVM AOT compiler created in Kotlin.',
             href: 'https://github.com/jtransc/jtransc',
