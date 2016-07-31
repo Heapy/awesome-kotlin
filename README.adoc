@@ -226,6 +226,7 @@ toc::[]
 
 === June 2016
 * http://kotlin.link/articles/Kotlin-1-0-3-Is-Here.html[Kotlin 1.0.3 Is Here!^] - Roman Belov
+* http://kotlin.link/articles/How-to-get-IDEA-to-detect-kotlin-generated-sources-using-Gradle.html[How to get IDEA to detect kotlin generated sources using Gradle^] - Nish Tahir
 * http://kotlin.link/articles/Ad-hoc-polymorphism-in-Kotlin.html[Ad-hoc polymorphism in Kotlin^] - Cédric Beust
 * http://kotlin.link/articles/Kotlin-null-safety-and-its-performance-considerations-part-1.html[Kotlin null safety and its performance considerations -- part 1^] - Konrad Kamiński
 * http://kotlin.link/articles/Kotlin-Native.html[Kotlin Native^] - Mike Hearn
@@ -326,8 +327,8 @@ toc::[]
 * http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
 * http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
 * http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
-* http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 * http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
+* http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 * http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
