@@ -52,8 +52,8 @@ idea {
 
 ###### Footnotes and references
 
-1. <a name="fn:1"/> →, V. (2015). Better Annotation Processing: Supporting Stubs in kapt. [online] Kotlin Blog. Available at: [https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/#comment-36065](https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/#comment-36065) [Accessed 25 Jun. 2016]. [↩](#fnref:1 "return to article")
+1. <a name="fn:1"></a> →, V. (2015). Better Annotation Processing: Supporting Stubs in kapt. [online] Kotlin Blog. Available at: [https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/#comment-36065](https://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/#comment-36065) [Accessed 25 Jun. 2016]. [↩](#fnref:1 "return to article")
 
-2. <a name="fn:2"/> Docs.gradle.org. (2016). The IDEA Plugin - Gradle User Guide Version 2.14. [online] Available at: [https://docs.gradle.org/current/userguide/idea_plugin.html](https://docs.gradle.org/current/userguide/idea_plugin.html) [Accessed 25 Jun. 2016]. [↩](#fnref:2 "return to article")
+2. <a name="fn:2"></a> Docs.gradle.org. (2016). The IDEA Plugin - Gradle User Guide Version 2.14. [online] Available at: [https://docs.gradle.org/current/userguide/idea_plugin.html](https://docs.gradle.org/current/userguide/idea_plugin.html) [Accessed 25 Jun. 2016]. [↩](#fnref:2 "return to article")
 
-3. <a name="fn:3"/> Docs.gradle.org. (2016). IdeaModule - Gradle DSL Version 2.14. [online] Available at: [https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.idea.model.IdeaModule.html](https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.idea.model.IdeaModule.html) [Accessed 25 Jun. 2016]. [↩](#fnref:3 "return to article")
+3. <a name="fn:3"></a> Docs.gradle.org. (2016). IdeaModule - Gradle DSL Version 2.14. [online] Available at: [https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.idea.model.IdeaModule.html](https://docs.gradle.org/current/dsl/org.gradle.plugins.ide.idea.model.IdeaModule.html) [Accessed 25 Jun. 2016]. [↩](#fnref:3 "return to article")
