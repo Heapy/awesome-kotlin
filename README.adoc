@@ -220,6 +220,9 @@ toc::[]
 
 
 == Articles, Blog Posts
+=== August 2016
+* http://kotlin.link/articles/Calling-on-EAPers.html[Calling on EAPers^] - Roman Belov
+
 === July 2016
 * http://kotlin.link/articles/First-glimpse-of-Kotlin-1-1-Coroutines-Type-aliases-and-more.html[First glimpse of Kotlin 1.1: Coroutines, Type aliases and more^] - Andrey Breslav
 * http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html[Never say final: mocking Kotlin classes in unit tests^] - Danny Preussler
@@ -257,8 +260,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Grobunov
-* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
+* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
@@ -327,8 +330,8 @@ toc::[]
 * http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
 * http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
 * http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
-* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
+* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
@@ -337,8 +340,8 @@ toc::[]
 * http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - Sébastien Deleuze
 * http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - Andrey Breslav
 * http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html[The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class^] - Mike Gehard
-* http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 * http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
+* http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - Andrey Breslav
 * http://kotlin.link/articles/Kotlin-Coding.html[Kotlin Coding^] - Ciro Rizzo
 * http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff
@@ -405,6 +408,9 @@ toc::[]
 
 
 == Videos
+=== August 2016
+* http://kotlin.link/articles/Andrey-Breslav-Kotlin-Coroutines-JVMLS-2016.html[Andrey Breslav: Kotlin Coroutines, JVMLS 2016^] - Andrey Breslav
+
 === April 2016
 * http://kotlin.link/articles/Type-safe-JavaFX-CSS-with-TornadoFX.html[Type safe JavaFX CSS with TornadoFX^] - Edvin Syse
 
