@@ -825,12 +825,6 @@ const data = [{
     subcategories: [{
         name: 'Europe',
         links: [{
-            name: 'Stockholm Kotlin User Group',
-            desc: 'Sweden',
-            href: 'http://www.meetup.com/Stockholm-Kotlin-User-Group/',
-            type: 'kug',
-            tags: ['Sweden']
-        }, {
             name: 'Kotlin Developers in Manchester',
             desc: 'United Kingdom',
             href: 'http://www.meetup.com/Kotlin-Manchester/',

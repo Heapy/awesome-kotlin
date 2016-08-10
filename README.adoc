@@ -207,7 +207,6 @@ toc::[]
 
 == Kotlin User Groups
 === Europe
-* http://www.meetup.com/Stockholm-Kotlin-User-Group/[Stockholm Kotlin User Group^] - Sweden
 * http://www.meetup.com/Kotlin-Manchester/[Kotlin Developers in Manchester^] - United Kingdom
 * http://bkug.by/[Belarus Kotlin User Group^] - Belarus
 * http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/[Kotlin User Group Munich^] - Deutschland
@@ -259,7 +258,7 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-5-Classes.html[Exercises in Kotlin: Part 5 - Classes^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
-* http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Grobunov
+* http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
