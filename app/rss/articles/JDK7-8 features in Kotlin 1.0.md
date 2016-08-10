@@ -3,7 +3,7 @@ title: 'JDK7/8 features in Kotlin 1.0'
 url: https://discuss.kotlinlang.org/t/jdk7-8-features-in-kotlin-1-0/1625
 categories:
     - Kotlin
-author: Ilya Grobunov
+author: Ilya Gorbunov
 date: Apr 21, 2016 19:36
 ---
 Currently it's rather inconvenient to use those methods of mapped builtin types, that were added in JDK8\. These include `Collection.stream()`, `Map.getOrDefault(K, V)`, etc. We have several long-standing issues related in our tracker: [KT-9194](https://youtrack.jetbrains.com/issue/KT-9194), [KT-5175](https://youtrack.jetbrains.com/issue/KT-5175) and [KT-10864](https://youtrack.jetbrains.com/issue/KT-10864).
