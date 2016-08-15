@@ -29,6 +29,7 @@ toc::[]
 
 === Resources
 * https://www.reddit.com/r/Kotlin/[/r/Kotlin^] 
+* http://stackoverflow.com/documentation/kotlin/topics[Stackoverflow Documentation on Kotlin^] 
 * https://www.quora.com/topic/Kotlin[Quora Kotlin^] 
 * https://github.com/trending?l=kotlin[Trending Kotlin on Github^] 
 * http://antonioleiva.com/[Antonio Leiva - Android and any other monsters^] 

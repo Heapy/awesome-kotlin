@@ -41,6 +41,10 @@ const data = [{
             name: '/r/Kotlin',
             href: 'https://www.reddit.com/r/Kotlin/'
         }, {
+            name: 'Stackoverflow Documentation on Kotlin',
+            href: 'http://stackoverflow.com/documentation/kotlin/topics',
+            tags: ['documentation', 'stackoverflow']
+        }, {
             name: 'Quora Kotlin',
             href: 'https://www.quora.com/topic/Kotlin',
             whitelisted: true
