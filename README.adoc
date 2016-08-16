@@ -72,7 +72,8 @@ toc::[]
 * https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
 * https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin^] - RxJava bindings for Kotlin.
 * https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
-* https://github.com/brianegan/bansa[brianegan/bansa^] -  A state container for Kotlin & Java, inspired by Elm & Redux.
+* https://github.com/brianegan/bansa[brianegan/bansa^] - A state container for Kotlin & Java, inspired by Elm & Redux.
+* https://github.com/pardom/redux-kotlin[pardom/redux-kotlin^] - Direct port of Redux for Kotlin.
 
 === JSON
 * https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.

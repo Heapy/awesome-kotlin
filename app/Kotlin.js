@@ -222,8 +222,14 @@ const data = [{
             tags: ['fp', 'functional', 'monad']
         }, {
             name: 'brianegan/bansa',
-            desc: ' A state container for Kotlin & Java, inspired by Elm & Redux.',
+            desc: 'A state container for Kotlin & Java, inspired by Elm & Redux.',
             href: 'https://github.com/brianegan/bansa',
+            type: 'github',
+            tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
+        }, {
+            name: 'pardom/redux-kotlin',
+            desc: 'Direct port of Redux for Kotlin.',
+            href: 'https://github.com/pardom/redux-kotlin',
             type: 'github',
             tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
         }]
