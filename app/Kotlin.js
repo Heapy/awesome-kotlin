@@ -537,6 +537,12 @@ const data = [{
             type: 'github',
             tags: ['time', 'date']
         }, {
+            name: 'yole/kxdate',
+            desc: 'Kotlin extensions for Java 8 java.time API',
+            href: 'https://github.com/yole/kxdate',
+            type: 'github',
+            tags: ['time', 'date']
+        }, {
             name: 'npryce/konfig',
             desc: 'A Type Safe Configuration API for Kotlin',
             href: 'https://github.com/npryce/konfig',

@@ -139,6 +139,7 @@ toc::[]
 * https://github.com/sargunster/CakeParse[sargunster/CakeParse^] - Simple parser combinator library for Kotlin.
 * https://github.com/sargunster/KtUnits[sargunster/KtUnits^] - Tiny unit conversion library for Kotlin.
 * https://github.com/hotchemi/khronos[hotchemi/khronos^] - An intuitive Date extensions in Kotlin.
+* https://github.com/yole/kxdate[yole/kxdate^] - Kotlin extensions for Java 8 java.time API
 * https://github.com/npryce/konfig[npryce/konfig^] - A Type Safe Configuration API for Kotlin
 * https://github.com/ingokegel/jclasslib[ingokegel/jclasslib^] - jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
 * https://github.com/holgerbrandl/krangl[holgerbrandl/krangl^] - krangl is a {K}otlin library for data w{rangl}ing
@@ -225,6 +226,7 @@ toc::[]
 * http://kotlin.link/articles/Calling-on-EAPers.html[Calling on EAPers^] - Roman Belov
 
 === July 2016
+* http://kotlin.link/articles/KotlinLifeguard-1.html[KotlinLifeguard #1^] - Daniel Gomez Rico
 * http://kotlin.link/articles/First-glimpse-of-Kotlin-1-1-Coroutines-Type-aliases-and-more.html[First glimpse of Kotlin 1.1: Coroutines, Type aliases and more^] - Andrey Breslav
 * http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html[Never say final: mocking Kotlin classes in unit tests^] - Danny Preussler
 
