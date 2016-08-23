@@ -292,7 +292,7 @@ Kotlin has loads of other advanced and convenient features that make it a pleasu
 2. See [Java interoperability, platform types](http://kotlinlang.org/docs/reference/java-interop.html) and [null safety](http://kotlinlang.org/docs/reference/null-safety.html). [↩](#fnref:java-interop)
 3. Kotlin actors are always untyped because typed actors are useful only in very simple cases, like short-lived transient actors, but not so much in more complex situations. [↩](#fnref:untyped-actors)
 4. `when` supports type maching, value matching against arbitrary expressions and range matching; see [control flow](http://kotlinlang.org/docs/reference/control-flow.html). [↩](#fnref:when)
-5. The timeout overload is `inline protected fun receive(timeout: Long, unit: TimeUnit?, proc: (Any) -> Any?)` and it is non-blocking if the timeout is 0\. [↩](#fnref:receive)
+5. The timeout overload is `inline protected fun receive(timeout: Long, unit: TimeUnit?, proc: (Any) -> Any?)` and it is non-blocking if the timeout is 0. [↩](#fnref:receive)
 6. This is possible only with inline lambdas. [↩](#fnref:only-inline)
 7. This is likely to become only a warning in the future. [↩](#fnref:public-api)
 

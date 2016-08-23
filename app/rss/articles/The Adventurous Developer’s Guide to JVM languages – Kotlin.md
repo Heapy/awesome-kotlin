@@ -10,7 +10,7 @@ In this post we will focus on [Kotlin](http://kotlin.jetbrains.org/), with a sim
 
 [![](http://devnet.jetbrains.net/servlet/JiveServlet/showImage/2-5456865-25537/KotlinLogo.png)](http://devnet.jetbrains.net/servlet/JiveServlet/showImage/2-5456865-25537/KotlinLogo.png)
 
-The Kotlin HTTP Server example we coded can be found on [github](https://github.com/sjmaple/Kotlin-HTTP-Server). Kotlin is a fairly young, statically-typed language, created by JetBrains and first announced at the JVM language summit in July 2011\. The smart folks at JetBrains, creators of IntelliJ IDEA, have integrated many languages into their IDE and are pretty clued up on which requirements a modern-day developer is looking for, as well as the capabilities of the existing JVM languages.
+The Kotlin HTTP Server example we coded can be found on [github](https://github.com/sjmaple/Kotlin-HTTP-Server). Kotlin is a fairly young, statically-typed language, created by JetBrains and first announced at the JVM language summit in July 2011. The smart folks at JetBrains, creators of IntelliJ IDEA, have integrated many languages into their IDE and are pretty clued up on which requirements a modern-day developer is looking for, as well as the capabilities of the existing JVM languages.
 
 The IDE support was the first ‘challenge’ I was faced with. As an Eclipse user, switching to the IntelliJ IDEA environment is always difficult, but it’s a necessary step if you want to code in a rich Kotlin environment. It’s fairly easy to install the Kotlin plugin, and create Kotlin artifacts, but just a shame the support isn’t also being pushed to other IDEs. Maybe we can subtly hint this to the JetBrains team? ;)
 

@@ -469,6 +469,12 @@ const data = [{
             href: 'https://github.com/andrewoma/reakt',
             type: 'github',
             tags: ['react', 'javascript', 'ui']
+        }, {
+            name: 'pixijs/pixi-native',
+            desc: 'The aim of this project is to provide a fast lightweight 2D library that works across all devices.',
+            href: 'https://github.com/pixijs/pixi-native',
+            type: 'github',
+            tags: ['javascript', '2d', 'canvas', 'WebGL']
         }]
     }, {
         name: "Misc",
@@ -779,6 +785,12 @@ const data = [{
             href: 'https://github.com/graknol/AnvilKotlin',
             type: 'github',
             tags: ['android', 'react', 'view']
+        }, {
+            name: 'mathcamp/fiberglass',
+            desc: 'Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.',
+            href: 'https://github.com/mathcamp/fiberglass',
+            type: 'github',
+            tags: ['android', 'SharedPreferences']
         }]
     }, {
         name: "Frameworks",
@@ -849,6 +861,15 @@ const data = [{
             href: 'https://github.com/inorichi/tachiyomi',
             type: 'github',
             tags: ['android', 'application']
+        }]
+    }, {
+        name: 'Extensions',
+        links: [{
+            name: 'ajalt/timberkt',
+            desc: 'Easy Android logging with Kotlin and Timber',
+            href: 'https://github.com/ajalt/timberkt',
+            type: 'github',
+            tags: ['android', 'logging']
         }]
     }]
 }, {

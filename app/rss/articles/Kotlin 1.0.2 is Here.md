@@ -52,7 +52,7 @@ mvn archetype:generate -Dfilter=org.jetbrains.kotlin:
 
 ### Dokka 0.9.8
 
-Together with Kotlin 1.0.2, we’re releasing a new version of [Dokka](https://github.com/kotlin/dokka), the Kotlin documentation generation tool. If you’re using Dokka in your project, you need to upgrade Dokka together with Kotlin, because older Dokka versions are incompatible with Kotlin 1.0.2\. New features in Dokka 0.9.8 include:
+Together with Kotlin 1.0.2, we’re releasing a new version of [Dokka](https://github.com/kotlin/dokka), the Kotlin documentation generation tool. If you’re using Dokka in your project, you need to upgrade Dokka together with Kotlin, because older Dokka versions are incompatible with Kotlin 1.0.2. New features in Dokka 0.9.8 include:
 
 * Android Gradle plugin, for generating documentation for Android libraries and applications;
 * Support for generating a javadoc jar file in the Maven plugin.

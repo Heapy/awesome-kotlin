@@ -202,7 +202,7 @@ if (person !is Student)
 person.immatriculationNumber
 ```
 
-In this case, if person were not a student, the control flow would never reach line 4\. Accordingly, the Kotlin compiler knows that person must be Student object and performs a smart cast.
+In this case, if person were not a student, the control flow would never reach line 4. Accordingly, the Kotlin compiler knows that person must be Student object and performs a smart cast.
 
 Let’s look at some **lazily evaluated conditional expressions**:
 

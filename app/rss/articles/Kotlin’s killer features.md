@@ -130,7 +130,7 @@ val name: String? = bob?.department?.head?.name
 
 If any of these calls returns null, the rest is skipped. But of course you know better than to write such trainwreck statements (Law of Demeter).
 
-We’ve had the Optional wrapper pattern in many different flavours as a better way to avoid null references. It’s been in the standard library since Java 8\. Kotlin’s types are better by far:
+We’ve had the Optional wrapper pattern in many different flavours as a better way to avoid null references. It’s been in the standard library since Java 8. Kotlin’s types are better by far:
 
 * They’re more conscise: Optional wrappers add verbosity in creating and unwrapping.
 * Optionals don’t offer compile-time safety at all: you can still return and pass null where an Optional is expected and get the same hated NPE.

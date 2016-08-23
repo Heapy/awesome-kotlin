@@ -6,7 +6,7 @@ categories:
 author: Andrey Breslav
 date: Jul 14, 2016 15:01
 ---
-While Kotlin 1.0.X releases keep delivering incremental updates and tooling features, we are working on the new language features in Kotlin 1.1\. Today we are presenting the first preview version of 1.1, it’s far from Beta, but the brave and curious ones can play with new exciting things (and hopefully give us their invaluable feedback).
+While Kotlin 1.0.X releases keep delivering incremental updates and tooling features, we are working on the new language features in Kotlin 1.1. Today we are presenting the first preview version of 1.1, it’s far from Beta, but the brave and curious ones can play with new exciting things (and hopefully give us their invaluable feedback).
 
 ## Compatibility
 

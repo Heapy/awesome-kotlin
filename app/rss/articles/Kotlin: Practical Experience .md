@@ -115,7 +115,7 @@ This method takes a string and Java executor, and returns a `CompletableFuture` 
 
 ### Try-with-resources
 
-This is actually a Java 7 feature, but still applies when using Java 8\. In Java we may do the following to copy from an input stream to an output stream. This example relies on Guava to save some nasty iteration, but demonstrates how in Java we can declare multiple `AutoCloseable` instances in a single try-with-resources declaration. When the try block completes, `AutoCloseable.close()` will be called on each reference.
+This is actually a Java 7 feature, but still applies when using Java 8. In Java we may do the following to copy from an input stream to an output stream. This example relies on Guava to save some nasty iteration, but demonstrates how in Java we can declare multiple `AutoCloseable` instances in a single try-with-resources declaration. When the try block completes, `AutoCloseable.close()` will be called on each reference.
 
 ```kotlin
 try (InputStream input = new FileInputStream("SourceFile"); OutputStream output = new FileOutputStream("TargetFile")) {
@@ -135,7 +135,7 @@ FileInputStream("SourceFile").use { input ->
 
 Note that we have to nest the second `use` method call to include the second resource declaration, which also means we can’t use the implicit `it` parameter because we have to differentiate between `input` and `output`.
 
-We also cannot use `AutoCloseable` which was only introduced in Java 7, so this restricts the usage to `Closeable` implementations only. The only workaround for the `AutoCloseable` case at the moment is to implement one’s own `use` extension method for `AutoCloseable`. JetBrains have indicated they are looking at this, though this goes back at least to 2014\. I guess it wasn’t seen as something that had to be fixed by 1.0.0, especially since a proper fix introduces the need for Kotlin to be able to target newer versions of Java as well as keep working for Java 6.
+We also cannot use `AutoCloseable` which was only introduced in Java 7, so this restricts the usage to `Closeable` implementations only. The only workaround for the `AutoCloseable` case at the moment is to implement one’s own `use` extension method for `AutoCloseable`. JetBrains have indicated they are looking at this, though this goes back at least to 2014. I guess it wasn’t seen as something that had to be fixed by 1.0.0, especially since a proper fix introduces the need for Kotlin to be able to target newer versions of Java as well as keep working for Java 6.
 
 Another issue is that `use` is currently not able to use `Throwable.addSuppressed(Thowable)` for the case where an Exception is being thrown but the close call in the finally block throws its own exception, because this method was also only added in Java 7 specifically for supporting the try-with-resources construct. The source for Kotlin’s `use` includes a TODO item for this and correctly swallows the exception from close so that it doesn’t mask the original exception, hopefully a better solution will be forthcoming. This issue is [discussed here](https://discuss.kotlinlang.org/t/kotlin-needs-try-with-resources/214).
 

@@ -67,7 +67,7 @@ _This slide does not mention anything about binary compatibility, because that g
 
 And for 1.1... we are planning many things!
 
-1.  **Java 8/9**. Our current target is Java 6: whatever you compile in Kotlin can run on anything that runs Java 6, including Java 8/9 (but it does not use the features of 8/9). We are working on generating default methods for Java 8\. In Kotlin, you can always implement methods and interfaces, but if you want to extend such an interface in Java, Java 6 would not know that those methods are implemented (Java 8 would). We also have some issues with Stream API collection in Java 8\. We have a support library for Java 8 streams, but that will be removed in Kotlin 1.1 and we will just support natively in the compiler.
+1.  **Java 8/9**. Our current target is Java 6: whatever you compile in Kotlin can run on anything that runs Java 6, including Java 8/9 (but it does not use the features of 8/9). We are working on generating default methods for Java 8. In Kotlin, you can always implement methods and interfaces, but if you want to extend such an interface in Java, Java 6 would not know that those methods are implemented (Java 8 would). We also have some issues with Stream API collection in Java 8. We have a support library for Java 8 streams, but that will be removed in Kotlin 1.1 and we will just support natively in the compiler.
 
 2.  The JavaScript backend for Kotlin has been around for years, but we de-prioritized it to shape 1.0 for Java as soon as we could. We are working on it again, and all the language features are covered. We are working on runtime module support (amd, umd, common.js). JavaScript has many common toolchains (npm, browserify, gulp, ...), and we will try to support as many of them as we can.
 

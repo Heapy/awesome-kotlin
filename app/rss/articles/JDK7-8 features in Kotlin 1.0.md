@@ -6,7 +6,7 @@ categories:
 author: Ilya Gorbunov
 date: Apr 21, 2016 19:36
 ---
-Currently it's rather inconvenient to use those methods of mapped builtin types, that were added in JDK8\. These include `Collection.stream()`, `Map.getOrDefault(K, V)`, etc. We have several long-standing issues related in our tracker: [KT-9194](https://youtrack.jetbrains.com/issue/KT-9194), [KT-5175](https://youtrack.jetbrains.com/issue/KT-5175) and [KT-10864](https://youtrack.jetbrains.com/issue/KT-10864).
+Currently it's rather inconvenient to use those methods of mapped builtin types, that were added in JDK8. These include `Collection.stream()`, `Map.getOrDefault(K, V)`, etc. We have several long-standing issues related in our tracker: [KT-9194](https://youtrack.jetbrains.com/issue/KT-9194), [KT-5175](https://youtrack.jetbrains.com/issue/KT-5175) and [KT-10864](https://youtrack.jetbrains.com/issue/KT-10864).
 
 This happens because Kotlin targets JDK 1.6 as the minimum JDK version, so it can't expose those members of builtin types that are not available in JDK 1.6.
 We plan to remove the limitation in Kotlin 1.1 by exposing all builtin type members available in the target platform (excluding some blacklisted exceptions), but as a short-term fix we could provide a way to call these methods via extensions.

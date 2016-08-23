@@ -11,7 +11,7 @@ This article is overdue. After the hype around the [release of Kotlin 1.0](https
 
 In this article, I’m not going to wish for unicorns. But there are some low hanging fruit (as far as I naively can see), which could be introduced into the Java language without great risk. While you’re reading this article, be sure to copy paste examples to [http://try.kotlinlang.org](http://try.kotlinlang.org), an online REPL for Kotlin
 
-## 1\. Data class
+## 1. Data class
 
 Language designers hardly ever agree on the necessity and the feature scope of what a class is. In Java, curiously, every class always has _identity_ a concept that is not really needed in 80% – 90% of all real world Java classes. Likewise, [a Java class always has a monitor on which you can synchronize](http://blog.jooq.org/2016/01/12/if-java-were-designed-today-the-synchronizable-interface/).
 
@@ -59,7 +59,7 @@ In this case, we may hope. [Valhalla / Java 10](https://en.wikipedia.org/wiki/Pr
 
 Notice how `val` is possible in Kotlin: [Local variable type inference. This is being discussed for a future Java version right now](http://blog.jooq.org/2016/03/10/java-as-new-local-variable-type-inference/).
 
-## 2\. Defaulted parameters
+## 2. Defaulted parameters
 
 How many times do you overload an API like the following:
 
@@ -106,7 +106,7 @@ The power of defaulted parameters is that they are especially useful when passin
 
 Heck, this feature is something I’m using in PL/SQL every day. Of course, [in Java, you can work around this limitation by passing a parameter object](http://blog.jooq.org/2016/02/11/dear-api-designer-are-you-sure-you-want-to-return-a-primitive/).
 
-## 3\. Simplified instanceof checks
+## 3. Simplified instanceof checks
 
 If you will, this is really an instanceof switch. Some people may claim that this stuff is evil, bad OO design. Nja nja. I say, this happens every now and then. And apparently, in Java 7, string switches were considered sufficiently common to modify the language to allow them. Why not instanceof switches?
 
@@ -141,7 +141,7 @@ END
 
 As you can see, only SQL is more powerful than Kotlin.
 
-## 4\. Map key / value traversal
+## 4. Map key / value traversal
 
 Now this could really be done very easily only with syntax sugar. Granted, having [local variable type inference](http://blog.jooq.org/2016/03/10/java-as-new-local-variable-type-inference/) would already be a plus, but check this out
 
@@ -167,7 +167,7 @@ map.forEach((k, v) -> {
 
 It’s not too late, JDK gods. You can still let `Map<K, V> extend Iterable<Entry<K, V>>`
 
-## 5\. Map access literals
+## 5. Map access literals
 
 This one is something that would add tons and tons of value to the Java language. We have arrays, like most other languages. And like most other languages, we can access array elements by using square brackets:
 
@@ -202,7 +202,7 @@ Since jOOQ holds all column type information on individual record columns, you c
 Stay tuned for more jOOQ and Kotlin examples here:
 [https://github.com/jOOQ/jOOQ/blob/master/jOOQ-examples/jOOQ-kotlin-example/src/main/kotlin/org/jooq/example/kotlin/FunWithKotlinAndJOOQ.kt](https://github.com/jOOQ/jOOQ/blob/master/jOOQ-examples/jOOQ-kotlin-example/src/main/kotlin/org/jooq/example/kotlin/FunWithKotlinAndJOOQ.kt)
 
-## 6\. Extension functions
+## 6. Extension functions
 
 This one is a controversial topic, and I can perfectly understand when language designers stay clear of it. But every now and then, [extension functions](https://kotlinlang.org/docs/reference/extensions.html) are very useful. The Kotlin syntax here is actually just for a function to pretend to be part of the receiver type:
 
@@ -253,7 +253,7 @@ Again, this is a controversial topic. For instance, because
 
 While giving the illusion of being virtual, extension functions really are just sugared static methods. It’s a significant risk for object oriented application design to engage in that trickery, which is why this feature probably won’t make it into Java.
 
-## 7\. Elvis operator
+## 7. Elvis operator
 
 Optional is meh. It’s understandable that an `Optional` type needed to be introduced in order to abstract over the absence of primitive type values, which cannot be null. We now have things like [`OptionalInt`](https://docs.oracle.com/javase/8/docs/api/java/util/OptionalInt.html), e.g. to model things like:
 
@@ -314,7 +314,7 @@ if (bob != null) {
 
 What can possibly be wrong with that simplification?
 
-## 8\. Everything is an expression
+## 8. Everything is an expression
 
 Now this might just be a unicorn. I don’t know if there is a JLS / parser limitation that will forever keep us in the misery of prehistoric distinction between statement and expression.
 
@@ -360,7 +360,7 @@ val result = try {
 
 Beautiful!
 
-## 9\. Single expression functions
+## 9. Single expression functions
 
 Now this. This would save so much time reading and writing simple glue code. And in fact, we already have the syntax in annotations. Check out Spring’s magical [@AliasFor](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/annotation/AliasFor.html) annotation, for instance. It yields:
 
@@ -394,7 +394,7 @@ public interface AliasFor {
 
 Now _that_ would look nice. But given Java’s existing syntax, this might just be a unicorn, so let’s move on to...
 
-## 10\. Flow-sensitive typing
+## 10. Flow-sensitive typing
 
 Now _this_. THIS!
 
@@ -429,7 +429,7 @@ Aaagh, all this typing. IDE autocompletion is smart enough to offer a contextual
 
 [For more info, see this wikipedia entry about flow sensitive typing](https://en.wikipedia.org/wiki/Flow-sensitive_typing). A feature that could absolutely be added to the Java language. After all, we already got flow-sensitive final local variables since Java 8.
 
-## 11\. (Bonus) Declaration site variance
+## 11. (Bonus) Declaration site variance
 
 [Last but not least, better generics via declaration site variance](https://kotlinlang.org/docs/reference/generics.html). Many other languages know this, for instance also C#’s [`IEnumerable`](https://msdn.microsoft.com/en-us/library/9eekhta0(v=vs.110).aspx):
 

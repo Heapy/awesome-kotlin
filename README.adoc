@@ -126,6 +126,7 @@ toc::[]
 === JavaScript
 * https://github.com/danfma/kotlinjs-react[danfma/kotlinjs-react^] - A react wrapper to the kotlin library.
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
+* https://github.com/pixijs/pixi-native[pixijs/pixi-native^] - The aim of this project is to provide a fast lightweight 2D library that works across all devices.
 
 === Misc
 * https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
@@ -195,6 +196,7 @@ toc::[]
 * https://github.com/inaka/KillerTask[inaka/KillerTask^] -  Android AsyncTask wrapper library, written in Kotlin.
 * https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 * https://github.com/graknol/AnvilKotlin[graknol/AnvilKotlin^] - Minimal UI library for Android inspired by React.
+* https://github.com/mathcamp/fiberglass[mathcamp/fiberglass^] - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
 
 === Frameworks
 * https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
@@ -210,6 +212,9 @@ toc::[]
 * https://github.com/RxKotlin/Pocket[RxKotlin/Pocket^] - This app help user to save links easily, and can export to Evernote as weekly.
 * https://github.com/SidneyXu/AndroidDemoIn4Languages[SidneyXu/AndroidDemoIn4Languages^] - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
 * https://github.com/inorichi/tachiyomi[inorichi/tachiyomi^] -  Free and open source manga reader for Android.
+
+=== Extensions
+* https://github.com/ajalt/timberkt[ajalt/timberkt^] - Easy Android logging with Kotlin and Timber
 
 
 == Kotlin User Groups
@@ -227,6 +232,11 @@ toc::[]
 
 == Articles, Blog Posts
 === August 2016
+* http://kotlin.link/articles/Kotlin-The-Good-The-Bad-and-The-Ugly.html[Kotlin: The Good, The Bad, and The Ugly^] - AJ Alt
+* http://kotlin.link/articles/The-Next-Language-You-Thought-You-Didn’t-Need.html[The Next Language You Thought You Didn’t Need^] - Jay Dellinger
+* http://kotlin.link/articles/PaperParcel-with-Kotlin.html[PaperParcel with Kotlin^] - Almond Joseph Mendoza
+* http://kotlin.link/articles/Issues-Faced-With-Kotlin-During-Android-Development.html[Issues Faced With Kotlin During Android Development^] - Elisha Lye
+* http://kotlin.link/articles/Lessons-from-converting-an-app-to-100-Kotlin.html[Lessons from converting an app to 100% Kotlin^] - AJ Alt
 * http://kotlin.link/articles/Calling-on-EAPers.html[Calling on EAPers^] - Roman Belov
 
 === July 2016
@@ -416,7 +426,12 @@ toc::[]
 
 == Videos
 === August 2016
+* http://kotlin.link/articles/Writing-Gradle-Build-Scripts-in-Kotlin.html[Writing Gradle Build Scripts in Kotlin^] - Chris Beams & Rodrigo B. de Oliveiranp
+* http://kotlin.link/articles/Better-Android-Development-with-Kotlin-and-Gradle.html[Better Android Development with Kotlin and Gradle^] - Ty Smith
 * http://kotlin.link/articles/Andrey-Breslav-Kotlin-Coroutines-JVMLS-2016.html[Andrey Breslav: Kotlin Coroutines, JVMLS 2016^] - Andrey Breslav
+
+=== May 2016
+* http://kotlin.link/articles/You-can-do-Better-with-Kotlin.html[You can do Better with Kotlin^] - Svetlana Isakova
 
 === April 2016
 * http://kotlin.link/articles/Type-safe-JavaFX-CSS-with-TornadoFX.html[Type safe JavaFX CSS with TornadoFX^] - Edvin Syse
@@ -445,6 +460,7 @@ toc::[]
 
 == Slides
 === April 2016
+* http://kotlin.link/articles/Kotlin-Android.html[Kotlin + Android^] - Dmytro Danylyk
 * http://kotlin.link/articles/Kotlin-DSL-Anko.html[Kotlin DSL: Anko^] - @maciekjanusz
 
 === May 2015

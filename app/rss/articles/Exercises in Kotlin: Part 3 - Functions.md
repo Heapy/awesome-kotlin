@@ -32,7 +32,7 @@ Note in particular that the curly brackets are replaced by `=`. And because the 
 fun powerOf(value: Double, power: Double = 2.0) = Math.pow(value, power)
 ```
 
-The second argument `power` is no longer required to be specified, (when not specified its value will default to 2.0\. Thus allowing both the following statements
+The second argument `power` is no longer required to be specified, (when not specified its value will default to 2.0. Thus allowing both the following statements
 
 ```kotlin
 powerOf(3.0)         // This will return 9.0

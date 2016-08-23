@@ -70,7 +70,7 @@ If you prefer, you could apply the extension function to the `ViewTreeObserver` 
 
 ## But we can improve it
 
-This layout listener is usually used to do something after a view is measured, so you typically would need to wait until width and height are greater than 0\. And we probably want to do something with the view that called it, so why don’t we **convert the parameter function into an extension function** too?
+This layout listener is usually used to do something after a view is measured, so you typically would need to wait until width and height are greater than 0. And we probably want to do something with the view that called it, so why don’t we **convert the parameter function into an extension function** too?
 
 I also **generified the function** so that it can be used by any object that extends View and also be able to access to all its specific functions and properties from the function we’ll write.
 

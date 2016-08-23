@@ -8,7 +8,7 @@ author: Roman Belov
 date: Apr 06, 2016 15:37
 ---
 
-Welcome the Kotlin Digest of Q1 2016\. It was in this quarter that Kotlin 1.0 was released, and naturally the number of articles and coverage received has substantially increased.
+Welcome the Kotlin Digest of Q1 2016. It was in this quarter that Kotlin 1.0 was released, and naturally the number of articles and coverage received has substantially increased.
 We want to thank everyone for their contributions, and highlight some of the most notable articles and blog posts.
 
 <center>![2016Q1Cover](http://i0.wp.com/blog.jetbrains.com/kotlin/files/2016/04/2016Q1Cover.png?resize=640%2C320)</center>

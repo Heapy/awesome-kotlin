@@ -29,7 +29,7 @@ Note that we’re still in the process of estimating the effort needed to implem
 
 ### Other Language Features
 
-We’ve received quite a lot of feedback from Kotlin 1.0, and we were quite happy to see that a lot of the requests were asking for the same features. We’ve chosen the ones that come up the most often, and have prioritised them for Kotlin 1.1\. Those we’re reasonably sure about are:
+We’ve received quite a lot of feedback from Kotlin 1.0, and we were quite happy to see that a lot of the requests were asking for the same features. We’ve chosen the ones that come up the most often, and have prioritised them for Kotlin 1.1. Those we’re reasonably sure about are:
 
 *   **Data class hierarchy support** will remove many of the current restrictions on data class inheritance, for example, allowing you to represent an algebraic data type as a series of data classes nested in a sealed class:
     ```kotlin

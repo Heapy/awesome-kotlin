@@ -11,7 +11,7 @@ Finally, Kotlin has graduated the Beta and we are happy to present the Release C
 
 **NOTE**: as we [announced earlier](http://blog.jetbrains.com/kotlin/2015/12/kotlin-1-0-beta-4-is-out/), **RC requires all code to be recompiled** to make sure no code compiled with older versions is kept around (please recompile even if you were on the EAP version!).
 
-This blog post gives an overview of the changes made since Beta 4\. Library changes are the biggest in this build. Also, some bugs have been fixed. Full list of changes is available [here](https://github.com/JetBrains/kotlin/releases/tag/build-1.0.0-rc-1036).
+This blog post gives an overview of the changes made since Beta 4. Library changes are the biggest in this build. Also, some bugs have been fixed. Full list of changes is available [here](https://github.com/JetBrains/kotlin/releases/tag/build-1.0.0-rc-1036).
 
 ![Kotlin 1.0 RC](http://i1.wp.com/blog.jetbrains.com/kotlin/files/2016/02/RC-Banner.png?resize=640%2C330)
 

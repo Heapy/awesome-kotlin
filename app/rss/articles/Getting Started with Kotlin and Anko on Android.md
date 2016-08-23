@@ -17,7 +17,7 @@ I’m just going to say it like it is ...
 
 ![ADB Hell](http://cl.ly/2q0e3B3l202Z/1__adb.png)
 
-When I first started developing for Android, I was coming out of working very heavily with C# for a few years. I came over to find a lack of proper generics support (when compared to Java generics), no lambda expressions, and an awkward syntax for common things that I felt should just be in the language. 8 years later, I’m still stuck writing super-verbose Java 6\. Java 8 has been out for a while now, and it would be great to use some of those features without having to resort to bytecode weaving! (That said, I am very thankful for [retrolambda](https://github.com/orfjackal/retrolambda).) Unfortunately, who knows if or when Java 8 support will ever arrive.
+When I first started developing for Android, I was coming out of working very heavily with C# for a few years. I came over to find a lack of proper generics support (when compared to Java generics), no lambda expressions, and an awkward syntax for common things that I felt should just be in the language. 8 years later, I’m still stuck writing super-verbose Java 6. Java 8 has been out for a while now, and it would be great to use some of those features without having to resort to bytecode weaving! (That said, I am very thankful for [retrolambda](https://github.com/orfjackal/retrolambda).) Unfortunately, who knows if or when Java 8 support will ever arrive.
 
 Thankfully, there seems to be a new hope for Android development: [Kotlin](https://kotlinlang.org).
 
@@ -25,7 +25,7 @@ Thankfully, there seems to be a new hope for Android development: [Kotlin](https
 
 Kotlin is a new JVM-compatible language from JetBrains that you can use to write Android applications. If you haven’t been exposed to the language, I highly recommend that you watch [Michael Pardo’s talk on Kotlin](https://realm.io/news/droidcon-michael-pardo-kotlin/) from [Droidcon NYC](http://droidcon.nyc). Furthermore, the layout view for a portion of the application will be created with [Anko](https://github.com/Kotlin/anko), a DSL (Domain-Specific Language) for Android which is written in Kotlin. You can get a basic understanding of Anko [here](https://github.com/Kotlin/anko).
 
-Kotlin, as a language, is a breath of fresh air compared to Java 6\. Once you get used to the syntax, you will notice that it is much more succinct than its Java 6 counterpart. Since Kotlin is JVM-compatible, it will compile down to JVM bytecode that is understood by Android.
+Kotlin, as a language, is a breath of fresh air compared to Java 6. Once you get used to the syntax, you will notice that it is much more succinct than its Java 6 counterpart. Since Kotlin is JVM-compatible, it will compile down to JVM bytecode that is understood by Android.
 
 _**Important**: This article will assume that you have a basic understanding of Kotlin and Anko._
 

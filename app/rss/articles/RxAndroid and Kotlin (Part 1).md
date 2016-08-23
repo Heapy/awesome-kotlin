@@ -107,14 +107,14 @@ Observable.from(Arrays.asList(1, 2, 3, 4, 5));
 //Which should be pretty obvious I guess.
 ```
 
-2\. **Observable.just()** : Creates observable from an object or several objects
+2. **Observable.just()** : Creates observable from an object or several objects
 
 ```kotlin
 Observable.just("Hello World!")
 //this will emit "Hello World!" to all its subscribers
 ```
 
-3\. **Observable.create()** : Creates an Observable from scratch by means of a function. We just implement the OnSubscribe interface and tell the observable what it should send to its subscriber(s).
+3. **Observable.create()** : Creates an Observable from scratch by means of a function. We just implement the OnSubscribe interface and tell the observable what it should send to its subscriber(s).
 
 ```kotlin
 //Kotlin
