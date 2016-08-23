@@ -232,6 +232,12 @@ const data = [{
             href: 'https://github.com/pardom/redux-kotlin',
             type: 'github',
             tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
+        }, {
+            name: 'beyondeye/Reduks',
+            desc: ' A "batteries included" port of Reduxjs for Kotlin+Android ',
+            href: 'https://github.com/beyondeye/Reduks',
+            type: 'github',
+            tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
         }]
     }, {
         name: "JSON",
@@ -572,6 +578,15 @@ const data = [{
             href: 'https://github.com/MicroUtils/kotlin.logging',
             type: 'github',
             tags: ['logging', 'slf4j']
+        }]
+    }, {
+        name: "Extensions",
+        links:[{
+            name: 'Kotlin/kotlinx.support',
+            desc: 'Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.',
+            href: 'https://github.com/Kotlin/kotlinx.support',
+            type: 'github',
+            tags: ['jdk8', 'jdk7']
         }]
     }]
 }, {

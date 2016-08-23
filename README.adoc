@@ -74,6 +74,7 @@ toc::[]
 * https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
 * https://github.com/brianegan/bansa[brianegan/bansa^] - A state container for Kotlin & Java, inspired by Elm & Redux.
 * https://github.com/pardom/redux-kotlin[pardom/redux-kotlin^] - Direct port of Redux for Kotlin.
+* https://github.com/beyondeye/Reduks[beyondeye/Reduks^] -  A "batteries included" port of Reduxjs for Kotlin+Android 
 
 === JSON
 * https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
@@ -145,6 +146,9 @@ toc::[]
 * https://github.com/holgerbrandl/krangl[holgerbrandl/krangl^] - krangl is a {K}otlin library for data w{rangl}ing
 * https://github.com/debop/koda-time[debop/koda-time^] - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * https://github.com/MicroUtils/kotlin.logging[MicroUtils/kotlin.logging^] - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
+
+=== Extensions
+* https://github.com/Kotlin/kotlinx.support[Kotlin/kotlinx.support^] - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
 
 
 == Projects
