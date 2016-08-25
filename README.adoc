@@ -233,6 +233,7 @@ toc::[]
 == Articles, Blog Posts
 === August 2016
 * http://kotlin.link/articles/Scala-vs-Kotlin-inline-and-infix.html[Scala vs Kotlin: inline and infix^] - Nicolas Fränkel
+* http://kotlin.link/articles/Decision-Trees-with-Kotlin.html[Decision Trees with Kotlin^] - Mark Galea
 * http://kotlin.link/articles/Kotlin-The-Good-The-Bad-and-The-Ugly.html[Kotlin: The Good, The Bad, and The Ugly^] - AJ Alt
 * http://kotlin.link/articles/The-Next-Language-You-Thought-You-Didn’t-Need.html[The Next Language You Thought You Didn’t Need^] - Jay Dellinger
 * http://kotlin.link/articles/PaperParcel-with-Kotlin.html[PaperParcel with Kotlin^] - Almond Joseph Mendoza
@@ -250,6 +251,7 @@ toc::[]
 * http://kotlin.link/articles/First-glimpse-of-Kotlin-1-1-Coroutines-Type-aliases-and-more.html[First glimpse of Kotlin 1.1: Coroutines, Type aliases and more^] - Andrey Breslav
 * http://kotlin.link/articles/Scala-vs-Kotlin-Pimp-my-library.html[Scala vs Kotlin: Pimp my library^] - Nicolas Fränkel
 * http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html[Never say final: mocking Kotlin classes in unit tests^] - Danny Preussler
+* http://kotlin.link/articles/Data-Driven-Testing-with-Spek.html[Data Driven Testing with Spek ^] - Konstantin Semenov
 
 === June 2016
 * http://kotlin.link/articles/Kotlin-1-0-3-Is-Here.html[Kotlin 1.0.3 Is Here!^] - Roman Belov
@@ -284,8 +286,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
+* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
