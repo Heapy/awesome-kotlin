@@ -13,7 +13,6 @@ mkdir -p ./dist/articles;
 
 # run our compile script
 npm run ci
-cp CNAME ./dist/
 cp robots.txt ./dist/
 
 # go to the dist directory and create a *new* Git repo
@@ -34,4 +33,4 @@ git commit -m "Deploy to GitHub Pages"
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 echo "git push"
-git push --force --quiet "https://${GH_TOKEN}@github.com/KotlinBy/awesome-kotlin.git" master:gh-pages
+git push --force --quiet "https://${GH_TOKEN}@github.com/KotlinBy/awesome-kotlin.git" master:deploy

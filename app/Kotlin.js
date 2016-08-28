@@ -95,8 +95,9 @@ const data = [{
         }, {
             name: 'hhariri/wasabi',
             desc: 'An HTTP Framework built with Kotlin for the JVM.',
-            href: 'https://github.com/hhariri/wasabi',
-            type: 'github'
+            href: 'https://github.com/wasabifx/wasabi',
+            type: 'github',
+            tags: ['web']
         }, {
             name: 'Kotlin/kotlinx.html',
             desc: 'Kotlin DSL for HTML.',

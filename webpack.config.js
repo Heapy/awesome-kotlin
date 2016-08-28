@@ -1,20 +1,37 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const isBuild = Boolean(process.env.build);
+
+// Settings
+// export NAME=VALUE
+const NODE_ENV = process.env.NODE_ENV || 'development'; // 'production'
+const SOURCE_MAP = process.env.SOURCE_MAP || 'eval-source-map'; // 'source-map'
+
+console.log(`
+Build started with following configuration:
+===========================================
+→ NODE_ENV: ${NODE_ENV}
+→ SOURCE_MAP: ${SOURCE_MAP}
+`);
 
 const config = {
-    entry: path.resolve(__dirname, 'app/src/main.js'),
+    entry: {
+        vendor: [
+            'babel-polyfill'
+        ],
+        app: [
+            path.resolve(__dirname, 'app', 'src', 'main.js')
+        ]
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "bundle.js"
+        filename: '[name].js?[hash]',
+        publicPath: '/'
     },
-
-
     module: {
         loaders: [{
             test: /\.json$/,
-            loader: "json"
+            loader: 'json'
         }, {
             test: /\.jsx?$/,
             exclude: /node_modules/,
@@ -24,33 +41,44 @@ const config = {
             loader: 'style!css?modules&localIdentName=[name]_[local]!postcss!less'
         }, {
             test: /\.(png|jpg|gif|svg)$/,
-            loader: "url?limit=8192"
+            loader: 'url?limit=32768'
         }]
     },
-
     postcss: [
         require('autoprefixer')
     ],
-
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, "app/index.html"),
-            favicon: path.resolve(__dirname, "app/favicon.ico"),
+            template: path.resolve(__dirname, 'app', 'index.html'),
+            favicon: path.resolve(__dirname, 'app', 'favicon.ico'),
             hash: true
+        }),
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify(NODE_ENV)
+            }
         })
     ],
-
+    devtool: SOURCE_MAP,
     devServer: {
         colors: true,
-        historyApiFallback: true,
-        inline: true
+        inline: false
     }
 };
 
-if (isBuild) {
-    config.devtool = 'source-map';
-} else {
-    config.devtool = 'eval-source-map';
+if (NODE_ENV === 'production') {
+    config.plugins = [
+        ...config.plugins,
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'vendor',
+            minChunks: 2
+        })
+    ];
 }
 
 module.exports = config;

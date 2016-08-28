@@ -7,11 +7,11 @@ npm run build  - contains stars, readme, rss and pack tasks
 
 
 TODO:
-
-Service Worker https://serviceworke.rs/push-simple_demo.html
-   | -- Push Notifications about changes
-   | -- Offline
-
+- [ ] Push Notifications on Changes - https://serviceworke.rs/push-simple_demo.html
+- [ ] Offline.
+- [ ] Make RSS smaller (limit size), but keep full version for new users who wan't full history or make an archive version of RSS.
+- [ ] Make language specific links (with lang auto-detection) (router).
+- [ ] Add router to search.
 
 // required: https!
 serviceworker-loader
