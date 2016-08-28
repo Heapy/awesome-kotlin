@@ -15,13 +15,13 @@ The pattern itself is not a new concept, **but** combining it with [Kotlin DSL](
 
 What we found is that mixing Actions and Assertions inside "Robots" (we call them Screens) doesn't look great, both for tests readability and "Robot" maintenance 🤖 (same is true for regular Screen abstractions).
 
-> Though I used mixed variant for years… (sigh). For some reason, only seeing screen abstraction as a Kotlin DSL finally clicked that we need to divide assertions from actions.
+> Though I used mixed variant for years... (sigh). For some reason, only seeing screen abstraction as a Kotlin DSL finally clicked that we need to divide assertions from actions.
 
 #### Before: mixed Actions and Assertions 😿
 
 ```kotlin
 // We actually use Spek but unfortunately I can't say
-// that it works great for instrumentation tests yet…
+// that it works great for instrumentation tests yet...
 @Test fun loginAndPasswordAreEntered() {
   loginScreen {
 
@@ -67,9 +67,9 @@ class LoginScreen {
   // Previously all these assertions 
   // were on the same level in the LoginScreen class as actions.
   class Assert {
-    fun loginButtonActivated() = …
-    fun noLoginWarnings() = …
-    fun noPasswordWarnings() = …
+    fun loginButtonActivated() = ...
+    fun noLoginWarnings() = ...
+    fun noPasswordWarnings() = ...
   }
 }
 ```
