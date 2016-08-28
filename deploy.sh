@@ -33,4 +33,4 @@ git commit -m "Deploy to GitHub Pages"
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
 echo "git push"
-git push --force --quiet "https://${GH_TOKEN}@github.com/KotlinBy/awesome-kotlin.git" master:deploy
+git push --force --quiet "https://${GH_TOKEN}@github.com/KotlinBy/awesome-kotlin.git" master:gh-pages
