@@ -64,13 +64,17 @@ const data = [{
             href: 'https://plus.google.com/communities/104597899765146112928'
         }]
     }, {
-        name: "Books",
+        name: "Books and Courses",
         links: [{
             name: 'Kotlin in Action - Dmitry Jemerov, Svetlana Isakova',
             href: 'https://manning.com/books/kotlin-in-action'
         }, {
             name: 'Kotlin for Android Developers - Antonio Leiva',
             href: 'https://leanpub.com/kotlin-for-android-developers'
+        }, {
+            name: 'Kotlin for Java Developers',
+            desc: '160-minute Android Course.',
+            href: 'https://teamtreehouse.com/library/kotlin-for-java-developers'
         }]
     }]
 }, {
@@ -631,6 +635,18 @@ const data = [{
             href: 'https://github.com/gradle/gradle-script-kotlin',
             type: 'github',
             tags: ['gradle', 'build']
+        }, {
+            name: 'nebula-plugins/nebula-kotlin-plugin',
+            desc: 'Provides the Kotlin plugin via the Gradle plugin portal, automatically depends on the standard library, and allows Kotlin library versions to be omitted.',
+            href: 'https://github.com/nebula-plugins/nebula-kotlin-plugin',
+            type: 'github',
+            tags: ['gradle', 'build']
+        }, {
+            name: 'pubref/rules_kotlin',
+            desc: 'Bazel rules for Kotlin.',
+            href: 'https://github.com/pubref/rules_kotlin',
+            type: 'github',
+            tags: ['bazel', 'build']
         }]
     }, {
         name: "Misc",

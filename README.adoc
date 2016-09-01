@@ -36,9 +36,10 @@ toc::[]
 * https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237[LinkedIn: Kotlin Developers (Join!)^] 
 * https://plus.google.com/communities/104597899765146112928[Kotlin - Google+^] 
 
-=== Books
+=== Books and Courses
 * https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova^] 
 * https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva^] 
+* https://teamtreehouse.com/library/kotlin-for-java-developers[Kotlin for Java Developers^] - 160-minute Android Course.
 
 
 == Libraries/Frameworks
@@ -46,7 +47,7 @@ toc::[]
 * https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
 * https://github.com/TinyMission/kara[TinyMission/kara^] - Web framework written in Kotlin.
 * https://github.com/jean79/yested[jean79/yested^] - A Kotlin framework for building web applications in Javascript.
-* https://github.com/hhariri/wasabi[hhariri/wasabi^] - An HTTP Framework built with Kotlin for the JVM.
+* https://github.com/wasabifx/wasabi[hhariri/wasabi^] - An HTTP Framework built with Kotlin for the JVM.
 * https://github.com/Kotlin/kotlinx.html[Kotlin/kotlinx.html^] - Kotlin DSL for HTML.
 * https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
@@ -161,6 +162,8 @@ toc::[]
 === Build tools
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
 * https://github.com/gradle/gradle-script-kotlin[gradle/gradle-script-kotlin^] - Kotlin language support for Gradle build scripts.
+* https://github.com/nebula-plugins/nebula-kotlin-plugin[nebula-plugins/nebula-kotlin-plugin^] - Provides the Kotlin plugin via the Gradle plugin portal, automatically depends on the standard library, and allows Kotlin library versions to be omitted.
+* https://github.com/pubref/rules_kotlin[pubref/rules_kotlin^] - Bazel rules for Kotlin.
 
 === Misc
 * https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
@@ -232,6 +235,7 @@ toc::[]
 
 == Articles, Blog Posts
 === August 2016
+* http://kotlin.link/articles/Improved-Pattern-Matching-in-Kotlin.html[Improved Pattern Matching in Kotlin^] - Jacob Zimmerman
 * http://kotlin.link/articles/Scala-vs-Kotlin-inline-and-infix.html[Scala vs Kotlin: inline and infix^] - Nicolas Fränkel
 * http://kotlin.link/articles/Decision-Trees-with-Kotlin.html[Decision Trees with Kotlin^] - Mark Galea
 * http://kotlin.link/articles/Kotlin-The-Good-The-Bad-and-The-Ugly.html[Kotlin: The Good, The Bad, and The Ugly^] - AJ Alt
@@ -239,6 +243,7 @@ toc::[]
 * http://kotlin.link/articles/PaperParcel-with-Kotlin.html[PaperParcel with Kotlin^] - Almond Joseph Mendoza
 * http://kotlin.link/articles/Issues-Faced-With-Kotlin-During-Android-Development.html[Issues Faced With Kotlin During Android Development^] - Elisha Lye
 * http://kotlin.link/articles/Lessons-from-converting-an-app-to-100-Kotlin.html[Lessons from converting an app to 100% Kotlin^] - AJ Alt
+* http://kotlin.link/articles/The-Kobalt-diaries-Parallel-builds.html[The Kobalt diaries: Parallel builds^] - Cédric Beust
 * http://kotlin.link/articles/More-readable-tests-with-Kotlin.html[More readable tests with Kotlin^] - Flavio
 * http://kotlin.link/articles/Calling-on-EAPers.html[Calling on EAPers^] - Roman Belov
 
@@ -286,8 +291,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
+* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
@@ -373,6 +378,7 @@ toc::[]
 * http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-2.html[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-1.html[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Doug Stevenson
+* http://kotlin.link/articles/Scala-vs-Kotlin.html[Scala vs Kotlin^] - Lionel
 
 === January 2016
 * http://kotlin.link/articles/KillerTask-the-solution-to-AsyncTask-implementation.html[KillerTask, the solution to AsyncTask implementation^] - Fernando Ramirez
