@@ -243,6 +243,12 @@ const data = [{
             href: 'https://github.com/beyondeye/Reduks',
             type: 'github',
             tags: ['fp', 'functional', 'UI', 'Interface', 'Redux']
+        }, {
+            name: 'pakoito/Komprehensions',
+            desc: 'Do comprehensions for Kotlin and 3rd party libraries.',
+            href: 'https://github.com/pakoito/Komprehensions',
+            type: 'github',
+            tags: ['comprehensions', 'fp', 'functional']
         }]
     }, {
         name: "JSON",
@@ -808,6 +814,12 @@ const data = [{
             href: 'https://github.com/mathcamp/fiberglass',
             type: 'github',
             tags: ['android', 'SharedPreferences']
+        }, {
+            name: 'nitrico/LastAdapter',
+            desc: 'Don\'t write a RecyclerView adapter again. Not even a ViewHolder!.',
+            href: 'https://github.com/nitrico/LastAdapter',
+            type: 'github',
+            tags: ['android', 'RecyclerView', 'ViewHolder']
         }]
     }, {
         name: "Frameworks",
@@ -902,16 +914,27 @@ const data = [{
         }, {
             name: 'Belarus Kotlin User Group',
             desc: 'Belarus',
-            href: 'http://bkug.by/',
+            href: 'https://bkug.by/',
             type: 'kug',
-            tags: ['Belarus'],
-            whitelisted: true
+            tags: ['Belarus']
         }, {
             name: 'Kotlin User Group Munich',
             desc: 'Deutschland',
             href: 'http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/',
             type: 'kug',
             tags: ['Deutschland']
+        }, {
+            name: 'Lyon Kotlin User Group',
+            desc: 'France',
+            href: 'http://www.meetup.com/Lyon-Kotlin-User-Group/',
+            type: 'kug',
+            tags: ['France']
+        }, {
+            name: 'KotlinMAD',
+            desc: 'Spain',
+            href: 'https://www.meetup.com/KotlinMAD/',
+            type: 'kug',
+            tags: ['Spain']
         }]
     }, {
         name: 'America',

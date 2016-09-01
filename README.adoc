@@ -76,6 +76,7 @@ toc::[]
 * https://github.com/brianegan/bansa[brianegan/bansa^] - A state container for Kotlin & Java, inspired by Elm & Redux.
 * https://github.com/pardom/redux-kotlin[pardom/redux-kotlin^] - Direct port of Redux for Kotlin.
 * https://github.com/beyondeye/Reduks[beyondeye/Reduks^] -  A "batteries included" port of Reduxjs for Kotlin+Android 
+* https://github.com/pakoito/Komprehensions[pakoito/Komprehensions^] - Do comprehensions for Kotlin and 3rd party libraries.
 
 === JSON
 * https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
@@ -200,6 +201,7 @@ toc::[]
 * https://github.com/grandstaish/paperparcel[grandstaish/paperparcel^] - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 * https://github.com/graknol/AnvilKotlin[graknol/AnvilKotlin^] - Minimal UI library for Android inspired by React.
 * https://github.com/mathcamp/fiberglass[mathcamp/fiberglass^] - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
+* https://github.com/nitrico/LastAdapter[nitrico/LastAdapter^] - Don't write a RecyclerView adapter again. Not even a ViewHolder!.
 
 === Frameworks
 * https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
@@ -223,8 +225,10 @@ toc::[]
 == Kotlin User Groups
 === Europe
 * http://www.meetup.com/Kotlin-Manchester/[Kotlin Developers in Manchester^] - United Kingdom
-* http://bkug.by/[Belarus Kotlin User Group^] - Belarus
+* https://bkug.by/[Belarus Kotlin User Group^] - Belarus
 * http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/[Kotlin User Group Munich^] - Deutschland
+* http://www.meetup.com/Lyon-Kotlin-User-Group/[Lyon Kotlin User Group^] - France
+* https://www.meetup.com/KotlinMAD/[KotlinMAD^] - Spain
 
 === America
 * http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] - USA
@@ -235,11 +239,16 @@ toc::[]
 
 == Articles, Blog Posts
 === August 2016
+* http://kotlin.link/articles/Natural-testing-with-Kotlin.html[Natural testing with Kotlin^] - Vardan Torosyan
+* http://kotlin.link/articles/Ten-Kotlin-Features-To-Boost-Android-Development.html[Ten Kotlin Features To Boost Android Development ^] - Ivan Kušt
+* http://kotlin.link/articles/Getting-started-with-Kotlin-in-Android-development.html[Getting started with Kotlin in Android development^] - Dmitry Chyrta
+* http://kotlin.link/articles/Kotlin-val-does-not-mean-immutable-it-just-means-readonly-yeah.html[Kotlin: val does not mean immutable, it just means readonly, yeah^] - Artem Zinnatullin
 * http://kotlin.link/articles/Improved-Pattern-Matching-in-Kotlin.html[Improved Pattern Matching in Kotlin^] - Jacob Zimmerman
 * http://kotlin.link/articles/Scala-vs-Kotlin-inline-and-infix.html[Scala vs Kotlin: inline and infix^] - Nicolas Fränkel
 * http://kotlin.link/articles/Decision-Trees-with-Kotlin.html[Decision Trees with Kotlin^] - Mark Galea
 * http://kotlin.link/articles/Kotlin-The-Good-The-Bad-and-The-Ugly.html[Kotlin: The Good, The Bad, and The Ugly^] - AJ Alt
 * http://kotlin.link/articles/The-Next-Language-You-Thought-You-Didn’t-Need.html[The Next Language You Thought You Didn’t Need^] - Jay Dellinger
+* http://kotlin.link/articles/Logging-in-Kotlin-Android-AnkoLogger-vs-kotlin-logging.html[Logging in Kotlin & Android: AnkoLogger vs kotlin-logging^] - osha1
 * http://kotlin.link/articles/PaperParcel-with-Kotlin.html[PaperParcel with Kotlin^] - Almond Joseph Mendoza
 * http://kotlin.link/articles/Issues-Faced-With-Kotlin-During-Android-Development.html[Issues Faced With Kotlin During Android Development^] - Elisha Lye
 * http://kotlin.link/articles/Lessons-from-converting-an-app-to-100-Kotlin.html[Lessons from converting an app to 100% Kotlin^] - AJ Alt
@@ -291,8 +300,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
+* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
@@ -361,8 +370,8 @@ toc::[]
 * http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
 * http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
 * http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
-* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
+* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
