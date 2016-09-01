@@ -240,6 +240,9 @@ toc::[]
 
 
 == Articles, Blog Posts
+=== September 2016
+* http://kotlin.link/articles/Kotlin-census-call-to-action.html[Kotlin census: call to action^] - Roman Belov
+
 === August 2016
 * http://kotlin.link/articles/Natural-testing-with-Kotlin.html[Natural testing with Kotlin^] - Vardan Torosyan
 * http://kotlin.link/articles/Ten-Kotlin-Features-To-Boost-Android-Development.html[Ten Kotlin Features To Boost Android Development ^] - Ivan Kušt
