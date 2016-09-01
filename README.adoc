@@ -229,6 +229,8 @@ toc::[]
 * http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/[Kotlin User Group Munich^] - Deutschland
 * http://www.meetup.com/Lyon-Kotlin-User-Group/[Lyon Kotlin User Group^] - France
 * https://www.meetup.com/KotlinMAD/[KotlinMAD^] - Spain
+* http://www.meetup.com/Kotlin-Yorkshire-Meetup-Group/[Kotlin Yorkshire Meetup Group^] - United Kingdom
+* http://www.meetup.com/kotlin-london/[Kotlin London^] - United Kingdom
 
 === America
 * http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] - USA

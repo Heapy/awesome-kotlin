@@ -935,6 +935,18 @@ const data = [{
             href: 'https://www.meetup.com/KotlinMAD/',
             type: 'kug',
             tags: ['Spain']
+        }, {
+            name: 'Kotlin Yorkshire Meetup Group',
+            desc: 'United Kingdom',
+            href: 'http://www.meetup.com/Kotlin-Yorkshire-Meetup-Group/',
+            type: 'kug',
+            tags: ['United Kingdom']
+        }, {
+            name: 'Kotlin London',
+            desc: 'United Kingdom',
+            href: 'http://www.meetup.com/kotlin-london/',
+            type: 'github',
+            tags: ['United Kingdom']
         }]
     }, {
         name: 'America',
