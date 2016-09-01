@@ -945,7 +945,7 @@ const data = [{
             name: 'Kotlin London',
             desc: 'United Kingdom',
             href: 'http://www.meetup.com/kotlin-london/',
-            type: 'github',
+            type: 'kug',
             tags: ['United Kingdom']
         }]
     }, {
