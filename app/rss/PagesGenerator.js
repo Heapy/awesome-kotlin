@@ -29,6 +29,7 @@ const getHtml = (article) => `<!doctype html>
   <link rel='stylesheet' href='./styles.css'>
   <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <script src="${article.script}"></script>
 </head>
 <body>
 <div id="layout" class="layout">
@@ -82,7 +83,6 @@ const getHtml = (article) => `<!doctype html>
   </script>
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/github.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function (d, w, c) {

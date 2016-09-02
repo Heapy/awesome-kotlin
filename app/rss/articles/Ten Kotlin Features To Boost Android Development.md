@@ -640,7 +640,7 @@ There are a few standard delegates that come with Kotlin that cover the most com
 
 Lazy is a standard delegate that takes a lambda expression as a parameter. The lambda expression passed is executed the first time `getValue()` method is called.
 
-By default, the evaluation of lazy properties is synchronized. If you are not concerned with multi-threading, you can use `lazy(LazyThreadSafetyMode.NONE) { … }` to get extra performance.
+By default, the evaluation of lazy properties is synchronized. If you are not concerned with multi-threading, you can use `lazy(LazyThreadSafetyMode.NONE) { ... }` to get extra performance.
 
 ### Observable
 

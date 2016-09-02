@@ -5,6 +5,7 @@ categories:
     - Kotlin
 author: Mark Galea
 date: Aug 20, 2016 03:28
+script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 ---
 
 It has been quite a while since my last post; things have been pretty busy in preparation for the launch of our new product [VoodooDreams](https://www.voodoodreams.com). Now that we have shipped our baby, I am super eager to try out [Kotlin](https://www.kotlin.com) - a new programming language from JetBrains targeting the JVM.  One interesting aspect about Kotlin (similar to Scala and other JVM-based languages) is that it treats functions as first class citizens (_IMO Functional Interfaces just patch the gap_).  In order to try out this language we will create a Decision Tree Learning algorithm which is one of the most used and practical methods for learning inductive inference.  
@@ -146,22 +147,22 @@ Now that we have represented our decision tree and learnt how to classify new ex
 In order to determine information gain we start off by looking at entropy which measures the (im)purity of an arbitrary collection of examples.  Given a collection of elements \\(S\\) containing only positive and negative items, entropy is measured by: 
 
 \\[
-Entropy(S) = -p_{\oplus} log_{2} p_{\oplus} - p_{\ominus} log_{2}p_{\ominus}
+Entropy(S) = -p\_{\oplus} log\_{2} p\_{\oplus} - p\_{\ominus} log\_{2}p\_{\ominus}
 \\]
 
 An intuitive way in which we can think about entropy is a number (\\([0,1]\\)) which represents the minimum number of bits of information needed to encode the classification of an arbitrary member of \\(S\\).  If the collection \\(S\\) does not have any positive or negative examples the entropy will be 0.  If I pick an item at random from the collection \\(S\\) and all items are from the same class then the item I picked must be from that class hence we need 0 bits to encode this information. If the distribution of samples is equal, then the entropy is 1.  This means that we need at minimum 1 bit to represent a randomly picked item from \\(S\\).  We could encode a positive sample as 1 and a negative sample as 0.  As an example, if we have 9 positive examples and 5 negative examples the entropy would be: 
 
 $$
-Entropy([9+, 5-]) = -\frac{9}{14}log_{2}\Big(\frac{9}{14}\Big) -\frac{5}{14}log_{2}\Big(\frac{5}{14}\Big) = 0.940
+Entropy([9+, 5-]) = -\frac{9}{14}log\_{2}\Big(\frac{9}{14}\Big) -\frac{5}{14}log\_{2}\Big(\frac{5}{14}\Big) = 0.940
 $$
 
 We can extend this formula of Entropy to multiple attributes (rather than just _true_ and _false_) as follows: 
 
 $$
-Entropy(S) = \sum_{i=1}^{c} -p_{i}log_{2}p_{i}
+Entropy(S) = \sum\_{i=1}^{c} -p\_{i}log\_{2}p\_{i}
 $$
 
-where \\(p_{i}\\) is the proportion of \\(S\\) belonging to class \\(i\\).  
+where \\(p\_{i}\\) is the proportion of \\(S\\) belonging to class \\(i\\).  
 
 In Kotlin we can express `entropy` as follows: 
 
@@ -177,15 +178,15 @@ fun entropy(positive: Double, negative: Double, total: Double = positive + negat
 Now that we have defined Entropy as an (im)purity measure, we can answer the question "Which Attribute Is The Best Classifier?".  This measure is called _Information Gain_ - you can think of this value as the expected reduction in entropy or the expected number of bits saved if we had to encode the classification using the particular attribute.  The Information Gain of an attribute \\(A\\) is defined as: 
 
 $$
-Gain(S, A) = Entropy(S) - \sum_{v \in Values(A)} \frac{|S_{v}|}{|S|}Entropy(S_{v})
+Gain(S, A) = Entropy(S) - \sum\_{v \in Values(A)} \frac{|S\_{v}|}{|S|}Entropy(S\_{v})
 $$
 
 
 To understand what we need to do, lets work out the _Information Gain_ of attribute \\(Wind\\) for the dataset \\(S\\) i.e. \\(Gain(S, Wind)\\).  _Note that there are 14 examples in our dataset;  9 positive, 5 negative \\([9+ 5-]\\).  There are 2 values for the attribute Wind: Weak and Strong.  Weak has 6 positive examples and 2 negative examples \\([6+, 2-]\\).  Strong has 3 positive examples and 3 negative examples \\([3+, 3-]\\)_.  
 
 $$\begin{eqnarray} 
-Gain(S, A) &=&  Entropy(S) - \sum_{v \in \\{Weak, Strong\\} } \frac{|S_{v}|}{|S|}Entropy(S_{v}) \nonumber \newline
-&=& Entropy(S) - \frac{8}{14}Entropy(S_{Weak}) - \frac{6}{14}Entropy(S_{Strong}) \nonumber \newline
+Gain(S, A) &=&  Entropy(S) - \sum\_{v \in \\{Weak, Strong\\} } \frac{|S\_{v}|}{|S|}Entropy(S\_{v}) \nonumber \newline
+&=& Entropy(S) - \frac{8}{14}Entropy(S\_{Weak}) - \frac{6}{14}Entropy(S\_{Strong}) \nonumber \newline
 &=& 0.940 - \frac{8}{14}0.811 - \frac{6}{14}1.0 \nonumber \newline
 &=& 0.048
 \end{eqnarray}$$
@@ -296,7 +297,7 @@ For all the values of the chosen attribute:
 val remaining = dataPoints.groupBy { it.map[attribute] }
 ```
 
-we will add a new subtree below the parent node and select the DataSet subset such that the attribute \\(A\\) in the parent subset matches the value \\(v_{i}\\).  
+we will add a new subtree below the parent node and select the DataSet subset such that the attribute \\(A\\) in the parent subset matches the value \\(v\_{i}\\).  
 
 
 ```kotlin

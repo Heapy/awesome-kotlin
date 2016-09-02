@@ -241,10 +241,12 @@ toc::[]
 
 == Articles, Blog Posts
 === September 2016
+* http://kotlin.link/articles/Building-DSL-Instead-of-an-IDE-Plugin.html[Building DSL Instead of an IDE Plugin^] - Eugene Petrenko
 * http://kotlin.link/articles/Kotlin-census-call-to-action.html[Kotlin census: call to action^] - Roman Belov
 
 === August 2016
 * http://kotlin.link/articles/Natural-testing-with-Kotlin.html[Natural testing with Kotlin^] - Vardan Torosyan
+* http://kotlin.link/articles/Writing-Kotlin-Idiomatic-Code.html[Writing Kotlin Idiomatic Code^] - Denis Trailin
 * http://kotlin.link/articles/Ten-Kotlin-Features-To-Boost-Android-Development.html[Ten Kotlin Features To Boost Android Development ^] - Ivan Kušt
 * http://kotlin.link/articles/Getting-started-with-Kotlin-in-Android-development.html[Getting started with Kotlin in Android development^] - Dmitry Chyrta
 * http://kotlin.link/articles/Kotlin-val-does-not-mean-immutable-it-just-means-readonly-yeah.html[Kotlin: val does not mean immutable, it just means readonly, yeah^] - Artem Zinnatullin
@@ -385,8 +387,8 @@ toc::[]
 * http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html[Developing Spring Boot applications with Kotlin.^] - Sébastien Deleuze
 * http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html[Kotlin 1.0 Released: Pragmatic Language for JVM and Android^] - Andrey Breslav
 * http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html[The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class^] - Mike Gehard
-* http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 * http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html[(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.^] - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
+* http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html[Kotlin & Android: A Brass Tacks Experiment, Part 4^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html[Kotlin 1.0 Release Candidate is Out!^] - Andrey Breslav
 * http://kotlin.link/articles/Kotlin-Coding.html[Kotlin Coding^] - Ciro Rizzo
 * http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html[10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming^] - Peter Sommerhoff

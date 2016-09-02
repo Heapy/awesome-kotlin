@@ -56,7 +56,7 @@ The logger is defined in an interface called _AnkoLogger_ that your class is ext
 
 ### Logger name
 
-Looks like a small detail but still…
+Looks like a small detail but still...
 
 In kotlin-logging the name of the logger is inferred from the class and package name. In cases the name is too long it is truncated and replaced with stars. more details in [Logger name mapping](http://www.slf4j.org/android). In AnkoLogger, the name of the logger is the class name only without package name. Again, if it is long it is getting truncated.
 
