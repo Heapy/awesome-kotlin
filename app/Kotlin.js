@@ -492,6 +492,12 @@ const data = [{
             href: 'https://github.com/pixijs/pixi-native',
             type: 'github',
             tags: ['javascript', '2d', 'canvas', 'WebGL']
+        }, {
+            name: 'bashor/ts2kt',
+            desc: 'Converter of TypeScript definition files to Kotlin declarations (stubs)',
+            href: 'https://github.com/bashor/ts2kt',
+            type: 'github',
+            tags: ['javascript', 'typescript']
         }]
     }, {
         name: "Misc",
