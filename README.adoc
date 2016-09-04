@@ -94,6 +94,7 @@ toc::[]
 * https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models from CREATE TABLE statements.
 * https://github.com/x2bool/kuery[x2bool/kuery^] - Typesafe SQL with Kotlin.
 * https://github.com/Litote/kmongo[Litote/kmongo^] - KMongo - Kotlin toolkit for Mongo
+* https://github.com/requery/requery[requery/requery^] - Modern SQL based query & persistence for Java/Kotlin/Android.
 
 === Tools
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.

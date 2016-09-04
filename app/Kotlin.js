@@ -332,6 +332,12 @@ const data = [{
             href: 'https://github.com/Litote/kmongo',
             type: 'github',
             tags: ['database', 'mongodb', 'query']
+        }, {
+            name: 'requery/requery',
+            desc: 'Modern SQL based query & persistence for Java/Kotlin/Android.',
+            href: 'https://github.com/requery/requery',
+            type: 'github',
+            tags: ['database', 'query', 'type-safe builder']
         }]
     }, {
         name: "Tools",
