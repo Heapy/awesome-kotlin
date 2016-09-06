@@ -40,6 +40,7 @@ toc::[]
 * https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova^] 
 * https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva^] 
 * https://teamtreehouse.com/library/kotlin-for-java-developers[Kotlin for Java Developers^] - 160-minute Android Course.
+* https://www.udemy.com/kotlin-course/[Kotlin Programming: Next Level Java Development^] - Learn coding in Kotlin from scratch!
 
 
 == Libraries/Frameworks

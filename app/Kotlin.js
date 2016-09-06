@@ -75,6 +75,10 @@ const data = [{
             name: 'Kotlin for Java Developers',
             desc: '160-minute Android Course.',
             href: 'https://teamtreehouse.com/library/kotlin-for-java-developers'
+        }, {
+            name: 'Kotlin Programming: Next Level Java Development',
+            desc: 'Learn coding in Kotlin from scratch!',
+            href: 'https://www.udemy.com/kotlin-course/'
         }]
     }]
 }, {
