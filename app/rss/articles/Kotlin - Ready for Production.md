@@ -7,5 +7,7 @@ type: video
 author: Hadi Hariri
 date: Sep 07, 2016 12:21
 ---
-<iframe src="https://player.vimeo.com/video/181814363" width="960" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/181814363" width="960" height="540" frameborder="0"></iframe>
+<p><a href="https://vimeo.com/181814363">Kotlin - Ready for Production : Hadi Hariri</a> from <a href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 [Kotlin - Ready for Production](https://vimeo.com/181814363)
