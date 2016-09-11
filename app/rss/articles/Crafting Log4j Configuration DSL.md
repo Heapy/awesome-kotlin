@@ -6,6 +6,7 @@ categories:
     - DSL
 author: Eugene Petrenko
 date: Sep 9, 2016 02:45
+script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 ---
 In this post I show how to implement The DSL Way to manage 
 Log4j configuration and extend an IDE without writing a plugin for it
@@ -19,7 +20,7 @@ supported well in IDEs.
 
 I'll show how to create a decent IDE support for Log4j configuration files
 *without* writing an IDE plugin at all. We illustrate 
-how [The DSL Way]({% post_url 2016-09-02-dsl-building %}) is applied here.
+how [The DSL Way](http://jonnyzzz.com/blog/2016/09/02/dsl-building/) is applied here.
 
 
 The Basic Assumptions
@@ -54,19 +55,9 @@ A Transformation
 
 Let's implement the following scheme for Log4j configurations in `.properties` file format.
 
-$$
-\begin{equation}
-\begin{array}[c]{ccccc}
+![](http://i.imgur.com/3NyHYlD.png)
 
-&&DSL Library \\
-&& \Big\uparrow \mbox{uses}\\
-Log4j .properties & \xrightarrow{\mbox{generate}} & Generated Code & \xrightarrow{\mbox{execute}} & Log4j .properties \\
-&& Kotlin Code \\
-\end{array}
-\end{equation}
-$$
-
-See [The DSL Way]({% post_url 2016-09-02-dsl-building %}) post for more details on the approach
+See [The DSL Way](http://jonnyzzz.com/blog/2016/09/02/dsl-building/) post for more details on the approach
 
 The implementation of \\(generate\\) and \\(execute\\) transitions is an engineering task of average complexity.
 Below I focus mostly on a creativity part -- on a build of a DSL API that provides good readability, refactoring 
@@ -331,10 +322,10 @@ The \\(generator\\) and \\(execution\\) parts implementation details are left un
 for details in the comments.
 
 The DSL we created illustrates how once can turn a IDE language support problem 
-into [The DSL Way]({% post_url 2016-09-02-dsl-building %}) approach.
+into [The DSL Way](http://jonnyzzz.com/blog/2016/09/02/dsl-building/) approach.
 
 You may have a look (or contribute) to the project sources on [my GitHub](https://github.com/jonnyzzz/Log4j2DSL)
 
-You may follow to [this post]( {% post_url 2016-03-08-gradle-for-dsl %}) for details on how to create 
+You may follow to [this post](http://jonnyzzz.com/blog/2016/03/08/gradle-for-dsl/) for details on how to create 
 a zero-configuration package for such DSLs and for The DSL Way approach.
 
