@@ -731,6 +731,12 @@ const data = [{
             href: 'https://github.com/dodyg/Kotlin101',
             type: 'github',
             tags: ['examples']
+        }, {
+            name: 'dkandalov/kotlin-99',
+            desc: 'Solve 99 problems with Kotlin!',
+            href: 'https://github.com/dkandalov/kotlin-99',
+            type: 'github',
+            tags: ['examples', 'studyg']
         }]
     }, {
         name: 'Idea Plugins',
