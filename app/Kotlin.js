@@ -343,9 +343,9 @@ const data = [{
             type: 'github',
             tags: ['database', 'query', 'type-safe builder']
         }, {
-            name: 'consoleau/kotlin-jpa-specification',
+            name: 'consoleau/kotlin-jpa-specification-dsl',
             desc: 'This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.',
-            href: 'https://github.com/consoleau/kotlin-jpa-specification',
+            href: 'https://github.com/consoleau/kotlin-jpa-specification-dsl',
             type: 'github',
             tags: ['database', 'query', 'jpa']
         }]
