@@ -342,6 +342,12 @@ const data = [{
             href: 'https://github.com/requery/requery',
             type: 'github',
             tags: ['database', 'query', 'type-safe builder']
+        }, {
+            name: 'consoleau/kotlin-jpa-specification',
+            desc: 'This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.',
+            href: 'https://github.com/consoleau/kotlin-jpa-specification',
+            type: 'github',
+            tags: ['database', 'query', 'jpa']
         }]
     }, {
         name: "Tools",
@@ -736,7 +742,7 @@ const data = [{
             desc: 'Solve 99 problems with Kotlin!',
             href: 'https://github.com/dkandalov/kotlin-99',
             type: 'github',
-            tags: ['examples', 'studyg']
+            tags: ['examples', 'study']
         }]
     }, {
         name: 'Idea Plugins',
