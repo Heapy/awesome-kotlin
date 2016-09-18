@@ -96,6 +96,7 @@ toc::[]
 * https://github.com/x2bool/kuery[x2bool/kuery^] - Typesafe SQL with Kotlin.
 * https://github.com/Litote/kmongo[Litote/kmongo^] - KMongo - Kotlin toolkit for Mongo
 * https://github.com/requery/requery[requery/requery^] - Modern SQL based query & persistence for Java/Kotlin/Android.
+* https://github.com/consoleau/kotlin-jpa-specification-dsl[consoleau/kotlin-jpa-specification-dsl^] - This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.
 
 === Tools
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
@@ -152,6 +153,7 @@ toc::[]
 * https://github.com/holgerbrandl/krangl[holgerbrandl/krangl^] - krangl is a {K}otlin library for data w{rangl}ing
 * https://github.com/debop/koda-time[debop/koda-time^] - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * https://github.com/MicroUtils/kotlin.logging[MicroUtils/kotlin.logging^] - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
+* https://github.com/cesarferreira/kotlin-pluralizer[cesarferreira/kotlin-pluralizer^] - Kotlin extension to pluralize and singularize strings.
 
 === Extensions
 * https://github.com/Kotlin/kotlinx.support[Kotlin/kotlinx.support^] - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -183,6 +185,7 @@ toc::[]
 * https://github.com/robfletcher/lazybones-kotlin[robfletcher/lazybones-kotlin^] - The Lazybones app migrated to Kotlin as a learning exercise.
 * https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
 * https://github.com/dodyg/Kotlin101[dodyg/Kotlin101^] - 101 examples for Kotlin Programming language.
+* https://github.com/dkandalov/kotlin-99[dkandalov/kotlin-99^] - Solve 99 problems with Kotlin!
 
 === Idea Plugins
 * https://github.com/Vektah/CodeGlance[Vektah/CodeGlance^] - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.

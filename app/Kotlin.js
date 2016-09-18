@@ -617,6 +617,12 @@ const data = [{
             href: 'https://github.com/MicroUtils/kotlin.logging',
             type: 'github',
             tags: ['logging', 'slf4j']
+        }, {
+            name: 'cesarferreira/kotlin-pluralizer',
+            desc: 'Kotlin extension to pluralize and singularize strings.',
+            href: 'https://github.com/cesarferreira/kotlin-pluralizer',
+            type: 'github',
+            tags: ['pluralize', 'singularizen']
         }]
     }, {
         name: "Extensions",
