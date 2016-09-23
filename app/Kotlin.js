@@ -508,6 +508,12 @@ const data = [{
             href: 'https://github.com/bashor/ts2kt',
             type: 'github',
             tags: ['javascript', 'typescript']
+        }, {
+            name: 'shafirov/klogging',
+            desc: 'Kotlin logging, both js and jvm.',
+            href: 'https://github.com/shafirov/klogging',
+            type: 'github',
+            tags: ['javascript', 'logging']
         }]
     }, {
         name: "Misc",

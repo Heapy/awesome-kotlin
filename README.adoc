@@ -133,6 +133,7 @@ toc::[]
 * https://github.com/andrewoma/reakt[andrewoma/reakt^] - Reakt is a Kotlin wrapper for facebook's React library.
 * https://github.com/pixijs/pixi-native[pixijs/pixi-native^] - The aim of this project is to provide a fast lightweight 2D library that works across all devices.
 * https://github.com/bashor/ts2kt[bashor/ts2kt^] - Converter of TypeScript definition files to Kotlin declarations (stubs)
+* https://github.com/shafirov/klogging[shafirov/klogging^] - Kotlin logging, both js and jvm.
 
 === Misc
 * https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
