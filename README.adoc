@@ -247,6 +247,8 @@ toc::[]
 
 == Articles, Blog Posts
 === September 2016
+* http://kotlin.link/articles/Kotlin-1-0-4-is-here.html[Kotlin 1.0.4 is here^] - Dmitry Jemerov
+* http://kotlin.link/articles/The-power-of-temlating-in-a-DSL.html[The power of temlating in a DSL^] - Eugene Petrenko
 * http://kotlin.link/articles/Kotlin-vs-Java-Compilation-speed.html[Kotlin vs Java: Compilation speed^] - AJ Alt
 * http://kotlin.link/articles/Crafting-Log4j-Configuration-DSL.html[Crafting Log4j Configuration DSL^] - Eugene Petrenko
 * http://kotlin.link/articles/A-Developer’s-Look-at-Kotlin.html[A Developer’s Look at Kotlin^] - David Bolton
@@ -388,8 +390,8 @@ toc::[]
 * http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
 * http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
 * http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
-* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
+* http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
 * http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc
