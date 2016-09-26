@@ -65,6 +65,7 @@ toc::[]
 * https://github.com/dmcg/konsent[dmcg/konsent^] - An acceptance test library for Kotlin.
 * https://github.com/raniejade/kspec[raniejade/kspec^] - Kotlin Specification Framework.
 * https://github.com/EPadronU/balin[EPadronU/balin^] - Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb.
+* https://github.com/dmcg/amock[dmcg/amock^] - A JMock wrapper for Kotlin.
 
 === Dependency Injection
 * https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
@@ -187,6 +188,7 @@ toc::[]
 * https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
 * https://github.com/dodyg/Kotlin101[dodyg/Kotlin101^] - 101 examples for Kotlin Programming language.
 * https://github.com/dkandalov/kotlin-99[dkandalov/kotlin-99^] - Solve 99 problems with Kotlin!
+* https://github.com/sanity/pairAdjacentViolators[sanity/pairAdjacentViolators^] - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
 
 === Idea Plugins
 * https://github.com/Vektah/CodeGlance[Vektah/CodeGlance^] - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
@@ -251,8 +253,11 @@ toc::[]
 
 == Articles, Blog Posts
 === September 2016
+* http://kotlin.link/articles/Kotlin-in-Production-What-works-Whats-broken.html[Kotlin in Production - What works, Whats broken^] - DripStat
+* http://kotlin.link/articles/Why-Kotlin-is-the-next-big-thing-for-Java-developers.html[Why Kotlin is the next big thing for Java developers^] - Nitin Y
 * http://kotlin.link/articles/Kotlin-1-0-4-is-here.html[Kotlin 1.0.4 is here^] - Dmitry Jemerov
 * http://kotlin.link/articles/The-power-of-temlating-in-a-DSL.html[The power of temlating in a DSL^] - Eugene Petrenko
+* http://kotlin.link/articles/Generating-Kotlin-Code-for-Better-Refactorings-Tests-and-IDE-Support.html[Generating Kotlin Code for Better Refactorings, Tests, and IDE Support^] - Eugene Petrenko
 * http://kotlin.link/articles/Kotlin-vs-Java-Compilation-speed.html[Kotlin vs Java: Compilation speed^] - AJ Alt
 * http://kotlin.link/articles/Crafting-Log4j-Configuration-DSL.html[Crafting Log4j Configuration DSL^] - Eugene Petrenko
 * http://kotlin.link/articles/A-Developer’s-Look-at-Kotlin.html[A Developer’s Look at Kotlin^] - David Bolton
@@ -323,8 +328,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
+* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
@@ -394,8 +399,8 @@ toc::[]
 * http://kotlin.link/articles/RU-DevZen-Podcast-Kotlin-и-Vulkan-1-0-—-Episode-0080.html[(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.^] - DevZen Podcast
 * http://kotlin.link/articles/The-Kobalt-diaries-testing.html[The Kobalt diaries: testing^] - Cédric Beust
 * http://kotlin.link/articles/RU-Немного-о-Kotlin.html[(RU) Немного о Kotlin.^] - @fogone
-* http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 * http://kotlin.link/articles/Weekend-resources-for-new-Kotlin-programmers.html[Weekend resources for new Kotlin programmers^] - Joey deVilla
+* http://kotlin.link/articles/Using-Mockito-for-unit-testing-with-Kotlin-1-x.html[Using Mockito for unit testing with Kotlin (1/x)^] - MAKINGIANTS
 * http://kotlin.link/articles/RU-Kotlin-1-0-Задай-вопрос-команде.html[(RU) Kotlin 1.0. Задай вопрос команде.^] - Роман Белов
 * http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-3.html[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Doug Stevenson
 * http://kotlin.link/articles/Kotlin-1-0-The-good-the-bad-and-the-evident.html[Kotlin 1.0: The good, the bad and the evident.^] - Gabriela Motroc

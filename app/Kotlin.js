@@ -193,6 +193,12 @@ const data = [{
             href: 'https://github.com/EPadronU/balin',
             type: 'github',
             tags: ['test', 'selenium', 'UI', 'automation']
+        }, {
+            name: 'dmcg/amock',
+            desc: 'A JMock wrapper for Kotlin.',
+            href: 'https://github.com/dmcg/amock',
+            type: 'github',
+            tags: ['mock', 'test']
         }]
     }, {
         name: "Dependency Injection",
@@ -755,6 +761,12 @@ const data = [{
             href: 'https://github.com/dkandalov/kotlin-99',
             type: 'github',
             tags: ['examples', 'study']
+        }, {
+            name: 'sanity/pairAdjacentViolators',
+            desc: 'A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.',
+            href: 'https://github.com/sanity/pairAdjacentViolators',
+            type: 'github',
+            tags: ['examples']
         }]
     }, {
         name: 'Idea Plugins',
