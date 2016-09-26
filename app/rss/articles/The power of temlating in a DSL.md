@@ -50,7 +50,7 @@ evaluation of `log4j` function yield a logger configuration
 Say we have the following code to setup
 [loggers](http://jonnyzzz.com/blog/2016/09/09/log4j-dsl/). 
 
-```kotlin`
+```kotlin
 log4j {
   logger("category2warn") {
     + WARN
@@ -81,6 +81,7 @@ but thats to DSL API we are allowed to loop over several categories
 to generate all definitions. 
 
 The following part is now a template:
+
 ```kotlin
     logger("category2warn.$it") {
       + WARN
