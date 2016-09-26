@@ -624,9 +624,9 @@ const data = [{
             type: 'github',
             tags: ['joda-time', 'jsr-310']
         }, {
-            name: 'MicroUtils/kotlin.logging',
+            name: 'MicroUtils/kotlin-loggingg',
             desc: 'Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.',
-            href: 'https://github.com/MicroUtils/kotlin.logging',
+            href: 'https://github.com/MicroUtils/kotlin-logging',
             type: 'github',
             tags: ['logging', 'slf4j']
         }, {
