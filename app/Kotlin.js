@@ -136,6 +136,12 @@ const data = [{
             href: 'https://github.com/Kotlin/kotlinx.coroutines',
             type: 'github',
             tags: ['async', 'await', 'yield', 'generator']
+        }, {
+            name: 'taskworld/kraph',
+            desc: 'GraphQL request string builder written in Kotlin',
+            href: 'https://github.com/taskworld/kraph',
+            type: 'github',
+            tags: ['graphql', 'builde']
         }]
     }, {
         name: "Tests",

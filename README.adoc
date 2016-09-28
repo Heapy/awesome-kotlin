@@ -54,6 +54,7 @@ toc::[]
 * https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
 * https://github.com/Kotlin/kotlinx.coroutines[Kotlin/kotlinx.coroutines^] - Libraries built upon Kotlin coroutines.
+* https://github.com/taskworld/kraph[taskworld/kraph^] - GraphQL request string builder written in Kotlin
 
 === Tests
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
