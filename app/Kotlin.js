@@ -650,6 +650,12 @@ const data = [{
             href: 'https://github.com/cesarferreira/kotlin-pluralizer',
             type: 'github',
             tags: ['pluralize', 'singularizen']
+        }, {
+            name: 'JoelW-S/groothy',
+            desc: 'Kotlin implementation of Groovy Truth',
+            href: 'https://github.com/JoelW-S/groothy',
+            type: 'github',
+            tags: ['groovy truth']
         }]
     }, {
         name: "Extensions",
@@ -887,6 +893,12 @@ const data = [{
             href: 'https://github.com/nitrico/LastAdapter',
             type: 'github',
             tags: ['android', 'RecyclerView', 'ViewHolder']
+        }, {
+            name: 'denisidoro/krouter',
+            desc: 'A lightweight Android activity router',
+            href: 'https://github.com/denisidoro/krouter',
+            type: 'github',
+            tags: ['router', 'android']
         }]
     }, {
         name: "Frameworks",

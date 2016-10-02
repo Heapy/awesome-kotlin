@@ -160,6 +160,7 @@ toc::[]
 * https://github.com/debop/koda-time[debop/koda-time^] - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * https://github.com/MicroUtils/kotlin-logging[MicroUtils/kotlin-logging^] - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
 * https://github.com/cesarferreira/kotlin-pluralizer[cesarferreira/kotlin-pluralizer^] - Kotlin extension to pluralize and singularize strings.
+* https://github.com/JoelW-S/groothy[JoelW-S/groothy^] - Kotlin implementation of Groovy Truth
 
 === Extensions
 * https://github.com/Kotlin/kotlinx.support[Kotlin/kotlinx.support^] - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -215,6 +216,7 @@ toc::[]
 * https://github.com/graknol/AnvilKotlin[graknol/AnvilKotlin^] - Minimal UI library for Android inspired by React.
 * https://github.com/mathcamp/fiberglass[mathcamp/fiberglass^] - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
 * https://github.com/nitrico/LastAdapter[nitrico/LastAdapter^] - Don't write a RecyclerView adapter again. Not even a ViewHolder!.
+* https://github.com/denisidoro/krouter[denisidoro/krouter^] - A lightweight Android activity router
 
 === Frameworks
 * https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
