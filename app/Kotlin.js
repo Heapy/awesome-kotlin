@@ -528,6 +528,15 @@ const data = [{
             tags: ['javascript', 'logging']
         }]
     }, {
+        name: 'Game Development',
+        links: [{
+            name: 'czyzby/ktx',
+            desc: 'Kotlin utilities for LibGDX applications.',
+            href: 'https://github.com/czyzby/ktx',
+            type: 'github',
+            tags: ['LibGDX', 'game dev']
+        }]
+    }, {
         name: "Misc",
         links: [{
             name: 'Kotlin/kotlinx.reflect.lite',

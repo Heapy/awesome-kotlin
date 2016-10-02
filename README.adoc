@@ -137,6 +137,9 @@ toc::[]
 * https://github.com/bashor/ts2kt[bashor/ts2kt^] - Converter of TypeScript definition files to Kotlin declarations (stubs)
 * https://github.com/shafirov/klogging[shafirov/klogging^] - Kotlin logging, both js and jvm.
 
+=== Game Development
+* https://github.com/czyzby/ktx[czyzby/ktx^] - Kotlin utilities for LibGDX applications.
+
 === Misc
 * https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
 * https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^] - Fibers, Channels and Actors for the JVM.
