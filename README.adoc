@@ -110,7 +110,6 @@ toc::[]
 === Desktop
 * https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
 * https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^] - Griffon Support
-* https://github.com/AlmasB/FXGL[AlmasB/FXGL^] - JavaFX 8 Game Library written in Java + Kotlin
 
 === Http Clients
 * https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
@@ -139,6 +138,7 @@ toc::[]
 
 === Game Development
 * https://github.com/czyzby/ktx[czyzby/ktx^] - Kotlin utilities for LibGDX applications.
+* https://github.com/AlmasB/FXGL[AlmasB/FXGL^] - JavaFX 8 Game Library written in Java + Kotlin
 
 === Misc
 * https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
