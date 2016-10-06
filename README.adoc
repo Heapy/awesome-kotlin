@@ -20,7 +20,8 @@ toc::[]
 * https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
 * http://kotlinlang.org/[Home Page^] 
 * http://kotlinlang.org/docs/reference/[Language Reference^] 
-* http://kotlinslackin.herokuapp.com/[Slack (3000+ users)^] 
+* http://kotlinslackin.herokuapp.com/[Slack (4200+ users)^] 
+* http://kotlinlang.slackarchive.io/[Public chat archive of Kotlin's Slack^] 
 * http://try.kotlinlang.org/[Try Kotlin!^] 
 * http://blog.jetbrains.com/kotlin/[Blog^] 
 * https://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
@@ -99,6 +100,7 @@ toc::[]
 * https://github.com/Litote/kmongo[Litote/kmongo^] - KMongo - Kotlin toolkit for Mongo
 * https://github.com/requery/requery[requery/requery^] - Modern SQL based query & persistence for Java/Kotlin/Android.
 * https://github.com/consoleau/kotlin-jpa-specification-dsl[consoleau/kotlin-jpa-specification-dsl^] - This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.
+* https://github.com/s4kibs4mi/PultusORM[s4kibs4mi/PultusORM^] - PultusORM is a sqlite ORM library for kotlin on top of sqlite jdbc driver.
 
 === Tools
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
@@ -258,6 +260,9 @@ toc::[]
 
 
 == Articles, Blog Posts
+=== October 2016
+* http://kotlin.link/articles/Mocking-Kotlin-with-Mockito.html[Mocking Kotlin with Mockito^] - Hadi Hariri
+
 === September 2016
 * http://kotlin.link/articles/Kotlin-in-Production-What-works-Whats-broken.html[Kotlin in Production - What works, Whats broken^] - DripStat
 * http://kotlin.link/articles/Why-Kotlin-is-the-next-big-thing-for-Java-developers.html[Why Kotlin is the next big thing for Java developers^] - Nitin Y
@@ -335,8 +340,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
+* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel

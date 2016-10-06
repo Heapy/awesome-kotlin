@@ -1,5 +1,6 @@
 const request = require('request');
 const _ = require('lodash');
+const moment = require('moment');
 const fs = require('./File');
 
 const user = process.env.GH_USER;
@@ -37,7 +38,10 @@ const getGithubStarCount = repository => {
         auth: {user, pass}
     };
 
-    return JSON_GET(options, repository, json => json.stargazers_count);
+    return JSON_GET(options, repository, json => ({
+        stars: json.stargazers_count,
+        update: json.pushed_at
+    }));
 };
 
 const getBitbucketWatcherCount = repository => {
@@ -56,8 +60,9 @@ const promises = _.flattenDeep(data.map(category => {
     return category.subcategories.map(subcategory => {
         return subcategory.links.map(link => {
             if (link.type === 'github') {
-                return getGithubStarCount(link.name).then(stars => {
-                    link.star = stars;
+                return getGithubStarCount(link.name).then(obj => {
+                    link.star = obj.stars;
+                    link.update = moment(obj.update).format('MMM DD, YYYY');
                 });
             } else if (link.type === 'bitbucket') {
                 return getBitbucketWatcherCount(link.name).then(watchers => {

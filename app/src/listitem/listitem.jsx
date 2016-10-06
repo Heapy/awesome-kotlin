@@ -21,6 +21,7 @@ export default class Listitem extends React.Component {
               {this.getStars()}
                 <a href={this.props.link.href}
                    target="_blank"
+                   title={this.props.link.update ? `Last update: ${this.props.link.update}` : this.props.link.href}
                    rel="nofollow noopener"
                    className={styles.listitem_link}>
                     {this.props.link.name}

@@ -14,8 +14,11 @@ const data = [{
             name: 'Language Reference',
             href: 'http://kotlinlang.org/docs/reference/'
         }, {
-            name: 'Slack (3000+ users)',
+            name: 'Slack (4200+ users)',
             href: 'http://kotlinslackin.herokuapp.com/'
+        }, {
+            name: 'Public chat archive of Kotlin\'s Slack',
+            href: 'http://kotlinlang.slackarchive.io/',
         }, {
             name: 'Try Kotlin!',
             href: 'http://try.kotlinlang.org/'
@@ -360,6 +363,12 @@ const data = [{
             href: 'https://github.com/consoleau/kotlin-jpa-specification-dsl',
             type: 'github',
             tags: ['database', 'query', 'jpa']
+        }, {
+            name: 's4kibs4mi/PultusORM',
+            desc: 'PultusORM is a sqlite ORM library for kotlin on top of sqlite jdbc driver.',
+            href: 'https://github.com/s4kibs4mi/PultusORM',
+            type: 'github',
+            tags: ['database', 'query', 'sqlite']
         }]
     }, {
         name: "Tools",
