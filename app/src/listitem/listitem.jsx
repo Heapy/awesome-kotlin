@@ -15,17 +15,26 @@ export default class Listitem extends React.Component {
         }
     }
 
+    getLastUpdated() {
+        if (this.props.link.update) {
+            return (
+                <p className={styles.listitem_description}>{`Last update: ${this.props.link.update}`}</p>
+            )
+        }
+    }
+
     render() {
         return (
             <li className={styles.listitem}>
               {this.getStars()}
                 <a href={this.props.link.href}
                    target="_blank"
-                   title={this.props.link.update ? `Last update: ${this.props.link.update}` : this.props.link.href}
+                   title={this.props.link.name}
                    rel="nofollow noopener"
                    className={styles.listitem_link}>
                     {this.props.link.name}
                 </a>
+                {this.getLastUpdated()}
                 <p className={styles.listitem_description}>{this.props.link.desc}</p>
             </li>
         );
