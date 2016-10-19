@@ -65,6 +65,9 @@ const data = [{
         }, {
             name: 'Kotlin - Google+',
             href: 'https://plus.google.com/communities/104597899765146112928'
+        }, {
+            name: 'From Java To Kotlin',
+            href: 'https://github.com/fabiomsr/from-java-to-kotlin'
         }]
     }, {
         name: "Books and Courses",
