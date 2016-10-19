@@ -264,6 +264,7 @@ toc::[]
 
 == Articles, Blog Posts
 === October 2016
+* http://kotlin.link/articles/Experimenting-with-“mutation-testing”-and-Kotlin.html[Experimenting with “mutation testing” and Kotlin^] - Ian Clarke
 * http://kotlin.link/articles/Taking-Kotlin-for-a-ride.html[Taking Kotlin for a ride^] - Hadi Tok
 * http://kotlin.link/articles/Extension-functions-for-more-consistent-APIs.html[Extension functions for more consistent APIs^] - Nicolas Fränkel
 * http://kotlin.link/articles/PultusORM-Sqlite-ORM-for-Kotlin.html[PultusORM : Sqlite ORM for Kotlin^] - Sakib Sami
