@@ -170,6 +170,7 @@ toc::[]
 
 == Projects
 === Web
+* https://github.com/mariomac/codebuilder[mariomac/codebuilder^] - Demo app about asynchronous architectures for long-response-time web applications.
 * https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
 * https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 * https://github.com/ratpack/example-ratpack-gradle-kotlin-app[ratpack/example-ratpack-gradle-kotlin-app^] - An example of a Kotlin Ratpack app built with Gradle.
