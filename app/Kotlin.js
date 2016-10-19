@@ -68,6 +68,12 @@ const data = [{
         }, {
             name: 'From Java To Kotlin',
             href: 'https://github.com/fabiomsr/from-java-to-kotlin'
+        }, {
+          name: 'dbacinski/Design-Patterns-In-Kotlin',
+          desc: 'Design Patterns implemented in Kotlin.',
+          href: 'https://github.com/dbacinski/Design-Patterns-In-Kotlin',
+          type: 'github',
+          tags: ['Behavioral Patterns', 'Creational Patterns', 'Structural Patterns']
         }]
     }, {
         name: "Books and Courses",

@@ -37,6 +37,7 @@ toc::[]
 * https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237[LinkedIn: Kotlin Developers (Join!)^] 
 * https://plus.google.com/communities/104597899765146112928[Kotlin - Google+^] 
 * https://github.com/fabiomsr/from-java-to-kotlin[From Java To Kotlin^] 
+* https://github.com/dbacinski/Design-Patterns-In-Kotlin[dbacinski/Design-Patterns-In-Kotlin^] - Design Patterns implemented in Kotlin.
 
 === Books and Courses
 * https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova^] 
