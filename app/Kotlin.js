@@ -697,6 +697,12 @@ const data = [{
             href: 'https://github.com/ratpack/example-ratpack-gradle-kotlin-app',
             type: 'github',
             tags: ['ratpack', 'gradle', 'rest', 'web']
+        }, {
+          name: 'mariomac/codebuilder',
+          desc: 'Demo app about asynchronous architectures for long-response-time web applications.',
+          href: 'https://github.com/mariomac/codebuilder',
+          type: 'github',
+          tags: ['vertx.io', 'async', 'example']
         }]
     }, {
         name: "Build tools",
