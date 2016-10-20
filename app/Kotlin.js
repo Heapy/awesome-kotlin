@@ -1078,11 +1078,11 @@ const data = [{
             type: 'kug',
             tags: ['Japan']
         }, {
-          name: 'Korean Kotlin User Group',
-          desc: 'Korea',
-          href: 'https://kotlin.kr/',
-          type: 'kug',
-          tags: ['Korea']
+            name: 'Korean Kotlin User Group',
+            desc: 'Korea',
+            href: 'http://kotlin.kr/',
+            type: 'kug',
+            tags: ['Korea']
         }]
     }]
 }];
