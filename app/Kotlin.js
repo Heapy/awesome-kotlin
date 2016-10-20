@@ -923,6 +923,12 @@ const data = [{
             href: 'https://github.com/denisidoro/krouter',
             type: 'github',
             tags: ['router', 'android']
+        }, {
+          name: 'metalabdesign/AsyncAwait',
+          desc: 'async/await for Android built upon coroutines introduced in Kotlin 1.1',
+          href: 'https://github.com/metalabdesign/AsyncAwait',
+          type: 'github',
+          tags: ['async', 'await', 'android', ]
         }]
     }, {
         name: "Frameworks",
