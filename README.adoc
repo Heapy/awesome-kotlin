@@ -259,6 +259,7 @@ toc::[]
 * http://www.meetup.com/Bay-Area-Kotlin-User-Group/[Bay Area Kotlin User Group^] - USA
 
 === Asia
+* https://kotlin.kr/[Korean Kotlin User Group^] - Korea
 * https://kotlin.doorkeeper.jp/[Japan Kotlin User Group^] - Japan
 
 
