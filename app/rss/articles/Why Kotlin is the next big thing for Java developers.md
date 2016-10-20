@@ -55,7 +55,7 @@ Also, Kotlin was inspired by Scala and according to many people, it looks a lot 
 
 **Backward compatible**
 
-Kotlin offers backward compatibility for Java versions 6 and 7\. It states on its blog that over the next few releases, it is going to speed up development workflow, reduce the size of the runtime library and provide more tooling support. Kotlin introduced a feature known as incremental [compilation](https://jaxenter.com/kotlin-1-0-4-is-here-129315.html) in its Gradle build plug-in. This enables Kotlin to compile and build only the changes in the code and not the whole code over. This is going to save a lot of time.
+Kotlin offers backward compatibility for Java versions 6 and 7. It states on its blog that over the next few releases, it is going to speed up development workflow, reduce the size of the runtime library and provide more tooling support. Kotlin introduced a feature known as incremental [compilation](https://jaxenter.com/kotlin-1-0-4-is-here-129315.html) in its Gradle build plug-in. This enables Kotlin to compile and build only the changes in the code and not the whole code over. This is going to save a lot of time.
 
 **IDE interoperability**
 

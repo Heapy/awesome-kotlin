@@ -29,7 +29,7 @@ catch(e: Exception) {
 
 In effect, a final variable could be assigned twice, and it was possible to observe two different values for it (for example, if the value in the `try` statement was captured in a lambda). In Java, the equivalent code is not allowed.
 
-To maintain consistent semantics, the code which assigns the same `val` in both `try` and `catch` branches **becomes a warning** in Kotlin 1.0.4 and will **become an error** in version 1.0.5\. In most cases, the code can be easily fixed by converting the code to an expression form, and the IDE will **offer a quickfix** to convert this code automatically. The above example would be converted to:
+To maintain consistent semantics, the code which assigns the same `val` in both `try` and `catch` branches **becomes a warning** in Kotlin 1.0.4 and will **become an error** in version 1.0.5. In most cases, the code can be easily fixed by converting the code to an expression form, and the IDE will **offer a quickfix** to convert this code automatically. The above example would be converted to:
 
 ```kotlin
 val x = try { 

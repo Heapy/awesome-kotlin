@@ -161,7 +161,7 @@ inc = 11
 
 This shows that despite accessing sample.lazy twice, only the first access initialized the value. If you comment out the three printlns and run it, you’ll see that there’s no assignment printed, as lazy is never assigned a value. That “by lazy” defers it until reading.
 
-Next up on the delegate types: ‘observable.’ In this example, a TaxRate value has been made ‘observable,’ and defaults to the value passed in: 18.5\. But changing it explicitly invokes the handler, which prints out that it has changed. It can be very useful when you need to find out what is changing a property:
+Next up on the delegate types: ‘observable.’ In this example, a TaxRate value has been made ‘observable,’ and defaults to the value passed in: 18.5. But changing it explicitly invokes the handler, which prints out that it has changed. It can be very useful when you need to find out what is changing a property:
 
 ```kotlin
 import kotlin.properties.Delegates

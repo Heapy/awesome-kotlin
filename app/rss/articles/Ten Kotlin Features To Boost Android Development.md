@@ -14,7 +14,7 @@ A while ago, [Tomasz introduced Kotlin development on Android](https://www.topta
 
 In this article, I will cover the top ten useful features to boost your Android development.
 
-_Note_: at the time of writing this article, actual versions were Android Studio 2.1.1\. and Kotlin 1.0.2.
+_Note_: at the time of writing this article, actual versions were Android Studio 2.1.1. and Kotlin 1.0.2.
 
 ![Kotlin](https://assets.toptal.io/uploads/blog/image/121111/toptal-blog-image-1472553848441-616cb981fb163d64c2d9d18a7e109d73.jpg)
 

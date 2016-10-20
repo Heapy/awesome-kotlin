@@ -27,7 +27,7 @@ The main features are:
 
 ## Installation
 
-To give it a try you will need an installation of NetBeans 8.1\. The beta version of Kotlin plugin is available from the [NetBeans Plugin Portal](http://plugins.netbeans.org/plugin/68590/kotlin).
+To give it a try you will need an installation of NetBeans 8.1. The beta version of Kotlin plugin is available from the [NetBeans Plugin Portal](http://plugins.netbeans.org/plugin/68590/kotlin).
 
 Installation process:
 

@@ -222,6 +222,7 @@ toc::[]
 * https://github.com/mathcamp/fiberglass[mathcamp/fiberglass^] - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
 * https://github.com/nitrico/LastAdapter[nitrico/LastAdapter^] - Don't write a RecyclerView adapter again. Not even a ViewHolder!.
 * https://github.com/denisidoro/krouter[denisidoro/krouter^] - A lightweight Android activity router
+* https://github.com/metalabdesign/AsyncAwait[metalabdesign/AsyncAwait^] - async/await for Android built upon coroutines introduced in Kotlin 1.1
 
 === Frameworks
 * https://github.com/nekocode/kotgo[nekocode/kotgo^] - An android development framwork on kotlin using MVP architecture.
@@ -260,11 +261,12 @@ toc::[]
 
 === Asia
 * https://kotlin.doorkeeper.jp/[Japan Kotlin User Group^] - Japan
-* https://kotlin.kr/[Korean Kotlin User Group^] - Korea
+* http://kotlin.kr/[Korean Kotlin User Group^] - Korea
 
 
 == Articles, Blog Posts
 === October 2016
+* http://kotlin.link/articles/Kotlin-1-1-M02-is-here.html[Kotlin 1.1-M02 is here!^] - Denis Zharkov
 * http://kotlin.link/articles/Experimenting-with-“mutation-testing”-and-Kotlin.html[Experimenting with “mutation testing” and Kotlin^] - Ian Clarke
 * http://kotlin.link/articles/Taking-Kotlin-for-a-ride.html[Taking Kotlin for a ride^] - Hadi Tok
 * http://kotlin.link/articles/Extension-functions-for-more-consistent-APIs.html[Extension functions for more consistent APIs^] - Nicolas Fränkel
@@ -350,8 +352,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
+* http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
@@ -500,6 +502,9 @@ toc::[]
 
 
 == Videos
+=== October 2016
+* http://kotlin.link/articles/Spring-Tips-the-Kotlin-Programming-Language.html[Spring Tips: the Kotlin Programming Language^] - Josh Long
+
 === September 2016
 * http://kotlin.link/articles/Developing-a-Geospatial-Webservice-with-Kotlin-and-Spring-Boot.html[Developing a Geospatial Webservice with Kotlin and Spring Boot^] - Sébastien Deleuze
 * http://kotlin.link/articles/Kotlin-Ready-for-Production.html[Kotlin - Ready for Production^] - Hadi Hariri
