@@ -1077,6 +1077,12 @@ const data = [{
             href: 'https://kotlin.doorkeeper.jp/',
             type: 'kug',
             tags: ['Japan']
+        }, {
+          name: 'Korean Kotlin User Group',
+          desc: 'Korea',
+          href: 'https://kotlin.kr/',
+          type: 'kug',
+          tags: ['Korea']
         }]
     }]
 }];
