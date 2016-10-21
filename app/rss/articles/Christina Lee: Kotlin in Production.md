@@ -1,5 +1,5 @@
 ---
-title: 'Christina Lee: Kotlin in Production '
+title: 'Christina Lee: Kotlin in Production'
 url: https://www.youtube.com/watch?v=xRDqDe4rxkM
 categories:
     - Kotlin
