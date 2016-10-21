@@ -1074,6 +1074,24 @@ const data = [{
             href: 'http://www.meetup.com/Bay-Area-Kotlin-User-Group/',
             type: 'kug',
             tags: ['USA']
+        }, {
+            name: 'Chicago Kotlin Users Group',
+            desc: 'USA',
+            href: 'http://www.meetup.com/Chicago-Kotlin-Users-Group/',
+            type: 'kug',
+            tags: ['USA']
+        }, {
+            name: 'New York Kotlin Meetup',
+            desc: 'USA',
+            href: 'http://www.meetup.com/New-York-Kotlin-Meetup/',
+            type: 'kug',
+            tags: ['USA']
+        }, {
+            name: 'Bay Area Kotlin User Group',
+            desc: 'USA',
+            href: 'http://www.meetup.com/Bay-Area-Kotlin-User-Group/',
+            type: 'kug',
+            tags: ['USA']
         }]
     }, {
         name: 'Asia',
