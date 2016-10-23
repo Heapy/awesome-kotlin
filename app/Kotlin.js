@@ -1081,15 +1081,15 @@ const data = [{
             type: 'kug',
             tags: ['USA']
         }, {
-            name: 'New York Kotlin Meetup',
+            name: 'Kotlin Group of Boulder',
             desc: 'USA',
-            href: 'http://www.meetup.com/New-York-Kotlin-Meetup/',
+            href: 'http://www.meetup.com/Kotlin-Group-Boulder/',
             type: 'kug',
             tags: ['USA']
         }, {
-            name: 'Bay Area Kotlin User Group',
+            name: 'New York Kotlin Meetup',
             desc: 'USA',
-            href: 'http://www.meetup.com/Bay-Area-Kotlin-User-Group/',
+            href: 'http://www.meetup.com/New-York-Kotlin-Meetup/',
             type: 'kug',
             tags: ['USA']
         }]
