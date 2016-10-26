@@ -747,6 +747,12 @@ const data = [{
             href: 'https://github.com/brikk/brikk',
             type: 'github',
             tags: ['dependency managment']
+        }, {
+          name: 'arturbosch/detekt',
+          desc: 'Static code analysis for Kotlin',
+          href: 'https://github.com/arturbosch/detekt',
+          type: 'github',
+          tags: ['check style', 'checkstyle']
         }]
     }, {
         name: "Desktop",
