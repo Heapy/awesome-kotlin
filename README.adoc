@@ -270,6 +270,7 @@ toc::[]
 
 == Articles, Blog Posts
 === October 2016
+* http://kotlin.link/articles/A-Whirlwind-Tour-of-the-Kotlin-Type-Hierarchy.html[A Whirlwind Tour of the Kotlin Type Hierarchy^] - Nat Pryce
 * http://kotlin.link/articles/Composing-functions-in-Kotlin-with-extensions-and-operators.html[Composing functions in Kotlin with extensions and operators^] - Daniele Conti
 * http://kotlin.link/articles/The-Road-to-Gradle-Script-Kotlin-1-0.html[The Road to Gradle Script Kotlin 1.0^] - Rodrigo B. de Oliveira
 * http://kotlin.link/articles/Kotlin-1-1-M02-is-here.html[Kotlin 1.1-M02 is here!^] - Denis Zharkov
@@ -360,8 +361,8 @@ toc::[]
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html[Exercises in Kotlin: Part 4 - Control flows and return^] - Dhananjay Nene
 * http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html[Writing Concise Code With Kotlin^] - Peter Sommerhoff
 * http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html[JDK7/8 features in Kotlin 1.0^] - Ilya Gorbunov
-* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Kotlin-Android-First-Impressions.html[Kotlin + Android First Impressions^] - Keyhole Software
+* http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html[Exercises in Kotlin: Part 3 - Functions^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html[Exercises in Kotlin: Part 2 - High level syntax and Variables^] - Dhananjay Nene
 * http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html[Exercises in Kotlin: Part 1 - Getting Started^] - Dhananjay Nene
 * http://kotlin.link/articles/Code-improvements-with-Kotlin.html[Code improvements with Kotlin^] - Nicolas Frankel
