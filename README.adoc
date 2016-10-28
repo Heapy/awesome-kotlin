@@ -270,6 +270,7 @@ toc::[]
 
 == Articles, Blog Posts
 === October 2016
+* http://kotlin.link/articles/Composing-functions-in-Kotlin-with-extensions-and-operators.html[Composing functions in Kotlin with extensions and operators^] - Daniele Conti
 * http://kotlin.link/articles/The-Road-to-Gradle-Script-Kotlin-1-0.html[The Road to Gradle Script Kotlin 1.0^] - Rodrigo B. de Oliveira
 * http://kotlin.link/articles/Kotlin-1-1-M02-is-here.html[Kotlin 1.1-M02 is here!^] - Denis Zharkov
 * http://kotlin.link/articles/Functions-as-Data.html[Functions as Data^] - Mark Galea
