@@ -91,6 +91,9 @@ const data = [{
             name: 'Kotlin Programming: Next Level Java Development',
             desc: 'Learn coding in Kotlin from scratch!',
             href: 'https://www.udemy.com/kotlin-course/'
+        }, {
+          name: 'Introduction to Kotlin Programming by Hadi Hariri',
+          href: 'https://player.oreilly.com/videos/9781491964118'
         }]
     }]
 }, {
