@@ -271,9 +271,12 @@ toc::[]
 
 == Articles, Blog Posts
 === October 2016
+* http://kotlin.link/articles/Easy-DSL-design-with-Kotlin.html[Easy DSL design with Kotlin^] - Nicolas Fränkel
 * http://kotlin.link/articles/Zero-boilerplate-delegation-in-Kotlin.html[Zero boilerplate delegation in Kotlin^] - Piotr Ślesarew
 * http://kotlin.link/articles/A-Whirlwind-Tour-of-the-Kotlin-Type-Hierarchy.html[A Whirlwind Tour of the Kotlin Type Hierarchy^] - Nat Pryce
+* http://kotlin.link/articles/Kotlin-for-Data-Science.html[Kotlin for Data Science^] - Thomas Nield
 * http://kotlin.link/articles/Composing-functions-in-Kotlin-with-extensions-and-operators.html[Composing functions in Kotlin with extensions and operators^] - Daniele Conti
+* http://kotlin.link/articles/Kotlin-How-to-Make-Your-Java-Code-Base-Cleaner-and-More-Readable.html[Kotlin: How to Make Your Java Code Base Cleaner and More Readable^] - Kenneth Ford
 * http://kotlin.link/articles/The-Road-to-Gradle-Script-Kotlin-1-0.html[The Road to Gradle Script Kotlin 1.0^] - Rodrigo B. de Oliveira
 * http://kotlin.link/articles/Kotlin-1-1-M02-is-here.html[Kotlin 1.1-M02 is here!^] - Denis Zharkov
 * http://kotlin.link/articles/Functions-as-Data.html[Functions as Data^] - Mark Galea
@@ -514,8 +517,10 @@ toc::[]
 
 == Videos
 === October 2016
+* http://kotlin.link/articles/Spring-Boot-and-Kotlin-a-match-made-in-Heaven.html[Spring Boot and Kotlin, a match made in Heaven^] - Nicolas Frankel
 * http://kotlin.link/articles/Spring-Tips-the-Kotlin-Programming-Language.html[Spring Tips: the Kotlin Programming Language^] - Josh Long
 * http://kotlin.link/articles/Christina-Lee-Kotlin-in-Production.html[Christina Lee: Kotlin in Production^] - Android Dialogs
+* http://kotlin.link/articles/Better-Android-Development-with-Kotlin-and-Gradle.html[Better Android Development with Kotlin and Gradle^] - Ty Smith
 
 === September 2016
 * http://kotlin.link/articles/Developing-a-Geospatial-Webservice-with-Kotlin-and-Spring-Boot.html[Developing a Geospatial Webservice with Kotlin and Spring Boot^] - Sébastien Deleuze
@@ -523,7 +528,6 @@ toc::[]
 
 === August 2016
 * http://kotlin.link/articles/Writing-Gradle-Build-Scripts-in-Kotlin.html[Writing Gradle Build Scripts in Kotlin^] - Chris Beams & Rodrigo B. de Oliveiranp
-* http://kotlin.link/articles/Better-Android-Development-with-Kotlin-and-Gradle.html[Better Android Development with Kotlin and Gradle^] - Ty Smith
 * http://kotlin.link/articles/Andrey-Breslav-Kotlin-Coroutines-JVMLS-2016.html[Andrey Breslav: Kotlin Coroutines, JVMLS 2016^] - Andrey Breslav
 
 === May 2016
