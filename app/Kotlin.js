@@ -93,7 +93,12 @@ const data = [{
             href: 'https://www.udemy.com/kotlin-course/'
         }, {
           name: 'Introduction to Kotlin Programming by Hadi Hariri',
-          href: 'https://player.oreilly.com/videos/9781491964118'
+          desc: 'From Hello World to Interoperability with Java',
+          href: 'http://shop.oreilly.com/product/0636920052982.do'
+        }, {
+          name: 'Advanced Kotlin Programming',
+          desc: 'From Nested Functions to Asynchronous Programming',
+          href: 'http://shop.oreilly.com/product/0636920052999.do'
         }]
     }]
 }, {

@@ -44,7 +44,8 @@ toc::[]
 * https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva^] 
 * https://teamtreehouse.com/library/kotlin-for-java-developers[Kotlin for Java Developers^] - 160-minute Android Course.
 * https://www.udemy.com/kotlin-course/[Kotlin Programming: Next Level Java Development^] - Learn coding in Kotlin from scratch!
-* https://player.oreilly.com/videos/9781491964118[Introduction to Kotlin Programming by Hadi Hariri^] 
+* http://shop.oreilly.com/product/0636920052982.do[Introduction to Kotlin Programming by Hadi Hariri^] - From Hello World to Interoperability with Java
+* http://shop.oreilly.com/product/0636920052999.do[Advanced Kotlin Programming^] - From Nested Functions to Asynchronous Programming
 
 
 == Libraries/Frameworks
