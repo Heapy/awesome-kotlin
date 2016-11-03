@@ -178,6 +178,7 @@ toc::[]
 * https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 * https://github.com/ratpack/example-ratpack-gradle-kotlin-app[ratpack/example-ratpack-gradle-kotlin-app^] - An example of a Kotlin Ratpack app built with Gradle.
 * https://github.com/mariomac/codebuilder[mariomac/codebuilder^] - Demo app about asynchronous architectures for long-response-time web applications.
+* https://github.com/rocketraman/kotlin-web-hello-world[rocketraman/kotlin-web-hello-world^] - This project shows how to do a web-based "Hello World!" with Kotlin in combination with various JVM-based web frameworks.
 
 === Build tools
 * https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.

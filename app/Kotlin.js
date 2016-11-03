@@ -720,6 +720,12 @@ const data = [{
           href: 'https://github.com/mariomac/codebuilder',
           type: 'github',
           tags: ['vertx.io', 'async', 'example']
+        }, {
+            name: 'rocketraman/kotlin-web-hello-world',
+            desc: 'This project shows how to do a web-based "Hello World!" with Kotlin in combination with various JVM-based web frameworks.',
+            href: 'https://github.com/rocketraman/kotlin-web-hello-world',
+            type: 'github',
+            tags: ['spark java', 'vertx', 'wasabi', 'ktor', 'akka', 'example']
         }]
     }, {
         name: "Build tools",
