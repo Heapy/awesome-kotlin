@@ -28,14 +28,15 @@ const tableOfContent = () => {
         .subcategories
         .map(subcategory => {
           return `* [${subcategory.name}](#${getCategoryUrl(subcategory.name)})`;
-        }).join('\n');
+        })
+        .join('\n');
     }
 
     return data
       .map(category => {
-        return `### [${category.name}](#${getCategoryUrl(category.name)}) \n ${getSubcategories(category)}`;
+        return `### [${category.name}](#${getCategoryUrl(category.name)})\n${getSubcategories(category)}`;
       })
-      .join('\n');
+      .join('\n\n');
   }
 
   return ['## Table of Contents', generateTOC()].join('\n');
