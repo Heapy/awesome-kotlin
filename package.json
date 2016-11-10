@@ -45,11 +45,12 @@
     "typescript": "^2.0.8",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.0"
+    "webpack-dev-server": "^1.15.0",
+    "yarn": "^0.16.1"
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "prestart": "npm install",
+    "prestart": "yarn install",
     "test": "ts-node ./app/LinkChecker.ts",
     "stars": "ts-node ./app/Stars.ts",
     "sitemap": "ts-node ./app/Sitemap.ts",
