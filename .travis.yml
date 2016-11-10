@@ -1,5 +1,5 @@
 before_install:
-  - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
