@@ -10,7 +10,7 @@ const links = () => {
         return `* [${link.href}](${link.name}) ${getDesc(link.desc)}`;
       }).join('\n');
 
-      return `### ${subcategory.name}\n${links}\n`
+      return `###  <a name=""></a>${subcategory.name}\n${links}\n`
     }).join('\n');
 
     return `## ${category.name}\n${subcategories}\n`
@@ -18,28 +18,24 @@ const links = () => {
 };
 
 const tableOfContent = () => {
-  function generateTOC() {
-    function getCategoryUrl(name) {
-      return name.toLowerCase().replace(new RegExp(' ', 'g'), '-');
-    }
-
-    function getSubcategories(category) {
-      return category
-        .subcategories
-        .map(subcategory => {
-          return `* [${subcategory.name}](#${getCategoryUrl(subcategory.name)})`;
-        })
-        .join('\n');
-    }
-
-    return data
-      .map(category => {
-        return `### [${category.name}](#${getCategoryUrl(category.name)})\n${getSubcategories(category)}`;
-      })
-      .join('\n\n');
+  function getCategoryUrl(name) {
+    return name.toLowerCase().replace(new RegExp(' ', 'g'), '-');
   }
 
-  return ['## Table of Contents', generateTOC()].join('\n');
+  function getSubcategories(category) {
+    return category
+      .subcategories
+      .map(subcategory => {
+        return `* [${subcategory.name}](#${getCategoryUrl(subcategory.name)})`;
+      })
+      .join('\n');
+  }
+
+  return data
+    .map(category => {
+      return `### [${category.name}](#${getCategoryUrl(category.name)})\n${getSubcategories(category)}`;
+    })
+    .join('\n\n');
 };
 
 const template = `# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
@@ -49,6 +45,8 @@ A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) 
 
 [RSS Feed of articles, videos, slides, updates](http://kotlin.link/rss.xml)
+
+## Table of Contents
 
 ${tableOfContent()}
 

@@ -6,7 +6,9 @@ categories:
     - DSL
 author: Eugene Petrenko
 date: Sep 22, 2016 01:25
-script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+features:
+    - mathjax
+    - nanana
 ---
 
 Welcome a powerful templating engine that 
