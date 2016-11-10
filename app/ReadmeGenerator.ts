@@ -42,10 +42,10 @@ function getLinks() {
         return `* [${link.href}](${link.name}) ${getDesc(link.desc)}`;
       }).join('\n');
 
-      return `### ${getAnchor(subcategory.id)}${subcategory.name} [Back ⇈](#${subcategory.id}-subcategory)\n${links}\n`
+      return `### ${getAnchor(subcategory.id)}${subcategory.name} <sup>[Back ⇈](#${subcategory.id}-subcategory)</sup>\n${links}\n`
     }).join('\n');
 
-    return `## ${getAnchor(category.id)}${category.name} [Back ⇈](#${category.id}-category)\n${subcategories}\n`
+    return `## ${getAnchor(category.id)}${category.name} <sup>[Back ⇈](#${category.id}-category)</sup>\n${subcategories}\n`
   }).join('\n');
 }
 
