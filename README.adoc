@@ -60,6 +60,7 @@ toc::[]
 * https://github.com/sdeleuze/spring-kotlin[sdeleuze/spring-kotlin^] - Kotlin extensions for Spring projects.
 * https://github.com/Kotlin/kotlinx.coroutines[Kotlin/kotlinx.coroutines^] - Libraries built upon Kotlin coroutines.
 * https://github.com/taskworld/kraph[taskworld/kraph^] - GraphQL request string builder written in Kotlin
+* https://github.com/sepatel/tekniq[sepatel/tekniq^] - An HTTP Framework DSL (tekniq-sparklin) like Node's Express or Ruby's Sinatra with Kotlin idiom.
 
 === Tests
 * https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
@@ -105,6 +106,7 @@ toc::[]
 * https://github.com/requery/requery[requery/requery^] - Modern SQL based query & persistence for Java/Kotlin/Android.
 * https://github.com/consoleau/kotlin-jpa-specification-dsl[consoleau/kotlin-jpa-specification-dsl^] - This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.
 * https://github.com/s4kibs4mi/PultusORM[s4kibs4mi/PultusORM^] - PultusORM is a sqlite ORM library for kotlin on top of sqlite jdbc driver.
+* https://github.com/sepatel/tekniq[sepatel/tekniq^] - tekniq-jdbc creates extensions to the DataSource and Connection interfaces allowing easy interfacing with jdbc via kotlin idioms.
 
 === Tools
 * https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
@@ -112,6 +114,7 @@ toc::[]
 * https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils for Kotlin.
 * https://github.com/shyiko/ktlint[shyiko/ktlint^] - Kotlin linter.
 * https://github.com/jtransc/jtransc[jtransc/jtransc^] - JVM AOT compiler created in Kotlin.
+* https://github.com/sepatel/tekniq[sepatel/tekniq^] - tekniq-core supports without any added dependencies features like dynamic cache loading, configurations, and more.
 
 === Desktop
 * https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
@@ -120,6 +123,7 @@ toc::[]
 === Http Clients
 * https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
 * https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
+* https://github.com/sepatel/tekniq[sepatel/tekniq^] - tekniq-rest provides a simple kotlin idiomatic way of handling HTTP requests.
 
 === Editors
 * https://github.com/JetBrains/intellij-community[JetBrains/intellij-community^] - IntelliJ IDEA Community Edition
