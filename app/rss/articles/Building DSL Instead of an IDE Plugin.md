@@ -6,7 +6,8 @@ categories:
     - DSL
 author: Eugene Petrenko
 date: Sep 02, 2016 03:04
-script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+features:
+    - mathjax
 ---
 An alternative way of doing IDE support without any IDE plugin code for not yet supported and specific languages.
 

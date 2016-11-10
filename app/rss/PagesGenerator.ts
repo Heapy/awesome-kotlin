@@ -1,26 +1,45 @@
-const file = require('../File');
-const sass = require('node-sass');
-const articles = require('./articles');
-const moment = require('moment');
-const _ = require('lodash');
-
-const formatDate = date => moment(date, 'MMM DD, YYYY hh:mm').format('MMM DD, YYYY');
-
-
+import {write} from '../File';
+import {articles} from './articles';
+import * as _ from 'lodash';
+import * as moment from 'moment';
+import * as sass from 'node-sass';
 
 const groups = _.groupBy(articles, it => formatDate(it.date));
 
 const getGroupLinks = group => groups[group]
-    .map(article => `<li><a href="./${article.filename}">${article.title}</a></li>`)
-    .join('\n');
-
+  .map(article => `<li><a href="./${article.filename}">${article.title}</a></li>`)
+  .join('\n');
 
 const links = Object
-    .keys(groups)
-    .map(group => `<li class="pure-menu-list-date">${group}</li>${getGroupLinks(group)}`)
-    .join('\n');
+  .keys(groups)
+  .map(group => `<li class="pure-menu-list-date">${group}</li>${getGroupLinks(group)}`)
+  .join('\n');
 
-const getHtml = (article) => `<!doctype html>
+articles
+  .map((article, idx, array) => {
+    if (idx === array.length - 1) {
+      article.next = array[0].filename;
+      article.prev = array[idx - 1].filename;
+    } else if (idx === 0) {
+      article.next = array[idx + 1].filename;
+      article.prev = array[array.length - 1].filename;
+    } else {
+      article.next = array[idx + 1].filename;
+      article.prev = array[idx - 1].filename;
+    }
+    return article;
+  })
+  .forEach(article => write(`./dist/articles/${article.filename}`, getHtml(article)));
+
+const style = sass.renderSync({
+  file: './app/rss/styles.scss',
+  outputStyle: 'compressed'
+});
+
+write('./dist/articles/styles.css', style.css);
+
+function getHtml(article: Article): string {
+  return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -29,7 +48,9 @@ const getHtml = (article) => `<!doctype html>
   <link rel='stylesheet' href='./styles.css'>
   <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-  <script src="${article.script}"></script>
+  <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - 20 latest" href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - full archive"href="/rss-full.xml" />
+  ${getFeatures(article.features)}
 </head>
 <body>
 <div id="layout" class="layout">
@@ -113,26 +134,21 @@ const getHtml = (article) => `<!doctype html>
 </body>
 </html>
 `;
+}
 
-articles
-    .map((article, idx, array) => {
-        if (idx === array.length - 1) {
-            article.next = array[0].filename;
-            article.prev = array[idx - 1].filename;
-        } else if (idx === 0) {
-            article.next = array[idx + 1].filename;
-            article.prev = array[array.length - 1].filename;
-        } else {
-            article.next = array[idx + 1].filename;
-            article.prev = array[idx - 1].filename;
-        }
-        return article;
+function formatDate(date: string): string {
+  return moment(date, 'MMM DD, YYYY hh:mm').format('MMM DD, YYYY');
+}
+
+function getFeatures(features: ArticleFeature[] = []): string {
+  return features
+    .map(feature => {
+      switch (feature) {
+        case 'mathjax':
+          return '<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>';
+        default:
+          return `<script type="application/javascript">console.error("Unknown feature: ${feature}")</script>`;
+      }
     })
-    .map(article => file.write(`./dist/articles/${article.filename}`, getHtml(article)));
-
-const style = sass.renderSync({
-    file: './app/rss/styles.scss',
-    outputStyle: 'compressed'
-});
-
-file.write('./dist/articles/styles.css', style.css);
+    .join('\n');
+}

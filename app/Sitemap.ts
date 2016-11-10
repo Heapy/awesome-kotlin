@@ -1,13 +1,13 @@
+import {write} from './File';
+import {articles} from './rss/articles';
 const sm = require('sitemap');
-const fs = require('./File');
-const articles = require("../app/rss/articles");
 
-const sitemap = sm.createSitemap ({
-    hostname: 'http://kotlin.link',
-    cacheTime: 60*60*1000,
-    urls: articles.map(article => ({ url: `/articles/${article.filename}` }))
+const sitemap = sm.createSitemap({
+  hostname: 'http://kotlin.link',
+  cacheTime: 60 * 60 * 1000,
+  urls: articles.map(article => ({url: `/articles/${article.filename}`}))
 });
 
-var xml = sitemap.toString();
+const xml = sitemap.toString();
 
-fs.write('./dist/sitemap.xml', xml);
+write('./dist/sitemap.xml', xml);

@@ -1,5 +1,5 @@
 ---
-title: 'The power of temlating in a DSL'
+title: 'The power of templating in a DSL'
 url: http://jonnyzzz.com/blog/2016/09/16/power-of-dsl/
 categories:
     - Kotlin
@@ -8,7 +8,6 @@ author: Eugene Petrenko
 date: Sep 22, 2016 01:25
 features:
     - mathjax
-    - nanana
 ---
 
 Welcome a powerful templating engine that 

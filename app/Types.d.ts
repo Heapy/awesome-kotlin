@@ -8,17 +8,15 @@ interface Link {
 }
 
 interface Subcategory {
-  id: string;
+  readonly id?: string;
   readonly name: string;
   readonly links: Link[];
 }
 
-class Category {
-  readonly id: string;
+interface Category {
+  readonly id?: string;
   readonly name: string;
   readonly subcategories: Subcategory[];
-
-  constructor(id: string, name: string, subcategories: Subcategory[]) {}
 }
 
 type ArticleFeature = 'mathjax';

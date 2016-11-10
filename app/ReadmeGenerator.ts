@@ -1,8 +1,40 @@
-const fs = require('./File');
-const data = require('./Kotlin.js');
+import {write} from './File';
+import {links} from './Kotlin';
+import {getUID} from './Utils';
 
-const links = () => {
-  return data.map(category => {
+function addIdsToLinks(categrories: Category[]) {
+  return categrories.map(categrory => {
+    const id = getUID();
+    const subcategories = categrory.subcategories.map(subcategory => Object.assign({}, subcategory, {id: getUID()}));
+    return Object.assign({}, categrory, {id, subcategories});
+  });
+}
+
+const linksWithIds = addIdsToLinks(links);
+
+write('./README.md', `# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
+
+A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin)
+
+:newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
+
+:newspaper: [RSS Feed of articles, videos, slides, updates (full archive)](http://kotlin.link/rss-full.xml)
+
+## Table of Contents
+
+${tableOfContent()}
+
+${getLinks()}
+
+---
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+`);
+
+function getLinks() {
+  return linksWithIds.map(category => {
     const subcategories = category.subcategories.map(subcategory => {
       const links = subcategory.links.map(link => {
         const getDesc = desc => desc ? `- ${desc}` : '';
@@ -10,51 +42,31 @@ const links = () => {
         return `* [${link.href}](${link.name}) ${getDesc(link.desc)}`;
       }).join('\n');
 
-      return `###  <a name=""></a>${subcategory.name}\n${links}\n`
+      return `### ${getAnchor(subcategory.id)}${subcategory.name} [Back ⇈](#${subcategory.id}-subcategory)\n${links}\n`
     }).join('\n');
 
-    return `## ${category.name}\n${subcategories}\n`
+    return `## ${getAnchor(category.id)}${category.name} [Back ⇈](#${category.id}-category)\n${subcategories}\n`
   }).join('\n');
-};
+}
 
-const tableOfContent = () => {
-  function getCategoryUrl(name) {
-    return name.toLowerCase().replace(new RegExp(' ', 'g'), '-');
-  }
-
-  function getSubcategories(category) {
+function tableOfContent() {
+  function getSubcategories(category: Category) {
     return category
       .subcategories
       .map(subcategory => {
-        return `* [${subcategory.name}](#${getCategoryUrl(subcategory.name)})`;
+        return `* ${getAnchor(subcategory.id + "-subcategory")}[${subcategory.name}](#${subcategory.id})`;
       })
       .join('\n');
   }
 
-  return data
+  return linksWithIds
     .map(category => {
-      return `### [${category.name}](#${getCategoryUrl(category.name)})\n${getSubcategories(category)}`;
+      return `### ${getAnchor(category.id + "-category")}[${category.name}](#${category.id})\n${getSubcategories(category)}`;
     })
     .join('\n\n');
-};
+}
 
-const template = `# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
-A curated list of awesome Kotlin related stuff Inspired by awesome-java.
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) 
-
-[RSS Feed of articles, videos, slides, updates](http://kotlin.link/rss.xml)
-
-## Table of Contents
-
-${tableOfContent()}
-
-${links()}
-
----
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-`;
-
-fs.write('./README.md', template);
+function getAnchor(name: string): string {
+  return `<a name="${name}"></a>`
+}

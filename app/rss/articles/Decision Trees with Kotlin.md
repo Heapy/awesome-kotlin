@@ -5,7 +5,8 @@ categories:
     - Kotlin
 author: Mark Galea
 date: Aug 20, 2016 03:28
-script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+features:
+    - mathjax
 ---
 
 It has been quite a while since my last post; things have been pretty busy in preparation for the launch of our new product [VoodooDreams](https://www.voodoodreams.com). Now that we have shipped our baby, I am super eager to try out [Kotlin](https://www.kotlin.com) - a new programming language from JetBrains targeting the JVM.  One interesting aspect about Kotlin (similar to Scala and other JVM-based languages) is that it treats functions as first class citizens (_IMO Functional Interfaces just patch the gap_).  In order to try out this language we will create a Decision Tree Learning algorithm which is one of the most used and practical methods for learning inductive inference.  
