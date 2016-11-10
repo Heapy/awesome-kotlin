@@ -1,7 +1,7 @@
 language: node_js
 node_js: 6
 before_install:
-  - sudo npm install -g yarn
+  - npm install -g yarn
   - echo 'alias npm="yarn"' >> ~/.bash_aliases
   - source ~/.bashrc
 addons:
