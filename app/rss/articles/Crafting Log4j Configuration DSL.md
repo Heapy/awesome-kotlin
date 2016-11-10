@@ -6,7 +6,8 @@ categories:
     - DSL
 author: Eugene Petrenko
 date: Sep 9, 2016 02:45
-script: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+features:
+    - mathjax
 ---
 In this post I show how to implement The DSL Way to manage 
 Log4j configuration and extend an IDE without writing a plugin for it

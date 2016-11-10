@@ -1,4 +1,6 @@
-const data = [{
+import {articlesLinks} from './rss/DataGenerator';
+
+const data: Category[] = [{
     name: "Links",
     subcategories: [{
         name: "Official Links",
@@ -1131,6 +1133,4 @@ const data = [{
     }]
 }];
 
-require("./rss/DataGenerator").forEach(category => data.push(category));
-
-module.exports = data;
+export const links = [...data, ...articlesLinks];
