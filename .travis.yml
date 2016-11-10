@@ -1,5 +1,7 @@
 before_install:
   - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  - sudo npm install -g yarn
+  - yarn install
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
