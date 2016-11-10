@@ -1,7 +1,9 @@
+language: node_js
+node_js: 6
 before_install:
-  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
   - sudo npm install -g yarn
-  - yarn install
+  - echo 'alias npm="yarn"' >> ~/.bash_aliases
+  - source ~/.bashrc
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
