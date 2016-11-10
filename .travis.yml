@@ -1,5 +1,5 @@
-language: node_js
-node_js: 6
+before_install:
+  - curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
@@ -12,4 +12,5 @@ script:
   - bash ./deploy.sh
 cache:
   directories:
+  - $HOME/.yarn-cache
   - node_modules
