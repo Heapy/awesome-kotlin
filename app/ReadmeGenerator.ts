@@ -39,7 +39,7 @@ function getLinks() {
       const links = subcategory.links.map(link => {
         const getDesc = desc => desc ? `- ${desc}` : '';
 
-        return `* [${link.href}](${link.name}) ${getDesc(link.desc)}`;
+        return `* [${link.name}](${link.href}) ${getDesc(link.desc)}`;
       }).join('\n');
 
       return `### ${getAnchor(subcategory.id)}${subcategory.name} <sup>[Back ⇈](#${subcategory.id}-subcategory)</sup>\n${links}\n`
