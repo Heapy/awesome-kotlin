@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import styles from './search.less';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+const styles = require('./search.less');
 
-export default class Search extends React.Component {
+export class Search extends React.Component<{onChange: (a:any) => void}, {value: any}> {
   constructor(props) {
     super(props);
     this.state = {value: ''};
@@ -21,7 +21,7 @@ export default class Search extends React.Component {
   }
 
   componentDidMount() {
-    ReactDOM.findDOMNode(this.refs.search).focus();
+    (ReactDOM.findDOMNode(this.refs['search']) as HTMLInputElement).focus();
   }
 
   render() {

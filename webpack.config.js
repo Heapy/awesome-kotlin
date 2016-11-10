@@ -20,7 +20,7 @@ const config = {
             'babel-polyfill'
         ],
         app: [
-            path.resolve(__dirname, 'app', 'src', 'main.js')
+            path.resolve(__dirname, 'app', 'src', 'main.tsx')
         ]
     },
     output: {
@@ -28,14 +28,17 @@ const config = {
         filename: '[name].js?[hash]',
         publicPath: '/'
     },
+    resolve: {
+      extensions: ['', '.tsx', '.js']
+    },
     module: {
         loaders: [{
             test: /\.json$/,
             loader: 'json'
         }, {
-            test: /\.jsx?$/,
+            test: /\.tsx?$/,
             exclude: /node_modules/,
-            loader: 'babel'
+            loader: 'ts'
         }, {
             test: /\.less$/,
             loader: 'style!css?modules&localIdentName=[name]_[local]!postcss!less'
