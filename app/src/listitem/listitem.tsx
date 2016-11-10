@@ -2,11 +2,12 @@ import * as React from 'react';
 
 const styles = require('./listitem.less');
 
-
 export function Listitem({link}) {
   return (
     <li className={styles.listitem}>
+
       {getStars(link)}
+
       <a href={link.href}
          target="_blank"
          title={link.name}
@@ -14,8 +15,10 @@ export function Listitem({link}) {
          className={styles.listitem_link}>
         {link.name}
       </a>
+
       {getLastUpdated(link)}
       <p className={styles.listitem_description}>{link.desc}</p>
+
     </li>
   )
 }
@@ -24,11 +27,11 @@ function getStars(link) {
   if (link.star) {
     return (
       <span className={styles.listitem_star}>
-                    <span className={styles.listitem_star_count}>{link.star}</span>
-                    <img src={require("./star.svg")}
-                         alt="Star"
-                         className={styles.listitem_star_icon}/>
-                </span>
+        <span className={styles.listitem_star_count}>{link.star}</span>
+        <img src={require("./star.svg")}
+             alt="Star"
+             className={styles.listitem_star_icon}/>
+      </span>
     )
   }
 }
