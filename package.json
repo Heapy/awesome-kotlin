@@ -49,8 +49,9 @@
     "yarn": "^0.16.1"
   },
   "scripts": {
-    "start": "webpack-dev-server",
     "prestart": "yarn install",
+    "start": "webpack-dev-server",
+    "pretest": "yarn install",
     "test": "ts-node ./app/LinkChecker.ts",
     "stars": "ts-node ./app/Stars.ts",
     "sitemap": "ts-node ./app/Sitemap.ts",
