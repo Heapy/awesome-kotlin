@@ -9,96 +9,96 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 
 ## Table of Contents
 
-### [Links](#jgb6d0zr9)
-* <a name="375zxlxdx-toc"></a>[Official Links](#375zxlxdx)
-* <a name="u86boizdd-toc"></a>[Resources](#u86boizdd)
-* <a name="mnz8x48uk-toc"></a>[Books and Courses](#mnz8x48uk)
+### <a name="8ovueue2j-category"></a>[Links](#8ovueue2j)
+* <a name="5onfj1uml-subcategory"></a>[Official Links](#5onfj1uml)
+* <a name="63yskvazd-subcategory"></a>[Resources](#63yskvazd)
+* <a name="xldvdc9vm-subcategory"></a>[Books and Courses](#xldvdc9vm)
 
-### [Libraries/Frameworks](#rzydrsmp0)
-* <a name="zo7klzvtg-toc"></a>[Web](#zo7klzvtg)
-* <a name="iuigrkr6y-toc"></a>[Tests](#iuigrkr6y)
-* <a name="9udaum66d-toc"></a>[Dependency Injection](#9udaum66d)
-* <a name="i2c7z1g0t-toc"></a>[Functional Programming](#i2c7z1g0t)
-* <a name="ppcmpxd9q-toc"></a>[JSON](#ppcmpxd9q)
-* <a name="drf4nj50i-toc"></a>[Database](#drf4nj50i)
-* <a name="v3nlla1la-toc"></a>[Tools](#v3nlla1la)
-* <a name="bprpw57q3-toc"></a>[Desktop](#bprpw57q3)
-* <a name="ylbhtfgfw-toc"></a>[Http Clients](#ylbhtfgfw)
-* <a name="2btkfofq3-toc"></a>[Editors](#2btkfofq3)
-* <a name="9f70ybk37-toc"></a>[Syntax Highlighters](#9f70ybk37)
-* <a name="itzro6jjm-toc"></a>[JavaScript](#itzro6jjm)
-* <a name="e5kru2t7h-toc"></a>[Game Development](#e5kru2t7h)
-* <a name="oib49806b-toc"></a>[Misc](#oib49806b)
-* <a name="fxnorvu6o-toc"></a>[Extensions](#fxnorvu6o)
+### <a name="ivd7hzhe2-category"></a>[Libraries/Frameworks](#ivd7hzhe2)
+* <a name="3nf77e5ty-subcategory"></a>[Web](#3nf77e5ty)
+* <a name="f2m4efl8w-subcategory"></a>[Tests](#f2m4efl8w)
+* <a name="cv83j0rie-subcategory"></a>[Dependency Injection](#cv83j0rie)
+* <a name="mznpd96bz-subcategory"></a>[Functional Programming](#mznpd96bz)
+* <a name="epnp75zgz-subcategory"></a>[JSON](#epnp75zgz)
+* <a name="03zzzuoiz-subcategory"></a>[Database](#03zzzuoiz)
+* <a name="zlhhafqiz-subcategory"></a>[Tools](#zlhhafqiz)
+* <a name="axtnsodeb-subcategory"></a>[Desktop](#axtnsodeb)
+* <a name="38kx5nuz5-subcategory"></a>[Http Clients](#38kx5nuz5)
+* <a name="h0ga2woba-subcategory"></a>[Editors](#h0ga2woba)
+* <a name="1z6ivxelc-subcategory"></a>[Syntax Highlighters](#1z6ivxelc)
+* <a name="dij2wx6l4-subcategory"></a>[JavaScript](#dij2wx6l4)
+* <a name="b0emmrfvz-subcategory"></a>[Game Development](#b0emmrfvz)
+* <a name="3qunybyv9-subcategory"></a>[Misc](#3qunybyv9)
+* <a name="7kie7llz6-subcategory"></a>[Extensions](#7kie7llz6)
 
-### [Projects](#kb1my8km6)
-* <a name="4zb034l1x-toc"></a>[Web](#4zb034l1x)
-* <a name="j3jys1rvo-toc"></a>[Build tools](#j3jys1rvo)
-* <a name="ubv9j6b30-toc"></a>[Misc](#ubv9j6b30)
-* <a name="0vv2io4c6-toc"></a>[Desktop](#0vv2io4c6)
-* <a name="besqncwy0-toc"></a>[Examples](#besqncwy0)
-* <a name="ls907uxgi-toc"></a>[Idea Plugins](#ls907uxgi)
+### <a name="sqd6un0nm-category"></a>[Projects](#sqd6un0nm)
+* <a name="0nfeyfvv8-subcategory"></a>[Web](#0nfeyfvv8)
+* <a name="k2462impn-subcategory"></a>[Build tools](#k2462impn)
+* <a name="y8ina0l9h-subcategory"></a>[Misc](#y8ina0l9h)
+* <a name="nn7fdsy6l-subcategory"></a>[Desktop](#nn7fdsy6l)
+* <a name="azwf52w4r-subcategory"></a>[Examples](#azwf52w4r)
+* <a name="jq2ag6xqk-subcategory"></a>[Idea Plugins](#jq2ag6xqk)
 
-### [Android](#a1sin2xgj)
-* <a name="2q99b478j-toc"></a>[Libraries](#2q99b478j)
-* <a name="qngdmhpwl-toc"></a>[Frameworks](#qngdmhpwl)
-* <a name="xmtlxpfhv-toc"></a>[Projects](#xmtlxpfhv)
-* <a name="gt91dppt5-toc"></a>[Extensions](#gt91dppt5)
-* <a name="m8995iwss-toc"></a>[Tools](#m8995iwss)
+### <a name="kv2meg17e-category"></a>[Android](#kv2meg17e)
+* <a name="8ld4y3fv0-subcategory"></a>[Libraries](#8ld4y3fv0)
+* <a name="ligirky07-subcategory"></a>[Frameworks](#ligirky07)
+* <a name="9zubjv6o2-subcategory"></a>[Projects](#9zubjv6o2)
+* <a name="1wujuzyx7-subcategory"></a>[Extensions](#1wujuzyx7)
+* <a name="259ipe6ol-subcategory"></a>[Tools](#259ipe6ol)
 
-### [Kotlin User Groups](#7r5m1fuqe)
-* <a name="4vs0g1tc9-toc"></a>[Europe](#4vs0g1tc9)
-* <a name="35ph82nju-toc"></a>[America](#35ph82nju)
-* <a name="558cruz81-toc"></a>[Asia](#558cruz81)
+### <a name="yvgh59d5q-category"></a>[Kotlin User Groups](#yvgh59d5q)
+* <a name="ygfacs6dz-subcategory"></a>[Europe](#ygfacs6dz)
+* <a name="4z2zq59od-subcategory"></a>[America](#4z2zq59od)
+* <a name="ydbxea75f-subcategory"></a>[Asia](#ydbxea75f)
 
-### [Articles, Blog Posts](#clxis3olm)
-* <a name="rdcx7nb16-toc"></a>[October 2016](#rdcx7nb16)
-* <a name="qwa93k0fb-toc"></a>[September 2016](#qwa93k0fb)
-* <a name="xlga3n0ot-toc"></a>[August 2016](#xlga3n0ot)
-* <a name="tgp7q62xs-toc"></a>[July 2016](#tgp7q62xs)
-* <a name="mxcg6gn8w-toc"></a>[June 2016](#mxcg6gn8w)
-* <a name="vep4t5pfy-toc"></a>[May 2016](#vep4t5pfy)
-* <a name="i6a9u7fvz-toc"></a>[April 2016](#i6a9u7fvz)
-* <a name="ghzkhlrvt-toc"></a>[March 2016](#ghzkhlrvt)
-* <a name="fbnlofchz-toc"></a>[February 2016](#fbnlofchz)
-* <a name="q1g7qwm5h-toc"></a>[January 2016](#q1g7qwm5h)
-* <a name="zdwagdqjx-toc"></a>[December 2015](#zdwagdqjx)
-* <a name="qzltxit37-toc"></a>[November 2015](#qzltxit37)
-* <a name="rx4wmk9z4-toc"></a>[October 2015](#rx4wmk9z4)
-* <a name="h45tjy9v5-toc"></a>[September 2015](#h45tjy9v5)
-* <a name="huipfigdh-toc"></a>[August 2015](#huipfigdh)
-* <a name="fba6qob4u-toc"></a>[July 2015](#fba6qob4u)
-* <a name="kenscoex9-toc"></a>[June 2015](#kenscoex9)
-* <a name="jf3qzn8yk-toc"></a>[December 2014](#jf3qzn8yk)
-* <a name="l3huwn1se-toc"></a>[April 2013](#l3huwn1se)
-* <a name="7dl1n79j2-toc"></a>[February 2013](#7dl1n79j2)
-* <a name="nav90p0vx-toc"></a>[January 2013](#nav90p0vx)
+### <a name="bv9un0jjm-category"></a>[Articles, Blog Posts](#bv9un0jjm)
+* <a name="rpwbiakx7-subcategory"></a>[October 2016](#rpwbiakx7)
+* <a name="yzeuyxvq1-subcategory"></a>[September 2016](#yzeuyxvq1)
+* <a name="a18s0743n-subcategory"></a>[August 2016](#a18s0743n)
+* <a name="mkhbhm5j0-subcategory"></a>[July 2016](#mkhbhm5j0)
+* <a name="3gq964zem-subcategory"></a>[June 2016](#3gq964zem)
+* <a name="18k2zmogl-subcategory"></a>[May 2016](#18k2zmogl)
+* <a name="jq9bhyppm-subcategory"></a>[April 2016](#jq9bhyppm)
+* <a name="dfvobqw2y-subcategory"></a>[March 2016](#dfvobqw2y)
+* <a name="x0fsln7do-subcategory"></a>[February 2016](#x0fsln7do)
+* <a name="65s0g8j3z-subcategory"></a>[January 2016](#65s0g8j3z)
+* <a name="5djwprf2u-subcategory"></a>[December 2015](#5djwprf2u)
+* <a name="ok9sb2e77-subcategory"></a>[November 2015](#ok9sb2e77)
+* <a name="n9juy4qaz-subcategory"></a>[October 2015](#n9juy4qaz)
+* <a name="kmxqi0qm0-subcategory"></a>[September 2015](#kmxqi0qm0)
+* <a name="mincsa45g-subcategory"></a>[August 2015](#mincsa45g)
+* <a name="94kj6ov7t-subcategory"></a>[July 2015](#94kj6ov7t)
+* <a name="57ro5t5c2-subcategory"></a>[June 2015](#57ro5t5c2)
+* <a name="nn2bz66vb-subcategory"></a>[December 2014](#nn2bz66vb)
+* <a name="8qp75jd9t-subcategory"></a>[April 2013](#8qp75jd9t)
+* <a name="7h5v0hbu3-subcategory"></a>[February 2013](#7h5v0hbu3)
+* <a name="5nhgwbdig-subcategory"></a>[January 2013](#5nhgwbdig)
 
-### [Webinars](#i9pol6dvh)
-* <a name="ncdh1lic3-toc"></a>[November 2015](#ncdh1lic3)
-* <a name="bscrnpjbm-toc"></a>[September 2015](#bscrnpjbm)
+### <a name="kuvxii113-category"></a>[Webinars](#kuvxii113)
+* <a name="vvm47csxk-subcategory"></a>[November 2015](#vvm47csxk)
+* <a name="087aaquoe-subcategory"></a>[September 2015](#087aaquoe)
 
-### [Videos](#089qzihnc)
-* <a name="67uovkrek-toc"></a>[October 2016](#67uovkrek)
-* <a name="seixvrm4p-toc"></a>[September 2016](#seixvrm4p)
-* <a name="q6qblagii-toc"></a>[August 2016](#q6qblagii)
-* <a name="wto682xpj-toc"></a>[May 2016](#wto682xpj)
-* <a name="vl974b1hu-toc"></a>[April 2016](#vl974b1hu)
-* <a name="g535owjry-toc"></a>[March 2016](#g535owjry)
-* <a name="921qve2b2-toc"></a>[January 2016](#921qve2b2)
-* <a name="4ptzofeki-toc"></a>[October 2015](#4ptzofeki)
-* <a name="grtduia16-toc"></a>[August 2015](#grtduia16)
-* <a name="5n5a6jt3c-toc"></a>[December 2014](#5n5a6jt3c)
-* <a name="pl63pgh4e-toc"></a>[November 2014](#pl63pgh4e)
-* <a name="kbu1jqir5-toc"></a>[September 2014](#kbu1jqir5)
+### <a name="ebvt4ysev-category"></a>[Videos](#ebvt4ysev)
+* <a name="10pg16lrx-subcategory"></a>[October 2016](#10pg16lrx)
+* <a name="ifsgv5hsz-subcategory"></a>[September 2016](#ifsgv5hsz)
+* <a name="r0zti837u-subcategory"></a>[August 2016](#r0zti837u)
+* <a name="3fem7mcm1-subcategory"></a>[May 2016](#3fem7mcm1)
+* <a name="subf11erb-subcategory"></a>[April 2016](#subf11erb)
+* <a name="pfk3p56or-subcategory"></a>[March 2016](#pfk3p56or)
+* <a name="545m1boqa-subcategory"></a>[January 2016](#545m1boqa)
+* <a name="iglqojob3-subcategory"></a>[October 2015](#iglqojob3)
+* <a name="5aiwcavnn-subcategory"></a>[August 2015](#5aiwcavnn)
+* <a name="p6rx3iamc-subcategory"></a>[December 2014](#p6rx3iamc)
+* <a name="4exi85cg9-subcategory"></a>[November 2014](#4exi85cg9)
+* <a name="h1ioy241l-subcategory"></a>[September 2014](#h1ioy241l)
 
-### [Slides](#bqkel24i1)
-* <a name="mvwud0but-toc"></a>[September 2016](#mvwud0but)
-* <a name="nu03st0z8-toc"></a>[April 2016](#nu03st0z8)
-* <a name="noxzw8ydq-toc"></a>[May 2015](#noxzw8ydq)
+### <a name="yskqlss09-category"></a>[Slides](#yskqlss09)
+* <a name="vxj208cts-subcategory"></a>[September 2016](#vxj208cts)
+* <a name="dcltedtbn-subcategory"></a>[April 2016](#dcltedtbn)
+* <a name="mnx5vbeln-subcategory"></a>[May 2015](#mnx5vbeln)
 
-## Links
-### <a name="375zxlxdx"></a>[Official Links](#375zxlxdx-toc)
+## [Links](#8ovueue2j-category)
+### <a name="5onfj1uml"></a>[Official Links](#5onfj1uml-subcategory)
 * [https://github.com/jetbrains/kotlin](JetBrains/kotlin) 
 * [http://kotlinlang.org/](Home Page) 
 * [http://kotlinlang.org/docs/reference/](Language Reference) 
@@ -110,7 +110,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://twitter.com/kotlin](Twitter) 
 * [https://github.com/Kotlin/KEEP](Kotlin/KEEP) - Kotlin Evolution and Enhancement Process
 
-### <a name="u86boizdd"></a>[Resources](#u86boizdd-toc)
+### <a name="63yskvazd"></a>[Resources](#63yskvazd-subcategory)
 * [https://www.reddit.com/r/Kotlin/](/r/Kotlin) 
 * [http://stackoverflow.com/documentation/kotlin/topics](Stackoverflow Documentation on Kotlin) 
 * [https://www.quora.com/topic/Kotlin](Quora Kotlin) 
@@ -121,7 +121,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/fabiomsr/from-java-to-kotlin](From Java To Kotlin) 
 * [https://github.com/dbacinski/Design-Patterns-In-Kotlin](dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
 
-### <a name="mnz8x48uk"></a>[Books and Courses](#mnz8x48uk-toc)
+### <a name="xldvdc9vm"></a>[Books and Courses](#xldvdc9vm-subcategory)
 * [https://manning.com/books/kotlin-in-action](Kotlin in Action - Dmitry Jemerov, Svetlana Isakova) 
 * [https://leanpub.com/kotlin-for-android-developers](Kotlin for Android Developers - Antonio Leiva) 
 * [https://teamtreehouse.com/library/kotlin-for-java-developers](Kotlin for Java Developers) - 160-minute Android Course.
@@ -130,8 +130,8 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://shop.oreilly.com/product/0636920052999.do](Advanced Kotlin Programming) - From Nested Functions to Asynchronous Programming
 
 
-## Libraries/Frameworks
-### <a name="zo7klzvtg"></a>[Web](#zo7klzvtg-toc)
+## [Libraries/Frameworks](#ivd7hzhe2-category)
+### <a name="3nf77e5ty"></a>[Web](#3nf77e5ty-subcategory)
 * [https://github.com/Kotlin/ktor](Kotlin/ktor) - Web backend framework for Kotlin.
 * [https://github.com/TinyMission/kara](TinyMission/kara) - Web framework written in Kotlin.
 * [https://github.com/jean79/yested](jean79/yested) - A Kotlin framework for building web applications in Javascript.
@@ -143,7 +143,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/Kotlin/kotlinx.coroutines](Kotlin/kotlinx.coroutines) - Libraries built upon Kotlin coroutines.
 * [https://github.com/taskworld/kraph](taskworld/kraph) - GraphQL request string builder written in Kotlin
 
-### <a name="iuigrkr6y"></a>[Tests](#iuigrkr6y-toc)
+### <a name="f2m4efl8w"></a>[Tests](#f2m4efl8w-subcategory)
 * [https://github.com/jetbrains/spek](JetBrains/spek) - A specification framework for Kotlin.
 * [https://github.com/npryce/hamkrest](npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 * [https://github.com/nhaarman/mockito-kotlin](nhaarman/mockito-kotlin) - Using Mockito with Kotlin.
@@ -155,11 +155,11 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/EPadronU/balin](EPadronU/balin) - Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb.
 * [https://github.com/dmcg/amock](dmcg/amock) - A JMock wrapper for Kotlin.
 
-### <a name="9udaum66d"></a>[Dependency Injection](#9udaum66d-toc)
+### <a name="cv83j0rie"></a>[Dependency Injection](#cv83j0rie-subcategory)
 * [https://github.com/SalomonBrys/Kodein](SalomonBrys/Kodein) - Painless Kotlin Dependency Injection .
 * [https://github.com/kohesive/injekt](kohesive/injekt) - (Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin
 
-### <a name="i2c7z1g0t"></a>[Functional Programming](#i2c7z1g0t-toc)
+### <a name="mznpd96bz"></a>[Functional Programming](#mznpd96bz-subcategory)
 * [https://github.com/MarioAriasC/funKTionale](MarioAriasC/funKTionale) - Functional constructs for Kotlin.
 * [https://github.com/ReactiveX/RxKotlin](ReactiveX/RxKotlin) - RxJava bindings for Kotlin.
 * [https://github.com/kittinunf/Result](kittinunf/Result) - The modelling for success/failure of operations in Kotlin.
@@ -168,14 +168,14 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/beyondeye/Reduks](beyondeye/Reduks) -  A "batteries included" port of Reduxjs for Kotlin+Android 
 * [https://github.com/pakoito/Komprehensions](pakoito/Komprehensions) - Do comprehensions for Kotlin and 3rd party libraries.
 
-### <a name="ppcmpxd9q"></a>[JSON](#ppcmpxd9q-toc)
+### <a name="epnp75zgz"></a>[JSON](#epnp75zgz-subcategory)
 * [https://github.com/cbeust/klaxon](cbeust/klaxon) - Lightweight library to parse JSON in Kotlin.
 * [https://github.com/SalomonBrys/Kotson](SalomonBrys/Kotson) - Gson for Kotlin, Kotson enables you to parse and write JSON with Google's Gson using a conciser and easier syntax.
 * [https://github.com/FasterXML/jackson-module-kotlin](FasterXML/jackson-module-kotlin) - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
 * [https://github.com/fboldog/ext4klaxon](fboldog/ext4klaxon) - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 * [https://github.com/Jire/KTON](Jire/KTON) - Object notation in pure Kotlin!
 
-### <a name="drf4nj50i"></a>[Database](#drf4nj50i-toc)
+### <a name="03zzzuoiz"></a>[Database](#03zzzuoiz-subcategory)
 * [https://github.com/jetbrains/Exposed](JetBrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 * [https://github.com/cheptsov/kotlin-nosql](cheptsov/kotlin-nosql) - NoSQL database query and access library for Kotlin.
 * [https://github.com/jankotek/mapdb](jankotek/mapdb) - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
@@ -188,22 +188,22 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/consoleau/kotlin-jpa-specification-dsl](consoleau/kotlin-jpa-specification-dsl) - This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.
 * [https://github.com/s4kibs4mi/PultusORM](s4kibs4mi/PultusORM) - PultusORM is a sqlite ORM library for kotlin on top of sqlite jdbc driver.
 
-### <a name="v3nlla1la"></a>[Tools](#v3nlla1la-toc)
+### <a name="zlhhafqiz"></a>[Tools](#zlhhafqiz-subcategory)
 * [https://github.com/Kotlin/dokka](Kotlin/dokka) - Documentation Engine for Kotlin.
 * [https://github.com/Levelmoney/kbuilders](Levelmoney/kbuilders) - KBuilders turns your Java builders into beautiful Type-Safe Builders.
 * [https://github.com/holgerbrandl/kscript](holgerbrandl/kscript) - Scripting utils for Kotlin.
 * [https://github.com/shyiko/ktlint](shyiko/ktlint) - Kotlin linter.
 * [https://github.com/jtransc/jtransc](jtransc/jtransc) - JVM AOT compiler created in Kotlin.
 
-### <a name="bprpw57q3"></a>[Desktop](#bprpw57q3-toc)
+### <a name="axtnsodeb"></a>[Desktop](#axtnsodeb-subcategory)
 * [https://github.com/edvin/tornadofx](edvin/tornadofx) - Lightweight JavaFX Framework for Kotlin/
 * [https://github.com/griffon/griffon-kotlin-plugin](griffon/griffon-kotlin-plugin) - Griffon Support
 
-### <a name="ylbhtfgfw"></a>[Http Clients](#ylbhtfgfw-toc)
+### <a name="38kx5nuz5"></a>[Http Clients](#38kx5nuz5-subcategory)
 * [https://github.com/kittinunf/Fuel](kittinunf/Fuel) - The easiest HTTP networking library for Kotlin/Android.
 * [https://github.com/jkcclemens/khttp](jkcclemens/khttp) - Kotlin HTTP requests library.
 
-### <a name="2btkfofq3"></a>[Editors](#2btkfofq3-toc)
+### <a name="h0ga2woba"></a>[Editors](#h0ga2woba-subcategory)
 * [https://github.com/JetBrains/intellij-community](JetBrains/intellij-community) - IntelliJ IDEA Community Edition
 * [https://github.com/alexmt/atom-kotlin-language](alexmt/atom-kotlin-language) - Adds syntax highlighting to Kotlin files in Atom
 * [https://github.com/vkostyukov/kotlin-sublime-package](vkostyukov/kotlin-sublime-package) - A Sublime Package for Kotlin.
@@ -211,24 +211,24 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/sargunster/kotlin-textmate-bundle](sargunster/kotlin-textmate-bundle) - Kotlin bundle for TextMate.
 * [https://github.com/ice1000/NppExtension](ice1000/NppExtension) - Kotlin Language extension for Notepad++
 
-### <a name="9f70ybk37"></a>[Syntax Highlighters](#9f70ybk37-toc)
+### <a name="1z6ivxelc"></a>[Syntax Highlighters](#1z6ivxelc-subcategory)
 * [https://github.com/jneen/rouge](jneen/rouge) - A pure-ruby code highlighter that is compatible with pygments. (wip)
 * [https://github.com/isagalaev/highlight.js](isagalaev/highlight.js) - Javascript syntax highlighter. (out-of-date)
 * [https://github.com/github/linguist](github/linguist) - For Ruby/Github, uses Sublime package
 * [https://bitbucket.org/birkenfeld/pygments-main](birkenfeld/pygments-main) - Python syntax highlighter.
 
-### <a name="itzro6jjm"></a>[JavaScript](#itzro6jjm-toc)
+### <a name="dij2wx6l4"></a>[JavaScript](#dij2wx6l4-subcategory)
 * [https://github.com/danfma/kotlinjs-react](danfma/kotlinjs-react) - A react wrapper to the kotlin library.
 * [https://github.com/andrewoma/reakt](andrewoma/reakt) - Reakt is a Kotlin wrapper for facebook's React library.
 * [https://github.com/pixijs/pixi-native](pixijs/pixi-native) - The aim of this project is to provide a fast lightweight 2D library that works across all devices.
 * [https://github.com/bashor/ts2kt](bashor/ts2kt) - Converter of TypeScript definition files to Kotlin declarations (stubs)
 * [https://github.com/shafirov/klogging](shafirov/klogging) - Kotlin logging, both js and jvm.
 
-### <a name="e5kru2t7h"></a>[Game Development](#e5kru2t7h-toc)
+### <a name="b0emmrfvz"></a>[Game Development](#b0emmrfvz-subcategory)
 * [https://github.com/czyzby/ktx](czyzby/ktx) - Kotlin utilities for LibGDX applications.
 * [https://github.com/AlmasB/FXGL](AlmasB/FXGL) - JavaFX 8 Game Library written in Java + Kotlin
 
-### <a name="oib49806b"></a>[Misc](#oib49806b-toc)
+### <a name="3qunybyv9"></a>[Misc](#3qunybyv9-subcategory)
 * [https://github.com/Kotlin/kotlinx.reflect.lite](Kotlin/kotlinx.reflect.lite) - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
 * [https://github.com/puniverse/quasar/tree/master/quasar-kotlin](puniverse/quasar) - Fibers, Channels and Actors for the JVM.
 * [https://github.com/MehdiK/Humanizer.jvm](MehdiK/Humanizer.jvm) - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
@@ -250,32 +250,32 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/cesarferreira/kotlin-pluralizer](cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [https://github.com/JoelW-S/groothy](JoelW-S/groothy) - Kotlin implementation of Groovy Truth
 
-### <a name="fxnorvu6o"></a>[Extensions](#fxnorvu6o-toc)
+### <a name="7kie7llz6"></a>[Extensions](#7kie7llz6-subcategory)
 * [https://github.com/Kotlin/kotlinx.support](Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
 
 
-## Projects
-### <a name="4zb034l1x"></a>[Web](#4zb034l1x-toc)
+## [Projects](#sqd6un0nm-category)
+### <a name="0nfeyfvv8"></a>[Web](#0nfeyfvv8-subcategory)
 * [https://github.com/ssoudan/ktSpringTest](ssoudan/ktSpringTest) - Basic Spring Boot app in Kotlin.
 * [https://github.com/IRus/kotlin-dev-proxy](IRus/kotlin-dev-proxy) - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
 * [https://github.com/ratpack/example-ratpack-gradle-kotlin-app](ratpack/example-ratpack-gradle-kotlin-app) - An example of a Kotlin Ratpack app built with Gradle.
 * [https://github.com/mariomac/codebuilder](mariomac/codebuilder) - Demo app about asynchronous architectures for long-response-time web applications.
 * [https://github.com/rocketraman/kotlin-web-hello-world](rocketraman/kotlin-web-hello-world) - This project shows how to do a web-based "Hello World!" with Kotlin in combination with various JVM-based web frameworks.
 
-### <a name="j3jys1rvo"></a>[Build tools](#j3jys1rvo-toc)
+### <a name="k2462impn"></a>[Build tools](#k2462impn-subcategory)
 * [https://github.com/cbeust/kobalt](cbeust/kobalt) - Build system inspired by Gradle.
 * [https://github.com/gradle/gradle-script-kotlin](gradle/gradle-script-kotlin) - Kotlin language support for Gradle build scripts.
 * [https://github.com/nebula-plugins/nebula-kotlin-plugin](nebula-plugins/nebula-kotlin-plugin) - Provides the Kotlin plugin via the Gradle plugin portal, automatically depends on the standard library, and allows Kotlin library versions to be omitted.
 * [https://github.com/pubref/rules_kotlin](pubref/rules_kotlin) - Bazel rules for Kotlin.
 
-### <a name="ubv9j6b30"></a>[Misc](#ubv9j6b30-toc)
+### <a name="y8ina0l9h"></a>[Misc](#y8ina0l9h-subcategory)
 * [https://github.com/brikk/brikk](brikk/brikk) - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
 * [https://github.com/arturbosch/detekt](arturbosch/detekt) - Static code analysis for Kotlin
 
-### <a name="0vv2io4c6"></a>[Desktop](#0vv2io4c6-toc)
+### <a name="nn7fdsy6l"></a>[Desktop](#nn7fdsy6l-subcategory)
 * [https://github.com/ice1000/Dekoder](ice1000/Dekoder) -  A kotlin music player, materially designed.
 
-### <a name="besqncwy0"></a>[Examples](#besqncwy0-toc)
+### <a name="azwf52w4r"></a>[Examples](#azwf52w4r-subcategory)
 * [https://github.com/Kotlin/kotlin-koans](Kotlin/kotlin-koans) - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
 * [https://github.com/JetBrains/kotlin-examples](JetBrains/kotlin-examples) - Various examples for Kotlin
 * [https://github.com/jetbrains/swot](JetBrains/swot) - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
@@ -286,13 +286,13 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/dkandalov/kotlin-99](dkandalov/kotlin-99) - Solve 99 problems with Kotlin!
 * [https://github.com/sanity/pairAdjacentViolators](sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
 
-### <a name="ls907uxgi"></a>[Idea Plugins](#ls907uxgi-toc)
+### <a name="jq2ag6xqk"></a>[Idea Plugins](#jq2ag6xqk-subcategory)
 * [https://github.com/Vektah/CodeGlance](Vektah/CodeGlance) - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
 * [https://github.com/intellij-rust/intellij-rust](intellij-rust/intellij-rust) - Rust IDE built using the IntelliJ Platform.
 
 
-## Android
-### <a name="2q99b478j"></a>[Libraries](#2q99b478j-toc)
+## [Android](#kv2meg17e-category)
+### <a name="8ld4y3fv0"></a>[Libraries](#8ld4y3fv0-subcategory)
 * [https://github.com/Kotlin/anko](Kotlin/anko) - Pleasant Android application development.
 * [https://github.com/JakeWharton/kotterknife](JakeWharton/kotterknife) - View injection library for Android
 * [https://github.com/nsk-mironov/kotlin-jetpack](nsk-mironov/kotlin-jetpack) - A collection of useful extension methods for Android.
@@ -310,10 +310,10 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/denisidoro/krouter](denisidoro/krouter) - A lightweight Android activity router
 * [https://github.com/metalabdesign/AsyncAwait](metalabdesign/AsyncAwait) - async/await for Android built upon coroutines introduced in Kotlin 1.1
 
-### <a name="qngdmhpwl"></a>[Frameworks](#qngdmhpwl-toc)
+### <a name="ligirky07"></a>[Frameworks](#ligirky07-subcategory)
 * [https://github.com/nekocode/kotgo](nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
 
-### <a name="xmtlxpfhv"></a>[Projects](#xmtlxpfhv-toc)
+### <a name="9zubjv6o2"></a>[Projects](#9zubjv6o2-subcategory)
 * [https://github.com/antoniolg/Bandhook-Kotlin](antoniolg/Bandhook-Kotlin) - A showcase music app for Android entirely written using Kotlin language.
 * [https://github.com/antoniolg/Kotlin-for-Android-Developers](antoniolg/Kotlin-for-Android-Developers) - Companion App for the book "Kotlin Android Developers"
 * [https://github.com/damianpetla/kotlin-dagger-example](damianpetla/kotlin-dagger-example) - Example of Android project showing integration with Kotlin and Dagger 2.
@@ -325,15 +325,15 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [https://github.com/SidneyXu/AndroidDemoIn4Languages](SidneyXu/AndroidDemoIn4Languages) - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
 * [https://github.com/inorichi/tachiyomi](inorichi/tachiyomi) -  Free and open source manga reader for Android.
 
-### <a name="gt91dppt5"></a>[Extensions](#gt91dppt5-toc)
+### <a name="1wujuzyx7"></a>[Extensions](#1wujuzyx7-subcategory)
 * [https://github.com/ajalt/timberkt](ajalt/timberkt) - Easy Android logging with Kotlin and Timber
 
-### <a name="m8995iwss"></a>[Tools](#m8995iwss-toc)
+### <a name="259ipe6ol"></a>[Tools](#259ipe6ol-subcategory)
 * [https://github.com/kiruto/debug-bottle](kiruto/debug-bottle) - Debug Bottle is an Android runtime debug / develop tools written using kotlin language.
 
 
-## Kotlin User Groups
-### <a name="4vs0g1tc9"></a>[Europe](#4vs0g1tc9-toc)
+## [Kotlin User Groups](#yvgh59d5q-category)
+### <a name="ygfacs6dz"></a>[Europe](#ygfacs6dz-subcategory)
 * [http://www.meetup.com/Kotlin-Manchester/](Kotlin Developers in Manchester) - United Kingdom
 * [https://bkug.by/](Belarus Kotlin User Group) - Belarus
 * [http://www.meetup.com/de-DE/Kotlin-User-Group-Munich/](Kotlin User Group Munich) - Deutschland
@@ -342,19 +342,19 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://www.meetup.com/Kotlin-Yorkshire-Meetup-Group/](Kotlin Yorkshire Meetup Group) - United Kingdom
 * [http://www.meetup.com/kotlin-london/](Kotlin London) - United Kingdom
 
-### <a name="35ph82nju"></a>[America](#35ph82nju-toc)
+### <a name="4z2zq59od"></a>[America](#4z2zq59od-subcategory)
 * [http://www.meetup.com/Bay-Area-Kotlin-User-Group/](Bay Area Kotlin User Group) - USA
 * [http://www.meetup.com/Chicago-Kotlin-Users-Group/](Chicago Kotlin Users Group) - USA
 * [http://www.meetup.com/Kotlin-Group-Boulder/](Kotlin Group of Boulder) - USA
 * [http://www.meetup.com/New-York-Kotlin-Meetup/](New York Kotlin Meetup) - USA
 
-### <a name="558cruz81"></a>[Asia](#558cruz81-toc)
+### <a name="ydbxea75f"></a>[Asia](#ydbxea75f-subcategory)
 * [https://kotlin.doorkeeper.jp/](Japan Kotlin User Group) - Japan
 * [http://kotlin.kr/](Korean Kotlin User Group) - Korea
 
 
-## Articles, Blog Posts
-### <a name="rdcx7nb16"></a>[October 2016](#rdcx7nb16-toc)
+## [Articles, Blog Posts](#bv9un0jjm-category)
+### <a name="rpwbiakx7"></a>[October 2016](#rpwbiakx7-subcategory)
 * [http://kotlin.link/articles/Easy-DSL-design-with-Kotlin.html](Easy DSL design with Kotlin) - Nicolas Fränkel
 * [http://kotlin.link/articles/Zero-boilerplate-delegation-in-Kotlin.html](Zero boilerplate delegation in Kotlin) - Piotr Ślesarew
 * [http://kotlin.link/articles/A-Whirlwind-Tour-of-the-Kotlin-Type-Hierarchy.html](A Whirlwind Tour of the Kotlin Type Hierarchy) - Nat Pryce
@@ -373,7 +373,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Extension-Functions-Can-Be-Utility-Functions.html](Extension Functions Can Be Utility Functions) - Duncan McGregor
 * [http://kotlin.link/articles/Mocking-Kotlin-with-Mockito.html](Mocking Kotlin with Mockito) - Hadi Hariri
 
-### <a name="qwa93k0fb"></a>[September 2016](#qwa93k0fb-toc)
+### <a name="yzeuyxvq1"></a>[September 2016](#yzeuyxvq1-subcategory)
 * [http://kotlin.link/articles/Kotlin-in-Production-What-works-Whats-broken.html](Kotlin in Production - What works, Whats broken) - DripStat
 * [http://kotlin.link/articles/Why-Kotlin-is-the-next-big-thing-for-Java-developers.html](Why Kotlin is the next big thing for Java developers) - Nitin Y
 * [http://kotlin.link/articles/An-in-depth-look-at-Kotlin’s-initializers.html](An in-depth look at Kotlin’s initializers) - AJ Alt
@@ -387,7 +387,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Building-DSL-Instead-of-an-IDE-Plugin.html](Building DSL Instead of an IDE Plugin) - Eugene Petrenko
 * [http://kotlin.link/articles/Kotlin-census-call-to-action.html](Kotlin census: call to action) - Roman Belov
 
-### <a name="xlga3n0ot"></a>[August 2016](#xlga3n0ot-toc)
+### <a name="a18s0743n"></a>[August 2016](#a18s0743n-subcategory)
 * [http://kotlin.link/articles/Natural-testing-with-Kotlin.html](Natural testing with Kotlin) - Vardan Torosyan
 * [http://kotlin.link/articles/Writing-Kotlin-Idiomatic-Code.html](Writing Kotlin Idiomatic Code) - Denis Trailin
 * [http://kotlin.link/articles/Ten-Kotlin-Features-To-Boost-Android-Development.html](Ten Kotlin Features To Boost Android Development ) - Ivan Kušt
@@ -406,7 +406,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/More-readable-tests-with-Kotlin.html](More readable tests with Kotlin) - Flavio
 * [http://kotlin.link/articles/Calling-on-EAPers.html](Calling on EAPers) - Roman Belov
 
-### <a name="tgp7q62xs"></a>[July 2016](#tgp7q62xs-toc)
+### <a name="mkhbhm5j0"></a>[July 2016](#mkhbhm5j0-subcategory)
 * [http://kotlin.link/articles/KotlinLifeguard-1.html](KotlinLifeguard #1) - Daniel Gomez Rico
 * [http://kotlin.link/articles/UI-Testing-separating-Assertions-from-Actions-with-Kotlin-DSL.html](UI Testing: separating Assertions from Actions with Kotlin DSL) - Artem Zinnatullin
 * [http://kotlin.link/articles/JUnit-5-with-Spring-Boot-plus-Kotlin.html](JUnit 5 with Spring Boot (plus Kotlin)) - Mike Plummer
@@ -417,7 +417,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Never-say-final-mocking-Kotlin-classes-in-unit-tests.html](Never say final: mocking Kotlin classes in unit tests) - Danny Preussler
 * [http://kotlin.link/articles/Data-Driven-Testing-with-Spek.html](Data Driven Testing with Spek ) - Konstantin Semenov
 
-### <a name="mxcg6gn8w"></a>[June 2016](#mxcg6gn8w-toc)
+### <a name="3gq964zem"></a>[June 2016](#3gq964zem-subcategory)
 * [http://kotlin.link/articles/Kotlin-1-0-3-Is-Here.html](Kotlin 1.0.3 Is Here!) - Roman Belov
 * [http://kotlin.link/articles/How-to-get-IDEA-to-detect-kotlin-generated-sources-using-Gradle.html](How to get IDEA to detect kotlin generated sources using Gradle) - Nish Tahir
 * [http://kotlin.link/articles/Ad-hoc-polymorphism-in-Kotlin.html](Ad-hoc polymorphism in Kotlin) - Cédric Beust
@@ -433,7 +433,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/What’s-in-store-for-Kotlin-this-year.html](What’s in store for Kotlin this year) - Gabriela Motroc
 * [http://kotlin.link/articles/Where-We-Stand-What-s-Next-for-Kotlin.html](Where We Stand & What's Next for Kotlin) - Andrey Breslav
 
-### <a name="vep4t5pfy"></a>[May 2016](#vep4t5pfy-toc)
+### <a name="18k2zmogl"></a>[May 2016](#18k2zmogl-subcategory)
 * [http://kotlin.link/articles/Neural-Networks-in-Kotlin-part-2.html](Neural Networks in Kotlin (part 2)) - Cédric Beust
 * [http://kotlin.link/articles/Neural-Network-in-Kotlin.html](Neural Network in Kotlin) - Cédric Beust
 * [http://kotlin.link/articles/Kotlin-dragging-java-into-the-modern-world.html](Kotlin, dragging java into the modern world) - Tim Gray
@@ -445,7 +445,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Testing-in-Kotlin.html](Testing in Kotlin) - Stephen Samuel
 * [http://kotlin.link/articles/JMock-and-Kotlin.html](JMock and Kotlin) - Duncan McGregor
 
-### <a name="i6a9u7fvz"></a>[April 2016](#i6a9u7fvz-toc)
+### <a name="jq9bhyppm"></a>[April 2016](#jq9bhyppm-subcategory)
 * [http://kotlin.link/articles/Exercises-in-Kotlin-Part-5-Classes.html](Exercises in Kotlin: Part 5 - Classes) - Dhananjay Nene
 * [http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html](Exercises in Kotlin: Part 4 - Control flows and return) - Dhananjay Nene
 * [http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html](Writing Concise Code With Kotlin) - Peter Sommerhoff
@@ -469,7 +469,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Exploring-Delegation-in-Kotlin.html](Exploring Delegation in Kotlin) - @codemonkeyism
 * [http://kotlin.link/articles/Experimental-Kotlin-and-mutation-testing.html](Experimental: Kotlin and mutation testing) - Nicolas Frankel
 
-### <a name="ghzkhlrvt"></a>[March 2016](#ghzkhlrvt-toc)
+### <a name="dfvobqw2y"></a>[March 2016](#dfvobqw2y-subcategory)
 * [http://kotlin.link/articles/10-Features-I-Wish-Java-Would-Steal-From-the-Kotlin-Language.html](10 Features I Wish Java Would Steal From the Kotlin Language) - Lukas Eder
 * [http://kotlin.link/articles/Ubuntu-Make-16-03-Released-With-Eclipse-JEE-And-IntelliJ-IDEA-EAP-Support-More.html](Ubuntu Make 16.03 Released With Eclipse JEE And IntelliJ IDEA EAP Support, More) - Alin Andrei
 * [http://kotlin.link/articles/Kotlin’s-Android-Roadmap.html](Kotlin’s Android Roadmap) - Dmitry Jemerov
@@ -504,7 +504,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-5.html](Kotlin & Android: A Brass Tacks Experiment, Part 5) - Doug Stevenson
 * [http://kotlin.link/articles/Developing-on-Android-sucks-a-lot-less-with-Kotlin.html](Developing on Android sucks a lot less with Kotlin) - Kuno Qing
 
-### <a name="fbnlofchz"></a>[February 2016](#fbnlofchz-toc)
+### <a name="x0fsln7do"></a>[February 2016](#x0fsln7do-subcategory)
 * [http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-part-3-Data-Classes.html](The Journey of a Spring Boot application from Java 8 to Kotlin, part 3: Data Classes) - Mike Gehard
 * [http://kotlin.link/articles/Как-себе-выстрелить-в-ногу-в-Kotlin.html](Как себе выстрелить в ногу в Kotlin) - @ov7a
 * [http://kotlin.link/articles/Kotlin-and-Ceylon.html](Kotlin and Ceylon) - Elvira
@@ -540,7 +540,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-1.html](Kotlin & Android: A Brass Tacks Experiment, Part 1.) - Doug Stevenson
 * [http://kotlin.link/articles/Scala-vs-Kotlin.html](Scala vs Kotlin) - Lionel
 
-### <a name="q1g7qwm5h"></a>[January 2016](#q1g7qwm5h-toc)
+### <a name="65s0g8j3z"></a>[January 2016](#65s0g8j3z-subcategory)
 * [http://kotlin.link/articles/KillerTask-the-solution-to-AsyncTask-implementation.html](KillerTask, the solution to AsyncTask implementation) - Fernando Ramirez
 * [http://kotlin.link/articles/My-Kotlin-Adventure.html](My Kotlin Adventure) - Ciro Rizzo
 * [http://kotlin.link/articles/Mimicking-Kotlin-Builders-in-Java-and-Python.html](Mimicking Kotlin Builders in Java and Python) - Jacob Zimmerman
@@ -549,109 +549,109 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java.
 * [http://kotlin.link/articles/Playing-with-Spring-Boot-Vaadin-and-Kotlin.html](Playing with Spring Boot, Vaadin and Kotlin) - Nicolas Frankel
 * [http://kotlin.link/articles/Kotlin-XML-Binding.html](Kotlin XML Binding) - Eugene Petrenko
 
-### <a name="zdwagdqjx"></a>[December 2015](#zdwagdqjx-toc)
+### <a name="5djwprf2u"></a>[December 2015](#5djwprf2u-subcategory)
 * [http://kotlin.link/articles/Early-Impressions-of-Kotlin.html](Early Impressions of Kotlin) - Nat Pryce
 * [http://kotlin.link/articles/Kotlin-for-Java-Developers-10-Features-You-Will-Love-About-Kotlin.html](Kotlin for Java Developers: 10 Features You Will Love About Kotlin) - Peter Sommerhoff
 
-### <a name="qzltxit37"></a>[November 2015](#qzltxit37-toc)
+### <a name="ok9sb2e77"></a>[November 2015](#ok9sb2e77-subcategory)
 * [http://kotlin.link/articles/Setting-up-Kotlin-with-Android-and-tests.html](Setting up Kotlin with Android and tests) - Laura Kogler
 
-### <a name="rx4wmk9z4"></a>[October 2015](#rx4wmk9z4-toc)
+### <a name="n9juy4qaz"></a>[October 2015](#n9juy4qaz-subcategory)
 * [http://kotlin.link/articles/Exploring-the-Kotlin-standard-library.html](Exploring the Kotlin standard library) - Cédric Beust
 
-### <a name="h45tjy9v5"></a>[September 2015](#h45tjy9v5-toc)
+### <a name="kmxqi0qm0"></a>[September 2015](#kmxqi0qm0-subcategory)
 * [http://kotlin.link/articles/Kotlin-❤-FP.html](Kotlin ❤ FP) - Mike Hearn
 
-### <a name="huipfigdh"></a>[August 2015](#huipfigdh-toc)
+### <a name="mincsa45g"></a>[August 2015](#mincsa45g-subcategory)
 * [http://kotlin.link/articles/Production-Ready-Kotlin.html](Production Ready Kotlin) - Jayson Minard
 * [http://kotlin.link/articles/Building-APIs-on-the-JVM-Using-Kotlin-and-Spark-–-Part-1.html](Building APIs on the JVM Using Kotlin and Spark – Part 1) - Travis Spencer
 
-### <a name="fba6qob4u"></a>[July 2015](#fba6qob4u-toc)
+### <a name="94kj6ov7t"></a>[July 2015](#94kj6ov7t-subcategory)
 * [http://kotlin.link/articles/RU-Без-слайдов-интервью-с-Дмитрием-Жемеровым-из-JetBrains.html]((RU) Без слайдов: интервью с Дмитрием Жемеровым из JetBrains) - Алексей Фёдоров
 * [http://kotlin.link/articles/Android-Kotlin-3.html](Android + Kotlin = <3) - Michael Sattler
 * [http://kotlin.link/articles/Why-Kotlin-is-my-next-programming-language.html](Why Kotlin is my next programming language) - Mike Hearn
 
-### <a name="kenscoex9"></a>[June 2015](#kenscoex9-toc)
+### <a name="57ro5t5c2"></a>[June 2015](#57ro5t5c2-subcategory)
 * [http://kotlin.link/articles/Exploring-Kotlin.html](Exploring Kotlin) - Peter Ledbrook
 * [http://kotlin.link/articles/RxAndroid-and-Kotlin-Part-1.html](RxAndroid and Kotlin (Part 1)) - Ahmed Rizwan
 * [http://kotlin.link/articles/Quasar-and-Kotlin-a-Powerful-Match.html](Quasar and Kotlin - a Powerful Match) - Fabio
 
-### <a name="jf3qzn8yk"></a>[December 2014](#jf3qzn8yk-toc)
+### <a name="nn2bz66vb"></a>[December 2014](#nn2bz66vb-subcategory)
 * [http://kotlin.link/articles/Non-trivial-constructors-in-Kotlin.html](Non-trivial constructors in Kotlin) - Alex Shabanov
 
-### <a name="l3huwn1se"></a>[April 2013](#l3huwn1se-toc)
+### <a name="8qp75jd9t"></a>[April 2013](#8qp75jd9t-subcategory)
 * [http://kotlin.link/articles/The-Advent-of-Kotlin-A-Conversation-with-JetBrains-Andrey-Breslav.html](The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav) - Janice J. Heiss
 
-### <a name="7dl1n79j2"></a>[February 2013](#7dl1n79j2-toc)
+### <a name="7h5v0hbu3"></a>[February 2013](#7h5v0hbu3-subcategory)
 * [http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-3.html](Exploring the Kotlin Standard Library - Part 3) - Jamie McCrindle
 
-### <a name="nav90p0vx"></a>[January 2013](#nav90p0vx-toc)
+### <a name="5nhgwbdig"></a>[January 2013](#5nhgwbdig-subcategory)
 * [http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-2.html](Exploring the Kotlin Standard Library - Part 2) - Jamie McCrindle
 * [http://kotlin.link/articles/The-Adventurous-Developer’s-Guide-to-JVM-languages-–-Kotlin.html](The Adventurous Developer’s Guide to JVM languages – Kotlin) - Simon Maple
 * [http://kotlin.link/articles/Exploring-the-Kotlin-Standard-Library-Part-1.html](Exploring the Kotlin Standard Library - Part 1) - Jamie McCrindle
 
 
-## Webinars
-### <a name="ncdh1lic3"></a>[November 2015](#ncdh1lic3-toc)
+## [Webinars](#kuvxii113-category)
+### <a name="vvm47csxk"></a>[November 2015](#vvm47csxk-subcategory)
 * [http://kotlin.link/articles/Functional-Programming-with-Kotlin.html](Functional Programming with Kotlin) - Roman Belov
 
-### <a name="bscrnpjbm"></a>[September 2015](#bscrnpjbm-toc)
+### <a name="087aaquoe"></a>[September 2015](#087aaquoe-subcategory)
 * [http://kotlin.link/articles/Quasar-Efficient-and-Elegant-Fibers-Channels-and-Actors.html](Quasar: Efficient and Elegant Fibers, Channels and Actors) - Roman Belov
 
 
-## Videos
-### <a name="67uovkrek"></a>[October 2016](#67uovkrek-toc)
+## [Videos](#ebvt4ysev-category)
+### <a name="10pg16lrx"></a>[October 2016](#10pg16lrx-subcategory)
 * [http://kotlin.link/articles/Spring-Boot-and-Kotlin-a-match-made-in-Heaven.html](Spring Boot and Kotlin, a match made in Heaven) - Nicolas Frankel
 * [http://kotlin.link/articles/Spring-Tips-the-Kotlin-Programming-Language.html](Spring Tips: the Kotlin Programming Language) - Josh Long
 * [http://kotlin.link/articles/Christina-Lee-Kotlin-in-Production.html](Christina Lee: Kotlin in Production) - Android Dialogs
 * [http://kotlin.link/articles/Better-Android-Development-with-Kotlin-and-Gradle.html](Better Android Development with Kotlin and Gradle) - Ty Smith
 
-### <a name="seixvrm4p"></a>[September 2016](#seixvrm4p-toc)
+### <a name="ifsgv5hsz"></a>[September 2016](#ifsgv5hsz-subcategory)
 * [http://kotlin.link/articles/Developing-a-Geospatial-Webservice-with-Kotlin-and-Spring-Boot.html](Developing a Geospatial Webservice with Kotlin and Spring Boot) - Sébastien Deleuze
 * [http://kotlin.link/articles/Kotlin-Ready-for-Production.html](Kotlin - Ready for Production) - Hadi Hariri
 
-### <a name="q6qblagii"></a>[August 2016](#q6qblagii-toc)
+### <a name="r0zti837u"></a>[August 2016](#r0zti837u-subcategory)
 * [http://kotlin.link/articles/Writing-Gradle-Build-Scripts-in-Kotlin.html](Writing Gradle Build Scripts in Kotlin) - Chris Beams & Rodrigo B. de Oliveiranp
 * [http://kotlin.link/articles/Andrey-Breslav-Kotlin-Coroutines-JVMLS-2016.html](Andrey Breslav: Kotlin Coroutines, JVMLS 2016) - Andrey Breslav
 
-### <a name="wto682xpj"></a>[May 2016](#wto682xpj-toc)
+### <a name="3fem7mcm1"></a>[May 2016](#3fem7mcm1-subcategory)
 * [http://kotlin.link/articles/You-can-do-Better-with-Kotlin.html](You can do Better with Kotlin) - Svetlana Isakova
 
-### <a name="vl974b1hu"></a>[April 2016](#vl974b1hu-toc)
+### <a name="subf11erb"></a>[April 2016](#subf11erb-subcategory)
 * [http://kotlin.link/articles/Type-safe-JavaFX-CSS-with-TornadoFX.html](Type safe JavaFX CSS with TornadoFX) - Edvin Syse
 
-### <a name="g535owjry"></a>[March 2016](#g535owjry-toc)
+### <a name="pfk3p56or"></a>[March 2016](#pfk3p56or-subcategory)
 * [http://kotlin.link/articles/RU-Дмитрий-Полищук-Kotlin-Android-практический-ликбез.html]((RU) Дмитрий Полищук - Kotlin + Android: практический ликбез) - Дмитрий Полищук
 
-### <a name="921qve2b2"></a>[January 2016](#921qve2b2-toc)
+### <a name="545m1boqa"></a>[January 2016](#545m1boqa-subcategory)
 * [http://kotlin.link/articles/Fun-with-Kotlin.html](Fun with Kotlin) - Eder Bastos
 
-### <a name="4ptzofeki"></a>[October 2015](#4ptzofeki-toc)
+### <a name="iglqojob3"></a>[October 2015](#iglqojob3-subcategory)
 * [http://kotlin.link/articles/Kotlin-NoSQL-for-MongoDB-in-Action.html](Kotlin NoSQL for MongoDB in Action) - Andrey Cheptsov
 
-### <a name="grtduia16"></a>[August 2015](#grtduia16-toc)
+### <a name="5aiwcavnn"></a>[August 2015](#5aiwcavnn-subcategory)
 * [http://kotlin.link/articles/JVMLS-2015-Flexible-Types-in-Kotlin.html](JVMLS 2015 - Flexible Types in Kotlin) - Andrey Breslav
 
-### <a name="5n5a6jt3c"></a>[December 2014](#5n5a6jt3c-toc)
+### <a name="p6rx3iamc"></a>[December 2014](#p6rx3iamc-subcategory)
 * [http://kotlin.link/articles/Kotlin-for-Java-developers.html](Kotlin for Java developers) - Hadi Hariri
 
-### <a name="pl63pgh4e"></a>[November 2014](#pl63pgh4e-toc)
+### <a name="4exi85cg9"></a>[November 2014](#4exi85cg9-subcategory)
 * [http://kotlin.link/articles/GeeCON-Prague-2014-Andrey-Cheptsov-A-Reactive-and-Type-safe-Kotlin-DSL-for-NoSQL-and-SQL.html](GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL) - Andrey Cheptsov
 
-### <a name="kbu1jqir5"></a>[September 2014](#kbu1jqir5-toc)
+### <a name="h1ioy241l"></a>[September 2014](#h1ioy241l-subcategory)
 * [http://kotlin.link/articles/Kotlin-vs-Java-puzzlers.html](Kotlin vs Java puzzlers) - Svetlana Isakova
 
 
-## Slides
-### <a name="mvwud0but"></a>[September 2016](#mvwud0but-toc)
+## [Slides](#yskqlss09-category)
+### <a name="vxj208cts"></a>[September 2016](#vxj208cts-subcategory)
 * [http://kotlin.link/articles/Functional-Programming-in-Kotlin-with-funKTionale.html](Functional Programming in Kotlin with funKTionale) - Mario Arias
 * [http://kotlin.link/articles/Generating-Kotlin-Code-for-Better-Refactorings-Tests-and-IDE-Support.html](Generating Kotlin Code for Better Refactorings, Tests, and IDE Support) - Eugene Petrenko
 
-### <a name="nu03st0z8"></a>[April 2016](#nu03st0z8-toc)
+### <a name="dcltedtbn"></a>[April 2016](#dcltedtbn-subcategory)
 * [http://kotlin.link/articles/Kotlin-Android.html](Kotlin + Android) - Dmytro Danylyk
 * [http://kotlin.link/articles/Kotlin-DSL-Anko.html](Kotlin DSL: Anko) - @maciekjanusz
 
-### <a name="noxzw8ydq"></a>[May 2015](#noxzw8ydq-toc)
+### <a name="mnx5vbeln"></a>[May 2015](#mnx5vbeln-subcategory)
 * [http://kotlin.link/articles/Kotlin-New-Hope-in-a-Java-6-Wasteland.html](Kotlin: New Hope in a Java 6 Wasteland) - Michael Pardo
 
 
