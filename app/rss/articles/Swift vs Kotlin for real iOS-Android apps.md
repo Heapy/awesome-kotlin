@@ -34,7 +34,7 @@ As commented, both languages are very similar. In fact, they are so similar that
 
 *   **Kotlin has no `guard` statement**: In Swift, `guard` statements are a more expressive way for checking conditions of some function than the standard `if` sentence. In Kotlin, you need to stay with the `if` check and reverse the condition.
 
-There are also other differences when comparing both languages. Things like exceptions, pattern matching, constructors, `if let` sentences, loop iteration, casting,… work in slightly different ways, but in general they follow the same principles and they have very similar syntaxes.
+There are also other differences when comparing both languages. Things like exceptions, pattern matching, constructors, `if let` sentences, loop iteration, casting,... work in slightly different ways, but in general they follow the same principles and they have very similar syntaxes.
 
 One last difference to mention when working for iOS/Android is that the Operative System offers different **runtime environments and libraries to developers**. A couple of points to highlight:
 
@@ -670,7 +670,7 @@ class RestaurantsListActivity : AppCompatActivity() {
 
 String similarity: **52.27%**
 
-OK, so here is the big deal. So far, code was very similar and can be easily shared (with small editions) from one to the other platform. However, as we warned above, the UI code will be very different. How much? You can compare it by yourself…
+OK, so here is the big deal. So far, code was very similar and can be easily shared (with small editions) from one to the other platform. However, as we warned above, the UI code will be very different. How much? You can compare it by yourself...
 
 Basically, they **both share a common approach** in which they have a constructor receiving the dependencies (for a very simple Dependency Injection); a view creation method (`viewDidLoad` / `onCreate`) that basically subscribes to the ViewModel observables and configures the list; a view appear method (`viewWillAppear` / `onResume`) that will load new results; and a set of methods and types to deal with the information from the list, which by the way could have been moved partially to the ViewModel probably.
 

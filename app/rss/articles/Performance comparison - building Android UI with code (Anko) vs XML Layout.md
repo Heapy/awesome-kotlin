@@ -64,7 +64,7 @@ Well, i tested both cases on these devices:
 
 All values are in milliseconds, that needed for _onCreateViewHolder_ method to execute inside the RecyclerView adapter.
 
-> Please note that frames on Android are drawing every 16 milliseconds, and if any frame will not be able to draw in that period, it will draw after 32/48/64… ms, and this is called dropped frames. So every time your frame takes >16ms to draw, it is dropped. Also note that your UI thread will have more work than just drawing frames, it need to handle all user input, and execute all of your code too. It means that less milliseconds to draw is better for us.
+> Please note that frames on Android are drawing every 16 milliseconds, and if any frame will not be able to draw in that period, it will draw after 32/48/64... ms, and this is called dropped frames. So every time your frame takes >16ms to draw, it is dropped. Also note that your UI thread will have more work than just drawing frames, it need to handle all user input, and execute all of your code too. It means that less milliseconds to draw is better for us.
 
 And here is what i got:
 
