@@ -11,3 +11,5 @@ Kotlin is a new and popular language for Android development. Its major advantag
 
 
 <iframe width="960" height="480" src="https://www.youtube.com/embed/YKzUbeUtTak" frameborder="0" allowfullscreen></iframe>
+
+[Slides](https://speakerdeck.com/jakewharton/10-kotlin-tricks-in-10ish-minutes-square-nyc-november-2016)

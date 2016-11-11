@@ -3,7 +3,7 @@ import {articlesLinks} from './rss/DataGenerator';
 const data: Category[] = [{
   name: 'Links',
   subcategories: [{
-    name: 'Official Links ',
+    name: 'Official Links',
     links: [{
       name: 'JetBrains/kotlin',
       href: 'https://github.com/jetbrains/kotlin',
@@ -78,7 +78,7 @@ const data: Category[] = [{
       tags: ['Behavioral Patterns', 'Creational Patterns', 'Structural Patterns']
     }]
   }, {
-    name: 'Books and Courses ',
+    name: 'Books and Courses',
     links: [{
       name: 'Kotlin in Action - Dmitry Jemerov, Svetlana Isakova',
       href: 'https://manning.com/books/kotlin-in-action'
@@ -104,7 +104,7 @@ const data: Category[] = [{
     }]
   }]
 }, {
-  name: 'Libraries/Frameworks ',
+  name: 'Libraries/Frameworks',
   subcategories: [{
     name: 'Web',
     links: [{
@@ -241,7 +241,7 @@ const data: Category[] = [{
       tags: ['mock', 'test']
     }]
   }, {
-    name: 'Dependency Injection ',
+    name: 'Dependency Injection',
     links: [{
       name: 'SalomonBrys/Kodein',
       desc: 'Painless Kotlin Dependency Injection .',
@@ -256,7 +256,7 @@ const data: Category[] = [{
       tags: ['di', 'dependency injection']
     }]
   }, {
-    name: 'Functional Programming ',
+    name: 'Functional Programming',
     links: [{
       name: 'MarioAriasC/funKTionale',
       desc: 'Functional constructs for Kotlin.',
@@ -696,6 +696,12 @@ const data: Category[] = [{
       href: 'https://github.com/JoelW-S/groothy',
       type: 'github',
       tags: ['groovy truth']
+    }, {
+      name: 'elect86/kotlin-unsigned',
+      desc: 'boxed unsigned support, Ubyte, Uint, Ulong and Ushort',
+      href: 'https://github.com/elect86/kotlin-unsigned',
+      type: 'github',
+      tags: ['unsigned']
     }]
   }, {
     name: 'Extensions',
@@ -705,6 +711,33 @@ const data: Category[] = [{
       href: 'https://github.com/Kotlin/kotlinx.support',
       type: 'github',
       tags: ['jdk8', 'jdk7']
+    }]
+  }, {
+    name: 'Bindings',
+    links: [{
+      name: 'elect86/glm',
+      desc: 'Porting of cpp g-truck glm, opengl math lib',
+      href: 'https://github.com/elect86/glm',
+      type: 'github',
+      tags: ['glm']
+    }, {
+      name: 'elect86/ovr',
+      desc: 'Oculus binding',
+      href: 'https://github.com/elect86/ovr',
+      type: 'github',
+      tags: ['vr', 'oculus']
+    }, {
+      name: 'elect86/openvr',
+      desc: 'Openvr binding',
+      href: 'https://github.com/elect86/openvr',
+      type: 'github',
+      tags: ['vr', 'openvr']
+    }, {
+      name: 'elect86/kt',
+      desc: 'gli, port of cpp g-truck gli, texture util',
+      href: 'https://github.com/elect86/kt',
+      type: 'github',
+      tags: ['gli']
     }]
   }]
 }, {
@@ -748,7 +781,7 @@ const data: Category[] = [{
       tags: ['chat bot', 'vert.x', 'facebook']
     }]
   }, {
-    name: 'Build tools ',
+    name: 'Build tools',
     links: [{
       name: 'cbeust/kobalt',
       desc: 'Build system inspired by Gradle.',
@@ -1060,7 +1093,7 @@ const data: Category[] = [{
     }]
   }]
 }, {
-  name: 'Kotlin User Groups ',
+  name: 'Kotlin User Groups',
   subcategories: [{
     name: 'Europe',
     links: [{
