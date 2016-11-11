@@ -5,6 +5,8 @@ const fs = require('fs');
 const markdown = require('./markdown');
 const articlesDir = fs.readdirSync('./app/rss/articles');
 
+articlesDir.forEach(article => validateArticle(article));
+
 const parseDate = date => moment(date, 'MMM DD, YYYY hh:mm');
 
 const sortByDate = (a, b) => {
@@ -69,3 +71,12 @@ export const articles: Article[] = articlesDir
     return article.attributes;
   })
   .sort(sortByDate);
+
+function validateArticle(name: string) {
+  const invalid = ['\\', '/', ':', '*', '?', '"', '<', '>', '|'];
+  const includes = invalid.find(symbol => name.includes(symbol));
+
+  if (includes) {
+    throw new Error(`File '${name}' includes restricted symbol '${includes}'.`);
+  }
+}
