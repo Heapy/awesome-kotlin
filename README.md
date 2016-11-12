@@ -201,6 +201,7 @@ Here awesome badge for your project:
 * [requery/requery](https://github.com/requery/requery) - Modern SQL based query & persistence for Java/Kotlin/Android.
 * [consoleau/kotlin-jpa-specification-dsl](https://github.com/consoleau/kotlin-jpa-specification-dsl) - This library provides a fluent DSL for querying spring data JPA repositories using spring data Specifications.
 * [s4kibs4mi/PultusORM](https://github.com/s4kibs4mi/PultusORM) - PultusORM is a sqlite ORM library for kotlin on top of sqlite jdbc driver.
+* [sepatel/tekniq](https://github.com/sepatel/tekniq) - tekniq-jdbc creates extensions to the DataSource and Connection interfaces allowing easy interfacing with jdbc via kotlin idioms.
 
 ### <a name="yps8t4o2e"></a>Tools <sup>[Back ⇈](#yps8t4o2e-subcategory)</sup>
 * [Kotlin/dokka](https://github.com/Kotlin/dokka) - Documentation Engine for Kotlin.
@@ -208,6 +209,7 @@ Here awesome badge for your project:
 * [holgerbrandl/kscript](https://github.com/holgerbrandl/kscript) - Scripting utils for Kotlin.
 * [shyiko/ktlint](https://github.com/shyiko/ktlint) - Kotlin linter.
 * [jtransc/jtransc](https://github.com/jtransc/jtransc) - JVM AOT compiler created in Kotlin.
+* [sepatel/tekniq](https://github.com/sepatel/tekniq) - tekniq-core supports without any added dependencies features like dynamic cache loading, configurations, and more.
 
 ### <a name="feixyrl6w"></a>Desktop <sup>[Back ⇈](#feixyrl6w-subcategory)</sup>
 * [edvin/tornadofx](https://github.com/edvin/tornadofx) - Lightweight JavaFX Framework for Kotlin/
@@ -216,6 +218,7 @@ Here awesome badge for your project:
 ### <a name="akmw652mi"></a>Http Clients <sup>[Back ⇈](#akmw652mi-subcategory)</sup>
 * [kittinunf/Fuel](https://github.com/kittinunf/Fuel) - The easiest HTTP networking library for Kotlin/Android.
 * [jkcclemens/khttp](https://github.com/jkcclemens/khttp) - Kotlin HTTP requests library.
+* [sepatel/tekniq](https://github.com/sepatel/tekniq) - tekniq-rest provides a simple kotlin idiomatic way of handling HTTP requests.
 
 ### <a name="v38stzyna"></a>Editors <sup>[Back ⇈](#v38stzyna-subcategory)</sup>
 * [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) - IntelliJ IDEA Community Edition
