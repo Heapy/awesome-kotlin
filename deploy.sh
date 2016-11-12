@@ -14,6 +14,7 @@ mkdir -p ./dist/articles;
 # run our compile script
 npm run ci
 cp robots.txt ./dist/
+cp awesome-kotlin.svg ./dist/
 
 # sync with remote folder
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/ deploy@kotlin.link:~/files/kotlin.link
