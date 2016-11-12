@@ -22,6 +22,14 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java. :octoca
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (full archive)](http://kotlin.link/rss-full.xml)
 
+## Spread Awesome Kotlin!
+
+Here awesome badge for your project:
+
+\`\`\`markdown
+[![Awesome Kotlin Badge](https://github.com/KotlinBy/awesome-kotlin/raw/master/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+\`\`\`
+
 ## Table of Contents
 
 ${tableOfContent()}

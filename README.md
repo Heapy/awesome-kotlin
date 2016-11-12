@@ -2,11 +2,19 @@
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://github.com/KotlinBy/awesome-kotlin/raw/master/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (full archive)](http://kotlin.link/rss-full.xml)
+
+## Spread Awesome Kotlin!
+
+Here awesome badge for your project:
+
+```markdown
+[![Awesome Kotlin Badge](https://github.com/KotlinBy/awesome-kotlin/raw/master/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+```
 
 ## Table of Contents
 
