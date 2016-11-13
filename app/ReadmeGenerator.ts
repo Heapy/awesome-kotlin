@@ -2,21 +2,11 @@ import {write} from './File';
 import {links} from './Kotlin';
 import {getUID} from './Utils';
 
-function addIdsToLinks(categrories: Category[]) {
-  return categrories.map(categrory => {
-    const id = getUID();
-    const subcategories = categrory.subcategories.map(subcategory => Object.assign({}, subcategory, {id: getUID()}));
-    return Object.assign({}, categrory, {id, subcategories});
-  });
-}
-
-const linksWithIds = addIdsToLinks(links);
-
 write('./README.md', `# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin)
+[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Travis CI Build Status Badge](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
@@ -27,7 +17,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java. :octoca
 Here awesome badge for your project:
 
 \`\`\`markdown
-[![Awesome Kotlin Badge](https://github.com/KotlinBy/awesome-kotlin/raw/master/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 \`\`\`
 
 ## Table of Contents
@@ -42,7 +32,7 @@ ${getLinks()}
 `);
 
 function getLinks() {
-  return linksWithIds.map(category => {
+  return links.map(category => {
     const subcategories = category.subcategories.map(subcategory => {
       const links = subcategory.links.map(link => {
         const getDesc = desc => desc ? `- ${desc}` : '';
@@ -50,10 +40,10 @@ function getLinks() {
         return `* [${link.name}](${link.href}) ${getDesc(link.desc)}`;
       }).join('\n');
 
-      return `### ${getAnchor(subcategory.id)}${subcategory.name} <sup>[Back ⇈](#${subcategory.id}-subcategory)</sup>\n${links}\n`
+      return `${getSubcategoryName(subcategory.name, category.name)}\n${links}\n`;
     }).join('\n');
 
-    return `## ${getAnchor(category.id)}${category.name} <sup>[Back ⇈](#${category.id}-category)</sup>\n${subcategories}\n`
+    return `${getCategoryName(category.name)}\n${subcategories}\n`;
   }).join('\n');
 }
 
@@ -61,20 +51,42 @@ function tableOfContent() {
   function getSubcategories(category: Category) {
     return category
       .subcategories
-      .map(subcategory => {
-        return `* ${getAnchor(subcategory.id + "-subcategory")}[${subcategory.name}](#${subcategory.id})`;
-      })
+      .map(subcategory => getTocSubcategoryName(subcategory.name, category.name))
       .join('\n');
   }
 
-  return linksWithIds
-    .map(category => {
-      return `### ${getAnchor(category.id + "-category")}[${category.name}](#${category.id})\n${getSubcategories(category)}`;
-    })
+  return links
+    .map(category => getTocCategoryName(category.name) + '\n' + getSubcategories(category))
     .join('\n\n');
 }
 
-
 function getAnchor(name: string): string {
-  return `<a name="${name}"></a>`
+  return `<a name="${normalizeName(name)}"></a>`
+}
+
+function getCategoryName(name: string) {
+  return `## ${getAnchor(name)}${name} <sup>${link('Back ⇈', name + '-category')}</sup>`;
+}
+
+function getSubcategoryName(name: string, namespace: string) {
+  return `### ${getAnchor(namespace + '-' + name)}${name} <sup>${link('Back ⇈', name + '-subcategory')}</sup>`;
+}
+
+function getTocCategoryName(name: string) {
+  return `### ${getAnchor(name + "-category")}${link(name, name)}`;
+}
+
+function getTocSubcategoryName(name: string, namespace: string) {
+  return `* ${getAnchor(name + "-subcategory")}${link(name, namespace + '-' + name)}`;
+}
+
+function normalizeName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(new RegExp('[ ,\\/]', 'g'), '-') // Replace special symbols with dash
+    .replace(new RegExp('-+', 'g'), '-'); // Replace multiple dashes with one dash
+}
+
+function link(name: string, url: string) {
+  return `[${name}](#${normalizeName(url)})`;
 }

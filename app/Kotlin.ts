@@ -166,7 +166,7 @@ const data: Category[] = [{
       tags: ['graphql', 'builder']
     }, {
       name: 'sepatel/tekniq',
-      desc: 'Full-feature HTTP Framework: DSL around spark-java, HTTP Client, JDBC DSL, Cache and Configuration',
+      desc: 'Full-feature HTTP DSL Framework, HTTP Client, JDBC DSL, Loading Cache and Configuration',
       href: 'https://github.com/sepatel/tekniq',
       type: 'github',
       tags: ['web', 'jdbc', 'http client', 'spark java', 'cache']
@@ -1011,6 +1011,12 @@ const data: Category[] = [{
       href: 'https://github.com/nekocode/kotgo',
       type: 'github',
       tags: ['android']
+    }, {
+      name: 'lightningkite/kotlin-core',
+      desc: 'A full framework for making Android apps. Based on Anko and Kotson.',
+      href: 'https://github.com/lightningkite/kotlin-core',
+      type: 'github',
+      tags: ['kotson', 'anko', 'android']
     }]
   }, {
     name: 'Projects',
