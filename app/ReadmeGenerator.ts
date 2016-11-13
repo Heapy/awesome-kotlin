@@ -69,7 +69,7 @@ function getCategoryName(name: string) {
 }
 
 function getSubcategoryName(name: string, namespace: string) {
-  return `### ${getAnchor(namespace + '-' + name)}${name} <sup>${link('Back ⇈', name + '-subcategory')}</sup>`;
+  return `### ${getAnchor(namespace + '-' + name)}${name} <sup>${link('Back ⇈', namespace + '-' + name + '-subcategory')}</sup>`;
 }
 
 function getTocCategoryName(name: string) {
@@ -77,7 +77,7 @@ function getTocCategoryName(name: string) {
 }
 
 function getTocSubcategoryName(name: string, namespace: string) {
-  return `* ${getAnchor(name + "-subcategory")}${link(name, namespace + '-' + name)}`;
+  return `* ${getAnchor(namespace + '-' + name + "-subcategory")}${link(name, namespace + '-' + name)}`;
 }
 
 function normalizeName(name: string): string {
