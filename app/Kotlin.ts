@@ -400,6 +400,12 @@ const data: Category[] = [{
       href: 'https://github.com/s4kibs4mi/PultusORM',
       type: 'github',
       tags: ['database', 'query', 'sqlite']
+    }, {
+      name: 'Ganet/rxaerospike',
+      desc: 'RxJava2 wrapper for aerospike-client-java.',
+      href: 'https://github.com/Ganet/rxaerospike',
+      type: 'github',
+      tags: ['database', 'arospike', 'rx', 'rxjava2']
     }]
   }, {
     name: 'Tools',
