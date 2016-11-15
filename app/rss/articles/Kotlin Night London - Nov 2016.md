@@ -1,6 +1,6 @@
 ---
 title: 'Kotlin Night London'
-url: https://www.youtube.com/embed/videoseries?list=PLoo7Ank5cc7FaemZS4sZC0oFnSbdJ-PiH
+url: https://www.youtube.com/watch?list=PLoo7Ank5cc7FaemZS4sZC0oFnSbdJ-PiH&v=TMZD1GxAC8E
 categories:
     - Kotlin
 type: video
