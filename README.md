@@ -628,6 +628,7 @@ Here awesome badge for your project:
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
 ### <a name="videos-november-2016"></a>November 2016 <sup>[Back ⇈](#videos-november-2016-subcategory)</sup>
+* [Kotlin Night London](http://kotlin.link/articles/Kotlin-Night-London.html) - JetBrains
 * [10 Kotlin Tricks in 10(ish) Minutes](http://kotlin.link/articles/10-Kotlin-Tricks-in-10-ish-Minutes.html) - Jake Wharton
 
 ### <a name="videos-october-2016"></a>October 2016 <sup>[Back ⇈](#videos-october-2016-subcategory)</sup>

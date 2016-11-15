@@ -1,0 +1,12 @@
+---
+title: 'Kotlin Night London'
+url: https://www.youtube.com/embed/videoseries?list=PLoo7Ank5cc7FaemZS4sZC0oFnSbdJ-PiH
+categories:
+    - Kotlin
+type: video
+author: JetBrains
+date: Nov 15, 2016 12:26
+---
+[Announce](https://blog.jetbrains.com/kotlin/2016/09/kotlin-night-in-london/)
+
+<iframe width="960" height="480" src="https://www.youtube.com/embed/videoseries?list=PLoo7Ank5cc7FaemZS4sZC0oFnSbdJ-PiH" frameborder="0" allowfullscreen></iframe>
