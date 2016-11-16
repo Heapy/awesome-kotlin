@@ -20,8 +20,13 @@ date: Nov 10, 2016 01:05
 
 ### Let’s see the things in more detail ( **Kotlin vs Java** ) **:**
 
-* **Interoperable with Java:** When it comes to give a try to a new language, interoperability is a great thing which can help you. Interoperable means you can reuse any Java class ever written, all Java code can work with Kotlin and vice versa. Learning Kotlin for a Java developer shouldn’t be too hard. Everything you can do with Java, you can do in Kotlin. If you do not know how to do it in Kotlin, then just do it in Java and let the Kotlin plugin convert it to Kotlin. Make sure that you see what happened to your code, so that the next time you can do it yourself.
-* **Null Safety:** Kotlin’s type system is aimed at eliminating the danger of null references from code, also known as [**The Billion Dollar Mistake**](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions).
+### **Interoperable with Java:** 
+
+When it comes to give a try to a new language, interoperability is a great thing which can help you. Interoperable means you can reuse any Java class ever written, all Java code can work with Kotlin and vice versa. Learning Kotlin for a Java developer shouldn’t be too hard. Everything you can do with Java, you can do in Kotlin. If you do not know how to do it in Kotlin, then just do it in Java and let the Kotlin plugin convert it to Kotlin. Make sure that you see what happened to your code, so that the next time you can do it yourself.
+
+### **Null Safety:**
+
+Kotlin’s type system is aimed at eliminating the danger of null references from code, also known as [**The Billion Dollar Mistake**](https://en.wikipedia.org/wiki/Tony_Hoare#Apologies_and_retractions).
 
 One of the most common pitfalls in many programming languages, including Java is that of accessing a member of a null references, resulting in null reference exceptions. In Java this would be the equivalent of a NullPointerException or NPE for short.
 
@@ -71,7 +76,7 @@ b?.length
 
 This returns the length of b if b is not null, and null otherwise.
 
-* **Smart Casting:**
+### **Smart Casting:**
 
 ```kotlin
 // Java  
@@ -95,7 +100,9 @@ if (document is Payable && document.pay()) { // Smart casting
 
 Kotlin uses lazy evaluation just like in Java. So if the document were not a Payable, the second part would not be evaluated in the first place. Hence, if evaluated, Kotlin knows that document is a Payable and uses a smart cast.
 
-* **Default Arguments:** Default arguments are a feature you are missing in Java because it’s just so convenient, makes your code more concise, more expressive, more maintainable and more readable.
+### **Default Arguments:** 
+
+Default arguments are a feature you are missing in Java because it’s just so convenient, makes your code more concise, more expressive, more maintainable and more readable.
 
 ```kotlin
 class Developer(val name: String,  
@@ -111,7 +118,9 @@ val anand = Developer("Anand Gaurav", 20, 11)
 val ravi = Developer("Ravi Kumar", 26)
 ```
 
-* **Named Arguments:** When it comes to readability, Named arguments make Kotlin awesome.
+### **Named Arguments:** 
+
+When it comes to readability, Named arguments make Kotlin awesome.
 
 ```kotlin
 val amit = Developer("Amit Shekhar", age = 22, someValue = 10, profile = "Android Developer")
@@ -133,7 +142,9 @@ myString.transform(
 )
 ```
 
-* **Functional Programming:** While Java evolved to incorporate several functional programming concepts since Java 8, Kotlin has functional programming baked right in. This includes higher-order functions, lambda expressions, operator overloading, lazy evaluation and lots of useful methods to work with collections.  
+### **Functional Programming:** 
+
+While Java evolved to incorporate several functional programming concepts since Java 8, Kotlin has functional programming baked right in. This includes higher-order functions, lambda expressions, operator overloading, lazy evaluation and lots of useful methods to work with collections.  
     The combination of lambda expressions and the Kotlin library really makes your coding easier.
 
 ```kotlin
@@ -149,7 +160,9 @@ listOf(1, 2, 3, 4) // list of 1, 2, 3, 4
     .forEach { print(it) } // prints 30, 40
 ```
 
-* **Concise Code:** When you use Kotlin instead of Java, there is a huge reduction of code in your project.
+### **Concise Code:** 
+
+When you use Kotlin instead of Java, there is a huge reduction of code in your project.
 
 See it in the example:
 

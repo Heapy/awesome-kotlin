@@ -437,6 +437,12 @@ const data: Category[] = [{
       href: 'https://github.com/jtransc/jtransc',
       type: 'github',
       tags: ['aot', 'compiller']
+    }, {
+      name: 'arturbosch/detekt',
+      desc: 'Static code analysis for Kotlin',
+      href: 'https://github.com/arturbosch/detekt',
+      type: 'github',
+      tags: ['check style', 'checkstyle']
     }]
   }, {
     name: 'Desktop',
@@ -820,12 +826,6 @@ const data: Category[] = [{
       href: 'https://github.com/brikk/brikk',
       type: 'github',
       tags: ['dependency managment']
-    }, {
-      name: 'arturbosch/detekt',
-      desc: 'Static code analysis for Kotlin',
-      href: 'https://github.com/arturbosch/detekt',
-      type: 'github',
-      tags: ['check style', 'checkstyle']
     }]
   }, {
     name: 'Desktop',
