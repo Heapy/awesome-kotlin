@@ -39,7 +39,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-game-development-subcategory"></a>[Game Development](#libraries-frameworks-game-development)
 * <a name="libraries-frameworks-misc-subcategory"></a>[Misc](#libraries-frameworks-misc)
 * <a name="libraries-frameworks-extensions-subcategory"></a>[Extensions](#libraries-frameworks-extensions)
-* <a name="libraries-frameworks-bindings-subcategory"></a>[Bindings](#libraries-frameworks-bindings)
+* <a name="libraries-frameworks-graphics-subcategory"></a>[Graphics](#libraries-frameworks-graphics)
 
 ### <a name="projects-category"></a>[Projects](#projects)
 * <a name="projects-web-subcategory"></a>[Web](#projects-web)
@@ -270,11 +270,12 @@ Here awesome badge for your project:
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
 
-### <a name="libraries-frameworks-bindings"></a>Bindings <sup>[Back ⇈](#libraries-frameworks-bindings-subcategory)</sup>
+### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [elect86/glm](https://github.com/elect86/glm) - Porting of cpp g-truck glm, opengl math lib
 * [elect86/ovr](https://github.com/elect86/ovr) - Oculus binding
 * [elect86/openvr](https://github.com/elect86/openvr) - Openvr binding
 * [elect86/kt](https://github.com/elect86/kt) - gli, port of cpp g-truck gli, texture util
+* [java-graphics/assimp](https://github.com/java-graphics/assimp) - Java Open Asset Import Library
 
 
 ## <a name="projects"></a>Projects <sup>[Back ⇈](#projects-category)</sup>

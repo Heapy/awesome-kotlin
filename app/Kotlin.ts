@@ -725,7 +725,7 @@ const data: Category[] = [{
       tags: ['jdk8', 'jdk7']
     }]
   }, {
-    name: 'Bindings',
+    name: 'Graphics',
     links: [{
       name: 'elect86/glm',
       desc: 'Porting of cpp g-truck glm, opengl math lib',
@@ -750,6 +750,12 @@ const data: Category[] = [{
       href: 'https://github.com/elect86/kt',
       type: 'github',
       tags: ['gli']
+    }, {
+      name: 'java-graphics/assimp',
+      desc: 'Java Open Asset Import Library',
+      href: 'https://github.com/java-graphics/assimp',
+      type: 'github',
+      tags: ['assimp', 'stl', 'md2']
     }]
   }]
 }, {
