@@ -105,6 +105,7 @@ Here awesome badge for your project:
 * <a name="videos-september-2014-subcategory"></a>[September 2014](#videos-september-2014)
 
 ### <a name="slides-category"></a>[Slides](#slides)
+* <a name="slides-november-2016-subcategory"></a>[November 2016](#slides-november-2016)
 * <a name="slides-september-2016-subcategory"></a>[September 2016](#slides-september-2016)
 * <a name="slides-april-2016-subcategory"></a>[April 2016](#slides-april-2016)
 * <a name="slides-may-2015-subcategory"></a>[May 2015](#slides-may-2015)
@@ -482,8 +483,8 @@ Here awesome badge for your project:
 * [Exercises in Kotlin: Part 4 - Control flows and return](http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html) - Dhananjay Nene
 * [Writing Concise Code With Kotlin](http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html) - Peter Sommerhoff
 * [JDK7/8 features in Kotlin 1.0](http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html) - Ilya Gorbunov
-* [Kotlin + Android First Impressions](http://kotlin.link/articles/Kotlin-Android-First-Impressions.html) - Keyhole Software
 * [Exercises in Kotlin: Part 3 - Functions](http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html) - Dhananjay Nene
+* [Kotlin + Android First Impressions](http://kotlin.link/articles/Kotlin-Android-First-Impressions.html) - Keyhole Software
 * [Exercises in Kotlin: Part 2 - High level syntax and Variables](http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html) - Dhananjay Nene
 * [Exercises in Kotlin: Part 1 - Getting Started](http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html) - Dhananjay Nene
 * [Code improvements with Kotlin](http://kotlin.link/articles/Code-improvements-with-Kotlin.html) - Nicolas Frankel
@@ -679,6 +680,9 @@ Here awesome badge for your project:
 
 
 ## <a name="slides"></a>Slides <sup>[Back ⇈](#slides-category)</sup>
+### <a name="slides-november-2016"></a>November 2016 <sup>[Back ⇈](#slides-november-2016-subcategory)</sup>
+* [Kotlin Lang](http://kotlin.link/articles/Kotlin-Lang.html) - Jemo Mgebrishvili
+
 ### <a name="slides-september-2016"></a>September 2016 <sup>[Back ⇈](#slides-september-2016-subcategory)</sup>
 * [Functional Programming in Kotlin with funKTionale](http://kotlin.link/articles/Functional-Programming-in-Kotlin-with-funKTionale.html) - Mario Arias
 * [Generating Kotlin Code for Better Refactorings, Tests, and IDE Support](http://kotlin.link/articles/Generating-Kotlin-Code-for-Better-Refactorings-Tests-and-IDE-Support.html) - Eugene Petrenko

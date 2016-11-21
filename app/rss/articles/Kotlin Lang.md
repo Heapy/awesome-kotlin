@@ -1,5 +1,5 @@
 ---
-title: 'Kotlin lang'
+title: 'Kotlin Lang'
 url: https://speakerdeck.com/developer/kotlin-lang
 categories:
     - Kotlin
