@@ -567,6 +567,7 @@ Here awesome badge for your project:
 * [Kotlin & Android: A Brass Tacks Experiment, Part 4](http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html) - Doug Stevenson
 * [(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.](http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html) - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
 * [Kotlin 1.0 Release Candidate is Out!](http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html) - Andrey Breslav
+* [Kotlin + RxJava = Functional Powerhouse](http://kotlin.link/articles/Kotlin-RxJava-Functional-Powerhouse.html) - Thomas Nield
 * [Kotlin Coding](http://kotlin.link/articles/Kotlin-Coding.html) - Ciro Rizzo
 * [10 Kotlin Tutorials for Beginners: Dive Into Kotlin Programming](http://kotlin.link/articles/10-Kotlin-Tutorials-for-Beginners-Dive-Into-Kotlin-Programming.html) - Peter Sommerhoff
 * [Kotlin & Android: A Brass Tacks Experiment, Part 2.](http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-2.html) - Doug Stevenson
