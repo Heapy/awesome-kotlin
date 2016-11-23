@@ -1020,6 +1020,12 @@ const data: Category[] = [{
       href: 'https://github.com/metalabdesign/AsyncAwait',
       type: 'github',
       tags: ['async', 'await', 'android',]
+    }, {
+      name: 'jupf/staticlog',
+      desc: 'StaticLog - super lightweight static logging for Kotlin, Java and Android',
+      href: 'https://github.com/jupf/staticlog',
+      type: 'github',
+      tags: ['logging', 'android']
     }]
   }, {
     name: 'Frameworks',
