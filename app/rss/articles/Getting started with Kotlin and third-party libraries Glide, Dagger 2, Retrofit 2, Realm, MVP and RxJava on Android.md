@@ -25,7 +25,7 @@ Mostly Kotlin is commended for its briefness and code safety and also for compat
 
 * Kotlins repository consumes less space than Scala, and adding Kotkin to a project is equal to Google library.
 
-* Starting from Java 6, it can use the major part of Java 7 and some portable elements of Java 8\. That’s why it is easily available even if you are facing troubles updating to new JVM version.
+* Starting from Java 6, it can use the major part of Java 7 and some portable elements of Java 8. That’s why it is easily available even if you are facing troubles updating to new JVM version.
 
 * There’s immutability by default.
 
