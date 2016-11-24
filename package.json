@@ -51,7 +51,6 @@
   "scripts": {
     "prestart": "yarn install",
     "start": "webpack-dev-server",
-    "pretest": "yarn install",
     "test": "ts-node -n --compilerOptions '{\"target\":\"es6\",\"module\":\"commonjs\"}' ./app/LinkChecker.ts",
     "stars": "ts-node -n --compilerOptions '{\"target\":\"es6\",\"module\":\"commonjs\"}' ./app/Stars.ts",
     "sitemap": "ts-node -n --compilerOptions '{\"target\":\"es6\",\"module\":\"commonjs\"}' ./app/Sitemap.ts",

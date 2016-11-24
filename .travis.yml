@@ -1,11 +1,8 @@
 language: node_js
 node_js: 6
-before_install:
-  - npm install -g yarn
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
-  - rm -rf node_modules # workaround. wait for support from travis. yarn will be install packages from their cache
   - npm test
   - openssl aes-256-cbc -K $encrypted_83630750896a_key -iv $encrypted_83630750896a_iv -in deploy@morty.enc -out ~/.ssh/deploy@morty -d
   - chmod 600 ~/.ssh/deploy@morty
@@ -14,6 +11,4 @@ before_script:
 script:
   - bash ./deploy.sh
 cache:
-  directories:
-  - $HOME/.yarn-cache
-  - node_modules
+  yarn: true
