@@ -673,12 +673,6 @@ const data: Category[] = [{
       type: 'github',
       tags: ['time', 'date']
     }, {
-      name: 'npryce/konfig',
-      desc: 'A Type Safe Configuration API for Kotlin',
-      href: 'https://github.com/npryce/konfig',
-      type: 'github',
-      tags: ['configuration']
-    }, {
       name: 'ingokegel/jclasslib',
       desc: 'jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.',
       href: 'https://github.com/ingokegel/jclasslib',
@@ -729,6 +723,21 @@ const data: Category[] = [{
       href: 'https://github.com/Kotlin/kotlinx.support',
       type: 'github',
       tags: ['jdk8', 'jdk7']
+    }]
+  }, {
+    name: 'Configuration',
+    links: [{
+      name: 'npryce/konfig',
+      desc: 'A Type Safe Configuration API for Kotlin',
+      href: 'https://github.com/npryce/konfig',
+      type: 'github',
+      tags: ['configuration']
+    }, {
+      name: 'mariomac/kaconf',
+      desc: 'KickAss Configuration. An annotation-based configuration system for Java and Kotlin',
+      href: 'https://github.com/mariomac/kaconf',
+      type: 'github',
+      tags: ['configuration']
     }]
   }, {
     name: 'Graphics',

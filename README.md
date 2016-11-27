@@ -39,6 +39,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-game-development-subcategory"></a>[Game Development](#libraries-frameworks-game-development)
 * <a name="libraries-frameworks-misc-subcategory"></a>[Misc](#libraries-frameworks-misc)
 * <a name="libraries-frameworks-extensions-subcategory"></a>[Extensions](#libraries-frameworks-extensions)
+* <a name="libraries-frameworks-configuration-subcategory"></a>[Configuration](#libraries-frameworks-configuration)
 * <a name="libraries-frameworks-graphics-subcategory"></a>[Graphics](#libraries-frameworks-graphics)
 
 ### <a name="projects-category"></a>[Projects](#projects)
@@ -260,7 +261,6 @@ Here awesome badge for your project:
 * [sargunster/KtUnits](https://github.com/sargunster/KtUnits) - Tiny unit conversion library for Kotlin.
 * [hotchemi/khronos](https://github.com/hotchemi/khronos) - An intuitive Date extensions in Kotlin.
 * [yole/kxdate](https://github.com/yole/kxdate) - Kotlin extensions for Java 8 java.time API
-* [npryce/konfig](https://github.com/npryce/konfig) - A Type Safe Configuration API for Kotlin
 * [ingokegel/jclasslib](https://github.com/ingokegel/jclasslib) - jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
 * [holgerbrandl/krangl](https://github.com/holgerbrandl/krangl) - krangl is a {K}otlin library for data w{rangl}ing
 * [debop/koda-time](https://github.com/debop/koda-time) - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
@@ -271,6 +271,10 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
+
+### <a name="libraries-frameworks-configuration"></a>Configuration <sup>[Back ⇈](#libraries-frameworks-configuration-subcategory)</sup>
+* [npryce/konfig](https://github.com/npryce/konfig) - A Type Safe Configuration API for Kotlin
+* [mariomac/kaconf](https://github.com/mariomac/kaconf) - KickAss Configuration. An annotation-based configuration system for Java and Kotlin
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [elect86/glm](https://github.com/elect86/glm) - Porting of cpp g-truck glm, opengl math lib
