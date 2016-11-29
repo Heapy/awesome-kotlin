@@ -778,16 +778,17 @@ const data: Category[] = [{
   subcategories: [{
     name: 'Web',
     links: [{
-      name: 'ssoudan/ktSpringTest',
+      name: 'sdeleuze/spring-boot-kotlin-demo',
       desc: 'Basic Spring Boot app in Kotlin.',
-      href: 'https://github.com/ssoudan/ktSpringTest',
-      type: 'github'
+      href: 'https://github.com/sdeleuze/spring-boot-kotlin-demo',
+      type: 'github',
+      tags: ['spring', 'spring-boot']
     }, {
       name: 'IRus/kotlin-dev-proxy',
       desc: 'Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.',
       href: 'https://github.com/IRus/kotlin-dev-proxy',
       type: 'github',
-      tags: ['tags', 'rest', 'web']
+      tags: ['rest', 'web']
     }, {
       name: 'ratpack/example-ratpack-gradle-kotlin-app',
       desc: 'An example of a Kotlin Ratpack app built with Gradle.',
