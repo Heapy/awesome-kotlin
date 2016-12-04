@@ -819,7 +819,13 @@ const data: Category[] = [{
       href: 'https://github.com/ivanpopelyshev/vertx-facebook-messenger',
       type: 'github',
       tags: ['chat bot', 'vert.x', 'facebook']
-    }]
+    }, {
+      name: 'corda/corda',
+      desc: 'Corda is a distributed ledger platform designed to record, manage and automate legal agreements between business partners. ',
+      href: 'https://github.com/corda/corda',
+      type: 'github',
+      tags: ['p2p', 'blockchain']
+    } ]
   }, {
     name: 'Build tools',
     links: [{
