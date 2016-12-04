@@ -99,7 +99,7 @@ which would correspond to the following entries in the UI, in addition to VCS ro
 
 **_GitExtensions_HttpsGithubComJetbrainsGitextensions.kt_**
 
-This object defines the VCS root configuration. It’s important to note that we could have just placed all this information directly in the code above, as opposed to making the call _vcsRoot(GitExtensions_…).  _However, the advantage to doing this, as we’ll see, is not only to make the code cleaner and separate concerns, but also to provide  reusability.
+This object defines the VCS root configuration. It’s important to note that we could have just placed all this information directly in the code above, as opposed to making the call _vcsRoot(GitExtensions_...).  _However, the advantage to doing this, as we’ll see, is not only to make the code cleaner and separate concerns, but also to provide  reusability.
 
 ![vcs-settings-root](https://d3nmt5vlzunoa1.cloudfront.net/teamcity/files/2016/10/vcs-settings-root.png)
 
