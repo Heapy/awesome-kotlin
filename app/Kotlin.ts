@@ -305,6 +305,12 @@ const data: Category[] = [{
       href: 'https://github.com/pakoito/Komprehensions',
       type: 'github',
       tags: ['comprehensions', 'fp', 'functional']
+    }, {
+      name: 'h0tk3y/kotlin-monads',
+      desc: 'Monads for Kotlin',
+      href: 'https://github.com/h0tk3y/kotlin-monads',
+      type: 'github',
+      tags: ['fp', 'functional', 'monads']
     }]
   }, {
     name: 'JSON',
