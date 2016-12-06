@@ -76,6 +76,9 @@ const data: Category[] = [{
       href: 'https://github.com/dbacinski/Design-Patterns-In-Kotlin',
       type: 'github',
       tags: ['Behavioral Patterns', 'Creational Patterns', 'Structural Patterns']
+    }, {
+      name: 'Kotlin Cheat Sheet',
+      href: 'https://speakerdeck.com/agiuliani/kotlin-cheat-sheet'
     }]
   }, {
     name: 'Books and Courses',

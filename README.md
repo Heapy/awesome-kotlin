@@ -135,6 +135,7 @@ Here awesome badge for your project:
 * [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928) 
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
+* [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
@@ -659,6 +660,7 @@ Here awesome badge for your project:
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
 ### <a name="videos-november-2016"></a>November 2016 <sup>[Back ⇈](#videos-november-2016-subcategory)</sup>
+* [Developing a Geospatial Webservice with Kotlin and Spring Boot](http://kotlin.link/articles/Developing-a-Geospatial-Webservice-with-Kotlin-and-Spring-Boot.html) - Sébastien Deleuze
 * [Code Swarm for Kotlin](http://kotlin.link/articles/Code-Swarm-for-Kotlin.html) - Landon Wilkins
 * [Kotlin Night London](http://kotlin.link/articles/Kotlin-Night-London.html) - JetBrains
 * [10 Kotlin Tricks in 10(ish) Minutes](http://kotlin.link/articles/10-Kotlin-Tricks-in-10-ish-Minutes.html) - Jake Wharton
@@ -671,7 +673,6 @@ Here awesome badge for your project:
 * [Better Android Development with Kotlin and Gradle](http://kotlin.link/articles/Better-Android-Development-with-Kotlin-and-Gradle.html) - Ty Smith
 
 ### <a name="videos-september-2016"></a>September 2016 <sup>[Back ⇈](#videos-september-2016-subcategory)</sup>
-* [Developing a Geospatial Webservice with Kotlin and Spring Boot](http://kotlin.link/articles/Developing-a-Geospatial-Webservice-with-Kotlin-and-Spring-Boot.html) - Sébastien Deleuze
 * [Kotlin - Ready for Production](http://kotlin.link/articles/Kotlin-Ready-for-Production.html) - Hadi Hariri
 
 ### <a name="videos-august-2016"></a>August 2016 <sup>[Back ⇈](#videos-august-2016-subcategory)</sup>
