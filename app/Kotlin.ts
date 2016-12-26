@@ -713,16 +713,22 @@ const data: Category[] = [{
       tags: ['pluralize', 'singularizen']
     }, {
       name: 'JoelW-S/groothy',
-      desc: 'Kotlin implementation of Groovy Truth',
+      desc: 'Kotlin implementation of Groovy Truth.',
       href: 'https://github.com/JoelW-S/groothy',
       type: 'github',
       tags: ['groovy truth']
     }, {
       name: 'elect86/kotlin-unsigned',
-      desc: 'boxed unsigned support, Ubyte, Uint, Ulong and Ushort',
+      desc: 'Boxed unsigned support, Ubyte, Uint, Ulong and Ushort.',
       href: 'https://github.com/elect86/kotlin-unsigned',
       type: 'github',
       tags: ['unsigned']
+    }, {
+      name: 'Jire/Strukt',
+      desc: 'Value types on the JVM, today!',
+      href: 'https://github.com/Jire/Strukt',
+      type: 'github',
+      tags: ['gc-free', 'structure']
     }]
   }, {
     name: 'Extensions',
