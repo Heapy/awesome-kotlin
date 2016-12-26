@@ -883,7 +883,7 @@ const data: Category[] = [{
       tags: ['koans']
     }, {
       name: 'JetBrains/kotlin-examples',
-      desc: 'Various examples for Kotlin',
+      desc: 'Various examples for Kotlin.',
       href: 'https://github.com/JetBrains/kotlin-examples',
       type: 'github',
       tags: ['maven', 'gradle', 'android', 'realm', 'buttetknife', 'dagger', 'dbflow', 'junit-test', 'dokka']
@@ -923,6 +923,12 @@ const data: Category[] = [{
       type: 'github',
       tags: ['examples', 'study']
     }, {
+      name: 'dkandalov/rosettacode-kotlin',
+      desc: 'Repository with source code from RosettaCode',
+      href: 'https://github.com/dkandalov/rosettacode-kotlin',
+      type: 'github',
+      tags: ['examples', 'study']
+    }, {
       name: 'sanity/pairAdjacentViolators',
       desc: 'A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.',
       href: 'https://github.com/sanity/pairAdjacentViolators',
@@ -957,7 +963,7 @@ const data: Category[] = [{
       tags: ['android']
     }, {
       name: 'JakeWharton/kotterknife',
-      desc: 'View injection library for Android',
+      desc: 'View injection library for Android.',
       href: 'https://github.com/JakeWharton/kotterknife',
       type: 'github',
       tags: ['android']
@@ -1035,19 +1041,19 @@ const data: Category[] = [{
       tags: ['android', 'RecyclerView', 'ViewHolder']
     }, {
       name: 'denisidoro/krouter',
-      desc: 'A lightweight Android activity router',
+      desc: 'A lightweight Android activity router.',
       href: 'https://github.com/denisidoro/krouter',
       type: 'github',
       tags: ['router', 'android']
     }, {
       name: 'metalabdesign/AsyncAwait',
-      desc: 'async/await for Android built upon coroutines introduced in Kotlin 1.1',
+      desc: 'async/await for Android built upon coroutines introduced in Kotlin 1.1.',
       href: 'https://github.com/metalabdesign/AsyncAwait',
       type: 'github',
       tags: ['async', 'await', 'android',]
     }, {
       name: 'jupf/staticlog',
-      desc: 'StaticLog - super lightweight static logging for Kotlin, Java and Android',
+      desc: 'StaticLog - super lightweight static logging for Kotlin, Java and Android.',
       href: 'https://github.com/jupf/staticlog',
       type: 'github',
       tags: ['logging', 'android']
@@ -1076,7 +1082,7 @@ const data: Category[] = [{
       type: 'github'
     }, {
       name: 'antoniolg/Kotlin-for-Android-Developers',
-      desc: 'Companion App for the book "Kotlin Android Developers"',
+      desc: 'Companion App for the book "Kotlin Android Developers".',
       href: 'https://github.com/antoniolg/Kotlin-for-Android-Developers',
       type: 'github',
       tags: ['android']
@@ -1099,7 +1105,7 @@ const data: Category[] = [{
       tags: ['android', 'application', 'tuner']
     }, {
       name: 'inaka/kotlillon',
-      desc: 'Android Kotlin Examples',
+      desc: 'Android Kotlin Examples.',
       href: 'https://github.com/inaka/kotlillon',
       type: 'github',
       tags: ['android', 'application']
@@ -1132,7 +1138,7 @@ const data: Category[] = [{
     name: 'Extensions',
     links: [{
       name: 'ajalt/timberkt',
-      desc: 'Easy Android logging with Kotlin and Timber',
+      desc: 'Easy Android logging with Kotlin and Timber.',
       href: 'https://github.com/ajalt/timberkt',
       type: 'github',
       tags: ['android', 'logging']
