@@ -1139,6 +1139,12 @@ const data: Category[] = [{
       href: 'https://github.com/inorichi/tachiyomi',
       type: 'github',
       tags: ['android', 'application']
+    }, {
+      name: 'ziggy42/Blum-kotlin',
+      desc: 'A simple android Twitter client written in Kotlin',
+      href: 'https://github.com/ziggy42/Blum-kotlin',
+      type: 'github',
+      tags: ['android', 'twitter', 'application']
     }]
   }, {
     name: 'Extensions',
