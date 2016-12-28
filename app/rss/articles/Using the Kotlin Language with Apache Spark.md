@@ -67,7 +67,7 @@ dependencies {
 
 Finally, launch Intellij IDEA and click _Import Project_ and navigate to the location of your Kotlin project folder you just created. In the wizard, check _Import project from external model_ with the _Gradle_ option. Click _Next_, then select _Use Local Gradle Distribution_ with the Gradle copy you downloaded. Then click _Finish_.  
 
-Your workspace should now be set up with a Kotlin project as shown below. If you do not see the project explorer on the left press ALT + 1\. Then double-click on the project folder and navigate down to the `kotlin` folder.  
+Your workspace should now be set up with a Kotlin project as shown below. If you do not see the project explorer on the left press ALT + 1. Then double-click on the project folder and navigate down to the `kotlin` folder.  
 
 ![](https://i.imgur.com/YzcYoLW.png)  
 

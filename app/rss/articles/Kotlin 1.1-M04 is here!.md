@@ -6,7 +6,7 @@ categories:
 author: Ilya Chernikov	
 date: Dec 21, 2016 12:30
 ---
-We are glad to present you the fourth milestone of the upcoming Kotlin release. We’re wrapping up the development of the version 1.1, with the final release planned for Q1 2017\. Most features are already in decent shape, so it is a good time to try it and give us your feedback. We will appreciate it a lot!
+We are glad to present you the fourth milestone of the upcoming Kotlin release. We’re wrapping up the development of the version 1.1, with the final release planned for Q1 2017. Most features are already in decent shape, so it is a good time to try it and give us your feedback. We will appreciate it a lot!
 
 As with other milestone releases, we give **no backwards compatibility guarantees** for new language and library features. Anything introduced in milestone releases of 1.1 is **subject to change** before the final 1.1 release.
 

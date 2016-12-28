@@ -729,6 +729,12 @@ const data: Category[] = [{
       href: 'https://github.com/Jire/Strukt',
       type: 'github',
       tags: ['gc-free', 'structure']
+    }, {
+      name: 'soywiz/korio',
+      desc: 'Kotlin cORoutines I/O: Streams + Virtual File System.',
+      href: 'https://github.com/soywiz/korio',
+      type: 'github',
+      tags: ['vfs', 'coroutiones', 'io']
     }]
   }, {
     name: 'Extensions',
