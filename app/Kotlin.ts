@@ -89,6 +89,9 @@ const data: Category[] = [{
       name: 'Kotlin for Android Developers - Antonio Leiva',
       href: 'https://leanpub.com/kotlin-for-android-developers'
     }, {
+      name: 'Programming Kotlin - Stephen Samuel, Stefan Bocutiu',
+      href: 'https://www.packtpub.com/application-development/programming-kotlin'
+    }, {
       name: 'Kotlin for Java Developers',
       desc: '160-minute Android Course.',
       href: 'https://teamtreehouse.com/library/kotlin-for-java-developers'
