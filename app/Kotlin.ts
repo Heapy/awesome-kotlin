@@ -457,10 +457,16 @@ const data: Category[] = [{
       tags: ['aot', 'compiller']
     }, {
       name: 'arturbosch/detekt',
-      desc: 'Static code analysis for Kotlin',
+      desc: 'Static code analysis for Kotlin.',
       href: 'https://github.com/arturbosch/detekt',
       type: 'github',
       tags: ['check style', 'checkstyle']
+    }, {
+      name: 'ligee/kotlin-jupyter',
+      desc: 'Kotlin kernel for Jupyter/iPython.',
+      href: 'https://github.com/ligee/kotlin-jupyter',
+      type: 'github',
+      tags: ['juputer', 'repl']
     }]
   }, {
     name: 'Desktop',

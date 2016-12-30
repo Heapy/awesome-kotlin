@@ -10,7 +10,7 @@ One of the great things happening right now in software development is the blend
 
 The problem is that the benefits of functional practices don’t easily jump out to people. If you have taught in OOP your entire professional life it’s going to be hard to change. It is completely valid to see the benefits and not think it’s worth it, but if you don’t completely understand what the real benefits are you can’t make an educated decision.
 
-The best example of this is is the Android world right now is Rx. This is a question that comes up a lot with Rx, “Yeah but… does it need to be a stream?” It’s a really important question. It’s like a levee breaking the relentless waves of “Use Rx! Rx everything!” For me, it’s also a mark of the failings of communication on the pro-Rx side.
+The best example of this is is the Android world right now is Rx. This is a question that comes up a lot with Rx, “Yeah but... does it need to be a stream?” It’s a really important question. It’s like a levee breaking the relentless waves of “Use Rx! Rx everything!” For me, it’s also a mark of the failings of communication on the pro-Rx side.
 
 Rx is all about reactive functional programming but the reactive part gets all the attention. It leads to a lot of misunderstanding, misuse, and mistrust of Rx. When you’re getting a list of items why not just return a list? Why would you need to return it as a stream? If you are told to look at Rx as reactive streams only, it’s easy to say you don’t need a stream. Just get the list.
 
