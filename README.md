@@ -275,6 +275,7 @@ Here awesome badge for your project:
 * [elect86/kotlin-unsigned](https://github.com/elect86/kotlin-unsigned) - Boxed unsigned support, Ubyte, Uint, Ulong and Ushort.
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
 * [soywiz/korio](https://github.com/soywiz/korio) - Kotlin cORoutines I/O: Streams + Virtual File System.
+* [jimschubert/kopper](https://github.com/jimschubert/kopper) - A simple Kotlin option parser
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -402,6 +403,7 @@ Here awesome badge for your project:
 * [Concurrency Primitives in Kotlin](http://kotlin.link/articles/Concurrency-Primitives-in-Kotlin.html) - Egor Andreevici
 * [Kotlin 1.1-M04 is here!](http://kotlin.link/articles/Kotlin-1-1-M04-is-here.html) - Ilya Chernikov
 * [Building microservices with Kotlin and Spring Boot](http://kotlin.link/articles/Building-microservices-with-Kotlin-and-Spring-Boot.html) - Gabriel Francisco
+* [Thinking Functionally](http://kotlin.link/articles/Thinking-Functionally.html) - Lewis Rhine
 * [Kotlin: How to Make a Java Developer's Life Easier?](http://kotlin.link/articles/Kotlin-How-to-Make-a-Java-Developer-s-Life-Easier.html) - Stanislav Sinitsky, Alexander Mikhalchenko
 * [Upgrade your workflow with 0-installation kotlin scriptlets](http://kotlin.link/articles/Upgrade-your-workflow-with-0-installation-kotlin-scriptlets.html) - Holger Brandl
 * [Data Binding in Anko](http://kotlin.link/articles/Data-Binding-in-Anko.html) - Lewis Rhine
