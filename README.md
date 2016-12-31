@@ -274,7 +274,9 @@ Here awesome badge for your project:
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
 * [elect86/kotlin-unsigned](https://github.com/elect86/kotlin-unsigned) - Boxed unsigned support, Ubyte, Uint, Ulong and Ushort.
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
-* [soywiz/korio](https://github.com/soywiz/korio) - Kotlin cORoutines I/O: Streams + Virtual File System.
+* [soywiz/korio](https://github.com/soywiz/korio) - Korio: Kotlin cORoutines I/O : Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser.
+* [soywiz/korim](https://github.com/soywiz/korim) - Korim: Kotlin cORoutines IMaging utilities depending on Korio.
+* [soywiz/korui](https://github.com/soywiz/korui) - Korui: Kotlin cORoutines User Interfaces : korio + kimage + korui
 * [jimschubert/kopper](https://github.com/jimschubert/kopper) - A simple Kotlin option parser
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
