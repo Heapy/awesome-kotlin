@@ -565,39 +565,6 @@ const data: Category[] = [{
       tags: ['syntax', 'higlight']
     }]
   }, {
-    name: 'JavaScript',
-    links: [{
-      name: 'danfma/kotlinjs-react',
-      desc: 'A react wrapper to the kotlin library.',
-      href: 'https://github.com/danfma/kotlinjs-react',
-      type: 'github',
-      tags: ['react', 'javascript', 'ui']
-    }, {
-      name: 'andrewoma/reakt',
-      desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
-      href: 'https://github.com/andrewoma/reakt',
-      type: 'github',
-      tags: ['react', 'javascript', 'ui']
-    }, {
-      name: 'pixijs/pixi-native',
-      desc: 'The aim of this project is to provide a fast lightweight 2D library that works across all devices.',
-      href: 'https://github.com/pixijs/pixi-native',
-      type: 'github',
-      tags: ['javascript', '2d', 'canvas', 'WebGL']
-    }, {
-      name: 'bashor/ts2kt',
-      desc: 'Converter of TypeScript definition files to Kotlin declarations (stubs)',
-      href: 'https://github.com/bashor/ts2kt',
-      type: 'github',
-      tags: ['javascript', 'typescript']
-    }, {
-      name: 'shafirov/klogging',
-      desc: 'Kotlin logging, both js and jvm.',
-      href: 'https://github.com/shafirov/klogging',
-      type: 'github',
-      tags: ['javascript', 'logging']
-    }]
-  }, {
     name: 'Game Development',
     links: [{
       name: 'czyzby/ktx',
@@ -762,6 +729,12 @@ const data: Category[] = [{
       href: 'https://github.com/jimschubert/kopper',
       type: 'github',
       tags: ['cli', 'parser']
+    }, {
+      name: 'moshbit/Kotlift',
+      desc: 'Kotlift is the first source-to-source language transpiler from Kotlin to Swift.',
+      href: 'https://github.com/moshbit/Kotlift',
+      type: 'github',
+      tags: ['swift']
     }]
   }, {
     name: 'Extensions',
@@ -822,6 +795,51 @@ const data: Category[] = [{
     }]
   }]
 }, {
+  name: 'Kotlin JavaScript',
+  subcategories: [{
+    name: 'JavaScript',
+    links: [{
+      name: 'danfma/kotlinjs-react',
+      desc: 'A react wrapper to the kotlin library.',
+      href: 'https://github.com/danfma/kotlinjs-react',
+      type: 'github',
+      tags: ['react', 'javascript', 'ui']
+    }, {
+      name: 'andrewoma/reakt',
+      desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
+      href: 'https://github.com/andrewoma/reakt',
+      type: 'github',
+      tags: ['react', 'javascript', 'ui']
+    }, {
+      name: 'pixijs/pixi-native',
+      desc: 'The aim of this project is to provide a fast lightweight 2D library that works across all devices.',
+      href: 'https://github.com/pixijs/pixi-native',
+      type: 'github',
+      tags: ['javascript', '2d', 'canvas', 'WebGL']
+    }, {
+      name: 'bashor/ts2kt',
+      desc: 'Converter of TypeScript definition files to Kotlin declarations (stubs)',
+      href: 'https://github.com/bashor/ts2kt',
+      type: 'github',
+      tags: ['javascript', 'typescript']
+    }, {
+      name: 'shafirov/klogging',
+      desc: 'Kotlin logging, both js and jvm.',
+      href: 'https://github.com/shafirov/klogging',
+      type: 'github',
+      tags: ['javascript', 'logging']
+    }]
+  }, {
+    name: 'Frontend',
+    links: [{
+      name: 'olegcherr/Aza-Kotlin-CSS',
+      desc: 'Kotlin DSL for CSS',
+      href: 'https://github.com/olegcherr/Aza-Kotlin-CSS',
+      type: 'github',
+      tags: ['css']
+    }]
+  }]
+},{
   name: 'Projects',
   subcategories: [{
     name: 'Web',
@@ -1096,6 +1114,12 @@ const data: Category[] = [{
       href: 'https://github.com/jupf/staticlog',
       type: 'github',
       tags: ['logging', 'android']
+    }, {
+      name: 'zserge/anvil',
+      desc: 'Minimal UI library for Android inspired by React.',
+      href: 'https://github.com/zserge/anvil',
+      type: 'github',
+      tags: ['android', 'layout']
     }]
   }, {
     name: 'Frameworks',
