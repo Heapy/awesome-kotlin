@@ -740,10 +740,22 @@ const data: Category[] = [{
       tags: ['gc-free', 'structure']
     }, {
       name: 'soywiz/korio',
-      desc: 'Kotlin cORoutines I/O: Streams + Virtual File System.',
+      desc: 'Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser.',
       href: 'https://github.com/soywiz/korio',
       type: 'github',
       tags: ['vfs', 'coroutiones', 'io']
+    }, {
+      name: 'soywiz/korim',
+      desc: 'Korim: Kotlin cORoutines IMaging utilities depending on Korio.',
+      href: 'https://github.com/soywiz/korim',
+      type: 'github',
+      tags: ['image', 'coroutiones']
+    }, {
+      name: 'soywiz/korui',
+      desc: 'Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui',
+      href: 'https://github.com/soywiz/korui',
+      type: 'github',
+      tags: ['ui', 'coroutiones']
     }, {
       name: 'jimschubert/kopper',
       desc: 'A simple Kotlin option parser',
