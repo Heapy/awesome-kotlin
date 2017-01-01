@@ -404,6 +404,7 @@ Here awesome badge for your project:
 ### <a name="articles-blog-posts-december-2016"></a>December 2016 <sup>[Back ⇈](#articles-blog-posts-december-2016-subcategory)</sup>
 * [Kotlin, rockin’ in production](http://kotlin.link/articles/Kotlin-rockin’-in-production.html) - Nabeel Ali Memon
 * [Kotlin 1.0.6 is here!](http://kotlin.link/articles/Kotlin-1-0-6-is-here.html) - Yan Zhulanow
+* [Write a lightweight, cross-platform HTML5 desktop app with Kotlin](http://kotlin.link/articles/Write-a-lightweight-cross-platform-HTML5-desktop-app-with-Kotlin.html) - Lorenzo Angelini
 * [Kotlin is cheating on me...](http://kotlin.link/articles/Kotlin-is-cheating-on-me-.html) - Andrea Franceschini
 * [Concurrency Primitives in Kotlin](http://kotlin.link/articles/Concurrency-Primitives-in-Kotlin.html) - Egor Andreevici
 * [Kotlin 1.1-M04 is here!](http://kotlin.link/articles/Kotlin-1-1-M04-is-here.html) - Ilya Chernikov
