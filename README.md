@@ -66,6 +66,7 @@ Here awesome badge for your project:
 * <a name="kotlin-user-groups-asia-subcategory"></a>[Asia](#kotlin-user-groups-asia)
 
 ### <a name="articles-blog-posts-category"></a>[Articles, Blog Posts](#articles-blog-posts)
+* <a name="articles-blog-posts-january-2017-subcategory"></a>[January 2017](#articles-blog-posts-january-2017)
 * <a name="articles-blog-posts-december-2016-subcategory"></a>[December 2016](#articles-blog-posts-december-2016)
 * <a name="articles-blog-posts-november-2016-subcategory"></a>[November 2016](#articles-blog-posts-november-2016)
 * <a name="articles-blog-posts-october-2016-subcategory"></a>[October 2016](#articles-blog-posts-october-2016)
@@ -411,9 +412,13 @@ Here awesome badge for your project:
 
 
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
+### <a name="articles-blog-posts-january-2017"></a>January 2017 <sup>[Back ⇈](#articles-blog-posts-january-2017-subcategory)</sup>
+* [Why I prefer Kotlin](http://kotlin.link/articles/Why-I-prefer-Kotlin.html) - Graham Cox
+
 ### <a name="articles-blog-posts-december-2016"></a>December 2016 <sup>[Back ⇈](#articles-blog-posts-december-2016-subcategory)</sup>
 * [Kotlin, rockin’ in production](http://kotlin.link/articles/Kotlin-rockin’-in-production.html) - Nabeel Ali Memon
 * [Kotlin 1.0.6 is here!](http://kotlin.link/articles/Kotlin-1-0-6-is-here.html) - Yan Zhulanow
+* [The Reactive Scrabble benchmarks](http://kotlin.link/articles/The-Reactive-Scrabble-benchmarks.html) - Dávid Karnok
 * [Write a lightweight, cross-platform HTML5 desktop app with Kotlin](http://kotlin.link/articles/Write-a-lightweight-cross-platform-HTML5-desktop-app-with-Kotlin.html) - Lorenzo Angelini
 * [Kotlin is cheating on me...](http://kotlin.link/articles/Kotlin-is-cheating-on-me-.html) - Andrea Franceschini
 * [Concurrency Primitives in Kotlin](http://kotlin.link/articles/Concurrency-Primitives-in-Kotlin.html) - Egor Andreevici
@@ -440,6 +445,7 @@ Here awesome badge for your project:
 * [400% faster layouts with Anko](http://kotlin.link/articles/400-faster-layouts-with-Anko.html) - Simon Vergauwen
 * [Why You Must Try Kotlin For Android Development ?](http://kotlin.link/articles/Why-You-Must-Try-Kotlin-For-Android-Development-.html) - Amit Shekhar
 * [Kotlin 1.0.5 is here](http://kotlin.link/articles/Kotlin-1-0-5-is-here.html) - Dmitry Jemerov
+* [Quick dive in Kotlin extensions](http://kotlin.link/articles/Quick-dive-in-Kotlin-extensions.html) - Piotr Ślesarew
 * [Our Experiment Building a Multiselection Solution for Android in Kotlin](http://kotlin.link/articles/Our-Experiment-Building-a-Multiselection-Solution-for-Android-in-Kotlin.html) - Artem Kholodnyi
 
 ### <a name="articles-blog-posts-october-2016"></a>October 2016 <sup>[Back ⇈](#articles-blog-posts-october-2016-subcategory)</sup>
@@ -542,8 +548,8 @@ Here awesome badge for your project:
 * [Exercises in Kotlin: Part 4 - Control flows and return](http://kotlin.link/articles/Exercises-in-Kotlin-Part-4-Control-flows-and-return.html) - Dhananjay Nene
 * [Writing Concise Code With Kotlin](http://kotlin.link/articles/Writing-Concise-Code-With-Kotlin.html) - Peter Sommerhoff
 * [JDK7/8 features in Kotlin 1.0](http://kotlin.link/articles/JDK7-8-features-in-Kotlin-1-0.html) - Ilya Gorbunov
-* [Exercises in Kotlin: Part 3 - Functions](http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html) - Dhananjay Nene
 * [Kotlin + Android First Impressions](http://kotlin.link/articles/Kotlin-Android-First-Impressions.html) - Keyhole Software
+* [Exercises in Kotlin: Part 3 - Functions](http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html) - Dhananjay Nene
 * [Exercises in Kotlin: Part 2 - High level syntax and Variables](http://kotlin.link/articles/Exercises-in-Kotlin-Part-2-High-level-syntax-and-Variables.html) - Dhananjay Nene
 * [Exercises in Kotlin: Part 1 - Getting Started](http://kotlin.link/articles/Exercises-in-Kotlin-Part-1-Getting-Started.html) - Dhananjay Nene
 * [Code improvements with Kotlin](http://kotlin.link/articles/Code-improvements-with-Kotlin.html) - Nicolas Frankel
@@ -623,8 +629,8 @@ Here awesome badge for your project:
 * [Developing Spring Boot applications with Kotlin.](http://kotlin.link/articles/Developing-Spring-Boot-applications-with-Kotlin.html) - Sébastien Deleuze
 * [Kotlin 1.0 Released: Pragmatic Language for JVM and Android](http://kotlin.link/articles/Kotlin-1-0-Released-Pragmatic-Language-for-JVM-and-Android.html) - Andrey Breslav
 * [The Journey of a Spring Boot application from Java 8 to Kotlin: The Application Class](http://kotlin.link/articles/The-Journey-of-a-Spring-Boot-application-from-Java-8-to-Kotlin-The-Application-Class.html) - Mike Gehard
-* [Kotlin & Android: A Brass Tacks Experiment, Part 4](http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html) - Doug Stevenson
 * [(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.](http://kotlin.link/articles/RU-Podcast-Разбор-Полетов-Episode-102-—-Kotlin-тесты-и-здоровый-сон.html) - Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov
+* [Kotlin & Android: A Brass Tacks Experiment, Part 4](http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html) - Doug Stevenson
 * [Kotlin 1.0 Release Candidate is Out!](http://kotlin.link/articles/Kotlin-1-0-Release-Candidate-is-Out.html) - Andrey Breslav
 * [Kotlin + RxJava = Functional Powerhouse](http://kotlin.link/articles/Kotlin-RxJava-Functional-Powerhouse.html) - Thomas Nield
 * [Kotlin Coding](http://kotlin.link/articles/Kotlin-Coding.html) - Ciro Rizzo

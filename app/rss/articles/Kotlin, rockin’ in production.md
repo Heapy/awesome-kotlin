@@ -103,7 +103,7 @@ So far, I’ve had the following backend/server-side artifacts serving happily i
 * An ETL utility purely written in Kotlin which talks to remote REST services as well. It’s has some strict memory and performance requirements.
 * An upcoming Spring boot based server. It’s core components are security (Spring Security with OAuth2) and microservice-architecture style services. It’s being written entirely in Kotlin and is targeted for mid 2017 release.
 
-Kotlin team at JetBrains has done a great job so far and has been putting a lot of effort to polish 1.1 release by Q1 2017\. Features like coroutines in the upcoming Kotlin 1.1 will allow writing clean and easier-to-reason-about concurrent code which is otherwise infamous to be hard and bug-prone. If you want to take a sneak peak at coroutines, check the following:
+Kotlin team at JetBrains has done a great job so far and has been putting a lot of effort to polish 1.1 release by Q1 2017. Features like coroutines in the upcoming Kotlin 1.1 will allow writing clean and easier-to-reason-about concurrent code which is otherwise infamous to be hard and bug-prone. If you want to take a sneak peak at coroutines, check the following:
 
 [https://github.com/Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines)
 
