@@ -240,9 +240,9 @@ const data: Category[] = [{
       type: 'github',
       tags: ['test', 'selenium', 'UI', 'automation']
     }, {
-      name: 'dmcg/amock',
+      name: 'dmcg/k-sera',
       desc: 'A JMock wrapper for Kotlin.',
-      href: 'https://github.com/dmcg/amock',
+      href: 'https://github.com/dmcg/k-sera',
       type: 'github',
       tags: ['mock', 'test']
     }, {
