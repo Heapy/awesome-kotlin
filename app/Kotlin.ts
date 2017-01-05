@@ -542,6 +542,12 @@ const data: Category[] = [{
       href: 'https://github.com/ice1000/NppExtension',
       type: 'github',
       tags: ['editor', 'ide', 'language']
+    }, {
+      name: 'ftomassetti/kanvas',
+      desc: ' A truly hackable editor: simple, lightweight, understandable.',
+      href: 'https://github.com/ftomassetti/kanvas',
+      type: 'github',
+      tags: ['editor', 'ide', 'language']
     }]
   }, {
     name: 'Syntax Highlighters',
@@ -741,6 +747,12 @@ const data: Category[] = [{
       href: 'https://github.com/moshbit/Kotlift',
       type: 'github',
       tags: ['swift']
+    }, {
+      name: 'consoleau/kassava',
+      desc: 'This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.',
+      href: 'https://github.com/consoleau/kassava',
+      type: 'github',
+      tags: ['hashCode', 'equals', 'toString']
     }]
   }, {
     name: 'Extensions',

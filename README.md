@@ -240,6 +240,7 @@ Here awesome badge for your project:
 * [udalov/kotlin-vim](https://github.com/udalov/kotlin-vim) - Kotlin Syntax Highlighter for Vim.
 * [sargunster/kotlin-textmate-bundle](https://github.com/sargunster/kotlin-textmate-bundle) - Kotlin bundle for TextMate.
 * [ice1000/NppExtension](https://github.com/ice1000/NppExtension) - Kotlin Language extension for Notepad++
+* [ftomassetti/kanvas](https://github.com/ftomassetti/kanvas) -  A truly hackable editor: simple, lightweight, understandable.
 
 ### <a name="libraries-frameworks-syntax-highlighters"></a>Syntax Highlighters <sup>[Back ⇈](#libraries-frameworks-syntax-highlighters-subcategory)</sup>
 * [jneen/rouge](https://github.com/jneen/rouge) - A pure-ruby code highlighter that is compatible with pygments. (wip)
@@ -278,6 +279,7 @@ Here awesome badge for your project:
 * [soywiz/korui](https://github.com/soywiz/korui) - Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui
 * [jimschubert/kopper](https://github.com/jimschubert/kopper) - A simple Kotlin option parser
 * [moshbit/Kotlift](https://github.com/moshbit/Kotlift) - Kotlift is the first source-to-source language transpiler from Kotlin to Swift.
+* [consoleau/kassava](https://github.com/consoleau/kassava) - This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
