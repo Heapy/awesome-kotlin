@@ -424,6 +424,12 @@ const data: Category[] = [{
       href: 'https://github.com/Ganet/rxaerospike',
       type: 'github',
       tags: ['database', 'arospike', 'rx', 'rxjava2']
+    }, {
+      name: 'Raizlabs/DBFlow',
+      desc: 'A blazing fast, powerful, and very simple ORM android database library that writes database code for you.',
+      href: 'https://github.com/Raizlabs/DBFlow',
+      type: 'github',
+      tags: ['orm', 'jap', 'kapt', 'database']
     }]
   }, {
     name: 'Tools',
