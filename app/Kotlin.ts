@@ -62,7 +62,7 @@ const data: Category[] = [{
       type: 'blog'
     }, {
       name: 'LinkedIn: Kotlin Developers (Join!)',
-      href: 'https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237',
+      href: 'https://www.linkedin.com/groups/7417237/profile',
       whitelisted: true
     }, {
       name: 'Kotlin - Google+',

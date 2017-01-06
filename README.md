@@ -136,7 +136,7 @@ Here awesome badge for your project:
 * [Quora Kotlin](https://www.quora.com/topic/Kotlin) 
 * [Trending Kotlin on Github](https://github.com/trending?l=kotlin) 
 * [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/) 
-* [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237) 
+* [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile) 
 * [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928) 
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
