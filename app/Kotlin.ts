@@ -430,6 +430,12 @@ const data: Category[] = [{
       href: 'https://github.com/Raizlabs/DBFlow',
       type: 'github',
       tags: ['orm', 'jap', 'kapt', 'database']
+    }, {
+      name: 'KotlinPorts/kt-postgresql-async',
+      desc: 'Kotlin/Gradle port of mauricio\'s async driver for postgres/mysql.',
+      href: 'https://github.com/KotlinPorts/kt-postgresql-async',
+      type: 'github',
+      tags: ['postgres', 'mysql', 'database driver']
     }]
   }, {
     name: 'Tools',
