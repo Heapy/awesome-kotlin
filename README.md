@@ -64,6 +64,7 @@ Here awesome badge for your project:
 * <a name="kotlin-user-groups-europe-subcategory"></a>[Europe](#kotlin-user-groups-europe)
 * <a name="kotlin-user-groups-america-subcategory"></a>[America](#kotlin-user-groups-america)
 * <a name="kotlin-user-groups-asia-subcategory"></a>[Asia](#kotlin-user-groups-asia)
+* <a name="kotlin-user-groups-australia-subcategory"></a>[Australia](#kotlin-user-groups-australia)
 
 ### <a name="articles-blog-posts-category"></a>[Articles, Blog Posts](#articles-blog-posts)
 * <a name="articles-blog-posts-january-2017-subcategory"></a>[January 2017](#articles-blog-posts-january-2017)
@@ -412,6 +413,9 @@ Here awesome badge for your project:
 ### <a name="kotlin-user-groups-asia"></a>Asia <sup>[Back ⇈](#kotlin-user-groups-asia-subcategory)</sup>
 * [Japan Kotlin User Group](https://kotlin.doorkeeper.jp/) - Japan
 * [Korean Kotlin User Group](http://kotlin.kr/) - Korea
+
+### <a name="kotlin-user-groups-australia"></a>Australia <sup>[Back ⇈](#kotlin-user-groups-australia-subcategory)</sup>
+* [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
 
 
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
