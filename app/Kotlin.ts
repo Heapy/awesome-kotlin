@@ -177,9 +177,9 @@ const data: Category[] = [{
       type: 'github',
       tags: ['web', 'jdbc', 'http client', 'spark java', 'cache']
     }, {
-      name: 'cy6erGn0m/vertx3-lang-kotlin',
+      name: 'vert-x3/vertx-lang-kotlin',
       desc: 'This module provides Kotlin language bindings including DSL and extension functions for vert.x 3',
-      href: 'https://github.com/cy6erGn0m/vertx3-lang-kotlin',
+      href: 'https://github.com/vert-x3/vertx-lang-kotlin/',
       type: 'github',
       tags: ['web', 'vert.x']
     }]
