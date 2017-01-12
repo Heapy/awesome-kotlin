@@ -1,5 +1,5 @@
 ---
-title: 'Архитектор Kotlin: «Язык программирования — рабочий инструмент. Если никогда их не менять, можно отстать от жизни» '
+title: 'Архитектор Kotlin: «Язык программирования — рабочий инструмент. Если никогда их не менять, можно отстать от жизни»'
 url: https://dev.by/lenta/main/arhitektor-kotlin-yazyk-programmirovaniya-rabochiy-instrument
 categories:
     - Kotlin
