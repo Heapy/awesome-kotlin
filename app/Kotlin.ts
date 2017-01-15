@@ -16,7 +16,7 @@ const data: Category[] = [{
       name: 'Language Reference',
       href: 'http://kotlinlang.org/docs/reference/'
     }, {
-      name: 'Slack (5000+ users)',
+      name: 'Slack (5500+ users)',
       href: 'http://kotlinslackin.herokuapp.com/'
     }, {
       name: 'Public chat archive of Kotlin\'s Slack',
