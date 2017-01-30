@@ -16,7 +16,7 @@ const data: Category[] = [{
       name: 'Language Reference',
       href: 'http://kotlinlang.org/docs/reference/'
     }, {
-      name: 'Slack (5000+ users)',
+      name: 'Slack (5500+ users)',
       href: 'http://kotlinslackin.herokuapp.com/'
     }, {
       name: 'Public chat archive of Kotlin\'s Slack',
@@ -62,7 +62,7 @@ const data: Category[] = [{
       type: 'blog'
     }, {
       name: 'LinkedIn: Kotlin Developers (Join!)',
-      href: 'https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237',
+      href: 'https://www.linkedin.com/groups/7417237/profile',
       whitelisted: true
     }, {
       name: 'Kotlin - Google+',
@@ -88,6 +88,9 @@ const data: Category[] = [{
     }, {
       name: 'Kotlin for Android Developers - Antonio Leiva',
       href: 'https://leanpub.com/kotlin-for-android-developers'
+    }, {
+      name: 'Programming Kotlin - Stephen Samuel, Stefan Bocutiu',
+      href: 'https://www.packtpub.com/application-development/programming-kotlin'
     }, {
       name: 'Kotlin for Java Developers',
       desc: '160-minute Android Course.',
@@ -174,9 +177,9 @@ const data: Category[] = [{
       type: 'github',
       tags: ['web', 'jdbc', 'http client', 'spark java', 'cache']
     }, {
-      name: 'cy6erGn0m/vertx3-lang-kotlin',
+      name: 'vert-x3/vertx-lang-kotlin',
       desc: 'This module provides Kotlin language bindings including DSL and extension functions for vert.x 3',
-      href: 'https://github.com/cy6erGn0m/vertx3-lang-kotlin',
+      href: 'https://github.com/vert-x3/vertx-lang-kotlin/',
       type: 'github',
       tags: ['web', 'vert.x']
     }]
@@ -237,9 +240,9 @@ const data: Category[] = [{
       type: 'github',
       tags: ['test', 'selenium', 'UI', 'automation']
     }, {
-      name: 'dmcg/amock',
+      name: 'dmcg/k-sera',
       desc: 'A JMock wrapper for Kotlin.',
-      href: 'https://github.com/dmcg/amock',
+      href: 'https://github.com/dmcg/k-sera',
       type: 'github',
       tags: ['mock', 'test']
     }, {
@@ -421,6 +424,18 @@ const data: Category[] = [{
       href: 'https://github.com/Ganet/rxaerospike',
       type: 'github',
       tags: ['database', 'arospike', 'rx', 'rxjava2']
+    }, {
+      name: 'Raizlabs/DBFlow',
+      desc: 'A blazing fast, powerful, and very simple ORM android database library that writes database code for you.',
+      href: 'https://github.com/Raizlabs/DBFlow',
+      type: 'github',
+      tags: ['orm', 'jap', 'kapt', 'database']
+    }, {
+      name: 'KotlinPorts/kt-postgresql-async',
+      desc: 'Kotlin/Gradle port of mauricio\'s async driver for postgres/mysql.',
+      href: 'https://github.com/KotlinPorts/kt-postgresql-async',
+      type: 'github',
+      tags: ['postgres', 'mysql', 'database driver']
     }]
   }, {
     name: 'Tools',
@@ -454,10 +469,16 @@ const data: Category[] = [{
       tags: ['aot', 'compiller']
     }, {
       name: 'arturbosch/detekt',
-      desc: 'Static code analysis for Kotlin',
+      desc: 'Static code analysis for Kotlin.',
       href: 'https://github.com/arturbosch/detekt',
       type: 'github',
       tags: ['check style', 'checkstyle']
+    }, {
+      name: 'ligee/kotlin-jupyter',
+      desc: 'Kotlin kernel for Jupyter/iPython.',
+      href: 'https://github.com/ligee/kotlin-jupyter',
+      type: 'github',
+      tags: ['juputer', 'repl']
     }]
   }, {
     name: 'Desktop',
@@ -527,6 +548,12 @@ const data: Category[] = [{
       href: 'https://github.com/ice1000/NppExtension',
       type: 'github',
       tags: ['editor', 'ide', 'language']
+    }, {
+      name: 'ftomassetti/kanvas',
+      desc: ' A truly hackable editor: simple, lightweight, understandable.',
+      href: 'https://github.com/ftomassetti/kanvas',
+      type: 'github',
+      tags: ['editor', 'ide', 'language']
     }]
   }, {
     name: 'Syntax Highlighters',
@@ -554,39 +581,6 @@ const data: Category[] = [{
       href: 'https://bitbucket.org/birkenfeld/pygments-main',
       type: 'bitbucket',
       tags: ['syntax', 'higlight']
-    }]
-  }, {
-    name: 'JavaScript',
-    links: [{
-      name: 'danfma/kotlinjs-react',
-      desc: 'A react wrapper to the kotlin library.',
-      href: 'https://github.com/danfma/kotlinjs-react',
-      type: 'github',
-      tags: ['react', 'javascript', 'ui']
-    }, {
-      name: 'andrewoma/reakt',
-      desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
-      href: 'https://github.com/andrewoma/reakt',
-      type: 'github',
-      tags: ['react', 'javascript', 'ui']
-    }, {
-      name: 'pixijs/pixi-native',
-      desc: 'The aim of this project is to provide a fast lightweight 2D library that works across all devices.',
-      href: 'https://github.com/pixijs/pixi-native',
-      type: 'github',
-      tags: ['javascript', '2d', 'canvas', 'WebGL']
-    }, {
-      name: 'bashor/ts2kt',
-      desc: 'Converter of TypeScript definition files to Kotlin declarations (stubs)',
-      href: 'https://github.com/bashor/ts2kt',
-      type: 'github',
-      tags: ['javascript', 'typescript']
-    }, {
-      name: 'shafirov/klogging',
-      desc: 'Kotlin logging, both js and jvm.',
-      href: 'https://github.com/shafirov/klogging',
-      type: 'github',
-      tags: ['javascript', 'logging']
     }]
   }, {
     name: 'Game Development',
@@ -713,16 +707,58 @@ const data: Category[] = [{
       tags: ['pluralize', 'singularizen']
     }, {
       name: 'JoelW-S/groothy',
-      desc: 'Kotlin implementation of Groovy Truth',
+      desc: 'Kotlin implementation of Groovy Truth.',
       href: 'https://github.com/JoelW-S/groothy',
       type: 'github',
       tags: ['groovy truth']
     }, {
       name: 'elect86/kotlin-unsigned',
-      desc: 'boxed unsigned support, Ubyte, Uint, Ulong and Ushort',
+      desc: 'Boxed unsigned support, Ubyte, Uint, Ulong and Ushort.',
       href: 'https://github.com/elect86/kotlin-unsigned',
       type: 'github',
       tags: ['unsigned']
+    }, {
+      name: 'Jire/Strukt',
+      desc: 'Value types on the JVM, today!',
+      href: 'https://github.com/Jire/Strukt',
+      type: 'github',
+      tags: ['gc-free', 'structure']
+    }, {
+      name: 'soywiz/korio',
+      desc: 'Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser.',
+      href: 'https://github.com/soywiz/korio',
+      type: 'github',
+      tags: ['vfs', 'coroutiones', 'io']
+    }, {
+      name: 'soywiz/korim',
+      desc: 'Korim: Kotlin cORoutines IMaging utilities depending on Korio.',
+      href: 'https://github.com/soywiz/korim',
+      type: 'github',
+      tags: ['image', 'coroutiones']
+    }, {
+      name: 'soywiz/korui',
+      desc: 'Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui',
+      href: 'https://github.com/soywiz/korui',
+      type: 'github',
+      tags: ['ui', 'coroutiones']
+    }, {
+      name: 'jimschubert/kopper',
+      desc: 'A simple Kotlin option parser',
+      href: 'https://github.com/jimschubert/kopper',
+      type: 'github',
+      tags: ['cli', 'parser']
+    }, {
+      name: 'moshbit/Kotlift',
+      desc: 'Kotlift is the first source-to-source language transpiler from Kotlin to Swift.',
+      href: 'https://github.com/moshbit/Kotlift',
+      type: 'github',
+      tags: ['swift']
+    }, {
+      name: 'consoleau/kassava',
+      desc: 'This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.',
+      href: 'https://github.com/consoleau/kassava',
+      type: 'github',
+      tags: ['hashCode', 'equals', 'toString']
     }]
   }, {
     name: 'Extensions',
@@ -783,6 +819,51 @@ const data: Category[] = [{
     }]
   }]
 }, {
+  name: 'Kotlin JavaScript',
+  subcategories: [{
+    name: 'JavaScript',
+    links: [{
+      name: 'danfma/kotlinjs-react',
+      desc: 'A react wrapper to the kotlin library.',
+      href: 'https://github.com/danfma/kotlinjs-react',
+      type: 'github',
+      tags: ['react', 'javascript', 'ui']
+    }, {
+      name: 'andrewoma/reakt',
+      desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
+      href: 'https://github.com/andrewoma/reakt',
+      type: 'github',
+      tags: ['react', 'javascript', 'ui']
+    }, {
+      name: 'pixijs/pixi-native',
+      desc: 'The aim of this project is to provide a fast lightweight 2D library that works across all devices.',
+      href: 'https://github.com/pixijs/pixi-native',
+      type: 'github',
+      tags: ['javascript', '2d', 'canvas', 'WebGL']
+    }, {
+      name: 'bashor/ts2kt',
+      desc: 'Converter of TypeScript definition files to Kotlin declarations (stubs)',
+      href: 'https://github.com/bashor/ts2kt',
+      type: 'github',
+      tags: ['javascript', 'typescript']
+    }, {
+      name: 'shafirov/klogging',
+      desc: 'Kotlin logging, both js and jvm.',
+      href: 'https://github.com/shafirov/klogging',
+      type: 'github',
+      tags: ['javascript', 'logging']
+    }]
+  }, {
+    name: 'Frontend',
+    links: [{
+      name: 'olegcherr/Aza-Kotlin-CSS',
+      desc: 'Kotlin DSL for CSS',
+      href: 'https://github.com/olegcherr/Aza-Kotlin-CSS',
+      type: 'github',
+      tags: ['css']
+    }]
+  }]
+},{
   name: 'Projects',
   subcategories: [{
     name: 'Web',
@@ -883,7 +964,7 @@ const data: Category[] = [{
       tags: ['koans']
     }, {
       name: 'JetBrains/kotlin-examples',
-      desc: 'Various examples for Kotlin',
+      desc: 'Various examples for Kotlin.',
       href: 'https://github.com/JetBrains/kotlin-examples',
       type: 'github',
       tags: ['maven', 'gradle', 'android', 'realm', 'buttetknife', 'dagger', 'dbflow', 'junit-test', 'dokka']
@@ -923,6 +1004,12 @@ const data: Category[] = [{
       type: 'github',
       tags: ['examples', 'study']
     }, {
+      name: 'dkandalov/rosettacode-kotlin',
+      desc: 'Repository with source code from RosettaCode',
+      href: 'https://github.com/dkandalov/rosettacode-kotlin',
+      type: 'github',
+      tags: ['examples', 'study']
+    }, {
       name: 'sanity/pairAdjacentViolators',
       desc: 'A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.',
       href: 'https://github.com/sanity/pairAdjacentViolators',
@@ -957,7 +1044,7 @@ const data: Category[] = [{
       tags: ['android']
     }, {
       name: 'JakeWharton/kotterknife',
-      desc: 'View injection library for Android',
+      desc: 'View injection library for Android.',
       href: 'https://github.com/JakeWharton/kotterknife',
       type: 'github',
       tags: ['android']
@@ -1035,22 +1122,28 @@ const data: Category[] = [{
       tags: ['android', 'RecyclerView', 'ViewHolder']
     }, {
       name: 'denisidoro/krouter',
-      desc: 'A lightweight Android activity router',
+      desc: 'A lightweight Android activity router.',
       href: 'https://github.com/denisidoro/krouter',
       type: 'github',
       tags: ['router', 'android']
     }, {
       name: 'metalabdesign/AsyncAwait',
-      desc: 'async/await for Android built upon coroutines introduced in Kotlin 1.1',
+      desc: 'async/await for Android built upon coroutines introduced in Kotlin 1.1.',
       href: 'https://github.com/metalabdesign/AsyncAwait',
       type: 'github',
       tags: ['async', 'await', 'android',]
     }, {
       name: 'jupf/staticlog',
-      desc: 'StaticLog - super lightweight static logging for Kotlin, Java and Android',
+      desc: 'StaticLog - super lightweight static logging for Kotlin, Java and Android.',
       href: 'https://github.com/jupf/staticlog',
       type: 'github',
       tags: ['logging', 'android']
+    }, {
+      name: 'zserge/anvil',
+      desc: 'Minimal UI library for Android inspired by React.',
+      href: 'https://github.com/zserge/anvil',
+      type: 'github',
+      tags: ['android', 'layout']
     }]
   }, {
     name: 'Frameworks',
@@ -1076,7 +1169,7 @@ const data: Category[] = [{
       type: 'github'
     }, {
       name: 'antoniolg/Kotlin-for-Android-Developers',
-      desc: 'Companion App for the book "Kotlin Android Developers"',
+      desc: 'Companion App for the book "Kotlin Android Developers".',
       href: 'https://github.com/antoniolg/Kotlin-for-Android-Developers',
       type: 'github',
       tags: ['android']
@@ -1099,7 +1192,7 @@ const data: Category[] = [{
       tags: ['android', 'application', 'tuner']
     }, {
       name: 'inaka/kotlillon',
-      desc: 'Android Kotlin Examples',
+      desc: 'Android Kotlin Examples.',
       href: 'https://github.com/inaka/kotlillon',
       type: 'github',
       tags: ['android', 'application']
@@ -1127,12 +1220,18 @@ const data: Category[] = [{
       href: 'https://github.com/inorichi/tachiyomi',
       type: 'github',
       tags: ['android', 'application']
+    }, {
+      name: 'ziggy42/Blum-kotlin',
+      desc: 'A simple android Twitter client written in Kotlin',
+      href: 'https://github.com/ziggy42/Blum-kotlin',
+      type: 'github',
+      tags: ['android', 'twitter', 'application']
     }]
   }, {
     name: 'Extensions',
     links: [{
       name: 'ajalt/timberkt',
-      desc: 'Easy Android logging with Kotlin and Timber',
+      desc: 'Easy Android logging with Kotlin and Timber.',
       href: 'https://github.com/ajalt/timberkt',
       type: 'github',
       tags: ['android', 'logging']
@@ -1241,6 +1340,15 @@ const data: Category[] = [{
       href: 'http://kotlin.kr/',
       type: 'kug',
       tags: ['Korea']
+    }]
+  }, {
+    name: 'Australia',
+    links: [{
+      name: 'Brisbane Kotlin User Group',
+      desc: 'Australia',
+      href: 'https://www.meetup.com/Brisbane-Kotlin-User-Group/',
+      type: 'kug',
+      tags: ['Australia']
     }]
   }]
 }];

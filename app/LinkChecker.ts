@@ -11,7 +11,7 @@ function HEAD(url: string): Promise<boolean> {
         'User-Agent': 'Awesome-Kotlin-List'
       }
     }, (error, response, body) => {
-      if (!error && response.statusCode == 200) {
+      if (!error && response.statusCode === 200) {
         resolve(false);
       } else {
         reject({
@@ -32,10 +32,7 @@ const promises = _.flattenDeep<Promise<boolean>>(links.map(category => {
         return HEAD(link.href).catch(error => {
           console.error(`Url '${link.href}' error: '${JSON.stringify(error)}'`);
 
-          if (isWhiteListed(link.href, error.status)) {
-            return false
-          }
-          return true;
+          return !isWhiteListed(link.href, error.status);
         });
       } else {
         return Promise.resolve(false);

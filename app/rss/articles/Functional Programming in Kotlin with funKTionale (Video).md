@@ -1,5 +1,5 @@
 ---
-title: 'Functional Programming in Kotlin with funKTionale'
+title: 'Functional Programming in Kotlin with funKTionale (Video)'
 url: https://www.youtube.com/watch?v=klakgWp1KWg
 categories:
     - Kotlin

@@ -49,7 +49,7 @@ function getHtml(article: Article): string {
   <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - 20 latest" href="/rss.xml" />
-  <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - full archive"href="/rss-full.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - full archive" href="/rss-full.xml" />
   ${getFeatures(article.features)}
 </head>
 <body>
