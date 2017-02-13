@@ -999,7 +999,7 @@ const data: Category[] = [{
       tags: ['examples', 'study']
     }, {
       name: 'dkandalov/rosettacode-kotlin',
-      desc: 'Repository with source code from RosettaCode',
+      desc: 'Repository with source code from [RosettaCode](http://rosettacode.org/).',
       href: 'https://github.com/dkandalov/rosettacode-kotlin',
       type: 'github',
       tags: ['examples', 'study']
@@ -1024,6 +1024,12 @@ const data: Category[] = [{
       href: 'https://github.com/intellij-rust/intellij-rust',
       type: 'github',
       tags: ['idea', 'plugin', 'rust']
+    }, {
+      name: "dkandalov/activity-tracker",
+      desc: "Plugin for IntelliJ IDEs to track and record user activity.",
+      href: "https://github.com/dkandalov/activity-tracker",
+      type: "github",
+      tags: ["idea", "plugin"]
     }]
   }]
 }, {

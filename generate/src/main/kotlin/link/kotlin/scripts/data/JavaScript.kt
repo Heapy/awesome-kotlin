@@ -9,28 +9,28 @@ val javascript = category("Kotlin JavaScript") {
       desc = "Reakt is a Kotlin wrapper for facebook's React library."
       href = "https://github.com/andrewoma/reakt"
       type = github
-      tags = arrayOf("react", "javascript", "ui")
+      tags = Tags["react", "javascript", "ui"]
     }
     link {
       name = "pixijs/pixi-native"
       desc = "The aim of this project is to provide a fast lightweight 2D library that works across all devices."
       href = "https://github.com/pixijs/pixi-native"
       type = github
-      tags = arrayOf("javascript", "2d", "canvas", "WebGL")
+      tags = Tags["javascript", "2d", "canvas", "WebGL"]
     }
     link {
       name = "bashor/ts2kt"
       desc = "Converter of TypeScript definition files to Kotlin declarations (stubs)"
       href = "https://github.com/bashor/ts2kt"
       type = github
-      tags = arrayOf("javascript", "typescript")
+      tags = Tags["javascript", "typescript"]
     }
     link {
       name = "shafirov/klogging"
       desc = "Kotlin logging, both js and jvm."
       href = "https://github.com/shafirov/klogging"
       type = github
-      tags = arrayOf("javascript", "logging")
+      tags = Tags["javascript", "logging"]
     }
   }
   subcategory("Frontend") {
@@ -39,7 +39,7 @@ val javascript = category("Kotlin JavaScript") {
       desc = "Kotlin DSL for CSS"
       href = "https://github.com/olegcherr/Aza-Kotlin-CSS"
       type = github
-      tags = arrayOf("css")
+      tags = Tags["css"]
     }
   }
 }

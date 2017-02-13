@@ -1,6 +1,5 @@
 import {write} from './File';
 import {links} from './Kotlin';
-import {getUID} from './Utils';
 
 write('./README.md', `# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 

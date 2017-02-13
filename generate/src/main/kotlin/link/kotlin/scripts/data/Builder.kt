@@ -41,5 +41,8 @@ class LinkBuilder {
       whitelisted = whitelisted
     )
   }
+}
 
+object Tags {
+  inline operator fun <reified K> get(vararg items: K) = arrayOf(*items)
 }

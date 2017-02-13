@@ -9,7 +9,7 @@ val links = category("Links") {
       name = "JetBrains/kotlin"
       href = "https://github.com/jetbrains/kotlin"
       type = github
-      tags = arrayOf("kotlin")
+      tags = Tags["kotlin"]
     }
     link {
       name = "Home Page"
@@ -48,7 +48,7 @@ val links = category("Links") {
       desc = "Kotlin Evolution and Enhancement Process"
       href = "https://github.com/Kotlin/KEEP"
       type = github
-      tags = arrayOf("keep", "async", "await")
+      tags = Tags["keep", "async", "await"]
     }
   }
   subcategory("Resources") {
@@ -59,7 +59,7 @@ val links = category("Links") {
     link {
       name = "Stackoverflow Documentation on Kotlin"
       href = "http://stackoverflow.com/documentation/kotlin/topics"
-      tags = arrayOf("documentation", "stackoverflow")
+      tags = Tags["documentation", "stackoverflow"]
     }
     link {
       name = "Quora Kotlin"
@@ -91,7 +91,7 @@ val links = category("Links") {
       desc = "Design Patterns implemented in Kotlin."
       href = "https://github.com/dbacinski/Design-Patterns-In-Kotlin"
       type = github
-      tags = arrayOf("Behavioral Patterns", "Creational Patterns", "Structural Patterns")
+      tags = Tags["Behavioral Patterns", "Creational Patterns", "Structural Patterns"]
     }
     link {
       name = "Kotlin Cheat Sheet"
