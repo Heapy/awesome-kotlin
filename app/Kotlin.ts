@@ -488,12 +488,6 @@ const data: Category[] = [{
       href: 'https://github.com/edvin/tornadofx',
       type: 'github',
       tags: ['javafx', 'desktop', 'application']
-    }, {
-      name: 'griffon/griffon-kotlin-plugin',
-      desc: 'Griffon Support',
-      href: 'https://github.com/griffon/griffon-kotlin-plugin',
-      type: 'github',
-      tags: ['griffon']
     }]
   }, {
     name: 'Http Clients',
