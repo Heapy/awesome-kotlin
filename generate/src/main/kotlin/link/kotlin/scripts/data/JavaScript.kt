@@ -5,13 +5,6 @@ import link.kotlin.scripts.LinkType.github
 val javascript = category("Kotlin JavaScript") {
   subcategory("JavaScript") {
     link {
-      name = "danfma/kotlinjs-react"
-      desc = "A react wrapper to the kotlin library."
-      href = "https://github.com/danfma/kotlinjs-react"
-      type = github
-      tags = arrayOf("react", "javascript", "ui")
-    }
-    link {
       name = "andrewoma/reakt"
       desc = "Reakt is a Kotlin wrapper for facebook's React library."
       href = "https://github.com/andrewoma/reakt"

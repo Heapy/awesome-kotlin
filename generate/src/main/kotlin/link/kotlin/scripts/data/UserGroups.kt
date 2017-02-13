@@ -70,13 +70,6 @@ val userGroups = category("Kotlin User Groups") {
       tags = arrayOf("USA")
     }
     link {
-      name = "Chicago Kotlin Users Group"
-      desc = "USA"
-      href = "http://www.meetup.com/Chicago-Kotlin-Users-Group/"
-      type = kug
-      tags = arrayOf("USA")
-    }
-    link {
       name = "Kotlin Group of Boulder"
       desc = "USA"
       href = "http://www.meetup.com/Kotlin-Group-Boulder/"
