@@ -436,13 +436,6 @@ val libraries = category("Libraries/Frameworks") {
       type = github
       tags = arrayOf("javafx", "desktop", "application")
     }
-    link {
-      name = "griffon/griffon-kotlin-plugin"
-      desc = "Griffon Support"
-      href = "https://github.com/griffon/griffon-kotlin-plugin"
-      type = github
-      tags = arrayOf("griffon")
-    }
   }
   subcategory("Http Clients") {
     link {
