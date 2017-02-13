@@ -897,6 +897,12 @@ const data: Category[] = [{
       href: 'https://github.com/corda/corda',
       type: 'github',
       tags: ['p2p', 'blockchain']
+    }, {
+      name: 'spolnik/JAlgoArena',
+      desc: 'JAlgoArena is a highly scalable programming contest platform which you can host on own infrastructure. It allows to define new problems and solve them in Kotlin and Java.',
+      href: 'https://github.com/spolnik/JAlgoArena',
+      type: 'github',
+      tags: ['programming', 'contest']
     }]
   }, {
     name: 'Build tools',
