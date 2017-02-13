@@ -1296,6 +1296,12 @@ const data: Category[] = [{
       type: 'kug',
       tags: ['USA']
     }, {
+      name: 'Chicago Kotlin Users Group',
+      desc: 'USA',
+      href: 'https://www.meetup.com/Chicago-Kotlin/',
+      type: 'kug',
+      tags: ['USA']
+    }, {
       name: 'Kotlin Group of Boulder',
       desc: 'USA',
       href: 'http://www.meetup.com/Kotlin-Group-Boulder/',
