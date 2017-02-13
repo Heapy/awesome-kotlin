@@ -817,12 +817,6 @@ const data: Category[] = [{
   subcategories: [{
     name: 'JavaScript',
     links: [{
-      name: 'danfma/kotlinjs-react',
-      desc: 'A react wrapper to the kotlin library.',
-      href: 'https://github.com/danfma/kotlinjs-react',
-      type: 'github',
-      tags: ['react', 'javascript', 'ui']
-    }, {
       name: 'andrewoma/reakt',
       desc: 'Reakt is a Kotlin wrapper for facebook\'s React library.',
       href: 'https://github.com/andrewoma/reakt',
@@ -903,7 +897,7 @@ const data: Category[] = [{
       href: 'https://github.com/corda/corda',
       type: 'github',
       tags: ['p2p', 'blockchain']
-    } ]
+    }]
   }, {
     name: 'Build tools',
     links: [{
@@ -1299,12 +1293,6 @@ const data: Category[] = [{
       name: 'Bay Area Kotlin User Group',
       desc: 'USA',
       href: 'http://www.meetup.com/Bay-Area-Kotlin-User-Group/',
-      type: 'kug',
-      tags: ['USA']
-    }, {
-      name: 'Chicago Kotlin Users Group',
-      desc: 'USA',
-      href: 'http://www.meetup.com/Chicago-Kotlin-Users-Group/',
       type: 'kug',
       tags: ['USA']
     }, {
