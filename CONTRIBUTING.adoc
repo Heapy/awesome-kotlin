@@ -7,7 +7,7 @@ This awesome list contains two views: standard github page view, and nice websit
 You can contribute in this list in few ways:
 
 1. Create issue with you link. - easiest way, if you doesn't have a lot time or you can't install node.js for some reason.
-2. Edit ./app/Kotlin.js directly, and then run `npm run readme`. - For regular users of node.js.
+2. Edit ./app/Kotlin.js directly, and then run `npm install` and `npm run readme`. - For regular users of node.js.
 
 I really appreciate any of this ways, so please feel free to create issues,
 instead of spending time figuring out of how to install node.js for example.
