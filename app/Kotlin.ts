@@ -1043,6 +1043,12 @@ const data: Category[] = [{
       type: 'github',
       tags: ['android']
     }, {
+      name: 'MarcinMoskala/ActivityStarter',
+      desc: 'Activity starter generator and arguments injection library for Android.',
+      href: 'https://github.com/MarcinMoskala/ActivityStarter',
+      type: 'github',
+      tags: ['android']
+    }, {
       name: 'nsk-mironov/kotlin-jetpack',
       desc: 'A collection of useful extension methods for Android.',
       href: 'https://github.com/nsk-mironov/kotlin-jetpack',
