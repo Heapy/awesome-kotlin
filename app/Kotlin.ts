@@ -1055,6 +1055,12 @@ const data: Category[] = [{
       type: 'github',
       tags: ['android']
     }, {
+      name: 'MarcinMoskala/KotlinPreferences',
+      desc: 'Kotlin Android Library, that makes preference usage simple and fun.',
+      href: 'https://github.com/MarcinMoskala/KotlinPreferences',
+      type: 'github',
+      tags: ['android']
+    }, {
       name: 'nsk-mironov/kotlin-jetpack',
       desc: 'A collection of useful extension methods for Android.',
       href: 'https://github.com/nsk-mironov/kotlin-jetpack',
