@@ -26,6 +26,13 @@ val android = category("Android") {
       tags = Tags["android"]
     }
     link {
+      name = "MarcinMoskala/KotlinPreferences"
+      desc = "Kotlin Android Library, that makes preference usage simple and fun."
+      href = "https://github.com/MarcinMoskala/KotlinPreferences"
+      type = github
+      tags = Tags["android", "preferences"]
+    }
+    link {
       name = "nsk-mironov/kotlin-jetpack"
       desc = "A collection of useful extension methods for Android."
       href = "https://github.com/nsk-mironov/kotlin-jetpack"
