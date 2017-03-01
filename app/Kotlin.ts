@@ -261,6 +261,12 @@ const data: Category[] = [{
       type: 'github',
       tags: ['di', 'dependency injection']
     }, {
+      name: 'kailan/kodeinject',
+      desc: 'Constructor dependency injection for Kodein',
+      href: 'https://github.com/kailan/kodeinject',
+      type: 'github',
+      tags: ['di', 'dependency injection', 'kodein']
+    }, {
       name: 'kohesive/injekt',
       desc: '(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin',
       href: 'https://github.com/kohesive/injekt',

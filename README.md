@@ -183,6 +183,7 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
 * [SalomonBrys/Kodein](https://github.com/SalomonBrys/Kodein) - Painless Kotlin Dependency Injection .
+* [kailan/kodeinject](https://github.com/kailan/kodeinject) - Constructor dependency injection for Kodein
 * [kohesive/injekt](https://github.com/kohesive/injekt) - (Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
