@@ -184,6 +184,13 @@ val libraries = category("Libraries/Frameworks") {
       type = github
       tags = Tags["di", "dependency injection"]
     }
+    link {
+      name = "kailan/kodeinject"
+      desc = "Constructor dependency injection for Kodein"
+      href = "https://github.com/kailan/kodeinject"
+      type = github
+      tags = Tags["di", "dependency injection", "kodein"]
+    }
   }
   subcategory("Functional Programming") {
     link {
