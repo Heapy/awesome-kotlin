@@ -770,6 +770,13 @@ val libraries = category("Libraries/Frameworks") {
       type = github
       tags = Tags["configuration"]
     }
+    link {
+      name = "config4k/config4k"
+      desc = "A Kotlin wrapper for Typesafe Config"
+      href = "https://github.com/config4k/config4k"
+      type = github
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
