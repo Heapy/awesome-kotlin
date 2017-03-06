@@ -53,6 +53,9 @@ dependencies {
     compile("io.bootique:bootique:0.21")
     compile("io.bootique.logback:bootique-logback:0.13")
 
+    compile("com.rometools:rome:1.7.0")
+    compile("com.github.dfabulich:sitemapgen4j:1.0.6")
+
     compile("com.squareup.okhttp3:okhttp:3.5.0")
 
     testCompile("junit:junit:4.12")

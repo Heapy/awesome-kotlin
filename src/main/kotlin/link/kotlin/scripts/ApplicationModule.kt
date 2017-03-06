@@ -8,12 +8,14 @@ import io.bootique.BQCoreModule
 import io.bootique.config.ConfigurationFactory
 import link.kotlin.scripts.commands.BuildCommand
 import link.kotlin.scripts.commands.ReadmeCommand
+import link.kotlin.scripts.commands.SitemapCommand
 import link.kotlin.scripts.data.allLinks
 
 class ApplicationModule : Module {
     override fun configure(binder: Binder) {
         arrayOf(
             BuildCommand::class,
+            SitemapCommand::class,
             ReadmeCommand::class
         ).forEach {
             BQCoreModule
@@ -32,4 +34,8 @@ class ApplicationModule : Module {
     @Singleton
     @Provides
     fun createReadmeGenerator(): ReadmeGenerator = DefaultReadmeGenerator(allLinks)
+
+    @Singleton
+    @Provides
+    fun createSitemapGenerator(): SitemapGenerator = DefaultSitemapGenerator(allLinks)
 }
