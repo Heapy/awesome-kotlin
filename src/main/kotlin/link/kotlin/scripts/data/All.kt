@@ -1,6 +1,10 @@
 package link.kotlin.scripts.data
 
-val allLinks = listOf(
+import link.kotlin.scripts.Category
+
+typealias Links = List<Category>
+
+val allLinks: Links = listOf(
   links,
   libraries,
   javascript,

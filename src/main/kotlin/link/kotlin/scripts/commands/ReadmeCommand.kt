@@ -1,15 +1,22 @@
 package link.kotlin.scripts.commands
 
 import com.google.inject.Inject
+import com.google.inject.Provider
 import io.bootique.cli.Cli
 import io.bootique.command.CommandOutcome
 import io.bootique.command.CommandWithMetadata
 import io.bootique.meta.application.CommandMetadata
+import link.kotlin.scripts.ReadmeGenerator
+import java.nio.file.Files
+import java.nio.file.Paths
 
 class ReadmeCommand @Inject constructor(
+    private val readmeGeneratorProvider: Provider<ReadmeGenerator>
 ) : CommandWithMetadata(commandMetadata) {
 
     override fun run(cli: Cli): CommandOutcome {
+        val readme = readmeGeneratorProvider.get().generate()
+        Files.write(Paths.get("README.md"), readme.toByteArray())
         return CommandOutcome.succeeded()
     }
 }
