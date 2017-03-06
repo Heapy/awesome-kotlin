@@ -1,5 +1,9 @@
 node_modules
-.idea
 npm-debug.log
 dist
 app/LinksWithStars.json
+
+# Kotlin/Gradle/Idea
+.idea
+.gradle
+build

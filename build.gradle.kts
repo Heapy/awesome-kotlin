@@ -5,13 +5,9 @@ import org.gradle.api.tasks.wrapper.Wrapper
 import org.gradle.script.lang.kotlin.compile
 import org.gradle.script.lang.kotlin.configure
 import org.gradle.script.lang.kotlin.dependencies
-import org.gradle.script.lang.kotlin.maven
 import org.gradle.script.lang.kotlin.repositories
 import org.gradle.script.lang.kotlin.task
 import org.gradle.script.lang.kotlin.testCompile
-
-group = "link.kotlin.awesome"
-version = "0.1.0"
 
 buildscript {
     repositories {
@@ -23,7 +19,7 @@ buildscript {
 
     dependencies {
         classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1-M04")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.0")
     }
 }
 
@@ -50,12 +46,12 @@ repositories {
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib:1.1-M04")
-    compile("org.jetbrains.kotlin:kotlin-reflect:1.1-M04")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-async:0.2-beta")
+    compile("org.jetbrains.kotlin:kotlin-stdlib:1.1.0")
+    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.0")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-core:0.12")
 
-    compile("io.bootique:bootique:0.20")
-    compile("io.bootique.logback:bootique-logback:0.12")
+    compile("io.bootique:bootique:0.21")
+    compile("io.bootique.logback:bootique-logback:0.13")
 
     compile("com.squareup.okhttp3:okhttp:3.5.0")
 
@@ -63,7 +59,7 @@ dependencies {
 }
 
 task(name = "wrapper", type = Wrapper::class) {
-    gradleVersion = "3.3"
+    gradleVersion = "3.4"
     distributionUrl = "http://services.gradle.org/distributions/gradle-$gradleVersion-bin.zip"
 }
 
