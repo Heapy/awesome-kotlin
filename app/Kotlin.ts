@@ -1322,6 +1322,12 @@ const data: Category[] = [{
       href: 'https://www.meetup.com/kotlin-berlin/',
       type: 'kug',
       tags: ['Germany']
+    }, {
+      name: 'Kotlin User Group Cologne',
+      desc: 'Germany',
+      href: 'https://www.meetup.com/Kotlin-User-Group-Cologne/',
+      type: 'kug',
+      tags: ['Germany']
     }]
   }, {
     name: 'America',
