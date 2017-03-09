@@ -60,6 +60,13 @@ val userGroups = category("Kotlin User Groups") {
       type = kug
       tags = Tags["Germany"]
     }
+    link {
+      name = "Kotlin User Group Cologne"
+      desc = "Germany"
+      href = "https://www.meetup.com/Kotlin-User-Group-Cologne/"
+      type = kug
+      tags = Tags["Germany"]
+    }
   }
   subcategory("America") {
     link {
