@@ -1068,8 +1068,14 @@ const data: Category[] = [{
       tags: ['android']
     }, {
       name: 'MarcinMoskala/KotlinPreferences',
-      desc: 'Kotlin Android Library, that makes preference usage simple and fun.',
+      desc: 'Kotlin Android Library, that makes preference usage in Kotlin simple and fun.',
       href: 'https://github.com/MarcinMoskala/KotlinPreferences',
+      type: 'github',
+      tags: ['android']
+    },  {
+      name: 'MarcinMoskala/KotlinPreferencesObject',
+      desc: 'Kotlin Android Library, that makes preference usage in Kotlin simple and fun using single object with fields binded to SharedPreferences.',
+      href: 'https://github.com/MarcinMoskala/KotlinPreferencesObject',
       type: 'github',
       tags: ['android']
     }, {
