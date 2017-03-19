@@ -20,7 +20,7 @@ val links = category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (5500+ users)"
+      name = "Slack (6200+ users)"
       href = "http://kotlinslackin.herokuapp.com/"
     }
     link {
