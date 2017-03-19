@@ -139,7 +139,7 @@ const data: Category[] = [{
       desc: 'Kotlin DSL for HTML.',
       href: 'https://github.com/Kotlin/kotlinx.html',
       type: 'github',
-      tags: ['html']
+      tags: ['web', 'html']
     }, {
       name: 'MarioAriasC/KotlinPrimavera',
       desc: 'Spring support libraries for Kotlin.',
@@ -182,6 +182,12 @@ const data: Category[] = [{
       href: 'https://github.com/vert-x3/vertx-lang-kotlin/',
       type: 'github',
       tags: ['web', 'vert.x']
+    }, {
+      name: 'olegcherr/Aza-Kotlin-CSS',
+      desc: 'Kotlin DSL for CSS',
+      href: 'https://github.com/olegcherr/Aza-Kotlin-CSS',
+      type: 'github',
+      tags: ['web', 'css']
     }]
   }, {
     name: 'Tests',

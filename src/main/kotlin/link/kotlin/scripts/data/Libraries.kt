@@ -38,7 +38,7 @@ val libraries = category("Libraries/Frameworks") {
       desc = "Kotlin DSL for HTML."
       href = "https://github.com/Kotlin/kotlinx.html"
       type = github
-      tags = Tags["html"]
+      tags = Tags["web", "html"]
     }
     link {
       name = "MarioAriasC/KotlinPrimavera"
@@ -88,6 +88,13 @@ val libraries = category("Libraries/Frameworks") {
       href = "https://github.com/vert-x3/vertx-lang-kotlin/"
       type = github
       tags = Tags["web", "vert.x"]
+    }
+    link {
+      name = "olegcherr/Aza-Kotlin-CSS"
+      desc = "Kotlin DSL for CSS"
+      href = "https://github.com/olegcherr/Aza-Kotlin-CSS"
+      type = github
+      tags = Tags["web", "css"]
     }
   }
   subcategory("Tests") {
