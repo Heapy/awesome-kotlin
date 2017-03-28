@@ -96,6 +96,12 @@ val libraries = category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "css"]
     }
+    link {
+      name = "jooby/kotlin"
+      desc = "Kotlin idioms for Jooby microframework"
+      href = "http://jooby.org/doc/lang-kotlin"
+      tags = Tags["web", "jooby", "microframework"]
+    }
   }
   subcategory("Tests") {
     link {
