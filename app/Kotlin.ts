@@ -188,6 +188,11 @@ const data: Category[] = [{
       href: 'https://github.com/olegcherr/Aza-Kotlin-CSS',
       type: 'github',
       tags: ['web', 'css']
+    }, {
+      name: 'jooby/kotlin',
+      desc: 'Kotlin idioms for Jooby microframework',
+      href: 'http://jooby.org/doc/lang-kotlin',
+      tags: ['web', 'jooby', 'microframework']
     }]
   }, {
     name: 'Tests',
