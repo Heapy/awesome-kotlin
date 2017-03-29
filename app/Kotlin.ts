@@ -1185,6 +1185,12 @@ const data: Category[] = [{
       href: 'https://github.com/zserge/anvil',
       type: 'github',
       tags: ['android', 'layout']
+    }, {
+      name: 'DanielMartinus/Stepper-Touch',
+      desc: 'Fun playful Android stepper widget for counting, written in Kotlin.',
+      href: 'https://github.com/DanielMartinus/Stepper-Touch',
+      type: 'github',
+      tags: ['widget', 'android', 'counter', 'ui']
     }]
   }, {
     name: 'Frameworks',
