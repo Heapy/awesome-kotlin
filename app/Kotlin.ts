@@ -193,6 +193,11 @@ const data: Category[] = [{
       desc: 'Kotlin idioms for Jooby microframework',
       href: 'http://jooby.org/doc/lang-kotlin',
       tags: ['web', 'jooby', 'microframework']
+    }, {
+      name: 'gimlet2/kottpd',
+      desc: 'REST framework in pure Kotlin, inspired by spark-java',
+      href: 'https://github.com/gimlet2/kottpd',
+      tags: ['web', 'REST', 'http']
     }]
   }, {
     name: 'Tests',
