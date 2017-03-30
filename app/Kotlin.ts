@@ -770,6 +770,12 @@ const data: Category[] = [{
       href: 'https://github.com/consoleau/kassava',
       type: 'github',
       tags: ['hashCode', 'equals', 'toString']
+    }, {
+      name: 'moove-it/fakeit',
+      desc: 'Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment.',
+      href: 'https://github.com/moove-it/fakeit',
+      type: 'github',
+      tags: ['testing', 'android', 'utility']
     }]
   }, {
     name: 'Extensions',
