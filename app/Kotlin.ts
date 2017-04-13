@@ -1155,9 +1155,9 @@ const data: Category[] = [{
       type: 'github',
       tags: ['android', 'annotation processing']
     }, {
-      name: 'graknol/AnvilKotlin',
+      name: 'andre-artus/AnvilKotlin',
       desc: 'Minimal UI library for Android inspired by React.',
-      href: 'https://github.com/graknol/AnvilKotlin',
+      href: 'https://github.com/andre-artus/AnvilKotlin',
       type: 'github',
       tags: ['android', 'react', 'view']
     }, {
