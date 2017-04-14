@@ -1,13 +1,25 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.data.Links
+import com.redfin.sitemapgenerator.WebSitemapGenerator
+import java.io.File
+
 
 interface SitemapGenerator {
-    fun generate(): String
+    fun generate(articles: List<Article>): String
 }
 
-class DefaultSitemapGenerator(val links: Links) : SitemapGenerator {
-    override fun generate(): String {
-        return "https://github.com/dfabulich/sitemapgen4j"
+class DefaultSitemapGenerator : SitemapGenerator {
+    override fun generate(articles: List<Article>): String {
+        val wsg = WebSitemapGenerator
+            .builder("https://kotlin.link/", File(""))
+            .build()
+
+        wsg.addUrl("https://kotlin.link/")
+
+        articles.forEach {
+            wsg.addUrl("https://kotlin.link/articles/${it.filename}")
+        }
+
+        return wsg.writeAsStrings().joinToString(separator = "\n")
     }
 }

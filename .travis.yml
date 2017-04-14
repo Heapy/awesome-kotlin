@@ -1,7 +1,10 @@
 language: node_js
-node_js: 6
+node_js: 7
 addons:
   ssh_known_hosts: kotlin.link
+  apt:
+    packages:
+      - oracle-java8-installer
 before_script:
   - npm test
   - openssl aes-256-cbc -K $encrypted_83630750896a_key -iv $encrypted_83630750896a_iv -in deploy@morty.enc -out ~/.ssh/deploy@morty -d
@@ -12,3 +15,9 @@ script:
   - bash ./deploy.sh
 cache:
   yarn: true
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
