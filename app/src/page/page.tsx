@@ -1,65 +1,105 @@
-import * as React from 'react';
-import {Head} from '../head/head';
-import {Search} from '../search/search';
-import {Category} from '../category/category';
+import * as React from "react";
+import {Head} from "../head/head";
+import {Search} from "../search/search";
+import {Category} from "../category/category";
+import {withRouter} from "react-router";
+import {searchString} from "../locations";
 
-const styles = require('./page.less');
+const styles = require("./page.less");
 
-const toLower = string => string.toLowerCase();
-const matches = (search, text) => {
-  return text && toLower(text).includes(toLower(search));
-};
+const data = require("../../LinksWithStars.json");
 
-export class Page extends React.Component<PageProps, PageState> {
+function reduceCategory(category, searchTerm) {
+  const subcategories = category.subcategories.reduce(function (acc, subcategory) {
+    const subcategoryFiltered = reduceSubcategory(subcategory, searchTerm);
+
+    if (subcategoryFiltered.links.length) {
+      acc.push(subcategoryFiltered);
+    }
+
+    return acc;
+  }, []);
+
+  return {
+    name: category.name,
+    subcategories
+  }
+}
+
+function reduceSubcategory(subcategory, searchTerm) {
+  const links = subcategory.links.reduce(function (acc, link) {
+    if (linkMatches(link, searchTerm)) {
+      acc.push(link);
+    }
+    return acc;
+  }, []);
+
+  console.log(links);
+
+  return {
+    name: subcategory.name,
+    links
+  }
+}
+
+function linkMatches(link, searchTerm) {
+  if (matches(searchTerm, link.name)) {
+    return true;
+  } else if (matches(searchTerm, link.desc)) {
+    return true;
+  } else if (link.tags && link.tags.filter(tag => matches(searchTerm, tag)).length) {
+    return true;
+  }
+
+  return false;
+}
+
+function filterData(categories, value) {
+  const searchTerm = toLower(value);
+
+  return categories.reduce(function (acc, category) {
+    const categoryFiltered = reduceCategory(category, searchTerm);
+
+    if (categoryFiltered.subcategories.length) {
+      acc.push(categoryFiltered);
+    }
+
+    return acc;
+  }, []);
+}
+
+class PageComponent extends React.Component<PageProps, PageState> {
   constructor(props) {
     super(props);
-    this.state = {data: this.props.categories};
+    this.state = {data: data};
   }
 
-  filterData(categories, value) {
-    const clonedCategories = JSON.parse(JSON.stringify(categories));
-    const searchTerm = toLower(value);
-
-    return clonedCategories.filter(category => {
-      category.subcategories = category.subcategories.filter(subcategory => {
-        subcategory.links = subcategory.links.filter(link => {
-          if (matches(searchTerm, link.name)) {
-            return true;
-          } else if (matches(searchTerm, link.desc)) {
-            return true
-          } else if (link.tags && link.tags.filter(tag => matches(searchTerm, tag)).length) {
-            return true;
-          } else {
-            return false;
-          }
-        });
-
-        return subcategory.links.length;
-      });
-
-      return category.subcategories.length;
+  onSearchValueChanged = (value) => {
+    this.props.router.push({
+      search: searchString({...this.props.location.query, q: value})
     });
-  }
 
-  onSearchValueChanged(value) {
     if (value) {
-      this.setState({data: this.filterData(this.props.categories, value)});
+      this.setState({data: filterData(data, value)});
     } else {
-      this.setState({data: this.props.categories});
+      this.setState({data: data});
     }
-  }
+  };
 
   render() {
     return (
       <div>
         <a href="https://github.com/KotlinBy/awesome-kotlin">
           <img className={styles.page_github_link}
-               src={require('./forkme_right_white_ffffff.png')}
+               src={require("./forkme_right_white_ffffff.png")}
                alt="Fork me on GitHub"/></a>
-        <Head />
-        <Search onChange={this.onSearchValueChanged.bind(this)}/>
+
+        <Head/>
+
+        <Search onChange={this.onSearchValueChanged}/>
+
         {this.state.data.map((category, i) => {
-          return <Category category={category} number={i} key={i}/>;
+          return <Category category={category} key={i}/>;
         })}
       </div>
     );
@@ -67,9 +107,20 @@ export class Page extends React.Component<PageProps, PageState> {
 }
 
 interface PageProps {
-  readonly categories: any;
+  router: any;
+  location: any;
 }
 
 interface PageState {
   readonly data: any;
+}
+
+export const Page = withRouter(PageComponent);
+
+function toLower(string) {
+  return string.toLowerCase();
+}
+
+function matches(search, text) {
+  return text && toLower(text).includes(toLower(search));
 }
