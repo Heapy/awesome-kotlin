@@ -1,4 +1,3 @@
-
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.gradle.api.Project
 import org.gradle.api.plugins.ApplicationPluginConvention
@@ -48,13 +47,13 @@ repositories {
 }
 
 configure<KotlinProjectExtension> {
-  experimental.coroutines = Coroutines.ENABLE
+    experimental.coroutines = Coroutines.ENABLE
 }
 
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.1")
     compile("org.jetbrains.kotlin:kotlin-reflect:1.1.1")
-     compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.14.1")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.14.1")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
 

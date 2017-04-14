@@ -9,6 +9,10 @@ indent_size=4
 indent_style=space
 indent_size=2
 
+[build.gradle.kts]
+indent_style=space
+indent_size=4
+
 [*.ts]
 indent_style=space
 indent_size=2
