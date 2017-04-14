@@ -30,7 +30,13 @@ data class Article(
     val filename: String = "",
     val prev: String = "",
     val next: String = "",
-    val lang: LanguageCodes = EN
+    val lang: LanguageCodes = EN,
+    val enclosure: Enclosure? = null
+)
+
+data class Enclosure(
+    val url: String,
+    val size: Int
 )
 
 /**
