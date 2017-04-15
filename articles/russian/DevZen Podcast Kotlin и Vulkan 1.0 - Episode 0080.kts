@@ -1,15 +1,12 @@
----
-title: '(RU) DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.'
-url: http://devzen.ru/episode-0080/
-categories:
-    - Podcast
-    - Kotlin
-author: DevZen Podcast
-date: Feb 20, 2016 11:34
-enclosure:
-    url: 'http://devzen.ru/download/2016/devzen-0080-2016-02-19-3280e712a2cc1485.mp3'
-    size: 55240704
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.Enclosure
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Темы выпуска: Сравнение разных конфигурации сети в Kubernetes, Kotlin наконец вышел в версии 1.0, Vulkan тоже вышел в 1.0, критическая уязвимость в glibc, ZFS в Ubuntu 16.04, снова Rust, и про Монады. И, конечно, ответы на вопросы слушателей.
 
 Шоу нотес:
@@ -44,3 +41,23 @@ enclosure:
 * Using non-blocking and asynchronous I/O (CK10 problem) in Linux and Windows (with epool, iocp, libevent/libev/libuv/boost.asio and librt/libaio) | Rui’s Blog
 * Запах монад по утрам — Прогулки по воде
 * Темы и вопросы слушателей для 0080 « DevZen Podcast
+
+"""
+
+Article(
+  title = "DevZen Podcast: Kotlin и Vulkan 1.0 — Episode 0080.",
+  url = "http://devzen.ru/episode-0080/",
+  categories = listOf(
+    "Podcast",
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "DevZen Podcast",
+  date = LocalDate.of(2016, 2, 20),
+  body = body,
+  enclosure = Enclosure(
+    url = "http://devzen.ru/download/2016/devzen-0080-2016-02-19-3280e712a2cc1485.mp3",
+    size = 55240704
+  )
+)

@@ -1,11 +1,11 @@
----
-title: 'Kotlin без магии'
-url: http://javanese.online/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Kotlin_%D0%B1%D0%B5%D0%B7_%D0%BC%D0%B0%D0%B3%D0%B8%D0%B8/
-categories:
-    - Kotlin
-author: Mike Gorunov
-date: Dec 28, 2016 04:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Обычно, когда открываешь для себя новый язык программирования, некоторые его конструкции выглядят, как магия. Например, for-each loop в Java:
 
 ```kotlin
@@ -36,7 +36,7 @@ String third = "first: " + first + "; hashCode: " + first.hashCode();
 def personDetails = [firstName:'John', lastName:'Doe', age:25]
 ```
 
-Какой класс у personDetails? ```HashMap```, ```TreeMap```, ```LinkedHashMap```, ```Collections$UnmodifiableMap```?
+Какой класс у personDetails? ```HashMap```, ```TreeMap```, ```LinkedHashMap```, ```Collections${'$'}UnmodifiableMap```?
 
 ## Что там про Kotlin?
 
@@ -51,3 +51,18 @@ def personDetails = [firstName:'John', lastName:'Doe', age:25]
 В конструкции ```val personDetails = mapOf("firstName" to "John", "lastName" to "Doe", "age" to 25)``` можно заглянуть в реализацию ```mapOf``` (также есть ```mutableMapOf```, ```hashMapOf```, ```linkedMapOf```) и в реализацию ```to``` (```infix fun <a, b="">A.to(that: B): Pair <a, b="">= Pair(this, that)</a,></a,>```).
 
 Лично для меня при всём синтаксическом разнообразии и гибкости Kotlin код на нём остаётся очень понятным. Можно создавать свои функции, которые благодаря модификаторам ```operator```, ```inline``` и ```infix``` выглядят как языковые конструкции, но всегда можно посмотреть в их реализацию, и нигде не будет чего-то вроде ```*тут магия компилятора*```.
+
+"""
+
+Article(
+  title = "Kotlin без магии",
+  url = "http://javanese.online/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Kotlin_%D0%B1%D0%B5%D0%B7_%D0%BC%D0%B0%D0%B3%D0%B8%D0%B8/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "Mike Gorunov",
+  date = LocalDate.of(2016, 12, 28),
+  body = body
+)

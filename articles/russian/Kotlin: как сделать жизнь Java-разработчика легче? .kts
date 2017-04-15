@@ -1,13 +1,11 @@
----
-title: 'Kotlin: как сделать жизнь Java-разработчика легче?'
-url: https://dev.by/lenta/anadea/kotlin-kak-sdelat-zhizn-java-razrabotchika-legche
-lang: ru
-categories:
-    - Kotlin
-    - Android
-author: Stanislav Sinitsky, Alexander Mikhalchenko
-date: Dec 7, 2016 03:19
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 15 февраля 2016 года компания JetBrains выпустила версию 1.0 языка Kotlin, находившегося в разработке около пяти лет. Работает этот язык поверх JVM. Что такое Java, мы уже рассмотрели в отдельной статье с Александром Михальченко. Сегодня мы снова собрались с ним, на этот раз для разговора о Kotlin - о том, чем хорош этот язык и чем плох, как для разработчиков, так и для предпринимателей.
 
 **Привет, Саш.**  
@@ -73,3 +71,19 @@ Kotlin и другие JVM-языки помогли разработчикам 
 Несомненным преимуществом является полная совместимость с Java, в том числе и обратная. Все библиотеки для Java будут работать на Kotlin и наоборот. Также этот язык открывает прелести тех же Closure и Scala для Android-разработчиков. Порадуются и предприниматели, ведь теперь проекты будут делаться быстрее и дешевле.
 
 Минус у языка один - его юный возраст. Однако, судя по тому, что JetBrains целых пять лет потратили на его разработку, очень сомнительно, что они забросят своё детище в ближайшие годы. Поэтому уже сейчас можно и нужно брать Kotlin на вооружение - тем более, если вы разрабатываете приложения для Android.
+
+"""
+
+Article(
+  title = "Kotlin: как сделать жизнь Java-разработчика легче?",
+  url = "https://dev.by/lenta/anadea/kotlin-kak-sdelat-zhizn-java-razrabotchika-legche",
+  categories = listOf(
+    "Kotlin",
+    "Android"
+  ),
+  type = article,
+  lang = RU,
+  author = "Stanislav Sinitsky, Alexander Mikhalchenko",
+  date = LocalDate.of(2016, 12, 7),
+  body = body
+)

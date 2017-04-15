@@ -1,13 +1,11 @@
----
-title: 'Kotlin: Будущие изменения и текущие мифы'
-url: https://www.youtube.com/watch?v=d6795d1aN3U
-categories:
-    - Kotlin
-    - Android
-author: Android в Лицах
-type: video
-date: Dec 20, 2016 12:58
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.video
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Kotlin очень хорошо зашёл в сообщество Android разработчиков, в то же время множество разработчиков всё так же опасаются попробовать использовать в production.
 В этом выпуске я пригласил Яна Жуланова, из компании Jetbrains, одного из разработчиков Kotlin, а именно специализирующемся на Kotlin для Android.
 Вместе мы обсудим почему вас стоит попробовать Kotlin, если вы его ещё не пробовали, обсудим популярные мифы и опасения о Kotlin и обсудим какие новости нам ожидают c Kotlin в ближайшем будущем.
@@ -32,3 +30,19 @@ Kotlin очень хорошо зашёл в сообщество Android раз
 * Kotlin Discussions – http://bit.ly/2h66tsU
 
 <iframe width="960" height="480" src="https://www.youtube.com/embed/d6795d1aN3U" frameborder="0" allowfullscreen></iframe>
+
+"""
+
+Article(
+  title = "Kotlin: Будущие изменения и текущие мифы",
+  url = "https://www.youtube.com/watch?v=d6795d1aN3U",
+  categories = listOf(
+    "Kotlin",
+    "Android"
+  ),
+  type = video,
+  lang = RU,
+  author = "Android в Лицах",
+  date = LocalDate.of(2016, 12, 20),
+  body = body
+)

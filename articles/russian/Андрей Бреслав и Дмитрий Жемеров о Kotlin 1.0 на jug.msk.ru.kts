@@ -1,11 +1,11 @@
----
-title: '(RU) Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru'
-url: https://habrahabr.ru/post/279667/
-categories:
-    - Kotlin
-author: Дмитрий Белобородов
-date: Mar 22, 2016 00:37
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 17 марта 2016 года прошла встреча [jug.msk.ru](http://jug.msk.ru/) с Андреем Бреславом и Дмитрием Жемеровым, посвящённая выпуску версии 1.0 языка программирования Kotlin. Далее рассказывается о прошедшей встрече подробнее.
 
 ![КПВД](https://habrastorage.org/files/c29/a51/0ef/c29a510efb444bb4bc8b18f8ad740523.jpg)
@@ -92,3 +92,18 @@ date: Mar 22, 2016 00:37
 * [Kotlin Educational Plugin](http://blog.jetbrains.com/kotlin/2016/03/kotlin-educational-plugin/) (выпущен в день встречи, 17 марта).
 
 Фото и видео будут доступны [здесь](http://vk.com/jugmsk) и [здесь](https://plus.google.com/communities/115981831554057619568). На рассылку о следующих встречах _jug.msk.ru_ подписаться можно [здесь](http://jug.msk.ru).
+
+"""
+
+Article(
+  title = "Андрей Бреслав и Дмитрий Жемеров о Kotlin 1.0 на jug.msk.ru",
+  url = "https://habrahabr.ru/post/279667/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "Дмитрий Белобородов",
+  date = LocalDate.of(2016, 3, 22),
+  body = body
+)

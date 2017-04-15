@@ -1,11 +1,11 @@
----
-title: '(RU) Kotlin для начинающих'
-url: https://habrahabr.ru/post/278277/
-categories:
-    - Kotlin
-author: '@Devcolibri'
-date: Mar 02, 2016 15:18
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Уже не мало нашумел Kotlin в мире программирования, не мало профессиональных инженеров уже обратил на него внимание, но также есть и те кому он не симпатизирует.
 
 ![Kotlin](https://habrastorage.org/files/a52/453/729/a52453729bd64cb3b5ca8a4892e45cc1.png)
@@ -31,3 +31,18 @@ https://www.youtube.com/watch?v=frw1DpNm_ms
 
 Пока планирую выкладывать два видео в неделю, весь список будет [тут](https://goo.gl/yegW0d).
 Спасибо за ваше внимание, и надеюсь, данная информация кому-то будет полезно!
+
+"""
+
+Article(
+  title = "Kotlin для начинающих",
+  url = "https://habrahabr.ru/post/278277/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "@Devcolibri",
+  date = LocalDate.of(2016, 3, 2),
+  body = body
+)

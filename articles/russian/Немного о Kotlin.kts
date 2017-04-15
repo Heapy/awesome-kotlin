@@ -1,12 +1,11 @@
----
-title: '(RU) Немного о Kotlin.'
-url: https://habrahabr.ru/post/277479/
-categories:
-    - Kotlin
-    - Review
-author: '@fogone'
-date: Feb 20, 2016  08:25
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 ![Kotlin](https://habrastorage.org/getpro/habr/post_images/b30/fc2/317/b30fc231752f0d1d270b4c80538a28dc.jpg)
 
 
@@ -123,7 +122,7 @@ class World(val name:String = "world")
 val printName:World.()->Unit = {
      // интерполяцией в синтаксисе языка сейчас уже
      // никого не привлечь на темную сторону
-    println("Hello $name")
+    println("Hello ${"$"}name")
 }
 
 val world = World()
@@ -276,3 +275,19 @@ val (a, b) = someFunc()
 ## В заключение
 
 Одной статьёй невозможно охватить все особенности и аспекты языка, но я и не пытался. Моей задачей было познакомить с языком, может быть обратить на него внимание. Тот, кто заинтересовался, сможет найти больше в [документации](https://kotlinlang.org/docs/reference/), посмотреть [исходники](https://github.com/JetBrains/kotlin), [попробовать](http://try.kotlinlang.org/), [задать вопрос](https://habrahabr.ru/company/JetBrains/blog/277573/). Сложно предсказать популярность этого языка, но уже сейчас видно, что такого продукта многие ждали, проекты на котлине появляются как грибы, а после релиза частота их появления увеличится еще. По моему впечатлению, языка хорошо сбалансирован и продуман — во время написания кода, складывается ощущение, что всё на своем месте. Если вы используете jvm или любой другой язык со сборкой мусора, есть смысл обратить внимание на котлин. Лично для меня, котлин — это тот инструмент, которого я долго ждал и теперь не представляю, как мог бы обходиться без него.
+
+"""
+
+Article(
+  title = "Немного о Kotlin.",
+  url = "https://habrahabr.ru/post/277479/",
+  categories = listOf(
+    "Kotlin",
+    "Review"
+  ),
+  type = article,
+  lang = RU,
+  author = "@fogone",
+  date = LocalDate.of(2016, 2, 20),
+  body = body
+)

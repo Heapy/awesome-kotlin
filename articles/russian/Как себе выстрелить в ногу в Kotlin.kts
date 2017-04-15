@@ -1,12 +1,11 @@
----
-title: 'Как себе выстрелить в ногу в Kotlin'
-url: https://habrahabr.ru/post/278169/
-categories:
-    - Puzzlers
-    - Kotlin
-author: '@ov7a'
-date: Feb 29, 2016 06:24
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 > Пост-наброс
 
 ## Как себе выстрелить в ногу в Kotlin
@@ -236,10 +235,10 @@ val c = C()
 >     val b = B()
 >     val c = C()
 >     val d = D()
->     println("${a.javaClass}, ${a.param}")
->     println("${b.javaClass}, ${b.param}")
->     println("${c.javaClass}, ${c.param}")
->     println("${d.javaClass}, ${d.param}")
+>     println("${"$"}{a.javaClass}, ${"$"}{a.param}")
+>     println("${"$"}{b.javaClass}, ${"$"}{b.param}")
+>     println("${"$"}{c.javaClass}, ${"$"}{c.param}")
+>     println("${"$"}{d.javaClass}, ${"$"}{d.param}")
 > }
 > ```
 >
@@ -321,7 +320,7 @@ SlowPoke().test()
 >     val twentySecondParam = 10
 >     /*tons of code*/
 >     fun initSecondParam(): Int{
->         println("Initializing by default with $twentySecondParam")
+>         println("Initializing by default with ${"$"}twentySecondParam")
 >         return twentySecondParam
 >     }
 >
@@ -332,7 +331,7 @@ SlowPoke().test()
 >     val twentySecondParam = "Default value of param"
 >     /*tons of code*/
 >     fun initSecondParam(): String{
->         println("Initializing by default with $twentySecondParam")
+>         println("Initializing by default with ${"$"}twentySecondParam")
 >         return twentySecondParam
 >     }
 > }
@@ -360,7 +359,7 @@ SlowPoke().test()
 >     val twentySecondParam = 10
 >     /*tons of code*/
 >     def initSecondParam(): Int = {
->       println(s"Initializing by default with $twentySecondParam")
+>       println(s"Initializing by default with ${"$"}twentySecondParam")
 >       twentySecondParam
 >     }
 >
@@ -372,7 +371,7 @@ SlowPoke().test()
 >     val twentySecondParam = "Default value of param"
 >     /*tons of code*/
 >     def initSecondParam(): String = {
->       println(s"Initializing by default with $twentySecondParam")
+>       println(s"Initializing by default with ${"$"}twentySecondParam")
 >       twentySecondParam
 >     }
 >
@@ -591,13 +590,13 @@ first {
 > > Exception in thread "main" java.lang.VerifyError: Operand stack underflow
 > > Exception Details:
 > >   Location:
-> >     Infix2$Second$.equals$extension(Lscala/runtime/BoxedUnit;Ljava/lang/Object;)Z @40: pop
+> >     Infix2${"$"}Second$.equals${"$"}extension(Lscala/runtime/BoxedUnit;Ljava/lang/Object;)Z @40: pop
 > >   Reason:
 > >     Attempt to pop empty stack.
 > >   Current Frame:
 > >     bci: @40
 > >     flags: { }
-> >     locals: { 'Infix2$Second/pre>, 'scala/runtime/BoxedUnit', 'java/lang/Object', 'java/lang/Object', integer }
+> >     locals: { 'Infix2${"$"}Second/pre>, 'scala/runtime/BoxedUnit', 'java/lang/Object', 'java/lang/Object', integer }
 > >     stack: { }
 > >   Bytecode:
 > >     0000000: 2c4e 2dc1 0033 9900 0904 3604 a700 0603
@@ -647,7 +646,7 @@ applier ("no arg") {
 
 ```kotlin
 fun applier(x: String, func: () -> Unit){
-    println("not applying $x")
+    println("not applying ${"$"}x")
     func()
 }
 ```
@@ -676,7 +675,7 @@ applier ("no arg") { -> //yes, explicit!
 >   }
 >
 >   def applier(x: String, func: () => Unit){
->     println("not applying $x")
+>     println("not applying ${"$"}x")
 >     func()
 >   }
 >
@@ -709,8 +708,8 @@ cache.put("foo", "bar")
 
 fun getter(key: String) {
     cache.get(key)?.let {
-        println("Got $key from cache: $it")
-    } ?: println("$key is not in cache!")
+        println("Got ${"$"}key from cache: ${"$"}it")
+    } ?: println("${"$"}key is not in cache!")
 }
 
 getter("foo")
@@ -730,8 +729,8 @@ cache.put("foo", "bar")
 
 fun getter(key: String) {
     cache.get(key)?.let {
-        println("Got $key from cache: $it")
-    } ?: println("$key is not in cache!")
+        println("Got ${"$"}key from cache: ${"$"}it")
+    } ?: println("${"$"}key is not in cache!")
 }
 
 getter("foo")
@@ -769,8 +768,8 @@ getter("IAmNull")
 >
 >     def getter(key: String) {
 >       cache.get(key) match {
->         case Some(value) => println(s"Got $key from cache: $value")
->         case None => println(s"$key is not in cache!")
+>         case Some(value) => println(s"Got ${"$"}key from cache: ${"$"}value")
+>         case None => println(s"${"$"}key is not in cache!")
 >       }
 >     }
 >
@@ -820,3 +819,19 @@ P.S. Хабровская подсветка Kotlin хромает, надеюс
 #### UPD: Выстрелы от комментаторов (буду обновлять)
 
 [Неочевидный приоритет оператора elvis](https://habrahabr.ru/post/278169/#comment_8786835). Автор — [senia](https://habrahabr.ru/users/senia/).
+
+"""
+
+Article(
+  title = "Как себе выстрелить в ногу в Kotlin",
+  url = "https://habrahabr.ru/post/278169/",
+  categories = listOf(
+    "Puzzlers",
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "@ov7a",
+  date = LocalDate.of(2016, 2, 29),
+  body = body
+)

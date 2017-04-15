@@ -1,15 +1,12 @@
----
-title: '(RU) SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains'
-url: https://sdcast.ksdaemon.ru/2016/03/sdcast-41/
-categories:
-    - Kotlin
-    - Podcast
-author: 'Андрей Бреслав, Константин Буркалев'
-date: Mar 11, 2016 21:54
-enclosure:
-    url: https://sdcast.ksdaemon.ru/podlove/file/159/s/download/SDCast-41.ogg
-    size: 22683272
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.Enclosure
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 ![sd-podcast-logo](https://sdcast.ksdaemon.ru/wp-content/uploads/2014/06/sd-podcast-logo-200x200.png) Рад представить вам 41-й выпуск подкаста! Этот эпизод посвящен языку Kotlin, у меня в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains.
 
 В начале выпуска мы поговорили о том, зачем вообще нужен еще один язык, Андрей рассказал про историю и предпосылки появления Kotlin, как все начиналось и развивалось.
@@ -38,3 +35,23 @@ enclosure:
   * [Kotlin для Android: коротко и ясно](https://www.youtube.com/watch?v=VU_L2_XGQ9s)
   * [Kotlin: сессия вопросов и ответов со встречи JUG.ru 04.03.2016](https://www.youtube.com/watch?v=YOmdOTlhZa8)
 
+
+"""
+
+Article(
+  title = "SDCast #41: в гостях Андрей Бреслав, руководитель проекта Kotlin в компании JetBrains",
+  url = "https://sdcast.ksdaemon.ru/2016/03/sdcast-41/",
+  categories = listOf(
+    "Kotlin",
+    "Podcast"
+  ),
+  type = article,
+  lang = RU,
+  author = "Андрей Бреслав, Константин Буркалев",
+  date = LocalDate.of(2016, 3, 11),
+  body = body,
+  enclosure = Enclosure(
+    url = "https://sdcast.ksdaemon.ru/podlove/file/159/s/download/SDCast-41.ogg",
+    size = 22683272
+  )
+)

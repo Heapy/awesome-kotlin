@@ -1,12 +1,11 @@
----
-title: '(RU) Kotlin 1.0. Задай вопрос команде.'
-url: https://habrahabr.ru/company/JetBrains/blog/277573/
-categories:
-    - JetBrains
-    - Kotlin
-author: Роман Белов
-date: Feb 19, 2016 16:30
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 ## Kotlin 1.0. Задай вопрос команде
 
 На этой неделе случилось важное для нас событие — [вышла первая версия](http://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/) языка программирования [Kotlin](http://kotlinlang.org/)! Так как почти вся разработка Kotlin велась в Питерском офисе компании JetBrains, многие хабровчане уже знают, что такое Kotlin и пробовали его на практике, поэтому этот пост больше для комментариев: задавайте любые вопросы и команда Kotlin ответит. Мы онлайн!
@@ -29,3 +28,19 @@ date: Feb 19, 2016 16:30
 * Мы планируем вскоре зарелизить поддержку JavaScript и Java 8
 * У нас есть своя онлайн-песочница: [http://try.kotl.in](http://try.kotl.in/) В ней есть серия задачек [Kotlin Koans](http://try.kotl.in/koans), которые помогают освоиться с языком буквально за несколько часов. Действительно за несколько часов! Также у нас отличная документация на [официальном сайте](http://kotlinlang.org/docs/reference/).
 * Мы открыты! Kotlin [разрабатывается на GitHub](https://github.com/JetBrains/kotlin), под лицензией Apache 2.0. Но самое главное, мы всегда внимательно прислушиваемся ко всему входящему фидбеку, так что теперь слово вам:
+
+"""
+
+Article(
+  title = "Kotlin 1.0. Задай вопрос команде.",
+  url = "https://habrahabr.ru/company/JetBrains/blog/277573/",
+  categories = listOf(
+    "JetBrains",
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "Роман Белов",
+  date = LocalDate.of(2016, 2, 19),
+  body = body
+)

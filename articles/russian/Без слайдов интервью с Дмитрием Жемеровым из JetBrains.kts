@@ -1,11 +1,11 @@
----
-title: '(RU) Без слайдов: интервью с Дмитрием Жемеровым из JetBrains'
-url: https://habrahabr.ru/company/jugru/blog/263905/
-categories:
-    - Kotlin
-author: 'Алексей Фёдоров'
-date: Jul 31, 2015 12:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Сегодня пятница, а пятница на хабре — это отличный день для чего-то необычного. Сегодня я предлагаю вашему вниманию интервью с **Дмитрием [yole](https://habrahabr.ru/users/yole/) Жемеровым**, человеком, который приложил руку и к IntelliJ IDEA, PyCharm, Kotlin и многим другим продуктам компании JetBrains.
 
 О чем мы поговорили:
@@ -384,3 +384,18 @@ Kotlin — новый язык программирования для JVM, Andr
 * * *
 
 Этот и другие доклады Joker 2015 — **[на сайте конференции](http://jokerconf.com/#talks)**.
+
+"""
+
+Article(
+  title = "Без слайдов: интервью с Дмитрием Жемеровым из JetBrains",
+  url = "https://habrahabr.ru/company/jugru/blog/263905/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = RU,
+  author = "Алексей Фёдоров",
+  date = LocalDate.of(2015, 7, 31),
+  body = body
+)
