@@ -1,11 +1,11 @@
----
-title: 'Kotlin for Java Developers: 10 Features You Will Love About Kotlin'
-url: http://petersommerhoff.com/dev/kotlin/kotlin-for-java-devs/
-categories:
-    - Kotlin
-author: Peter Sommerhoff
-date: Dec 12, 2015 10:06
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 # Kotlin for Java Developers: 10 Features You Will Love About Kotlin
 
 Kotlin is a statically typed JVM language built by Jetbrains, the makers of the IntelliJ IDE. [Kotlin](https://kotlinlang.org/) is built upon Java and provides useful features such as null-safety, data classes, extensions, functional concepts, smart casts, operator overloading and more.
@@ -208,7 +208,7 @@ Let’s look at some **lazily evaluated conditional expressions**:
 
 ```kotlin
 if (document is Payable && document.pay()) {  // Smart cast
-    println("Payable document ${document.title} was payed for.")
+    println("Payable document ${"$"}{document.title} was payed for.")
 }
 ```
 
@@ -218,7 +218,7 @@ The same goes for disjunction:
 
 ```kotlin
 if (document !is Payable || document.pay() == false) {  // Smart cast
-    println("Cannot pay document ${document.title}.")
+    println("Cannot pay document ${"$"}{document.title}.")
 }
 ```
 
@@ -276,7 +276,7 @@ println(numbers.drop(2))  // List without first two elements: [13, -9, 12]
 
 println(numbers.foldRight(0, { a, b -> a + b }))  // Sum of all elements: -9
 
-numbers.forEach { print("${it * 2} ") }  // -84 34 26 -18 24
+numbers.forEach { print("${"$"}{it * 2} ") }  // -84 34 26 -18 24
 
 ---
 
@@ -438,3 +438,18 @@ Next, Kotlin also supports the principle to either design for inheritance or pro
 **If this overview made you curious** to learn more about Kotlin, you can [check out my 10 beginner tutorial videos for Kotlin](http://petersommerhoff.com/dev/kotlin/kotlin-beginner-tutorial/) or **[go straight to the full course](https://www.udemy.com/kotlin-course/?couponCode=READERSONLY9USD) (with 95% reader discount)**.
 
 **The course is beginner-friendly and starts completely from scratch.** If you already know Java or a comparable language, you’ll still find it a valuable resource to get to know Kotlin.
+
+"""
+
+Article(
+  title = "Kotlin for Java Developers: 10 Features You Will Love About Kotlin",
+  url = "http://petersommerhoff.com/dev/kotlin/kotlin-for-java-devs/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Peter Sommerhoff",
+  date = LocalDate.of(2015, 12, 12),
+  body = body
+)

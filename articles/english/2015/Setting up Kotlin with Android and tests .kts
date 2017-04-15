@@ -1,12 +1,11 @@
----
-title: 'Setting up Kotlin with Android and tests'
-url: http://engineering.pivotal.io/post/setting-up-kotlin-with-android-and-tests/
-categories:
-    - Kotlin
-    - Android
-author: Laura Kogler
-date: Nov 11, 2015 14:39
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 
 I recently heard about [Kotlin](https://kotlinlang.org/) with the release of their 1.0 Beta last week. Kotlin is a modern programming language that runs in the JVM and is interoperable with Java. Kotlin can also be used to create Android apps.
 
@@ -97,3 +96,19 @@ class ExampleUnitTest : Spek() {
 
 ## Conclusion
 Kotlin seems like a promising new language with a lot of features that make it nicer to use than Java.  Setting up a "Hello World" Android app was extremely simple, and getting tests to run with Robolectric or the Android instrumentation runner was no problem.  I look forward to trying it out more in the future!
+
+"""
+
+Article(
+  title = "Setting up Kotlin with Android and tests",
+  url = "http://engineering.pivotal.io/post/setting-up-kotlin-with-android-and-tests/",
+  categories = listOf(
+    "Kotlin",
+    "Android"
+  ),
+  type = article,
+  lang = EN,
+  author = "Laura Kogler",
+  date = LocalDate.of(2015, 11, 11),
+  body = body
+)

@@ -1,11 +1,11 @@
----
-title: 'Why Kotlin is my next programming language'
-url: https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3
-categories:
-    - Kotlin
-author: Mike Hearn
-date: Jul 06, 2015 22:39
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/1600/1*YnF7hY2ymS54iTNLuxVT8A.jpeg)
 _A lighthouse on Kotlin Island, Russia_
@@ -52,3 +52,18 @@ Earlier this year I presented Kotlin to a team of Java and .NET architects at Sw
 I think Kotlin hits the sweet spot for enterprise Java devs, so even though Kotlin is free I expect JetBrains to make a killing from increased sales of the commercial version of their IDE. This will incentivise them to keep improving it according to the wishes of their customers.
 
 Contrast this with many other language developers who are subsidised by unrelated products, meaning they have little reason to respond to the demands of their users when those demands conflict with pre-held ideologies.
+
+"""
+
+Article(
+  title = "Why Kotlin is my next programming language",
+  url = "https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Mike Hearn",
+  date = LocalDate.of(2015, 7, 6),
+  body = body
+)

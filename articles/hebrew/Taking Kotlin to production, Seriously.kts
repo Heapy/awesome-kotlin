@@ -1,6 +1,7 @@
+
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.video
 import link.kotlin.scripts.LanguageCodes.HE
+import link.kotlin.scripts.LinkType.video
 import java.time.LocalDate
 
 // language=Markdown
@@ -13,14 +14,14 @@ Haim Yadid is leading backend development in Next insurance. Developing in Java 
 """
 
 Article(
-    title = "Taking Kotlin to production, Seriously",
-    url = "https://www.youtube.com/watch?v=qSFch-3ULAw",
-    categories = listOf(
-        "Kotlin"
-    ),
-    type = video,
-    lang = HE,
-    author = "Haim Yadid",
-    date = LocalDate.of(2016, 12, 9),
-    body = body
+  title = "Taking Kotlin to production, Seriously",
+  url = "https://www.youtube.com/watch?v=qSFch-3ULAw",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = video,
+  lang = HE,
+  author = "Haim Yadid",
+  date = LocalDate.of(2016, 12, 9),
+  body = body
 )

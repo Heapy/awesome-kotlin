@@ -1,11 +1,11 @@
----
-title: 'Exploring the Kotlin Standard Library - Part 3'
-url: http://jamie.mccrindle.org/2013/02/exploring-kotlin-standard-library-part-3.html
-categories:
-    - Kotlin
-author: Jamie McCrindle
-date: Feb 07, 2013 09:04
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 In [Part 1](http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html) and [Part 2](http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-2.html) of this series, I went through the default Kotlin namespace and kotlin.io. In Part 3 I'll be going over kotlin.concurrent.
 
 The public functions in kotlin.concurrent are all utilities for creating timers, threads or timer tasks e.g.
@@ -145,3 +145,18 @@ val tryLockResult = tryLock.tryLock({
     // run if we couldn't get a lock
 });
 ```
+
+"""
+
+Article(
+  title = "Exploring the Kotlin Standard Library - Part 3",
+  url = "http://jamie.mccrindle.org/2013/02/exploring-kotlin-standard-library-part-3.html",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Jamie McCrindle",
+  date = LocalDate.of(2013, 2, 7),
+  body = body
+)

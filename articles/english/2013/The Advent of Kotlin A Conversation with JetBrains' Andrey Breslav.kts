@@ -1,11 +1,11 @@
----
-title: 'The Advent of Kotlin: A Conversation with JetBrains'' Andrey Breslav'
-url: http://www.oracle.com/technetwork/articles/java/breslav-1932170.html
-categories:
-    - Kotlin
-author: Janice J. Heiss
-date: Apr 02, 2013 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 **Learn about Kotlin, a new statically typed language for the JVM.**
 
 _Among the important Java software developments in recent years is the advent of such alternative languages for the JVM as Groovy, Jython, and JRuby—and, more recently, the rise of Scala. A new statically typed language, Kotlin, named after a Russian island off the coast of St. Petersburg, where Kotlin's Andrey Breslav and the Kotlin team reside, has recently been getting attention. A brainchild of the highly lauded Czech software development company JetBrains, maker of the Java IDE IntelliJ IDEA, Kotlin was named Language of the Month in the_ [_January 2012 issue of_ Dr. Dobb's Journal](http://www.drdobbs.com/jvm/language-of-the-month-kotlin/232600836?pgno=2).
@@ -180,3 +180,18 @@ Janice J. Heiss is the Java acquisitions editor at Oracle and a technology edito
 ## Join the Conversation
 
 Join the Java community conversation on [Facebook](https://www.facebook.com/ilovejava), [Twitter](https://twitter.com/#!/java), and the [Java Source Blog](https://blogs.oracle.com/java/)!
+
+"""
+
+Article(
+  title = "The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav",
+  url = "http://www.oracle.com/technetwork/articles/java/breslav-1932170.html",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Janice J. Heiss",
+  date = LocalDate.of(2013, 4, 2),
+  body = body
+)

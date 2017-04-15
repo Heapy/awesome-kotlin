@@ -1,13 +1,11 @@
----
-title: 'RxAndroid and Kotlin (Part 1)'
-url: 'https://medium.com/@ahmedrizwan/rxandroid-and-kotlin-part-1-f0382dc26ed8#.bx3rgamfo'
-categories:
-    - Kotlin
-    - RxAndroid
-    - Android
-author: Ahmed Rizwan
-date: Jun 27, 2015 11:16
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 ![](https://d262ilb51hltx0.cloudfront.net/max/2000/1*bTttcFdSLyvWIPg91OaNEw.png)
 
 ### RxAndroid and Kotlin (Part 1)
@@ -394,3 +392,20 @@ Here are some awesome resources for Rx that I recommend. Do check these out! I w
 * [PhilosophicalHacker Blog on Rx](http://www.philosophicalhacker.com/2015/06/12/an-introduction-to-rxjava-for-android/)
 * [Implementing EventBus in Rx](http://nerds.weddingpartyapp.com/tech/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/)
 * [RxKotlin](https://github.com/ReactiveX/RxKotlin)
+
+"""
+
+Article(
+  title = "RxAndroid and Kotlin (Part 1)",
+  url = "https://medium.com/@ahmedrizwan/rxandroid-and-kotlin-part-1-f0382dc26ed8#.bx3rgamfo",
+  categories = listOf(
+    "Kotlin",
+    "RxAndroid",
+    "Android"
+  ),
+  type = article,
+  lang = EN,
+  author = "Ahmed Rizwan",
+  date = LocalDate.of(2015, 6, 27),
+  body = body
+)

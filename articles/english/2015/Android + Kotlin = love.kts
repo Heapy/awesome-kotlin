@@ -1,12 +1,11 @@
----
-title: 'Android + Kotlin = <3'
-url: http://blog.zuehlke.com/en/android-kotlin/
-categories:
-    - Kotlin
-    - Android
-author: Michael Sattler
-date: Jul 20, 2015 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 The Android SDK has come a long way since its early days to make developing for Android as comfortable and efficient as possible. Yet there’s one thing that still gets in our way: The Java language. While more modern languages like C# or Swift make it possible to write code that is elegant and at the same time easy to read and understand, we’re still stuck with Java 7 for Android Development. Its cumbersome syntax for executing code on a different thread asynchronously, for example, or the fact that you require separate libs for even the most basic tasks like null-safe string comparison really make it a pain for development.
 
 ## A New Hope
@@ -44,7 +43,7 @@ When adding a property to your class, you don’t write the backing field and ge
 public var context: Context? = null
     get
     set (value) {
-        $context = value
+        ${"$"}context = value
         if (context != null) {
             setupBluetooth()
         }
@@ -117,7 +116,7 @@ When passing Lambdas to functions, they are usually in-lined in the function cal
 
 ```kotlin
 private var myCallback: Function1<String, Unit> = { param1: String ->
-    println("Hi $param1")
+    println("Hi ${"$"}param1")
 }
 ```
 
@@ -174,7 +173,7 @@ use { // Now "this" is the SQLiteDatabase, opened for read/write
                 "title" to item.title,
                 "checked" to item.checked)
     } catch (exception: SQLiteException) { // SQL exceptions can still occur, of course
-        error("INSERT threw exception: $exception")
+        error("INSERT threw exception: ${"$"}exception")
     }
 } // At the end of the block the DB is automatically closed
 ```
@@ -192,7 +191,7 @@ use {
             parseList(classParser<ShoppingItem>())
         }
     } catch (exception: SQLiteException) {
-        error("SELECT threw exception: $exception")
+        error("SELECT threw exception: ${"$"}exception")
     }
 }
 // Now process the result list
@@ -205,3 +204,19 @@ And this is just the tip of the iceberg! Anko also provides simplified mechanism
 ## Conclusion
 
 Having tried out Kotlin in the context of Android development now, I can definitely see it becoming my new language of choice for Android development. It’s well made, mature and makes coding an absolute joy. The official Android documentation may be written for Java, but it’s easy to “translate” it to Kotlin, so any Android developer should definitely give Kotlin & Anko a try. Here’s hoping that Google will provide an Android API reference & guide in Kotlin in the near future, and that it will eventually become the de-facto standard for Android!
+
+"""
+
+Article(
+  title = "Android + Kotlin = <3",
+  url = "http://blog.zuehlke.com/en/android-kotlin/",
+  categories = listOf(
+    "Kotlin",
+    "Android"
+  ),
+  type = article,
+  lang = EN,
+  author = "Michael Sattler",
+  date = LocalDate.of(2015, 7, 20),
+  body = body
+)

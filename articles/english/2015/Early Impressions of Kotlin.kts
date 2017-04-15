@@ -1,11 +1,11 @@
----
-title: 'Early Impressions of Kotlin'
-url: http://natpryce.com/articles/000815.html
-categories:
-    - Kotlin
-author: Nat Pryce
-date: Dec 30, 2015 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 We’ve been using the [Kotlin](https://kotlinlang.org) programming language for a few weeks on our latest project to perform technical experiments, explore the problem space, and write a few HTTP services. I’ve also ported [Hamcrest](https://github.com/hamcrest/JavaHamcrest) to Kotlin, as [HamKrest](https://github.com/npryce/hamkrest), to help us write tests, and written a small library for [type safe configuration](https://github.com/npryce/konfig) of our services.
 
 ## Why Kotlin?
@@ -155,3 +155,17 @@ For object-oriented programming, Kotlin’s concise syntax for class definitions
 However, most Java out there is monomorphic, procedural code moving data between “[NOJOs](http://puttingtheteaintoteam.blogspot.co.uk/2008/10/is-that-pojo-or-nojo.html)” and APIs that expect objects to have “bean” getters and setters. Kotlin has made working with that kind of API much easier and far more concise than doing so in Java.
 
 1.  As far as I can tell, RedHat sponsor development of Ceylon but do not actually use it to develop their own products. If I’m wrong, please let me know in the comments.[↩](#fnref1)
+"""
+
+Article(
+  title = "Early Impressions of Kotlin",
+  url = "http://natpryce.com/articles/000815.html",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Nat Pryce",
+  date = LocalDate.of(2015, 12, 30),
+  body = body
+)

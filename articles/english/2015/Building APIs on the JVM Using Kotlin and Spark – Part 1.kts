@@ -1,11 +1,11 @@
----
-title: 'Building APIs on the JVM Using Kotlin and Spark – Part 1'
-url: http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/
-categories:
-    - Kotlin
-author: Travis Spencer
-date: Aug 06, 2015 09:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 ![Building-APIs-JVM-kotlin-spark-java-nordic-apis-pt-1](http://nordicapis.com/wp-content/uploads/Building-APIs-JVM-kotlin-spark-java-nordic-apis-pt-1.png)
 
 When you start a new API project, one of the first questions to answer is what programming language to use. Picking the right one can make all the difference. Some languages help solve certain problems while others inhibit solutions. Even after a language is chosen and tens-of-thousands of lines of code have been written, there is the possibility of reducing complexity by using new languages on the same **runtime**.
@@ -377,3 +377,18 @@ _[Disclosure: PayPal is a sponsor of the Java Stockholm meetup being produced by
 
 
 
+
+"""
+
+Article(
+  title = "Building APIs on the JVM Using Kotlin and Spark – Part 1",
+  url = "http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Travis Spencer",
+  date = LocalDate.of(2015, 8, 6),
+  body = body
+)

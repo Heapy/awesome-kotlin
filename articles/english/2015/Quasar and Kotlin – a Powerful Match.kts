@@ -1,13 +1,11 @@
----
-title: 'Quasar and Kotlin - a Powerful Match'
-url: http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/
-categories:
-    - Kotlin
-    - Quasar
-    - Fibers
-author: Fabio
-date: Jun 04, 2015 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 June 04, 2015
 
 Following the release of [Kotlin M12](http://blog.jetbrains.com/kotlin/2015/05/kotlin-m12-is-out/) and of [Quasar 0.7.0](http://blog.paralleluniverse.co/2015/05/29/quasar-pulsar-0-7-0/) introducing support for it, let’s now have a closer look at how Kotlin and Quasar work together.
@@ -296,3 +294,20 @@ Kotlin has loads of other advanced and convenient features that make it a pleasu
 6. This is possible only with inline lambdas. [↩](#fnref:only-inline)
 7. This is likely to become only a warning in the future. [↩](#fnref:public-api)
 
+
+"""
+
+Article(
+  title = "Quasar and Kotlin - a Powerful Match",
+  url = "http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/",
+  categories = listOf(
+    "Kotlin",
+    "Quasar",
+    "Fibers"
+  ),
+  type = article,
+  lang = EN,
+  author = "Fabio",
+  date = LocalDate.of(2015, 6, 4),
+  body = body
+)

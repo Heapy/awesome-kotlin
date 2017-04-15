@@ -1,11 +1,11 @@
----
-title: 'Exploring the Kotlin standard library'
-url: http://beust.com/weblog/2015/10/30/exploring-the-kotlin-standard-library/
-categories:
-    - Kotlin
-author: 'Cédric Beust'
-date: Oct 30, 2015 17:30
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 [Standard.kt](https://github.com/JetBrains/kotlin/blob/master/libraries/stdlib/src/kotlin/util/Standard.kt) is part of the Kotlin library and it defines some essential functions. What’s really striking about this source file is that it’s less than fifty lines long and that each of the function it defines (less than ten) is a one liner. Yet, each of these functions is very powerful. Here is a quick overview of the most important ones.
 
 ## let()
@@ -170,3 +170,18 @@ fun readProperties() = Properties().apply {
 The `apply()` call tells us that the type of this expression is that of the object `apply()` is invoked on, which is `Properties`. Inside this block, `this` is now of type `Properties`, which allows us to call `load()` on it directly. In between, we create a `FileInputStream` that we use to populate this property object. And once we call `use()` on it, that `FileInputStream` will be automatically closed before this function returns, saving us from the ugly `try/catch/finally` combo that Java requires.
 
 You will find a lot of these constructs in the [Kobalt build tool](http://beust.com/kobalt) code, feel free to browse it.
+
+"""
+
+Article(
+  title = "Exploring the Kotlin standard library",
+  url = "http://beust.com/weblog/2015/10/30/exploring-the-kotlin-standard-library/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Cédric Beust",
+  date = LocalDate.of(2015, 10, 30),
+  body = body
+)

@@ -1,11 +1,11 @@
----
-title: 'The Adventurous Developer’s Guide to JVM languages – Kotlin'
-url: http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/
-categories:
-    - Kotlin
-author: Simon Maple
-date: Jan 23, 2013 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 In this post we will focus on [Kotlin](http://kotlin.jetbrains.org/), with a simple [HTTP Server coding example](https://github.com/sjmaple/Kotlin-HTTP-Server) to showcase the language features and coding syntax.
 
 [![](http://devnet.jetbrains.net/servlet/JiveServlet/showImage/2-5456865-25537/KotlinLogo.png)](http://devnet.jetbrains.net/servlet/JiveServlet/showImage/2-5456865-25537/KotlinLogo.png)
@@ -141,3 +141,18 @@ I’d like to look back in 6 months or a year to see how Kotlin has evolved, and
 **Don’t forget to check out the [HTTP Server sample Kotlin code on Github](https://github.com/sjmaple/Kotlin-HTTP-Server).**
 
 _Psst! If you liked this post, [we wrote a 50-page RebelLabs report](http://zeroturnaround.com/rebellabs/devs/the-adventurous-developers-guide-to-jvm-languages/) on Java 8, Scala, Groovy, Fantom, Clojure, Ceylon, Kotlin & Xtend._
+
+"""
+
+Article(
+  title = "The Adventurous Developer’s Guide to JVM languages – Kotlin",
+  url = "http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Simon Maple",
+  date = LocalDate.of(2013, 1, 23),
+  body = body
+)

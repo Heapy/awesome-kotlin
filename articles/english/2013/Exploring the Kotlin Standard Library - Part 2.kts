@@ -1,11 +1,11 @@
----
-title: 'Exploring the Kotlin Standard Library - Part 2'
-url: http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-2.html
-categories:
-    - Kotlin
-author: Jamie McCrindle
-date: Jan 25, 2013 07:58
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 In [Part 1](http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html) of this series, I went through the default Kotlin namespace. In Part 2 I'll be going over [kotlin.io](http://jetbrains.github.com/kotlin/versions/snapshot/apidocs/kotlin/io/package-summary.html).
 
 Most of the public function in kotlin.io are overloaded versions of print and println, which all delegate to System.out.
@@ -148,3 +148,18 @@ File("/tmp/helloworld.bin").writeBytes("Hello World!".getBytes())
 // write Hello World as bytes to /tmp/helloworld.txt
 File("/tmp/helloworld.txt").writeText("Hello World!")
 ```
+
+"""
+
+Article(
+  title = "Exploring the Kotlin Standard Library - Part 2",
+  url = "http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-2.html",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Jamie McCrindle",
+  date = LocalDate.of(2013, 1, 25),
+  body = body
+)

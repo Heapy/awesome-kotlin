@@ -1,11 +1,11 @@
----
-title: 'Production Ready Kotlin'
-url: https://www.linkedin.com/grp/post/7417237-6042285669181648896
-categories:
-    - Kotlin
-author: Jayson Minard
-date: Aug 26, 2015 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 I see a lot of people asking "Is Kotlin ready for production?" ... maybe these are people that are not already using Kotlin wanting a bit of comfort before they put effort into their own investigation. Most people I know that do actually use Kotlin daily think it is obvious Kotlin is already ready. here is why:
 
 - If it compiles, it runs perfectly
@@ -33,3 +33,18 @@ To help out, my company is open-sourcing anything we can, and are taking this ap
 "We will open-source anything we can that does not hurt our competitiveness, we will document it, release it on maven central, we will keep it up to date to any Kotlin milestone/release changes, we will integrate nicely with other Kotlin libraries, we will report all bugs and issues to Kotlin YouTrack and follow up with testing; and we will not stop supporting Kotlin until every one of the key players in Kotlin sphere show up at a bar in Dublin, and we all agree to quit together. Until then, we are all in."
 
 If you are a Kotlin supporter, step up your support because Kotlin can be the biggest player in the JVM space, is the best candidate, and deserves help from those that benefit from its existence.
+
+"""
+
+Article(
+  title = "Production Ready Kotlin",
+  url = "https://www.linkedin.com/grp/post/7417237-6042285669181648896",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Jayson Minard",
+  date = LocalDate.of(2015, 8, 26),
+  body = body
+)

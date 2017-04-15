@@ -1,16 +1,11 @@
----
-title: 'Quasar: Efficient and Elegant Fibers, Channels and Actors'
-url: http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/
-type: webinar
-categories:
-    - Kotlin
-    - Webinar
-    - Fibers
-    - Channels
-    - Actors
-author: Roman Belov
-date: Sep 21, 2015 09:40
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 The recording of our September 16th webinar, **Quasar: Efficient and Elegant Fibers, Channels and Actors**, is now available on [JetBrainsTV YouTube channel](https://youtu.be/Nmob2MB2Qo8).
 
 In this webinar, Fabio Tudone shows how to use Quasar for creation of highly concurrent software. He covers basics of Kotlin syntax and shows how Quasar uses Kotlin strengths to offer concise and expressive API.
@@ -40,3 +35,22 @@ Thanks to all the attendees for the questions! If you still have some, please, c
 You are welcome to suggest themes for future webinars in comments.
 
 _Let’s kotlin!_
+
+"""
+
+Article(
+  title = "Quasar: Efficient and Elegant Fibers, Channels and Actors",
+  url = "http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/",
+  categories = listOf(
+    "Kotlin",
+    "Webinar",
+    "Fibers",
+    "Channels",
+    "Actors"
+  ),
+  type = webinar,
+  lang = EN,
+  author = "Roman Belov",
+  date = LocalDate.of(2015, 9, 21),
+  body = body
+)

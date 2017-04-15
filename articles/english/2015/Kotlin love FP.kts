@@ -1,12 +1,11 @@
----
-title: 'Kotlin ❤ FP'
-url: https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a
-categories:
-    - Kotlin
-    - Functional
-author: Mike Hearn
-date: Sep 18, 2015 21:52
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 #### Functional programming in Kotlin, a new language from JetBrains
 
 I did [a video tutorial on FP in Kotlin](http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/), which can be viewed online.
@@ -36,14 +35,14 @@ Kotlin doesn’t need a Maybe type because it has optionality as a built in part
 
 ```kotlin
 val s: String? = if (Math.random() < 0.5) "Yay!" else null
-println("length of string is .... ${s.length()}")
+println("length of string is .... ${"$"}{s.length()}")
 ```
 
 Here, we get a compile error on the second line, because we’re trying to read the length of a string we might not actually have, depending on a coin flip. There’s a simple fix:
 
 ```kotlin
 val s: String? = if (Math.random() < 0.5) "Yay!" else null
-println("length of string is .... ${s?.length() ?: -1}")
+println("length of string is .... ${"$"}{s?.length() ?: -1}")
 ```
 
 Here, s?.length() will yield null if s was null, and the ?: operator uses the right hand side if the left hand side is null. So this prints -1 if the coin flip didn’t yield the string.
@@ -87,7 +86,7 @@ fun printUser(username: String) {
     val rec = lookupFromDB(username)
     when (rec) {
         is Maybe.None -> println("not found")
-        is Maybe.Just<User> -> println("${rec.t.age} years old")
+        is Maybe.Just<User> -> println("${"$"}{rec.t.age} years old")
     }
 }
 ```
@@ -219,7 +218,7 @@ assertEquals(add5(7), 12)
 import org.funktionale.partials.*
 
 val format = { prefix: String, x: String, postfix: String ->
-    "${prefix}${x}${postfix}"
+    "${"$"}{prefix}${"$"}{x}${"$"}{postfix}"
 }
 
 val prefixAndBang = format(p3 = "!")
@@ -273,7 +272,7 @@ repeat(3) {
     val t = measureTimeMillis {
         primes(100000)
     }
-    println("Took $t msec")
+    println("Took ${"$"}t msec")
 }
 ```
 
@@ -331,11 +330,11 @@ val counter = newRef(10)
 try {
     atomic {
         increment(counter, 1)
-        println("counter is ${counter.get()}")    // -> 11
+        println("counter is ${"$"}{counter.get()}")    // -> 11
         throw Exception("roll back!!")
     }
 } catch(e: Exception) {
-    println("counter is ${counter.get()}")        // -> 10
+    println("counter is ${"$"}{counter.get()}")        // -> 10
 }
 ```
 
@@ -373,3 +372,19 @@ The atomic method is a higher order function protected by a regular Java synchro
 At the moment there is no way to control side effects: any function call can be potentially side effecting. It would be nice if a future version of the language introduced something like the C++ const keyword, or D’s transitive const, to reduce the reliance on actually immutable data structures. The JVM offers features that can seal off common sources of external state, such as the disk and network, however the heap is still available. It may be an interesting project to make the JVM’s sandboxing features easily available via a Kotlin DSL.
 
 There is not at this moment any high performance immutable collections library. Both Clojure and Scala have maps and sets in which mutating the collection returns a new collection, with internal data sharing to make performance practical. The Kotlin standard library does not. If someone were to make one, using [the CHAMP code](http://michael.steindorfer.name/publications/oopsla15.pdf) published this year would give significant improvements over the algorithms used in Scala/Clojure.
+
+"""
+
+Article(
+  title = "Kotlin ❤ FP",
+  url = "https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a",
+  categories = listOf(
+    "Kotlin",
+    "Functional"
+  ),
+  type = article,
+  lang = EN,
+  author = "Mike Hearn",
+  date = LocalDate.of(2015, 9, 18),
+  body = body
+)

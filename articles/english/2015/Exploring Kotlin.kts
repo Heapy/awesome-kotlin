@@ -1,12 +1,11 @@
----
-title: 'Exploring Kotlin'
-url: http://blog.cacoethes.co.uk/software/exploring-kotlin
-categories:
-    - Kotlin
-    - Groovy
-author: Peter Ledbrook
-date: Jun 27, 2015 21:54
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 
 _This post is outdated, because Kotlin have a lot changes from June, 2015_
 
@@ -91,3 +90,19 @@ One final thing I learned is that I hate generics. Really. I think Kotlin’s �
 As I said at the beginning of the post, Kotlin is an evolution rather than a revolution. That’s why I think it has a reasonable chance of success. Will it prove a significant competitor to Java? I don’t know, but I doubt it. There is so much inertia around Java that sometimes it feels like nothing will supersede it. Nonetheless, Kotlin is definitely worth an investigation if you’re looking for a statically-typed alternative to Java for your own projects. As I understand it, Jetbrains are pretty reliant on it, so it’s unlikely to disappear soon if at all. And you’re guaranteed first class support in at least one IDE!
 
 Do remember that this is a first impressions account of the language, so don’t take anything as gospel truth other than these were my experiences. I’ll try to post additional articles as I gain a better understanding of the language.
+
+"""
+
+Article(
+  title = "Exploring Kotlin",
+  url = "http://blog.cacoethes.co.uk/software/exploring-kotlin",
+  categories = listOf(
+    "Kotlin",
+    "Groovy"
+  ),
+  type = article,
+  lang = EN,
+  author = "Peter Ledbrook",
+  date = LocalDate.of(2015, 6, 27),
+  body = body
+)

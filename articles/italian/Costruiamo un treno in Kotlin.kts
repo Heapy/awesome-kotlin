@@ -1,6 +1,7 @@
+
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.video
 import link.kotlin.scripts.LanguageCodes.IT
+import link.kotlin.scripts.LinkType.video
 import java.time.LocalDate
 
 // language=Markdown
@@ -15,15 +16,15 @@ Francesco Vasco: Lavoro da 16 anni in varie realtà utilizzando prevalentemente 
 """
 
 Article(
-    title = "Costruiamo un treno in Kotlin",
-    url = "https://www.youtube.com/watch?v=y-T6DCtNUG0",
-    categories = listOf(
-        "Kotlin"
-    ),
-    type = video,
-    lang = IT,
-    author = "Francesco Vasco",
-    date = LocalDate.of(2016, 12, 19),
-    body = body
+  title = "Costruiamo un treno in Kotlin",
+  url = "https://www.youtube.com/watch?v=y-T6DCtNUG0",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = video,
+  lang = IT,
+  author = "Francesco Vasco",
+  date = LocalDate.of(2016, 12, 19),
+  body = body
 )
 

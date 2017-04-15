@@ -1,11 +1,11 @@
----
-title: 'Non-trivial constructors in Kotlin'
-url: http://alexshabanov.com/2014/12/01/non-trivial-constructors-in-kotlin/
-categories:
-    - Kotlin
-author: Alex Shabanov
-date: Dec 01, 2014 00:00
----
+
+import link.kotlin.scripts.Article
+import link.kotlin.scripts.LinkType.*
+import link.kotlin.scripts.LanguageCodes.*
+import java.time.LocalDate
+
+// language=Markdown
+val body = """
 Kotlin really simplifies things such as defining constructors and writing immutable objects for your application. For example, flexible Kotlin constructor definitions eliminate the need of [builder classes](http://en.wikipedia.org/wiki/Builder_pattern "Builder Pattern - Wikipedia") (you simply don’t need them in 99% of all the possible use cases, if you use Kotlin), thus reducing overhead of having immutable objects in your application, while retaining full flexibility and expressiveness.
 
 However, if you want to define non-trivial constructor (especially for [data classes](http://kotlinlang.org/docs/reference/data-classes.html "Kotlin Data Classes")) it might not be as trivial as just writing a function.
@@ -56,3 +56,18 @@ val r2 = Ratio(numerator = 1, denominator = 4) // invoke will be called here
 ```
 
 This is it, I hope you find it useful.
+
+"""
+
+Article(
+  title = "Non-trivial constructors in Kotlin",
+  url = "http://alexshabanov.com/2014/12/01/non-trivial-constructors-in-kotlin/",
+  categories = listOf(
+    "Kotlin"
+  ),
+  type = article,
+  lang = EN,
+  author = "Alex Shabanov",
+  date = LocalDate.of(2014, 12, 1),
+  body = body
+)
