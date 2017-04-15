@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -105,7 +105,7 @@ Classes and methods in Kotlin are final by default. We can construct classes in 
 ```kotlin
 class Cat(val name: String)  {
     init {
-        println("We've just initialized Cat with ${name}")
+        println("We've just initialized Cat with ${"$"}{name}")
     }
 }
 ```

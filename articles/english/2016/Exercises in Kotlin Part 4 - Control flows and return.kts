@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -175,7 +175,7 @@ fun sundaysInTwentiethCentury(): Int {
             year % 4 == 0 -> 29
             else -> 28
         }
-        else -> throw Exception("Invalid Month ${month}")
+        else -> throw Exception("Invalid Month ${"$"}{month}")
     }
     fun daysInYear(year: Int): Int {
         var days = 0

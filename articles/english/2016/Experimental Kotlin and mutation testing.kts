@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -48,7 +48,7 @@ Here’s a sample of the report:
 Again, Pit is able to bind the real lines to the problems found. Isn’t life good? If you stop at this point, it probably is. But running Pit on another project – say, ktor-features/ktor-locations fails miserably.
 
 ```
-The class org.jetbrains.ktor.locations.Locations$WhenMappings does not contain a source debug information. All classes must be compiled with source and line number debug information
+The class org.jetbrains.ktor.locations.Locations${"$"}WhenMappings does not contain a source debug information. All classes must be compiled with source and line number debug information
 ```
 
 It seems using the `when` construct in Kotlin generates an inner class that doesn’t contain debug information, which Pit need to works its magic. Let’s exclude the offending class and its inner mappings class:

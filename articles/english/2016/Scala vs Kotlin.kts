@@ -133,7 +133,7 @@ Another example of chaining could be:
 case class Person(name: String, age: Option[Int])
 val person:Option[Person] = Some(Person("Jack",Some(1)))
 for (p <- person; age <- p.age) {
- println(s"The person is aged $age")
+ println(s"The person is aged ${"$"}age")
 }
 ```
 
@@ -159,7 +159,7 @@ An equivalent Kotlin code for the second example of chaining is:
 data class Person(val name: String, val age: Int?)
 val person:Person? = Person("Jack", 1)
 if (person?.age != null) {
-  println("The person is aged ${person?.age}")
+  println("The person is aged ${"$"}{person?.age}")
 }
 ```
 
@@ -167,7 +167,7 @@ An alternative is also available using “let” which could replace the if bloc
 
 ```kotlin
 person?.age?.let {
-  println("The person is aged $it")
+  println("The person is aged ${"$"}it")
 }
 ```
 

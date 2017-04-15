@@ -96,24 +96,24 @@ To activate it you need to add this in the [build.gradle](https://github.com/ste
        })
        compile 'com.android.support:appcompat-v7:25.0.0'
        testCompile 'junit:junit:4.12'
-       compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-       compile "com.android.support:cardview-v7:${supportVersion}"
-       compile "com.android.support:design:${supportVersion}"
+       compile "org.jetbrains.kotlin:kotlin-stdlib:${"$"}kotlin_version"
+       compile "com.android.support:cardview-v7:${"$"}{supportVersion}"
+       compile "com.android.support:design:${"$"}{supportVersion}"
 
        // Dagger 2
-       compile "com.google.dagger:dagger:${daggerVersion}"
-       kapt "com.google.dagger:dagger-compiler:${daggerVersion}"
+       compile "com.google.dagger:dagger:${"$"}{daggerVersion}"
+       kapt "com.google.dagger:dagger-compiler:${"$"}{daggerVersion}"
        provided "org.glassfish:javax.annotation:3.1.1"
 
        //Retrofit 2
-       compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
-       compile "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}"
-       compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+       compile "com.squareup.retrofit2:retrofit:${"$"}{retrofitVersion}"
+       compile "com.squareup.retrofit2:adapter-rxjava:${"$"}{retrofitVersion}"
+       compile "com.squareup.retrofit2:converter-gson:${"$"}{retrofitVersion}"
 
        compile 'com.google.code.gson:gson:2.8.0'
 
-       compile "io.reactivex:rxjava:${rxVersion}"
-       compile "io.reactivex:rxandroid:${rxVersion}"
+       compile "io.reactivex:rxjava:${"$"}{rxVersion}"
+       compile "io.reactivex:rxandroid:${"$"}{rxVersion}"
 
        compile 'com.github.bumptech.glide:glide:3.7.0'
 

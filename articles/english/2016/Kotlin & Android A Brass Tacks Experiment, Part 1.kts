@@ -40,7 +40,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${"$"}kotlin_version"
     }
 }
 ```
@@ -68,7 +68,7 @@ Don’t forget to create that directory because we’ll use it later. You’ll a
 
 ```kotlin
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:${"$"}kotlin_version"
 }
 ```
 

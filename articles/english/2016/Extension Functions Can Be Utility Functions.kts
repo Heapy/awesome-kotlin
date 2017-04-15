@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -63,10 +63,10 @@ val isInUK = node.toAddress().isInUK()
 You may have noticed the `private` in the examples above - most of the extension functions that we write this way are used locally - just to make a few lines of code more intuitive. But that’s by no means universally true - this is from some library code to extend Jackson in more general ways:
 
 ```kotlin
-fun JsonNode.getExpected(name: String): JsonNode = get(name) ?: throw MissingPropertyException("property '$name' is missing")
+fun JsonNode.getExpected(name: String): JsonNode = get(name) ?: throw MissingPropertyException("property '${"$"}name' is missing")
 
 fun JsonNode.getNonBlankText(name: String) = getExpected(name).asText().apply {
-    if (isBlank()) throw JsonInterpretationException("property $name is blank")
+    if (isBlank()) throw JsonInterpretationException("property ${"$"}name is blank")
 }
 ```
 

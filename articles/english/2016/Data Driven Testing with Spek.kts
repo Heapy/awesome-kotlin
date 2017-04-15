@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -82,7 +82,7 @@ class HeroTests: Spek({
             listOf("when standing", false, false, true, Hero().apply { stand() })
         ).forEach { test ->
             describe(test.first) {
-                fun testLabel(flag: Boolean, action: String): String = "${if (flag) "should" else "shouldn't"} be $action"
+                fun testLabel(flag: Boolean, action: String): String = "${"$"}{if (flag) "should" else "shouldn't"} be ${"$"}action"
 
                 it(testLabel(test[1], "running")) {
                     expect(test[1]) { test[4].isRunning }
@@ -119,9 +119,9 @@ data class HeroQueryTest(val state: String, val subject: Hero, val isRunning: Bo
     val runningTestLabel = testLabel(isRunning, "running")
     val standingTestLabel = testLabel(isStanding, "standing")
     val jumpingTestLabel = testLabel(isJumping, "jumping")
-    val testGroupLabel = "when $state"
+    val testGroupLabel = "when ${"$"}state"
 
-    private fun testLabel(condition: Boolean, action: String) = if (condition) "should be $action" else "shouldn't be $action"
+    private fun testLabel(condition: Boolean, action: String) = if (condition) "should be ${"$"}action" else "shouldn't be ${"$"}action"
 }
 ```
 
@@ -134,10 +134,10 @@ data class HeroQueryTest(val state: String, val subject: Hero, val isRunning: Bo
     val runningTestLabel = HeroQueryTest::isRunning.testLabel(this)
     val standingTestLabel = HeroQueryTest::isStanding.testLabel(this)
     val jumpingTestLabel = HeroQueryTest::isJumping.testLabel(this)
-    val testGroupLabel = "when $state"
+    val testGroupLabel = "when ${"$"}state"
 
     private val KProperty<Boolean>.action: String get() = this.name.substring(2).toLowerCase()
-    private fun KProperty<Boolean>.testLabel(owner: Any): String = if (this.getter.call(owner)) "should be ${this.action}" else "shouldn't be ${this.action}"
+    private fun KProperty<Boolean>.testLabel(owner: Any): String = if (this.getter.call(owner)) "should be ${"$"}{this.action}" else "shouldn't be ${"$"}{this.action}"
 }
 ```
 
@@ -234,7 +234,7 @@ class MathTests : Spek({
                 MaxTest(a = 7, b = 4, c = 4),
                 MaxTest(a = 0, b = 0, c = 0)
         ).forEach { test ->
-            it("calculates maximum of ${test.a} and ${test.b} as ${test.c}") {
+            it("calculates maximum of ${"$"}{test.a} and ${"$"}{test.b} as ${"$"}{test.c}") {
                 expect(test.c) { Math.max(test.a, test.b) }
             }
         }
@@ -273,7 +273,7 @@ class MathTests : Spek({
                 0 I 0 I 0
         ).forEach { data ->
             maxTest(data).apply {
-                it("calculates maximum of $a and $b as $c") {
+                it("calculates maximum of ${"$"}a and ${"$"}b as ${"$"}c") {
                     expect(c) { Math.max(a, b) }
                 }
             }

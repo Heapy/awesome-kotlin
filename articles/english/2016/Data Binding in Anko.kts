@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -23,7 +23,7 @@ class MainActivityUI : AnkoComponent<MainActivity> {
         verticalLayout {
             val name = editText()
             button("Say Hello") {
-                onClick { ctx.toast("Hello, ${name.text}!") }
+                onClick { ctx.toast("Hello, ${"$"}{name.text}!") }
             }
         }
     }
@@ -84,7 +84,7 @@ class MainActivityUI(private val bindText: Binder<String>) : AnkoComponent<MainA
             }
             val name = editText()
             button("Say Hello") {
-                onClick { ctx.toast(“ Hello, ${ name.text }!”) }
+                onClick { ctx.toast(“ Hello, ${"$"}{ name.text }!”) }
             }
         }
     }
@@ -152,7 +152,7 @@ val editText = editText().apply {
     textChangedListener {
         onTextChanged {
             charSequence, p1, p2, p3 ->
-            bindText.item = “$charSequence”
+            bindText.item = “${"$"}charSequence”
         }
     }
 }

@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -73,7 +73,7 @@ Extension functions can be added to any class at runtime which enables you to ad
 ```kotlin
 // Anywhere this function is imported all Duration objects will gain this function
 fun Duration.prettyPrint(): String {
-    return "${toHours()}:${toMinutes() % 60}:${get(ChronoUnit.SECONDS) % 60}"
+    return "${"$"}{toHours()}:${"$"}{toMinutes() % 60}:${"$"}{get(ChronoUnit.SECONDS) % 60}"
 }
 
 Duration.ZERO.prettyPrint()  // Outputs '0:0:0'
@@ -115,7 +115,7 @@ var adhoc = object {
     val second = "secondValue"
 }
 
-println("${adhoc.first}, ${adhoc.second}")    // Prints "firstValue, secondValue"
+println("${"$"}{adhoc.first}, ${"$"}{adhoc.second}")    // Prints "firstValue, secondValue"
 ```
 
 #### Singleton

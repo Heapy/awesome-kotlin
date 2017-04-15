@@ -57,7 +57,7 @@ We provide all-open plugin support both for Gradle and Maven, as well as the IDE
 ```gradle
 buildscript {
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:${"$"}kotlin_version"
     }
 }
 
@@ -83,7 +83,7 @@ We also provide the “kotlin-spring” plugin that already has all required ann
 ```gradle
 buildscript {
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:${"$"}kotlin_version"
     }
 }
 
@@ -98,7 +98,7 @@ Of course, you can use both `kotlin-allopen` and `kotlin-spring` in the same pro
 <plugin>
     <artifactId>kotlin-maven-plugin</artifactId>
     <groupId>org.jetbrains.kotlin</groupId>
-    <version>${kotlin.version}</version>
+    <version>${"$"}{kotlin.version}</version>
 
     <configuration>
         <compilerPlugins>
@@ -117,7 +117,7 @@ Of course, you can use both `kotlin-allopen` and `kotlin-spring` in the same pro
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-maven-allopen</artifactId>
-            <version>${kotlin.version}</version>
+            <version>${"$"}{kotlin.version}</version>
         </dependency>
     </dependencies>
 </plugin>
@@ -134,7 +134,7 @@ The usage is pretty similar to all-open.
 ```gradle
 buildscript {
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-noarg:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-noarg:${"$"}kotlin_version"
     }
 }
 
@@ -152,7 +152,7 @@ noArg {
 <plugin>
     <artifactId>kotlin-maven-plugin</artifactId>
     <groupId>org.jetbrains.kotlin</groupId>
-    <version>${kotlin.version}</version>
+    <version>${"$"}{kotlin.version}</version>
 
     <configuration>
         <compilerPlugins>
@@ -169,7 +169,7 @@ noArg {
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-maven-noarg</artifactId>
-            <version>${kotlin.version}</version>
+            <version>${"$"}{kotlin.version}</version>
         </dependency>
     </dependencies>
 </plugin>

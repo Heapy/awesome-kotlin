@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -46,7 +46,7 @@ For Kotlin support, we need the Kotlin Standard lib:
 <dependency>
     <groupId>org.jetbrains.kotlin</groupId>
     <artifactId>kotlin-stdlib</artifactId>
-    <version>${kotlin.version}</version>
+    <version>${"$"}{kotlin.version}</version>
 </dependency>
 ```
 
@@ -58,7 +58,7 @@ For Kotlin support, we need the Kotlin Standard lib:
         <plugin>
             <artifactId>kotlin-maven-plugin</artifactId>
             <groupId>org.jetbrains.kotlin</groupId>
-            <version>${kotlin.version}</version>
+            <version>${"$"}{kotlin.version}</version>
             <configuration>
                 <jvmTarget>1.6</jvmTarget>
             </configuration>
@@ -97,12 +97,12 @@ For VertX, we need VertX Core, and if we need to open websockets, or enable REST
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>${vertx.version}</version>
+    <version>${"$"}{vertx.version}</version>
 </dependency>
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-web</artifactId>
-    <version>${vertx.version}</version>
+    <version>${"$"}{vertx.version}</version>
 </dependency>
 ```
 
@@ -221,12 +221,12 @@ To get started with `Hibernate`, let's add some more dependencies in our `pom.xm
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
-    <version>${hibernate.version}</version>
+    <version>${"$"}{hibernate.version}</version>
 </dependency>
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-entitymanager</artifactId>
-    <version>${hibernate.version}</version>
+    <version>${"$"}{hibernate.version}</version>
     <exclusions>
         <exclusion>
             <groupId>cglib</groupId>
@@ -241,7 +241,7 @@ To get started with `Hibernate`, let's add some more dependencies in our `pom.xm
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-validator</artifactId>
-    <version>${hibernate.version}</version>
+    <version>${"$"}{hibernate.version}</version>
 </dependency>
 ```
 
@@ -251,7 +251,7 @@ Let's use MySQL for this demo:
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>${mysql.version}</version>
+    <version>${"$"}{mysql.version}</version>
 </dependency>
 ```
 
@@ -261,7 +261,7 @@ And while we're at it, let's add a connection pool as well, to reduce latency:
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-c3p0</artifactId>
-    <version>${hibernate.version}</version>
+    <version>${"$"}{hibernate.version}</version>
 </dependency>
 ```
 

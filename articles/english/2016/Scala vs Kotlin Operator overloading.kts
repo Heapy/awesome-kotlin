@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -14,7 +14,7 @@ Before to dive into the nitty-gritty details, let’s try first to tell what it�
 
 In every language where there are functions (or methods), a limited set of characters is allowed to define the name of said functions. Some languages are more lenient toward allowed characters: naming a function `\O/` might be perfectly valid.
 
-Some others are much more strict about it. It’s interesting to note that Java eschewed the ability to use symbols in function names besides `$` - probably in response to previous abuses in older languages. It definitely stands on the less lenient part of the spectrum and the Java compiler won’t compile the previous `\O/` function.
+Some others are much more strict about it. It’s interesting to note that Java eschewed the ability to use symbols in function names besides `${"$"}` - probably in response to previous abuses in older languages. It definitely stands on the less lenient part of the spectrum and the Java compiler won’t compile the previous `\O/` function.
 
 The name operator overloading is thus slightly misleading, even if widespread. IMHO, it’s semantically more correct to talk about operator characters in function names.
 

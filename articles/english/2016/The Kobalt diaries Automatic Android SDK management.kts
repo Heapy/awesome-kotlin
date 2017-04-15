@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -37,7 +37,7 @@ dependencies {
 
 The Kobalt Android plug-in will then automatically download everything you need to create an `apk` from this simple build file:
 
-* If `$ANDROID_HOME` is specified, use it and make sure a valid SDK is there. If that environment variable is not specified, install the SDK in a default location (`~/.android-sdk`).
+* If `${"$"}ANDROID_HOME` is specified, use it and make sure a valid SDK is there. If that environment variable is not specified, install the SDK in a default location (`~/.android-sdk`).
 * If no Build Tools are installed, install them.
 * Then go through all the Google and Android dependencies for that project and install them as needed.
 * And a few other things...

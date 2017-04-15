@@ -71,7 +71,7 @@ And the DSL construction features of Kotlin give you an entirely new level of fl
 verticalLayout {
     val name = editText()
     button("Say Hello") {
-        onClick { toast("Hello, ${name.text}!") }
+        onClick { toast("Hello, ${"$"}{name.text}!") }
     }
 }
 ```

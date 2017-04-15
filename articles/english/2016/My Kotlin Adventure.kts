@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -52,7 +52,7 @@ This is just an example of how concise coding with Kotlin can be:
 ```kotlin
 fun thisIsTheMethod(message: String) {
     buttonMessage.setOnClickListener {
-        Toast.makeText(context, "Here the message: $message", 
+        Toast.makeText(context, "Here the message: ${"$"}message",
                 Toast.LENGTH_LONG).show()
     }
 }

@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -149,7 +149,7 @@ By having Nothing as a subtype of every other type, the type system allows any e
 ```kotlin
 fun formatCell(value: Double): String =
     if (value.isNaN()) 
-        throw IllegalArgumentException("$value is not a number") 
+        throw IllegalArgumentException("${"$"}value is not a number")
     else 
         value.toString()
 ```

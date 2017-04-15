@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -49,7 +49,7 @@ fun SandyFile.validate() : List<Error> {
     val varsByName = HashMap<String, VarDeclaration>()
     this.specificProcess(VarDeclaration::class.java) {
         if (varsByName.containsKey(it.varName)) {
-            errors.add(Error("A variable named '${it.varName}' has been already declared at ${varsByName[it.varName]!!.position!!.start}",
+            errors.add(Error("A variable named '${"$"}{it.varName}' has been already declared at ${"$"}{varsByName[it.varName]!!.position!!.start}",
                     it.position!!.start))
         } else {
             varsByName[it.varName] = it
@@ -59,16 +59,16 @@ fun SandyFile.validate() : List<Error> {
     // check a variable is not referred before being declared
     this.specificProcess(VarReference::class.java) {
         if (!varsByName.containsKey(it.varName)) {
-            errors.add(Error("There is no variable named '${it.varName}'", it.position!!.start))
+            errors.add(Error("There is no variable named '${"$"}{it.varName}'", it.position!!.start))
         } else if (it.isBefore(varsByName[it.varName]!!)) {
-            errors.add(Error("You cannot refer to variable '${it.varName}' before its declaration", it.position!!.start))
+            errors.add(Error("You cannot refer to variable '${"$"}{it.varName}' before its declaration", it.position!!.start))
         }
     }
     this.specificProcess(Assignment::class.java) {
         if (!varsByName.containsKey(it.varName)) {
-            errors.add(Error("There is no variable named '${it.varName}'", it.position!!.start))
+            errors.add(Error("There is no variable named '${"$"}{it.varName}'", it.position!!.start))
         } else if (it.isBefore(varsByName[it.varName]!!)) {
-            errors.add(Error("You cannot refer to variable '${it.varName}' before its declaration", it.position!!.start))
+            errors.add(Error("You cannot refer to variable '${"$"}{it.varName}' before its declaration", it.position!!.start))
         }
     }
 
@@ -167,8 +167,8 @@ _Will it fly? _Let’s verify that.
 class ValidationTest {
 
     @test fun duplicateVar() {
-        val errors = SandyParserFacade.parse("""var a = 1
-                                               |var a =2""".trimMargin("|")).errors
+        val errors = SandyParserFacade.parse(\"\"\"var a = 1
+                                               |var a =2\"\"\".trimMargin("|")).errors
         assertEquals(listOf(Error("A variable named 'a' has been already declared at Line 1, Column 0", Point(2,0))), errors)
     }
 
@@ -178,8 +178,8 @@ class ValidationTest {
     }
 
     @test fun varReferenceBeforeDeclaration() {
-        val errors = SandyParserFacade.parse("""var a = b + 2
-                                               |var b = 2""".trimMargin("|")).errors
+        val errors = SandyParserFacade.parse(\"\"\"var a = b + 2
+                                               |var b = 2\"\"\".trimMargin("|")).errors
         assertEquals(listOf(Error("You cannot refer to variable 'b' before its declaration", Point(1,8))), errors)
     }
 
@@ -189,8 +189,8 @@ class ValidationTest {
     }
 
     @test fun varAssignmentBeforeDeclaration() {
-        val errors = SandyParserFacade.parse("""a = 1
-                                               |var a =2""".trimMargin("|")).errors
+        val errors = SandyParserFacade.parse(\"\"\"a = 1
+                                               |var a =2\"\"\".trimMargin("|")).errors
         assertEquals(listOf(Error("You cannot refer to variable 'a' before its declaration", Point(1,0))), errors)
 
 }

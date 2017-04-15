@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -30,7 +30,7 @@ In kotlin-logging the recommended interface is like that:
 class FooWithLogging {  
     companion object: KLogging()  
     fun bar() {  
-        logger.info { "twinkle twinkle $little star" }  
+        logger.info { "twinkle twinkle ${"$"}little star" }
     }  
 }
 ```

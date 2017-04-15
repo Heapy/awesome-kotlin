@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -13,7 +13,7 @@ However one of the things that the IDEA kotlin plugin doesn't do<sup id="fnref:1
 The idea plugin isn't able to mark the kapt folder as a source directory unless it's been added to the gradle source set.
 
 ```gradle
-sourceSets.main.java.srcDir file("$buildDir/generated/source/kapt/")  
+sourceSets.main.java.srcDir file("${"$"}buildDir/generated/source/kapt/")
 
 ```
 
@@ -23,7 +23,7 @@ The next step is to tell the idea plugin to mark the kapt folder as a generated 
 idea {  
     module {
         // Tell idea to mark the folder as generated sources
-        generatedSourceDirs += file("$buildDir/generated/source/kapt/")
+        generatedSourceDirs += file("${"$"}buildDir/generated/source/kapt/")
     }
 }
 ```
@@ -40,12 +40,12 @@ kapt {
 }
 
 // Add kapt directory to sources
-sourceSets.main.java.srcDir file("$buildDir/generated/source/kapt/")
+sourceSets.main.java.srcDir file("${"$"}buildDir/generated/source/kapt/")
 
 idea {  
     module {
 // Tell idea to mark the folder as generated sources
-        generatedSourceDirs += file("$buildDir/generated/source/kapt/")
+        generatedSourceDirs += file("${"$"}buildDir/generated/source/kapt/")
     }
 }
 ```

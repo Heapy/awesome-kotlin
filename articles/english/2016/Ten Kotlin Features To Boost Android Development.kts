@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -51,7 +51,7 @@ buildscript {
        jcenter()
    }
    dependencies {
-       classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+       classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${"$"}kotlin_version"
 
        // NOTE: Do not place your application dependencies here; they belong
        // in the individual module build.gradle files
@@ -602,11 +602,11 @@ An example of a delegate for the `String` property:
 ```kotlin
 class Delegate {
   operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
-    return "$thisRef, thank you for delegating '${property.name}' to me!"
+    return "${"$"}thisRef, thank you for delegating '${"$"}{property.name}' to me!"
   }
 
   operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
-    println("$value has been assigned to '${property.name} in $thisRef.'")
+    println("${"$"}value has been assigned to '${"$"}{property.name} in ${"$"}thisRef.'")
   }
 }
 ```

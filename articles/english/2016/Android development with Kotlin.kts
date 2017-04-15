@@ -59,8 +59,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${"$"}kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:${"$"}kotlin_version"
     }
 }
 
@@ -71,7 +71,7 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:${"$"}kotlin_version"
 }
 ```
 
@@ -173,7 +173,7 @@ Then you can call MainActivity.PICK_CONTACT and it will receive the value 100.
 ```kotlin
 fun printFirst(array: Array<String>) {
   if (array.size == 0) return
-  print("First value: ${array[0]}")
+  print("First value: ${"$"}{array[0]}")
 }
 ```
 

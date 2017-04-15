@@ -60,12 +60,12 @@ who’s Java equivalent would be:
 
 ```kotlin
 //Java
-Iterable $receiver$iv = (Iterable)(new IntRange(0, 100));
-Iterator var1 = $receiver$iv.iterator();
+Iterable ${"$"}receiver${"$"}iv = (Iterable)(new IntRange(0, 100));
+Iterator var1 = ${"$"}receiver${"$"}iv.iterator();
 
 while(var1.hasNext()) {
-   int element$iv = ((IntIterator)var1).nextInt();
-   System.out.println(element$iv);
+   int element${"$"}iv = ((IntIterator)var1).nextInt();
+   System.out.println(element${"$"}iv);
 }
 ```
 

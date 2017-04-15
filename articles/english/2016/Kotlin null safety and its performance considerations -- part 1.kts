@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -17,7 +17,7 @@ In Kotlin when you declare a variable, a field or a function parameter, by defau
 ```kotlin
 class Greeter {
   fun hello(who: String): Unit {
-    println ("Hello $who")
+    println ("Hello ${"$"}who")
   }
 }
 ```
@@ -27,7 +27,7 @@ We declared `who` to be of type `String` which is interpreted by the compiler to
 ```kotlin
 class Greeter {
   fun hello(who: String?): Unit {
-    println ("Hello $who")
+    println ("Hello ${"$"}who")
   }
 }
 ```
@@ -323,9 +323,9 @@ public String findUserNameWithRun(int userId) {
 
   SimpleUser simpleUser = getUser(userId);
   if (simpleUser != null) {
-    SimpleUser $receiver = simpleUser;
+    SimpleUser ${"$"}receiver = simpleUser;
 
-    result = $receiver.getName(); // { name }
+    result = ${"$"}receiver.getName(); // { name }
   } else {
     result = null;
   }
@@ -357,9 +357,9 @@ public SimpleUser findUserNameWithApply(int userId) {
 
   SimpleUser simpleUser = getUser(userId);
   if (simpleUser != null) {
-    SimpleUser $receiver = simpleUser;
+    SimpleUser ${"$"}receiver = simpleUser;
 
-    $receiver.setName("Jane"); // { name = "Jane" }
+    ${"$"}receiver.setName("Jane"); // { name = "Jane" }
 
     result = simpleUser;
   } else {

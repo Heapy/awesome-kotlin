@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -80,53 +80,53 @@ As you can see, we use Kotlin String interpolation as a sort of template engine.
 
 ```kotlin
 fun contactPanel(contact: Contact) =
-"""
+\"\"\"
 <div class="contact panel panel-info">
-    <div class="panel-heading"> <h3 class="panel-title">${contact.name}</h3> </div>
+    <div class="panel-heading"> <h3 class="panel-title">${"$"}{contact.name}</h3> </div>
     <div class="panel-body">
         <div class="row">
             <div class="col-md-3 col-lg-3" align="center">
                 <img class="img-circle img-responsive"
-                     alt="${contact.name} pic"
-                     src="${HTML5View.resourceLink("/img/default-avatar.jpg")}" />
+                     alt="${"$"}{contact.name} pic"
+                     src="${"$"}{HTML5View.resourceLink("/img/default-avatar.jpg")}" />
             </div>
             <div class="col-md-9 col-lg-9">
                 <table class="table table-contact-information">
                     <tbody>
-                        <tr> <td>Phone:</td> <td>${contact.phone}</td> </tr>
-                        <tr> <td>Email:</td> <td>${contact.email}</td> </tr>
-                        <tr> <td>Address:</td> <td>${contact.address}</td> </tr>
+                        <tr> <td>Phone:</td> <td>${"$"}{contact.phone}</td> </tr>
+                        <tr> <td>Email:</td> <td>${"$"}{contact.email}</td> </tr>
+                        <tr> <td>Address:</td> <td>${"$"}{contact.address}</td> </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 </div>
-"""
+\"\"\"
 ```
 
 Making use of the above function, we should now build another function that, given a Contact list, returns the complete HTML view.
 
 ```kotlin
 fun contactsView(contacts: List<Contact>) =
-"""
+\"\"\"
 <html>
     <head>
-        <link rel="stylesheet" href="${HTML5View.resourceLink("/css/bootstrap.min.css")}" />
-        <link rel="stylesheet" href="${HTML5View.resourceLink("/css/contacts.css")}" />
+        <link rel="stylesheet" href="${"$"}{HTML5View.resourceLink("/css/bootstrap.min.css")}" />
+        <link rel="stylesheet" href="${"$"}{HTML5View.resourceLink("/css/contacts.css")}" />
         <title>My contacts</title>
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    ${contacts.map { contactPanel(it) }.joinToString("\n")}
+                    ${"$"}{contacts.map { contactPanel(it) }.joinToString("\n")}
                 </div>
             </div>
         </div>
     </body>
 </html>
-"""
+\"\"\"
 ```
 
 As you may have already spotted in the HTML template, we need references to other static files such as images, css and javascript resources.
@@ -138,7 +138,7 @@ Let’s build this method into the class that is responsible to handle the windo
 It’s really simple and takes advantage of the [Java resource system](http://docs.oracle.com/javase/7/docs/technotes/guides/lang/resources.html) to access static files that will be bundled inside the final executable Jar of our app.
 
 ```kotlin
-fun resourceLink(path: String) = "${HTML5View::class.java.getResource(path)}"
+fun resourceLink(path: String) = "${"$"}{HTML5View::class.java.getResource(path)}"
 ```
 
 It’s time to take a look at the class that creates the JavaFX window and the WebView that will render our HTML and execute our Javascript code.
@@ -148,7 +148,7 @@ Using [TornadoFX](https://github.com/edvin/tornadofx), a lightweight JavaFX fram
 ```kotlin
 class HTML5View : View() {
     companion object {
-        fun resourceLink(path: String) = "${HTML5View::class.java.getResource(path)}"
+        fun resourceLink(path: String) = "${"$"}{HTML5View::class.java.getResource(path)}"
     }
 
     override val root = WebView()

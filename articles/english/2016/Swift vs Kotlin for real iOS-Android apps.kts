@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -190,7 +190,7 @@ public class RestaurantService(
         return NetworkRequestServiceTask(clazz = Restaurant::class.java,
                 networkSession = networkSession,
                 baseUrl = baseUrl,
-                endpoint = "restaurants/${restaurantId}")
+                endpoint = "restaurants/${"$"}{restaurantId}")
     }
 }
 ```
@@ -572,7 +572,7 @@ class RestaurantsListActivity : AppCompatActivity() {
 
        viewModel.stateObservable.subscribe {
            if (it.totalResults != null) {
-               search_title.text = "Number of restaurants: ${it.totalResults}"
+               search_title.text = "Number of restaurants: ${"$"}{it.totalResults}"
            }
            else if (it.isLoading) {
                search_title.text = "Loading restaurants"

@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -49,7 +49,7 @@ From the newbie perspective, it looks pretty odd. Adding functionality to String
 ```kotlin
 public final class StringKtTestKt {
   @NotNull
-  public static final String removeWhitespaces(@NotNull String $receiver) {}
+  public static final String removeWhitespaces(@NotNull String ${"$"}receiver) {}
 }
 ```
 

@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -158,11 +158,11 @@ This covers everything people need about algebraic data types in Kotlin. It is n
 ```kotlin
 myMap.forEach {
     (k, v) ->
-    println(“$k => $v”)
+    println(“${"$"}k => ${"$"}v”)
 }
 ```
 
-A map from N to string is a sequence of pairs, map entries of keys and values. In the library, Map has a .forEach method. That simply iterates through the pairs, and you can do whatever with them. In Kotlin 1.0, you only have one variable for the whole pair. You can say, forEach has an entry, and it can say `(k, v) -> println(“$k => $v”)`. And this new syndex in 1.1 will help you destructure right away. If you say K and V is a pair (which means that the entry is structured in the two), and then you can print the two. _Have I lost all of my audience by now?_
+A map from N to string is a sequence of pairs, map entries of keys and values. In the library, Map has a .forEach method. That simply iterates through the pairs, and you can do whatever with them. In Kotlin 1.0, you only have one variable for the whole pair. You can say, forEach has an entry, and it can say `(k, v) -> println(“${"$"}k => ${"$"}v”)`. And this new syndex in 1.1 will help you destructure right away. If you say K and V is a pair (which means that the entry is structured in the two), and then you can print the two. _Have I lost all of my audience by now?_
 
 I have a black screen for you (_see video_). You are not supposed to read the code. All you care about is this staircase of brackets. This is the picture I Googled by the query ‘callback hell’. This picture is a typical piece of JavaScript (not only JavaScript, other languages suffer from this as well). This illustrates the world of asyncronist computation as it is, more or less, today in many languages.
 

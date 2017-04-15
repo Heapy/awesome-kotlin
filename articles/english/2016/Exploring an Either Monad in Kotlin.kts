@@ -31,11 +31,11 @@ An example, written in Kotlin:
 ```kotlin
 sealed class Either<L, R> {
     class Left<L, R>(val l: L) : Either<L, R>() {
-        override fun toString(): String = "Left $l"
+        override fun toString(): String = "Left ${"$"}l"
     }
     
     class Right<L, R>(val r: R) : Either<L, R>() {
-        override fun toString(): String = "Right $r"
+        override fun toString(): String = "Right ${"$"}r"
     }
     
     infix fun <Rp> bind(f: (R) -> (Either<L, Rp>)): Either<L, Rp> {
@@ -95,7 +95,7 @@ fun main(args: Array<String>) {
     try {
         println(Either.Right<String, Int>(5) bind { Either.fail<String, Int>("asdf") })
     } catch (e: Exception) {
-        println("exception: ${e.message}")
+        println("exception: ${"$"}{e.message}")
     }
 }
 ```

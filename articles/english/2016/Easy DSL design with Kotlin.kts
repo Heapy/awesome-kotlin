@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -29,7 +29,7 @@ DSLs can be provided in any language, even if some feel more natural. Scala natu
 verticalLayout {
     val name = editText()
     button("Say Hello") {
-        onClick { toast("Hello, ${name.text}!") }
+        onClick { toast("Hello, ${"$"}{name.text}!") }
     }
 }
 ```
@@ -81,7 +81,7 @@ Getting back to the [Anko snippet above](#anko), let’s check how the `vertical
 
 ```kotlin
 inline fun ViewManager.verticalLayout(theme: Int = 0, init: _LinearLayout.() -> Unit): LinearLayout {
-    return ankoView(`$Anko$Factories$CustomViews`.VERTICAL_LAYOUT_FACTORY, theme, init)
+    return ankoView(`${"$"}Anko${"$"}Factories${"$"}CustomViews`.VERTICAL_LAYOUT_FACTORY, theme, init)
 }
 ```
 

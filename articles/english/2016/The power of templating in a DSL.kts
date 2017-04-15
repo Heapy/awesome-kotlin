@@ -64,7 +64,7 @@ loop, e.g.
 ```kotlin
 log4j {
   listOf("A", "B", "C").forEach {
-    logger("category2warn.$it") {
+    logger("category2warn.${"$"}it") {
       + WARN
     }
   }
@@ -82,7 +82,7 @@ to generate all definitions.
 The following part is now a template:
 
 ```kotlin
-    logger("category2warn.$it") {
+    logger("category2warn.${"$"}it") {
       + WARN
     }
 }
@@ -94,7 +94,7 @@ a function. So we turn the logger configuration code into the following
 ```kotlin
 log4j {
   listAllRootPackages().forEach {
-    logger("category2warn.$it") {
+    logger("category2warn.${"$"}it") {
       + WARN
     }
   }

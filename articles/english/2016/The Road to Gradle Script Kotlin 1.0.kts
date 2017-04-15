@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -67,7 +67,7 @@ And 0.3.0 was all about that [Kotlin](https://kotlin.link/)! The [new Kotlin 1.1
 
 ```kotlinnp
 gradle.buildFinished(closureOf<BuildResult> {
-    println("$action finished") // $action refers to BuildResult.getAction()
+    println("${"$"}action finished") // ${"$"}action refers to BuildResult.getAction()
 })
 ```
 

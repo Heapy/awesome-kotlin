@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -99,7 +99,7 @@ Preconditions.checkNotNull(value, "error %s", arg);
 
 ```kotlin
 // Kotlin  
-_checkNotNull_(value) **{**"$arg"**}**
+_checkNotNull_(value) **{**"${"$"}arg"**}**
 ```
 
 Nearly all of Guava’s collections classes [exist in Kotlin](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/index.html). Even with all of that functionality, the entire Kotlin standard library is still smaller than Guava alone.

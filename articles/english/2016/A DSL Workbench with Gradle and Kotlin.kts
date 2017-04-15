@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -112,10 +112,10 @@ project.buildscript.repositories.forEach { project.repositories.add(it) }
 To add extra source directory we use the following code (that depends on Gradle's Java plugin)
 
 ```groovy
-println("Adding DSL path to Kotlin source set: ${settings.dslPath}")
+println("Adding DSL path to Kotlin source set: ${"$"}{settings.dslPath}")
 val sourceSets = project.convention.getPlugin(JavaPluginConvention::class.java).sourceSets
 
-println("Source sets: ${sourceSets.names}")
+println("Source sets: ${"$"}{sourceSets.names}")
 sourceSets.getByName("main").java.srcDir( settings.dslPath!!.path )
 ```
 

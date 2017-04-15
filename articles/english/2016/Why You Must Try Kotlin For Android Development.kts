@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -93,7 +93,7 @@ if (node is Leaf) {
 
 ```kotlin
 if (document is Payable && document.pay()) { // Smart casting  
-  println("Payable document ${document.title} was payed for.")  
+  println("Payable document ${"$"}{document.title} was payed for.")
 }
 ```
 

@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -249,7 +249,7 @@ val layout = FormLayout().apply {
    val stateLabel = Label().apply {
        contentMode = ContentMode.HTML
        caption = Labels.STATE
-       value = "${snippet.state.toIcon().html} ${snippet.state.toLabel()}"
+       value = "${"$"}{snippet.state.toIcon().html} ${"$"}{snippet.state.toLabel()}"
    }
    val authorLabel = Label().apply {
        caption = Labels.AUTHOR
@@ -329,7 +329,7 @@ fun mapToBeans(entities: List<SnippetEntity>) = entities.map(::mapToBean)
 fun mapToBean(entity: SnippetEntity) = SnippetOverviewBean(
         code = entity.code,
         date = entity.date,
-        author = "${entity.author.firstName} ${entity.author.lastName}"
+        author = "${"$"}{entity.author.firstName} ${"$"}{entity.author.lastName}"
 )
 ```
 
@@ -391,7 +391,7 @@ private object ShortenedValueColumnGenerator : Table.ColumnGenerator {
 
     fun String.shortenWithEllipsis(): String{
         if (this.length > MAX_LENGTH){
-            return "${this.substring(0, MAX_LENGTH)}..."
+            return "${"$"}{this.substring(0, MAX_LENGTH)}..."
         }
         return this
     }

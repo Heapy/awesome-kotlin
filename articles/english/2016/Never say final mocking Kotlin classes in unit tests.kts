@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -67,7 +67,7 @@ return clazz.toClass();  // returns new non final class
 With this, a new non-final class can be easily created. But this leads to the next problem: _javassist_ creates a new class but we can not load the new class into the current test. Because the class is already loaded by the class loader. Two version of it are not allowed:
 
 ```kotlin
-javassist.CannotCompileException: by java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "com/myPackage/MyKotlinClass"
+javassist.CannotCompileException: by java.lang.LinkageError: loader (instance of  sun/misc/Launcher${"$"}AppClassLoader): attempted  duplicate class definition for name: "com/myPackage/MyKotlinClass"
 ```
 
 So we just need a different class loader right?

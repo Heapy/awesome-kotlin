@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -82,9 +82,9 @@ fun main(args: Array<String>) {
     var radius: Double = 1.0
     val increment = 1
     // increment = increment + 1 <-- will not compile since increment is a val
-    println("The radius of a circle with radius ${radius} is ${circleArea(radius)}")
+    println("The radius of a circle with radius ${"$"}{radius} is ${"$"}{circleArea(radius)}")
     radius = radius + increment
-    println("The radius of a circle with radius ${radius} is ${circleArea(radius)}")
+    println("The radius of a circle with radius ${"$"}{radius} is ${"$"}{circleArea(radius)}")
 }
 
 ```
@@ -123,7 +123,7 @@ Note the following:
 
 #### String templates
 
-*   String interpolation is supported by allowing expressions to be embedded in strings using the ${`expr`} syntax as in the arguments to `println()`. This feature is called string templates in Kotlinspeak
+*   String interpolation is supported by allowing expressions to be embedded in strings using the ${"$"}{`expr`} syntax as in the arguments to `println()`. This feature is called string templates in Kotlinspeak
 
 ## (Optional) Some more advanced aspects about variables
 
@@ -148,12 +148,12 @@ val area: Double
 fun main(args: Array<String>) {
     var radius = 1.0
     val increment = 1
-    println("The radius of a circle with radius ${radius} is ${circleArea(radius)}")
+    println("The radius of a circle with radius ${"$"}{radius} is ${"$"}{circleArea(radius)}")
     radius = radius + increment
-    println("The radius of a circle with radius ${radius} is ${circleArea(radius)}")
-    println("The radius of a circle with radius 5.0 is ${area}")
+    println("The radius of a circle with radius ${"$"}{radius} is ${"$"}{circleArea(radius)}")
+    println("The radius of a circle with radius 5.0 is ${"$"}{area}")
     defaultRadius = 6.0
-    println("The radius of a circle with radius 6.0 is ${area}")
+    println("The radius of a circle with radius 6.0 is ${"$"}{area}")
 }
 ```
 

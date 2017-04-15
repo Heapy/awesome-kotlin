@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -45,23 +45,23 @@ The other main part is an abstract class MdlComponent. It’s what’s used to b
 
 ```kotlin
 abstract class MdlComponent(tag: String, classType: String, cssClassId: String = "") {
-    val mainElement = document.createElement(tag).apply { this classType "$cssClassId $classType" }
+    val mainElement = document.createElement(tag).apply { this classType "${"$"}cssClassId ${"$"}classType" }
 
     var backgroundColor: MdlColor.Background? = null
         set(value) {
-            value?.let { mainElement.setAttribute("class", mainElement.getAttribute("class")?.plus(" $it")!!) }
+            value?.let { mainElement.setAttribute("class", mainElement.getAttribute("class")?.plus(" ${"$"}it")!!) }
         }
 
     var textColor: MdlColor.Text? = null
         set(value) {
-            value?.let { mainElement.setAttribute("class", mainElement.getAttribute("class")?.plus(" $it")!!) }
+            value?.let { mainElement.setAttribute("class", mainElement.getAttribute("class")?.plus(" ${"$"}it")!!) }
         }
 
     fun <T> htmlPram(parent: Element = mainElement): ReadWriteProperty<Any, T> = object : ReadWriteProperty<Any, T> {
         private var prop: T? = null
 
         override fun getValue(thisRef: Any, property: KProperty<*>): T {
-            return prop ?: throw IllegalStateException("Property ${property.name} should be initialized before get.")
+            return prop ?: throw IllegalStateException("Property ${"$"}{property.name} should be initialized before get.")
         }
 
         override fun setValue(thisRef: Any, property: KProperty<*>, value: T) {
@@ -70,7 +70,7 @@ abstract class MdlComponent(tag: String, classType: String, cssClassId: String =
         }
 
         private fun set(name: String, value: T) {
-            parent.setAttribute(name, "$value")
+            parent.setAttribute(name, "${"$"}value")
             if (name == "href") parent.setAttribute("target" ,"_blank")
         }
     }
@@ -155,7 +155,7 @@ fun main(args: Array<String>) {
         navigationLayout(About, "layout") {
             header {}
             drawer("drawer") {
-                mainElement.header("drawer-header ${MdlColor.Background.blueGrey(Shade.s300)}") {
+                mainElement.header("drawer-header ${"$"}{MdlColor.Background.blueGrey(Shade.s300)}") {
                     img("avatar") { src = "images/roundprofile.png" }
                     b { textContent = "Lewis Rhine" }
                     append(document.createTextNode("Android Developer"))

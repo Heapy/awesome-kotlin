@@ -133,7 +133,7 @@ public String fullName() {
 
 ```kotlin
 // Kotlin  
-fun fullName() = "${firstName} ${lastName}"
+fun fullName() = "${"$"}{firstName} ${"$"}{lastName}"
 ```
 
 **Bonus**: the return object type is implied, so Kotlin will automatically know the method is returning a String without ever having to write “String” anywhere.

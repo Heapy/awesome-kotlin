@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -148,7 +148,7 @@ Exception in thread "main" java.lang.NoClassDefFoundError: kotlin/jvm/internal/I
 Caused by: java.lang.ClassNotFoundException: kotlin.jvm.internal.Intrinsics
         at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
         at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+        at sun.misc.Launcher${"$"}AppClassLoader.loadClass(Launcher.java:331)
         at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
         ... 1 more
 ```

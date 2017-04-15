@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -20,8 +20,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
 
     testCompile 'junit:junit:4.12'
-    testCompile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_ver"
-    testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_ver"
+    testCompile "org.jetbrains.kotlin:kotlin-stdlib:${"$"}kotlin_ver"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:${"$"}kotlin_ver"
 }
 ```
 

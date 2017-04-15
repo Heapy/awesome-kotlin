@@ -40,7 +40,7 @@ val a: Int = 10000 // read-only
 val b: Int = 0x0F   // hexadecimal read-only
 var c = 0b1011 // binary also type inferred
 
-println("a = $a b = $b c = $c")
+println("a = ${"$"}a b = ${"$"}b c = ${"$"}c")
 ```
 
 This outputs:
@@ -143,9 +143,9 @@ class LazySample {
 
 fun main(args: Array<String>) {
     val sample = LazySample()
-    println("lazy = ${sample.lazy}")
-    println("lazy = ${sample.lazy}")
-    println("inc = ${sample.inc}")
+    println("lazy = ${"$"}{sample.lazy}")
+    println("lazy = ${"$"}{sample.lazy}")
+    println("inc = ${"$"}{sample.inc}")
 }
 
 ```
@@ -168,7 +168,7 @@ import kotlin.properties.Delegates
 
 class TaxRate {
     var value: Float by Delegates.observable(18.5f) { d, old, new ->
-        println("Rate changed from $old% to $new%")
+        println("Rate changed from ${"$"}old% to ${"$"}new%")
     }
 }
 

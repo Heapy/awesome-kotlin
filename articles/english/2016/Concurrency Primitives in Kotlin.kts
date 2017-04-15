@@ -25,7 +25,7 @@ There are two ways to create a thread in Java: extending the `Thread` class, or 
 ```kotlin
 object : Thread() {  
   override fun run() {
-    println("running from Thread: ${Thread.currentThread()}")
+    println("running from Thread: ${"$"}{Thread.currentThread()}")
   }
 }.start()
 ```
@@ -34,7 +34,7 @@ This code uses Kotlin's [`Object Expressions`](https://kotlinlang.org/docs/refer
 
 ```kotlin
 Thread({  
-  println("running from lambda: ${Thread.currentThread()}")
+  println("running from lambda: ${"$"}{Thread.currentThread()}")
 }).start()
 ```
 
@@ -42,7 +42,7 @@ You don't see a `Runnable` here: in Kotlin it can easily be replaced with a [lam
 
 ```kotlin
 thread(start = true) {  
-  println("running from thread(): ${Thread.currentThread()}")
+  println("running from thread(): ${"$"}{Thread.currentThread()}")
 }
 ```
 
@@ -77,7 +77,7 @@ It's just a very convenient wrapper function that's a joy to use.
 
 ```kotlin
 @Synchronized fun synchronizedMethod() {
-  println("inside a synchronized method: ${Thread.currentThread()}")
+  println("inside a synchronized method: ${"$"}{Thread.currentThread()}")
 }
 ```
 
@@ -85,9 +85,9 @@ The annotation has the same effect as Java's `synchronized`: it'll mark the JVM 
 
 ```kotlin
 fun methodWithSynchronizedBlock() {  
-  println("outside of a synchronized block: ${Thread.currentThread()}")
+  println("outside of a synchronized block: ${"$"}{Thread.currentThread()}")
   synchronized(this) {
-    println("inside a synchronized block: ${Thread.currentThread()}")
+    println("inside a synchronized block: ${"$"}{Thread.currentThread()}")
   }
 }
 ```
@@ -105,14 +105,14 @@ fun start() {
   running = true
   thread(start = true) {
     while (running) {
-      println("Still running: ${Thread.currentThread()}")
+      println("Still running: ${"$"}{Thread.currentThread()}")
     }
   }
 }
 
 fun stop() {  
   running = false
-  println("Stopped: ${Thread.currentThread()}")
+  println("Stopped: ${"$"}{Thread.currentThread()}")
 }
 ```
 
@@ -131,7 +131,7 @@ fun produce() = synchronized(lock) {
   }
   Thread.sleep(rand.nextInt(100).toLong())
   items++
-  println("Produced, count is $items: ${Thread.currentThread()}")
+  println("Produced, count is ${"$"}items: ${"$"}{Thread.currentThread()}")
   lock.notifyAll()
 }
 
@@ -141,7 +141,7 @@ fun consume() = synchronized(lock) {
   }
   Thread.sleep(rand.nextInt(100).toLong())
   items--
-  println("Consumed, count is $items: ${Thread.currentThread()}")
+  println("Consumed, count is ${"$"}items: ${"$"}{Thread.currentThread()}")
   lock.notifyAll()
 }
 ```

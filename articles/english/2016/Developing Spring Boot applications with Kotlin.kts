@@ -118,7 +118,7 @@ class CustomerController {
 
 ### Property placeholders
 
-`$` is used for [String interpolation](https://kotlinlang.org/docs/reference/basic-types.html#string-templates) in Kotlin, so you should escape it when using property placeholders: `@Value("\${some.property}")`. As an alternative you can also use `@ConfigurationProperties` instead, see [this Stack Overflow](http://stackoverflow.com/a/33883230/1092077) answer for more details.
+`${"$"}` is used for [String interpolation](https://kotlinlang.org/docs/reference/basic-types.html#string-templates) in Kotlin, so you should escape it when using property placeholders: `@Value("\${"$"}{some.property}")`. As an alternative you can also use `@ConfigurationProperties` instead, see [this Stack Overflow](http://stackoverflow.com/a/33883230/1092077) answer for more details.
 
 ### Array annotation attribute
 

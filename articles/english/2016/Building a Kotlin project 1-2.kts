@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -105,7 +105,7 @@ buildscript {
   }
 
   dependencies {
-      classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_ver"
+      classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${"$"}kotlin_ver"
   }
 }
 ```
@@ -122,15 +122,15 @@ Before adding the dependencies for the libraries we're going to use in the proje
 
 ```groovy
 android {
-  compileSdkVersion "$compileSdkVersion_ver".toInteger()
-  buildToolsVersion "$buildToolsVersion_ver"
+  compileSdkVersion "${"$"}compileSdkVersion_ver".toInteger()
+  buildToolsVersion "${"$"}buildToolsVersion_ver"
 
   defaultConfig {
     applicationId "com.github.cirorizzo.kshows"
-    minSdkVersion "$minSdkVersion_ver".toInteger()
-    targetSdkVersion "$targetSdkVersion_ver".toInteger()
-    versionCode "$versionCode_ver".toInteger()
-    versionName "$versionName_ver"
+    minSdkVersion "${"$"}minSdkVersion_ver".toInteger()
+    targetSdkVersion "${"$"}targetSdkVersion_ver".toInteger()
+    versionCode "${"$"}versionCode_ver".toInteger()
+    versionName "${"$"}versionName_ver"
 }
 ...
 ```
@@ -164,25 +164,25 @@ Next step is to declare the Libraries used in the project
 ```groovy
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  testCompile "junit:junit:$junit_ver"
+  testCompile "junit:junit:${"$"}junit_ver"
 
-  compile "com.android.support:appcompat-v7:$support_ver"
-  compile "com.android.support:cardview-v7:$support_ver"
-  compile "com.android.support:recyclerview-v7:$support_ver"
-  compile "com.github.bumptech.glide:glide:$glide_ver"
+  compile "com.android.support:appcompat-v7:${"$"}support_ver"
+  compile "com.android.support:cardview-v7:${"$"}support_ver"
+  compile "com.android.support:recyclerview-v7:${"$"}support_ver"
+  compile "com.github.bumptech.glide:glide:${"$"}glide_ver"
 
-  compile "com.squareup.retrofit2:retrofit:$retrofit_ver"
-  compile ("com.squareup.retrofit2:converter-simplexml:$retrofit_ver") {
+  compile "com.squareup.retrofit2:retrofit:${"$"}retrofit_ver"
+  compile ("com.squareup.retrofit2:converter-simplexml:${"$"}retrofit_ver") {
     exclude module: 'xpp3'
     exclude group: 'stax'
 }
 
-  compile "io.reactivex:rxjava:$rxjava_ver"
-  compile "io.reactivex:rxandroid:$rxandroid_ver"
-  compile "com.squareup.retrofit2:adapter-rxjava:$retrofit_ver"
+  compile "io.reactivex:rxjava:${"$"}rxjava_ver"
+  compile "io.reactivex:rxandroid:${"$"}rxandroid_ver"
+  compile "com.squareup.retrofit2:adapter-rxjava:${"$"}retrofit_ver"
 
-  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_ver"
-  compile "org.jetbrains.anko:anko-common:$anko_ver"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:${"$"}kotlin_ver"
+  compile "org.jetbrains.anko:anko-common:${"$"}anko_ver"
 }
 ```
 

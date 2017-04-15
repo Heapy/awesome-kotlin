@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -45,7 +45,7 @@ Many features that are commonly touted to win people over to Scala — or to Kot
 ```kotlin
 data class Greeter(val name: String) {
     fun greet() {
-        println("Hello, $name")
+        println("Hello, ${"$"}name")
     }
 }
 ```

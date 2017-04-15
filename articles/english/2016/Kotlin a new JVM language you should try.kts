@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -190,7 +190,7 @@ val readWriteMap = hashMapOf("foo" to 1, "bar" to 2)
 println(readWriteMap["foo"])
 val readOnlyView: Map = HashMap(readWriteMap)
 val doubled = readOnlyView.mapValues { entry -> entry.value * 2 }
-for ((key, value) in doubled) println("$key -> $value")
+for ((key, value) in doubled) println("${"$"}key -> ${"$"}value")
 ```
 
 ## Control flow
@@ -227,7 +227,7 @@ for (item in collection)
   print(item)
 
 for ((index, value) in array.withIndex()) {
-    println("the element at $index is $value")
+    println("the element at ${"$"}index is ${"$"}value")
 }
 ```
 
@@ -239,7 +239,7 @@ I think we’ve covered quite a lot already, but there are still a few more feat
 
 ```kotlin
 val s = "abc"
-val str = "$s.length is ${s.length}" // evaluates to "abc.length is 3"
+val str = "${"$"}s.length is ${"$"}{s.length}" // evaluates to "abc.length is 3"
 ```
 * [destructuring](https://kotlinlang.org/docs/reference/multi-declarations.html) allows convenient extraction of data class or collection elements
 ```kotlin
