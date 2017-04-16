@@ -4,9 +4,12 @@ interface ReadmeGenerator {
     fun generate(): String
 }
 
-class DefaultReadmeGenerator : ReadmeGenerator {
+class DefaultReadmeGenerator(
+    private val projects: List<Category>,
+    private val articles: List<Category>
+) : ReadmeGenerator {
     override fun generate(): String {
-        return generate(ProjectLinks().getLinks() + Articles().links())
+        return generate(projects + articles)
     }
 }
 

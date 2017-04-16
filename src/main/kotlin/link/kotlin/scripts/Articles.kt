@@ -45,7 +45,16 @@ data class Enclosure(
  * @author Ibragimov Ruslan
  * @since 0.1
  */
-class Articles {
+class Articles(private val compiler: ScriptCompiler) {
+    private val _articles by lazy {
+        this
+            .scan(Paths.get("articles"))
+            .asSequence()
+            .onEach { validateArticleName(it.fileName.toString()) }
+            .map { toArticle(it, compiler) }
+            .sortedWith(Comparator { a, b -> a.date.compareTo(b.date) })
+            .toList()
+    }
 
     fun links(): List<Category> {
         val articles = articles()
@@ -59,13 +68,7 @@ class Articles {
     }
 
     fun articles(): List<Article> {
-        val articles = Articles()
-            .scan(Paths.get("articles"))
-            .onEach { validateArticleName(it.fileName.toString()) }
-            .map(::toArticle)
-            .sortedWith(Comparator { a, b -> a.date.compareTo(b.date) })
-
-        return articles
+        return _articles
     }
 
     fun scan(root: Path): List<Path> {
@@ -138,8 +141,7 @@ private fun Path.isExcluded() = this.fileName.toString().startsWith(".")
 private val parser = Parser.builder().build()
 private val renderer = HtmlRenderer.builder().build()
 
-val compiler = DefaultScriptCompiler()
-private fun readFile(path: Path): Article {
+private fun readFile(path: Path, compiler: ScriptCompiler): Article {
     return compiler.execute<Article>(Files.newInputStream(path))
 }
 
@@ -166,8 +168,9 @@ private fun getFileName(path: Path): String {
     return "${escaped}.html"
 }
 
-private fun toArticle(path: Path): Article {
-    val article = readFile(path)
+private fun toArticle(path: Path, compiler: ScriptCompiler): Article {
+    println(path.toString())
+    val article = readFile(path, compiler)
     val document = parser.parse(article.body)
     val html = renderer.render(document)
 

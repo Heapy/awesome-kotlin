@@ -61,7 +61,3 @@ private fun toSyndEntry(article: Article): SyndEntry {
         }
     }
 }
-
-fun main(args: Array<String>) {
-    println(DefaultRssGenerator(Articles().articles()).generate("test.xml", 100))
-}
