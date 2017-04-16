@@ -146,6 +146,13 @@ category("Android") {
       type = github
       tags = Tags["android", "layout"]
     }
+    link {
+      name =  "DanielMartinus/Stepper-Touch"
+      desc =  "Fun playful Android stepper widget for counting, written in Kotlin."
+      href =  "https://github.com/DanielMartinus/Stepper-Touch"
+      type =  github
+      tags =  Tags["widget", "android", "counter", "ui"]
+    }
   }
   subcategory("Frameworks") {
     link {

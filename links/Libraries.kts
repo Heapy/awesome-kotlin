@@ -104,6 +104,13 @@ category("Libraries/Frameworks") {
       href = "http://jooby.org/doc/lang-kotlin"
       tags = Tags["web", "jooby", "microframework"]
     }
+    link {
+      name = "gimlet2/kottpd"
+      desc = "REST framework in pure Kotlin, inspired by spark-java"
+      href = "https://github.com/gimlet2/kottpd"
+      type = github
+      tags = Tags["web", "REST", "http"]
+    }
   }
   subcategory("Tests") {
     link {
@@ -759,6 +766,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/consoleau/kassava"
       type = github
       tags = Tags["hashCode", "equals", "toString"]
+    }
+    link {
+      name = "moove-it/fakeit"
+      desc = "Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment."
+      href = "https://github.com/moove-it/fakeit"
+      type = github
+      tags = Tags["testing", "android", "utility"]
     }
   }
   subcategory("Extensions") {
