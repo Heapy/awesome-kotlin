@@ -9,12 +9,11 @@ fi
 
 # clear and re-create the dist directory
 rm -rf dist || exit 0;
-mkdir -p ./dist/articles;
 
-# run our compile script
-npm run ci
-cp robots.txt ./dist/
-cp awesome-kotlin.svg ./dist/
+# Run kotlin application to generate various data
+./gradlew run -Dtravis=true
+# Build React Application
+npm run pack
 
 # sync with remote folder
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/ deploy@kotlin.link:~/files/kotlin.link

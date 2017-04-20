@@ -1,13 +1,21 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.data.Links
 
 interface SitemapGenerator {
-    fun generate(): String
+    fun generate(articles: List<Article>): String
 }
 
-class DefaultSitemapGenerator(val links: Links) : SitemapGenerator {
-    override fun generate(): String {
-        return "https://github.com/dfabulich/sitemapgen4j"
+class DefaultSitemapGenerator(
+    val configuration: ApplicationConfiguration
+) : SitemapGenerator {
+
+    override fun generate(articles: List<Article>): String {
+        return sitemap {
+            +SitemapUrl(configuration.siteUrl)
+
+            articles.forEach {
+                +SitemapUrl("${configuration.siteUrl}articles/${it.filename}")
+            }
+        }
     }
 }

@@ -1,20 +1,19 @@
+
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.gradle.api.Project
 import org.gradle.api.plugins.ApplicationPluginConvention
+import org.gradle.api.tasks.JavaExec
 import org.gradle.api.tasks.wrapper.Wrapper
 import org.gradle.script.lang.kotlin.compile
 import org.gradle.script.lang.kotlin.configure
 import org.gradle.script.lang.kotlin.dependencies
-import org.gradle.script.lang.kotlin.extra
-import org.gradle.script.lang.kotlin.getValue
 import org.gradle.script.lang.kotlin.repositories
 import org.gradle.script.lang.kotlin.task
 import org.gradle.script.lang.kotlin.testCompile
+import org.jetbrains.kotlin.gradle.dsl.Coroutines
+import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 
 buildscript {
-    var kotlinVersion: String by extra
-    kotlinVersion = "1.1.1"
-
     repositories {
         jcenter()
         maven {
@@ -24,7 +23,7 @@ buildscript {
 
     dependencies {
         classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-eap-73")
     }
 }
 
@@ -35,8 +34,11 @@ apply {
 }
 
 configure<ApplicationPluginConvention> {
-    applicationName = "kotbot"
-    mainClassName = "link.kotlin.scripts.ApplicationKt"
+    mainClassName = "link.kotlin.scripts.Application"
+}
+
+configure<JavaExec>("run") {
+    args(System.getProperty("travis", "false"))
 }
 
 configure<ShadowJar>("shadowJar") {
@@ -50,20 +52,22 @@ repositories {
     }
 }
 
-val kotlinVersion: String by extra
+configure<KotlinProjectExtension> {
+    experimental.coroutines = Coroutines.ENABLE
+}
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
-    compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-core:0.12")
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-eap-73")
+    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.2-eap-73")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.14.1")
 
-    compile("io.bootique:bootique:0.21")
-    compile("io.bootique.logback:bootique-logback:0.13")
+    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
+    compile("org.slf4j:slf4j-simple:1.7.25")
 
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
 
-    compile("com.atlassian.commonmark:commonmark-ext-yaml-front-matter:0.9.0")
+    compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-73")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
 
     compile("com.squareup.okhttp3:okhttp:3.5.0")
@@ -72,7 +76,7 @@ dependencies {
 }
 
 task(name = "wrapper", type = Wrapper::class) {
-    gradleVersion = "3.4"
+    gradleVersion = "3.5"
     distributionUrl = "http://services.gradle.org/distributions/gradle-$gradleVersion-bin.zip"
 }
 

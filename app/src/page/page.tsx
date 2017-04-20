@@ -35,8 +35,6 @@ function reduceSubcategory(subcategory, searchTerm) {
     return acc;
   }, []);
 
-  console.log(links);
-
   return {
     name: subcategory.name,
     links

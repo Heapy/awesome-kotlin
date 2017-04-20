@@ -1,9 +1,16 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.data.Links
-
 interface ReadmeGenerator {
     fun generate(): String
+}
+
+class DefaultReadmeGenerator(
+    private val projects: List<Category>,
+    private val articles: List<Category>
+) : ReadmeGenerator {
+    override fun generate(): String {
+        return generate(projects + articles)
+    }
 }
 
 internal fun normalizeName(name: String): String {
@@ -96,10 +103,3 @@ ${getLinks(links)}
 
     return template
 }
-
-class DefaultReadmeGenerator(val links: Links) : ReadmeGenerator {
-    override fun generate(): String {
-        return generate(links)
-    }
-}
-
