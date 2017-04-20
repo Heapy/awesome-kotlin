@@ -23,7 +23,7 @@ buildscript {
 
     dependencies {
         classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-eap-73")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-eap-77")
     }
 }
 
@@ -57,8 +57,8 @@ configure<KotlinProjectExtension> {
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-eap-73")
-    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.2-eap-73")
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-eap-77")
+    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.2-eap-77")
     compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.14.1")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
@@ -67,7 +67,7 @@ dependencies {
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
 
-    compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-73")
+    compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-77")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
 
     compile("com.squareup.okhttp3:okhttp:3.5.0")
