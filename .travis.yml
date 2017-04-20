@@ -13,6 +13,7 @@ before_script:
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/deploy@morty
 script:
+  - source /etc/profile.d/jdk.sh
   - bash ./deploy.sh
 cache:
   yarn: true
