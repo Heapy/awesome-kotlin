@@ -11,7 +11,6 @@ fi
 rm -rf dist || exit 0;
 
 # Run kotlin application to generate various data
-java -version
 ./gradlew --no-daemon --stacktrace run -Dtravis=true
 # Build React Application
 npm run pack

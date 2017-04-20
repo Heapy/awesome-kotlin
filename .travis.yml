@@ -5,6 +5,7 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
+      - oracle-java8-set-default
 before_script:
   - npm test
   - openssl aes-256-cbc -K $encrypted_83630750896a_key -iv $encrypted_83630750896a_iv -in deploy@morty.enc -out ~/.ssh/deploy@morty -d
