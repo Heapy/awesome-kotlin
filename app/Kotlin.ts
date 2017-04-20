@@ -288,6 +288,12 @@ const data: Category[] = [{
       href: 'https://github.com/kohesive/injekt',
       type: 'github',
       tags: ['di', 'dependency injection']
+    }, {
+      name: 'traversals/kapsule',
+      desc: 'Minimalist dependency injection library for Kotlin.',
+      href: 'https://github.com/traversals/kapsule',
+      type: 'github',
+      tags: ['di', 'dependency injection']
     }]
   }, {
     name: 'Functional Programming',
