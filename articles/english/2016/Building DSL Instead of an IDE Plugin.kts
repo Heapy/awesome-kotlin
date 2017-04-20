@@ -1,6 +1,7 @@
 
 import link.kotlin.scripts.Article
 import link.kotlin.scripts.ArticleFeature
+import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.ArticleFeature.mathjax
 import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
@@ -191,5 +192,5 @@ Article(
   author = "Eugene Petrenko",
   date = LocalDate.of(2016, 9, 2),
   body = body,
-  features = listOf(mathjax)
+  features = listOf(mathjax, highlightjs)
 )

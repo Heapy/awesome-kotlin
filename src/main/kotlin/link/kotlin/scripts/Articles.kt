@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.model.Link
 import org.commonmark.parser.Parser
@@ -13,9 +14,13 @@ import java.nio.file.Paths
 import java.nio.file.attribute.BasicFileAttributes
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-import java.time.format.FormatStyle
+import java.time.format.DateTimeFormatterBuilder
+import java.time.format.SignStyle.EXCEEDS_PAD
+import java.time.format.TextStyle.FULL
+import java.time.temporal.ChronoField.MONTH_OF_YEAR
+import java.time.temporal.ChronoField.YEAR
 
-// TODO: FIXME: WARNING: Unrefactored SHIT code
+// TODO: FIXME: WARNING: Refactor SHIT code
 
 data class Article(
     val title: String,
@@ -25,7 +30,7 @@ data class Article(
     val date: LocalDate,
     val type: LinkType,
     val categories: List<String> = listOf(),
-    val features: List<ArticleFeature> = listOf(),
+    val features: List<ArticleFeature> = listOf(highlightjs),
     val description: String = "",
     val filename: String = "",
     val prev: String = "",
@@ -52,7 +57,7 @@ class Articles(private val compiler: ScriptCompiler) {
             .asSequence()
             .onEach { validateArticleName(it.fileName.toString()) }
             .map { toArticle(it, compiler) }
-            .sortedWith(Comparator { a, b -> a.date.compareTo(b.date) })
+            .sortedWith(Comparator { a, b -> b.date.compareTo(a.date) })
             .toList()
     }
 
@@ -114,22 +119,29 @@ class Articles(private val compiler: ScriptCompiler) {
     }
 }
 
-private val formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)
+private val formatter: DateTimeFormatter = DateTimeFormatterBuilder()
+    .appendText(MONTH_OF_YEAR, FULL)
+    .appendLiteral(' ')
+    .appendValue(YEAR, 4, 10, EXCEEDS_PAD)
+    .toFormatter()
+
 private fun getCategory(articles: List<Article>): Category {
-    val groupByDate = articles.groupBy { it.date }
+    val groupByDate = articles.groupBy { it.date.format(formatter) }
 
     val subcategories = groupByDate.map { (k, v) ->
         Subcategory(
-            name = k.format(formatter),
-            links = v.map {
-                Link(
-                    name = it.title,
-                    desc = it.author,
-                    href = "http://kotlin.link/articles/${it.filename}",
-                    type = LinkType.blog,
-                    tags = it.categories.toTypedArray()
-                )
-            }.toMutableList()
+            name = k,
+            links = v
+                .sortedBy { it.date }
+                .map {
+                    Link(
+                        name = it.title,
+                        desc = it.author,
+                        href = "http://kotlin.link/articles/${it.filename}",
+                        type = LinkType.blog,
+                        tags = it.categories.toTypedArray()
+                    )
+                }.toMutableList()
         )
     }.toMutableList()
 
@@ -149,11 +161,12 @@ private fun getFileName(path: Path): String {
     val name = path.fileName.toString().removeSuffix(".kts")
 
     val escaped = name
-        .map { it.toByte() }
+        .map { it.toInt() }
         .map { code ->
             // See html codes: 32 - space, 47 - slash, 58 - colon, 64 - at, 91 - opening bracket, 96 - grave accent
             // http://ascii-code.com/
             // whitelist approach instead?
+            Char
             if ((code in 32..47) || (code in 58..64) || (code in 91..96) || (code in 123..255)) {
                 '-';
             } else {

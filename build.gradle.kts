@@ -1,6 +1,8 @@
+
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.gradle.api.Project
 import org.gradle.api.plugins.ApplicationPluginConvention
+import org.gradle.api.tasks.JavaExec
 import org.gradle.api.tasks.wrapper.Wrapper
 import org.gradle.script.lang.kotlin.compile
 import org.gradle.script.lang.kotlin.configure
@@ -32,7 +34,11 @@ apply {
 }
 
 configure<ApplicationPluginConvention> {
-    mainClassName = "link.kotlin.scripts.ApplicationKt"
+    mainClassName = "link.kotlin.scripts.Application"
+}
+
+configure<JavaExec>("run") {
+    args(System.getProperty("travis", "false"))
 }
 
 configure<ShadowJar>("shadowJar") {

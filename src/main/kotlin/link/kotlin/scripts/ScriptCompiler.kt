@@ -1,7 +1,6 @@
 package link.kotlin.scripts
 
 import org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngineFactory
-import org.slf4j.LoggerFactory
 import java.io.InputStream
 import java.util.concurrent.atomic.AtomicInteger
 import javax.script.ScriptEngine
@@ -15,12 +14,9 @@ class DefaultScriptCompiler : ScriptCompiler {
     private var scriptEngine = factory.scriptEngine
     private var counter = AtomicInteger(0)
 
-    private val logger = LoggerFactory.getLogger(DefaultScriptCompiler::class.java)
-
     private fun getEngine(): ScriptEngine {
-
-        if (counter.incrementAndGet() > 30) {
-            logger.info("New engine!")
+        if (counter.incrementAndGet() > 20) {
+            LOGGER.info("Create new script engine.")
             scriptEngine = factory.scriptEngine
             counter.set(0)
         }
@@ -31,5 +27,9 @@ class DefaultScriptCompiler : ScriptCompiler {
     @Suppress("UNCHECKED_CAST")
     override fun <T> execute(inputStream: InputStream): T {
         return getEngine().eval(inputStream.reader()) as T
+    }
+
+    companion object {
+        private val LOGGER = logger<DefaultScriptCompiler>()
     }
 }

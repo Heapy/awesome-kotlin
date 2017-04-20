@@ -45,7 +45,8 @@ data class Category(
 }
 
 enum class ArticleFeature {
-    mathjax
+    mathjax,
+    highlightjs
 }
 
 typealias Links = List<Category>

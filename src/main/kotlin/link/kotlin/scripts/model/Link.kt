@@ -8,5 +8,7 @@ data class Link(
     val desc: String = "",
     val type: LinkType = LinkType.none,
     val tags: Array<String> = arrayOf(),
-    val whitelisted: Boolean = false
+    val whitelisted: Boolean = false,
+    var star: Int? = null,
+    var update: String? = null
 )

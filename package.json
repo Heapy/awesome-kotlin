@@ -35,9 +35,7 @@
   "scripts": {
     "prestart": "yarn install",
     "start": "webpack-dev-server",
-    "pack": "export NODE_ENV=production; export SOURCE_MAP=source-map; webpack",
-    "kotlin": "./gradlew installDist && ./build/install/awesome-kotlin/bin/awesome-kotlin CI",
-    "ci": "npm run kotlin && npm run pack"
+    "pack": "export NODE_ENV=production; export SOURCE_MAP=source-map; webpack"
   },
   "repository": {
     "type": "git",

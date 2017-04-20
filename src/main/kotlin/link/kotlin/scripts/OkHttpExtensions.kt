@@ -7,10 +7,24 @@ import okhttp3.Request
 import okhttp3.Response
 import java.io.IOException
 import java.util.concurrent.CompletableFuture
+import kotlin.coroutines.experimental.Continuation
+import kotlin.coroutines.experimental.suspendCoroutine
 
 
 class OkHttpException(val request: Request,
                       val exception: Exception) : RuntimeException(exception)
+
+suspend fun Call.await(): Response = suspendCoroutine<Response> { cont: Continuation<Response> ->
+    this.enqueue(object : Callback {
+        override fun onResponse(call: Call, response: Response) {
+            cont.resume(response)
+        }
+
+        override fun onFailure(call: Call, exception: IOException) {
+            cont.resumeWithException(OkHttpException(call.request(), exception))
+        }
+    })
+}
 
 fun Call.async(): CompletableFuture<Response> {
     val future = CompletableFuture<Response>()

@@ -1,6 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.ArticleFeature
+import link.kotlin.scripts.ArticleFeature.highlightjs
+import link.kotlin.scripts.ArticleFeature.mathjax
 import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
@@ -347,5 +348,5 @@ Article(
   author = "Mark Galea",
   date = LocalDate.of(2016, 8, 20),
   body = body,
-  features = listOf(ArticleFeature.mathjax)
+  features = listOf(mathjax, highlightjs)
 )

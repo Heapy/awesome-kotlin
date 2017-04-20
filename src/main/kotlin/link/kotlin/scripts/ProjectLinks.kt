@@ -25,7 +25,3 @@ class ProjectLinks(private val compiler: ScriptCompiler = DefaultScriptCompiler(
         return compiler.execute<Category>(Files.newInputStream(Paths.get("links/$path")))
     }
 }
-
-fun main(args: Array<String>) {
-    println(ProjectLinks().getLinks())
-}

@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.ArticleFeature.mathjax
 import java.nio.file.Files
 import java.nio.file.Paths
@@ -65,9 +66,9 @@ private fun getHtml(article: Article, links: String): String {
   <meta charset="UTF-8">
   <title>${article.title}</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel='stylesheet' href='./styles.css'>
-  <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
   <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - 20 latest" href="/rss.xml" />
   <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - full archive" href="/rss-full.xml" />
   ${getFeatures(article.features)}
@@ -122,8 +123,7 @@ private fun getHtml(article: Article, links: String): String {
     menuLink.addEventListener("click", function(){listener();}, false);
   </script>
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/github.min.css">
-  <!-- Yandex.Metrika counter -->
+ <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
     (function (d, w, c) {
       (w[c] = w[c] || []).push(function() {
@@ -163,6 +163,11 @@ fun getFeatures(features: List<ArticleFeature>): String {
     return features.map {
         when (it) {
             mathjax -> """<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>"""
+            highlightjs -> """
+                <link rel="stylesheet" href="/github.css">
+                <script src="/highlight.pack.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+                """
             else -> """<script type="application/javascript">console.error("Unknown feature: $it")</script>"""
         }
     }.joinToString(separator = "\n")

@@ -1,8 +1,9 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.ArticleFeature
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.ArticleFeature.highlightjs
+import link.kotlin.scripts.ArticleFeature.mathjax
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -343,5 +344,5 @@ Article(
   author = "Eugene Petrenko",
   date = LocalDate.of(2016, 9, 9),
   body = body,
-  features = listOf(ArticleFeature.mathjax)
+  features = listOf(mathjax, highlightjs)
 )
