@@ -4,6 +4,7 @@ import {Search} from "../search/search";
 import {Category} from "../category/category";
 import {withRouter} from "react-router";
 import {searchString} from "../locations";
+import {Banner} from "../banner/banner";
 
 const styles = require("./page.less");
 
@@ -33,8 +34,6 @@ function reduceSubcategory(subcategory, searchTerm) {
     }
     return acc;
   }, []);
-
-  console.log(links);
 
   return {
     name: subcategory.name,
@@ -93,6 +92,8 @@ class PageComponent extends React.Component<PageProps, PageState> {
           <img className={styles.page_github_link}
                src={require("./forkme_right_white_ffffff.png")}
                alt="Fork me on GitHub"/></a>
+
+        <Banner/>
 
         <Head/>
 

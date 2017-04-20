@@ -3,7 +3,7 @@ export function searchString(object: QueryParams): string {
       .keys(object)
       .filter(key => object[key] !== "")
       .map(key => `${key}=${encodeURIComponent(object[key])}`)
-      .join("&")
+      .join("&");
 }
 
 interface QueryParams {
