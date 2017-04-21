@@ -795,6 +795,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["extensions", "utility"]
     }
+    link {
+      name = "phxql/aleksa"
+      desc = "Aleksa is a small framework for writing Alexa Skills in Kotlin."
+      href = "https://github.com/phxql/aleksa"
+      type = github
+      tags = Tags["alexa", "amazon echo", "text to speech"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -805,7 +812,7 @@ category("Libraries/Frameworks") {
       tags = Tags["jdk8", "jdk7"]
     }
     link {
-      name = "reactor/reactor-kotlin-extensions/"
+      name = "reactor/reactor-kotlin-extensions"
       desc = "Kotlin extensions for Reactor."
       href = "https://github.com/reactor/reactor-kotlin-extensions/"
       type = github
