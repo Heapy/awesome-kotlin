@@ -118,6 +118,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "rest", "http", "fullstack"]
     }
+    link {
+      name = "brianmadden/krawler"
+      desc = "A web crawling framework written in Kotlin"
+      href = "https://github.com/brianmadden/krawler"
+      type = github
+      tags = Tags["crawler4j", "web-crawler", "webcrawler", "link-checker"]
+    }
   }
   subcategory("Tests") {
     link {
