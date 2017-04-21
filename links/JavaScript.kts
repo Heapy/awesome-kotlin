@@ -21,13 +21,6 @@ category("Kotlin JavaScript") {
       tags = Tags["javascript", "2d", "canvas", "WebGL"]
     }
     link {
-      name = "bashor/ts2kt"
-      desc = "Converter of TypeScript definition files to Kotlin declarations (stubs)"
-      href = "https://github.com/bashor/ts2kt"
-      type = github
-      tags = Tags["javascript", "typescript"]
-    }
-    link {
       name = "shafirov/klogging"
       desc = "Kotlin logging, both js and jvm."
       href = "https://github.com/shafirov/klogging"
@@ -40,6 +33,20 @@ category("Kotlin JavaScript") {
       href = "https://github.com/stangls/kotlin-js-jquery"
       type = github
       tags = Tags["javascript", "jquery"]
+    }
+    link {
+      name = "Kotlin/kotlin-fullstack-sample"
+      desc = "Kotlin Full-stack Application Example."
+      href = "https://github.com/Kotlin/kotlin-fullstack-sample"
+      type = github
+      tags = Tags["fullstack", "javascript", "web", "ktor"]
+    }
+    link {
+      name = "danfma/kodando"
+      desc = "Kotlin JS bindings and libraries."
+      href = "https://github.com/danfma/kodando"
+      type = github
+      tags = Tags["bindings", "react", "mobx", "rxjs"]
     }
   }
   subcategory("Frontend") {
@@ -58,6 +65,31 @@ category("Kotlin JavaScript") {
       href = "https://github.com/perses-games/kudens"
       type = github
       tags = Tags["games", "game dev", "javascript"]
+    }
+  }
+  subcategory("Build Tools") {
+    link {
+      name = "Kotlin/kotlin-frontend-plugin"
+      desc = "Gradle Kotlin plugin for frontend development."
+      href = "https://github.com/Kotlin/kotlin-frontend-plugin"
+      type = github
+      tags = Tags["webpack", "npm", "gradle", "karma", "javascript"]
+    }
+    link {
+      name = "huston007/kotlin-loader"
+      desc = "Kotlin webpack loader."
+      href = "https://github.com/huston007/kotlin-loader"
+      type = github
+      tags = Tags["webpack", "javascript"]
+    }
+  }
+  subcategory("Integration") {
+    link {
+      name = "kotlin/ts2kt"
+      desc = "Converter of TypeScript definition files to Kotlin declarations (stubs)."
+      href = "https://github.com/kotlin/ts2kt"
+      type = github
+      tags = Tags["javascript", "typescript"]
     }
   }
 }

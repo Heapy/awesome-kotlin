@@ -29,8 +29,15 @@ category("Android") {
     }
     link {
       name = "MarcinMoskala/KotlinPreferences"
-      desc = "Kotlin Android Library, that makes preference usage simple and fun."
+      desc = "Kotlin Android Library, that makes preference usage in Kotlin simple and fun."
       href = "https://github.com/MarcinMoskala/KotlinPreferences"
+      type = github
+      tags = Tags["android", "preferences"]
+    }
+    link {
+      name = "MarcinMoskala/PreferenceHolder"
+      desc = "Kotlin Android Library, that makes preference usage in Kotlin simple and fun using object with fields binded to SharedPreferences."
+      href = "https://github.com/MarcinMoskala/PreferenceHolder"
       type = github
       tags = Tags["android", "preferences"]
     }
@@ -159,6 +166,13 @@ category("Android") {
       href = "https://github.com/GlimpseFramework/glimpse-framework-android"
       type = github
       tags = Tags["android", "opengl"]
+    }
+    link {
+      name = "infotech-group/android-drawable-dsl"
+      desc = "DSL for constructing the drawables in Kotlin instead of in XML."
+      href = "https://github.com/infotech-group/android-drawable-dsl"
+      type = github
+      tags = Tags["android", "drawable", "dsl"]
     }
   }
   subcategory("Frameworks") {

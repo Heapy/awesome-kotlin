@@ -9,6 +9,7 @@ private val files = listOf(
     "Projects.kts",
     "Android.kts",
     "JavaScript.kts",
+    "Native.kts",
     "UserGroups.kts"
 )
 

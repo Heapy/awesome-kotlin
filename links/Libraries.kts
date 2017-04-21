@@ -292,6 +292,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["fp", "functional", "monads"]
     }
+    link {
+      name = "FineCinnamon/Katz"
+      desc = "Typeful functional programming in Kotlin."
+      href = "https://github.com/FineCinnamon/Katz"
+      type = github
+      tags = Tags["fp", "functional", "cats"]
+    }
+    link {
+      name = "poetix/klenses"
+      desc = "Lenses for Kotlin."
+      href = "https://github.com/poetix/klenses"
+      type = github
+      tags = Tags["fp", "functional", "lenses"]
+    }
   }
   subcategory("JSON") {
     link {
@@ -469,13 +483,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/arturbosch/detekt"
       type = github
       tags = Tags["check style", "checkstyle"]
-    }
-    link {
-      name = "ligee/kotlin-jupyter"
-      desc = "Kotlin kernel for Jupyter/iPython."
-      href = "https://github.com/ligee/kotlin-jupyter"
-      type = github
-      tags = Tags["juputer", "repl"]
     }
   }
   subcategory("Desktop") {
@@ -919,6 +926,29 @@ category("Libraries/Frameworks") {
       href = "https://github.com/GlimpseFramework/glimpse-framework"
       type = github
       tags = Tags["opengl", "shaders"]
+    }
+  }
+  subcategory("Data Science") {
+    link {
+      name = "ligee/kotlin-jupyter"
+      desc = "Kotlin kernel for Jupyter/iPython."
+      href = "https://github.com/ligee/kotlin-jupyter"
+      type = github
+      tags = Tags["data science", "juputer", "repl"]
+    }
+    link {
+      name = "thomasnield/kotlin-statistics"
+      desc = "Advanced math and statistical extensions for Kotlin."
+      href = "https://github.com/thomasnield/kotlin-statistics"
+      type = github
+      tags = Tags["data science", "extensions"]
+    }
+    link {
+      name = "holgerbrandl/krangl"
+      desc = "krangl is a {K}otlin library for data w{rangl}ing."
+      href = "https://github.com/holgerbrandl/krangl"
+      type = github
+      tags = Tags["data science", "data wrangling"]
     }
   }
 }
