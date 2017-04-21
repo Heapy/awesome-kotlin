@@ -109,7 +109,14 @@ category("Libraries/Frameworks") {
       desc = "REST framework in pure Kotlin, inspired by spark-java"
       href = "https://github.com/gimlet2/kottpd"
       type = github
-      tags = Tags["web", "REST", "http"]
+      tags = Tags["web", "rest", "http"]
+    }
+    link {
+      name = "kwebio/core"
+      desc = " A Kotlin interface to one or more remote web-browsers."
+      href = "https://github.com/kwebio/core"
+      type = github
+      tags = Tags["web", "rest", "http", "fullstack"]
     }
   }
   subcategory("Tests") {
