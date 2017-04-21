@@ -899,5 +899,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["assimp", "stl", "md2"]
     }
+    link {
+      name = "GlimpseFramework/glimpse-framework"
+      desc = "OpenGL made simple."
+      href = "https://github.com/GlimpseFramework/glimpse-framework"
+      type = github
+      tags = Tags["opengl", "shaders"]
+    }
   }
 }

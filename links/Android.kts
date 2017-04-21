@@ -153,6 +153,13 @@ category("Android") {
       type =  github
       tags =  Tags["widget", "android", "counter", "ui"]
     }
+    link {
+      name = "GlimpseFramework/glimpse-framework-android"
+      desc = "OpenGL made simple."
+      href = "https://github.com/GlimpseFramework/glimpse-framework-android"
+      type = github
+      tags = Tags["android", "opengl"]
+    }
   }
   subcategory("Frameworks") {
     link {
