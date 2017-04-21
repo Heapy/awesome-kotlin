@@ -950,5 +950,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["data science", "data wrangling"]
     }
+    link {
+      name = "kyonifer/golem"
+      desc = "Golem is a scientific environment for Kotlin that emphasizes language/platform interop, performance, and flexibility."
+      href = "https://github.com/kyonifer/golem"
+      type = github
+      tags = Tags["data science", "plot", "matlab", "numpy"]
+    }
   }
 }
