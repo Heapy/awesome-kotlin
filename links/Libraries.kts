@@ -788,6 +788,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["testing", "android", "utility"]
     }
+    link {
+      name = "czyzby/kotlin-times"
+      desc = "A simple utility library for readable loops."
+      href = "https://github.com/czyzby/kotlin-times"
+      type = github
+      tags = Tags["extensions", "utility"]
+    }
   }
   subcategory("Extensions") {
     link {
