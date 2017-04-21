@@ -804,6 +804,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["jdk8", "jdk7"]
     }
+    link {
+      name = "reactor/reactor-kotlin-extensions/"
+      desc = "Kotlin extensions for Reactor."
+      href = "https://github.com/reactor/reactor-kotlin-extensions/"
+      type = github
+      tags = Tags["reactor", "extensions"]
+    }
   }
   subcategory("Configuration") {
     link {
