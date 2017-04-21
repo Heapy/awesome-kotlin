@@ -8,7 +8,6 @@ import kotlinx.coroutines.experimental.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
-import java.time.LocalDateTime
 import java.util.concurrent.CompletableFuture
 
 class DefaultStarsGenerator(
@@ -27,7 +26,7 @@ class DefaultStarsGenerator(
                             val stars = mapper.readValue<GithubResponse>(response.body().string())
 
                             link.star = stars.stargazers_count
-                            link.update = LocalDateTime.parse(stars.pushed_at).format(formatter)
+                            link.update = parseInstant(stars.pushed_at).format(formatter)
                         }
                         LinkType.bitbucket -> {
                             // TODO: Do request async
