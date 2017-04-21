@@ -576,6 +576,13 @@ category("Libraries/Frameworks") {
       type = bitbucket
       tags = Tags["syntax", "higlight"]
     }
+    link {
+      name = "cansik/kotlin-latex-listing"
+      desc = "A syntax highlighting template for the Kotlin language in LaTeX listings."
+      href = "https://github.com/cansik/kotlin-latex-listing"
+      type = github
+      tags = Tags["syntax", "higlight"]
+    }
   }
   subcategory("Game Development") {
     link {
