@@ -34,6 +34,13 @@ category("Kotlin JavaScript") {
       type = github
       tags = Tags["javascript", "logging"]
     }
+    link {
+      name = "stangls/kotlin-js-jquery"
+      desc = "A small framework for writing client -side web -applications in Kotlin."
+      href = "https://github.com/stangls/kotlin-js-jquery"
+      type = github
+      tags = Tags["javascript", "jquery"]
+    }
   }
   subcategory("Frontend") {
     link {
