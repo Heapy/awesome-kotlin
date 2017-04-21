@@ -213,6 +213,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["di", "dependency injection", "kodein"]
     }
+    link {
+      name = "traversals/kapsule"
+      desc = "Minimalist dependency injection library for Kotlin."
+      href = "https://github.com/traversals/kapsule"
+      type = github
+      tags = Tags["di", "dependency injection"]
+    }
   }
   subcategory("Functional Programming") {
     link {
