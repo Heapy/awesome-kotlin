@@ -246,6 +246,13 @@ category("Android") {
       type = github
       tags = Tags["android", "twitter", "application"]
     }
+    link {
+      name = "TwidereProject/Twidere-Android"
+      desc = "Material Design ready and feature rich Twitter app for Android 4.0+"
+      href = "https://github.com/TwidereProject/Twidere-Android"
+      type = github
+      tags = Tags["android", "twitter", "application"]
+    }
   }
   subcategory("Extensions") {
     link {
