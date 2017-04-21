@@ -44,4 +44,13 @@ category("Kotlin JavaScript") {
       tags = Tags["css"]
     }
   }
+  subcategory("Game Development") {
+    link {
+      name = "perses-games/kudens"
+      desc = "Develop browser games in Kotlin"
+      href = "https://github.com/perses-games/kudens"
+      type = github
+      tags = Tags["games", "game dev", "javascript"]
+    }
+  }
 }

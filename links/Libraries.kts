@@ -534,8 +534,15 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "ftomassetti/kanvas"
-      desc = " A truly hackable editor: simple, lightweight, understandable."
+      desc = "A truly hackable editor: simple, lightweight, understandable."
       href = "https://github.com/ftomassetti/kanvas"
+      type = github
+      tags = Tags["editor", "ide", "language"]
+    }
+    link {
+      name = "mathiasfrohlich/vscode-kotlin"
+      desc = "Kotlin language support for VS Code."
+      href = "https://github.com/mathiasfrohlich/vscode-kotlin"
       type = github
       tags = Tags["editor", "ide", "language"]
     }

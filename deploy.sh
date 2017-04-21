@@ -13,7 +13,7 @@ rm -rf dist || exit 0;
 # Run kotlin application to generate various data
 echo $JAVA_HOME
 java -version
-./gradlew --consile plain --no-daemon --stacktrace run -Dtravis=true
+./gradlew --console plain --no-daemon --stacktrace run -Dtravis=true
 # Build React Application
 npm run pack
 
