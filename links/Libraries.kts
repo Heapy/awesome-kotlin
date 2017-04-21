@@ -604,14 +604,21 @@ category("Libraries/Frameworks") {
       desc = "Kotlin utilities for LibGDX applications."
       href = "https://github.com/czyzby/ktx"
       type = github
-      tags = Tags["LibGDX", "game dev"]
+      tags = Tags["LibGDX", "game dev", "games"]
     }
     link {
       name = "AlmasB/FXGL"
       desc = "JavaFX 8 Game Library written in Java + Kotlin"
       href = "https://github.com/AlmasB/FXGL"
       type = github
-      tags = Tags["javafx", "desktop", "games"]
+      tags = Tags["javafx", "desktop", "games", "game dev"]
+    }
+    link {
+      name = "icela/FriceEngine"
+      desc = "Make game developing easy again!"
+      href = "https://github.com/icela/FriceEngine"
+      type = github
+      tags = Tags["desktop", "games", "game dev"]
     }
   }
   subcategory("Misc") {
