@@ -54,7 +54,7 @@ class DefaultPageGenerator : PagesGenerator {
     }
 }
 
-private val formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)
+internal val formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)
 private fun formatDate(date: LocalDate): String {
     return date.format(formatter)
 }

@@ -119,14 +119,14 @@ class Articles(private val compiler: ScriptCompiler) {
     }
 }
 
-private val formatter: DateTimeFormatter = DateTimeFormatterBuilder()
+private val dayFormatter: DateTimeFormatter = DateTimeFormatterBuilder()
     .appendText(MONTH_OF_YEAR, FULL)
     .appendLiteral(' ')
     .appendValue(YEAR, 4, 10, EXCEEDS_PAD)
     .toFormatter()
 
 private fun getCategory(articles: List<Article>): Category {
-    val groupByDate = articles.groupBy { it.date.format(formatter) }
+    val groupByDate = articles.groupBy { it.date.format(dayFormatter) }
 
     val subcategories = groupByDate.map { (k, v) ->
         Subcategory(
@@ -168,7 +168,7 @@ private fun getFileName(path: Path): String {
             // whitelist approach instead?
             Char
             if ((code in 32..47) || (code in 58..64) || (code in 91..96) || (code in 123..255)) {
-                '-';
+                '-'
             } else {
                 code.toChar()
             }

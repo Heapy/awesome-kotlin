@@ -8,6 +8,7 @@ import kotlinx.coroutines.experimental.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
+import java.time.LocalDateTime
 import java.util.concurrent.CompletableFuture
 
 class DefaultStarsGenerator(
@@ -21,13 +22,15 @@ class DefaultStarsGenerator(
                 subcategory.links.forEach { link ->
                     when (link.type) {
                         LinkType.github -> {
+                            // TODO: Do request async
                             val response = getGithubStarCount(okHttpClient, link.name, config.ghUser, config.ghToken).await()
                             val stars = mapper.readValue<GithubResponse>(response.body().string())
 
                             link.star = stars.stargazers_count
-                            link.update = stars.pushed_at
+                            link.update = LocalDateTime.parse(stars.pushed_at).format(formatter)
                         }
                         LinkType.bitbucket -> {
+                            // TODO: Do request async
                             val response = getBitbucketStarCount(okHttpClient, link.name).await()
 
                             val stars = mapper.readValue<BitbucketResponse>(response.body().string())
