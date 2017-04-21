@@ -820,6 +820,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["configuration"]
     }
+    link {
+      name = "jdiazcano/cfg4k"
+      desc = "Flexible and easy to use config library written in kotlin."
+      href = "https://github.com/jdiazcano/cfg4k"
+      type = github
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
