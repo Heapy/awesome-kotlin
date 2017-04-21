@@ -172,6 +172,7 @@ Here awesome badge for your project:
 * [jooby/kotlin](http://jooby.org/doc/lang-kotlin) - Kotlin idioms for Jooby microframework
 * [gimlet2/kottpd](https://github.com/gimlet2/kottpd) - REST framework in pure Kotlin, inspired by spark-java
 * [kwebio/core](https://github.com/kwebio/core) -  A Kotlin interface to one or more remote web-browsers.
+* [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
@@ -261,6 +262,7 @@ Here awesome badge for your project:
 ### <a name="libraries-frameworks-game-development"></a>Game Development <sup>[Back ⇈](#libraries-frameworks-game-development-subcategory)</sup>
 * [czyzby/ktx](https://github.com/czyzby/ktx) - Kotlin utilities for LibGDX applications.
 * [AlmasB/FXGL](https://github.com/AlmasB/FXGL) - JavaFX 8 Game Library written in Java + Kotlin
+* [icela/FriceEngine](https://github.com/icela/FriceEngine) - Make game developing easy again!
 
 ### <a name="libraries-frameworks-misc"></a>Misc <sup>[Back ⇈](#libraries-frameworks-misc-subcategory)</sup>
 * [Kotlin/kotlinx.reflect.lite](https://github.com/Kotlin/kotlinx.reflect.lite) - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
@@ -310,6 +312,7 @@ Here awesome badge for your project:
 * [elect86/openvr](https://github.com/elect86/openvr) - Openvr binding
 * [elect86/kt](https://github.com/elect86/kt) - gli, port of cpp g-truck gli, texture util
 * [java-graphics/assimp](https://github.com/java-graphics/assimp) - Java Open Asset Import Library
+* [GlimpseFramework/glimpse-framework](https://github.com/GlimpseFramework/glimpse-framework) - OpenGL made simple.
 
 
 ## <a name="projects"></a>Projects <sup>[Back ⇈](#projects-category)</sup>
@@ -376,6 +379,7 @@ Here awesome badge for your project:
 * [jupf/staticlog](https://github.com/jupf/staticlog) - StaticLog - super lightweight static logging for Kotlin, Java and Android.
 * [zserge/anvil](https://github.com/zserge/anvil) - Minimal UI library for Android inspired by React.
 * [DanielMartinus/Stepper-Touch](https://github.com/DanielMartinus/Stepper-Touch) - Fun playful Android stepper widget for counting, written in Kotlin.
+* [GlimpseFramework/glimpse-framework-android](https://github.com/GlimpseFramework/glimpse-framework-android) - OpenGL made simple.
 
 ### <a name="android-frameworks"></a>Frameworks <sup>[Back ⇈](#android-frameworks-subcategory)</sup>
 * [nekocode/kotgo](https://github.com/nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
