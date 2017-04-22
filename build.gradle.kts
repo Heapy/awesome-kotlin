@@ -66,6 +66,7 @@ dependencies {
 
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
+    compile("org.jsoup:jsoup:1.10.2")
 
     compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-77")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
