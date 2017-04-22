@@ -844,6 +844,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["alexa", "amazon echo", "text to speech"]
     }
+    link {
+      name = "cretz/asmble"
+      desc = "Compile WebAssembly to JVM and other WASM tools."
+      href = "https://github.com/cretz/asmble"
+      type = github
+      tags = Tags["wasm", "webassembly"]
+    }
   }
   subcategory("Extensions") {
     link {
