@@ -101,6 +101,13 @@ category("Projects") {
       type = github
       tags = Tags["dependency managment"]
     }
+    link {
+      name = "lice-lang/lice"
+      desc = "A Lisp-like language's interpreter written in Kotlin"
+      href = "https://github.com/lice-lang/lice"
+      type = github
+      tags = Tags["lisp", "interpreter"]
+    }
   }
   subcategory("Desktop") {
     link {
