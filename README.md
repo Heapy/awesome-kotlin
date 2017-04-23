@@ -116,6 +116,7 @@ Here awesome badge for your project:
 * <a name="videos-september-2014-subcategory"></a>[September 2014](#videos-september-2014)
 
 ### <a name="slides-category"></a>[Slides](#slides)
+* <a name="slides-april-2017-subcategory"></a>[April 2017](#slides-april-2017)
 * <a name="slides-november-2016-subcategory"></a>[November 2016](#slides-november-2016)
 * <a name="slides-september-2016-subcategory"></a>[September 2016](#slides-september-2016)
 * <a name="slides-april-2016-subcategory"></a>[April 2016](#slides-april-2016)
@@ -824,6 +825,9 @@ Here awesome badge for your project:
 
 
 ## <a name="slides"></a>Slides <sup>[Back ⇈](#slides-category)</sup>
+### <a name="slides-april-2017"></a>April 2017 <sup>[Back ⇈](#slides-april-2017-subcategory)</sup>
+* [Future of Kotlin - How agile can language development be?](http://kotlin.link/articles/Future-of-Kotlin-How-agile-can-language-development-be.html) - Andrey Breslav
+
 ### <a name="slides-november-2016"></a>November 2016 <sup>[Back ⇈](#slides-november-2016-subcategory)</sup>
 * [Kotlin Lang](http://kotlin.link/articles/Kotlin-Lang.html) - Jemo Mgebrishvili
 * [FRP + Kotlin](http://kotlin.link/articles/FRP-Kotlin.html) - Giorgio Natili
