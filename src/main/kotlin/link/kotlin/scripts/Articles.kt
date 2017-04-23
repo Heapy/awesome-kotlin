@@ -34,8 +34,6 @@ data class Article(
     val features: List<ArticleFeature> = listOf(highlightjs),
     val description: String = "",
     val filename: String = "",
-    val prev: String = "",
-    val next: String = "",
     val lang: LanguageCodes = EN,
     val enclosure: Enclosure? = null
 )
