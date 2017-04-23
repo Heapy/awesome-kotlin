@@ -70,6 +70,7 @@ dependencies {
 
     compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-77")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
+    compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:0.9.0")
 
     compile("com.squareup.okhttp3:okhttp:3.5.0")
 

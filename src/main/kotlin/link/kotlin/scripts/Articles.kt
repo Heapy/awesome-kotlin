@@ -3,6 +3,7 @@ package link.kotlin.scripts
 import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.model.Link
+import org.commonmark.ext.gfm.tables.TablesExtension
 import org.commonmark.parser.Parser
 import org.commonmark.renderer.html.HtmlRenderer
 import java.io.IOException
@@ -112,11 +113,6 @@ class Articles(private val compiler: ScriptCompiler) {
 
         return articles
     }
-
-
-    fun generate() {
-        // https://github.com/isagalaev/highlight.js
-    }
 }
 
 private val dayFormatter: DateTimeFormatter = DateTimeFormatterBuilder()
@@ -150,8 +146,9 @@ private fun getCategory(articles: List<Article>): Category {
 
 private fun Path.isExcluded() = this.fileName.toString().startsWith(".")
 
-private val parser = Parser.builder().build()
-private val renderer = HtmlRenderer.builder().build()
+var extensions = listOf(TablesExtension.create())
+private val parser = Parser.builder().extensions(extensions).build()
+private val renderer = HtmlRenderer.builder().extensions(extensions).build()
 
 private fun readFile(path: Path, compiler: ScriptCompiler): Article {
     return compiler.execute<Article>(Files.newInputStream(path))
