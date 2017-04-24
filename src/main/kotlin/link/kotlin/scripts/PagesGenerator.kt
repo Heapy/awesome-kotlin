@@ -102,7 +102,7 @@ private fun getHtml(article: Article): String {
             <header class="kt_article_header">
                 <h1 dir="auto">${article.title}</h1>
                 <address dir="auto">
-                    <a rel="author">${article.author}</a>
+                    <a href="${article.url}" rel="author" title="Article Origin">${article.author}</a>
                     <time datetime="${formatDateTime(article.date)}">${formatDate(article.date)}</time>
                 </address>
             </header>
