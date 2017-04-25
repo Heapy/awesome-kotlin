@@ -54,6 +54,7 @@ class DefaultRssGenerator(private val articles: List<Article>) : RssGenerator {
 private fun toSyndEntry(article: Article): SyndEntry {
     return SyndEntryImpl().apply {
         uri = article.url
+        link = "https://kotlin.link/articles/${article.filename}"
         title = article.title
         author = article.author
         description = SyndContentImpl().also { content ->
