@@ -479,6 +479,7 @@ Here awesome badge for your project:
 
 ### <a name="kotlin-user-groups-australia"></a>Australia <sup>[Back ⇈](#kotlin-user-groups-australia-subcategory)</sup>
 * [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
+* [Sydney Kotlin User Group](https://www.meetup.com/Sydney-Kotlin-User-Group/) - Australia
 
 
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>

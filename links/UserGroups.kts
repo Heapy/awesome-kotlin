@@ -124,5 +124,12 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Australia"]
     }
+    link {
+      name = "Sydney Kotlin User Group"
+      desc = "Australia"
+      href = "https://www.meetup.com/Sydney-Kotlin-User-Group/"
+      type = kug
+      tags = Tags["Australia"]
+    }
   }
 }
