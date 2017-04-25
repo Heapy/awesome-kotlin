@@ -80,7 +80,7 @@ As you can see, we use Kotlin String interpolation as a sort of template engine.
 
 ```kotlin
 fun contactPanel(contact: Contact) =
-\"\"\"
+${"\"\"\""}
 <div class="contact panel panel-info">
     <div class="panel-heading"> <h3 class="panel-title">${"$"}{contact.name}</h3> </div>
     <div class="panel-body">
@@ -102,14 +102,14 @@ fun contactPanel(contact: Contact) =
         </div>
     </div>
 </div>
-\"\"\"
+${"\"\"\""}
 ```
 
 Making use of the above function, we should now build another function that, given a Contact list, returns the complete HTML view.
 
 ```kotlin
 fun contactsView(contacts: List<Contact>) =
-\"\"\"
+${"\"\"\""}
 <html>
     <head>
         <link rel="stylesheet" href="${"$"}{HTML5View.resourceLink("/css/bootstrap.min.css")}" />
@@ -126,7 +126,7 @@ fun contactsView(contacts: List<Contact>) =
         </div>
     </body>
 </html>
-\"\"\"
+${"\"\"\""}
 ```
 
 As you may have already spotted in the HTML template, we need references to other static files such as images, css and javascript resources.

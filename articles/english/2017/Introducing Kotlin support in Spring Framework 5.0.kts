@@ -135,14 +135,14 @@ This enables some interesting use cases like writing type-safe templates using [
 import io.spring.demo.User
 import io.spring.demo.joinToLine
 
-\"\"\"
+${"\"\"\""}
 ${"$"}{include("header", bindings)}
 <h1>Title : ${"$"}title</h1>
 <ul>
     ${"$"}{(users as List<User>).joinToLine{ "<li>User ${"$"}{it.firstname} ${"$"}{it.lastname}</li>" }}
 </ul>
 ${"$"}{include("footer")}
-\"\"\"
+${"\"\"\""}
 ```
 
 This feature is still work in progress, but I am collaborating with the Kotlin team to tentatively make it production ready with nested template and i18n support on both MVC and Reactive sides for Spring Framework 5.0 GA.

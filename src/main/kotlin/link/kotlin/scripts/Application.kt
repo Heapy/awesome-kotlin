@@ -31,7 +31,8 @@ object Application {
 
             val config = ApplicationConfiguration(
                 ghUser = getenv("GH_USER") ?: "",
-                ghToken = getenv("GH_TOKEN") ?: ""
+                ghToken = getenv("GH_TOKEN") ?: "",
+                mercuryToken = getenv("MERCURY_TOKEN") ?: ""
             )
 
             LOGGER.info("Start checking links")

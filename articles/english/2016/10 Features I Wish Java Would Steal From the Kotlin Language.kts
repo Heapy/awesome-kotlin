@@ -191,8 +191,8 @@ ctx.select(a.FIRST_NAME, a.LAST_NAME, b.TITLE)
    .join(b).on(a.ID.eq(b.AUTHOR_ID))
    .orderBy(1, 2, 3)
    .forEach {
-       println(\"\"\"${"$"}{it[b.TITLE]}
-               by ${"$"}{it[a.FIRST_NAME]} ${"$"}{it[a.LAST_NAME]}\"\"\")
+       println(${"\"\"\""}${"$"}{it[b.TITLE]}
+               by ${"$"}{it[a.FIRST_NAME]} ${"$"}{it[a.LAST_NAME]}${"\"\"\""})
    }
 ```
 
