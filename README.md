@@ -135,7 +135,7 @@ Here awesome badge for your project:
 * [JetBrains/kotlin](https://github.com/jetbrains/kotlin) 
 * [Home Page](http://kotlinlang.org/) 
 * [Language Reference](http://kotlinlang.org/docs/reference/) 
-* [Slack (6200+ users)](http://kotlinslackin.herokuapp.com/) 
+* [Slack (6700+ users)](http://kotlinslackin.herokuapp.com/) 
 * [Public chat archive of Kotlin's Slack](http://kotlinlang.slackarchive.io/) 
 * [Try Kotlin!](http://try.kotlinlang.org/) 
 * [Blog](http://blog.jetbrains.com/kotlin/) 
@@ -496,10 +496,14 @@ Here awesome badge for your project:
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
 ### <a name="articles-blog-posts-april-2017"></a>April 2017 <sup>[Back ⇈](#articles-blog-posts-april-2017-subcategory)</sup>
 * [The Rise and Fall of JVM Languages](http://kotlin.link/articles/The-Rise-and-Fall-of-JVM-Languages.html) - Andrew Binstock
+* [Use Kotlin with npm, webpack and react](http://kotlin.link/articles/Use-Kotlin-with-npm-webpack-and-react.html) - Dmitry Jemerov
 * [Kotlin 1.1.2 is out](http://kotlin.link/articles/Kotlin-1-1-2-is-out.html) - Dmitry Jemerov
 
 ### <a name="articles-blog-posts-march-2017"></a>March 2017 <sup>[Back ⇈](#articles-blog-posts-march-2017-subcategory)</sup>
+* [Kotlin 1.1 Released with JavaScript Support, Coroutines and more](http://kotlin.link/articles/Kotlin-1-1-Released-with-JavaScript-Support-Coroutines-and-more.html) - Roman Belov
+* [Kotlin 1.1 Event](http://kotlin.link/articles/Kotlin-1-1-Event.html) - Alina Dolgikh
 * [Gradle Script Kotlin 0.8.0 Release Notes](http://kotlin.link/articles/Gradle-Script-Kotlin-0-8-0-Release-Notes.html) - Rodrigo B. de Oliveira
+* [Kotlin 1.0.7 is out](http://kotlin.link/articles/Kotlin-1-0-7-is-out.html) - Dmitry Jemerov
 * [Reactor Kotlin Extensions 1.0.0.M1 released](http://kotlin.link/articles/Reactor-Kotlin-Extensions-1-0-0-M1-released.html) - Sébastien Deleuze
 
 ### <a name="articles-blog-posts-february-2017"></a>February 2017 <sup>[Back ⇈](#articles-blog-posts-february-2017-subcategory)</sup>
@@ -515,6 +519,7 @@ Here awesome badge for your project:
 * [I wrote my website in Kotlin](http://kotlin.link/articles/I-wrote-my-website-in-Kotlin.html) - Lewis Rhine
 * [Corda: Kotlin](http://kotlin.link/articles/Corda-Kotlin.html) - Mike Hearn
 * [Kotlin 1.1 Beta Is Here!](http://kotlin.link/articles/Kotlin-1-1-Beta-Is-Here.html) - Andrey Breslav
+* [ Experimental status of coroutines in 1.1 and related compatibility concerns](http://kotlin.link/articles/Experimental-status-of-coroutines-in-1-1-and-related-compatibility-concerns.html) - Andrey Breslav
 * [Kotlin 1.1: What’s coming in the standard library](http://kotlin.link/articles/Kotlin-1-1-What’s-coming-in-the-standard-library.html) - ilya.gorbunov
 * [Announcing the Support Program for Kotlin User Groups and Events](http://kotlin.link/articles/Announcing-the-Support-Program-for-Kotlin-User-Groups-and-Events.html) - Alina Dolgikh
 
