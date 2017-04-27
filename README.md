@@ -295,7 +295,6 @@ Here awesome badge for your project:
 * [MicroUtils/kotlin-logging](https://github.com/MicroUtils/kotlin-logging) - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
-* [elect86/kotlin-unsigned](https://github.com/elect86/kotlin-unsigned) - Boxed unsigned support, Ubyte, Uint, Ulong and Ushort.
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
 * [soywiz/korio](https://github.com/soywiz/korio) - Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser.
 * [soywiz/korim](https://github.com/soywiz/korim) - Korim: Kotlin cORoutines IMaging utilities depending on Korio.
@@ -319,6 +318,7 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [kotlin-graphics/glm](https://github.com/kotlin-graphics/glm) - g-truck glm port, opengl mathematics library
+* [kotlin-graphics/kotlin-unsigned](https://github.com/kotlin-graphics/kotlin-unsigned) - Unsigned operators and boxed types for unsigned support
 * [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
 * [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - UNofficial OpenGL SDK
 * [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
