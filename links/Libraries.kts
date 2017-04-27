@@ -893,39 +893,46 @@ category("Libraries/Frameworks") {
   }
   subcategory("Graphics") {
     link {
-      name = "elect86/glm"
-      desc = "Porting of cpp g-truck glm, opengl math lib"
-      href = "https://github.com/elect86/glm"
+      name = "kotlin-graphics/glm"
+      desc = "g-truck glm port, opengl mathematics library"
+      href = "https://github.com/kotlin-graphics/glm"
       type = github
-      tags = Tags["glm"]
+      tags = Tags["glm", "opengl", "vulkan"]
     }
     link {
-      name = "elect86/ovr"
+      name = "kotlin-graphics/gli"
+      desc = "g-truck gli port, image library"
+      href = "https://github.com/kotlin-graphics/gli"
+      type = github
+      tags = Tags["gli", "opengl", "vulkan"]
+    }
+    link {
+      name = "kotlin-graphics/uno-sdk"
+      desc = "Unofficial OpenGL SDK"
+      href = "https://github.com/kotlin-graphics/uno-sdk"
+      type = github
+      tags = Tags["gli", "opengl", "vulkan"]
+    }
+    link {
+      name = "kotlin-graphics/ovr"
       desc = "Oculus binding"
-      href = "https://github.com/elect86/ovr"
+      href = "https://github.com/kotlin-graphics/ovr"
       type = github
-      tags = Tags["vr", "oculus"]
+      tags = Tags["vr", "oculus", "opengl"]
     }
     link {
-      name = "elect86/openvr"
+      name = "kotlin-graphics/openvr"
       desc = "Openvr binding"
-      href = "https://github.com/elect86/openvr"
+      href = "https://github.com/kotlin-graphics/openvr"
       type = github
-      tags = Tags["vr", "openvr"]
-    }
-    link {
-      name = "elect86/kt"
-      desc = "gli, port of cpp g-truck gli, texture util"
-      href = "https://github.com/elect86/kt"
-      type = github
-      tags = Tags["gli"]
+      tags = Tags["vr", "openvr", "opengl", "vulkan"]
     }
     link {
       name = "java-graphics/assimp"
-      desc = "Java Open Asset Import Library"
+      desc = "Open Asset Import Library port"
       href = "https://github.com/java-graphics/assimp"
       type = github
-      tags = Tags["assimp", "stl", "md2"]
+      tags = Tags["assimp", "stl", "md2", "ply", "obj", "collada", "opengl", "vulkan"]
     }
     link {
       name = "GlimpseFramework/glimpse-framework"
@@ -933,6 +940,20 @@ category("Libraries/Frameworks") {
       href = "https://github.com/GlimpseFramework/glimpse-framework"
       type = github
       tags = Tags["opengl", "shaders"]
+    }    
+    link {
+      name = "java-opengl-labs/modern-jogl-examples"
+      desc = "port of 'Learning Modern 3D Graphic Programming' by J.L.McKesson (jogl)"
+      href = "https://github.com/java-opengl-labs/modern-jogl-examples"
+      type = github
+      tags = Tags["opengl", "tutorial", "jogl"]
+    }
+    link {
+      name = "java-opengl-labs/learn-OpenGL"
+      desc = "port of https://learnopengl.com/ tutorial (lwjgl)"
+      href = "https://github.com/java-opengl-labs/learn-OpenGL"
+      type = github
+      tags = Tags["opengl", "tutorial", "lwjgl"]
     }
   }
   subcategory("Data Science") {
