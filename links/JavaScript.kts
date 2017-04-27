@@ -55,7 +55,7 @@ category("Kotlin JavaScript") {
       desc = "Kotlin DSL for CSS"
       href = "https://github.com/olegcherr/Aza-Kotlin-CSS"
       type = github
-      tags = Tags["css"]
+      tags = Tags["web", "css"]
     }
   }
   subcategory("Game Development") {

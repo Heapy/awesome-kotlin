@@ -92,13 +92,6 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "vert.x"]
     }
     link {
-      name = "olegcherr/Aza-Kotlin-CSS"
-      desc = "Kotlin DSL for CSS"
-      href = "https://github.com/olegcherr/Aza-Kotlin-CSS"
-      type = github
-      tags = Tags["web", "css"]
-    }
-    link {
       name = "jooby/kotlin"
       desc = "Kotlin idioms for Jooby microframework"
       href = "http://jooby.org/doc/lang-kotlin"
@@ -124,6 +117,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/brianmadden/krawler"
       type = github
       tags = Tags["crawler4j", "web-crawler", "webcrawler", "link-checker"]
+    }
+    link {
+      name = "konrad-kaminski/spring-kotlin-coroutine"
+      desc = "Kotlin coroutine support for Spring."
+      href = "https://github.com/konrad-kaminski/spring-kotlin-coroutine"
+      type = github
+      tags = Tags["coroutines", "spring"]
     }
   }
   subcategory("Tests") {
