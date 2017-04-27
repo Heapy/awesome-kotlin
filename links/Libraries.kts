@@ -691,13 +691,6 @@ category("Libraries/Frameworks") {
       tags = Tags["progress"]
     }
     link {
-      name = "leprosus/kotlin-cli"
-      desc = "Kotlin-CLI - command line interface options parser for Kotlin."
-      href = "https://github.com/leprosus/kotlin-cli"
-      type = github
-      tags = Tags["cli", "command line interface"]
-    }
-    link {
       name = "sargunster/CakeParse"
       desc = "Simple parser combinator library for Kotlin."
       href = "https://github.com/sargunster/CakeParse"
@@ -794,13 +787,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/soywiz/korui"
       type = github
       tags = Tags["ui", "coroutiones"]
-    }
-    link {
-      name = "jimschubert/kopper"
-      desc = "A simple Kotlin option parser"
-      href = "https://github.com/jimschubert/kopper"
-      type = github
-      tags = Tags["cli", "parser"]
     }
     link {
       name = "moshbit/Kotlift"
@@ -984,6 +970,29 @@ category("Libraries/Frameworks") {
       href = "https://github.com/kyonifer/golem"
       type = github
       tags = Tags["data science", "plot", "matlab", "numpy"]
+    }
+  }
+  subcategory("Command Line Interface") {
+    link {
+      name = "leprosus/kotlin-cli"
+      desc = "Kotlin-CLI - command line interface options parser for Kotlin."
+      href = "https://github.com/leprosus/kotlin-cli"
+      type = github
+      tags = Tags["cli", "command line interface"]
+    }
+    link {
+      name = "jimschubert/kopper"
+      desc = "A simple Kotlin option parser"
+      href = "https://github.com/jimschubert/kopper"
+      type = github
+      tags = Tags["cli", "parser"]
+    }
+    link {
+      name = "xenomachina/kotlin-argparser"
+      desc = "Easy to use and concise yet powerful and robust command line argument parsing for Kotlin."
+      href = "https://github.com/xenomachina/kotlin-argparser"
+      type = github
+      tags = Tags["command-line-parser", "argument-parser", "option-parser"]
     }
   }
 }
