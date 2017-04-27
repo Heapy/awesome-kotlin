@@ -318,12 +318,15 @@ Here awesome badge for your project:
 * [jdiazcano/cfg4k](https://github.com/jdiazcano/cfg4k) - Flexible and easy to use config library written in kotlin.
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
-* [elect86/glm](https://github.com/elect86/glm) - Porting of cpp g-truck glm, opengl math lib
-* [elect86/ovr](https://github.com/elect86/ovr) - Oculus binding
-* [elect86/openvr](https://github.com/elect86/openvr) - Openvr binding
-* [elect86/kt](https://github.com/elect86/kt) - gli, port of cpp g-truck gli, texture util
-* [java-graphics/assimp](https://github.com/java-graphics/assimp) - Java Open Asset Import Library
+* [kotlin-graphics/glm](https://github.com/kotlin-graphics/glm) - g-truck glm port, opengl mathematics library
+* [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
+* [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - UNofficial OpenGL SDK
+* [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
+* [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
+* [java-graphics/assimp](https://github.com/java-graphics/assimp) - Open Asset Import Library port
 * [GlimpseFramework/glimpse-framework](https://github.com/GlimpseFramework/glimpse-framework) - OpenGL made simple.
+* [java-opengl-labs/modern-jogl-examples](https://github.com/java-opengl-labs/modern-jogl-examples) - port of "Learning Modern 3D Graphic Programming" by J.L.McKesson (jogl)
+* [java-opengl-labs/learn-OpenGL](https://github.com/java-opengl-labs/learn-OpenGL) - port of https://learnopengl.com/ tutorial (lwjgl)
 
 ### <a name="libraries-frameworks-data-science"></a>Data Science <sup>[Back ⇈](#libraries-frameworks-data-science-subcategory)</sup>
 * [ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Kotlin kernel for Jupyter/iPython.
