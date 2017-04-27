@@ -247,6 +247,7 @@ Here awesome badge for your project:
 * [shyiko/ktlint](https://github.com/shyiko/ktlint) - Kotlin linter.
 * [jtransc/jtransc](https://github.com/jtransc/jtransc) - JVM AOT compiler created in Kotlin.
 * [arturbosch/detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
+* [cypressious/KotlinW](https://github.com/cypressious/KotlinW) - A small wrapper for the Kotlin compiler that can be used to execute .kts scripts.
 
 ### <a name="libraries-frameworks-desktop"></a>Desktop <sup>[Back ⇈](#libraries-frameworks-desktop-subcategory)</sup>
 * [edvin/tornadofx](https://github.com/edvin/tornadofx) - Lightweight JavaFX Framework for Kotlin/
@@ -350,6 +351,8 @@ Here awesome badge for your project:
 * [ivanpopelyshev/vertx-facebook-messenger](https://github.com/ivanpopelyshev/vertx-facebook-messenger) - Seed project for facebook messenger bots. Vertx, Kotlin.
 * [corda/corda](https://github.com/corda/corda) - Corda is a distributed ledger platform designed to record, manage and automate legal agreements between business partners. 
 * [spolnik/JAlgoArena](https://github.com/spolnik/JAlgoArena) - JAlgoArena is a highly scalable programming contest platform which you can host on own infrastructure. It allows to define new problems and solve them in Kotlin and Java.
+* [mixitconf/mixit](https://github.com/mixitconf/mixit) - MiXiT website
+* [derveloper/kiny](https://github.com/derveloper/kiny) - Your super simple private serverless service running your kotlin functions like AWS lambda.
 
 ### <a name="projects-build-tools"></a>Build tools <sup>[Back ⇈](#projects-build-tools-subcategory)</sup>
 * [cbeust/kobalt](https://github.com/cbeust/kobalt) - Build system inspired by Gradle.
@@ -496,9 +499,11 @@ Here awesome badge for your project:
 * [Kotlin 1.1.2 is out](http://kotlin.link/articles/Kotlin-1-1-2-is-out.html) - Dmitry Jemerov
 
 ### <a name="articles-blog-posts-march-2017"></a>March 2017 <sup>[Back ⇈](#articles-blog-posts-march-2017-subcategory)</sup>
+* [Gradle Script Kotlin 0.8.0 Release Notes](http://kotlin.link/articles/Gradle-Script-Kotlin-0-8-0-Release-Notes.html) - Rodrigo B. de Oliveira
 * [Reactor Kotlin Extensions 1.0.0.M1 released](http://kotlin.link/articles/Reactor-Kotlin-Extensions-1-0-0-M1-released.html) - Sébastien Deleuze
 
 ### <a name="articles-blog-posts-february-2017"></a>February 2017 <sup>[Back ⇈](#articles-blog-posts-february-2017-subcategory)</sup>
+* [Kotlin 1.1 Beta 2 is here](http://kotlin.link/articles/Kotlin-1-1-Beta-2-is-here.html) - Dmitry Jemerov
 * [The Design and Construction of Modern Build Tools](http://kotlin.link/articles/The-Design-and-Construction-of-Modern-Build-Tools.html) - Cédric Beust
 
 ### <a name="articles-blog-posts-january-2017"></a>January 2017 <sup>[Back ⇈](#articles-blog-posts-january-2017-subcategory)</sup>
@@ -509,6 +514,9 @@ Here awesome badge for your project:
 * [Introducing Kotlin support in Spring Framework 5.0](http://kotlin.link/articles/Introducing-Kotlin-support-in-Spring-Framework-5-0.html) - Sébastien Deleuze
 * [I wrote my website in Kotlin](http://kotlin.link/articles/I-wrote-my-website-in-Kotlin.html) - Lewis Rhine
 * [Corda: Kotlin](http://kotlin.link/articles/Corda-Kotlin.html) - Mike Hearn
+* [Kotlin 1.1 Beta Is Here!](http://kotlin.link/articles/Kotlin-1-1-Beta-Is-Here.html) - Andrey Breslav
+* [Kotlin 1.1: What’s coming in the standard library](http://kotlin.link/articles/Kotlin-1-1-What’s-coming-in-the-standard-library.html) - ilya.gorbunov
+* [Announcing the Support Program for Kotlin User Groups and Events](http://kotlin.link/articles/Announcing-the-Support-Program-for-Kotlin-User-Groups-and-Events.html) - Alina Dolgikh
 
 ### <a name="articles-blog-posts-december-2016"></a>December 2016 <sup>[Back ⇈](#articles-blog-posts-december-2016-subcategory)</sup>
 * [Data Binding in Anko](http://kotlin.link/articles/Data-Binding-in-Anko.html) - Lewis Rhine

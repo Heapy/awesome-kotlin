@@ -491,6 +491,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["check style", "checkstyle"]
     }
+    link {
+      name = "cypressious/KotlinW"
+      desc = "A small wrapper for the Kotlin compiler that can be used to execute .kts scripts."
+      href = "https://github.com/cypressious/KotlinW"
+      type = github
+      tags = Tags["wrapper", "scripting"]
+    }
   }
   subcategory("Desktop") {
     link {

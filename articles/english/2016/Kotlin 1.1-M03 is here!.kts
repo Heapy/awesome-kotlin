@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LinkType.*
-import link.kotlin.scripts.LanguageCodes.*
+import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
@@ -13,8 +13,6 @@ As with other milestone releases, we give **no backwards compatibility guarantee
 Please do share your feedback regarding the new features or any problems that you may run into with this release, via [YouTrack](https://youtrack.jetbrains.com/issues/KT), [forums](https://discuss.kotlinlang.org) and [Slack](http://kotlinlang.slack.com/).
 
 The full changelog for 1.1-M03 is available [here](https://github.com/JetBrains/kotlin/blob/1.1-M03/ChangeLog.md).
-
-<span id="more-4380"></span>
 
 ## Underscore for unused symbols
 

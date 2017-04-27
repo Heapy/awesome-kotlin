@@ -63,6 +63,20 @@ category("Projects") {
       type = github
       tags = Tags["programming", "contest"]
     }
+    link {
+      name = "mixitconf/mixit"
+      desc = "MiXiT website"
+      href = "https://github.com/mixitconf/mixit"
+      type = github
+      tags = Tags["web", "gradle", "spring"]
+    }
+    link {
+      name = "derveloper/kiny"
+      desc = "Your super simple private serverless service running your kotlin functions like AWS lambda."
+      href = "https://github.com/derveloper/kiny"
+      type = github
+      tags = Tags["serverless", "lambda"]
+    }
   }
   subcategory("Build tools") {
     link {
