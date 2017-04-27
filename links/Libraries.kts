@@ -908,7 +908,7 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "kotlin-graphics/openvr"
-      desc = "Openvr binding"
+      desc = "OpenVR binding"
       href = "https://github.com/kotlin-graphics/openvr"
       type = github
       tags = Tags["vr", "openvr", "opengl", "vulkan"]
