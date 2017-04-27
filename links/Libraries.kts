@@ -768,13 +768,6 @@ category("Libraries/Frameworks") {
       tags = Tags["groovy truth"]
     }
     link {
-      name = "elect86/kotlin-unsigned"
-      desc = "Boxed unsigned support, Ubyte, Uint, Ulong and Ushort."
-      href = "https://github.com/elect86/kotlin-unsigned"
-      type = github
-      tags = Tags["unsigned"]
-    }
-    link {
       name = "Jire/Strukt"
       desc = "Value types on the JVM, today!"
       href = "https://github.com/Jire/Strukt"
@@ -898,6 +891,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/kotlin-graphics/glm"
       type = github
       tags = Tags["glm", "opengl", "vulkan"]
+    }
+    link {
+      name = "kotlin-graphics/kotlin-unsigned"
+      desc = "Unsigned operators and boxed types (Ubyte, Uint, Ulong and Ushort) for unsigned support."
+      href = "https://github.com/kotlin-graphics/kotlin-unsigned"
+      type = github
+      tags = Tags["unsigned", "math"]
     }
     link {
       name = "kotlin-graphics/gli"
