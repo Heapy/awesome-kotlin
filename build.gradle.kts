@@ -1,4 +1,3 @@
-
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.gradle.api.Project
 import org.gradle.api.plugins.ApplicationPluginConvention
@@ -47,9 +46,8 @@ configure<ShadowJar>("shadowJar") {
 
 repositories {
     jcenter()
-    maven {
-        setUrl("https://dl.bintray.com/kotlin/kotlin-eap-1.1/")
-    }
+    maven { setUrl("https://dl.bintray.com/kotlin/kotlin-eap-1.1/") }
+    maven { setUrl("https://dl.bintray.com/heapy/heap") }
 }
 
 configure<KotlinProjectExtension> {
@@ -67,6 +65,7 @@ dependencies {
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
     compile("org.jsoup:jsoup:1.10.2")
+    compile("by.heap.remark:remark-kotlin:1.2.0")
 
     compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-77")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
