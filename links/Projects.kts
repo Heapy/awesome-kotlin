@@ -122,6 +122,13 @@ category("Projects") {
       type = github
       tags = Tags["lisp", "interpreter"]
     }
+    link {
+      name = "sureshg/InstallCerts"
+      desc = "Create a PKCS12 TrustStore by retrieving server certificates."
+      href = "https://github.com/sureshg/InstallCerts"
+      type = github
+      tags = Tags["certificate", "crypto"]
+    }
   }
   subcategory("Desktop") {
     link {

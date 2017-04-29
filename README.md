@@ -363,6 +363,7 @@ Here awesome badge for your project:
 ### <a name="projects-misc"></a>Misc <sup>[Back ⇈](#projects-misc-subcategory)</sup>
 * [brikk/brikk](https://github.com/brikk/brikk) - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
 * [lice-lang/lice](https://github.com/lice-lang/lice) - A Lisp-like language's interpreter written in Kotlin
+* [sureshg/InstallCerts](https://github.com/sureshg/InstallCerts) - Create a PKCS12 TrustStore by retrieving server certificates.
 
 ### <a name="projects-desktop"></a>Desktop <sup>[Back ⇈](#projects-desktop-subcategory)</sup>
 * [ice1000/Dekoder](https://github.com/ice1000/Dekoder) -  A kotlin music player, materially designed.
@@ -496,6 +497,9 @@ Here awesome badge for your project:
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
 ### <a name="articles-blog-posts-april-2017"></a>April 2017 <sup>[Back ⇈](#articles-blog-posts-april-2017-subcategory)</sup>
 * [The Rise and Fall of JVM Languages](http://kotlin.link/articles/The-Rise-and-Fall-of-JVM-Languages.html) - Andrew Binstock
+* [Kotlin/Native Tech Preview: Kotlin without a VM](http://kotlin.link/articles/Kotlin-Native-Tech-Preview-Kotlin-without-a-VM.html) - Andrey Breslav
+* [Kotlin 1.1 is also for Android Developers](http://kotlin.link/articles/Kotlin-1-1-is-also-for-Android-Developers.html) - Roman Belov
+* [Kotlin 1.1 Event Report](http://kotlin.link/articles/Kotlin-1-1-Event-Report.html) - Alina Dolgikh
 * [Use Kotlin with npm, webpack and react](http://kotlin.link/articles/Use-Kotlin-with-npm-webpack-and-react.html) - Dmitry Jemerov
 * [Kotlin 1.1.2 is out](http://kotlin.link/articles/Kotlin-1-1-2-is-out.html) - Dmitry Jemerov
 * [Bytecode behind coroutines in Kotlin](http://kotlin.link/articles/Bytecode-behind-coroutines-in-Kotlin.html) - Eugene Petrenko
@@ -504,12 +508,17 @@ Here awesome badge for your project:
 * [Kotlin 1.1 Released with JavaScript Support, Coroutines and more](http://kotlin.link/articles/Kotlin-1-1-Released-with-JavaScript-Support-Coroutines-and-more.html) - Roman Belov
 * [Kotlin 1.1 Event](http://kotlin.link/articles/Kotlin-1-1-Event.html) - Alina Dolgikh
 * [Gradle Script Kotlin 0.8.0 Release Notes](http://kotlin.link/articles/Gradle-Script-Kotlin-0-8-0-Release-Notes.html) - Rodrigo B. de Oliveira
+* [Announcing KotlinConf](http://kotlin.link/articles/Announcing-KotlinConf.html) - Hadi Hariri
+* [Kotlin 1.1.1 is out](http://kotlin.link/articles/Kotlin-1-1-1-is-out.html) - Dmitry Jemerov
 * [Kotlin 1.0.7 is out](http://kotlin.link/articles/Kotlin-1-0-7-is-out.html) - Dmitry Jemerov
+* [Kotlin 1.1 Event in Your City](http://kotlin.link/articles/Kotlin-1-1-Event-in-Your-City.html) - Alina Dolgikh
 * [Reactor Kotlin Extensions 1.0.0.M1 released](http://kotlin.link/articles/Reactor-Kotlin-Extensions-1-0-0-M1-released.html) - Sébastien Deleuze
 
 ### <a name="articles-blog-posts-february-2017"></a>February 2017 <sup>[Back ⇈](#articles-blog-posts-february-2017-subcategory)</sup>
 * [Kotlin 1.1 Beta 2 is here](http://kotlin.link/articles/Kotlin-1-1-Beta-2-is-here.html) - Dmitry Jemerov
 * [The Design and Construction of Modern Build Tools](http://kotlin.link/articles/The-Design-and-Construction-of-Modern-Build-Tools.html) - Cédric Beust
+* [Our first book about Kotlin is out](http://kotlin.link/articles/Our-first-book-about-Kotlin-is-out.html) - Dmitry Jemerov
+* [Kotlin 1.1 Release Candidate is Here](http://kotlin.link/articles/Kotlin-1-1-Release-Candidate-is-Here.html) - Mikhail Glukhikh
 
 ### <a name="articles-blog-posts-january-2017"></a>January 2017 <sup>[Back ⇈](#articles-blog-posts-january-2017-subcategory)</sup>
 * [Why I prefer Kotlin](http://kotlin.link/articles/Why-I-prefer-Kotlin.html) - Graham Cox
