@@ -972,6 +972,13 @@ category("Libraries/Frameworks") {
       tags = Tags["data science", "data wrangling"]
     }
     link {
+      name = "marcinmoskala/KotlinDiscreteMathToolkit"
+      desc = "Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions."
+      href = "https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit"
+      type = github
+      tags = Tags["math"]
+    }
+    link {
       name = "kyonifer/golem"
       desc = "Golem is a scientific environment for Kotlin that emphasizes language/platform interop, performance, and flexibility."
       href = "https://github.com/kyonifer/golem"
