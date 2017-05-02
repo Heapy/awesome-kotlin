@@ -2,6 +2,10 @@ import * as React from 'react';
 
 const styles = require('./listitem.less');
 
+function split(str: string): string {
+  return str.replace("/", "/​"); // replace "/" with "/ and https://en.wikipedia.org/wiki/Zero-width_space"
+}
+
 export function Listitem({link}) {
   return (
     <li className={styles.listitem}>
@@ -13,7 +17,7 @@ export function Listitem({link}) {
          title={link.name}
          rel="nofollow noopener"
          className={styles.listitem_link}>
-        {link.name}
+        {split(link.name)}
       </a>
 
       {getLastUpdated(link)}
