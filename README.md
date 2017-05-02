@@ -104,6 +104,7 @@ Here awesome badge for your project:
 * <a name="articles-blog-posts-january-2013-subcategory"></a>[January 2013](#articles-blog-posts-january-2013)
 
 ### <a name="videos-category"></a>[Videos](#videos)
+* <a name="videos-april-2017-subcategory"></a>[April 2017](#videos-april-2017)
 * <a name="videos-december-2016-subcategory"></a>[December 2016](#videos-december-2016)
 * <a name="videos-november-2016-subcategory"></a>[November 2016](#videos-november-2016)
 * <a name="videos-october-2016-subcategory"></a>[October 2016](#videos-october-2016)
@@ -334,6 +335,7 @@ Here awesome badge for your project:
 * [thomasnield/kotlin-statistics](https://github.com/thomasnield/kotlin-statistics) - Advanced math and statistical extensions for Kotlin.
 * [holgerbrandl/krangl](https://github.com/holgerbrandl/krangl) - krangl is a {K}otlin library for data w{rangl}ing.
 * [kyonifer/golem](https://github.com/kyonifer/golem) - Golem is a scientific environment for Kotlin that emphasizes language/platform interop, performance, and flexibility.
+* [MarcinMoskala/KotlinDiscreteMathToolkit](https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit) - Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions.
 
 ### <a name="libraries-frameworks-command-line-interface"></a>Command Line Interface <sup>[Back ⇈](#libraries-frameworks-command-line-interface-subcategory)</sup>
 * [leprosus/kotlin-cli](https://github.com/leprosus/kotlin-cli) - Kotlin-CLI - command line interface options parser for Kotlin.
@@ -816,6 +818,9 @@ Here awesome badge for your project:
 
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
+### <a name="videos-april-2017"></a>April 2017 <sup>[Back ⇈](#videos-april-2017-subcategory)</sup>
+* [The Future of Kotlin: How agile can language development be?](http://kotlin.link/articles/Future-of-Kotlin-How-agile-can-language-development-be-video.html) - Andrey Breslav
+
 ### <a name="videos-december-2016"></a>December 2016 <sup>[Back ⇈](#videos-december-2016-subcategory)</sup>
 * [Taking Kotlin to production, Seriously](http://kotlin.link/articles/Taking-Kotlin-to-production-Seriously.html) - Haim Yadid
 * [Functional Programming in Kotlin with funKTionale (Video)](http://kotlin.link/articles/Functional-Programming-in-Kotlin-with-funKTionale-Video.html) - Mario Arias
