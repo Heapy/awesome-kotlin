@@ -972,9 +972,9 @@ category("Libraries/Frameworks") {
       tags = Tags["data science", "data wrangling"]
     }
     link {
-      name = "kyonifer/golem"
-      desc = "Golem is a scientific environment for Kotlin that emphasizes language/platform interop, performance, and flexibility."
-      href = "https://github.com/kyonifer/golem"
+      name = "kyonifer/koma"
+      desc = "A scientific computing library for Kotlin."
+      href = "https://github.com/kyonifer/koma"
       type = github
       tags = Tags["data science", "plot", "matlab", "numpy"]
     }
