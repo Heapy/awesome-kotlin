@@ -64,13 +64,6 @@ category("Libraries/Frameworks") {
       tags = Tags["spring", "extensions"]
     }
     link {
-      name = "Kotlin/kotlinx.coroutines"
-      desc = "Libraries built upon Kotlin coroutines."
-      href = "https://github.com/Kotlin/kotlinx.coroutines"
-      type = github
-      tags = Tags["async", "await", "yield", "generator"]
-    }
-    link {
       name = "taskworld/kraph"
       desc = "GraphQL request string builder written in Kotlin"
       href = "https://github.com/taskworld/kraph"
@@ -117,13 +110,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/brianmadden/krawler"
       type = github
       tags = Tags["crawler4j", "web-crawler", "webcrawler", "link-checker"]
-    }
-    link {
-      name = "konrad-kaminski/spring-kotlin-coroutine"
-      desc = "Kotlin coroutine support for Spring."
-      href = "https://github.com/konrad-kaminski/spring-kotlin-coroutine"
-      type = github
-      tags = Tags["coroutines", "spring"]
     }
   }
   subcategory("Tests") {
@@ -233,6 +219,50 @@ category("Libraries/Frameworks") {
       href = "https://github.com/traversals/kapsule"
       type = github
       tags = Tags["di", "dependency injection"]
+    }
+  }
+  subcategory("Coroutines") {
+    link {
+      name = "Kotlin/kotlin-coroutines"
+      desc = "Design documents and examples for coroutines in Kotlin."
+      href = "https://github.com/Kotlin/kotlin-coroutines"
+      type = github
+      tags = Tags["coroutines"]
+    }
+    link {
+      name = "Kotlin/kotlinx.coroutines"
+      desc = "Libraries built upon Kotlin coroutines."
+      href = "https://github.com/Kotlin/kotlinx.coroutines"
+      type = github
+      tags = Tags["async", "await", "yield", "generator"]
+    }
+    link {
+      name = "soywiz/korio"
+      desc = "Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser."
+      href = "https://github.com/soywiz/korio"
+      type = github
+      tags = Tags["vfs", "coroutiones", "io"]
+    }
+    link {
+      name = "soywiz/korim"
+      desc = "Korim: Kotlin cORoutines IMaging utilities depending on Korio."
+      href = "https://github.com/soywiz/korim"
+      type = github
+      tags = Tags["image", "coroutiones"]
+    }
+    link {
+      name = "soywiz/korui"
+      desc = "Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui"
+      href = "https://github.com/soywiz/korui"
+      type = github
+      tags = Tags["ui", "coroutiones"]
+    }
+    link {
+      name = "konrad-kaminski/spring-kotlin-coroutine"
+      desc = "Kotlin coroutine support for Spring."
+      href = "https://github.com/konrad-kaminski/spring-kotlin-coroutine"
+      type = github
+      tags = Tags["coroutines", "spring"]
     }
   }
   subcategory("Functional Programming") {
@@ -773,27 +803,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/Jire/Strukt"
       type = github
       tags = Tags["gc-free", "structure"]
-    }
-    link {
-      name = "soywiz/korio"
-      desc = "Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser."
-      href = "https://github.com/soywiz/korio"
-      type = github
-      tags = Tags["vfs", "coroutiones", "io"]
-    }
-    link {
-      name = "soywiz/korim"
-      desc = "Korim: Kotlin cORoutines IMaging utilities depending on Korio."
-      href = "https://github.com/soywiz/korim"
-      type = github
-      tags = Tags["image", "coroutiones"]
-    }
-    link {
-      name = "soywiz/korui"
-      desc = "Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui"
-      href = "https://github.com/soywiz/korui"
-      type = github
-      tags = Tags["ui", "coroutiones"]
     }
     link {
       name = "moshbit/Kotlift"
