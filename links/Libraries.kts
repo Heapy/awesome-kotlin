@@ -22,6 +22,13 @@ category("Libraries/Frameworks") {
       tags = Tags["web"]
     }
     link {
+      name = "http4k/http4k"
+      desc = "Functional, lightweight HTTP microservices based on 'Your Server as a Function'."
+      href = "http://www.http4k.org"
+      type = github
+      tags = Tags["web", "jetty", "netty", "http"]
+    }
+    link {
       name = "jean79/yested"
       desc = "A Kotlin framework for building web applications in Javascript."
       href = "https://github.com/jean79/yested"
@@ -942,7 +949,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/GlimpseFramework/glimpse-framework"
       type = github
       tags = Tags["opengl", "shaders"]
-    }    
+    }
     link {
       name = "java-opengl-labs/modern-jogl-examples"
       desc = "port of 'Learning Modern 3D Graphic Programming' by J.L.McKesson (jogl)"
