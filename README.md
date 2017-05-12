@@ -147,6 +147,7 @@ Here awesome badge for your project:
 * [Kotlin/KEEP](https://github.com/Kotlin/KEEP) - Kotlin Evolution and Enhancement Process
 
 ### <a name="links-resources"></a>Resources <sup>[Back ⇈](#links-resources-subcategory)</sup>
+* [Podcast: Talking Kotlin](http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/) - A Podcast on Kotlin and more
 * [/r/Kotlin](https://www.reddit.com/r/Kotlin/) 
 * [Stackoverflow Documentation on Kotlin](http://stackoverflow.com/documentation/kotlin/topics) 
 * [Quora Kotlin](https://www.quora.com/topic/Kotlin) 

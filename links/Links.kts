@@ -55,6 +55,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "Podcast: Talking Kotlin"
+      desc = "A Podcast on Kotlin and more"
+      href = "http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/"
+    }
+    link {
       name = "/r/Kotlin"
       href = "https://www.reddit.com/r/Kotlin/"
     }
