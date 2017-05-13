@@ -274,6 +274,48 @@ category("Android") {
       type = github
       tags = Tags["android", "twitter", "application"]
     }
+    link {
+      name = "SimpleMobileTools/Simple-Calendar"
+      desc = "A simple calendar with events, customizable widget and no ads."
+      href = "https://github.com/SimpleMobileTools/Simple-Calendar"
+      type = github
+      tags = Tags["android", "application"]
+    }
+    link {
+      name = "SimpleMobileTools/Simple-Camera"
+      desc = "A camera with flash, zoom and no ads."
+      href = "https://github.com/SimpleMobileTools/Simple-Camera"
+      type = github
+      tags = Tags["android", "application"]
+    }
+    link {
+      name = "SimpleMobileTools/Simple-Draw"
+      desc = "A canvas you can draw on with different colors."
+      href = "https://github.com/SimpleMobileTools/Simple-Draw"
+      type = github
+      tags = Tags["android", "application"]
+    }
+    link {
+      name = "SimpleMobileTools/Simple-File-Manager"
+      desc = "A simple file manager for browsing and editing files and directories."
+      href = "https://github.com/SimpleMobileTools/Simple-File-Manager"
+      type = github
+      tags = Tags["android", "application"]
+    }
+    link {
+      name = "SimpleMobileTools/Simple-Gallery"
+      desc = "A gallery for viewing photos and videos without ads."
+      href = "https://github.com/SimpleMobileTools/Simple-Gallery"
+      type = github
+      tags = Tags["android", "application"]
+    }
+    link {
+      name = "SimpleMobileTools/Simple-Notes"
+      desc = "A simple textfield for adding quick notes without ads."
+      href = "https://github.com/SimpleMobileTools/Simple-Notes"
+      type = github
+      tags = Tags["android", "application"]
+    }
   }
   subcategory("Extensions") {
     link {
