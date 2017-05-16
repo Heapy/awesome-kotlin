@@ -174,6 +174,13 @@ category("Android") {
       type = github
       tags = Tags["android", "drawable", "dsl"]
     }
+    link {
+      name = "zsmb13/MaterialDrawerKt"
+      desc = "A DSL for creating Material Design navigation drawers without any XML."
+      href = "https://github.com/zsmb13/MaterialDrawerKt"
+      type = github
+      tags = Tags["android", "dsl"]
+    }
   }
   subcategory("Frameworks") {
     link {
