@@ -508,6 +508,13 @@ category("Libraries/Frameworks") {
       tags = Tags["bash", "scripting", "kts"]
     }
     link {
+      name = "kohesive/keplin"
+      desc = "Secure Kotlin scripting and binary lambda-scripts."
+      href = "https://github.com/kohesive/keplin"
+      type = github
+      tags = Tags["scripting", "kts"]
+    }
+    link {
       name = "shyiko/ktlint"
       desc = "Kotlin linter."
       href = "https://github.com/shyiko/ktlint"
