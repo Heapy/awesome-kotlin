@@ -181,6 +181,13 @@ category("Android") {
       type = github
       tags = Tags["android", "dsl"]
     }
+    link {
+      name = "SnowdreamFramework/ToyBricks"
+      desc = "Android Library that provide simpler way to achieve modularity."
+      href = "https://github.com/SnowdreamFramework/ToyBricks"
+      type = github
+      tags = Tags["android", "apt"]
+    }
   }
   subcategory("Frameworks") {
     link {
