@@ -69,6 +69,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Germany"]
     }
+    link {
+      name = "Kotlin.es"
+      desc = "Spain"
+      href = "http://kotlin.es/"
+      type = kug
+      tags = Tags["Spain"]
+    }
   }
   subcategory("America") {
     link {
