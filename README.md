@@ -316,6 +316,7 @@ Here awesome badge for your project:
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
 * [cretz/asmble](https://github.com/cretz/asmble) - Compile WebAssembly to JVM and other WASM tools.
+* [vicboma1/GameBoy-Emulator-Environment](https://github.com/vicboma1/GameBoyEmulatorEnvironment) - Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -389,6 +390,11 @@ Here awesome badge for your project:
 * [dkandalov/kotlin-99](https://github.com/dkandalov/kotlin-99) - Solve 99 problems with Kotlin!
 * [dkandalov/rosettacode-kotlin](https://github.com/dkandalov/rosettacode-kotlin) - Repository with source code from [RosettaCode](http://rosettacode.org/)
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
+* [vicboma1/Kotlin-Koans](https://github.com/vicboma1/Kotlin-Koans) - These are the simple solutions of the kotlin koans online with intellij project
+* [vicboma1/GettingStartedKotlin](https://github.com/vicboma1/GettingStartedKotlin) - Learn the basics of getting started with kotlin
+* [vicboma1/Kotlin-Examples-Problems](https://github.com/vicboma1/Kotlin-Examples-Problems) - These are the simple solutions of the kotlin example problems online
+                                                      
+
 
 ### <a name="projects-idea-plugins"></a>Idea Plugins <sup>[Back ⇈](#projects-idea-plugins-subcategory)</sup>
 * [Vektah/CodeGlance](https://github.com/Vektah/CodeGlance) - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
@@ -496,6 +502,7 @@ Here awesome badge for your project:
 * [Kotlin London](http://www.meetup.com/kotlin-london/) - United Kingdom
 * [Kotlin User Group Berlin](https://www.meetup.com/kotlin-berlin/) - Germany
 * [Kotlin User Group Cologne](https://www.meetup.com/Kotlin-User-Group-Cologne/) - Germany
+* [Kotlin.es](http://kotlin.es/) - Spain
 
 ### <a name="kotlin-user-groups-america"></a>America <sup>[Back ⇈](#kotlin-user-groups-america-subcategory)</sup>
 * [Bay Area Kotlin User Group](http://www.meetup.com/Bay-Area-Kotlin-User-Group/) - USA
@@ -510,7 +517,6 @@ Here awesome badge for your project:
 ### <a name="kotlin-user-groups-australia"></a>Australia <sup>[Back ⇈](#kotlin-user-groups-australia-subcategory)</sup>
 * [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
 * [Sydney Kotlin User Group](https://www.meetup.com/Sydney-Kotlin-User-Group/) - Australia
-
 
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
 ### <a name="articles-blog-posts-may-2017"></a>May 2017 <sup>[Back ⇈](#articles-blog-posts-may-2017-subcategory)</sup>
