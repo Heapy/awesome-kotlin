@@ -22,7 +22,7 @@ buildscript {
 
     dependencies {
         classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-eap-77")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-4")
     }
 }
 

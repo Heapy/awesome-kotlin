@@ -24,6 +24,7 @@ Here awesome badge for your project:
 * <a name="links-books-and-courses-subcategory"></a>[Books and Courses](#links-books-and-courses)
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
+* <a name="libraries-frameworks-browsers-subcategory"></a>[Browsers](#libraries-frameworks-browsers)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
 * <a name="libraries-frameworks-tests-subcategory"></a>[Tests](#libraries-frameworks-tests)
 * <a name="libraries-frameworks-dependency-injection-subcategory"></a>[Dependency Injection](#libraries-frameworks-dependency-injection)
@@ -170,6 +171,9 @@ Here awesome badge for your project:
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
+### <a name="libraries-frameworks-browsers"></a>Browsers <sup>[Back ⇈](#libraries-frameworks-browsers-subcategory)</sup>
+* [chrome-reactive-kotlin](https://github.com/wendigo/chrome-reactive-kotlin) - Chrome Debugging Protocol for Kotlin (with RxJava2)
+
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
 * [Kotlin/ktor](https://github.com/Kotlin/ktor) - Web backend framework for Kotlin.
 * [TinyMission/kara](https://github.com/TinyMission/kara) - Web framework written in Kotlin.
