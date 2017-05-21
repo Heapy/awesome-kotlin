@@ -129,6 +129,13 @@ category("Projects") {
       type = github
       tags = Tags["certificate", "crypto"]
     }
+    link {
+      name = "vicboma1/GameBoy-Emulator-Environment"
+      desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
+      href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
+      type = github
+      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -138,6 +145,7 @@ category("Projects") {
       type = github
       tags = Tags["JavaFX", "Desktop", "Player"]
     }
+
   }
   subcategory("Examples") {
     link {
@@ -206,6 +214,27 @@ category("Projects") {
       name = "sanity/pairAdjacentViolators"
       desc = "A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression."
       href = "https://github.com/sanity/pairAdjacentViolators"
+      type = github
+      tags = Tags["examples"]
+    }
+    link {
+      name = "vicboma1/Kotlin-Koans"
+      desc = "hese are the simple solutions of the kotlin koans online with intellij project."
+      href = "https://github.com/vicboma1/Kotlin-Koans"
+      type = github
+      tags = Tags["examples"]
+    }
+    link {
+      name = "vicboma1/GettingStartedKotlin"
+      desc = "Learn the basics of getting started with kotlin."
+      href = "https://github.com/vicboma1/GettingStartedKotlin"
+      type = github
+      tags = Tags["examples"]
+    }
+    link {
+      name = "vicboma1/Kotlin-Examples-Problems"
+      desc = "These are the simple solutions of the kotlin example problems online."
+      href = "https://github.com/vicboma1/Kotlin-Examples-Problems"
       type = github
       tags = Tags["examples"]
     }
