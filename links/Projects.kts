@@ -130,7 +130,7 @@ category("Projects") {
       tags = Tags["certificate", "crypto"]
     }
     link {
-      name = "vicboma1/GameBoy-Emulator-Environment"
+      name = "vicboma1/GameBoyEmulatorEnvironment"
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github

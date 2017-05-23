@@ -22,8 +22,13 @@ class DefaultStarsGenerator(
                     when (link.type) {
                         LinkType.github -> {
                             // TODO: Do request async
-                            val response = getGithubStarCount(okHttpClient, link.name, config.ghUser, config.ghToken).await()
-                            val stars = mapper.readValue<GithubResponse>(response.body().string())
+                            val stars = try {
+                                val response = getGithubStarCount(okHttpClient, link.name, config.ghUser, config.ghToken).await()
+                                mapper.readValue<GithubResponse>(response.body().string())
+                            } catch (e: Exception) {
+                                LOGGER.error("Error while fetching data for '${link.name}'.", e)
+                                throw e
+                            }
 
                             link.star = stars.stargazers_count
                             link.update = parseInstant(stars.pushed_at).format(formatter)
@@ -42,6 +47,10 @@ class DefaultStarsGenerator(
         }
 
         mapper.writeValueAsString(allLinks)
+    }
+
+    companion object {
+        private val LOGGER = logger<DefaultStarsGenerator>()
     }
 }
 
