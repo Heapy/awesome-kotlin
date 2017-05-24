@@ -52,6 +52,10 @@ category("Links") {
       type = github
       tags = Tags["keep", "async", "await"]
     }
+    link {
+      name = "Forum"
+      href = "https://discuss.kotlinlang.org/"
+    }
   }
   subcategory("Resources") {
     link {
