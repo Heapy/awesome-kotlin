@@ -238,6 +238,13 @@ category("Projects") {
       type = github
       tags = Tags["examples"]
     }
+    link {
+      name = "pakoito/FunctionalAndroidReference"
+      desc = "A different Android app showcasing Functional Reactive Programming."
+      href = "https://github.com/pakoito/FunctionalAndroidReference"
+      type = github
+      tags = Tags["android", "examples", "functional"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
