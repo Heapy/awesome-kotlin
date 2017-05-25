@@ -48,6 +48,13 @@ category("Kotlin JavaScript") {
       type = github
       tags = Tags["bindings", "react", "mobx", "rxjs"]
     }
+    link {
+      name = "kengorab/kotlin-javascript-boilerplate"
+      desc = "An extremely barebones boilerplate project for compiling Kotlin to Javascript."
+      href = "https://github.com/kengorab/kotlin-javascript-boilerplate"
+      type = github
+      tags = Tags["boilerplate", "javascript", "kotlin2js"]
+    }
   }
   subcategory("Frontend") {
     link {
