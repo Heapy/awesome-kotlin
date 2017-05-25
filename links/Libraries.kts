@@ -33,10 +33,10 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "http4k/http4k"
-      desc = "Functional, lightweight HTTP microservices based on 'Your Server as a Function'."
+      desc = "Toolkit for serving and consuming HTTP services in a functional and consistent way."
       href = "http://www.http4k.org"
       type = github
-      tags = Tags["web", "jetty", "netty", "http"]
+      tags = Tags["web", "http", "http client", "jetty", "netty", "undertow"]
     }
     link {
       name = "jean79/yested"
