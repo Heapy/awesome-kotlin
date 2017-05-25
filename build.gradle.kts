@@ -22,7 +22,7 @@ buildscript {
 
     dependencies {
         classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.2-4")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.3-eap-34")
     }
 }
 
@@ -55,8 +55,8 @@ configure<KotlinProjectExtension> {
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-eap-77")
-    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.2-eap-77")
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.3-eap-34")
+    compile("org.jetbrains.kotlin:kotlin-reflect:1.1.3-eap-34")
     compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.14.1")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
@@ -67,7 +67,7 @@ dependencies {
     compile("org.jsoup:jsoup:1.10.2")
     compile("by.heap.remark:remark-kotlin:1.2.0")
 
-    compile("org.jetbrains.kotlin:kotlin-script-util:1.1.2-eap-77")
+    compile("org.jetbrains.kotlin:kotlin-script-util:1.1.3-eap-34")
     compile("com.atlassian.commonmark:commonmark:0.9.0")
     compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:0.9.0")
 
