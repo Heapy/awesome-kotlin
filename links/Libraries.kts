@@ -6,6 +6,16 @@ import link.kotlin.scripts.link
 import link.kotlin.scripts.subcategory
 
 category("Libraries/Frameworks") {
+  subcategory("Browsers") {
+    link {
+      name = "chrome-reactive-kotlin"
+      desc = "Chrome Debugging Protocol for Kotlin (with RxJava2)"
+      href = "https://github.com/wendigo/chrome-reactive-kotlin"
+      type = github
+      tags = Tags["web", "chrome", "automation", "browser"]
+    }
+  }
+
   subcategory("Web") {
     link {
       name = "Kotlin/ktor"
