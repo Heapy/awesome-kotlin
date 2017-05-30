@@ -188,6 +188,13 @@ category("Android") {
       type = github
       tags = Tags["android", "apt"]
     }
+    link {
+      name =  "DanielMartinus/Konfetti"
+      desc =  "Lightweight particle system to create realistic confetti"
+      href =  "https://github.com/DanielMartinus/Konfetti"
+      type =  github
+      tags =  Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
+    }
   }
   subcategory("Frameworks") {
     link {
