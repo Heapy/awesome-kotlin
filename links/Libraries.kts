@@ -869,6 +869,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["jdk8", "jdk7"]
     }
+    link {
+      name = "marcinmoskala/KotlinDiscreteMathToolkit"
+      desc = "Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions."
+      href = "https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit"
+      type = github
+      tags = Tags["math"]
+    }
   }
   subcategory("Configuration") {
     link {
