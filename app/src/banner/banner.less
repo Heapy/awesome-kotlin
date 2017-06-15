@@ -3,7 +3,13 @@
   top: 0;
   left: 50px;
 
-  .conference_banner__img {
+  @media screen and (max-width: 700px) {
+    &__img {
+      display: none;
+    }
+  }
+
+  &__img {
     width: 172px;
     height: 84px;
     background: url('../banner/kotlin-conf-banner-dark.svg') no-repeat;

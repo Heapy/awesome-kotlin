@@ -13,6 +13,6 @@ indent_size=2
 indent_style=space
 indent_size=4
 
-[*.{js,ts,tsx}]
+[*.{js,ts,tsx,less}]
 indent_style=space
 indent_size=2
