@@ -245,6 +245,13 @@ category("Projects") {
       type = github
       tags = Tags["android", "examples", "functional"]
     }
+    link {
+      name = "bmaslakov/kotlin-algorithm-club"
+      desc = "Classic algorithms and data structures in Kotlin."
+      href = "https://github.com/bmaslakov/kotlin-algorithm-club"
+      type = github
+      tags = Tags["examples"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
