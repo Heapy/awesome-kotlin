@@ -350,6 +350,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["reactor", "extensions"]
     }
+    link {
+      name = "UrbanCompass/Snail-Kotlin"
+      desc = "An observables framework for Kotlin."
+      href = "https://github.com/UrbanCompass/Snail-Kotlin"
+      type = github
+      tags = Tags["observables", "fp", "functional"]
+    }
   }
   subcategory("JSON") {
     link {
