@@ -118,6 +118,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["crawler4j", "web-crawler", "webcrawler", "link-checker"]
     }
+    link {
+      name = "Vaadin-on-Kotlin"
+      desc = "A simple way to write full-stack database-backed component-oriented web apps"
+      href = "http://www.vaadinonkotlin.eu/"
+      tags = Tags["web", "fullstack", "vaadin"]
+    }
   }
   subcategory("Tests") {
     link {

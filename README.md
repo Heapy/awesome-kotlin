@@ -192,6 +192,7 @@ Here awesome badge for your project:
 * [gimlet2/kottpd](https://github.com/gimlet2/kottpd) - REST framework in pure Kotlin, inspired by spark-java
 * [kwebio/core](https://github.com/kwebio/core) -  A Kotlin interface to one or more remote web-browsers.
 * [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
+* [Vaadin-on-Kotlin](http://www.vaadinonkotlin.eu/) - A simple way to write full-stack database-backed component-oriented web apps
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
