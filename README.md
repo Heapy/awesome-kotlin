@@ -160,6 +160,7 @@ Here awesome badge for your project:
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
 * [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
+* [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 

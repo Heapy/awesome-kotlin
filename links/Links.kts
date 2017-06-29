@@ -108,6 +108,11 @@ category("Links") {
       name = "Kotlin Cheat Sheet"
       href = "https://speakerdeck.com/agiuliani/kotlin-cheat-sheet"
     }
+    link {
+      name = "Kotlin Kōans Android app"
+      desc = "Learn Kotlin with short coding challenges on your Android device"
+      href = "https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans"
+    }
   }
   subcategory("Books and Courses") {
     link {
