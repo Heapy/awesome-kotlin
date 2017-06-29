@@ -119,10 +119,18 @@ category("Libraries/Frameworks") {
       tags = Tags["crawler4j", "web-crawler", "webcrawler", "link-checker"]
     }
     link {
-      name = "Vaadin-on-Kotlin"
+      name = "mvysny/vaadin-on-kotlin"
       desc = "A simple way to write full-stack database-backed component-oriented web apps"
-      href = "http://www.vaadinonkotlin.eu/"
+      href = "https://github.com/mvysny/vaadin-on-kotlin"
+      type = github
       tags = Tags["web", "fullstack", "vaadin"]
+    }
+    link {
+      name = "perwendel/spark-kotlin"
+      desc = "A DSL in idiomatic Kotlin for the Spark web framework."
+      href = "https://github.com/perwendel/spark-kotlin"
+      type = github
+      tags = Tags["web", "rest", "http"]
     }
   }
   subcategory("Tests") {
@@ -203,6 +211,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "specification", "rspec", "spek"]
     }
+    link {
+      name = "qwertukg/SeleniumBuilder"
+      desc = "DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin builder style."
+      href = "https://github.com/qwertukg/SeleniumBuilder"
+      type = github
+      tags = Tags["selenium", "test"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
@@ -214,14 +229,14 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "kohesive/injekt"
-      desc = "(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin"
+      desc = "(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin."
       href = "https://github.com/kohesive/injekt"
       type = github
       tags = Tags["di", "dependency injection"]
     }
     link {
       name = "kailan/kodeinject"
-      desc = "Constructor dependency injection for Kodein"
+      desc = "Constructor dependency injection for Kodein."
       href = "https://github.com/kailan/kodeinject"
       type = github
       tags = Tags["di", "dependency injection", "kodein"]
@@ -232,6 +247,27 @@ category("Libraries/Frameworks") {
       href = "https://github.com/traversals/kapsule"
       type = github
       tags = Tags["di", "dependency injection"]
+    }
+    link {
+      name = "JLLeitschuh/kotlin-guiced"
+      desc = "Convenience Kotlin API over the Google Guice DI Library."
+      href = "https://github.com/JLLeitschuh/kotlin-guiced"
+      type = github
+      tags = Tags["Dependency Injection", "Guice"]
+    }
+    link {
+      name = "Ekito/koin"
+      desc = "A functional Kotlin dependency injection framework."
+      href = "https://github.com/Ekito/koin"
+      type = github
+      tags = Tags["dependency-injection", "injection", "functional"]
+    }
+    link {
+      name = "Ekito/koin-android"
+      desc = "A Kotlin dependency injection framework for Android, based on Koin."
+      href = "https://github.com/Ekito/koin-android"
+      type = github
+      tags = Tags["android", "dependency-injection", "injection", "functional"]
     }
   }
   subcategory("Coroutines") {
@@ -685,9 +721,9 @@ category("Libraries/Frameworks") {
   }
   subcategory("Game Development") {
     link {
-      name = "czyzby/ktx"
+      name = "libktx/ktx"
       desc = "Kotlin utilities for LibGDX applications."
-      href = "https://github.com/czyzby/ktx"
+      href = "https://github.com/libktx/ktx"
       type = github
       tags = Tags["LibGDX", "game dev", "games"]
     }

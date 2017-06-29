@@ -77,6 +77,13 @@ category("Projects") {
       type = github
       tags = Tags["serverless", "lambda"]
     }
+    link {
+      name = "ssouris/petclinic-spring5-reactive"
+      desc = "Spring 5 Reactive Petclinic app written in Kotlin."
+      href = "https://github.com/ssouris/petclinic-spring5-reactive"
+      type = github
+      tags = Tags["spring", "reactive", "web"]
+    }
   }
   subcategory("Build tools") {
     link {
