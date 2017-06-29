@@ -142,6 +142,10 @@ category("Links") {
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
     }
+    link {
+      name = "Fundamental Kotlin, First Edition"
+      desc = "Learn Kotlin quickly from the start"
+      href = "http://www.fundamental-kotlin.com/"
+    }
   }
 }
-
