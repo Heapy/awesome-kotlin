@@ -519,6 +519,7 @@ Here awesome badge for your project:
 * [New York Kotlin Meetup](http://www.meetup.com/New-York-Kotlin-Meetup/) - USA
 
 ### <a name="kotlin-user-groups-asia"></a>Asia <sup>[Back ⇈](#kotlin-user-groups-asia-subcategory)</sup>
+* [China Kotlin User Group](http://kotlin.cn/) - China
 * [Japan Kotlin User Group](https://kotlin.doorkeeper.jp/) - Japan
 * [Korean Kotlin User Group](http://kotlin.kr/) - Korea
 
