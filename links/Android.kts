@@ -344,6 +344,13 @@ category("Android") {
       type = github
       tags = Tags["android", "application"]
     }
+    link {
+      name = "ahong222/happy21"
+      desc = "A simple game of Black-Jack write with kotlin"
+      href = "https://github.com/ahong222/happy21"
+      type = github
+      tags = Tags["android", "application"]
+    }
   }
   subcategory("Extensions") {
     link {
