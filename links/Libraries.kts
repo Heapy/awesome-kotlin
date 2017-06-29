@@ -493,6 +493,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["postgres", "mysql", "database driver"]
     }
+    link {
+      name = "shyiko/levelkt"
+      desc = "LevelDB client for Kotlin and/or Java 8+."
+      href = "https://github.com/shyiko/levelkt"
+      type = github
+      tags = Tags["leveldb", "embedded"]
+    }
   }
   subcategory("Tools") {
     link {
