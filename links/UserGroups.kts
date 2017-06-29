@@ -122,6 +122,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Korea"]
     }
+    link {
+      name = "China Kotlin User Group"
+      desc = "China"
+      href = "http://kotlin.cn/"
+      type = kug
+      tags = Tags["China"]
+    }
   }
   subcategory("Australia") {
     link {

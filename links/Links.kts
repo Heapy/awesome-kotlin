@@ -123,6 +123,11 @@ category("Links") {
       href = "https://www.packtpub.com/application-development/programming-kotlin"
     }
     link {
+      name = "Fundamental Kotlin, First Edition"
+      desc = "Learn Kotlin quickly from the start"
+      href = "http://www.fundamental-kotlin.com/"
+    }
+    link {
       name = "Kotlin for Java Developers"
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"

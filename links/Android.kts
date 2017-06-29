@@ -195,6 +195,13 @@ category("Android") {
       type =  github
       tags =  Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
     }
+    link {
+      name = "rahulchowdhury/Mystique"
+      desc = "A generalized adapter for RecyclerView on Android which makes it easy to add heterogeneous items to a list."
+      href = "https://github.com/rahulchowdhury/Mystique"
+      type = github
+      tags = Tags["android", "recycler view"]
+    }
   }
   subcategory("Frameworks") {
     link {

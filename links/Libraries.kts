@@ -906,6 +906,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["configuration"]
     }
+    link {
+      name = "daviddenton/konfigur8"
+      desc = "A Kotlin port of Configur8 - A Type Safe Configuration API for Kotlin, extendable to user-defined types."
+      href = "https://github.com/daviddenton/configur8"
+      type = github
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
