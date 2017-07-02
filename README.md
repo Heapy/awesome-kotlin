@@ -838,6 +838,7 @@ Here awesome badge for your project:
 
 ### <a name="articles-blog-posts-september-2015"></a>September 2015 <sup>[Back ⇈](#articles-blog-posts-september-2015-subcategory)</sup>
 * [Kotlin ❤ FP](http://kotlin.link/articles/Kotlin-love-FP.html) - Mike Hearn
+* [Kotlin: A Low-Ceremony, High-Integration Language](http://kotlin.link/articles/Kotlin-is-A-Low-Ceremony-High-Integration-Language.html) - HADI HARIRI
 
 ### <a name="articles-blog-posts-august-2015"></a>August 2015 <sup>[Back ⇈](#articles-blog-posts-august-2015-subcategory)</sup>
 * [Building APIs on the JVM Using Kotlin and Spark – Part 1](http://kotlin.link/articles/Building-APIs-on-the-JVM-Using-Kotlin-and-Spark-–-Part-1.html) - Travis Spencer
