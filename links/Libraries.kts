@@ -1071,6 +1071,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["data science", "math"]
     }
+    link {
+      name = "sekwiatkowski/Komputation"
+      desc = "A neural network framework written in Kotlin."
+      href = "https://github.com/sekwiatkowski/Komputation"
+      type = github
+      tags = Tags["neural-networks", "deep-learning", "machine-learning", "artificial-intelligence"]
+    }
   }
   subcategory("Command Line Interface") {
     link {
