@@ -257,15 +257,8 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "Ekito/koin"
-      desc = "A functional Kotlin dependency injection framework."
+      desc = "A functional Kotlin dependency injection framework for Android and JVM."
       href = "https://github.com/Ekito/koin"
-      type = github
-      tags = Tags["dependency-injection", "injection", "functional"]
-    }
-    link {
-      name = "Ekito/koin-android"
-      desc = "A Kotlin dependency injection framework for Android, based on Koin."
-      href = "https://github.com/Ekito/koin-android"
       type = github
       tags = Tags["android", "dependency-injection", "injection", "functional"]
     }
