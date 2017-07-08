@@ -132,6 +132,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "rest", "http"]
     }
+    link {
+      name = "danneu/kog"
+      desc = "A web framework focused on simplicity, middleware, and functional composition"
+      href = "https://github.com/danneu/kog"
+      type = github
+      tags = Tags["web", "http", "rest", "jetty", "websockets"]
+    }
   }
   subcategory("Tests") {
     link {
