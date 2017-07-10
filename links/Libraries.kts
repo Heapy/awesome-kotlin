@@ -909,6 +909,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["wasm", "webassembly"]
     }
+    link {
+      name = "h0tk3y/better-parse"
+      desc = "A nice parser combinator library for Kotlin"
+      href = "https://github.com/h0tk3y/better-parse"
+      type = github
+      tags = Tags["parser", "parser-combinator", "grammar", "lexer"]
+    }
   }
   subcategory("Extensions") {
     link {
