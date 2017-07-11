@@ -194,6 +194,7 @@ Here awesome badge for your project:
 * [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
 * [mvysny/vaadin-on-kotlin](https://github.com/mvysny/vaadin-on-kotlin) - A simple way to write full-stack database-backed component-oriented web apps
 * [perwendel/spark-kotlin](https://github.com/perwendel/spark-kotlin) - A DSL in idiomatic Kotlin for the Spark web framework.
+* [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
