@@ -139,6 +139,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "rest", "http"]
     }
+    link {
+      name = "danneu/kog"
+      desc = "A web framework focused on simplicity, middleware, and functional composition"
+      href = "https://github.com/danneu/kog"
+      type = github
+      tags = Tags["web", "http", "rest", "jetty", "websockets"]
+    }
   }
   subcategory("Tests") {
     link {
@@ -915,6 +922,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/cretz/asmble"
       type = github
       tags = Tags["wasm", "webassembly"]
+    }
+    link {
+      name = "h0tk3y/better-parse"
+      desc = "A nice parser combinator library for Kotlin"
+      href = "https://github.com/h0tk3y/better-parse"
+      type = github
+      tags = Tags["parser", "parser-combinator", "grammar", "lexer"]
     }
   }
   subcategory("Extensions") {

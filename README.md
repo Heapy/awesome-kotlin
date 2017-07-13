@@ -195,6 +195,7 @@ Here awesome badge for your project:
 * [mvysny/vaadin-on-kotlin](https://github.com/mvysny/vaadin-on-kotlin) - A simple way to write full-stack database-backed component-oriented web apps
 * [perwendel/spark-kotlin](https://github.com/perwendel/spark-kotlin) - A DSL in idiomatic Kotlin for the Spark web framework.
 * [jaguililla/hexagon](https://github.com/jaguililla/hexagon) - A Microservices framework that takes care of HTTP, serializtion and storage.
+* [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
