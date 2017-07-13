@@ -132,6 +132,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "rest", "http"]
     }
+    link {
+      name = "jaguililla/hexagon"
+      desc = "A Microservices framework that takes care of HTTP, serializtion and storage."
+      href = "https://github.com/jaguililla/hexagon"
+      type = github
+      tags = Tags["web", "rest", "http"]
+    }
   }
   subcategory("Tests") {
     link {
