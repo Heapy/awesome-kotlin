@@ -7,3 +7,4 @@ app/LinksWithStars.json
 .idea
 .gradle
 build
+*.iml

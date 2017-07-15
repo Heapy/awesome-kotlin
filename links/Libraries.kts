@@ -133,6 +133,13 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "rest", "http"]
     }
     link {
+      name = "jaguililla/hexagon"
+      desc = "A Microservices framework that takes care of HTTP, serializtion and storage."
+      href = "https://github.com/jaguililla/hexagon"
+      type = github
+      tags = Tags["web", "rest", "http"]
+    }
+    link {
       name = "danneu/kog"
       desc = "A web framework focused on simplicity, middleware, and functional composition"
       href = "https://github.com/danneu/kog"
