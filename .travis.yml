@@ -2,6 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 dist: trusty
+sudo: false
 addons:
   ssh_known_hosts: kotlin.link
 before_script:
