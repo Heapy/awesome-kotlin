@@ -1,19 +1,17 @@
-language: node_js
-node_js: 7
+language: java
+jdk:
+  - oraclejdk8
+dist: trusty
 addons:
   ssh_known_hosts: kotlin.link
-  apt:
-    packages:
-      - oracle-java8-installer
-      - oracle-java8-set-default
 before_script:
+  - nvm install 8
   - npm test
   - openssl aes-256-cbc -K $encrypted_83630750896a_key -iv $encrypted_83630750896a_iv -in deploy@morty.enc -out ~/.ssh/deploy@morty -d
   - chmod 600 ~/.ssh/deploy@morty
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/deploy@morty
 script:
-  - source /etc/profile.d/jdk.sh
   - bash ./deploy.sh
 cache:
   yarn: true
