@@ -21,7 +21,6 @@ object Application {
         val articles = Articles(compiler)
         LOGGER.info("Finish getting project links and articles")
 
-
         if (args.getOrElse(0, { "false" }) == "true") {
             // Output folder
             if (!exists(Paths.get("./dist"))) createDirectory(Paths.get("./dist"))
@@ -46,12 +45,12 @@ object Application {
             LOGGER.info("Finish generating sitemap")
 
             // Stars
-            LOGGER.info("Start fetching start")
+            LOGGER.info("Start fetching stars")
             okhttp { client ->
                 val stars = DefaultStarsGenerator(config, mapper, client).generate(projectLinks + articles.links())
                 write(Paths.get("./app/LinksWithStars.json"), stars.toByteArray(), CREATE, TRUNCATE_EXISTING)
             }
-            LOGGER.info("Start fetching finished")
+            LOGGER.info("Stars fetching finished")
 
             // Pages
             DefaultPageGenerator().generate(articles.articles())
