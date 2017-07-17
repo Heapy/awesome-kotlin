@@ -11,7 +11,7 @@ import okhttp3.Response
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
-import java.time.LocalDateTime
+import java.time.LocalDateTime.now
 import java.util.concurrent.CompletableFuture
 
 class Readability(
@@ -43,7 +43,7 @@ fun main(args: Array<String>) {
             ApplicationConfiguration(
                 ghUser = "",
                 ghToken = "",
-                mercuryToken = ""
+                mercuryToken = System.getenv("MERCURY_TOKEN") ?: ""
             )
         )
 
@@ -76,11 +76,17 @@ data class ReadabilityResponse(
     val next_page_url: String?
 )
 
-
-val remark = Remark(Options.github())
+val opts = Options().apply {
+    hardwraps = true
+    fencedCodeBlocks = Options.FencedCodeBlocks.ENABLED_BACKTICK
+    autoLinks = true
+    tables = Options.Tables.CONVERT_TO_CODE_BLOCK
+    inlineLinks = true
+}
+val remark = Remark(opts)
 
 fun ReadabilityResponse.toArticle(): String {
-    val date = if (date_published != null) parseInstant(date_published) else LocalDateTime.now()
+    val date = if (date_published != null) parseInstant(date_published) else now()
 
     val body = remark.convert(content)
 
