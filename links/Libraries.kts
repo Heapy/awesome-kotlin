@@ -71,6 +71,13 @@ category("Libraries/Frameworks") {
       tags = Tags["spring", "extensions"]
     }
     link {
+      name = "pgutkowski/KGraphQL"
+      desc = "A GraphQL implementation written in Kotlin"
+      href = "https://github.com/pgutkowski/KGraphQL"
+      type = github
+      tags = Tags["graphql", "web"]
+    }
+    link {
       name = "taskworld/kraph"
       desc = "GraphQL request string builder written in Kotlin"
       href = "https://github.com/taskworld/kraph"
