@@ -1,16 +1,21 @@
-import * as React from 'react';
-import {List} from '../list/list';
+import * as React from "react";
+import {Subcategories} from "../list/list";
 
-const styles = require('./category.less');
+const styles = require("./category.less");
 
-export function Category({number, category}) {
+export function Category({category}) {
   return (
-    <section className={`${styles.category} ${styles[`category_block${number}`]}`}>
+    <section className={styles.category}>
       <div className={styles.category_wrapper}>
         <h2 className={styles.category_title}>{category.name}</h2>
         <div className={styles.category_wrapper_lists}>
           {category.subcategories.map((subcategory, i) => {
-            return <List links={subcategory} key={i}/>;
+            return (
+              <Subcategories
+                key={i}
+                subcategory={subcategory}
+              />
+            );
           })}
         </div>
       </div>

@@ -1,15 +1,13 @@
 package link.kotlin.scripts
 
-import com.google.inject.Inject
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
 import org.slf4j.LoggerFactory
 import java.util.concurrent.CompletableFuture
 
-
-class LinkChecker @Inject constructor(val linkCheckerFactory: LinkCheckerFactory) {
-    fun check(categories: List<Category>): Boolean {
+class LinkChecker(private val categories: List<Category>) {
+    fun check(): Boolean {
         return okhttp { client ->
             val futures = mapToFuture(categories, client)
 
