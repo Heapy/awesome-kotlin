@@ -57,10 +57,12 @@ configure<KotlinProjectExtension> {
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${extra["kotlinVersion"]}")
     compile("org.jetbrains.kotlin:kotlin-reflect:${extra["kotlinVersion"]}")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.16")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.17")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
-    compile("org.slf4j:slf4j-simple:1.7.25")
+    compile("org.slf4j:slf4j-api:1.7.25")
+    compile("ch.qos.logback:logback-classic:1.2.3")
+    compile("io.sentry:sentry-logback:1.4.0")
 
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
@@ -71,7 +73,7 @@ dependencies {
     compile("com.atlassian.commonmark:commonmark:${extra["commonMarkVersion"]}")
     compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:${extra["commonMarkVersion"]}")
 
-    compile("com.squareup.okhttp3:okhttp:3.5.0")
+    compile("com.squareup.okhttp3:okhttp:3.8.1")
 
     testCompile("junit:junit:4.12")
 }

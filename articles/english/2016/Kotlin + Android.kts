@@ -1,6 +1,6 @@
 import link.kotlin.scripts.Article
 import link.kotlin.scripts.LinkType.slides
-import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.model.LanguageCodes.EN
 import java.time.LocalDate.of
 
 val body = """

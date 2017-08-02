@@ -1,4 +1,4 @@
-package link.kotlin.scripts
+package link.kotlin.scripts.utils
 
 import org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngineFactory
 import java.io.InputStream

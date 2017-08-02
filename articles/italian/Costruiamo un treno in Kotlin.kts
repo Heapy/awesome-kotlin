@@ -1,6 +1,6 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LanguageCodes.IT
+import link.kotlin.scripts.model.LanguageCodes.IT
 import link.kotlin.scripts.LinkType.video
 import java.time.LocalDate
 

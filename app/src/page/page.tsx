@@ -24,7 +24,7 @@ function reduceCategory(category, searchTerm) {
   return {
     name: category.name,
     subcategories
-  }
+  };
 }
 
 function reduceSubcategory(subcategory, searchTerm) {
@@ -38,7 +38,7 @@ function reduceSubcategory(subcategory, searchTerm) {
   return {
     name: subcategory.name,
     links
-  }
+  };
 }
 
 function linkMatches(link, searchTerm) {

@@ -1,6 +1,6 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LanguageCodes
+import link.kotlin.scripts.model.LanguageCodes
 import link.kotlin.scripts.LinkType.webinar
 import java.time.LocalDate
 

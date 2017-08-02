@@ -7,13 +7,13 @@ export class Head extends React.Component<{}, HeadState> {
     super();
     this.state = {
       counter: 0
-    }
+    };
   }
 
   changeLogo = () => {
     this.setState({
       counter: (this.state.counter + 1) % 3
-    })
+    });
   };
 
   render() {
@@ -52,7 +52,7 @@ function getLogo(index: number) {
              className={styles.head_logo}/>
       );
     default:
-      return getLogo(0)
+      return getLogo(0);
   }
 }
 

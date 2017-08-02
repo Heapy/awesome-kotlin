@@ -1,6 +1,7 @@
 package link.kotlin.scripts
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import link.kotlin.scripts.utils.Cache
 import org.jsoup.Jsoup
 
 private val trending = listOf(
@@ -9,7 +10,9 @@ private val trending = listOf(
     "https://github.com/trending/kotlin?since=daily"
 )
 
-class GithubTrending(val cache: Cache) {
+class GithubTrending(
+    private val cache: Cache
+) {
     fun fetch(): List<String> {
         return trending
             .map(this::getTrendingRepositories)
