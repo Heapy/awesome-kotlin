@@ -1028,9 +1028,9 @@ category("Libraries/Frameworks") {
       tags = Tags["vr", "openvr", "opengl", "vulkan"]
     }
     link {
-      name = "java-graphics/assimp"
+      name = "kotlin-graphics/assimp"
       desc = "Open Asset Import Library port"
-      href = "https://github.com/java-graphics/assimp"
+      href = "https://github.com/kotlin-graphics/assimp"
       type = github
       tags = Tags["assimp", "stl", "md2", "ply", "obj", "collada", "opengl", "vulkan"]
     }
@@ -1054,6 +1054,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
+    }    
+    link {
+      name = "kotlin-graphics/imgui"
+      desc = "jvm port of imgui"
+      href = "https://github.com/kotlin-graphics/imgui"
+      type = github
+      tags = Tags["opengl", "gui", "gamedev"]
     }
   }
   subcategory("Data Science") {
