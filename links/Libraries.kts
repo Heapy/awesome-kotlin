@@ -327,6 +327,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["coroutines", "spring"]
     }
+    link {
+      name = "metalabdesign/AsyncAwait"
+      desc = "async/await for Android built upon coroutines introduced in Kotlin 1.1."
+      href = "https://github.com/metalabdesign/AsyncAwait"
+      type = github
+      tags = Tags["async", "await", "android"]
+    }
   }
   subcategory("Functional Programming") {
     link {
