@@ -983,6 +983,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["configuration"]
     }
+    link {
+      name = "ufoscout/properlty"
+      desc = "Simple configuration library with placeholders resolution and zero magic!"
+      href = "https://github.com/ufoscout/properlty"
+      type = github
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
@@ -1062,6 +1069,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["opengl", "gui", "gamedev"]
     }
+    link {
+      name = "Jonatino/JOGL2D"
+      desc = "Zero-overhead 2D rendering library for JOGL using Kotlin."
+      href = "https://github.com/Jonatino/JOGL2D"
+      type = github
+      tags = Tags["jogl", "opengl"]
+    }
   }
   subcategory("Data Science") {
     link {
@@ -1104,7 +1118,14 @@ category("Libraries/Frameworks") {
       desc = "A neural network framework written in Kotlin."
       href = "https://github.com/sekwiatkowski/Komputation"
       type = github
-      tags = Tags["neural-networks", "deep-learning", "machine-learning", "artificial-intelligence"]
+      tags = Tags["data science", "neural-networks", "deep-learning", "machine-learning", "artificial-intelligence"]
+    }
+    link {
+      name = "sanity/pairAdjacentViolators"
+      desc = "A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression."
+      href = "https://github.com/sanity/pairAdjacentViolators"
+      type = github
+      tags = Tags["data science", "pair adjacent violators"]
     }
   }
   subcategory("Command Line Interface") {

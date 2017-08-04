@@ -218,13 +218,6 @@ category("Projects") {
       tags = Tags["examples", "study"]
     }
     link {
-      name = "sanity/pairAdjacentViolators"
-      desc = "A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression."
-      href = "https://github.com/sanity/pairAdjacentViolators"
-      type = github
-      tags = Tags["examples"]
-    }
-    link {
       name = "vicboma1/Kotlin-Koans"
       desc = "hese are the simple solutions of the kotlin koans online with intellij project."
       href = "https://github.com/vicboma1/Kotlin-Koans"
