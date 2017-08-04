@@ -358,6 +358,13 @@ category("Android") {
       type = github
       tags = Tags["android", "application"]
     }
+    link {
+      name = "AllanWang/KAU"
+      desc = "An extensive collection of Kotlin Android Utils"
+      href = "https://github.com/AllanWang/KAU"
+      type = github
+      tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
+    }
   }
   subcategory("Extensions") {
     link {
