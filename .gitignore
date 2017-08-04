@@ -2,6 +2,7 @@ node_modules
 npm-debug.log
 dist
 app/LinksWithStars.json
+/project.env
 
 # Kotlin/Gradle/Idea
 .idea
