@@ -8,7 +8,8 @@ if [ 'master' != $TRAVIS_BRANCH ]; then
 fi
 
 echo "Run kotlin application to generate various data...";
-java -jar ./build/libs/awesome-kotlin.jar true
+./gradlew installDist
+./build/install/awesome-kotlin/bin/awesome-kotlin true
 
 echo "Clear and re-create the dist directory...";
 rm -rf dist || exit 0;
