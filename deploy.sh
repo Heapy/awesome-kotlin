@@ -7,11 +7,11 @@ if [ 'master' != $TRAVIS_BRANCH ]; then
     exit 0;
 fi
 
+echo "Run kotlin application to generate various data...";
+java -jar ./build/libs/awesome-kotlin.jar true
+
 echo "Clear and re-create the dist directory...";
 rm -rf dist || exit 0;
-
-echo "Run kotlin application to generate various data...";
-./gradlew --console plain --no-daemon --stacktrace run -Dtravis=true
 
 echo "Build React Application...";
 npm run pack
