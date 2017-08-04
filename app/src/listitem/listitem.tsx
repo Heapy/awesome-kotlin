@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from "react";
 
-const styles = require('./listitem.less');
+const styles = require("./listitem.less");
 
 function split(str: string): string {
   return str.replace("/", "/​"); // replace "/" with "/ and https://en.wikipedia.org/wiki/Zero-width_space"
@@ -24,7 +24,7 @@ export function Listitem({link}) {
       <p className={styles.listitem_description}>{link.desc}</p>
 
     </li>
-  )
+  );
 }
 
 function getStars(link) {
@@ -36,7 +36,7 @@ function getStars(link) {
              alt="Star"
              className={styles.listitem_star_icon}/>
       </span>
-    )
+    );
   }
 }
 
@@ -44,6 +44,6 @@ function getLastUpdated(link) {
   if (link.update) {
     return (
       <p className={styles.listitem_description}>{`Last update: ${link.update}`}</p>
-    )
+    );
   }
 }

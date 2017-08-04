@@ -1,28 +1,28 @@
 @import "../vars";
 
 .list {
-  display:inline-block;
-  width:(100% / 3);
-  padding:10px 20px;
-  vertical-align:top;
-  box-sizing:border-box;
+  display: inline-block;
+  width: (100% / 3);
+  padding: 10px 20px;
+  vertical-align: top;
+  box-sizing: border-box;
 
-  font-size:0;
-  @media screen and (max-width:@tb) {
-    width:(100% / 2);
-    }
-  @media screen and (max-width:@mb) {
-    width:(100%);
-    }
+  font-size: 0;
+  @media screen and (max-width: @tb) {
+    width: (100% / 2);
+  }
+  @media screen and (max-width: @mb) {
+    width: (100%);
+  }
 
   &_title {
-    font-size:24px;
-    color:@accent-d;
-    }
-  &_list {
-    padding:0;
-    list-style:none;
-    font-size:16px;
-    }
-
+    font-size: 24px;
+    color: @accent-d;
   }
+  &_list {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+  }
+
+}

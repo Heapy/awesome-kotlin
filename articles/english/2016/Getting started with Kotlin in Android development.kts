@@ -1,6 +1,6 @@
 
 import link.kotlin.scripts.Article
-import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.model.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 

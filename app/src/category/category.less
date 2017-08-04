@@ -1,12 +1,12 @@
 .category {
   @import "../vars";
-  // уговорил, захардкодила. Надеюсь, это сделало тебя немного счастливее)
+
   &:nth-child(2n) {
-    background:white;
-    }
+    background: white;
+  }
   &:nth-child(2n+1) {
-    background:rgba(255, 255, 255, .6);
-    }
+    background: rgba(255, 255, 255, .6);
+  }
 
   display: block;
   border-bottom: 1px solid rgba(204, 204, 204, .2);
@@ -19,18 +19,18 @@
     color: darken(@blue, 15%);
     letter-spacing: 4px;
     text-align: center;
-    text-transform:uppercase;
-    font-size:30px;
+    text-transform: uppercase;
+    font-size: 30px;
   }
   &_wrapper {
     display: block;
     max-width: 1024px;
     margin: auto;
     padding: 30px 20px;
-    overflow:hidden;
+    overflow: hidden;
 
     &_lists {
 
-      }
     }
   }
+}

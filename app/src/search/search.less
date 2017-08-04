@@ -2,18 +2,18 @@
   @import "../vars";
 
   display: block;
-  background:rgba(242, 242, 242, 0.7);
+  background: rgba(242, 242, 242, 0.7);
 
   * {
     box-sizing: border-box;
-    }
+  }
 
   &_wrapper {
     display: block;
     max-width: 1024px;
     margin: auto;
     padding: 20px;
-    }
+  }
 
   &_field {
     border: 2px solid #6D8DBA;
@@ -29,15 +29,15 @@
     font-weight: 300;
     &:focus {
       border-color: #F58A1F;
-      }
+    }
     &::-webkit-input-placeholder {
       color: #C7D4E5;
-      }
     }
-  @media screen and (max-width:480px) {
+  }
+  @media screen and (max-width: 480px) {
     &_wrapper {
       padding: 20px 10px;
-      }
+    }
 
     &_field {
       border-width: 1px;
@@ -45,6 +45,6 @@
       background-size: 20px 20px;
       padding: 5px 32px 5px 10px;
       font-size: 16px;
-      }
     }
   }
+}

@@ -1,5 +1,7 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.utils.DefaultScriptCompiler
+import link.kotlin.scripts.utils.ScriptCompiler
 import java.nio.file.Files
 import java.nio.file.Paths
 
@@ -23,6 +25,6 @@ class ProjectLinks(private val compiler: ScriptCompiler = DefaultScriptCompiler(
     }
 
     private fun linksFromFile(path: String): Category {
-        return compiler.execute<Category>(Files.newInputStream(Paths.get("links/$path")))
+        return compiler.execute(Files.newInputStream(Paths.get("links/$path")))
     }
 }

@@ -202,6 +202,13 @@ category("Android") {
       type = github
       tags = Tags["android", "recycler view"]
     }
+    link {
+      name = "calintat/alps"
+      desc = "Android library for preferences which includes property delegates and a custom DSL for definining preferences."
+      href = "https://github.com/calintat/alps"
+      type = github
+      tags = Tags["android-library", "kotlin", "preferences", "dsl"]
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -350,6 +357,13 @@ category("Android") {
       href = "https://github.com/ahong222/happy21"
       type = github
       tags = Tags["android", "application"]
+    }
+    link {
+      name = "AllanWang/KAU"
+      desc = "An extensive collection of Kotlin Android Utils"
+      href = "https://github.com/AllanWang/KAU"
+      type = github
+      tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
   }
   subcategory("Extensions") {

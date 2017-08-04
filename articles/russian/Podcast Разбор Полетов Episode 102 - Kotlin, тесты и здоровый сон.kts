@@ -1,7 +1,7 @@
 
 import link.kotlin.scripts.Article
 import link.kotlin.scripts.Enclosure
-import link.kotlin.scripts.LanguageCodes.RU
+import link.kotlin.scripts.model.LanguageCodes.RU
 import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 

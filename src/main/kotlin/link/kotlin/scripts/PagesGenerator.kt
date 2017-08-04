@@ -2,8 +2,8 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.ArticleFeature.mathjax
-import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
+import link.kotlin.scripts.model.LanguageCodes.EN
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption.CREATE

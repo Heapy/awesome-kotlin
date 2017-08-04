@@ -1,4 +1,4 @@
-package link.kotlin.scripts
+package link.kotlin.scripts.model
 
 /**
  * List of languages names - codes according ISO 639-1

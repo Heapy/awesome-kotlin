@@ -4,6 +4,11 @@ import by.heap.remark.Options
 import by.heap.remark.Remark
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
+import kotlinx.coroutines.experimental.runBlocking
+import link.kotlin.scripts.model.ApplicationConfiguration
+import link.kotlin.scripts.utils.await
+import link.kotlin.scripts.utils.okHttpClient
+import link.kotlin.scripts.utils.parseInstant
 import okhttp3.HttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -12,13 +17,12 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
 import java.time.LocalDateTime.now
-import java.util.concurrent.CompletableFuture
 
 class Readability(
-    val client: OkHttpClient,
-    val configuration: ApplicationConfiguration
+    private val client: OkHttpClient,
+    private val configuration: ApplicationConfiguration
 ) {
-    fun getArticle(url: String): CompletableFuture<Response> {
+    suspend fun getArticle(url: String): Response {
         val request = Request.Builder()
             .url(HttpUrl.Builder()
                 .scheme("https")
@@ -31,32 +35,28 @@ class Readability(
             .header("x-api-key", configuration.mercuryToken)
             .build()
 
-        return client.newCall(request).async()
+        return client.newCall(request).await()
     }
 }
 
-fun main(args: Array<String>) {
-    okhttp { okHttpClient ->
-        val mapper = jacksonObjectMapper()
-        val readability = Readability(
-            okHttpClient,
-            ApplicationConfiguration(
-                ghUser = "",
-                ghToken = "",
-                mercuryToken = System.getenv("MERCURY_TOKEN") ?: ""
-            )
-        )
+fun main(args: Array<String>) = runBlocking {
+    val mapper = jacksonObjectMapper()
+    val readability = Readability(
+        okHttpClient,
+        ApplicationConfiguration()
+    )
 
-        val response = readability.getArticle("https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1-1-is-out/")
-        val res = mapper.readValue<ReadabilityResponse>(response.get().body().string())
-        val article = res.toArticle()
-        Files.write(
-            Paths.get("./articles/english/2017/${res.title}.kts"),
-            article.toByteArray(),
-            StandardOpenOption.CREATE,
-            StandardOpenOption.TRUNCATE_EXISTING
-        )
-    }
+    val response = readability.getArticle("https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1-1-is-out/")
+    val responseString = response.body()?.string() ?: throw RuntimeException("Response is null.")
+    val res = mapper.readValue<ReadabilityResponse>(responseString)
+    val article = res.toArticle()
+    Files.write(
+        Paths.get("./articles/english/2017/${res.title}.kts"),
+        article.toByteArray(),
+        StandardOpenOption.CREATE,
+        StandardOpenOption.TRUNCATE_EXISTING
+    )
+    Unit
 }
 
 data class ReadabilityResponse(
@@ -94,7 +94,7 @@ fun ReadabilityResponse.toArticle(): String {
 
 import link.kotlin.scripts.Article
 import link.kotlin.scripts.Enclosure
-import link.kotlin.scripts.LanguageCodes.EN
+import link.kotlin.scripts.model.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
 import java.time.LocalDate
 

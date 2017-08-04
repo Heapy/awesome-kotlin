@@ -17,7 +17,9 @@ interface RssGenerator {
     fun generate(name: String, limit: Int): String
 }
 
-class DefaultRssGenerator(private val articles: List<Article>) : RssGenerator {
+class DefaultRssGenerator(
+    private val articles: List<Article>
+) : RssGenerator {
     override fun generate(name: String, limit: Int): String {
         val feed = SyndFeedImpl().apply {
             title = "Kotlin Programming Language"
