@@ -1,7 +1,5 @@
-import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
-import org.gradle.api.Project
+
 import org.gradle.api.plugins.ApplicationPluginConvention
-import org.gradle.api.tasks.JavaExec
 import org.gradle.script.lang.kotlin.compile
 import org.gradle.script.lang.kotlin.configure
 import org.gradle.script.lang.kotlin.dependencies
@@ -21,7 +19,6 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.github.jengelman.gradle.plugins:shadow:1.2.4")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${extra["kotlinVersion"]}")
     }
 }
@@ -29,19 +26,10 @@ buildscript {
 apply {
     plugin("kotlin")
     plugin("application")
-    plugin("com.github.johnrengelman.shadow")
 }
 
 configure<ApplicationPluginConvention> {
     mainClassName = "link.kotlin.scripts.Application"
-}
-
-configure<JavaExec>("run") {
-    args(System.getProperty("travis", "false"))
-}
-
-configure<ShadowJar>("shadowJar") {
-    mergeServiceFiles()
 }
 
 repositories {
@@ -76,8 +64,4 @@ dependencies {
     compile("com.squareup.okhttp3:okhttp:3.8.1")
 
     testCompile("junit:junit:4.12")
-}
-
-inline fun <reified C> Project.configure(name: String, configuration: C.() -> Unit) {
-    (this.tasks.getByName(name) as C).configuration()
 }

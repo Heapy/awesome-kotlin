@@ -202,6 +202,13 @@ category("Android") {
       type = github
       tags = Tags["android", "recycler view"]
     }
+    link {
+      name = "calintat/alps"
+      desc = "Android library for preferences which includes property delegates and a custom DSL for definining preferences."
+      href = "https://github.com/calintat/alps"
+      type = github
+      tags = Tags["android-library", "kotlin", "preferences", "dsl"]
+    }
   }
   subcategory("Frameworks") {
     link {
