@@ -209,6 +209,14 @@ category("Android") {
       type = github
       tags = Tags["android-library", "kotlin", "preferences", "dsl"]
     }
+    link {
+      name = "costular/kotlin-android-utils"
+      desc = "Android utilities for easier and faster Kotlin programming."
+      href = "https://github.com/costular/kotlin-android-utils"
+      type = github
+      tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
+      "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
+    }
   }
   subcategory("Frameworks") {
     link {
