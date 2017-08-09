@@ -136,36 +136,36 @@ Here awesome badge for your project:
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
 ### <a name="links-official-links"></a>Official Links <sup>[Back ⇈](#links-official-links-subcategory)</sup>
-* [JetBrains/kotlin](https://github.com/jetbrains/kotlin) 
-* [Home Page](http://kotlinlang.org/) 
-* [Language Reference](http://kotlinlang.org/docs/reference/) 
-* [Slack (10000+ users)](https://kotlinslack.herokuapp.com/) 
-* [Public chat archive of Kotlin's Slack](http://kotlinlang.slackarchive.io/) 
-* [Try Kotlin!](http://try.kotlinlang.org/) 
-* [Blog](http://blog.jetbrains.com/kotlin/) 
-* [Issue Tracker](https://youtrack.jetbrains.com/issues/KT) 
-* [Twitter](https://twitter.com/kotlin) 
+* [JetBrains/kotlin](https://github.com/jetbrains/kotlin)
+* [Home Page](http://kotlinlang.org/)
+* [Language Reference](http://kotlinlang.org/docs/reference/)
+* [Slack (10000+ users)](https://kotlinslack.herokuapp.com/)
+* [Public chat archive of Kotlin's Slack](http://kotlinlang.slackarchive.io/)
+* [Try Kotlin!](http://try.kotlinlang.org/)
+* [Blog](http://blog.jetbrains.com/kotlin/)
+* [Issue Tracker](https://youtrack.jetbrains.com/issues/KT)
+* [Twitter](https://twitter.com/kotlin)
 * [Kotlin/KEEP](https://github.com/Kotlin/KEEP) - Kotlin Evolution and Enhancement Process
-* [Forum](https://discuss.kotlinlang.org/) 
+* [Forum](https://discuss.kotlinlang.org/)
 
 ### <a name="links-resources"></a>Resources <sup>[Back ⇈](#links-resources-subcategory)</sup>
 * [Podcast: Talking Kotlin](http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/) - A Podcast on Kotlin and more
-* [/r/Kotlin](https://www.reddit.com/r/Kotlin/) 
-* [Stackoverflow Documentation on Kotlin](http://stackoverflow.com/documentation/kotlin/topics) 
-* [Quora Kotlin](https://www.quora.com/topic/Kotlin) 
-* [Trending Kotlin on Github](https://github.com/trending?l=kotlin) 
-* [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/) 
-* [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile) 
-* [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928) 
-* [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
+* [/r/Kotlin](https://www.reddit.com/r/Kotlin/)
+* [Stackoverflow Documentation on Kotlin](http://stackoverflow.com/documentation/kotlin/topics)
+* [Quora Kotlin](https://www.quora.com/topic/Kotlin)
+* [Trending Kotlin on Github](https://github.com/trending?l=kotlin)
+* [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/)
+* [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile)
+* [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928)
+* [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin)
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
-* [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
+* [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet)
 * [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
-* [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
-* [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers) 
-* [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
+* [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action)
+* [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers)
+* [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin)
 * [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
 * [Kotlin for Java Developers](https://teamtreehouse.com/library/kotlin-for-java-developers) - 160-minute Android Course.
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
@@ -383,7 +383,7 @@ Here awesome badge for your project:
 * [mariomac/codebuilder](https://github.com/mariomac/codebuilder) - Demo app about asynchronous architectures for long-response-time web applications.
 * [rocketraman/kotlin-web-hello-world](https://github.com/rocketraman/kotlin-web-hello-world) - This project shows how to do a web-based "Hello World!" with Kotlin in combination with various JVM - based web frameworks.
 * [ivanpopelyshev/vertx-facebook-messenger](https://github.com/ivanpopelyshev/vertx-facebook-messenger) - Seed project for facebook messenger bots. Vertx, Kotlin.
-* [corda/corda](https://github.com/corda/corda) - Corda is a distributed ledger platform designed to record, manage and automate legal agreements between business partners. 
+* [corda/corda](https://github.com/corda/corda) - Corda is a distributed ledger platform designed to record, manage and automate legal agreements between business partners.
 * [spolnik/JAlgoArena](https://github.com/spolnik/JAlgoArena) - JAlgoArena is a highly scalable programming contest platform which you can host on own infrastructure. It allows to define new problems and solve them in Kotlin and Java.
 * [mixitconf/mixit](https://github.com/mixitconf/mixit) - MiXiT website
 * [derveloper/kiny](https://github.com/derveloper/kiny) - Your super simple private serverless service running your kotlin functions like AWS lambda.
@@ -458,6 +458,8 @@ Here awesome badge for your project:
 * [DanielMartinus/Konfetti](https://github.com/DanielMartinus/Konfetti) - Lightweight particle system to create realistic confetti
 * [rahulchowdhury/Mystique](https://github.com/rahulchowdhury/Mystique) - A generalized adapter for RecyclerView on Android which makes it easy to add heterogeneous items to a list.
 * [calintat/alps](https://github.com/calintat/alps) - Android library for preferences which includes property delegates and a custom DSL for definining preferences.
+* [costular/kotlin-android-utils](https://github.com/costular/kotlin-android-utils) - Android utilities for easier and faster Kotlin programming.
+
 
 ### <a name="android-frameworks"></a>Frameworks <sup>[Back ⇈](#android-frameworks-subcategory)</sup>
 * [nekocode/kotgo](https://github.com/nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
