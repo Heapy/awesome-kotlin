@@ -990,6 +990,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["configuration"]
     }
+    link {
+      name = "uchuhimo/konf"
+      desc = "A type-safe cascading configuration library for Kotlin/Java, supporting most configuration formats"
+      href = "https://github.com/uchuhimo/konf"
+      type = github
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
