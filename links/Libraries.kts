@@ -937,6 +937,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["parser", "parser-combinator", "grammar", "lexer"]
     }
+    link {
+      name = "Kotlin/kotlinx.atomicfu"
+      desc = "The idiomatic way to use atomic operations in Kotlin."
+      href = "https://github.com/Kotlin/kotlinx.atomicfu"
+      type = github
+      tags = Tags["atomic"]
+    }
   }
   subcategory("Extensions") {
     link {
