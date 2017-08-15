@@ -944,6 +944,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["atomic"]
     }
+    link {
+      name = "vjames19/kotlin-futures"
+      desc = "A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like."
+      href = "https://github.com/vjames19/kotlin-futures"
+      type = github
+    }
   }
   subcategory("Extensions") {
     link {
