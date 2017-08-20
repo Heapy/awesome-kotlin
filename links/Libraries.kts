@@ -142,7 +142,7 @@ category("Libraries/Frameworks") {
     link {
       name = "jaguililla/hexagon"
       desc = "A Microservices framework that takes care of HTTP, serializtion and storage."
-      href = "https://github.com/jaguililla/hexagon"
+      href = "https://github.com/hexagonkt/hexagon"
       type = github
       tags = Tags["web", "rest", "http"]
     }
