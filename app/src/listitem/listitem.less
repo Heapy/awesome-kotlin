@@ -1,51 +1,51 @@
 @import "../vars";
 
 .listitem {
-  padding:10px 5px;
+  padding: 10px 5px;
 
   &_link {
-    display:block;
+    display: block;
 
-    text-decoration:none;
-    color:darken(@blue, 15%);
+    text-decoration: none;
+    color: darken(@blue, 15%);
     &:hover {
-      color:@dark-blue;
-      }
+      color: @dark-blue;
     }
+  }
 
   &_description {
-    margin:0;
+    margin: 0;
 
-    font-size:14px;
+    font-size: 14px;
     color: @gray;
     &:empty {
-      display:none;
-      }
+      display: none;
     }
+  }
 
   &_star {
-    float:right;
+    float: right;
 
     + .listitem_link {
-      padding-right:60px;
-      }
+      padding-right: 60px;
+    }
 
     &_icon {
-      display:inline-block;
-      vertical-align:top;
+      display: inline-block;
+      vertical-align: top;
       width: 20px;
       height: 20px;
 
       background-size: 20px 20px;
       color: @light-blue;
-      }
+    }
     &_count {
-      display:inline-block;
-      vertical-align:top;
+      display: inline-block;
+      vertical-align: top;
 
-      color:darken(@blue, 15%);
-      font-size:14px;
-      line-height:20px;
-      }
+      color: darken(@blue, 15%);
+      font-size: 14px;
+      line-height: 20px;
     }
   }
+}

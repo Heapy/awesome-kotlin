@@ -1,12 +1,13 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import {withRouter} from "react-router";
-const styles = require('./search.less');
 
-class SearchComponent extends React.Component<SearchProps, {value: any}> {
+const styles = require("./search.less");
+
+class SearchComponent extends React.Component<SearchProps, SearchState> {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {value: ""};
   }
 
   handleChange = (event) => {
@@ -15,19 +16,19 @@ class SearchComponent extends React.Component<SearchProps, {value: any}> {
   };
 
   handleKeyPress = (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === "Enter") {
       event.preventDefault();
       return false;
     }
   };
 
-  componentDidMount = () => {
+  componentDidMount() {
     const query = this.props.location.query.q;
     if (query) {
-      this.setState({value:query});
+      this.setState({value: query});
       this.props.onChange(query);
     }
-    (ReactDOM.findDOMNode(this.refs['search']) as HTMLInputElement).focus();
+    (ReactDOM.findDOMNode(this.refs["search"]) as HTMLInputElement).focus();
   };
 
   render() {
@@ -47,6 +48,10 @@ class SearchComponent extends React.Component<SearchProps, {value: any}> {
 interface SearchProps {
   onChange: (a: any) => void;
   location: any;
+}
+
+interface SearchState {
+  value: string;
 }
 
 export const Search = withRouter(SearchComponent);

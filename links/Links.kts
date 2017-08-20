@@ -22,7 +22,7 @@ category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (9500+ users)"
+      name = "Slack (10000+ users)"
       href = "https://kotlinslack.herokuapp.com/"
     }
     link {
@@ -151,11 +151,6 @@ category("Links") {
       name = "Advanced Kotlin Programming"
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
-    }
-    link {
-      name = "Fundamental Kotlin, First Edition"
-      desc = "Learn Kotlin quickly from the start"
-      href = "http://www.fundamental-kotlin.com/"
     }
   }
 }

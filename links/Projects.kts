@@ -143,6 +143,13 @@ category("Projects") {
       type = github
       tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
     }
+    link {
+      name = "borisf/classyshark-bytecode-viewer"
+      desc = "View your Kotlin generated classes as Java and bytecode format."
+      href = "https://github.com/borisf/classyshark-bytecode-viewer"
+      type = github
+      tags = Tags["bytecode", "decompiler"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -216,13 +223,6 @@ category("Projects") {
       href = "https://github.com/dkandalov/rosettacode-kotlin"
       type = github
       tags = Tags["examples", "study"]
-    }
-    link {
-      name = "sanity/pairAdjacentViolators"
-      desc = "A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression."
-      href = "https://github.com/sanity/pairAdjacentViolators"
-      type = github
-      tags = Tags["examples"]
     }
     link {
       name = "vicboma1/Kotlin-Koans"

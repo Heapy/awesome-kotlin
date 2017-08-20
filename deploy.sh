@@ -7,15 +7,15 @@ if [ 'master' != $TRAVIS_BRANCH ]; then
     exit 0;
 fi
 
-# clear and re-create the dist directory
+echo "Clear and re-create the dist directory...";
 rm -rf dist || exit 0;
 
-# Run kotlin application to generate various data
-echo $JAVA_HOME
-java -version
-./gradlew --console plain --no-daemon --stacktrace run -Dtravis=true
-# Build React Application
+echo "Run kotlin application to generate various data...";
+./gradlew installDist
+AWESOME_KOTLIN_OPTS="-Xmx2g" ./build/install/awesome-kotlin/bin/awesome-kotlin true
+
+echo "Build React Application...";
 npm run pack
 
-# sync with remote folder
+echo "Sync with remote folder..."
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist/ deploy@kotlin.link:~/files/kotlin.link

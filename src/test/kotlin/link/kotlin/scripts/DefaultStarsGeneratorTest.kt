@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.utils.parseInstant
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

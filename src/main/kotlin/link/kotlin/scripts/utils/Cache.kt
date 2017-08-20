@@ -1,4 +1,4 @@
-package link.kotlin.scripts
+package link.kotlin.scripts.utils
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
@@ -8,16 +8,20 @@ import java.nio.file.Paths
 import java.nio.file.StandardOpenOption.CREATE
 import java.nio.file.StandardOpenOption.TRUNCATE_EXISTING
 
-class Cache(private val mapper: ObjectMapper) {
-    private var cache = mutableMapOf<String, Any>()
+class Cache(
+    private val mapper: ObjectMapper
+) {
+    private val cache = mutableMapOf<String, Any>()
+    private val cachePath = Paths.get("./dist/cache.json")
+
 
     fun load(data: InputStream) {
-        cache = mapper.readValue(data)
+        cache += mapper.readValue<Map<String, Any>>(data)
     }
 
     fun save() {
         val json = mapper.writeValueAsBytes(cache)
-        write(Paths.get("./dist/cache.json"), json, CREATE, TRUNCATE_EXISTING)
+        write(cachePath, json, CREATE, TRUNCATE_EXISTING)
     }
 
     fun put(key: String, data: Any) {

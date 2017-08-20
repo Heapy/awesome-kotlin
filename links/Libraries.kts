@@ -71,6 +71,13 @@ category("Libraries/Frameworks") {
       tags = Tags["spring", "extensions"]
     }
     link {
+      name = "pgutkowski/KGraphQL"
+      desc = "A GraphQL implementation written in Kotlin"
+      href = "https://github.com/pgutkowski/KGraphQL"
+      type = github
+      tags = Tags["graphql", "web"]
+    }
+    link {
       name = "taskworld/kraph"
       desc = "GraphQL request string builder written in Kotlin"
       href = "https://github.com/taskworld/kraph"
@@ -930,6 +937,19 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["parser", "parser-combinator", "grammar", "lexer"]
     }
+    link {
+      name = "Kotlin/kotlinx.atomicfu"
+      desc = "The idiomatic way to use atomic operations in Kotlin."
+      href = "https://github.com/Kotlin/kotlinx.atomicfu"
+      type = github
+      tags = Tags["atomic"]
+    }
+    link {
+      name = "vjames19/kotlin-futures"
+      desc = "A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like."
+      href = "https://github.com/vjames19/kotlin-futures"
+      type = github
+    }
   }
   subcategory("Extensions") {
     link {
@@ -973,6 +993,20 @@ category("Libraries/Frameworks") {
       name = "daviddenton/configur8"
       desc = "A Kotlin port of Configur8 - A Type Safe Configuration API for Kotlin, extendable to user-defined types."
       href = "https://github.com/daviddenton/configur8"
+      type = github
+      tags = Tags["configuration"]
+    }
+    link {
+      name = "ufoscout/properlty"
+      desc = "Simple configuration library with placeholders resolution and zero magic!"
+      href = "https://github.com/ufoscout/properlty"
+      type = github
+      tags = Tags["configuration"]
+    }
+    link {
+      name = "uchuhimo/konf"
+      desc = "A type-safe cascading configuration library for Kotlin/Java, supporting most configuration formats"
+      href = "https://github.com/uchuhimo/konf"
       type = github
       tags = Tags["configuration"]
     }
@@ -1021,9 +1055,9 @@ category("Libraries/Frameworks") {
       tags = Tags["vr", "openvr", "opengl", "vulkan"]
     }
     link {
-      name = "java-graphics/assimp"
+      name = "kotlin-graphics/assimp"
       desc = "Open Asset Import Library port"
-      href = "https://github.com/java-graphics/assimp"
+      href = "https://github.com/kotlin-graphics/assimp"
       type = github
       tags = Tags["assimp", "stl", "md2", "ply", "obj", "collada", "opengl", "vulkan"]
     }
@@ -1047,6 +1081,20 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
+    }    
+    link {
+      name = "kotlin-graphics/imgui"
+      desc = "jvm port of imgui"
+      href = "https://github.com/kotlin-graphics/imgui"
+      type = github
+      tags = Tags["opengl", "gui", "gamedev"]
+    }
+    link {
+      name = "Jonatino/JOGL2D"
+      desc = "Zero-overhead 2D rendering library for JOGL using Kotlin."
+      href = "https://github.com/Jonatino/JOGL2D"
+      type = github
+      tags = Tags["jogl", "opengl"]
     }
   }
   subcategory("Data Science") {
@@ -1090,7 +1138,14 @@ category("Libraries/Frameworks") {
       desc = "A neural network framework written in Kotlin."
       href = "https://github.com/sekwiatkowski/Komputation"
       type = github
-      tags = Tags["neural-networks", "deep-learning", "machine-learning", "artificial-intelligence"]
+      tags = Tags["data science", "neural-networks", "deep-learning", "machine-learning", "artificial-intelligence"]
+    }
+    link {
+      name = "sanity/pairAdjacentViolators"
+      desc = "A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression."
+      href = "https://github.com/sanity/pairAdjacentViolators"
+      type = github
+      tags = Tags["data science", "pair adjacent violators"]
     }
   }
   subcategory("Command Line Interface") {

@@ -2,8 +2,8 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.ArticleFeature.mathjax
-import link.kotlin.scripts.LanguageCodes.EN
 import link.kotlin.scripts.LinkType.article
+import link.kotlin.scripts.model.LanguageCodes.EN
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption.CREATE
@@ -90,6 +90,7 @@ private fun getHtml(article: Article): String {
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="${article.url}"/>
     <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - 20 latest" href="/rss.xml"/>
     <link rel="alternate" type="application/rss+xml" title="Kotlin.Link - full archive" href="/rss-full.xml"/>
     <link href="/styles.css" rel="stylesheet">

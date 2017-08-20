@@ -1,63 +1,59 @@
 package link.kotlin.scripts
 
+import kotlinx.coroutines.experimental.Deferred
+import kotlinx.coroutines.experimental.Unconfined
+import kotlinx.coroutines.experimental.async
+import link.kotlin.scripts.model.Link
+import link.kotlin.scripts.utils.await
+import link.kotlin.scripts.utils.logger
+import link.kotlin.scripts.utils.okHttpClient
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
-import org.slf4j.LoggerFactory
-import java.util.concurrent.CompletableFuture
 
-class LinkChecker(private val categories: List<Category>) {
-    fun check(): Boolean {
-        return okhttp { client ->
-            val futures = mapToFuture(categories, client)
+class LinkChecker(
+    private val categories: List<Category>
+) {
+    suspend fun check() {
+        val responses = flattenRequests(categories, okHttpClient)
 
-            CompletableFuture.allOf(*futures).handle { _, exception ->
-                if (exception != null) {
-                    val cause = exception.cause
-                    if (cause is OkHttpException) {
-                        logger.error("Requests to {}, completed exceptionally!", cause.request.url(), cause)
-                    } else {
-                        logger.error("One of request, completed exceptionally!", exception)
-                    }
-                    client.dispatcher().cancelAll()
-                    false
-                } else {
-                    val unsuccessful = futures.map { it.get() }.filter { !it.isSuccessful }
+        responses.forEach { response ->
+            try {
+                response.second.await().let {
+                    val code = it.code()
 
-                    if (unsuccessful.isNotEmpty()) {
-                        unsuccessful.forEach {
-                            logger.error("Link {} return status {}", it.request().url(), it.code())
-                        }
-                        false
-                    } else {
-                        logger.info("All links are good.")
-                        true
+                    if (code != 200) {
+                        LOGGER.error("${response.first.href}: Response code: $code.")
                     }
                 }
-            }.get()
+            } catch (e: Exception) {
+                LOGGER.error("Error checking link.", e)
+            }
         }
     }
 
-    private fun mapToFuture(categories: List<Category>,
-                            client: OkHttpClient): Array<CompletableFuture<Response>> {
+    private suspend fun flattenRequests(
+        categories: List<Category>,
+        client: OkHttpClient
+    ): List<Pair<Link, Deferred<Response>>> {
         return categories.map { category ->
             category.subcategories.map { subcategory ->
                 subcategory.links.map { link ->
-                    get(link.href, client)
+                    link to async(Unconfined) { get(link.href, client) }
                 }
             }.flatten()
-        }.flatten().toTypedArray()
+        }.flatten()
     }
 
-    private fun get(url: String, client: OkHttpClient): CompletableFuture<Response> {
+    private suspend fun get(url: String, client: OkHttpClient): Response {
         val request = Request.Builder()
             .url(url)
             .build()
 
-        return client.newCall(request).async()
+        return client.newCall(request).await()
     }
 
     companion object {
-        private val logger = LoggerFactory.getLogger("LinkChecker")
+        private val LOGGER = logger<LinkChecker>()
     }
 }
