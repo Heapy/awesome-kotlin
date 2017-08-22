@@ -924,6 +924,13 @@ category("Libraries/Frameworks") {
       tags = Tags["alexa", "amazon echo", "text to speech"]
     }
     link {
+      name = "Kotlin/Java Actions on Google SDK"
+      desc = "Port of official Node.js SDK to Kotlin.  Complete with all features and tests and nearly identical API."
+      href = "https://github.com/TicketmasterMobileStudio/actions-on-google-kotlin"
+      type = github
+      tags = Tags["actions on google", "google assistant", "google home"]
+    }
+    link {
       name = "cretz/asmble"
       desc = "Compile WebAssembly to JVM and other WASM tools."
       href = "https://github.com/cretz/asmble"
