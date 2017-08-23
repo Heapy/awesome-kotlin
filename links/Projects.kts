@@ -259,6 +259,13 @@ category("Projects") {
       type = github
       tags = Tags["examples"]
     }
+    link {
+      name = "gyulavoros/kotlin-todomvc"
+      desc = "Kotlin TodoMVC – full-stack Kotlin application demo"
+      href = "https://github.com/gyulavoros/kotlin-todomvc"
+      type = github
+      tags = Tags["examples", "javascript", "web", "gradle"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
