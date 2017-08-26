@@ -217,6 +217,13 @@ category("Android") {
       tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
       "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
+    link {
+      name = "programmerr47/ganalytics"
+      desc = "A tiny api layer for any analytics in application."
+      href = "https://github.com/programmerr47/ganalytics"
+      type = github
+      tags = Tags["kotlin", "android", "kotlin-android", "analytics", "android-analytics"]
+    }
   }
   subcategory("Frameworks") {
     link {
