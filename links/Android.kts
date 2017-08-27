@@ -217,6 +217,13 @@ category("Android") {
       tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
       "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
+    link {
+      name = "rakshakhegde/ObservableFlow"
+      desc = "Functional Constructs for Databinding + Kotlin + RxJava"
+      href = "https://github.com/rakshakhegde/ObservableFlow"
+      type = github
+      tags = Tags["android", "library", "functional", "reactive", "databinding", "rxjava"]
+    }
   }
   subcategory("Frameworks") {
     link {
