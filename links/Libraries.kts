@@ -153,6 +153,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "http", "rest", "jetty", "websockets"]
     }
+    link {
+      name = "tipsy/javalin"
+      desc = "A Simple REST API Library for Java/Kotlin."
+      href = "https://github.com/tipsy/javalin"
+      type = github
+      tags = Tags["kotlin", "rest-api", "web-framework", "microservice", "servlet", "jetty"]
+    }
   }
   subcategory("Tests") {
     link {
