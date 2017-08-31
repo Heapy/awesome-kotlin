@@ -140,9 +140,9 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "rest", "http"]
     }
     link {
-      name = "jaguililla/hexagon"
+      name = "hexagonkt/hexagon"
       desc = "A Microservices framework that takes care of HTTP, serializtion and storage."
-      href = "https://github.com/jaguililla/hexagon"
+      href = "https://github.com/hexagonkt/hexagon"
       type = github
       tags = Tags["web", "rest", "http"]
     }
@@ -152,6 +152,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/danneu/kog"
       type = github
       tags = Tags["web", "http", "rest", "jetty", "websockets"]
+    }
+    link {
+      name = "tipsy/javalin"
+      desc = "A Simple REST API Library for Java/Kotlin."
+      href = "https://github.com/tipsy/javalin"
+      type = github
+      tags = Tags["kotlin", "rest-api", "web-framework", "microservice", "servlet", "jetty"]
     }
   }
   subcategory("Tests") {
@@ -922,6 +929,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/phxql/aleksa"
       type = github
       tags = Tags["alexa", "amazon echo", "text to speech"]
+    }
+    link {
+      name = "TicketmasterMobileStudio/actions-on-google-kotlin"
+      desc = "Port of official Node.js SDK to Kotlin. Complete with all features and tests and nearly identical API."
+      href = "https://github.com/TicketmasterMobileStudio/actions-on-google-kotlin"
+      type = github
+      tags = Tags["actions on google", "google assistant", "google home"]
     }
     link {
       name = "cretz/asmble"

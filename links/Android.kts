@@ -224,6 +224,13 @@ category("Android") {
       type = github
       tags = Tags["android", "library", "functional", "reactive", "databinding", "rxjava"]
     }
+    link {
+      name = "programmerr47/ganalytics"
+      desc = "A tiny api layer for any analytics in application."
+      href = "https://github.com/programmerr47/ganalytics"
+      type = github
+      tags = Tags["kotlin", "android", "kotlin-android", "analytics", "android-analytics"]
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -239,6 +246,13 @@ category("Android") {
       href = "https://github.com/lightningkite/kotlin-core"
       type = github
       tags = Tags["kotson", "anko", "android"]
+    }
+    link {
+      name = "codenameone/CodenameOne"
+      desc = "Open source cross platform mobile development framework that offers write once run anywhere native development for iOS (iPhone/iPad), Android, Windows & more using Kotlin & Java"
+      href = "https://github.com/codenameone/CodenameOne"
+      type = github
+      tags = Tags["cross-platform", "ikvm", "codenameone", "java", "iphone", "mobile"]
     }
   }
   subcategory("Projects") {
