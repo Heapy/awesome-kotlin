@@ -218,6 +218,13 @@ category("Android") {
       "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
     link {
+      name = "rakshakhegde/ObservableFlow"
+      desc = "Functional Constructs for Databinding + Kotlin + RxJava"
+      href = "https://github.com/rakshakhegde/ObservableFlow"
+      type = github
+      tags = Tags["android", "library", "functional", "reactive", "databinding", "rxjava"]
+    }
+    link {
       name = "programmerr47/ganalytics"
       desc = "A tiny api layer for any analytics in application."
       href = "https://github.com/programmerr47/ganalytics"
