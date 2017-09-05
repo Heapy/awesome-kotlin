@@ -283,9 +283,9 @@ category("Android") {
       tags = Tags["rss", "android"]
     }
     link {
-      name = "MakinGiants/banjen-android-banjo-tuner"
-      desc = "App that plays sounds helping to tune a brazilian banjo."
-      href = "https://github.com/MakinGiants/banjen-android-banjo-tuner"
+      name = "MakinGiants/banjen"
+      desc = "Android app to help to tune a banjo."
+      href = "https://github.com/MakinGiants/banjen"
       type = github
       tags = Tags["android", "application", "tuner"]
     }
