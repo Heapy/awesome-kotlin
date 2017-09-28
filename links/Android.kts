@@ -231,6 +231,13 @@ category("Android") {
       type = github
       tags = Tags["kotlin", "android", "kotlin-android", "analytics", "android-analytics"]
     }
+    link {
+      name = "line/clay"
+      desc = "Clay is an Android library project that provides image trimming which is originally an UI component of LINE Creators Studio."
+      href = "https://github.com/line/clay"
+      type = github
+      tags = Tags["android", "trimming"]
+    }
   }
   subcategory("Frameworks") {
     link {
