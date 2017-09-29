@@ -566,6 +566,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Tools") {
     link {
+      name = "vanshg/KrazyKotlin"
+      desc = "A collection of useful Kotlin Extension"
+      href = "https://github.com/vanshg/KrazyKotlin"
+      type = github
+    }
+    link {
       name = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
       href = "https://github.com/Kotlin/dokka"
