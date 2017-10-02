@@ -401,6 +401,13 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+    link {
+      name = "AFM"
+      desc = "An library to help android developers working easly with activities and fragments with Kotlin"
+      href = "https://github.com/massivedisaster/AFM"
+      type = github
+      tags = Tags["android", "utils", "library", "material", "ui", "fragment", "activity", "sharedelements"]
+    }
   }
   subcategory("Extensions") {
     link {
