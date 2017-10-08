@@ -566,6 +566,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Tools") {
     link {
+      name = "spoptchev/kotlin-preconditions"
+      desc = "Precondition error checking in kotlin."
+      href = "https://github.com/spoptchev/kotlin-preconditions"
+      type = github
+    }
+    link {
       name = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
       href = "https://github.com/Kotlin/dokka"
