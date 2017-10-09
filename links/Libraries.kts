@@ -160,6 +160,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kotlin", "rest-api", "web-framework", "microservice", "servlet", "jetty"]
     }
+    link {
+      name = "laviua/komock"
+      desc = "HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin"
+      href = "https://github.com/laviua/komock"
+      type = github
+      tags = Tags["kotlin", "http", "consul", "microservice", "mock", "jetty", "netty", "smtp", "ssl"]
+    }
   }
   subcategory("Tests") {
     link {
