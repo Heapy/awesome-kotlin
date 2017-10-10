@@ -246,6 +246,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["selenium", "test"]
     }
+    link {
+      name = "agoda-com/Kakao"
+      desc = "Nice and simple DSL for Espresso in Kotlin."
+      href = "https://github.com/agoda-com/Kakao"
+      type = github
+      tags = Tags["espresso", "test", "dsl", "UI", "automation"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
