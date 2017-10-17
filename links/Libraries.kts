@@ -964,6 +964,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vjames19/kotlin-futures"
       type = github
     }
+    link {
+      name = "kunalsheth/units-of-measure"
+      desc = "A type-safe dimensional analysis library for Kotlin."
+      href = "https://github.com/kunalsheth/units-of-measure"
+      type = github
+      tags = Tags["dimensional-analysis", "typesafety", "metaprogramming"]
+    }
   }
   subcategory("Extensions") {
     link {
