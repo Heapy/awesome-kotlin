@@ -394,7 +394,7 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "Kategory/Kategory"
-      desc = "Typed Functional Programming in Kotlin."
+      desc = "Functional datatypes & abstractions for Kotlin."
       href = "https://github.com/Kategory/Kategory"
       type = github
       tags = Tags["fp", "functional", "cats"]
