@@ -401,6 +401,13 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+    link {
+      name = "Karumi/KataScreenshotKotlin"
+      desc = "An full exercise to learn how to create screenshot tests for Android"
+      href = "https://github.com/Karumi/KataScreenshotKotlin"
+      type = github
+      tags = Tags["android", "application", "testing", "screenshot"]
+    }
   }
   subcategory("Extensions") {
     link {
