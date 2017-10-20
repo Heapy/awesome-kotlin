@@ -401,6 +401,13 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+	link {
+      name = "hanjoongcho/aaf-easyphotomap"
+      desc = "This is a photomap app that shows photos taken on a map."
+      href = "https://github.com/hanjoongcho/aaf-easyphotomap"
+      type = github
+      tags = Tags["android", "application", "photomap", "map"]
+    }
   }
   subcategory("Extensions") {
     link {
