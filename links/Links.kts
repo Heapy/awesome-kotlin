@@ -113,6 +113,11 @@ category("Links") {
       desc = "Learn Kotlin with short coding challenges on your Android device"
       href = "https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans"
     }
+    link {
+      name = "Kotlin Guide"
+      desc = "An introduction to Kotlin"
+      href = "https://kotlin.guide"
+    }
   }
   subcategory("Books and Courses") {
     link {
