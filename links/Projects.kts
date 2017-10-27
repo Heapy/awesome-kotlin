@@ -151,7 +151,7 @@ category("Projects") {
       tags = Tags["bytecode", "decompiler"]
     }
     link {
-      name = "Doktor"
+      name = "jenkinsci/doktor-plugin"
       desc = "Jenkins plugin for automated documentation uploading to Confluence."
       href = "https://github.com/jenkinsci/doktor-plugin"
       type = github
