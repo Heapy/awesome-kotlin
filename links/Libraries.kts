@@ -386,6 +386,13 @@ category("Libraries/Frameworks") {
       tags = Tags["fp", "functional", "UI", "Interface", "Redux"]
     }
     link {
+      name = "michaelbull/kotlin-result"
+      desc = "A Result monad for modelling success or failure operations - inspired by Elm, Rust, & Haskell."
+      href = "https://github.com/michaelbull/kotlin-result"
+      type = github
+      tags = Tags["fp", "functional", "result", "monad", "either", "type"]
+    }
+    link {
       name = "pakoito/Komprehensions"
       desc = "Do comprehensions for Kotlin and 3rd party libraries."
       href = "https://github.com/pakoito/Komprehensions"
