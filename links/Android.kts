@@ -402,6 +402,13 @@ category("Android") {
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
     link {
+      name = "Karumi/KataScreenshotKotlin"
+      desc = "An full exercise to learn how to create screenshot tests for Android"
+      href = "https://github.com/Karumi/KataScreenshotKotlin"
+      type = github
+      tags = Tags["android", "application", "testing", "screenshot"]
+    }
+    link {
       name = "massivedisaster/AFM"
       desc = "An library to help android developers working easly with activities and fragments with Kotlin"
       href = "https://github.com/massivedisaster/AFM"
