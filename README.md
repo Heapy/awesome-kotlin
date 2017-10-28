@@ -306,6 +306,7 @@ Here awesome badge for your project:
 * [libktx/ktx](https://github.com/libktx/ktx) - Kotlin utilities for LibGDX applications.
 * [AlmasB/FXGL](https://github.com/AlmasB/FXGL) - JavaFX 8 Game Library written in Java + Kotlin
 * [icela/FriceEngine](https://github.com/icela/FriceEngine) - Make game developing easy again!
+* [vassilibykov/AdventKT](https://github.com/vassilibykov/AdventKT) - Engine and DSL for text adventures (interactive fiction).
 
 ### <a name="libraries-frameworks-misc"></a>Misc <sup>[Back ⇈](#libraries-frameworks-misc-subcategory)</sup>
 * [Kotlin/kotlinx.reflect.lite](https://github.com/Kotlin/kotlinx.reflect.lite) - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
