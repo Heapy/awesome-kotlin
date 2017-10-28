@@ -986,6 +986,13 @@ category("Libraries/Frameworks") {
       type = github
     }
     link {
+      name = "kunalsheth/units-of-measure"
+      desc = "A type-safe dimensional analysis library for Kotlin."
+      href = "https://github.com/kunalsheth/units-of-measure"
+      type = github
+      tags = Tags["dimensional-analysis", "typesafety", "metaprogramming"]
+    }
+    link {
       name = "spoptchev/kotlin-preconditions"
       desc = "Precondition error checking in kotlin."
       href = "https://github.com/spoptchev/kotlin-preconditions"
