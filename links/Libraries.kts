@@ -563,6 +563,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["leveldb", "embedded"]
     }
+    link {
+      name = "SubiyaCryolite/jds"
+      desc = "Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining."
+      href = "https://github.com/SubiyaCryolite/jds"
+      type = github
+      tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
+    }
   }
   subcategory("Tools") {
     link {
@@ -1095,7 +1102,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }    
+    }
     link {
       name = "kotlin-graphics/imgui"
       desc = "jvm port of imgui"
