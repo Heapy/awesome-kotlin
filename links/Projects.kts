@@ -150,6 +150,13 @@ category("Projects") {
       type = github
       tags = Tags["bytecode", "decompiler"]
     }
+    link {
+      name = "jenkinsci/doktor-plugin"
+      desc = "Jenkins plugin for automated documentation uploading to Confluence."
+      href = "https://github.com/jenkinsci/doktor-plugin"
+      type = github
+      tags = Tags["jenkins", "documentation", "confluence"]
+    }
   }
   subcategory("Desktop") {
     link {

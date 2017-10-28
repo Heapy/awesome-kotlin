@@ -563,6 +563,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["leveldb", "embedded"]
     }
+    link {
+      name = "SubiyaCryolite/jds"
+      desc = "Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining."
+      href = "https://github.com/SubiyaCryolite/jds"
+      type = github
+      tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
+    }
   }
   subcategory("Tools") {
     link {
@@ -971,7 +978,14 @@ category("Libraries/Frameworks") {
       desc = "Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0."
       href = "https://github.com/Kotlin/kotlinx.support"
       type = github
-      tags = Tags["jdk8", "jdk7"]
+      tags = Tags["extensions", "jdk8", "jdk7"]
+    }
+    link {
+      name = "vanshg/KrazyKotlin"
+      desc = "A collection of useful Kotlin Extension"
+      href = "https://github.com/vanshg/KrazyKotlin"
+      type = github
+      tags = Tags["extensions"]
     }
   }
   subcategory("Configuration") {
@@ -1095,7 +1109,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }    
+    }
     link {
       name = "kotlin-graphics/imgui"
       desc = "jvm port of imgui"
