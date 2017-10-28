@@ -64,6 +64,7 @@ Here awesome badge for your project:
 * <a name="android-projects-subcategory"></a>[Projects](#android-projects)
 * <a name="android-extensions-subcategory"></a>[Extensions](#android-extensions)
 * <a name="android-tools-subcategory"></a>[Tools](#android-tools)
+* <a name="android-tests-subcategory"></a>[Tests](#android-tests)
 
 ### <a name="kotlin-javascript-category"></a>[Kotlin JavaScript](#kotlin-javascript)
 * <a name="kotlin-javascript-javascript-subcategory"></a>[JavaScript](#kotlin-javascript-javascript)
@@ -512,8 +513,10 @@ Here awesome badge for your project:
 * [ajalt/timberkt](https://github.com/ajalt/timberkt) - Easy Android logging with Kotlin and Timber.
 
 ### <a name="android-tools"></a>Tools <sup>[Back ⇈](#android-tools-subcategory)</sup>
-* [kiruto/debug-bottle](https://github.com/kiruto/debug-bottle) - Debug Bottle is an Android runtime debug / develop tools written using kotlin language.
+* [kiruto/debug-bottle](https://github.com/kiruto/debug-bottle) - Nice and simple DSL for Espresso in Kotlin
 
+### <a name="android-tests"></a>Tests <sup>[Back ⇈](#android-tests-subcategory)</sup>
+* [agoda-com/Kakao](https://github.com/agoda-com/Kakao) - Debug Bottle is an Android runtime debug / develop tools written using kotlin language.
 
 ## <a name="kotlin-javascript"></a>Kotlin JavaScript <sup>[Back ⇈](#kotlin-javascript-category)</sup>
 ### <a name="kotlin-javascript-javascript"></a>JavaScript <sup>[Back ⇈](#kotlin-javascript-javascript-subcategory)</sup>
