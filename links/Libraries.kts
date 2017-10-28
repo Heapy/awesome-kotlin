@@ -573,12 +573,6 @@ category("Libraries/Frameworks") {
   }
   subcategory("Tools") {
     link {
-      name = "vanshg/KrazyKotlin"
-      desc = "A collection of useful Kotlin Extension"
-      href = "https://github.com/vanshg/KrazyKotlin"
-      type = github
-    }
-    link {
       name = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
       href = "https://github.com/Kotlin/dokka"
@@ -984,7 +978,14 @@ category("Libraries/Frameworks") {
       desc = "Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0."
       href = "https://github.com/Kotlin/kotlinx.support"
       type = github
-      tags = Tags["jdk8", "jdk7"]
+      tags = Tags["extensions", "jdk8", "jdk7"]
+    }
+    link {
+      name = "vanshg/KrazyKotlin"
+      desc = "A collection of useful Kotlin Extension"
+      href = "https://github.com/vanshg/KrazyKotlin"
+      type = github
+      tags = Tags["extensions"]
     }
   }
   subcategory("Configuration") {
