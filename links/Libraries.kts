@@ -8,9 +8,9 @@ import link.kotlin.scripts.subcategory
 category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
-      name = "Kotlin/ktor"
-      desc = "Web backend framework for Kotlin."
-      href = "https://github.com/Kotlin/ktor"
+      name = "ktorio/ktor"
+      desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
+      href = "https://github.com/ktorio/ktor"
       type = github
       tags = Tags["web"]
     }
@@ -159,6 +159,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/tipsy/javalin"
       type = github
       tags = Tags["kotlin", "rest-api", "web-framework", "microservice", "servlet", "jetty"]
+    }
+    link {
+      name = "laviua/komock"
+      desc = "HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin"
+      href = "https://github.com/laviua/komock"
+      type = github
+      tags = Tags["kotlin", "http", "consul", "microservice", "mock", "jetty", "netty", "smtp", "ssl"]
     }
   }
   subcategory("Tests") {
@@ -563,6 +570,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["leveldb", "embedded"]
     }
+    link {
+      name = "SubiyaCryolite/jds"
+      desc = "Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining."
+      href = "https://github.com/SubiyaCryolite/jds"
+      type = github
+      tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
+    }
   }
   subcategory("Tools") {
     link {
@@ -761,6 +775,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/icela/FriceEngine"
       type = github
       tags = Tags["desktop", "games", "game dev"]
+    }
+    link {
+      name = "vassilibykov/AdventKT"
+      desc = "A Kotlin-based DSL for text adventures, with a partial replica of the classic Colossal Cave as an example."
+      href = "https://github.com/vassilibykov/AdventKT"
+      type = github
+      tags = Tags["games", "text adventures"]
     }
   }
   subcategory("Misc") {
@@ -971,6 +992,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dimensional-analysis", "typesafety", "metaprogramming"]
     }
+    link {
+      name = "spoptchev/kotlin-preconditions"
+      desc = "Precondition error checking in kotlin."
+      href = "https://github.com/spoptchev/kotlin-preconditions"
+      type = github
+      tags = Tags["preconditions"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -978,7 +1006,14 @@ category("Libraries/Frameworks") {
       desc = "Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0."
       href = "https://github.com/Kotlin/kotlinx.support"
       type = github
-      tags = Tags["jdk8", "jdk7"]
+      tags = Tags["extensions", "jdk8", "jdk7"]
+    }
+    link {
+      name = "vanshg/KrazyKotlin"
+      desc = "A collection of useful Kotlin Extension"
+      href = "https://github.com/vanshg/KrazyKotlin"
+      type = github
+      tags = Tags["extensions"]
     }
   }
   subcategory("Configuration") {
@@ -1102,7 +1137,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }    
+    }
     link {
       name = "kotlin-graphics/imgui"
       desc = "jvm port of imgui"

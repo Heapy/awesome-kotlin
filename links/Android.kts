@@ -401,6 +401,20 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+    link {
+      name = "massivedisaster/AFM"
+      desc = "An library to help android developers working easly with activities and fragments with Kotlin"
+      href = "https://github.com/massivedisaster/AFM"
+      type = github
+      tags = Tags["android", "utils", "library", "material", "ui", "fragment", "activity", "sharedelements"]
+    }
+    link {
+      name = "mustafaberkaymutlu/uv-index"
+      desc = "A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP"
+      href = "https://github.com/mustafaberkaymutlu/uv-index"
+      type = github
+      tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -418,6 +432,15 @@ category("Android") {
       href = "https://github.com/kiruto/debug-bottle"
       type = github
       tags = Tags["android", "debug"]
+    }
+  }
+  subcategory("Tests") {
+    link {
+      name = "agoda-com/Kakao"
+      desc = " Nice and simple DSL for Espresso in Kotlin."
+      href = "https://github.com/agoda-com/Kakao"
+      type = github
+      tags = Tags["espresso", "dsl "]
     }
   }
 }
