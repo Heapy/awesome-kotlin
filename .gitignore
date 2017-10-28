@@ -7,7 +7,6 @@ app/LinksWithStars.json
 # Kotlin/Gradle/Idea
 .idea
 .gradle
-.kobalt
 build
 out
 *.iml

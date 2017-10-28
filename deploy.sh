@@ -11,7 +11,8 @@ echo "Clear and re-create the dist directory...";
 rm -rf dist || exit 0;
 
 echo "Run kotlin application to generate various data...";
-./kobaltw run
+./gradlew installDist
+AWESOME_KOTLIN_OPTS="-Xmx2g" ./build/install/awesome-kotlin/bin/awesome-kotlin true
 
 echo "Build React Application...";
 npm run pack

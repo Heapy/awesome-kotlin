@@ -72,7 +72,12 @@ internal fun getLinks(links: Links): String {
 }
 
 internal fun generate(links: Links): String {
-    val template = """# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
+    val template = """<!--
+    This is GENERATED file,
+    please read CONTRIBUTING.md for more information.
+-->
+
+# Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
