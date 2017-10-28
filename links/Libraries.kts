@@ -8,9 +8,9 @@ import link.kotlin.scripts.subcategory
 category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
-      name = "Kotlin/ktor"
-      desc = "Web backend framework for Kotlin."
-      href = "https://github.com/Kotlin/ktor"
+      name = "ktorio/ktor"
+      desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
+      href = "https://github.com/ktorio/ktor"
       type = github
       tags = Tags["web"]
     }
