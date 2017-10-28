@@ -1006,6 +1006,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["preconditions"]
     }
+    link {
+      name = "soywiz/klock"
+      desc = "Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common)."
+      href = "https://github.com/soywiz/klock"
+      type = github
+      tags = Tags["js", "date", "time"]
+    }
   }
   subcategory("Extensions") {
     link {
