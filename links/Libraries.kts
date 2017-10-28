@@ -978,6 +978,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vjames19/kotlin-futures"
       type = github
     }
+    link {
+      name = "spoptchev/kotlin-preconditions"
+      desc = "Precondition error checking in kotlin."
+      href = "https://github.com/spoptchev/kotlin-preconditions"
+      type = github
+      tags = Tags["preconditions"]
+    }
   }
   subcategory("Extensions") {
     link {
