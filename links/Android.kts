@@ -401,6 +401,13 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+    link {
+      name = "mustafaberkaymutlu/uv-index"
+      desc = "A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP"
+      href = "https://github.com/mustafaberkaymutlu/uv-index"
+      type = github
+      tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
+    }
   }
   subcategory("Extensions") {
     link {
