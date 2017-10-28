@@ -769,6 +769,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["desktop", "games", "game dev"]
     }
+    link {
+      name = "vassilibykov/AdventKT"
+      desc = "A Kotlin-based DSL for text adventures, with a partial replica of the classic Colossal Cave as an example."
+      href = "https://github.com/vassilibykov/AdventKT"
+      type = github
+      tags = Tags["games", "text adventures"]
+    }
   }
   subcategory("Misc") {
     link {
