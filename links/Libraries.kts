@@ -404,7 +404,7 @@ category("Libraries/Frameworks") {
       desc = "Functional datatypes & abstractions for Kotlin."
       href = "https://github.com/Kategory/Kategory"
       type = github
-      tags = Tags["fp", "functional", "cats"]
+      tags = Tags["fp", "functional", "typeclasses", "comprehensions", "lenses", "optics"]
     }
     link {
       name = "poetix/klenses"
