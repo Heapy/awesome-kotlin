@@ -445,7 +445,7 @@ category("Android") {
     }
     link {
       name = "Karumi/KataContactsKotlin"
-      desc = "An exercise to learn how to write Clean Architecture code using Kotlin."
+      desc = "An exercise to learn how to write software based on Clean Architecture using Kotlin."
       href = "https://github.com/Karumi/KataContactsKotlin"
       type = github
       tags = Tags["architecture", "testing"]
