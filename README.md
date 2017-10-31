@@ -167,6 +167,7 @@ Here awesome badge for your project:
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
 * [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
 * [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
+* [Kotlin Guide](https://kotlin.guide) - An introduction to Kotlin
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
@@ -203,13 +204,12 @@ Here awesome badge for your project:
 * [hexagonkt/hexagon](https://github.com/hexagonkt/hexagon) - A Microservices framework that takes care of HTTP, serializtion and storage.
 * [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
 * [tipsy/javalin](https://github.com/tipsy/javalin) - A Simple REST API Library for Java/Kotlin.
-* [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin.
+* [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
 * [npryce/hamkrest](https://github.com/npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 * [nhaarman/mockito-kotlin](https://github.com/nhaarman/mockito-kotlin) - Using Mockito with Kotlin.
-* [oleksiyp/mockk](https://github.com/oleksiyp/mockk) - Pure Kotlin mocking library.
 * [MarkusAmshove/Kluent](https://github.com/MarkusAmshove/Kluent) - Fluent Assertion-Library for Kotlin.
 * [winterbe/expekt](https://github.com/winterbe/expekt) - BDD assertion library for Kotlin.
 * [kotlintest/kotlintest](https://github.com/kotlintest/kotlintest) - KotlinTest is a flexible and comprehensive testing tool for the Kotlin ecosystem based on and heavily inspired by the superb Scalatest.
@@ -219,6 +219,7 @@ Here awesome badge for your project:
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
 * [dam5s/aspen](https://github.com/dam5s/aspen) - Aspen is an RSpec and Spek inspired test runner for Kotlin.
 * [qwertukg/SeleniumBuilder](https://github.com/qwertukg/SeleniumBuilder) - DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin builder style.
+* [oleksiyp/mockk](https://github.com/oleksiyp/mockk) - Pure Kotlin mocking library.
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
 * [SalomonBrys/Kodein](https://github.com/SalomonBrys/Kodein) - Painless Kotlin Dependency Injection .
@@ -243,6 +244,7 @@ Here awesome badge for your project:
 * [brianegan/bansa](https://github.com/brianegan/bansa) - A state container for Kotlin & Java, inspired by Elm & Redux.
 * [pardom/redux-kotlin](https://github.com/pardom/redux-kotlin) - Direct port of Redux for Kotlin.
 * [beyondeye/Reduks](https://github.com/beyondeye/Reduks) - A "batteries included" port of Reduxjs for Kotlin+Android
+* [michaelbull/kotlin-result](https://github.com/michaelbull/kotlin-result) - A Result monad for modelling success or failure operations - inspired by Elm, Rust, & Haskell.
 * [pakoito/Komprehensions](https://github.com/pakoito/Komprehensions) - Do comprehensions for Kotlin and 3rd party libraries.
 * [h0tk3y/kotlin-monads](https://github.com/h0tk3y/kotlin-monads) - Monads for Kotlin
 * [Kategory/Kategory](https://github.com/Kategory/Kategory) - Functional datatypes & abstractions for Kotlin.
@@ -347,7 +349,7 @@ Here awesome badge for your project:
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
 * [spoptchev/kotlin-preconditions](https://github.com/spoptchev/kotlin-preconditions) - Precondition error checking in kotlin.
-* [soywiz/klock](https://github.com/soywiz/klock) - Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common)
+* [soywiz/klock](https://github.com/soywiz/klock) - Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common).
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -441,7 +443,6 @@ Here awesome badge for your project:
 * [pakoito/FunctionalAndroidReference](https://github.com/pakoito/FunctionalAndroidReference) - A different Android app showcasing Functional Reactive Programming.
 * [bmaslakov/kotlin-algorithm-club](https://github.com/bmaslakov/kotlin-algorithm-club) - Classic algorithms and data structures in Kotlin.
 * [gyulavoros/kotlin-todomvc](https://github.com/gyulavoros/kotlin-todomvc) - Kotlin TodoMVC – full-stack Kotlin application demo
-* [Karumi/KataScreenshotKotlin](https://github.com/Karumi/KataScreenshotKotlin) - Kata Screenshot - Android screenshot testing exercise
 
 ### <a name="projects-idea-plugins"></a>Idea Plugins <sup>[Back ⇈](#projects-idea-plugins-subcategory)</sup>
 * [Vektah/CodeGlance](https://github.com/Vektah/CodeGlance) - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
@@ -513,6 +514,7 @@ Here awesome badge for your project:
 * [ahong222/happy21](https://github.com/ahong222/happy21) - A simple game of Black-Jack write with kotlin
 * [AllanWang/KAU](https://github.com/AllanWang/KAU) - An extensive collection of Kotlin Android Utils
 * [hanjoongcho/aaf-easyphotomap](https://github.com/hanjoongcho/aaf-easyphotomap) - This is a photomap app that shows photos taken on a map.
+* [Karumi/KataScreenshotKotlin](https://github.com/Karumi/KataScreenshotKotlin) - An full exercise to learn how to create screenshot tests for Android
 * [massivedisaster/AFM](https://github.com/massivedisaster/AFM) - An library to help android developers working easly with activities and fragments with Kotlin
 * [mustafaberkaymutlu/uv-index](https://github.com/mustafaberkaymutlu/uv-index) - A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP
 
