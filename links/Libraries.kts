@@ -253,6 +253,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["selenium", "test"]
     }
+    link {
+      name = "oleksiyp/mockk"
+      desc = "Pure Kotlin mocking library."
+      href = "https://github.com/oleksiyp/mockk"
+      type = github
+      tags = Tags["test", "mock"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
