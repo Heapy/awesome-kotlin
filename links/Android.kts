@@ -238,6 +238,13 @@ category("Android") {
       type = github
       tags = Tags["android", "trimming"]
     }
+    link {
+      name = "WindSekirun/RichUtilsKt"
+      desc = "Advancement Utils for Android Developer written in Kotlin"
+      href = "https://github.com/WindSekirun/RichUtilsKt"
+      type = github
+      tags = Tags["android"]
+    }
   }
   subcategory("Frameworks") {
     link {
