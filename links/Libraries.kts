@@ -478,6 +478,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["JSON", "XML"]
     }
+    link {
+      name = "fluidsonic/fluid-json"
+      desc = "A JSON library written in pure Kotlin."
+      href = "https://github.com/fluidsonic/fluid-json"
+      type = github
+      tags = Tags["json"]
+    }
   }
   subcategory("Database") {
     link {
