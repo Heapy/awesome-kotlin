@@ -26,6 +26,8 @@ configure<KotlinProjectExtension> {
     experimental.coroutines = Coroutines.ENABLE
 }
 
+java.sourceSets.create("links").java.srcDir("links")
+
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
