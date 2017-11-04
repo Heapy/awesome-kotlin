@@ -436,6 +436,34 @@ category("Android") {
       type = github
       tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
     }
+    link {
+      name = "Karumi/KataSuperHeroesKotlin"
+      desc = "A full exercise to learn how to create espresso tests using test doubles and a dependency injector for Android written in Kotlin."
+      href = "https://github.com/Karumi/KataSuperHeroesKotlin"
+      type = github
+      tags = Tags["android", "application", "testing", "espresso", "test-doubles"]
+    }
+    link {
+      name = "Karumi/KataContactsKotlin"
+      desc = "An exercise to learn how to write software based on Clean Architecture using Kotlin."
+      href = "https://github.com/Karumi/KataContactsKotlin"
+      type = github
+      tags = Tags["architecture", "testing"]
+    }
+    link {
+      name = "Karumi/KataTODOApiClientKotlin"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin."
+      href = "https://github.com/Karumi/KataTODOApiClientKotlin"
+      type = github
+      tags = Tags["android", "testing", "stubbing-http"]
+    }
+    link {
+      name = "Karumi/MaxibonKataKotlin"
+      desc = "A ready to use playground to learn how to write tests using property-based testing in Kotlin. "
+      href = "https://github.com/Karumi/MaxibonKataKotlin"
+      type = github
+      tags = Tags["testing", "functional-programming", "property-based"]
+    }
   }
   subcategory("Extensions") {
     link {
