@@ -13,7 +13,7 @@ http://blog.jetbrains.com/kotlin/[Blog]
 http://try.kotlinlang.org/[Try Kotlin!]
 http://youtrack.jetbrains.com/issues/KT[Issue Tracker]
 https://github.com/jetbrains/kotlin[Kotlin Repository]
-https://twitter.com/project_kotlin[Twitter]
+https://twitter.com/kotlin[Twitter]
 
 == Resources
 
