@@ -167,5 +167,10 @@ category("Links") {
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
     }
+    link {
+      name = "Kotlin an Introduction - Caster.io"
+      desc = "Kotlin introductory course at Caster.io"
+      href = "https://caster.io/courses/introduction-to-kotlin/"
+    }
   }
 }
