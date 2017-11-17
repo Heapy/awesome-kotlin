@@ -162,5 +162,10 @@ category("Links") {
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
     }
+	link {
+      name = "Reactive Programming in Kotlin"
+      desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
+    }
   }
 }
