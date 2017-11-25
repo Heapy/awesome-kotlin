@@ -167,6 +167,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kotlin", "http", "consul", "microservice", "mock", "jetty", "netty", "smtp", "ssl"]
     }
+    link {
+      name = "phenax/h"
+      desc = "HTML templating library written in Kotlin"
+      href = "https://github.com/phenax/h"
+      type = github
+      tags = Tags["kotlin", "http", "web", "html", "template"]
+    }
   }
   subcategory("Tests") {
     link {
