@@ -238,6 +238,13 @@ category("Android") {
       type = github
       tags = Tags["android", "trimming"]
     }
+    link {
+      name = "WindSekirun/RichUtilsKt"
+      desc = "Advancement Utils for Android Developer written in Kotlin"
+      href = "https://github.com/WindSekirun/RichUtilsKt"
+      type = github
+      tags = Tags["android"]
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -430,11 +437,32 @@ category("Android") {
       tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
     }
     link {
-      name = "hanjoongcho/aaf-easypassword"
-      desc = "A password manager using a single lock pattern for various type passwords management."
-      href = "https://github.com/hanjoongcho/aaf-easypassword"
+      name = "Karumi/KataSuperHeroesKotlin"
+      desc = "A full exercise to learn how to create espresso tests using test doubles and a dependency injector for Android written in Kotlin."
+      href = "https://github.com/Karumi/KataSuperHeroesKotlin"
       type = github
-      tags = Tags["android", "application", "password-manager", "password-strength"]
+      tags = Tags["android", "application", "testing", "espresso", "test-doubles"]
+    }
+    link {
+      name = "Karumi/KataContactsKotlin"
+      desc = "An exercise to learn how to write software based on Clean Architecture using Kotlin."
+      href = "https://github.com/Karumi/KataContactsKotlin"
+      type = github
+      tags = Tags["architecture", "testing"]
+    }
+    link {
+      name = "Karumi/KataTODOApiClientKotlin"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin."
+      href = "https://github.com/Karumi/KataTODOApiClientKotlin"
+      type = github
+      tags = Tags["android", "testing", "stubbing-http"]
+    }
+    link {
+      name = "Karumi/MaxibonKataKotlin"
+      desc = "A ready to use playground to learn how to write tests using property-based testing in Kotlin. "
+      href = "https://github.com/Karumi/MaxibonKataKotlin"
+      type = github
+      tags = Tags["testing", "functional-programming", "property-based"]
     }
   }
   subcategory("Extensions") {

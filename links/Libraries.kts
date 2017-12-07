@@ -253,6 +253,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["selenium", "test"]
     }
+    link {
+      name = "oleksiyp/mockk"
+      desc = "Pure Kotlin mocking library."
+      href = "https://github.com/oleksiyp/mockk"
+      type = github
+      tags = Tags["test", "mock"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
@@ -386,6 +393,13 @@ category("Libraries/Frameworks") {
       tags = Tags["fp", "functional", "UI", "Interface", "Redux"]
     }
     link {
+      name = "michaelbull/kotlin-result"
+      desc = "A Result monad for modelling success or failure operations - inspired by Elm, Rust, & Haskell."
+      href = "https://github.com/michaelbull/kotlin-result"
+      type = github
+      tags = Tags["fp", "functional", "result", "monad", "either", "type"]
+    }
+    link {
       name = "pakoito/Komprehensions"
       desc = "Do comprehensions for Kotlin and 3rd party libraries."
       href = "https://github.com/pakoito/Komprehensions"
@@ -463,6 +477,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/Jire/KTON"
       type = github
       tags = Tags["JSON", "XML"]
+    }
+    link {
+      name = "fluidsonic/fluid-json"
+      desc = "A JSON library written in pure Kotlin."
+      href = "https://github.com/fluidsonic/fluid-json"
+      type = github
+      tags = Tags["json"]
     }
   }
   subcategory("Database") {
@@ -998,6 +1019,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/spoptchev/kotlin-preconditions"
       type = github
       tags = Tags["preconditions"]
+    }
+    link {
+      name = "soywiz/klock"
+      desc = "Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common)."
+      href = "https://github.com/soywiz/klock"
+      type = github
+      tags = Tags["js", "date", "time"]
     }
   }
   subcategory("Extensions") {

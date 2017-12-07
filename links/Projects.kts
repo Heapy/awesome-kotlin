@@ -157,6 +157,13 @@ category("Projects") {
       type = github
       tags = Tags["jenkins", "documentation", "confluence"]
     }
+    link {
+      name = "mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
+      desc = "Gradle plugin to help with build and test of Jenkins Pipeline Shared Libraries."
+      href = "https://github.com/mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
+      type = github
+      tags = Tags["jenkins", "gradle"]
+    }
   }
   subcategory("Desktop") {
     link {
