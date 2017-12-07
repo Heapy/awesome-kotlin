@@ -429,6 +429,13 @@ category("Android") {
       type = github
       tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
     }
+    link {
+      name = "hanjoongcho/aaf-easypassword"
+      desc = "A password manager using a single lock pattern for various type passwords management."
+      href = "https://github.com/hanjoongcho/aaf-easypassword"
+      type = github
+      tags = Tags["android", "application", "password-manager", "password-strength"]
+    }
   }
   subcategory("Extensions") {
     link {
