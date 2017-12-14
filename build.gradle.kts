@@ -1,16 +1,17 @@
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.extra
+import org.gradle.kotlin.dsl.getValue
 import org.gradle.kotlin.dsl.kotlin
 import org.gradle.kotlin.dsl.repositories
 import org.jetbrains.kotlin.gradle.dsl.Coroutines
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 
-val kotlinVersion = "1.1.51"
-val commonMarkVersion = "0.9.0"
+val kotlinVersion by project
+val commonMarkVersion by project
 
 plugins {
     application
-    kotlin("jvm", "1.1.51")
+    kotlin("jvm", "1.2.10")
 }
 
 configure<ApplicationPluginConvention> {
@@ -29,9 +30,9 @@ configure<KotlinProjectExtension> {
 java.sourceSets.create("links").java.srcDir("links")
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.19.1")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.20")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
     compile("org.slf4j:slf4j-api:1.7.25")
