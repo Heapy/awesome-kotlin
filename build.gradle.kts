@@ -34,10 +34,10 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
     compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.20")
 
-    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.8.8")
+    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2")
     compile("org.slf4j:slf4j-api:1.7.25")
     compile("ch.qos.logback:logback-classic:1.2.3")
-    compile("io.sentry:sentry-logback:1.4.0")
+    compile("io.sentry:sentry-logback:1.6.3")
 
     compile("com.rometools:rome:1.7.0")
     compile("com.github.dfabulich:sitemapgen4j:1.0.6")
