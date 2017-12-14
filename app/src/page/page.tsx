@@ -73,9 +73,9 @@ class PageComponent extends React.Component<PageProps, PageState> {
     this.state = {data: data};
   }
 
-  onSearchValueChanged = (value) => {
-    this.props.router.push({
-      search: searchString({...this.props.location.query, q: value})
+  onSearchValueChanged = (value: any): void => {
+    this.props.history.push({
+      search: searchString({...this.props.match.params, q: value})
     });
 
     if (value) {
@@ -108,8 +108,8 @@ class PageComponent extends React.Component<PageProps, PageState> {
 }
 
 interface PageProps {
-  router: any;
-  location: any;
+  history: any;
+  match: any;
 }
 
 interface PageState {
