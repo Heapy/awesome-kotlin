@@ -804,6 +804,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["games", "text adventures"]
     }
+    link {
+      name = "Hexworks/zircon"
+      desc = "An extensible text GUI library which targets multiple platforms and designed specifically for game developers, written in Kotlin."
+      href = "https://github.com/Hexworks/zircon"
+      type = github
+      tags = Tags["text-gui", "games", "game-dev"]
+    }
   }
   subcategory("Misc") {
     link {
