@@ -179,6 +179,8 @@ Here awesome badge for your project:
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
 * [Introduction to Kotlin Programming by Hadi Hariri](http://shop.oreilly.com/product/0636920052982.do) - From Hello World to Interoperability with Java
 * [Advanced Kotlin Programming](http://shop.oreilly.com/product/0636920052999.do) - From Nested Functions to Asynchronous Programming
+* [Android Development with Kotlin - Marcin Moskala, Igor Wojda](https://www.packtpub.com/application-development/android-development-kotlin) - Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code.
+* [Mastering Android Development with Kotlin - Miloš Vasić](https://www.packtpub.com/application-development/mastering-android-development-kotlin) - Master Android development using a variety of Kotlin features
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
