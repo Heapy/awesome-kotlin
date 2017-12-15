@@ -198,6 +198,13 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "mock"]
     }
     link {
+      name = "robstoll/atrium"
+      desc = "Fluent assertion library for Kotlin supporting i18n."
+      href = "https://github.com/robstoll/atrium"
+      type = github
+      tags = Tags["test", "assertion-library", "assert"]
+    }
+    link {
       name = "MarkusAmshove/Kluent"
       desc = "Fluent Assertion-Library for Kotlin."
       href = "https://github.com/MarkusAmshove/Kluent"
