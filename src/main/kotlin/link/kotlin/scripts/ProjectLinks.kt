@@ -2,6 +2,7 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.utils.DefaultScriptCompiler
 import link.kotlin.scripts.utils.ScriptCompiler
+import link.kotlin.scripts.utils.logger
 import java.nio.file.Files
 import java.nio.file.Paths
 
@@ -25,6 +26,15 @@ class ProjectLinks(private val compiler: ScriptCompiler = DefaultScriptCompiler(
     }
 
     private fun linksFromFile(path: String): Category {
-        return compiler.execute(Files.newInputStream(Paths.get("links/$path")))
+        try {
+            return compiler.execute(Files.newInputStream(Paths.get("links/$path")))
+        } catch (e: Exception) {
+            LOGGER.error("Error while processing file {}.", path, e)
+            throw e
+        }
+    }
+
+    companion object {
+        private val LOGGER = logger<ProjectLinks>()
     }
 }
