@@ -60,7 +60,7 @@ category("Kotlin JavaScript") {
         desc = "Kotlin wrappers for three.js JavaScript 3D library"
         href = "https://github.com/markaren/three.kt"
         type = github
-        tags = Tags["web", "javascript" "kotlin-js", "three-js"]
+        tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }
   }
   subcategory("Frontend") {
