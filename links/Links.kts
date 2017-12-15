@@ -147,6 +147,11 @@ category("Links") {
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
     }
+	link {
+      name = "Reactive Programming in Kotlin - Rivu Chakraborty"
+      desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
+    }
     link {
       name = "Kotlin Programming: Next Level Java Development"
       desc = "Learn coding in Kotlin from scratch!"
@@ -161,6 +166,11 @@ category("Links") {
       name = "Advanced Kotlin Programming"
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
+    }
+    link {
+      name = "Kotlin an Introduction - Caster.io"
+      desc = "Kotlin introductory course at Caster.io"
+      href = "https://caster.io/courses/introduction-to-kotlin/"
     }
     link {
       name = "Android Development with Kotlin - Marcin Moskala, Igor Wojda"

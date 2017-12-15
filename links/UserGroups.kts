@@ -129,6 +129,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["China"]
     }
+	link {
+      name = "Kotlin Kolkata User Group"
+      desc = "Kolkata, India"
+      href = "https://facebook.com/KotlinKolkata/"
+      type = kug
+      tags = Tags["Kolkata","India"]
+    }
   }
   subcategory("Australia") {
     link {
