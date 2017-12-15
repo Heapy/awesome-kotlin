@@ -11,20 +11,20 @@ val commonMarkVersion by project
 
 plugins {
     application
-    kotlin("jvm", "1.2.10")
+    kotlin("jvm") version "1.2.10"
 }
 
-configure<ApplicationPluginConvention> {
+application {
     mainClassName = "link.kotlin.scripts.Application"
+}
+
+kotlin {
+    experimental.coroutines = Coroutines.ENABLE
 }
 
 repositories {
     jcenter()
     maven { setUrl("https://dl.bintray.com/heapy/heap") }
-}
-
-configure<KotlinProjectExtension> {
-    experimental.coroutines = Coroutines.ENABLE
 }
 
 dependencies {
