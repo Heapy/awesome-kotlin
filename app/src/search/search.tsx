@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {withRouter} from "react-router";
+import * as qs from "query-string";
 
 const styles = require("./search.less");
 
@@ -23,7 +24,7 @@ class SearchComponent extends React.Component<SearchProps, SearchState> {
   };
 
   componentDidMount() {
-    const query = this.props.location.query.q;
+    const query = qs.parse(this.props.location.search).q;
     if (query) {
       this.setState({value: query});
       this.props.onChange(query);
@@ -46,8 +47,8 @@ class SearchComponent extends React.Component<SearchProps, SearchState> {
 }
 
 interface SearchProps {
-  onChange: (a: any) => void;
-  location: any;
+  onChange: (value: any) => void;
+  location?: any;
 }
 
 interface SearchState {

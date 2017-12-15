@@ -3,8 +3,8 @@ import * as React from "react";
 const styles = require("./head.less");
 
 export class Head extends React.Component<{}, HeadState> {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       counter: 0
     };

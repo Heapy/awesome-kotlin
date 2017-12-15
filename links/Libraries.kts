@@ -174,6 +174,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kotlin", "web", "http", "tcp", "ssl", "reactive"]
     }
+    link {
+      name = "phenax/h"
+      desc = "HTML templating library written in Kotlin"
+      href = "https://github.com/phenax/h"
+      type = github
+      tags = Tags["kotlin", "http", "web", "html", "template"]
+    }
   }
   subcategory("Tests") {
     link {
@@ -196,6 +203,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/nhaarman/mockito-kotlin"
       type = github
       tags = Tags["test", "mock"]
+    }
+    link {
+      name = "robstoll/atrium"
+      desc = "Fluent assertion library for Kotlin supporting i18n."
+      href = "https://github.com/robstoll/atrium"
+      type = github
+      tags = Tags["test", "assertion-library", "assert"]
     }
     link {
       name = "MarkusAmshove/Kluent"
@@ -811,6 +825,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["games", "text adventures"]
     }
+    link {
+      name = "Hexworks/zircon"
+      desc = "An extensible text GUI library which targets multiple platforms and designed specifically for game developers, written in Kotlin."
+      href = "https://github.com/Hexworks/zircon"
+      type = github
+      tags = Tags["text-gui", "games", "game-dev"]
+    }
   }
   subcategory("Misc") {
     link {
@@ -1028,11 +1049,25 @@ category("Libraries/Frameworks") {
       tags = Tags["preconditions"]
     }
     link {
+      name = "spoptchev/scientist"
+      desc = "A kotlin library for refactoring code. Port of GitHub's scientist."
+      href = "https://github.com/spoptchev/scientist"
+      type = github
+      tags = Tags["scientist", "refactoring"]
+    }
+    link {
       name = "soywiz/klock"
       desc = "Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common)."
       href = "https://github.com/soywiz/klock"
       type = github
       tags = Tags["js", "date", "time"]
+    }
+    link {
+      name = "d-max/dsl-logger"
+      desc = "Simple DSL for logging with logger abstraction layer"
+      href = "https://github.com/d-max/dsl-logger"
+      type = github
+      tags = Tags["dsl", "logging", "android", "slf4j"]
     }
   }
   subcategory("Extensions") {
@@ -1103,6 +1138,13 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Graphics") {
+    link {
+      name = "data2viz/data2viz"
+      desc = "multiplatform dataviz library, d3js port"
+      href = "https://github.com/data2viz/data2viz"
+      type = github
+      tags = Tags["d3js", "multiplatform", "svg", "javafx"]
+    }
     link {
       name = "kotlin-graphics/glm"
       desc = "g-truck glm port, opengl mathematics library"
