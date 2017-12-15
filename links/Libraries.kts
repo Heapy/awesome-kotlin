@@ -1104,6 +1104,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Graphics") {
     link {
+      name = "data2viz/data2viz"
+      desc = "multiplatform dataviz library, d3js port"
+      href = "https://github.com/data2viz/data2viz"
+      type = github
+      tags = Tags["d3js", "multiplatform", "svg", "javafx"]
+    }
+    link {
       name = "kotlin-graphics/glm"
       desc = "g-truck glm port, opengl mathematics library"
       href = "https://github.com/kotlin-graphics/glm"
