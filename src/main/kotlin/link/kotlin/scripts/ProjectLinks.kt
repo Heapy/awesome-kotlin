@@ -27,7 +27,7 @@ class ProjectLinks(private val compiler: ScriptCompiler = DefaultScriptCompiler(
 
     private fun linksFromFile(path: String): Category {
         try {
-            return compiler.execute(Files.newInputStream(Paths.get("links/$path")))
+            return compiler.execute(Files.newInputStream(Paths.get("src/main/resources/links/$path")))
         } catch (e: Exception) {
             LOGGER.error("Error while processing file {}.", path, e)
             throw e
