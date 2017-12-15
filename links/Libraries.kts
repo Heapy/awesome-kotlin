@@ -1028,6 +1028,13 @@ category("Libraries/Frameworks") {
       tags = Tags["preconditions"]
     }
     link {
+      name = "spoptchev/scientist"
+      desc = "A kotlin library for refactoring code. Port of GitHub's scientist."
+      href = "https://github.com/spoptchev/scientist"
+      type = github
+      tags = Tags["scientist", "refactoring"]
+    }
+    link {
       name = "soywiz/klock"
       desc = "Consistent and portable date and time utilities for multiplatform kotlin (JVM, JS and Common)."
       href = "https://github.com/soywiz/klock"
