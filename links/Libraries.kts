@@ -168,6 +168,13 @@ category("Libraries/Frameworks") {
       tags = Tags["kotlin", "http", "consul", "microservice", "mock", "jetty", "netty", "smtp", "ssl"]
     }
     link {
+      name = "hypercube1024/firefly"
+      desc = "An asynchronous web framework for rapid development of high-performance web application."
+      href = "https://github.com/hypercube1024/firefly"
+      type = github
+      tags = Tags["kotlin", "web", "http", "tcp", "ssl", "reactive"]
+    }
+    link {
       name = "phenax/h"
       desc = "HTML templating library written in Kotlin"
       href = "https://github.com/phenax/h"
