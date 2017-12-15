@@ -1034,6 +1034,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["js", "date", "time"]
     }
+    link {
+      name = "d-max/dsl-logger"
+      desc = "Simple DSL for logging with logger abstraction layer"
+      href = "https://github.com/d-max/dsl-logger"
+      type = github
+      tags = Tags["dsl", "logging", "android", "slf4j"]
+    }
   }
   subcategory("Extensions") {
     link {
