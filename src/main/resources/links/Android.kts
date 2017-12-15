@@ -240,10 +240,17 @@ category("Android") {
     }
     link {
       name = "WindSekirun/RichUtilsKt"
-      desc = "Advancement Utils for Android Developer written in Kotlin"
+      desc = "Advancement Utils for Android Developer written in Kotlin."
       href = "https://github.com/WindSekirun/RichUtilsKt"
       type = github
       tags = Tags["android"]
+    }
+    link {
+      name = "TradeMe/MapMe"
+      desc = "A library that brings the adapter pattern and DiffUtil to Google Maps and MapBox."
+      href = "https://github.com/TradeMe/MapMe"
+      type = github
+      tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
   }
   subcategory("Frameworks") {

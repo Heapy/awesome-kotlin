@@ -1229,6 +1229,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["jogl", "opengl"]
     }
+    link {
+      name = "soywiz/kaifu2x"
+      desc = "Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction."
+      href = "https://github.com/soywiz/kaifu2x"
+      type = github
+      tags = Tags["waifu2x", "convolutional-neural-networks", "kotlin", "noise-reduction", "scaler"]
+    }
   }
   subcategory("Data Science") {
     link {
