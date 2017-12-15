@@ -136,7 +136,7 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["China"]
     }
-	link {
+  link {
       name = "Kotlin Kolkata User Group"
       desc = "Kolkata, India"
       href = "https://facebook.com/KotlinKolkata/"
