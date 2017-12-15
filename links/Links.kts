@@ -172,5 +172,15 @@ category("Links") {
       desc = "Kotlin introductory course at Caster.io"
       href = "https://caster.io/courses/introduction-to-kotlin/"
     }
+    link {
+      name = "Android Development with Kotlin - Marcin Moskala, Igor Wojda"
+      desc = "Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code"
+      href = "https://www.packtpub.com/application-development/android-development-kotlin"
+    }
+    link {
+      name = "Mastering Android Development with Kotlin - Miloš Vasić"
+      desc = "Master Android development using a variety of Kotlin features"
+      href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
+    }
   }
 }

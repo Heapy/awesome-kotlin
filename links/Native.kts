@@ -21,5 +21,12 @@ category("Kotlin Native") {
       type = github
       tags = Tags["sfml", "linux", "native"]
     }
+    link {
+      name = "JetBrains/kotlinconf-spinner"
+      desc = "Simple spinner-like game intended to demonstrate capabilities of Kotlin/Native software stack."
+      href = "https://github.com/JetBrains/kotlinconf-spinner"
+      type = github
+      tags = Tags["native", "llvm", "android", "ios", "backend", "linux"]
+    }
   }
 }

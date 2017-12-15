@@ -1,14 +1,9 @@
 import * as React from "react";
 import {Listitem} from "../listitem/listitem";
-import {withRouter} from "react-router";
 
 const styles = require("./list.less");
 
-class SubcategoriesComponent extends React.Component<SubcategoriesProps, SubcategoriesState> {
-  constructor() {
-    super();
-  }
-
+export class Subcategories extends React.Component<SubcategoriesProps, SubcategoriesState> {
   render() {
     const {subcategory} = this.props;
 
@@ -27,10 +22,7 @@ class SubcategoriesComponent extends React.Component<SubcategoriesProps, Subcate
   }
 }
 
-export const Subcategories = withRouter(SubcategoriesComponent);
-
 interface SubcategoriesProps {
-  location?: any;
   subcategory: any;
 }
 
