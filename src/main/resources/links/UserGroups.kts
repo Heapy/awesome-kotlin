@@ -76,6 +76,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Spain"]
     }
+    link {
+      name = "Czech Kotlin User Group"
+      desc = "Czechia"
+      href = "http://kotliners.cz/"
+      type = kug
+      tags = Tags["Czechia", "Czech"]
+    }
   }
   subcategory("America") {
     link {
