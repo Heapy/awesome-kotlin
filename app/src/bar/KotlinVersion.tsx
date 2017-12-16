@@ -6,6 +6,7 @@ const styles = {
   version: style({
     fontFamily: "monospace",
     fontSize: "20px",
+    cursor: "pointer",
     padding: "10px",
     margin: "10px",
     display: "inline-block",
