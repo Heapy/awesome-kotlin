@@ -4,10 +4,12 @@ import {Search} from "../search/search";
 import {Category} from "../category/category";
 import {withRouter} from "react-router";
 import {searchString} from "../locations";
+import {Component as Bar} from "../bar/Bar";
 
 const styles = require("./page.less");
 
 const data = require("../../LinksWithStars.json");
+const versions = require("../../../versions.json");
 
 function reduceCategory(category, searchTerm) {
   const subcategories = category.subcategories.reduce(function (acc, subcategory) {
@@ -95,6 +97,8 @@ class PageComponent extends React.Component<PageProps, PageState> {
         <Head/>
 
         <Search onChange={this.onSearchValueChanged}/>
+
+        <Bar versions={versions}/>
 
         {this.state.data.map((category, i) => {
           return <Category category={category} key={i}/>;

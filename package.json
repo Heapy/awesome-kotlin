@@ -5,12 +5,14 @@
   "main": "app/src/main.tsx",
   "dependencies": {
     "babel-polyfill": "6.26.0",
+    "copy-to-clipboard": "3.0.8",
     "normalize.css": "7.0.0",
     "query-string": "5.0.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-router": "4.2.0",
-    "react-router-dom": "4.2.2"
+    "react-router-dom": "4.2.2",
+    "typestyle": "1.5.1"
   },
   "devDependencies": {
     "@types/history": "^4.6.2",
