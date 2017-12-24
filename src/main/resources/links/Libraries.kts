@@ -700,6 +700,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["http", "http client"]
     }
+    link {
+      name = "egorzhdan/networkinkt"
+      desc = "Multiplatform coroutine-based HTTP client."
+      href = "https://github.com/egorzhdan/networkinkt"
+      type = github
+      tags = Tags["http", "http client", "coroutines"]
+    }
   }
   subcategory("Editors") {
     link {
