@@ -1092,6 +1092,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["extensions"]
     }
+    link {
+      name = "hankdavidson/ktime"
+      desc = "Extensions to the java8 time library"
+      href = "https://github.com/hankdavidson/ktime"
+      type = github
+      tags = Tags["extensions", "jdk8", "time", "date", "range"]
+    }
   }
   subcategory("Configuration") {
     link {
