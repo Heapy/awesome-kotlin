@@ -1076,6 +1076,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dsl", "logging", "android", "slf4j"]
     }
+    link {
+      name = "korlibs/kds"
+      desc = "Optimized Kotlin Data Structures for JVM, JS and Common"
+      href = "https://github.com/korlibs/kds"
+      type = github
+      tags = Tags["ds"]
+    }
   }
   subcategory("Extensions") {
     link {
