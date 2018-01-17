@@ -246,7 +246,7 @@ Here awesome badge for your project:
 * [konrad-kaminski/spring-kotlin-coroutine](https://github.com/konrad-kaminski/spring-kotlin-coroutine) - Kotlin coroutine support for Spring.
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
-* [MarioAriasC/funKTionale](https://github.com/MarioAriasC/funKTionale) - Functional constructs for Kotlin.
+* [arrow-kt/arrow](http://arrow-kt.io/) - Functional companion to Kotlin's Standard Library.
 * [ReactiveX/RxKotlin](https://github.com/ReactiveX/RxKotlin) - RxJava bindings for Kotlin.
 * [kittinunf/Result](https://github.com/kittinunf/Result) - The modelling for success/failure of operations in Kotlin.
 * [brianegan/bansa](https://github.com/brianegan/bansa) - A state container for Kotlin & Java, inspired by Elm & Redux.
@@ -255,7 +255,6 @@ Here awesome badge for your project:
 * [michaelbull/kotlin-result](https://github.com/michaelbull/kotlin-result) - A Result monad for modelling success or failure operations - inspired by Elm, Rust, & Haskell.
 * [pakoito/Komprehensions](https://github.com/pakoito/Komprehensions) - Do comprehensions for Kotlin and 3rd party libraries.
 * [h0tk3y/kotlin-monads](https://github.com/h0tk3y/kotlin-monads) - Monads for Kotlin
-* [Kategory/Kategory](https://github.com/Kategory/Kategory) - Functional datatypes & abstractions for Kotlin.
 * [poetix/klenses](https://github.com/poetix/klenses) - Lenses for Kotlin.
 * [reactor/reactor-kotlin-extensions](https://github.com/reactor/reactor-kotlin-extensions/) - Kotlin extensions for Reactor.
 * [UrbanCompass/Snail-Kotlin](https://github.com/UrbanCompass/Snail-Kotlin) - An observables framework for Kotlin.
