@@ -11,7 +11,7 @@ val commonMarkVersion by project
 
 plugins {
     application
-    kotlin("jvm") version "1.2.10"
+    kotlin("jvm") version "1.2.20"
 }
 
 application {
@@ -33,6 +33,7 @@ dependencies {
     compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.20")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2")
+    compile("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.3")
     compile("org.slf4j:slf4j-api:1.7.25")
     compile("ch.qos.logback:logback-classic:1.2.3")
     compile("io.sentry:sentry-logback:1.6.3")
