@@ -252,6 +252,13 @@ category("Android") {
       type = github
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
+    link {
+      name = "yundom/kache"
+      desc = "A lightweight cache library written in Kotlin."
+      href = "https://github.com/yundom/kache"
+      type = github
+      tags = Tags["cache", "kotlin"]
+    }
   }
   subcategory("Frameworks") {
     link {
