@@ -62,6 +62,13 @@ category("Kotlin JavaScript") {
         type = github
         tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }
+    link {
+        name = "rjaros/kvision"
+        desc = "Object oriented Web UI framework for Kotlin/JS"
+        href = "https://github.com/rjaros/kvision"
+        type = github
+        tags = Tags["web", "javascript", "kotlin-js", "framework"]
+    }
   }
   subcategory("Frontend") {
     link {
