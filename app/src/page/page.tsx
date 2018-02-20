@@ -4,11 +4,12 @@ import {Search} from "../search/search";
 import {Category} from "../category/category";
 import {withRouter} from "react-router";
 import {searchString} from "../locations";
-import {Banner} from "../banner/banner";
+import {Component as Bar} from "../bar/Bar";
 
 const styles = require("./page.less");
 
 const data = require("../../LinksWithStars.json");
+const versions = require("../../../versions.json");
 
 function reduceCategory(category, searchTerm) {
   const subcategories = category.subcategories.reduce(function (acc, subcategory) {
@@ -73,9 +74,9 @@ class PageComponent extends React.Component<PageProps, PageState> {
     this.state = {data: data};
   }
 
-  onSearchValueChanged = (value) => {
-    this.props.router.push({
-      search: searchString({...this.props.location.query, q: value})
+  onSearchValueChanged = (value: any): void => {
+    this.props.history.push({
+      search: searchString({...this.props.match.params, q: value})
     });
 
     if (value) {
@@ -93,11 +94,11 @@ class PageComponent extends React.Component<PageProps, PageState> {
                src={require("./forkme_right_white_ffffff.png")}
                alt="Fork me on GitHub"/></a>
 
-        <Banner/>
-
         <Head/>
 
         <Search onChange={this.onSearchValueChanged}/>
+
+        <Bar versions={versions}/>
 
         {this.state.data.map((category, i) => {
           return <Category category={category} key={i}/>;
@@ -108,8 +109,8 @@ class PageComponent extends React.Component<PageProps, PageState> {
 }
 
 interface PageProps {
-  router: any;
-  location: any;
+  history: any;
+  match: any;
 }
 
 interface PageState {

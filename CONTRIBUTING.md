@@ -6,7 +6,9 @@ This awesome list contains two views: standard github README page view, and nice
 
 **To contribute** to both places you need:
 
-Edit **[links/](./links/)file_name.kts** directly, and then run `./gradlew run`.
+Edit **[src/main/resources/links/](./src/main/resources/links/)file_name.kts** directly, and then run `./gradlew run`.
+
+Please check diff, and make sure that your PR contains minimal set of changes.
 
 *Happy contributing!*
 

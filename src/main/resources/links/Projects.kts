@@ -164,6 +164,13 @@ category("Projects") {
       type = github
       tags = Tags["jenkins", "gradle"]
     }
+    link {
+      name = "kpspemu/kpspemu"
+      desc = "Multiplatform (JS and JVM) PSP Emulator written in Kotlin."
+      href = "https://github.com/kpspemu/kpspemu"
+      type = github
+      tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+    }
   }
   subcategory("Desktop") {
     link {
