@@ -176,7 +176,7 @@ Here awesome badge for your project:
 * [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
 * [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
 * [Kotlin for Java Developers](https://teamtreehouse.com/library/kotlin-for-java-developers) - 160-minute Android Course.
-* [Functional Kotlin](https://www.packtpub.com/application-development/reactive-programming-kotlin) - Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty
+* [Functional Kotlin](https://www.packtpub.com/application-development/functional-kotlin) - Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty
 * [Reactive Programming in Kotlin - Rivu Chakraborty](https://www.packtpub.com/application-development/reactive-programming-kotlin) - Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
 * [Introduction to Kotlin Programming by Hadi Hariri](http://shop.oreilly.com/product/0636920052982.do) - From Hello World to Interoperability with Java

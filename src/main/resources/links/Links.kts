@@ -150,7 +150,7 @@ category("Links") {
 	link {
       name = "Functional Kotlin"
       desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
-      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
+      href = "https://www.packtpub.com/application-development/functional-kotlin"
     }
     link {
       name = "Reactive Programming in Kotlin - Rivu Chakraborty"
