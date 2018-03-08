@@ -252,6 +252,13 @@ category("Android") {
       type = github
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
+    link {
+      name = "iglaweb/Ferris-Wheel"
+      desc = "Simple android library to present an animated ferris wheel"
+      href = "https://github.com/iglaweb/Ferris-Wheel"
+      type = github
+      tags = Tags["kotlin", "android", "android-library", "animation", "ferris-wheel", "kotlin-android", "customview"]
+    }
   }
   subcategory("Frameworks") {
     link {
