@@ -24,6 +24,7 @@ import java.time.format.SignStyle.EXCEEDS_PAD
 import java.time.format.TextStyle.FULL
 import java.time.temporal.ChronoField.MONTH_OF_YEAR
 import java.time.temporal.ChronoField.YEAR
+import java.util.Locale
 
 // TODO: FIXME: WARNING: Refactor SHIT code
 
@@ -128,6 +129,7 @@ private val dayFormatter: DateTimeFormatter = DateTimeFormatterBuilder()
     .appendLiteral(' ')
     .appendValue(YEAR, 4, 10, EXCEEDS_PAD)
     .toFormatter()
+    .withLocale(Locale.US)
 
 private fun getCategory(articles: List<Article>): Category {
     val groupByDate = articles.groupBy { it.date.format(dayFormatter) }

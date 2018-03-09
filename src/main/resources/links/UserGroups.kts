@@ -76,6 +76,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Spain"]
     }
+    link {
+      name = "Czech Kotlin User Group"
+      desc = "Czechia"
+      href = "http://kotliners.cz/"
+      type = kug
+      tags = Tags["Czechia", "Czech"]
+    }
   }
   subcategory("America") {
     link {
@@ -128,6 +135,13 @@ category("Kotlin User Groups") {
       href = "http://kotlin.cn/"
       type = kug
       tags = Tags["China"]
+    }
+  link {
+      name = "Kotlin Kolkata User Group"
+      desc = "Kolkata, India"
+      href = "https://facebook.com/KotlinKolkata/"
+      type = kug
+      tags = Tags["Kolkata","India"]
     }
   }
   subcategory("Australia") {

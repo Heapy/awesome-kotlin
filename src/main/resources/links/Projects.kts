@@ -150,6 +150,27 @@ category("Projects") {
       type = github
       tags = Tags["bytecode", "decompiler"]
     }
+    link {
+      name = "jenkinsci/doktor-plugin"
+      desc = "Jenkins plugin for automated documentation uploading to Confluence."
+      href = "https://github.com/jenkinsci/doktor-plugin"
+      type = github
+      tags = Tags["jenkins", "documentation", "confluence"]
+    }
+    link {
+      name = "mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
+      desc = "Gradle plugin to help with build and test of Jenkins Pipeline Shared Libraries."
+      href = "https://github.com/mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
+      type = github
+      tags = Tags["jenkins", "gradle"]
+    }
+    link {
+      name = "kpspemu/kpspemu"
+      desc = "Multiplatform (JS and JVM) PSP Emulator written in Kotlin."
+      href = "https://github.com/kpspemu/kpspemu"
+      type = github
+      tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+    }
   }
   subcategory("Desktop") {
     link {

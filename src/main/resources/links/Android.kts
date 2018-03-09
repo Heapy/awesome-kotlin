@@ -238,6 +238,20 @@ category("Android") {
       type = github
       tags = Tags["android", "trimming"]
     }
+    link {
+      name = "WindSekirun/RichUtilsKt"
+      desc = "Advancement Utils for Android Developer written in Kotlin."
+      href = "https://github.com/WindSekirun/RichUtilsKt"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
+      name = "TradeMe/MapMe"
+      desc = "A library that brings the adapter pattern and DiffUtil to Google Maps and MapBox."
+      href = "https://github.com/TradeMe/MapMe"
+      type = github
+      tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -401,6 +415,69 @@ category("Android") {
       type = github
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
+    link {
+      name = "hanjoongcho/aaf-easyphotomap"
+      desc = "This is a photomap app that shows photos taken on a map."
+      href = "https://github.com/hanjoongcho/aaf-easyphotomap"
+      type = github
+      tags = Tags["android", "application", "photomap", "map"]
+    }
+    link {
+      name = "Karumi/KataScreenshotKotlin"
+      desc = "An full exercise to learn how to create screenshot tests for Android"
+      href = "https://github.com/Karumi/KataScreenshotKotlin"
+      type = github
+      tags = Tags["android", "application", "testing", "screenshot"]
+    }
+    link {
+      name = "massivedisaster/AFM"
+      desc = "An library to help android developers working easly with activities and fragments with Kotlin"
+      href = "https://github.com/massivedisaster/AFM"
+      type = github
+      tags = Tags["android", "utils", "library", "material", "ui", "fragment", "activity", "sharedelements"]
+    }
+    link {
+      name = "mustafaberkaymutlu/uv-index"
+      desc = "A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP"
+      href = "https://github.com/mustafaberkaymutlu/uv-index"
+      type = github
+      tags = Tags["android", "instant-apps", "application", "dagger", "mvp"]
+    }
+    link {
+      name = "Karumi/KataSuperHeroesKotlin"
+      desc = "A full exercise to learn how to create espresso tests using test doubles and a dependency injector for Android written in Kotlin."
+      href = "https://github.com/Karumi/KataSuperHeroesKotlin"
+      type = github
+      tags = Tags["android", "application", "testing", "espresso", "test-doubles"]
+    }
+    link {
+      name = "Karumi/KataContactsKotlin"
+      desc = "An exercise to learn how to write software based on Clean Architecture using Kotlin."
+      href = "https://github.com/Karumi/KataContactsKotlin"
+      type = github
+      tags = Tags["architecture", "testing"]
+    }
+    link {
+      name = "Karumi/KataTODOApiClientKotlin"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin."
+      href = "https://github.com/Karumi/KataTODOApiClientKotlin"
+      type = github
+      tags = Tags["android", "testing", "stubbing-http"]
+    }
+    link {
+      name = "Karumi/MaxibonKataKotlin"
+      desc = "A ready to use playground to learn how to write tests using property-based testing in Kotlin. "
+      href = "https://github.com/Karumi/MaxibonKataKotlin"
+      type = github
+      tags = Tags["testing", "functional-programming", "property-based"]
+    }
+    link {
+      name = "hanjoongcho/aaf-easypassword"
+      desc = "A password manager using a single lock pattern for various type passwords management."
+      href = "https://github.com/hanjoongcho/aaf-easypassword"
+      type = github
+      tags = Tags["android", "application", "password-manager", "password-strength"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -418,6 +495,15 @@ category("Android") {
       href = "https://github.com/kiruto/debug-bottle"
       type = github
       tags = Tags["android", "debug"]
+    }
+  }
+  subcategory("Tests") {
+    link {
+      name = "agoda-com/Kakao"
+      desc = " Nice and simple DSL for Espresso in Kotlin."
+      href = "https://github.com/agoda-com/Kakao"
+      type = github
+      tags = Tags["espresso", "dsl "]
     }
   }
 }

@@ -118,6 +118,11 @@ category("Links") {
       desc = "An introduction to Kotlin"
       href = "https://kotlin.guide"
     }
+    link {
+      name = "Kotlin Academy"
+      desc = "Blog that teach about Kotlin"
+      href = "https://blog.kotlin-academy.com/"
+    }
   }
   subcategory("Books and Courses") {
     link {
@@ -143,6 +148,11 @@ category("Links") {
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
     }
     link {
+      name = "Reactive Programming in Kotlin - Rivu Chakraborty"
+      desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
+    }
+    link {
       name = "Kotlin Programming: Next Level Java Development"
       desc = "Learn coding in Kotlin from scratch!"
       href = "https://www.udemy.com/kotlin-course/"
@@ -156,6 +166,21 @@ category("Links") {
       name = "Advanced Kotlin Programming"
       desc = "From Nested Functions to Asynchronous Programming"
       href = "http://shop.oreilly.com/product/0636920052999.do"
+    }
+    link {
+      name = "Kotlin an Introduction - Caster.io"
+      desc = "Kotlin introductory course at Caster.io"
+      href = "https://caster.io/courses/introduction-to-kotlin/"
+    }
+    link {
+      name = "Android Development with Kotlin - Marcin Moskala, Igor Wojda"
+      desc = "Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code"
+      href = "https://www.packtpub.com/application-development/android-development-kotlin"
+    }
+    link {
+      name = "Mastering Android Development with Kotlin - Miloš Vasić"
+      desc = "Master Android development using a variety of Kotlin features"
+      href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
     }
   }
 }
