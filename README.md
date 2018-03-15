@@ -613,8 +613,10 @@ Here awesome badge for your project:
 * [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
 * [Sydney Kotlin User Group](https://www.meetup.com/Sydney-Kotlin-User-Group/) - Australia
 
-
 ## <a name="articles-blog-posts"></a>Articles, Blog Posts <sup>[Back ⇈](#articles-blog-posts-category)</sup>
+### <a name="articles-blog-posts-may-2018"></a>March 2018 <sup>[Back ⇈](#articles-blog-posts-march-2018-subcategory)</sup>
+* [Using Kotlin in a serverless architecture with AWS Lambda](https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4) - Juan Urrego
+
 ### <a name="articles-blog-posts-may-2017"></a>May 2017 <sup>[Back ⇈](#articles-blog-posts-may-2017-subcategory)</sup>
 * [Kotlin Native 0.2 Release](http://kotlin.link/articles/Kotlin-Native-0-2-Release.html) - Nikolay Igotti
 * [Kotlin/Native v0.2 is out](http://kotlin.link/articles/Kotlin-Native-v0-2-is-out.html) - Nikolay Igotti
