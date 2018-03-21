@@ -141,7 +141,7 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "hexagonkt/hexagon"
-      desc = "A Microservices framework that takes care of HTTP, serializtion and storage."
+      desc = "A Microservices framework that takes care of HTTP, serialization and storage."
       href = "https://github.com/hexagonkt/hexagon"
       type = github
       tags = Tags["web", "rest", "http"]
