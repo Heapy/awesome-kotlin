@@ -281,6 +281,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "mock"]
     }
+    link {
+      name = "mvysny/DynaTest"
+      desc = "Write your tests in DSL way. Runs on JUnit5 Platform."
+      href = "https://github.com/mvysny/dynatest"
+      type = github
+      tags = Tags["test", "assert", "dsl"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
