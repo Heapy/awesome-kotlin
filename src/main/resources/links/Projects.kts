@@ -171,6 +171,13 @@ category("Projects") {
       type = github
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
     }
+    link {
+      name = "chrislo27/RhythmHeavenRemixEditor"
+      desc = "An audio custom remix editor designed for the Rhythm Heaven series, using libGDX and Kotlin."
+      href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
+      type = github
+      tags = Tags["libgdx", "Rhythm Heaven", "custom remix"]
+    }
   }
   subcategory("Desktop") {
     link {
