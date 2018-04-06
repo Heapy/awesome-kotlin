@@ -605,6 +605,7 @@ Here awesome badge for your project:
 * [Chicago Kotlin Users Group](https://www.meetup.com/Chicago-Kotlin/) - USA
 * [Kotlin Group of Boulder](http://www.meetup.com/Kotlin-Group-Boulder/) - USA
 * [New York Kotlin Meetup](http://www.meetup.com/New-York-Kotlin-Meetup/) - USA
+* [Kotlin Curitiba](https://www.meetup.com/Kotlin-Curitiba/) - Brazil
 
 ### <a name="kotlin-user-groups-asia"></a>Asia <sup>[Back ⇈](#kotlin-user-groups-asia-subcategory)</sup>
 * [Japan Kotlin User Group](https://kotlin.doorkeeper.jp/) - Japan
