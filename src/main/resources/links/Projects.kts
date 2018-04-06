@@ -35,6 +35,13 @@ category("Projects") {
       tags = Tags["vertx.io", "async", "example"]
     }
     link {
+      name = "cbedoy/DYUM"
+      desc = "Basic Kotlin Implementation following MVP, and using Third Party library by Natural Analytics Language"
+      href = "https://github.com/cbedoy/DYUM"
+      type = github
+      tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
+    }
+    link {
       name = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
