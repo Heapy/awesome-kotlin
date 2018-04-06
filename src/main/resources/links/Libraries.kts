@@ -99,10 +99,11 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "vert.x"]
     }
     link {
-      name = "jooby/kotlin"
-      desc = "Kotlin idioms for Jooby microframework"
-      href = "http://jooby.org/doc/lang-kotlin"
-      tags = Tags["web", "jooby", "microframework"]
+      name = "jooby-project/jooby"
+      desc = "Modular micro web framework for Java and Kotlin"
+      href = "https://github.com/jooby-project/jooby/"
+      type = github
+      tags = Tags["web", "jooby", "microframework", "http", "rest"]
     }
     link {
       name = "gimlet2/kottpd"
