@@ -230,7 +230,7 @@ Here awesome badge for your project:
 * [oleksiyp/mockk](https://github.com/oleksiyp/mockk) - Pure Kotlin mocking library.
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
-* [SalomonBrys/Kodein](https://github.com/SalomonBrys/Kodein) - Painless Kotlin Dependency Injection .
+* [Kodein-Framework/Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI) - Painless Kotlin Dependency Injection .
 * [kohesive/injekt](https://github.com/kohesive/injekt) - (Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin.
 * [kailan/kodeinject](https://github.com/kailan/kodeinject) - Constructor dependency injection for Kodein.
 * [traversals/kapsule](https://github.com/traversals/kapsule) - Minimalist dependency injection library for Kotlin.
