@@ -99,10 +99,11 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "vert.x"]
     }
     link {
-      name = "jooby/kotlin"
-      desc = "Kotlin idioms for Jooby microframework"
-      href = "http://jooby.org/doc/lang-kotlin"
-      tags = Tags["web", "jooby", "microframework"]
+      name = "jooby-project/jooby"
+      desc = "Modular micro web framework for Java and Kotlin"
+      href = "https://github.com/jooby-project/jooby/"
+      type = github
+      tags = Tags["web", "jooby", "microframework", "http", "rest"]
     }
     link {
       name = "gimlet2/kottpd"
@@ -619,6 +620,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
     }
+    link {
+      name = "dizitart/potassium-nitrite"
+      desc = "Potassium Nitrite is a kotlin extension of nitrite database, an open source nosql embedded document store with mongodb like api."
+      href = "https://github.com/dizitart/nitrite-database/tree/master/potassium-nitrite"
+      type = github
+      tags = Tags["nosql", "embedded", "documentdb", "object-storage"]
+    }
   }
   subcategory("Tools") {
     link {
@@ -1076,6 +1084,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dsl", "logging", "android", "slf4j"]
     }
+    link {
+      name = "korlibs/kds"
+      desc = "Optimized Kotlin Data Structures for JVM, JS and Common"
+      href = "https://github.com/korlibs/kds"
+      type = github
+      tags = Tags["ds"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -1091,6 +1106,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vanshg/KrazyKotlin"
       type = github
       tags = Tags["extensions"]
+    }
+    link {
+      name = "hankdavidson/ktime"
+      desc = "Extensions to the java8 time library"
+      href = "https://github.com/hankdavidson/ktime"
+      type = github
+      tags = Tags["extensions", "jdk8", "time", "date", "range"]
     }
   }
   subcategory("Configuration") {

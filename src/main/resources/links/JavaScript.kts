@@ -62,6 +62,13 @@ category("Kotlin JavaScript") {
         type = github
         tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }
+     link {
+        name = "nosix/vue-kotlin"
+        desc = "Libraries and tools supporting the use of Vue.js in Kotlin"
+        href = "https://github.com/nosix/vue-kotlin"
+        type = github
+        tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
+}
   }
   subcategory("Frontend") {
     link {
