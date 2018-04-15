@@ -485,6 +485,20 @@ category("Android") {
       type = github
       tags = Tags["android", "application", "password-manager", "password-strength"]
     }
+    link {
+      name = "WilderPereira/lmgtfyGen"
+      desc = "Simple Android App to generate Let Me Google That For You urls."
+      href = "https://github.com/WilderPereira/lmgtfyGen"
+      type = github
+      tags = Tags["android", "application", "rx", "MVP"]
+    }
+    link {
+      name = "WilderPereira/ftwfy"
+      desc = "The real life Command/Ctrl + F - Android App that uses the Mobile Vision API to allow you to search for any occurrence of a text in a digital document."
+      href = "https://github.com/WilderPereira/ftwfy"
+      type = github
+      tags = Tags["android", "application", "ocr", "android-vision", "computer-vision"]
+    }
   }
   subcategory("Extensions") {
     link {

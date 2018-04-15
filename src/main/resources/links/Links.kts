@@ -123,6 +123,11 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
+    link {
+      name = "Google's Kotlin Codelab "
+      desc = "Build your first Kotlin Android App"
+      href = "https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/"
+    }
   }
   subcategory("Books and Courses") {
     link {
