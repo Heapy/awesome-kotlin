@@ -169,6 +169,7 @@ Here awesome badge for your project:
 * [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
 * [Kotlin Guide](https://kotlin.guide) - An introduction to Kotlin
 * [Kotlin Academy](https://blog.kotlin-academy.com/) - Blog that teach about Kotlin
+* [Google's Kotlin Codelab](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
