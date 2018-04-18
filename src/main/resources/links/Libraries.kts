@@ -1243,6 +1243,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
+    }    
+    link {
+      name = "java-opengl-labs/Vulkan"
+      desc = "port of https://github.com/SaschaWillems/Vulkan"
+      href = "https://github.com/java-opengl-labs/Vulkan"
+      type = github
+      tags = Tags["vulkan", "tutorial", "lwjgl"]
     }
     link {
       name = "kotlin-graphics/imgui"
