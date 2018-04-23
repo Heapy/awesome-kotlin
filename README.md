@@ -601,6 +601,7 @@ Here awesome badge for your project:
 * [Kotlin User Group Cologne](https://www.meetup.com/Kotlin-User-Group-Cologne/) - Germany
 * [Kotlin.es](http://kotlin.es/) - Spain
 * [Czech Kotlin User Group](http://kotliners.cz/) - Czechia
+* [Kotlin Swiss User Group](https://www.meetup.com/Kotlin-Swiss-User-Group/) - Switzerland
 
 ### <a name="kotlin-user-groups-america"></a>America <sup>[Back ⇈](#kotlin-user-groups-america-subcategory)</sup>
 * [Bay Area Kotlin User Group](http://www.meetup.com/Bay-Area-Kotlin-User-Group/) - USA

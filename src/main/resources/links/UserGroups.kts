@@ -83,6 +83,13 @@ category("Kotlin User Groups") {
       type = kug
       tags = Tags["Czechia", "Czech"]
     }
+    link {
+      name = "Kotlin Swiss User Group"
+      desc = "Switzerland"
+      href = "https://www.meetup.com/Kotlin-Swiss-User-Group/"
+      type = kug
+      tags = Tags["Switzerland", "Swiss", "CH", "Zürich", "Zurich", "Luzern", "Lucerne", "Basel", "Bern", "Berne", "St. Gallen"]
+    }
   }
   subcategory("America") {
     link {
