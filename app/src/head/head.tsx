@@ -12,7 +12,7 @@ export class Head extends React.Component<{}, HeadState> {
 
   changeLogo = () => {
     this.setState({
-      counter: (this.state.counter + 1) % 3
+      counter: (this.state.counter + 1) % 4
     });
   };
 
@@ -35,17 +35,24 @@ function getLogo(index: number) {
   switch (index) {
     case 0:
       return (
+        <img src={require("./kotlin-force.svg")}
+             alt="Kotlin Language Logo"
+             title="May the 4th Be With You!"
+             className={styles.head_logo}/>
+      );
+    case 1:
+      return (
         <img src={require("./kotlin-0.svg")}
              alt="Kotlin Language Logo"
              className={styles.head_logo}/>
       );
-    case 1:
+    case 2:
       return (
         <img src={require("./kotlin-1.svg")}
              alt="Kotlin Language Logo"
              className={styles.head_logo}/>
       );
-    case 2:
+    case 3:
       return (
         <img src={require("./kotlin-2.png")}
              alt="Kotlin Language Logo"
