@@ -68,7 +68,7 @@ function logosProvider(): Logo[] {
     show: () => {
       const today = new Date();
       // May, 4
-      return today.getMonth() == 4 && today.getDate() == 4;
+      return today.getMonth() === 4 && today.getDate() === 4;
     }
   }, {
     src: require("./kotlin-0.svg"),
