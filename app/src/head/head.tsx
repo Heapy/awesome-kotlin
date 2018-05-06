@@ -2,64 +2,85 @@ import * as React from "react";
 
 const styles = require("./head.less");
 
-export class Head extends React.Component<{}, HeadState> {
+export class Head extends React.Component<{}, State> {
   constructor(props) {
     super(props);
     this.state = {
-      counter: 0
+      counter: 0,
+      logos: logosProvider()
     };
   }
 
   changeLogo = () => {
+    const {
+      counter,
+      logos
+    } = this.state;
+
     this.setState({
-      counter: (this.state.counter + 1) % 4
+      counter: (counter + 1) % logos.length
     });
   };
 
   render() {
+    const {
+      counter,
+      logos
+    } = this.state;
+
     return (
       <section className={styles.head}>
         <div className={styles.head_wrapper} onClick={this.changeLogo}>
-          {getLogo(this.state.counter)}
+          {getLogo(counter, logos)}
         </div>
       </section>
     );
   }
 }
 
-interface HeadState {
-  counter: number;
+interface State {
+  readonly counter: number;
+  readonly logos: Logo[];
 }
 
-function getLogo(index: number) {
-  switch (index) {
-    case 0:
-      return (
-        <img src={require("./kotlin-force.svg")}
-             alt="Kotlin Language Logo"
-             title="May the 4th Be With You!"
-             className={styles.head_logo}/>
-      );
-    case 1:
-      return (
-        <img src={require("./kotlin-0.svg")}
-             alt="Kotlin Language Logo"
-             className={styles.head_logo}/>
-      );
-    case 2:
-      return (
-        <img src={require("./kotlin-1.svg")}
-             alt="Kotlin Language Logo"
-             className={styles.head_logo}/>
-      );
-    case 3:
-      return (
-        <img src={require("./kotlin-2.png")}
-             alt="Kotlin Language Logo"
-             className={styles.head_logo}/>
-      );
-    default:
-      return getLogo(0);
-  }
+interface Logo {
+  readonly src: string;
+  readonly alt: string;
+  readonly show: Predicate;
 }
 
+type Predicate = () => boolean;
+
+function getLogo(index: number, logos: Logo[]) {
+  const logo = logos[index];
+
+  return (
+    <img src={logo.src}
+         alt={logo.alt}
+         className={styles.head_logo}/>
+  );
+}
+
+function logosProvider(): Logo[] {
+  return [{
+    src: require("./kotlin-force.svg"),
+    alt: "Kotlin Language Logo",
+    show: () => {
+      const today = new Date();
+      // May, 4
+      return today.getMonth() == 4 && today.getDate() == 4;
+    }
+  }, {
+    src: require("./kotlin-0.svg"),
+    alt: "Kotlin Language Logo",
+    show: () => true
+  }, {
+    src: require("./kotlin-1.svg"),
+    alt: "Kotlin Language Logo",
+    show: () => true
+  }, {
+    src: require("./kotlin-2.png"),
+    alt: "Kotlin Language Logo",
+    show: () => true
+  }].filter(it => it.show());
+}
