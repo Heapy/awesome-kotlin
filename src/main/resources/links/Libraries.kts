@@ -285,16 +285,9 @@ category("Libraries/Frameworks") {
   }
   subcategory("Dependency Injection") {
     link {
-      name = "SalomonBrys/Kodein"
-      desc = "Painless Kotlin Dependency Injection ."
-      href = "https://github.com/SalomonBrys/Kodein"
-      type = github
-      tags = Tags["di", "dependency injection"]
-    }
-    link {
-      name = "kohesive/injekt"
-      desc = "(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin."
-      href = "https://github.com/kohesive/injekt"
+      name = "Kodein-Framework/Kodein-DI"
+      desc = "Painless Kotlin Dependency Injection."
+      href = "https://github.com/Kodein-Framework/Kodein-DI"
       type = github
       tags = Tags["di", "dependency injection"]
     }
@@ -373,9 +366,9 @@ category("Libraries/Frameworks") {
   }
   subcategory("Functional Programming") {
     link {
-      name = "MarioAriasC/funKTionale"
-      desc = "Functional constructs for Kotlin."
-      href = "https://github.com/MarioAriasC/funKTionale"
+      name = "arrow-kt/arrow"
+      desc = "Functional companion to Kotlin's Standard Library."
+      href = "https://github.com/arrow-kt/arrow"
       type = github
       tags = Tags["fp", "functional"]
     }
@@ -434,13 +427,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/h0tk3y/kotlin-monads"
       type = github
       tags = Tags["fp", "functional", "monads"]
-    }
-    link {
-      name = "Kategory/Kategory"
-      desc = "Functional datatypes & abstractions for Kotlin."
-      href = "https://github.com/Kategory/Kategory"
-      type = github
-      tags = Tags["fp", "functional", "typeclasses", "comprehensions", "lenses", "optics"]
     }
     link {
       name = "poetix/klenses"
