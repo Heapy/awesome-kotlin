@@ -846,6 +846,13 @@ category("Kotlin User Groups") {
       tags = Tags["Bolivia"]
     }
     link {
+      name = "Curitiba Kotlin User Group"
+      desc = "Brazil"
+      href = "https://www.meetup.com/Kotlin-Curitiba/"
+      type = kug
+      tags = Tags["Brazil"]
+    }
+    link {
       name = "El Alto Kotlin User Group"
       desc = "Bolivia"
       href = "https://www.meetup.com/es/Kotlin-El-Alto/?_cookie-check=x7g06koKCyQaUPnm"
