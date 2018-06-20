@@ -178,6 +178,13 @@ category("Projects") {
       type = github
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
     }
+    link {
+      name = "sourcerer-io/sourcerer-app"
+      desc = "Visual profile for software engineers written in Kotlin."
+      href = "https://github.com/sourcerer-io/sourcerer-app"
+      type = github
+      tags = Tags["code analysis", "visualization", "resume", "profile"]
+    }
   }
   subcategory("Desktop") {
     link {
