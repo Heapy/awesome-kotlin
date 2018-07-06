@@ -123,6 +123,11 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
+    link {
+      name = "Kotlin Quiz"
+      desc = "Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!"
+      href = "https://kotlinquiz.com"
+    }
   }
   subcategory("Books and Courses") {
     link {
