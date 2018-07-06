@@ -148,7 +148,7 @@ category("Projects") {
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github
-      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
     }
     link {
       name = "borisf/classyshark-bytecode-viewer"

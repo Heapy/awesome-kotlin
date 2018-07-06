@@ -154,11 +154,11 @@ category("Android") {
       tags = Tags["android", "layout"]
     }
     link {
-      name =  "DanielMartinus/Stepper-Touch"
-      desc =  "Fun playful Android stepper widget for counting, written in Kotlin."
-      href =  "https://github.com/DanielMartinus/Stepper-Touch"
-      type =  github
-      tags =  Tags["widget", "android", "counter", "ui"]
+      name = "DanielMartinus/Stepper-Touch"
+      desc = "Fun playful Android stepper widget for counting, written in Kotlin."
+      href = "https://github.com/DanielMartinus/Stepper-Touch"
+      type = github
+      tags = Tags["widget", "android", "counter", "ui"]
     }
     link {
       name = "GlimpseFramework/glimpse-framework-android"
@@ -189,11 +189,11 @@ category("Android") {
       tags = Tags["android", "apt"]
     }
     link {
-      name =  "DanielMartinus/Konfetti"
-      desc =  "Lightweight particle system to create realistic confetti"
-      href =  "https://github.com/DanielMartinus/Konfetti"
-      type =  github
-      tags =  Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
+      name = "DanielMartinus/Konfetti"
+      desc = "Lightweight particle system to create realistic confetti"
+      href = "https://github.com/DanielMartinus/Konfetti"
+      type = github
+      tags = Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
     }
     link {
       name = "rahulchowdhury/Mystique"
@@ -215,7 +215,7 @@ category("Android") {
       href = "https://github.com/costular/kotlin-android-utils"
       type = github
       tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
-      "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
+        "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
     link {
       name = "rakshakhegde/ObservableFlow"

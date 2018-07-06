@@ -56,25 +56,25 @@ category("Kotlin JavaScript") {
       tags = Tags["boilerplate", "javascript", "kotlin2js"]
     }
     link {
-        name = "markaren/three.kt"
-        desc = "Kotlin wrappers for three.js JavaScript 3D library"
-        href = "https://github.com/markaren/three.kt"
-        type = github
-        tags = Tags["web", "javascript", "kotlin-js", "three-js"]
+      name = "markaren/three.kt"
+      desc = "Kotlin wrappers for three.js JavaScript 3D library"
+      href = "https://github.com/markaren/three.kt"
+      type = github
+      tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }
     link {
-        name = "rjaros/kvision"
-        desc = "Object oriented Web UI framework for Kotlin/JS"
-        href = "https://github.com/rjaros/kvision"
-        type = github
-        tags = Tags["web", "javascript", "kotlin-js", "framework"]
+      name = "rjaros/kvision"
+      desc = "Object oriented Web UI framework for Kotlin/JS"
+      href = "https://github.com/rjaros/kvision"
+      type = github
+      tags = Tags["web", "javascript", "kotlin-js", "framework"]
     }
     link {
-        name = "nosix/vue-kotlin"
-        desc = "Libraries and tools supporting the use of Vue.js in Kotlin"
-        href = "https://github.com/nosix/vue-kotlin"
-        type = github
-        tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
+      name = "nosix/vue-kotlin"
+      desc = "Libraries and tools supporting the use of Vue.js in Kotlin"
+      href = "https://github.com/nosix/vue-kotlin"
+      type = github
+      tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
     }
   }
   subcategory("Frontend") {
