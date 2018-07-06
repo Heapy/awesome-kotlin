@@ -154,11 +154,11 @@ category("Android") {
       tags = Tags["android", "layout"]
     }
     link {
-      name =  "DanielMartinus/Stepper-Touch"
-      desc =  "Fun playful Android stepper widget for counting, written in Kotlin."
-      href =  "https://github.com/DanielMartinus/Stepper-Touch"
-      type =  github
-      tags =  Tags["widget", "android", "counter", "ui"]
+      name = "DanielMartinus/Stepper-Touch"
+      desc = "Fun playful Android stepper widget for counting, written in Kotlin."
+      href = "https://github.com/DanielMartinus/Stepper-Touch"
+      type = github
+      tags = Tags["widget", "android", "counter", "ui"]
     }
     link {
       name = "GlimpseFramework/glimpse-framework-android"
@@ -189,11 +189,11 @@ category("Android") {
       tags = Tags["android", "apt"]
     }
     link {
-      name =  "DanielMartinus/Konfetti"
-      desc =  "Lightweight particle system to create realistic confetti"
-      href =  "https://github.com/DanielMartinus/Konfetti"
-      type =  github
-      tags =  Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
+      name = "DanielMartinus/Konfetti"
+      desc = "Lightweight particle system to create realistic confetti"
+      href = "https://github.com/DanielMartinus/Konfetti"
+      type = github
+      tags = Tags["library", "particle", "confetti", "ui", "konfetti", "confetti"]
     }
     link {
       name = "rahulchowdhury/Mystique"
@@ -215,7 +215,7 @@ category("Android") {
       href = "https://github.com/costular/kotlin-android-utils"
       type = github
       tags = Tags["kotlin", "android", "kotlin-android", "android-utils",
-      "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
+        "fragments", "activity", "permissions", "utils", "notifications", "android-kotlin", "library"]
     }
     link {
       name = "rakshakhegde/ObservableFlow"
@@ -251,6 +251,27 @@ category("Android") {
       href = "https://github.com/TradeMe/MapMe"
       type = github
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
+    }
+    link {
+      name = "ehsunshine/colored-time-selector"
+      desc = "A smart colored time selector. Users can select just free time with a handy colorful range selector."
+      href = "https://github.com/ehsunshine/colored-time-selector"
+      type = github
+      tags = Tags["selector", "range", "time", "timebar", "kotlin", "kotlin-android", "rangebar", "market"]
+    }
+    link {
+      name = "yundom/kache"
+      desc = "A lightweight cache library written in Kotlin."
+      href = "https://github.com/yundom/kache"
+      type = github
+      tags = Tags["cache", "kotlin"]
+    }
+    link {
+      name = "adrielcafe/KBus"
+      desc = "Dead simple EventBus for Android made with Kotlin and RxJava 2"
+      href = "https://github.com/adrielcafe/KBus"
+      type = github
+      tags = Tags["android", "eventbus", "rxjava"]
     }
   }
   subcategory("Frameworks") {
