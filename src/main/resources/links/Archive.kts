@@ -1,4 +1,4 @@
-import link.kotlin.scripts.LinkType
+import link.kotlin.scripts.LinkType.github
 import link.kotlin.scripts.LinkType.kug
 import link.kotlin.scripts.Tags
 import link.kotlin.scripts.category
@@ -14,29 +14,36 @@ category("Archive") {
       name = "Kategory/Kategory"
       desc = "Functional datatypes & abstractions for Kotlin."
       href = "https://github.com/Kategory/Kategory"
-      type = LinkType.github
+      type = github
       tags = Tags["fp", "functional", "typeclasses", "comprehensions", "lenses", "optics"]
     }
     link {
       name = "MarioAriasC/funKTionale"
       desc = "Functional constructs for Kotlin."
       href = "https://github.com/MarioAriasC/funKTionale"
-      type = LinkType.github
+      type = github
       tags = Tags["fp", "functional"]
     }
     link {
       name = "SalomonBrys/Kodein"
       desc = "Painless Kotlin Dependency Injection ."
       href = "https://github.com/SalomonBrys/Kodein"
-      type = LinkType.github
+      type = github
       tags = Tags["di", "dependency injection"]
     }
     link {
       name = "kohesive/injekt"
       desc = "(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin."
       href = "https://github.com/kohesive/injekt"
-      type = LinkType.github
+      type = github
       tags = Tags["di", "dependency injection"]
+    }
+    link {
+      name = "raniejade/kspec"
+      desc = "Kotlin Specification Framework."
+      href = "https://github.com/raniejade/kspec"
+      type = github
+      tags = Tags["test", "bdd"]
     }
   }
   subcategory("Kotlin User Group") {

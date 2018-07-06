@@ -241,13 +241,6 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "bdd", "gherkin"]
     }
     link {
-      name = "raniejade/kspec"
-      desc = "Kotlin Specification Framework."
-      href = "https://github.com/raniejade/kspec"
-      type = github
-      tags = Tags["test", "bdd"]
-    }
-    link {
       name = "EPadronU/balin"
       desc = "Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb."
       href = "https://github.com/EPadronU/balin"
