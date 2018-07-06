@@ -253,6 +253,13 @@ category("Android") {
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
     link {
+      name = "yundom/kache"
+      desc = "A lightweight cache library written in Kotlin."
+      href = "https://github.com/yundom/kache"
+      type = github
+      tags = Tags["cache", "kotlin"]
+    }
+    link {
       name = "adrielcafe/KBus"
       desc = "Dead simple EventBus for Android made with Kotlin and RxJava 2"
       href = "https://github.com/adrielcafe/KBus"
