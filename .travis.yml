@@ -12,7 +12,8 @@ script:
   - ./gradlew check installDist
 deploy:
   - provider: script
-    script: bash ./deploy.sh
+    script: bash deploy.sh
+    skip_cleanup: true
     on:
       branch: master
 cache:
