@@ -356,6 +356,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["coroutines", "spring"]
     }
+    link {
+      name = "cloudoptlab/cloudopt-next"
+      desc = "A next-generation Java web lightweight framework based on vertx and kotlin. "
+      href = "https://github.com/cloudoptlab/cloudopt-next"
+      type = github
+      tags = Tags["web", "vertx", "spring", "restful", "springboot", "springboot", "cloudopt", "next"]
+    }
   }
   subcategory("Functional Programming") {
     link {
