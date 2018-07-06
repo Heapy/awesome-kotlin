@@ -147,6 +147,11 @@ category("Links") {
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
     }
+	link {
+      name = "Functional Kotlin"
+      desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/functional-kotlin"
+    }
     link {
       name = "Reactive Programming in Kotlin - Rivu Chakraborty"
       desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
