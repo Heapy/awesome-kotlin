@@ -1071,6 +1071,13 @@ category("Libraries/Frameworks") {
       tags = Tags["dsl", "logging", "android", "slf4j"]
     }
     link {
+      name = "evoasm/kasm"
+      desc = "x64/x86-64 assembler and execution library"
+      href = "https://github.com/evoasm/kasm"
+      type = github
+      tags = Tags["x64", "x86", "assembly", "assembler"]
+    }
+    link {
       name = "korlibs/kds"
       desc = "Optimized Kotlin Data Structures for JVM, JS and Common"
       href = "https://github.com/korlibs/kds"
