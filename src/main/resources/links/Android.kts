@@ -253,6 +253,13 @@ category("Android") {
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
     link {
+      name = "iglaweb/Ferris-Wheel"
+      desc = "Simple android library to present an animated ferris wheel"
+      href = "https://github.com/iglaweb/Ferris-Wheel"
+      type = github
+      tags = Tags["kotlin", "android", "android-library", "animation", "ferris-wheel", "kotlin-android", "customview"]
+    }
+    link {
       name = "ehsunshine/colored-time-selector"
       desc = "A smart colored time selector. Users can select just free time with a handy colorful range selector."
       href = "https://github.com/ehsunshine/colored-time-selector"
