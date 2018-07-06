@@ -76,6 +76,13 @@ category("Kotlin JavaScript") {
       type = github
       tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
     }
+    link {
+        name = "Kabbura/Kunafa"
+        desc = "Easy to use, high level framework in Kotlin for front-end web-development and creating web apps without using HTML, CSS, or JavaScript."
+        href = "https://github.com/Kabbura/Kunafa"
+        type = github
+        tags = Tags["web", "javascript", "kotlin-js"]
+    }
   }
   subcategory("Frontend") {
     link {
