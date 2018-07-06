@@ -123,6 +123,11 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
+    link {
+      name = "Kotlin Quiz"
+      desc = "Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!"
+      href = "https://kotlinquiz.com"
+    }
   }
   subcategory("Books and Courses") {
     link {
@@ -146,6 +151,11 @@ category("Links") {
       name = "Kotlin for Java Developers"
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
+    }
+	link {
+      name = "Functional Kotlin"
+      desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/functional-kotlin"
     }
     link {
       name = "Reactive Programming in Kotlin - Rivu Chakraborty"
