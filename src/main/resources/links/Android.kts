@@ -280,6 +280,13 @@ category("Android") {
       type = github
       tags = Tags["android", "eventbus", "rxjava"]
     }
+    link {
+      name = "Jintin/MixAdapter"
+      desc = "Compose multiple Adapter for RecyclerView in Android."
+      href = "https://github.com/Jintin/MixAdapter"
+      type = github
+      tags = Tags["RecyclerView", "Adapter", "kotlin", "kotlin-android"]
+    }
   }
   subcategory("Frameworks") {
     link {
