@@ -23,3 +23,5 @@ before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
   - rm -rf $HOME/.gradle/caches/*/fileHashes/
+git:
+  depth: 1

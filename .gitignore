@@ -3,6 +3,7 @@ npm-debug.log
 dist
 app/LinksWithStars.json
 /project.env
+/versions.json
 
 # Kotlin/Gradle/Idea
 .idea
@@ -10,3 +11,6 @@ app/LinksWithStars.json
 build
 out
 *.iml
+
+# Local folders
+/talking_kotlin

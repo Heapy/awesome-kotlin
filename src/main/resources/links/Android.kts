@@ -252,6 +252,13 @@ category("Android") {
       type = github
       tags = Tags["diffutil", "googlemaps", "mapbox", "maps", "kotlin", "kotlin-android", "recyclerview", "markers"]
     }
+    link {
+      name = "adrielcafe/KBus"
+      desc = "Dead simple EventBus for Android made with Kotlin and RxJava 2"
+      href = "https://github.com/adrielcafe/KBus"
+      type = github
+      tags = Tags["android", "eventbus", "rxjava"]
+    }
   }
   subcategory("Frameworks") {
     link {

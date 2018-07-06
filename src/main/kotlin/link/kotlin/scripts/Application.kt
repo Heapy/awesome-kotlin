@@ -93,6 +93,15 @@ object Application {
             write(Paths.get("./dist/rss-full.xml"), fullRss.toByteArray(), CREATE, TRUNCATE_EXISTING)
         }
 
+        measureAndLog("fetching latest kotlin versions") {
+            val fetcher = MavenCentralVersionFetcher(
+                okHttpClient
+            )
+
+            val versions = fetcher.getLatestVersions(listOf("1.0", "1.1", "1.2"))
+            write(Paths.get("./versions.json"), mapper.writeValueAsBytes(versions), CREATE, TRUNCATE_EXISTING)
+        }
+
         okHttpClient.dispatcher().executorService().shutdown()
     }
 
