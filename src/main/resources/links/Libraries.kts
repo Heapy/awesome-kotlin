@@ -282,8 +282,6 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "assert", "dsl"]
     }
-  }
-  subcategory("Dependency Injection") {
     link {
       name = "tyro/arbitrater"
       desc = "Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing."
