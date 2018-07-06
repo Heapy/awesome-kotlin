@@ -6,12 +6,12 @@ import org.gradle.kotlin.dsl.repositories
 import org.jetbrains.kotlin.gradle.dsl.Coroutines
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 
-val kotlinVersion by project
-val commonMarkVersion by project
+val kotlinVersion: String by project
+val commonMarkVersion: String by project
 
 plugins {
     application
-    kotlin("jvm") version "1.2.20"
+    kotlin("jvm") version "1.2.41"
 }
 
 application {
@@ -30,7 +30,7 @@ repositories {
 dependencies {
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.20")
+    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.22.5")
 
     compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2")
     compile("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.3")
@@ -44,6 +44,7 @@ dependencies {
     compile("by.heap.remark:remark-kotlin:1.2.0")
 
     compile("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
+    compile("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion")
     compile("com.atlassian.commonmark:commonmark:$commonMarkVersion")
     compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:$commonMarkVersion")
 

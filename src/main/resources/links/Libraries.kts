@@ -99,10 +99,11 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "vert.x"]
     }
     link {
-      name = "jooby/kotlin"
-      desc = "Kotlin idioms for Jooby microframework"
-      href = "http://jooby.org/doc/lang-kotlin"
-      tags = Tags["web", "jooby", "microframework"]
+      name = "jooby-project/jooby"
+      desc = "Modular micro web framework for Java and Kotlin"
+      href = "https://github.com/jooby-project/jooby/"
+      type = github
+      tags = Tags["web", "jooby", "microframework", "http", "rest"]
     }
     link {
       name = "gimlet2/kottpd"
@@ -284,16 +285,9 @@ category("Libraries/Frameworks") {
   }
   subcategory("Dependency Injection") {
     link {
-      name = "SalomonBrys/Kodein"
-      desc = "Painless Kotlin Dependency Injection ."
-      href = "https://github.com/SalomonBrys/Kodein"
-      type = github
-      tags = Tags["di", "dependency injection"]
-    }
-    link {
-      name = "kohesive/injekt"
-      desc = "(Deprecated, @see Kodein) Dependency Injection / Object Factory for Kotlin."
-      href = "https://github.com/kohesive/injekt"
+      name = "Kodein-Framework/Kodein-DI"
+      desc = "Painless Kotlin Dependency Injection."
+      href = "https://github.com/Kodein-Framework/Kodein-DI"
       type = github
       tags = Tags["di", "dependency injection"]
     }
@@ -372,9 +366,9 @@ category("Libraries/Frameworks") {
   }
   subcategory("Functional Programming") {
     link {
-      name = "MarioAriasC/funKTionale"
-      desc = "Functional constructs for Kotlin."
-      href = "https://github.com/MarioAriasC/funKTionale"
+      name = "arrow-kt/arrow"
+      desc = "Functional companion to Kotlin's Standard Library."
+      href = "https://github.com/arrow-kt/arrow"
       type = github
       tags = Tags["fp", "functional"]
     }
@@ -433,13 +427,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/h0tk3y/kotlin-monads"
       type = github
       tags = Tags["fp", "functional", "monads"]
-    }
-    link {
-      name = "Kategory/Kategory"
-      desc = "Functional datatypes & abstractions for Kotlin."
-      href = "https://github.com/Kategory/Kategory"
-      type = github
-      tags = Tags["fp", "functional", "typeclasses", "comprehensions", "lenses", "optics"]
     }
     link {
       name = "poetix/klenses"
@@ -618,6 +605,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/SubiyaCryolite/jds"
       type = github
       tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
+    }
+    link {
+      name = "dizitart/potassium-nitrite"
+      desc = "Potassium Nitrite is a kotlin extension of nitrite database, an open source nosql embedded document store with mongodb like api."
+      href = "https://github.com/dizitart/nitrite-database/tree/master/potassium-nitrite"
+      type = github
+      tags = Tags["nosql", "embedded", "documentdb", "object-storage"]
     }
   }
   subcategory("Tools") {
@@ -1076,6 +1070,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dsl", "logging", "android", "slf4j"]
     }
+    link {
+      name = "evoasm/kasm"
+      desc = "x64/x86-64 assembler and execution library"
+      href = "https://github.com/evoasm/kasm"
+      type = github
+      tags = Tags["x64", "x86", "assembly", "assembler"]
+    }
+    link {
+      name = "korlibs/kds"
+      desc = "Optimized Kotlin Data Structures for JVM, JS and Common"
+      href = "https://github.com/korlibs/kds"
+      type = github
+      tags = Tags["ds"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -1091,6 +1099,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vanshg/KrazyKotlin"
       type = github
       tags = Tags["extensions"]
+    }
+    link {
+      name = "hankdavidson/ktime"
+      desc = "Extensions to the java8 time library"
+      href = "https://github.com/hankdavidson/ktime"
+      type = github
+      tags = Tags["extensions", "jdk8", "time", "date", "range"]
     }
   }
   subcategory("Configuration") {
