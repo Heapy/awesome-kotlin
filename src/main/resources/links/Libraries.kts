@@ -1165,7 +1165,7 @@ category("Libraries/Frameworks") {
       desc = "g-truck glm port, opengl mathematics library"
       href = "https://github.com/kotlin-graphics/glm"
       type = github
-      tags = Tags["glm", "opengl", "vulkan"]
+      tags = Tags["glm", "opengl", "vulkan", "matrices", "vectors", "math-library"]
     }
     link {
       name = "kotlin-graphics/kotlin-unsigned"
@@ -1179,7 +1179,7 @@ category("Libraries/Frameworks") {
       desc = "g-truck gli port, image library"
       href = "https://github.com/kotlin-graphics/gli"
       type = github
-      tags = Tags["gli", "opengl", "vulkan"]
+      tags = Tags["gli", "opengl", "vulkan", "texture"]
     }
     link {
       name = "kotlin-graphics/uno-sdk"
@@ -1200,14 +1200,28 @@ category("Libraries/Frameworks") {
       desc = "OpenVR binding"
       href = "https://github.com/kotlin-graphics/openvr"
       type = github
-      tags = Tags["vr", "openvr", "opengl", "vulkan"]
+      tags = Tags["vr", "openvr", "steamvr", "opengl", "vulkan"]
     }
     link {
       name = "kotlin-graphics/assimp"
       desc = "Open Asset Import Library port"
       href = "https://github.com/kotlin-graphics/assimp"
       type = github
-      tags = Tags["assimp", "stl", "md2", "ply", "obj", "collada", "opengl", "vulkan"]
+      tags = Tags["assimp", "stl", "md2", "ply", "obj", "collada", "fbx", "opengl", "vulkan"]
+    }
+    link {
+      name = "kotlin-graphics/imgui"
+      desc = "jvm port of imgui"
+      href = "https://github.com/kotlin-graphics/imgui"
+      type = github
+      tags = Tags["opengl", "gui", "gamedev", "dear-imgui"]
+    }
+    link {
+      name = "kotlin-graphics/bullet"
+      desc = "bullet port"
+      href = "https://github.com/kotlin-graphics/bullet"
+      type = github
+      tags = Tags["opengl", "vulkan", "gamedev", "physics", "simulation", "robotics", "kinematics"]
     }
     link {
       name = "GlimpseFramework/glimpse-framework"
@@ -1229,13 +1243,6 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }
-    link {
-      name = "kotlin-graphics/imgui"
-      desc = "jvm port of imgui"
-      href = "https://github.com/kotlin-graphics/imgui"
-      type = github
-      tags = Tags["opengl", "gui", "gamedev"]
     }
     link {
       name = "Jonatino/JOGL2D"
