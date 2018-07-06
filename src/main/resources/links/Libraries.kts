@@ -276,6 +276,13 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "mock"]
     }
     link {
+      name = "mvysny/DynaTest"
+      desc = "Write your tests in DSL way. Runs on JUnit5 Platform."
+      href = "https://github.com/mvysny/dynatest"
+      type = github
+      tags = Tags["test", "assert", "dsl"]
+    }
+    link {
       name = "tyro/arbitrater"
       desc = "Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing."
       href = "https://github.com/tyro/arbitrater"
