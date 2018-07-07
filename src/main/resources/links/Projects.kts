@@ -345,5 +345,12 @@ category("Projects") {
       type = github
       tags = Tags["idea", "plugin"]
     }
+    link {
+      name = "izhangzhihao/intellij-rainbow-brackets"
+      desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
+      href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
   }
 }
