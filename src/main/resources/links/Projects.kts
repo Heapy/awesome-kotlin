@@ -185,6 +185,13 @@ category("Projects") {
       type = github
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
     }
+    link {
+      name = "Poweranimal/PowerCollections"
+      desc = "Powerfull Collections, Sets, Lists and Maps."
+      href = "https://github.com/Poweranimal/PowerCollections"
+      type = github
+      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
+    }
   }
   subcategory("Desktop") {
     link {
