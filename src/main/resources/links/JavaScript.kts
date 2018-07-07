@@ -56,19 +56,33 @@ category("Kotlin JavaScript") {
       tags = Tags["boilerplate", "javascript", "kotlin2js"]
     }
     link {
-        name = "markaren/three.kt"
-        desc = "Kotlin wrappers for three.js JavaScript 3D library"
-        href = "https://github.com/markaren/three.kt"
-        type = github
-        tags = Tags["web", "javascript", "kotlin-js", "three-js"]
+      name = "markaren/three.kt"
+      desc = "Kotlin wrappers for three.js JavaScript 3D library"
+      href = "https://github.com/markaren/three.kt"
+      type = github
+      tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }
-     link {
-        name = "nosix/vue-kotlin"
-        desc = "Libraries and tools supporting the use of Vue.js in Kotlin"
-        href = "https://github.com/nosix/vue-kotlin"
+    link {
+      name = "rjaros/kvision"
+      desc = "Object oriented Web UI framework for Kotlin/JS"
+      href = "https://github.com/rjaros/kvision"
+      type = github
+      tags = Tags["web", "javascript", "kotlin-js", "framework"]
+    }
+    link {
+      name = "nosix/vue-kotlin"
+      desc = "Libraries and tools supporting the use of Vue.js in Kotlin"
+      href = "https://github.com/nosix/vue-kotlin"
+      type = github
+      tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
+    }
+    link {
+        name = "Kabbura/Kunafa"
+        desc = "Easy to use, high level framework in Kotlin for front-end web-development and creating web apps without using HTML, CSS, or JavaScript."
+        href = "https://github.com/Kabbura/Kunafa"
         type = github
-        tags = Tags["vuejs2", "javascript", "kotlin-js", "gradle-plugin", "ui"]
-}
+        tags = Tags["web", "javascript", "kotlin-js"]
+    }
   }
   subcategory("Frontend") {
     link {
