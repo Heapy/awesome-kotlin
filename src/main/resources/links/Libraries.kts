@@ -269,9 +269,9 @@ category("Libraries/Frameworks") {
       tags = Tags["selenium", "test"]
     }
     link {
-      name = "oleksiyp/mockk"
+      name = "mockk/mockk"
       desc = "Pure Kotlin mocking library."
-      href = "https://github.com/oleksiyp/mockk"
+      href = "https://github.com/mockk/mockk"
       type = github
       tags = Tags["test", "mock"]
     }

@@ -229,7 +229,7 @@ Here awesome badge for your project:
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
 * [dam5s/aspen](https://github.com/dam5s/aspen) - Aspen is an RSpec and Spek inspired test runner for Kotlin.
 * [qwertukg/SeleniumBuilder](https://github.com/qwertukg/SeleniumBuilder) - DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin builder style.
-* [oleksiyp/mockk](https://github.com/oleksiyp/mockk) - Pure Kotlin mocking library.
+* [mockk/mockk](https://github.com/mockk/mockk) - Pure Kotlin mocking library.
 * [mvysny/DynaTest](https://github.com/mvysny/dynatest) - Write your tests in DSL way. Runs on JUnit5 Platform.
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
