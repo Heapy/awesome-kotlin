@@ -513,6 +513,13 @@ category("Android") {
       type = github
       tags = Tags["android", "application", "password-manager", "password-strength"]
     }
+    link {
+      name = "hanjoongcho/aaf-easydiary"
+      desc = "This is a diary application optimized to user experience."
+      href = "https://github.com/hanjoongcho/aaf-easydiary"
+      type = github
+      tags = Tags["diary-application", "diary", "realm", "android-diary", "calendar", "material", "android"]
+    }
   }
   subcategory("Extensions") {
     link {
