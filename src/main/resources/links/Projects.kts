@@ -91,6 +91,13 @@ category("Projects") {
       type = github
       tags = Tags["spring", "reactive", "web"]
     }
+    link {
+      name = "yyunikov/spring-boot-2-kotlin-starter"
+      desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
+      href = "https://github.com/yyunikov/spring-boot-2-kotlin-starter"
+      type = github
+      tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
+    }
   }
   subcategory("Build tools") {
     link {
@@ -148,7 +155,7 @@ category("Projects") {
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github
-      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
     }
     link {
       name = "borisf/classyshark-bytecode-viewer"
@@ -177,6 +184,13 @@ category("Projects") {
       href = "https://github.com/kpspemu/kpspemu"
       type = github
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+    }
+    link {
+      name = "Poweranimal/PowerCollections"
+      desc = "Powerfull Collections, Sets, Lists and Maps."
+      href = "https://github.com/Poweranimal/PowerCollections"
+      type = github
+      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
   }
   subcategory("Desktop") {
