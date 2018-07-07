@@ -86,6 +86,10 @@ category("Links") {
       type = LinkType.blog
     }
     link {
+      name = "Programming Community Curated Resources for learning Kotlin"
+      href = "https://hackr.io/tutorials/learn-kotlin"
+    }
+    link {
       name = "LinkedIn: Kotlin Developers (Join!)"
       href = "https://www.linkedin.com/groups/7417237/profile"
     }

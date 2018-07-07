@@ -182,6 +182,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kotlin", "http", "web", "html", "template"]
     }
+    link {
+      name = "bootique/bootique-kotlin"
+      desc = "Provides extension function and features for smooth development with Bootique and Kotlin."
+      href = "https://github.com/bootique/bootique-kotlin"
+      type = github
+      tags = Tags["kotlin", "web-framework", "undertow", "jetty"]
+    }
   }
   subcategory("Tests") {
     link {
