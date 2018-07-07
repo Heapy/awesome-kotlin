@@ -35,6 +35,13 @@ category("Projects") {
       tags = Tags["vertx.io", "async", "example"]
     }
     link {
+      name = "cbedoy/DYUM"
+      desc = "Basic Kotlin Implementation following MVP, and using Third Party library by Natural Analytics Language"
+      href = "https://github.com/cbedoy/DYUM"
+      type = github
+      tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
+    }
+    link {
       name = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
@@ -83,6 +90,13 @@ category("Projects") {
       href = "https://github.com/ssouris/petclinic-spring5-reactive"
       type = github
       tags = Tags["spring", "reactive", "web"]
+    }
+    link {
+      name = "yyunikov/spring-boot-2-kotlin-starter"
+      desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
+      href = "https://github.com/yyunikov/spring-boot-2-kotlin-starter"
+      type = github
+      tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
     }
   }
   subcategory("Build tools") {
@@ -141,7 +155,7 @@ category("Projects") {
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github
-      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
     }
     link {
       name = "borisf/classyshark-bytecode-viewer"
@@ -177,6 +191,13 @@ category("Projects") {
       href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
       type = github
       tags = Tags["libgdx", "Rhythm Heaven", "custom remix"]
+    }
+    link {
+      name = "Poweranimal/PowerCollections"
+      desc = "Powerfull Collections, Sets, Lists and Maps."
+      href = "https://github.com/Poweranimal/PowerCollections"
+      type = github
+      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
   }
   subcategory("Desktop") {
@@ -292,7 +313,14 @@ category("Projects") {
       desc = "Kotlin TodoMVC – full-stack Kotlin application demo"
       href = "https://github.com/gyulavoros/kotlin-todomvc"
       type = github
-      tags = Tags["examples", "javascript", "web", "gradle"]
+      tags = Tags["examples", "javascript", "web", "gradle", "todomvc"]
+    }
+    link {
+      name = "mkraynov/todomvc-react-kotlin"
+      desc = "React Kotlin TodoMVC – example based on create-react-kotlin-app and todomvc-react"
+      href = "https://github.com/mkraynov/todomvc-react-kotlin"
+      type = github
+      tags = Tags["examples", "javascript", "web", "react", "todomvc"]
     }
   }
   subcategory("Idea Plugins") {
