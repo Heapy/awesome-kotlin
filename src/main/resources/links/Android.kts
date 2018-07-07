@@ -21,6 +21,13 @@ category("Android") {
       tags = Tags["android"]
     }
     link {
+      name = "0xe1f/KotX"
+      desc = "Kotlin extension and tool library for Android"
+      href = "https://github.com/0xe1f/KotX"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
       name = "MarcinMoskala/ActivityStarter"
       desc = "Activity starter generator and arguments injection library for Android."
       href = "https://github.com/MarcinMoskala/ActivityStarter"
