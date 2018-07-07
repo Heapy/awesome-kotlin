@@ -163,6 +163,7 @@ Here awesome badge for your project:
 * [Quora Kotlin](https://www.quora.com/topic/Kotlin) 
 * [Trending Kotlin on Github](https://github.com/trending?l=kotlin) 
 * [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/) 
+* [Programming Community Curated Resources for learning Kotlin](https://hackr.io/tutorials/learn-kotlin) 
 * [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile) 
 * [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928) 
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
