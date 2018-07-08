@@ -648,6 +648,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["nosql", "embedded", "documentdb", "object-storage"]
     }
+    link {
+      name = "pm-dev/kotlin-gremlin-ogm"
+      desc = "Kotlin-gremlin-ogm is a type-safe object/graph mapping library for Gremlin enabled graph databases."
+      href = "https://github.com/pm-dev/awesome-kotlin"
+      type = github
+      tags = Tags["nosql", "graph", "database", "gremlin", "janusgraph", "orm"]
+    }
   }
   subcategory("Tools") {
     link {
