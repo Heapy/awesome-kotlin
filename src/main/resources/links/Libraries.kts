@@ -690,6 +690,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["wrapper", "scripting"]
     }
+    link {
+      name = "s1monw1/KtsRunner"
+      desc = "Library for executing .kts files from regular Kotlin code using Java Scripting Engines API"
+      href = "https://github.com/s1monw1/KtsRunner"
+      type = github
+      tags = Tags["dsl", "scripting"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -1104,6 +1111,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/korlibs/kds"
       type = github
       tags = Tags["ds"]
+    }
+    link {
+      name = "s1monw1/TLSLibrary"
+      desc = "Simple TlsLibrary written in Kotlin - Provides DSL for creating TLS connections"
+      href = "https://github.com/s1monw1/TLSLibrary"
+      type = github
+      tags = Tags["dsl", "tls", "ssl", "jsse"]
     }
   }
   subcategory("Extensions") {

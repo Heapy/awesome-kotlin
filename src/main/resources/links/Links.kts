@@ -127,6 +127,11 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
+     link {
+      name = "Kotlin Expertise Blog"
+      desc = "A Blog with many articles covering basic and advanced Kotlin topics."
+      href = "https://kotlinexpertise.com/"
+    }
     link {
       name = "Google's Kotlin Codelab "
       desc = "Build your first Kotlin Android App"
