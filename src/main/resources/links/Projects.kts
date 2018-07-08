@@ -200,6 +200,13 @@ category("Projects") {
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
     }
     link {
+      name = "sourcerer-io/sourcerer-app"
+      desc = "Visual profile for software engineers written in Kotlin."
+      href = "https://github.com/sourcerer-io/sourcerer-app"
+      type = github
+      tags = Tags["code analysis", "visualization", "resume", "profile"]
+    }
+    link {
       name = "chrislo27/RhythmHeavenRemixEditor"
       desc = "An audio custom remix editor designed for the Rhythm Heaven series, using libGDX and Kotlin."
       href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
