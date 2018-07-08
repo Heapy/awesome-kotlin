@@ -42,6 +42,13 @@ category("Projects") {
       tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
     }
     link {
+      name = "eddywm/KTFLITE"
+      desc = "Computer Vision on Android with Kotlin and Tensorflow Lite."
+      href = "https://github.com/eddywm/KTFLITE"
+      type = github
+      tags = Tags["tensorflow", "deep-learning", "computer-vision", "android", "machine-learning"]
+    }
+    link {
       name = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
@@ -91,6 +98,13 @@ category("Projects") {
       type = github
       tags = Tags["spring", "reactive", "web"]
     }
+    link {
+      name = "yyunikov/spring-boot-2-kotlin-starter"
+      desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
+      href = "https://github.com/yyunikov/spring-boot-2-kotlin-starter"
+      type = github
+      tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
+    }
   }
   subcategory("Build tools") {
     link {
@@ -123,6 +137,13 @@ category("Projects") {
   }
   subcategory("Misc") {
     link {
+      name = "quicktype/quicktype"
+      desc = "Generate Kotlin types and converters from JSON, Schema, TypeScript, and GraphQL"
+      href = "https://github.com/quicktype/quicktype"
+      type = github
+      tags = Tags["json", "api", "web"]
+    }
+    link {
       name = "brikk/brikk"
       desc = "Brikk dependency manager (Kotlin, KotlinJS, Java, ...)."
       href = "https://github.com/brikk/brikk"
@@ -148,7 +169,7 @@ category("Projects") {
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
       href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
       type = github
-      tags = Tags["GameBoy","Emulator", "frontend", "kotlin", "experimental"]
+      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
     }
     link {
       name = "borisf/classyshark-bytecode-viewer"
@@ -177,6 +198,27 @@ category("Projects") {
       href = "https://github.com/kpspemu/kpspemu"
       type = github
       tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+    }
+    link {
+      name = "sourcerer-io/sourcerer-app"
+      desc = "Visual profile for software engineers written in Kotlin."
+      href = "https://github.com/sourcerer-io/sourcerer-app"
+      type = github
+      tags = Tags["code analysis", "visualization", "resume", "profile"]
+    }
+    link {
+      name = "chrislo27/RhythmHeavenRemixEditor"
+      desc = "An audio custom remix editor designed for the Rhythm Heaven series, using libGDX and Kotlin."
+      href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
+      type = github
+      tags = Tags["libgdx", "Rhythm Heaven", "custom remix"]
+    }
+    link {
+      name = "Poweranimal/PowerCollections"
+      desc = "Powerfull Collections, Sets, Lists and Maps."
+      href = "https://github.com/Poweranimal/PowerCollections"
+      type = github
+      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
   }
   subcategory("Desktop") {
@@ -321,6 +363,13 @@ category("Projects") {
       name = "dkandalov/activity-tracker"
       desc = "Plugin for IntelliJ IDEs to track and record user activity."
       href = "https://github.com/dkandalov/activity-tracker"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "izhangzhihao/intellij-rainbow-brackets"
+      desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
+      href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
       type = github
       tags = Tags["idea", "plugin"]
     }
