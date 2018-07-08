@@ -128,6 +128,11 @@ category("Links") {
       href = "https://blog.kotlin-academy.com/"
     }
     link {
+      name = "Google's Kotlin Codelab "
+      desc = "Build your first Kotlin Android App"
+      href = "https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/"
+    }
+    link {
       name = "Kotlin Quiz"
       desc = "Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!"
       href = "https://kotlinquiz.com"
