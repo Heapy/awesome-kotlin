@@ -207,6 +207,11 @@ category("Links") {
       href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
     }
     link {
+      name = "Building Android Apps with Kotlin: Getting Started - Alex Dunn"
+      desc = "Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before."
+      href = "https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started"
+    }
+    link {
       name = "Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro"
       desc = "Beginning programming with Kotlin"
       href = "https://store.raywenderlich.com/products/kotlin-apprentice"

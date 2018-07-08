@@ -185,6 +185,7 @@ Here awesome badge for your project:
 * [Kotlin an Introduction - Caster.io](https://caster.io/courses/introduction-to-kotlin/) - Kotlin introductory course at Caster.io
 * [Android Development with Kotlin - Marcin Moskala, Igor Wojda](https://www.packtpub.com/application-development/android-development-kotlin) - Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code
 * [Mastering Android Development with Kotlin - Miloš Vasić](https://www.packtpub.com/application-development/mastering-android-development-kotlin) - Master Android development using a variety of Kotlin features
+* [Building Android Apps with Kotlin: Getting Started - Alex Dunn](https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started) - Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before.
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
