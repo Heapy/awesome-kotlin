@@ -514,6 +514,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["json"]
     }
+    link {
+      name = "s4kibs4mi/kotlin-jsonq"
+      desc = "A simple Kotlin library to Query over Json Data."
+      href = "https://github.com/s4kibs4mi/kotlin-jsonq"
+      type = github
+      tags = Tags["json", "json-query", "json-manager", "kotlin-library", "kotlin-android"]
+    }
   }
   subcategory("Database") {
     link {
