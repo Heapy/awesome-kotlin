@@ -114,7 +114,7 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "kwebio/core"
-      desc = " A Kotlin interface to one or more remote web-browsers."
+      desc = "[kweb.io](http://kweb.io/) Build rich live-updating web apps in pure server-side Kotlin."
       href = "https://github.com/kwebio/core"
       type = github
       tags = Tags["web", "rest", "http", "fullstack"]
