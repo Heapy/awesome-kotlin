@@ -22,7 +22,7 @@ category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (10000+ users)"
+      name = "Slack (17k+ users)"
       href = "https://kotlinslack.herokuapp.com/"
     }
     link {
@@ -86,6 +86,10 @@ category("Links") {
       type = LinkType.blog
     }
     link {
+      name = "Programming Community Curated Resources for learning Kotlin"
+      href = "https://hackr.io/tutorials/learn-kotlin"
+    }
+    link {
       name = "LinkedIn: Kotlin Developers (Join!)"
       href = "https://www.linkedin.com/groups/7417237/profile"
     }
@@ -123,6 +127,16 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
+    link {
+      name = "Google's Kotlin Codelab "
+      desc = "Build your first Kotlin Android App"
+      href = "https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/"
+    }
+    link {
+      name = "Kotlin Quiz"
+      desc = "Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!"
+      href = "https://kotlinquiz.com"
+    }
   }
   subcategory("Books and Courses") {
     link {
@@ -146,6 +160,11 @@ category("Links") {
       name = "Kotlin for Java Developers"
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
+    }
+	link {
+      name = "Functional Kotlin"
+      desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/functional-kotlin"
     }
     link {
       name = "Reactive Programming in Kotlin - Rivu Chakraborty"
