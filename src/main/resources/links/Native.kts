@@ -1,4 +1,3 @@
-
 import link.kotlin.scripts.LinkType.github
 import link.kotlin.scripts.Tags
 import link.kotlin.scripts.category
