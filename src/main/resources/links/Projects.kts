@@ -42,6 +42,13 @@ category("Projects") {
       tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
     }
     link {
+      name = "eddywm/KTFLITE"
+      desc = "Computer Vision on Android with Kotlin and Tensorflow Lite."
+      href = "https://github.com/eddywm/KTFLITE"
+      type = github
+      tags = Tags["tensorflow", "deep-learning", "computer-vision", "android", "machine-learning"]
+    }
+    link {
       name = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
