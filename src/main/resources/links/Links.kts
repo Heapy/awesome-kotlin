@@ -206,5 +206,10 @@ category("Links") {
       desc = "Master Android development using a variety of Kotlin features"
       href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
     }
+    link {
+      name = "Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro"
+      desc = "Beginning programming with Kotlin"
+      href = "https://store.raywenderlich.com/products/kotlin-apprentice"
+    }
   }
 }
