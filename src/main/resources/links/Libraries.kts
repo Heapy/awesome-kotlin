@@ -494,6 +494,13 @@ category("Libraries/Frameworks") {
       tags = Tags["json", "jakson"]
     }
     link {
+      name = "Shengaero/kotlin-json"
+      desc = "A lightweight, stylistic, optimized, and multiplatform JSON library for Kotlin-JVM and Kotlin-JS"
+      href = "https://github.com/Shengaero/kotlin-json"
+      type = github
+      tags = Tags["json", "multiplatform"]
+    }
+    link {
       name = "fboldog/ext4klaxon"
       desc = "Type Extensions (Long, Int, Enum, Date) for Klaxon."
       href = "https://github.com/fboldog/ext4klaxon"
