@@ -137,6 +137,13 @@ category("Projects") {
   }
   subcategory("Misc") {
     link {
+      name = "quicktype/quicktype"
+      desc = "Generate Kotlin types and converters from JSON, Schema, TypeScript, and GraphQL"
+      href = "https://github.com/quicktype/quicktype"
+      type = github
+      tags = Tags["json", "api", "web"]
+    }
+    link {
       name = "brikk/brikk"
       desc = "Brikk dependency manager (Kotlin, KotlinJS, Java, ...)."
       href = "https://github.com/brikk/brikk"
