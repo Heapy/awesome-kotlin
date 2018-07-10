@@ -45,6 +45,12 @@ category("Archive") {
       type = github
       tags = Tags["test", "bdd"]
     }
+    link {
+      name = "Levelmoney/kbuilders"
+      desc = "KBuilders turns your Java builders into beautiful Type-Safe Builders."
+      href = "https://github.com/Levelmoney/kbuilders"
+      type = github
+    }
   }
   subcategory("Kotlin User Group") {
     link {

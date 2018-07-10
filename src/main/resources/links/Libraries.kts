@@ -664,12 +664,6 @@ category("Libraries/Frameworks") {
       type = github
     }
     link {
-      name = "Levelmoney/kbuilders"
-      desc = "KBuilders turns your Java builders into beautiful Type-Safe Builders."
-      href = "https://github.com/Levelmoney/kbuilders"
-      type = github
-    }
-    link {
       name = "holgerbrandl/kscript"
       desc = "Scripting utils for Kotlin."
       href = "https://github.com/holgerbrandl/kscript"
