@@ -660,7 +660,7 @@ Here awesome badge for your project:
 * [St. Petersburg Kotlin User Group](https://www.meetup.com/St-Petersburg-Kotlin-User-Group/) - Russia
 * [Serbia Kotlin User Group](https://www.meetup.com/Serbia-Kotlin-User-Group/) - Serbia
 * [Stockholm Kotlin User Group](https://www.meetup.com/Sweden-Kotlin-User-Group/) - Sweden
-* [Swiss Kotlin User Group](https://www.meetup.com/Kotlin-Swiss-User-Group/) - Swiss
+* [Swiss Kotlin User Group](https://www.meetup.com/Kotlin-Swiss-User-Group/) - Switzerland
 * [Toulouse Kotlin User Group](https://www.meetup.com/fr-FR/Toulouse-Kotlin-User-Group/) - France
 * [Utrecht Kotlin User Group](https://www.meetup.com/meetup-group-YgJEOzCn/) - Netherlands
 * [Uzhgorod Kotlin User Group](https://www.facebook.com/groups/135578123824203/) - Ukraine
