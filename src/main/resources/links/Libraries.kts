@@ -196,6 +196,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web"]
     }
+    link {
+      name = "Firefly"
+      desc = "an asynchronous web framework for rapid development of high-performance web application"
+      href = "https://github.com/hypercube1024/firefly"
+      type = github
+      tags = Tags["web", "reactive"]
+    }
   }
   subcategory("Tests") {
     link {
