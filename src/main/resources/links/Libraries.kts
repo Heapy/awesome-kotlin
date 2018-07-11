@@ -1169,6 +1169,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["markdown", "parser"]
     }
+    link {
+      name = "ziggy42/kolor"
+      desc = "A library to print colored strings, with Kotlin."
+      href = "https://github.com/ziggy42/kolor"
+      type = github
+      tags = Tags["ansi-colors", "colors", "shell"]
+    }
   }
   subcategory("Extensions") {
     link {
