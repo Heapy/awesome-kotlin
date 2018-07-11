@@ -189,6 +189,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kotlin", "web-framework", "undertow", "jetty"]
     }
+    link {
+      name = "Kanary"
+      desc = "A micro webframework for Kotlin"
+      href = "https://github.com/SeunAdelekan/Kanary"
+      type = github
+      tags = Tags["web"]
+    }
   }
   subcategory("Tests") {
     link {
