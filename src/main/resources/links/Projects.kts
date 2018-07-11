@@ -105,6 +105,14 @@ category("Projects") {
       type = github
       tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
     }
+    link{
+      name = "viniciusccarvalho/kodein-cloud-functions"
+      desc = "Provides adapters to different cloud functions providers (AWS, Azure) to run vanilla kotlin functions defined as kodein modules"
+      href = "https://github.com/viniciusccarvalho/kodein-cloud-functions"
+      type = github
+      tags = Tags["kodein", "cloud", "serverless"]
+
+    }
   }
   subcategory("Build tools") {
     link {
