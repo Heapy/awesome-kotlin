@@ -269,7 +269,7 @@ Here awesome badge for your project:
 * [pakoito/Komprehensions](https://github.com/pakoito/Komprehensions) - Do comprehensions for Kotlin and 3rd party libraries.
 * [h0tk3y/kotlin-monads](https://github.com/h0tk3y/kotlin-monads) - Monads for Kotlin
 * [poetix/klenses](https://github.com/poetix/klenses) - Lenses for Kotlin.
-* [reactor/reactor-kotlin-extensions](https://github.com/reactor/reactor-kotlin-extensions/) - Kotlin extensions for Reactor.
+* [Reactor Core](https://github.com/reactor/reactor-core) - Non-Blocking Reactive Streams Foundation for the JVM. Natively supports Kotlin, since 3.1.0.M3.
 * [UrbanCompass/Snail-Kotlin](https://github.com/UrbanCompass/Snail-Kotlin) - An observables framework for Kotlin.
 
 ### <a name="libraries-frameworks-json"></a>JSON <sup>[Back ⇈](#libraries-frameworks-json-subcategory)</sup>

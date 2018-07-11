@@ -457,11 +457,11 @@ category("Libraries/Frameworks") {
       tags = Tags["fp", "functional", "lenses"]
     }
     link {
-      name = "reactor/reactor-kotlin-extensions"
-      desc = "Kotlin extensions for Reactor."
-      href = "https://github.com/reactor/reactor-kotlin-extensions/"
+      name = "Reactor Core"
+      desc = "Non-Blocking Reactive Streams Foundation for the JVM. Natively supports Kotlin, since 3.1.0.M3."
+      href = "https://github.com/reactor/reactor-core"
       type = github
-      tags = Tags["reactor", "extensions"]
+      tags = Tags["reactive", "stream", "functional"]
     }
     link {
       name = "UrbanCompass/Snail-Kotlin"
