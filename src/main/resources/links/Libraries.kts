@@ -1148,6 +1148,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["machine-learning", "recurrent-neural-networks", "feedforward-neural-network", "natural-language-processing"]
     }
+    link {
+      name = "krakdown"
+      desc = "A native markdown parser written in Kotlin."
+      href = "https://github.com/nickhristov/krakdown"
+      type = github
+      tags = Tags["markdown", "parser"]
+    }
   }
   subcategory("Extensions") {
     link {
