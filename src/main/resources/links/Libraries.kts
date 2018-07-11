@@ -1176,6 +1176,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["ansi-colors", "colors", "shell"]
     }
+    link {
+      name = "kravis"
+      desc = "A Kotlin grammar for scientific data visualization"
+      href = "https://github.com/holgerbrandl/kravis"
+      type = github
+      tags = Tags["Data Science"]
+    }
   }
   subcategory("Extensions") {
     link {
