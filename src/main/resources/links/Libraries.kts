@@ -1134,6 +1134,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dsl", "tls", "ssl", "jsse"]
     }
+    link {
+      name = "SimpleDNN"
+      desc = "SimpleDNN is a machine learning lightweight open-source library part of KotlinNLP and has been designed to support relevant neural network architectures in natural language processing tasks."
+      href = "https://github.com/KotlinNLP/SimpleDNN"
+      type = github
+      tags = Tags["machine-learning", "recurrent-neural-networks", "feedforward-neural-network", "natural-language-processing"]
+    }
   }
   subcategory("Extensions") {
     link {
