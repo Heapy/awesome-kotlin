@@ -1183,6 +1183,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["Data Science"]
     }
+    link {
+      name = "stateful4k"
+      desc = "State Machine Construction Kit for Kotlin"
+      href = "https://github.com/MiloszKrajewski/stateful4k"
+      type = github
+      tags = Tags["state machine"]
+    }
   }
   subcategory("Extensions") {
     link {
