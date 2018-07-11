@@ -115,6 +115,7 @@ Here awesome badge for your project:
 * <a name="articles-blog-posts-january-2013-subcategory"></a>[January 2013](#articles-blog-posts-january-2013)
 
 ### <a name="videos-category"></a>[Videos](#videos)
+* <a name="videos-march-2018-subcategory"></a>[March 2018](#videos-march-2018)
 * <a name="videos-april-2017-subcategory"></a>[April 2017](#videos-april-2017)
 * <a name="videos-december-2016-subcategory"></a>[December 2016](#videos-december-2016)
 * <a name="videos-november-2016-subcategory"></a>[November 2016](#videos-november-2016)
@@ -1117,6 +1118,9 @@ Here awesome badge for your project:
 
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
+### <a name="videos-march-2018"></a>March 2018 <sup>[Back ⇈](#videos-march-2018-subcategory)</sup>
+* [Kotlin EE: Boost your Productivity](http://kotlin.link/articles/Kotlin-EE-Boost-Your-Productivity.html) - Marcus Fihlon @ Voxxed Days Bucharest
+
 ### <a name="videos-april-2017"></a>April 2017 <sup>[Back ⇈](#videos-april-2017-subcategory)</sup>
 * [The Future of Kotlin: How agile can language development be?](http://kotlin.link/articles/Future-of-Kotlin-How-agile-can-language-development-be-video.html) - Andrey Breslav
 
