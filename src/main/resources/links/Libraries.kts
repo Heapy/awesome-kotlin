@@ -327,6 +327,13 @@ category("Libraries/Frameworks") {
       tags = Tags["Dependency Injection", "Guice"]
     }
     link {
+      name = "kotlin-guice"
+      desc = "Guice DSL extensions for Kotlin"
+      href = "https://github.com/authzee/kotlin-guice"
+      type = github
+      tags = Tags["guice", "dependency injection", "di"]
+    }
+    link {
       name = "Ekito/koin"
       desc = "A functional Kotlin dependency injection framework for Android and JVM."
       href = "https://github.com/Ekito/koin"
