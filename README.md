@@ -176,6 +176,7 @@ Here awesome badge for your project:
 * [Kotlin Expertise Blog](https://kotlinexpertise.com/) - A Blog with many articles covering basic and advanced Kotlin topics.
 * [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
+* [SuperKotlin](https://superkotlin.com) - A website about Kotlin
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
