@@ -296,6 +296,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "random", "random-generation"]
     }
+    link {
+      name = "neworld/kupiter"
+      desc = "Kotlin DSL for Junit5"
+      href = "https://github.com/neworld/kupiter"
+      type = github
+      tags = Tags["test", "junit5", "dsl"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
