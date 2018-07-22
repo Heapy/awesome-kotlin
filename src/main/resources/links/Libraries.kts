@@ -1383,6 +1383,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Command Line Interface") {
     link {
+      name = "ajalt/clikt"
+      desc = "Clikt - Intuitive command line interface parsing for Kotlin."
+      href = "https://github.com/ajalt/clikt"
+      type = github
+      tags = Tags["cli", "command line parser", "argument parser", "option parser"]
+    }
+    link {
       name = "leprosus/kotlin-cli"
       desc = "Kotlin-CLI - command line interface options parser for Kotlin."
       href = "https://github.com/leprosus/kotlin-cli"
@@ -1402,6 +1409,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/xenomachina/kotlin-argparser"
       type = github
       tags = Tags["command-line-parser", "argument-parser", "option-parser"]
+    }
+    link {
+      name = "ajalt/mordant"
+      desc = "Mordant - Full-featured text styling for Kotlin command line applications."
+      href = "https://github.com/ajalt/mordant"
+      type = github
+      tags = Tags["cli", "ansi", "color"]
     }
   }
   subcategory("Browsers") {

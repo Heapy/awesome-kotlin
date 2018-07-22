@@ -424,9 +424,11 @@ Here awesome badge for your project:
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
 
 ### <a name="libraries-frameworks-command-line-interface"></a>Command Line Interface <sup>[Back ⇈](#libraries-frameworks-command-line-interface-subcategory)</sup>
+* [ajalt/clikt](https://github.com/ajalt/clikt) - Intuitive command line interface parsing for Kotlin.
 * [leprosus/kotlin-cli](https://github.com/leprosus/kotlin-cli) - Kotlin-CLI - command line interface options parser for Kotlin.
 * [jimschubert/kopper](https://github.com/jimschubert/kopper) - A simple Kotlin option parser
 * [xenomachina/kotlin-argparser](https://github.com/xenomachina/kotlin-argparser) - Easy to use and concise yet powerful and robust command line argument parsing for Kotlin.
+* [ajalt/mordant](https://github.com/ajalt/mordant) - Full-featured text styling for Kotlin command line applications.
 
 ### <a name="libraries-frameworks-browsers"></a>Browsers <sup>[Back ⇈](#libraries-frameworks-browsers-subcategory)</sup>
 * [wendigo/chrome-reactive-kotlin](https://github.com/wendigo/chrome-reactive-kotlin) - Chrome Debugging Protocol for Kotlin (with RxJava2)
