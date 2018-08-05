@@ -294,6 +294,13 @@ category("Android") {
       type = github
       tags = Tags["RecyclerView", "Adapter", "kotlin", "kotlin-android"]
     }
+    link {
+      name = "yundom/RxVan"
+      desc = "A lightweight event bus written in Kotlin and RxJava."
+      href = "https://github.com/yundom/RxVan.git"
+      type = github
+      tags = Tags["android", "eventbus", "rxjava", "kotlin"]
+    }
   }
   subcategory("Frameworks") {
     link {
