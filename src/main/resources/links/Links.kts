@@ -142,6 +142,12 @@ category("Links") {
       desc = "Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!"
       href = "https://kotlinquiz.com"
     }
+    link {
+      name = "SuperKotlin"
+      desc = "A website about Kotlin"
+      href = "https://superkotlin.com"
+      tags = Tags["blog", "articles", "tutorials", "interviews"]
+    }
   }
   subcategory("Books and Courses") {
     link {
