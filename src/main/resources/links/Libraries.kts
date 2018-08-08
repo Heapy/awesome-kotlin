@@ -772,6 +772,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["http", "http client", "coroutines"]
     }
+    link {
+      name = "rybalkinsd/kohttp"
+      desc = "Kotlin DSL-based HTTP client."
+      href = "https://github.com/rybalkinsd/kohttp"
+      type = github
+      tags = Tags["http", "http client", "dsl", "okhttp"]
+    }
   }
   subcategory("Editors") {
     link {
