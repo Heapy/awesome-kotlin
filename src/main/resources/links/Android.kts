@@ -297,7 +297,7 @@ category("Android") {
     link {
       name = "yundom/RxVan"
       desc = "A lightweight event bus written in Kotlin and RxJava."
-      href = "https://github.com/yundom/RxVan.git"
+      href = "https://github.com/yundom/RxVan"
       type = github
       tags = Tags["android", "eventbus", "rxjava", "kotlin"]
     }
