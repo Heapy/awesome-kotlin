@@ -1,6 +1,10 @@
 import link.kotlin.scripts.LinkType.bitbucket
 import link.kotlin.scripts.LinkType.github
 import link.kotlin.scripts.Tags
+import link.kotlin.scripts.TargetType.ANDROID
+import link.kotlin.scripts.TargetType.IOS
+import link.kotlin.scripts.TargetType.JVM
+import link.kotlin.scripts.TargetType.NATIVE
 import link.kotlin.scripts.category
 import link.kotlin.scripts.link
 import link.kotlin.scripts.subcategory
@@ -11,6 +15,7 @@ category("Libraries/Frameworks") {
       name = "ktorio/ktor"
       desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
       href = "https://github.com/ktorio/ktor"
+      platforms = arrayOf(JVM, ANDROID, NATIVE, IOS)
       type = github
       tags = Tags["web"]
     }
@@ -190,14 +195,14 @@ category("Libraries/Frameworks") {
       tags = Tags["kotlin", "web-framework", "undertow", "jetty"]
     }
     link {
-      name = "Kanary"
+      name = "SeunAdelekan/Kanary"
       desc = "A micro webframework for Kotlin"
       href = "https://github.com/SeunAdelekan/Kanary"
       type = github
       tags = Tags["web"]
     }
     link {
-      name = "Firefly"
+      name = "hypercube1024/firefly"
       desc = "an asynchronous web framework for rapid development of high-performance web application"
       href = "https://github.com/hypercube1024/firefly"
       type = github
@@ -348,7 +353,7 @@ category("Libraries/Frameworks") {
       tags = Tags["Dependency Injection", "Guice"]
     }
     link {
-      name = "kotlin-guice"
+      name = "authzee/kotlin-guice"
       desc = "Guice DSL extensions for Kotlin"
       href = "https://github.com/authzee/kotlin-guice"
       type = github
@@ -485,7 +490,7 @@ category("Libraries/Frameworks") {
       tags = Tags["fp", "functional", "lenses"]
     }
     link {
-      name = "Reactor Core"
+      name = "reactor/reactor-core"
       desc = "Non-Blocking Reactive Streams Foundation for the JVM. Natively supports Kotlin, since 3.1.0.M3."
       href = "https://github.com/reactor/reactor-core"
       type = github
@@ -1170,14 +1175,14 @@ category("Libraries/Frameworks") {
       tags = Tags["dsl", "tls", "ssl", "jsse"]
     }
     link {
-      name = "SimpleDNN"
+      name = "KotlinNLP/SimpleDNN"
       desc = "SimpleDNN is a machine learning lightweight open-source library part of KotlinNLP and has been designed to support relevant neural network architectures in natural language processing tasks."
       href = "https://github.com/KotlinNLP/SimpleDNN"
       type = github
       tags = Tags["machine-learning", "recurrent-neural-networks", "feedforward-neural-network", "natural-language-processing"]
     }
     link {
-      name = "krakdown"
+      name = "nickhristov/krakdown"
       desc = "A native markdown parser written in Kotlin."
       href = "https://github.com/nickhristov/krakdown"
       type = github
@@ -1191,14 +1196,14 @@ category("Libraries/Frameworks") {
       tags = Tags["ansi-colors", "colors", "shell"]
     }
     link {
-      name = "kravis"
+      name = "holgerbrandl/kravis"
       desc = "A Kotlin grammar for scientific data visualization"
       href = "https://github.com/holgerbrandl/kravis"
       type = github
       tags = Tags["Data Science"]
     }
     link {
-      name = "stateful4k"
+      name = "MiloszKrajewski/stateful4k"
       desc = "State Machine Construction Kit for Kotlin"
       href = "https://github.com/MiloszKrajewski/stateful4k"
       type = github

@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.TargetType.JVM
 import link.kotlin.scripts.model.Link
 
 fun category(name: String, config: Category.() -> Unit): Category {
@@ -24,6 +25,7 @@ class LinkBuilder {
   var name: String = ""
   var href: String = ""
   var desc: String? = null
+  var platforms: Array<TargetType> = arrayOf(JVM)
   var type: LinkType = LinkType.none
   var tags: Array<String> = arrayOf()
 
@@ -33,6 +35,7 @@ class LinkBuilder {
       name = name,
       href = href,
       desc = desc ?: "",
+      platforms = platforms,
       type = type,
       tags = tags,
       whitelisted = whitelisted

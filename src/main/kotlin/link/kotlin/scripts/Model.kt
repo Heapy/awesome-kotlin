@@ -18,6 +18,16 @@ enum class LinkType {
     webinar
 }
 
+enum class TargetType {
+    ANDROID,
+    COMMON,
+    IOS,
+    JS,
+    JVM,
+    NATIVE,
+    WASM
+}
+
 fun LinkType.toView() = when (this) {
     article -> "Articles, Blog Posts"
     video -> "Videos"
@@ -25,8 +35,6 @@ fun LinkType.toView() = when (this) {
     webinar -> "Webinars"
     else -> ""
 }
-
-
 
 data class Subcategory(
     val id: String? = null,
