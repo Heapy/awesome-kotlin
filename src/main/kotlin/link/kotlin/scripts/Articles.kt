@@ -145,6 +145,7 @@ private fun getCategory(articles: List<Article>): Category {
                         desc = it.author,
                         href = "http://kotlin.link/articles/${it.filename}",
                         type = LinkType.blog,
+                        platforms = arrayOf(),
                         tags = it.categories.toTypedArray()
                     )
                 }.toMutableList()
