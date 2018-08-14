@@ -301,6 +301,13 @@ category("Android") {
       type = github
       tags = Tags["android", "eventbus", "rxjava", "kotlin"]
     }
+    link {
+      name = "duanhong169/DrawableToolbox"
+      desc = "The missing drawable toolbox for Android."
+      href = "https://github.com/duanhong169/DrawableToolbox"
+      type = github
+      tags = Tags["android", "android-drawables", "kotlin", "kotlin-android"]
+    }
   }
   subcategory("Frameworks") {
     link {
