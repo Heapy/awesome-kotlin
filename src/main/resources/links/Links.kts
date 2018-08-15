@@ -222,5 +222,10 @@ category("Links") {
       desc = "Beginning programming with Kotlin"
       href = "https://store.raywenderlich.com/products/kotlin-apprentice"
     }
+    link {
+      name = "Android Apprentice - Darryl Bayliss & Tom Blankenship"
+      desc = "Beginning Android programming using Kotlin"
+      href = "https://store.raywenderlich.com/products/android-apprentice"
+    }
   }
 }
