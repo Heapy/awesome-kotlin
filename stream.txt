@@ -890,9 +890,22 @@ https://github.com/youse-seguradora/form
 https://hackernoon.com/rise-of-kotlin-the-programming-language-for-the-next-generation-27beeb529204
 https://medium.com/@nadavfima/how-to-build-better-analytics-with-kotlin-60ab50ce25ac
 http://kotlink.org/
-
-
-
+https://medium.com/@kpgalligan/droidcon-nyc-app-da868bdef387
+https://ktor.io/blog/2018/08/plugin-0.2.0.html
+https://www.amazon.com/Mastering-High-Performance-Kotlin-Understanding/dp/178899664X
+https://www.packtpub.com/application-development/mastering-high-performance-kotlin
+https://developers.connectycube.com/android/code-samples
+https://open.nytimes.com/writing-asynchronous-code-for-android-introducing-coroutines-20dda14a39ea
+http://dyszkiewicz.me/programming/http/server/kotlin/2018/07/31/http-part1.html
+https://pusher.com/tutorials/mvp-backend-kotlin
+https://github.com/frankfarrell/dynamodb-utils
+https://github.com/TonnyL/Latticify
+https://blog.drako.guru/2018/07/31/introduction-to-coroutines-part-2/
+https://www.youtube.com/watch?v=q_1xPYQLyaU
+https://speakerdeck.com/pakoito/state-of-the-functional-ecosystem-in-kotlin-mid-2018-checkup
+https://habr.com/company/qiwi/blog/419699/
+https://habr.com/company/acronis/blog/418377/
+https://jaxenter.com/road-to-kotlin-1-2-140583.html
 
 
 
