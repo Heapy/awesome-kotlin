@@ -998,6 +998,7 @@ https://www.youtube.com/watch?v=yhkKqT4Ag64
 http://oneeyedmen.com/failure-is-not-an-option-part-5.html
 https://zsmb.co/the-other-side-of-stack-overflow/
 https://dzone.com/articles/kotlin-dsl-basics
+https://spring.io/blog/2018/06/13/spring-tips-spring-fu
 
 
 
