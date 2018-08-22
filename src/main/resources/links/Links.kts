@@ -22,7 +22,7 @@ category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (17k+ users)"
+      name = "Slack (18k+ users)"
       href = "https://kotlinslack.herokuapp.com/"
     }
     link {
