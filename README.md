@@ -245,6 +245,7 @@ Here awesome badge for your project:
 * [mvysny/DynaTest](https://github.com/mvysny/dynatest) - Write your tests in DSL way. Runs on JUnit5 Platform.
 * [tyro/arbitrater](https://github.com/tyro/arbitrater) - Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing.
 * [neworld/kupiter](https://github.com/neworld/kupiter) - Kotlin DSL for Junit5
+* [karumi/KotlinSnapshot](https://github.com/Karumi/KotlinSnapshot) - Verify your data with snapshot testing.
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
 * [Kodein-Framework/Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI) - Painless Kotlin Dependency Injection.
