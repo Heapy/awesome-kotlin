@@ -322,6 +322,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "junit5", "dsl"]
     }
+    link {
+      name = "karumi/KotlinSnapshot"
+      desc = "Verify your data with snapshot testing."
+      href = "https://github.com/Karumi/KotlinSnapshot"
+      type = github
+      tags = Tags["snapshot", "test", "assert"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
