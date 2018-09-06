@@ -555,6 +555,13 @@ category("Android") {
       type = github
       tags = Tags["diary-application", "diary", "realm", "android-diary", "calendar", "material", "android"]
     }
+    link {
+      name = "adrielcafe/GreenHellCompanionApp"
+      desc = "Unofficial companion app for the game Green Hell."
+      href = "https://github.com/adrielcafe/GreenHellCompanionApp"
+      type = github
+      tags = Tags["android", "app", "companion-app", "kotlin", "mvvm", "android-architecture-components", "kotlin-coroutines", "dependency-injection", "fastadapter"]
+    }
   }
   subcategory("Extensions") {
     link {
