@@ -571,6 +571,13 @@ category("Android") {
       type = github
       tags = Tags["android", "logging"]
     }
+    link {
+      name = "rosariopfernandes/fireXtensions"
+      desc = "Unofficial Kotlin Extensions for the Firebase Android SDK."
+      href = "https://github.com/rosariopfernandes/fireXtensions"
+      type = github
+      tags = Tags["android", "firebase", "kotlin", "firebase-database", "firestore"]
+    }
   }
   subcategory("Tools") {
     link {
