@@ -208,6 +208,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "reactive"]
     }
+    link {
+      name = "ExpediaDotCom/graphql-kotlin"
+      desc = "Code-only GraphQL schema generation for Kotlin"
+      href = "https://github.com/ExpediaDotCom/graphql-kotlin"
+      type = github
+      tags = Tags["graphql", "web"]
+    }
   }
   subcategory("Tests") {
     link {
