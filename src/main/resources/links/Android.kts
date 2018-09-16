@@ -308,6 +308,13 @@ category("Android") {
       type = github
       tags = Tags["android", "android-drawables", "kotlin", "kotlin-android"]
     }
+    link {
+      name = "adrielcafe/AndroidCoroutineScopes"
+      desc = "This lib implements the most common CoroutineScopes used in Android apps."
+      href = "https://github.com/adrielcafe/AndroidCoroutineScopes"
+      type = github
+      tags = Tags["android", "kotlin",  "coroutines", "coroutinescopes"]
+    }
   }
   subcategory("Frameworks") {
     link {
