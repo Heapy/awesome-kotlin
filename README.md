@@ -311,6 +311,8 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-tools"></a>Tools <sup>[Back ⇈](#libraries-frameworks-tools-subcategory)</sup>
 * [Kotlin/dokka](https://github.com/Kotlin/dokka) - Documentation Engine for Kotlin.
+* [Vorlonsoft/EasyDokkaPlugin](https://github.com/Vorlonsoft/EasyDokkaPlugin) - Gradle Script plugin to generate documentation by Dokka for Kotlin and Java, Android and non-Android projects.
+* [Vorlonsoft/GradleMavenPush](https://github.com/Vorlonsoft/GradleMavenPush) - Gradle Script plugin to upload Gradle Android/Kotlin/Java Artifacts to Maven repositories (JCenter, Maven Central, ...).
 * [holgerbrandl/kscript](https://github.com/holgerbrandl/kscript) - Scripting utils for Kotlin.
 * [kohesive/keplin](https://github.com/kohesive/keplin) - Secure Kotlin scripting and binary lambda-scripts.
 * [shyiko/ktlint](https://github.com/shyiko/ktlint) - Kotlin linter.

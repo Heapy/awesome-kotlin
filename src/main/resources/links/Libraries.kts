@@ -711,6 +711,18 @@ category("Libraries/Frameworks") {
       type = github
     }
     link {
+      name = "Vorlonsoft/EasyDokkaPlugin"
+      desc = "Gradle Script plugin to generate documentation by Dokka for Kotlin and Java, Android and non-Android projects."
+      href = "https://github.com/Vorlonsoft/EasyDokkaPlugin"
+      type = github
+    }
+    link {
+      name = "Vorlonsoft/GradleMavenPush"
+      desc = "Gradle Script plugin to upload Gradle Android/Kotlin/Java Artifacts to Maven repositories (JCenter, Maven Central, ...)."
+      href = "https://github.com/Vorlonsoft/GradleMavenPush"
+      type = github
+    }
+    link {
       name = "holgerbrandl/kscript"
       desc = "Scripting utils for Kotlin."
       href = "https://github.com/holgerbrandl/kscript"
