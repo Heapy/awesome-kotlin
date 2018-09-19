@@ -864,25 +864,25 @@ Here awesome badge for your project:
 ### <a name="articles-blog-posts-december-2016"></a>December 2016 <sup>[Back ⇈](#articles-blog-posts-december-2016-subcategory)</sup>
 * [Data Binding in Anko](http://kotlin.link/articles/Data-Binding-in-Anko.html) - Lewis Rhine
 * [Upgrade your workflow with 0-installation kotlin scriptlets](http://kotlin.link/articles/Upgrade-your-workflow-with-0-installation-kotlin-scriptlets.html) - Holger Brandl
+* [Kotlin: как сделать жизнь Java-разработчика легче?](http://kotlin.link/articles/Kotlin-Как-сделать-жизнь-Java-разработчика-легче.html) - Stanislav Sinitsky, Alexander Mikhalchenko
 * [Kotlin: How to Make a Java Developer's Life Easier?](http://kotlin.link/articles/Kotlin-How-to-Make-a-Java-Developer-s-Life-Easier.html) - Stanislav Sinitsky, Alexander Mikhalchenko
 * [Thinking Functionally](http://kotlin.link/articles/Thinking-Functionally.html) - Lewis Rhine
-* [Kotlin: как сделать жизнь Java-разработчика легче?](http://kotlin.link/articles/Kotlin-Как-сделать-жизнь-Java-разработчика-легче.html) - Stanislav Sinitsky, Alexander Mikhalchenko
 * [Building microservices with Kotlin and Spring Boot](http://kotlin.link/articles/Building-microservices-with-Kotlin-and-Spring-Boot.html) - Gabriel Francisco
 * [Kotlin 1.1-M04 is here!](http://kotlin.link/articles/Kotlin-1-1-M04-is-here.html) - Ilya Chernikov
 * [Kotlin in Practice with Spring Boot and Vaadin](http://kotlin.link/articles/Kotlin-in-Practice-with-Spring-Boot-and-Vaadin.html) - Philipp Hauer
 * [Concurrency Primitives in Kotlin](http://kotlin.link/articles/Concurrency-Primitives-in-Kotlin.html) - Egor Andreevici
-* [Kotlin is cheating on me...](http://kotlin.link/articles/Kotlin-is-cheating-on-me.html) - Andrea Franceschini
 * [Write a lightweight, cross-platform HTML5 desktop app with Kotlin](http://kotlin.link/articles/Write-a-lightweight-cross-platform-HTML5-desktop-app-with-Kotlin.html) - Lorenzo Angelini
-* [Kotlin 1.0.6 is here!](http://kotlin.link/articles/Kotlin-1-0-6-is-here.html) - Yan Zhulanow
+* [Kotlin is cheating on me...](http://kotlin.link/articles/Kotlin-is-cheating-on-me.html) - Andrea Franceschini
 * [The Reactive Scrabble benchmarks](http://kotlin.link/articles/The-Reactive-Scrabble-benchmarks.html) - Dávid Karnok
+* [Kotlin 1.0.6 is here!](http://kotlin.link/articles/Kotlin-1-0-6-is-here.html) - Yan Zhulanow
 * [Kotlin без магии](http://kotlin.link/articles/Kotlin-без-магии.html) - Mike Gorunov
 * [Kotlin, rockin’ in production](http://kotlin.link/articles/Kotlin-rockin’-in-production.html) - Nabeel Ali Memon
 
 ### <a name="articles-blog-posts-november-2016"></a>November 2016 <sup>[Back ⇈](#articles-blog-posts-november-2016-subcategory)</sup>
 * [Our Experiment Building a Multiselection Solution for Android in Kotlin](http://kotlin.link/articles/Our-Experiment-Building-a-Multiselection-Solution-for-Android-in-Kotlin.html) - Artem Kholodnyi
 * [Quick dive in Kotlin extensions](http://kotlin.link/articles/Quick-dive-in-Kotlin-extensions.html) - Piotr Ślesarew
-* [Kotlin 1.0.5 is here](http://kotlin.link/articles/Kotlin-1-0-5-is-here.html) - Dmitry Jemerov
 * [Беглый взгляд на Async-Await в Android](http://kotlin.link/articles/Беглый-взгляд-на-Async-Await-в-Android.html) - Макс Ровкин
+* [Kotlin 1.0.5 is here](http://kotlin.link/articles/Kotlin-1-0-5-is-here.html) - Dmitry Jemerov
 * [Погружение в Async-Await в Android](http://kotlin.link/articles/Погружение-в-Async-Await-в-Android.html) - Макс Ровкин
 * [400% faster layouts with Anko](http://kotlin.link/articles/400-percent-faster-layouts-with-Anko.html) - Simon Vergauwen
 * [Why You Must Try Kotlin For Android Development ?](http://kotlin.link/articles/Why-You-Must-Try-Kotlin-For-Android-Development.html) - Amit Shekhar
@@ -923,13 +923,12 @@ Here awesome badge for your project:
 * [Kotlin census: call to action](http://kotlin.link/articles/Kotlin-census-call-to-action.html) - Roman Belov
 * [Building DSL Instead of an IDE Plugin](http://kotlin.link/articles/Building-DSL-Instead-of-an-IDE-Plugin.html) - Eugene Petrenko
 * [Building a compiler for your own language: validation](http://kotlin.link/articles/Building-a-compiler-for-your-own-language-validation.html) - Federico Tomassetti
-* [A Developer’s Look at Kotlin](http://kotlin.link/articles/A-Developer’s-Look-at-Kotlin.html) - David Bolton
-* [Crafting Log4j Configuration DSL](http://kotlin.link/articles/Crafting-Log4j-Configuration-DSL.html) - Eugene Petrenko
 * [Kotlin vs Java: Compilation speed](http://kotlin.link/articles/Kotlin-vs-Java-Compilation-speed.html) - AJ Alt
+* [Crafting Log4j Configuration DSL](http://kotlin.link/articles/Crafting-Log4j-Configuration-DSL.html) - Eugene Petrenko
+* [A Developer’s Look at Kotlin](http://kotlin.link/articles/A-Developer’s-Look-at-Kotlin.html) - David Bolton
 * [Kotlin NetBeans plugin beta is out!](http://kotlin.link/articles/Kotlin-NetBeans-plugin-beta-is-out.html) - Dmitry Jemerov
 * [Kotlin 1.0.4 is here](http://kotlin.link/articles/Kotlin-1-0-4-is-here.html) - Dmitry Jemerov
 * [The power of templating in a DSL](http://kotlin.link/articles/The-power-of-templating-in-a-DSL.html) - Eugene Petrenko
-* [An in-depth look at Kotlin’s initializers](http://kotlin.link/articles/An-in-depth-look-at-Kotlin’s-initializers.html) - AJ Alt
 * [Why Kotlin is the next big thing for Java developers](http://kotlin.link/articles/Why-Kotlin-is-the-next-big-thing-for-Java-developers.html) - Nitin Y
 * [An in-depth look at Kotlin’s initializers](http://kotlin.link/articles/An-in-depth-look-at-Kotlin’s-initializers.html) - AJ Alt
 * [Kotlin in Production - What works, Whats broken](http://kotlin.link/articles/Kotlin-in-Production-What-works-Whats-broken.html) - DripStat
