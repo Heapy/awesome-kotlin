@@ -11,7 +11,7 @@ val commonMarkVersion: String by project
 
 plugins {
     application
-    kotlin("jvm") version "1.2.41"
+    kotlin("jvm") version "1.2.70"
 }
 
 application {
