@@ -6,13 +6,13 @@
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "copy-to-clipboard": "3.0.8",
-    "normalize.css": "7.0.0",
-    "query-string": "5.0.1",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-router": "4.2.0",
-    "react-router-dom": "4.2.2",
-    "typestyle": "1.5.1"
+    "normalize.css": "8.0.0",
+    "query-string": "6.1.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "typestyle": "2.0.1"
   },
   "devDependencies": {
     "@types/history": "^4.6.2",
@@ -21,24 +21,26 @@
     "@types/react-dom": "^16.0.3",
     "@types/react-router": "^4.0.19",
     "@types/react-router-dom": "^4.2.3",
-    "autoprefixer": "7.2.3",
-    "css-loader": "0.28.7",
-    "file-loader": "1.1.5",
-    "html-webpack-plugin": "2.30.1",
-    "less": "2.7.3",
-    "less-loader": "4.0.5",
-    "postcss-loader": "2.0.9",
-    "style-loader": "0.19.1",
-    "ts-loader": "3.2.0",
-    "typescript": "2.6.2",
-    "url-loader": "0.6.2",
-    "webpack": "3.10.0",
-    "webpack-dev-server": "2.9.7"
+    "autoprefixer": "9.1.5",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "1.0.0",
+    "file-loader": "2.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "less": "3.8.1",
+    "less-loader": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "style-loader": "0.23.0",
+    "ts-loader": "5.1.1",
+    "typescript": "3.0.3",
+    "url-loader": "1.1.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.8"
   },
   "scripts": {
     "prestart": "yarn install",
-    "start": "webpack-dev-server",
-    "pack": "webpack -p --env.NODE_ENV production --env.SOURCE_MAP source-map"
+    "start": "webpack-dev-server --mode development",
+    "pack": "webpack --mode production -p --env.NODE_ENV production --env.SOURCE_MAP source-map"
   },
   "repository": {
     "type": "git",
