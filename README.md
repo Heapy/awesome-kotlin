@@ -226,7 +226,6 @@ Here awesome badge for your project:
 * [phenax/h](https://github.com/phenax/h) - HTML templating library written in Kotlin
 * [bootique/bootique-kotlin](https://github.com/bootique/bootique-kotlin) - Provides extension function and features for smooth development with Bootique and Kotlin.
 * [SeunAdelekan/Kanary](https://github.com/SeunAdelekan/Kanary) - A micro webframework for Kotlin
-* [hypercube1024/firefly](https://github.com/hypercube1024/firefly) - an asynchronous web framework for rapid development of high-performance web application
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
