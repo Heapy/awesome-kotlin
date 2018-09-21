@@ -202,13 +202,6 @@ category("Libraries/Frameworks") {
       tags = Tags["web"]
     }
     link {
-      name = "hypercube1024/firefly"
-      desc = "an asynchronous web framework for rapid development of high-performance web application"
-      href = "https://github.com/hypercube1024/firefly"
-      type = github
-      tags = Tags["web", "reactive"]
-    }
-    link {
       name = "ExpediaDotCom/graphql-kotlin"
       desc = "Code-only GraphQL schema generation for Kotlin"
       href = "https://github.com/ExpediaDotCom/graphql-kotlin"
