@@ -315,6 +315,13 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin",  "coroutines", "coroutinescopes"]
     }
+    link {
+      name = "WindSekirun/RxSocialLogin"
+      desc = "This Android library is a library that provides social login for 15 platforms powered by RxJava2, Kotlin and Firebase Authentication. "
+      href = "https://github.com/WindSekirun/RxSocialLogin"
+      type = github
+      tags = Tags["android", "sociallogin", "rxjava", "kotlin"]
+    }
   }
   subcategory("Frameworks") {
     link {
