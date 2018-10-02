@@ -69,13 +69,6 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "http", "rest", "vert.x", "undertow"]
     }
     link {
-      name = "sdeleuze/spring-kotlin"
-      desc = "Kotlin extensions for Spring projects."
-      href = "https://github.com/sdeleuze/spring-kotlin"
-      type = github
-      tags = Tags["spring", "extensions"]
-    }
-    link {
       name = "pgutkowski/KGraphQL"
       desc = "A GraphQL implementation written in Kotlin"
       href = "https://github.com/pgutkowski/KGraphQL"
