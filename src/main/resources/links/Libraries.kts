@@ -688,6 +688,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["nosql", "graph", "database", "gremlin", "janusgraph", "orm"]
     }
+    link {
+      name = "jasync-sql/jasync-sql"
+      desc = "Kotlin port of mauricio's async driver for postgres/mysql."
+      href = "https://github.com/jasync-sql/jasync-sql"
+      type = github
+      tags = Tags["postgres", "mysql", "database driver"]
+    }
   }
   subcategory("Tools") {
     link {
