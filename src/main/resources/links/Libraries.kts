@@ -1504,6 +1504,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["cli", "ansi", "color"]
     }
+    link {
+      name = "aPureBase/arkenv"
+      desc = "Fully fledged command line arguments / environment variables parser via simple Kotlin delegates"
+      href = "https://github.com/aPureBase/arkenv"
+      type = github
+      tags = Tags["cli", "argument", "env", "environment", "variables", "parser"]
+    }
   }
   subcategory("Browsers") {
     link {
