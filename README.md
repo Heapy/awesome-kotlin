@@ -1143,6 +1143,9 @@ Here awesome badge for your project:
 
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
+### <a name="videos-october-2018"></a>October 2018 <sup>[Back ⇈](#videos-march-2018-subcategory)</sup>
+* [KotlinConf 2018](https://www.youtube.com/playlist?list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr)
+
 ### <a name="videos-march-2018"></a>March 2018 <sup>[Back ⇈](#videos-march-2018-subcategory)</sup>
 * [Kotlin EE: Boost your Productivity](http://kotlin.link/articles/Kotlin-EE-Boost-Your-Productivity.html) - Marcus Fihlon @ Voxxed Days Bucharest
 
