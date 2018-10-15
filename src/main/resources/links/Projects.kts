@@ -237,6 +237,13 @@ category("Projects") {
       type = github
       tags = Tags["JavaFX", "Desktop", "Player"]
     }
+    link {
+      name = "ruslanys/vkmusic"
+      desc = "JavaFX and Spring-Boot based application for grabbing music from VK.com."
+      href = "https://github.com/ruslanys/vkmusic"
+      type = github
+      tags = Tags["javafx", "spring", "spring-boot"]
+    }
 
   }
   subcategory("Examples") {
