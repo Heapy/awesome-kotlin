@@ -69,13 +69,6 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "http", "rest", "vert.x", "undertow"]
     }
     link {
-      name = "sdeleuze/spring-kotlin"
-      desc = "Kotlin extensions for Spring projects."
-      href = "https://github.com/sdeleuze/spring-kotlin"
-      type = github
-      tags = Tags["spring", "extensions"]
-    }
-    link {
       name = "pgutkowski/KGraphQL"
       desc = "A GraphQL implementation written in Kotlin"
       href = "https://github.com/pgutkowski/KGraphQL"
@@ -701,6 +694,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/fluidsonic/fluid-mongo"
       type = github
       tags = Tags["database", "mongodb", "nosql", "coroutines"]
+    }
+    link {
+      name = "jasync-sql/jasync-sql"
+      desc = "Kotlin port of mauricio's async driver for postgres/mysql."
+      href = "https://github.com/jasync-sql/jasync-sql"
+      type = github
+      tags = Tags["postgres", "mysql", "database driver"]
     }
   }
   subcategory("Tools") {
@@ -1510,6 +1510,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/ajalt/mordant"
       type = github
       tags = Tags["cli", "ansi", "color"]
+    }
+    link {
+      name = "aPureBase/arkenv"
+      desc = "Fully fledged command line arguments / environment variables parser via simple Kotlin delegates"
+      href = "https://github.com/aPureBase/arkenv"
+      type = github
+      tags = Tags["cli", "argument", "env", "environment", "variables", "parser"]
     }
   }
   subcategory("Browsers") {
