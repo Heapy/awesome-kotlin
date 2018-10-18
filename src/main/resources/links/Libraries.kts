@@ -689,6 +689,13 @@ category("Libraries/Frameworks") {
       tags = Tags["nosql", "graph", "database", "gremlin", "janusgraph", "orm"]
     }
     link {
+      name = "fluidsonic/fluid-mongo"
+      desc = "Coroutine support for MongoDB built on top of the official MongoDB Asynchronous Java Driver."
+      href = "https://github.com/fluidsonic/fluid-mongo"
+      type = github
+      tags = Tags["database", "mongodb", "nosql", "coroutines"]
+    }
+    link {
       name = "jasync-sql/jasync-sql"
       desc = "Kotlin port of mauricio's async driver for postgres/mysql."
       href = "https://github.com/jasync-sql/jasync-sql"
