@@ -359,13 +359,6 @@ category("Kotlin User Groups") {
       tags = Tags["India"]
     }
     link {
-      name = "Chennai Kotlin User Group"
-      desc = "India"
-      href = "https://www.meetup.com/Chennai-Kotlin-User-Group/"
-      type = kug
-      tags = Tags["India"]
-    }
-    link {
       name = "Chengdu Kotlin User Group"
       desc = "China"
       href = "https://www.kotliner.cn/chengdu/"
