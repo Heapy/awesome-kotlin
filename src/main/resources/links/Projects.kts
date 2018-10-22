@@ -228,6 +228,13 @@ category("Projects") {
       type = github
       tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
+    link {
+      name = "neworld/gradle-jdeploy-plugin"
+      desc = "Gradle plugin to publish JVM applications via npmjs.com"
+      href = "https://github.com/neworld/gradle-jdeploy-plugin"
+      type = github
+      tags = Tags["gradle", "publish", "npm"]
+    }
   }
   subcategory("Desktop") {
     link {
