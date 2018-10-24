@@ -322,6 +322,13 @@ category("Android") {
       type = github
       tags = Tags["android", "sociallogin", "rxjava", "kotlin"]
     }
+    link {
+      name = "bakhtiyork/gradients"
+      desc = "A curated collection of splendid gradients"
+      href = "https://github.com/bakhtiyork/gradients"
+      type = github
+      tags = Tags["android", "gradient", "drawable"]
+    }
   }
   subcategory("Frameworks") {
     link {
