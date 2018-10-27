@@ -1235,6 +1235,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["state machine"]
     }
+    link {
+      name = "sandjelkovic/kxjtime"
+      desc = "Lightweight Kotlin extensions for java.time API"
+      href = "https://github.com/sandjelkovic/kxjtime"
+      type = github
+      tags = Tags["extensions","time","date","jdk8", "java.time", "utility"]
+    }
   }
   subcategory("Extensions") {
     link {
