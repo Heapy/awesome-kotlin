@@ -91,6 +91,13 @@ category("Android") {
       tags = Tags["android"]
     }
     link {
+      name = "Stateful"
+      desc = "Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state."
+      href = "https://github.com/PicsArt/stateful"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
       name = "BennyWang/KBinding"
       desc = "Android View Model binding framework write in kotlin, base on anko, simple but powerful."
       href = "https://github.com/BennyWang/KBinding"
