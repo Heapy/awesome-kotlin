@@ -388,5 +388,12 @@ category("Projects") {
       type = github
       tags = Tags["idea", "plugin"]
     }
+    link {
+      name = "roger-yh99/Readhub"
+      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/Readhub"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
   }
 }
