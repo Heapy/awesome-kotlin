@@ -395,5 +395,12 @@ category("Projects") {
       type = github
       tags = Tags["idea", "plugin"]
     }
+    link {
+      name = "roger-yh99/AwesomeKotlinPlugin"
+      desc = "AwesomeKotlin plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
   }
 }
