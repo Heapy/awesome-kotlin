@@ -177,6 +177,7 @@ Here awesome badge for your project:
 * [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
 * [SuperKotlin](https://superkotlin.com) - A website about Kotlin
+* [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
@@ -195,6 +196,7 @@ Here awesome badge for your project:
 * [Building Android Apps with Kotlin: Getting Started - Alex Dunn](https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started) - Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before.
 * [Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro](https://store.raywenderlich.com/products/kotlin-apprentice) - Beginning programming with Kotlin
 * [Android Apprentice - Darryl Bayliss & Tom Blankenship](https://store.raywenderlich.com/products/android-apprentice) - Beginning Android programming using Kotlin
+* [Hands-on Design Patterns with Kotlin - Alexey Soshin](https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014) - Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
