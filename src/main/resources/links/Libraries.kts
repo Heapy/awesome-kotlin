@@ -1235,6 +1235,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["state machine"]
     }
+    link {
+      name = "pemistahl/lingua"
+      desc = "A language detection library suitable for long and short text alike"
+      href = "https://github.com/pemistahl/lingua"
+      type = github
+      tags = Tags["nlp", "natural-language-processing", "linguistics", "languages", "language-detection", "language-modeling", "machine-learning"]
+    }
   }
   subcategory("Extensions") {
     link {
