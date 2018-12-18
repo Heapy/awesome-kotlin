@@ -411,6 +411,13 @@ category("Libraries/Frameworks") {
       tags = Tags["coroutines", "spring"]
     }
     link {
+      name = "marcoferrer/kroto-plus"
+      desc = "Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC."
+      href = "https://github.com/marcoferrer/kroto-plus"
+      type = github
+      tags = Tags["coroutines","grpc","protobuf"]
+    }
+    link {
       name = "cloudoptlab/cloudopt-next"
       desc = "A next-generation Java web lightweight framework based on vertx and kotlin. "
       href = "https://github.com/cloudoptlab/cloudopt-next"
