@@ -1235,6 +1235,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["state machine"]
     }
+    link {
+      name = "charleskorn/kaml"
+      desc = "YAML support for kotlinx.serialization"
+      href = "https://github.com/charleskorn/kaml"
+      type = github
+      tags = Tags["serialization", "yaml"]
+    }
   }
   subcategory("Extensions") {
     link {
