@@ -309,6 +309,13 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "random", "random-generation"]
     }
     link {
+      name = "xgouchet/Elmyr"
+      desc = "A utility to make Kotlin/Java tests random yet reproducible"
+      href = "https://github.com/xgouchet/Elmyr"
+      type = github
+      tags = Tags["test", "random", "random-generation"]
+    }
+    link {
       name = "neworld/kupiter"
       desc = "Kotlin DSL for Junit5"
       href = "https://github.com/neworld/kupiter"
