@@ -161,6 +161,13 @@ category("Android") {
       tags = Tags["android", "layout"]
     }
     link {
+      name = "robinchew/mvil"
+      desc = "'Virtual DOM' for Android inspired by Anvil."
+      href = "https://github.com/robinchew/mvil"
+      type = github
+      tags = Tags["android", "layout"]
+    }
+    link {
       name = "DanielMartinus/Stepper-Touch"
       desc = "Fun playful Android stepper widget for counting, written in Kotlin."
       href = "https://github.com/DanielMartinus/Stepper-Touch"
