@@ -1430,6 +1430,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["waifu2x", "convolutional-neural-networks", "kotlin", "noise-reduction", "scaler"]
     }
+    link {
+      name = "nwillc/ksvg"
+      desc = "Kotlin SVG image generation DSL, supporting inline and file formats."
+      href = "https://github.com/nwillc/ksvg"
+      type = github
+      tags = Tags["ksvg", "svg", "kotlin", "dsl"]
+    }
   }
   subcategory("Data Science") {
     link {

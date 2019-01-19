@@ -207,7 +207,6 @@ Here awesome badge for your project:
 * [Kotlin/kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML.
 * [MarioAriasC/KotlinPrimavera](https://github.com/MarioAriasC/KotlinPrimavera) - Spring support libraries for Kotlin.
 * [kohesive/kovert](https://github.com/kohesive/kovert) - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
-* [sdeleuze/spring-kotlin](https://github.com/sdeleuze/spring-kotlin) - Kotlin extensions for Spring projects.
 * [pgutkowski/KGraphQL](https://github.com/pgutkowski/KGraphQL) - A GraphQL implementation written in Kotlin
 * [taskworld/kraph](https://github.com/taskworld/kraph) - GraphQL request string builder written in Kotlin
 * [sepatel/tekniq](https://github.com/sepatel/tekniq) - Full-feature HTTP DSL Framework, HTTP Client, JDBC DSL, Loading Cache and Configuration
@@ -278,7 +277,6 @@ Here awesome badge for your project:
 * [poetix/klenses](https://github.com/poetix/klenses) - Lenses for Kotlin.
 * [reactor/reactor-core](https://github.com/reactor/reactor-core) - Non-Blocking Reactive Streams Foundation for the JVM. Natively supports Kotlin, since 3.1.0.M3.
 * [UrbanCompass/Snail-Kotlin](https://github.com/UrbanCompass/Snail-Kotlin) - An observables framework for Kotlin.
-* [lightningkite/kotlin-observable](https://github.com/lightningkite/kotlin-observable) - Platform-independent observable framework
 
 ### <a name="libraries-frameworks-json"></a>JSON <sup>[Back ⇈](#libraries-frameworks-json-subcategory)</sup>
 * [cbeust/klaxon](https://github.com/cbeust/klaxon) - Lightweight library to parse JSON in Kotlin.
@@ -433,6 +431,7 @@ Here awesome badge for your project:
 * [java-opengl-labs/Vulkan](https://github.com/java-opengl-labs/Vulkan) - port of https://github.com/SaschaWillems/Vulkan
 * [Jonatino/JOGL2D](https://github.com/Jonatino/JOGL2D) - Zero-overhead 2D rendering library for JOGL using Kotlin.
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
+* [nwillc/ksvg](https://github.com/nwillc/ksvg) - Kotlin SVG image generation DSL, supporting inline and file formats.
 
 ### <a name="libraries-frameworks-data-science"></a>Data Science <sup>[Back ⇈](#libraries-frameworks-data-science-subcategory)</sup>
 * [ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Kotlin kernel for Jupyter/iPython.
@@ -496,6 +495,7 @@ Here awesome badge for your project:
 
 ### <a name="projects-desktop"></a>Desktop <sup>[Back ⇈](#projects-desktop-subcategory)</sup>
 * [ice1000/Dekoder](https://github.com/ice1000/Dekoder) -  A kotlin music player, materially designed.
+* [ruslanys/vkmusic](https://github.com/ruslanys/vkmusic) - JavaFX and Spring-Boot based application for grabbing music from VK.com.
 
 ### <a name="projects-examples"></a>Examples <sup>[Back ⇈](#projects-examples-subcategory)</sup>
 * [Kotlin/kotlin-koans](https://github.com/Kotlin/kotlin-koans) - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
@@ -1150,9 +1150,6 @@ Here awesome badge for your project:
 
 
 ## <a name="videos"></a>Videos <sup>[Back ⇈](#videos-category)</sup>
-### <a name="videos-october-2018"></a>October 2018 <sup>[Back ⇈](#videos-march-2018-subcategory)</sup>
-* [KotlinConf 2018](https://www.youtube.com/playlist?list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr)
-
 ### <a name="videos-march-2018"></a>March 2018 <sup>[Back ⇈](#videos-march-2018-subcategory)</sup>
 * [Kotlin EE: Boost your Productivity](http://kotlin.link/articles/Kotlin-EE-Boost-Your-Productivity.html) - Marcus Fihlon @ Voxxed Days Bucharest
 
