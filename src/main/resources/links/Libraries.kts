@@ -704,6 +704,13 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Tools") {
+	  link {
+      name = "SonarSource/sonarlint-intellij"
+      desc = "An IDE extension that helps you detect and fix quality issues as you write code."
+      href = "https://github.com/SonarSource/sonarlint-intellij"
+      type = github
+      tags = Tags["scripting", "ide", "linter", "language"]
+    }
     link {
       name = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
