@@ -395,5 +395,19 @@ category("Projects") {
       type = github
       tags = Tags["idea", "plugin"]
     }
+    link {
+      name = "roger-yh99/Readhub"
+      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/Readhub"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/AwesomeKotlinPlugin"
+      desc = "[AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
   }
 }
