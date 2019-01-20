@@ -368,7 +368,7 @@ category("Projects") {
     link {
       name = "IvanMwiruki/30-seconds-of-kotlin"
       desc = "Useful Kotlin snippets you can understand quickly, using only the stdlib."
-      href = "https://github.com/IvanMwiruki/awesome-kotlin.git"
+      href = "https://github.com/IvanMwiruki/30-seconds-of-kotlin"
       type = github
       tags = Tags["examples", "snippets", "sample", "study", "functional"]
     }
