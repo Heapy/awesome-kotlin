@@ -148,6 +148,13 @@ category("Links") {
       href = "https://superkotlin.com"
       tags = Tags["blog", "articles", "tutorials", "interviews"]
     }
+    link {
+      name = "AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
+      desc = "Code examples for 'Hands-on Design Patterns with Kotlin' book"
+      href = "https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
+      type = github
+      tags = Tags["GoF", "concurrency"]
+    }
   }
   subcategory("Books and Courses") {
     link {
@@ -226,6 +233,11 @@ category("Links") {
       name = "Android Apprentice - Darryl Bayliss & Tom Blankenship"
       desc = "Beginning Android programming using Kotlin"
       href = "https://store.raywenderlich.com/products/android-apprentice"
+    }
+    link {
+      name = "Hands-on Design Patterns with Kotlin - Alexey Soshin"
+      desc = "Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin"
+      href = "https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014"
     }
   }
 }

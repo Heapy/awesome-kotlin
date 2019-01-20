@@ -411,6 +411,13 @@ category("Libraries/Frameworks") {
       tags = Tags["coroutines", "spring"]
     }
     link {
+      name = "marcoferrer/kroto-plus"
+      desc = "Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC."
+      href = "https://github.com/marcoferrer/kroto-plus"
+      type = github
+      tags = Tags["coroutines","grpc","protobuf"]
+    }
+    link {
       name = "cloudoptlab/cloudopt-next"
       desc = "A next-generation Java web lightweight framework based on vertx and kotlin. "
       href = "https://github.com/cloudoptlab/cloudopt-next"
@@ -704,6 +711,13 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Tools") {
+	  link {
+      name = "SonarSource/sonarlint-intellij"
+      desc = "An IDE extension that helps you detect and fix quality issues as you write code."
+      href = "https://github.com/SonarSource/sonarlint-intellij"
+      type = github
+      tags = Tags["scripting", "ide", "linter", "language"]
+    }
     link {
       name = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
@@ -770,6 +784,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/s1monw1/KtsRunner"
       type = github
       tags = Tags["dsl", "scripting"]
+    }
+    link {
+      name = "jmfayard/buildSrcVersions"
+      desc = "Better Gradle dependencies management inside the IDE. Search for available updates."
+      href = "https://github.com/jmfayard/buildSrcVersions"
+      type = github
+      tags = Tags["gradle", "plugin", "build", "development", "libraries", "versions"]
     }
   }
   subcategory("Desktop") {
@@ -1242,6 +1263,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["serialization", "yaml"]
     }
+    link {
+      name = "pemistahl/lingua"
+      desc = "A language detection library suitable for long and short text alike"
+      href = "https://github.com/pemistahl/lingua"
+      type = github
+      tags = Tags["nlp", "natural-language-processing", "linguistics", "languages", "language-detection", "language-modeling", "machine-learning"]
+    }
+    link {
+      name = "sandjelkovic/kxjtime"
+      desc = "Lightweight Kotlin extensions for java.time API"
+      href = "https://github.com/sandjelkovic/kxjtime"
+      type = github
+      tags = Tags["extensions","time","date","jdk8", "java.time", "utility"]
+    }
   }
   subcategory("Extensions") {
     link {
@@ -1429,6 +1464,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/soywiz/kaifu2x"
       type = github
       tags = Tags["waifu2x", "convolutional-neural-networks", "kotlin", "noise-reduction", "scaler"]
+    }
+    link {
+      name = "nwillc/ksvg"
+      desc = "Kotlin SVG image generation DSL, supporting inline and file formats."
+      href = "https://github.com/nwillc/ksvg"
+      type = github
+      tags = Tags["ksvg", "svg", "kotlin", "dsl"]
     }
   }
   subcategory("Data Science") {
