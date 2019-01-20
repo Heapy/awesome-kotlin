@@ -365,6 +365,13 @@ category("Projects") {
       type = github
       tags = Tags["examples", "javascript", "web", "react", "todomvc"]
     }
+    link {
+      name = "IvanMwiruki/30-seconds-of-kotlin"
+      desc = "Useful Kotlin snippets you can understand quickly, using only the stdlib."
+      href = "https://github.com/IvanMwiruki/awesome-kotlin.git"
+      type = github
+      tags = Tags["examples", "snippets", "sample", "study", "functional"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
