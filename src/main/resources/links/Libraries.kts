@@ -1257,6 +1257,13 @@ category("Libraries/Frameworks") {
       tags = Tags["state machine"]
     }
     link {
+      name = "charleskorn/kaml"
+      desc = "YAML support for kotlinx.serialization"
+      href = "https://github.com/charleskorn/kaml"
+      type = github
+      tags = Tags["serialization", "yaml"]
+    }
+    link {
       name = "pemistahl/lingua"
       desc = "A language detection library suitable for long and short text alike"
       href = "https://github.com/pemistahl/lingua"
