@@ -1257,6 +1257,13 @@ category("Libraries/Frameworks") {
       tags = Tags["state machine"]
     }
     link {
+      name = "pemistahl/lingua"
+      desc = "A language detection library suitable for long and short text alike"
+      href = "https://github.com/pemistahl/lingua"
+      type = github
+      tags = Tags["nlp", "natural-language-processing", "linguistics", "languages", "language-detection", "language-modeling", "machine-learning"]
+    }
+    link {
       name = "sandjelkovic/kxjtime"
       desc = "Lightweight Kotlin extensions for java.time API"
       href = "https://github.com/sandjelkovic/kxjtime"
