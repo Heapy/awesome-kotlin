@@ -778,6 +778,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["dsl", "scripting"]
     }
+    link {
+      name = "jmfayard/buildSrcVersions"
+      desc = "Better Gradle dependencies management inside the IDE. Search for available updates."
+      href = "https://github.com/jmfayard/buildSrcVersions"
+      type = github
+      tags = Tags["gradle", "plugin", "build", "development", "libraries", "versions"]
+    }
   }
   subcategory("Desktop") {
     link {
