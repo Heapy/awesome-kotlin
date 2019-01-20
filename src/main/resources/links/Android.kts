@@ -91,6 +91,13 @@ category("Android") {
       tags = Tags["android"]
     }
     link {
+      name = "Stateful"
+      desc = "Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state."
+      href = "https://github.com/PicsArt/stateful"
+      type = github
+      tags = Tags["android"]
+    }
+    link {
       name = "BennyWang/KBinding"
       desc = "Android View Model binding framework write in kotlin, base on anko, simple but powerful."
       href = "https://github.com/BennyWang/KBinding"
@@ -157,6 +164,13 @@ category("Android") {
       name = "zserge/anvil"
       desc = "Minimal UI library for Android inspired by React."
       href = "https://github.com/zserge/anvil"
+      type = github
+      tags = Tags["android", "layout"]
+    }
+    link {
+      name = "robinchew/mvil"
+      desc = "'Virtual DOM' for Android inspired by Anvil."
+      href = "https://github.com/robinchew/mvil"
       type = github
       tags = Tags["android", "layout"]
     }
@@ -321,6 +335,13 @@ category("Android") {
       href = "https://github.com/WindSekirun/RxSocialLogin"
       type = github
       tags = Tags["android", "sociallogin", "rxjava", "kotlin"]
+    }
+    link {
+      name = "bakhtiyork/gradients"
+      desc = "A curated collection of splendid gradients"
+      href = "https://github.com/bakhtiyork/gradients"
+      type = github
+      tags = Tags["android", "gradient", "drawable"]
     }
   }
   subcategory("Frameworks") {
