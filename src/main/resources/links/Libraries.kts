@@ -723,6 +723,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["postgres", "mysql", "database driver"]
     }
+    link {
+      name = "JetBrains/xodus"
+      desc = "JetBrains Xodus is a Java transactional schema-less embedded database used by JetBrains YouTrack and JetBrains Hub."
+      href = "https://github.com/JetBrains/xodus"
+      type = github
+      tags = Tags["nosql", "embedded", "schemaless", "transactional"]
+    }
   }
   subcategory("Tools") {
 	  link {
