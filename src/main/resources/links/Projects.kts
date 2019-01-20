@@ -228,6 +228,13 @@ category("Projects") {
       type = github
       tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
+    link {
+      name = "neworld/gradle-jdeploy-plugin"
+      desc = "Gradle plugin to publish JVM applications via npmjs.com"
+      href = "https://github.com/neworld/gradle-jdeploy-plugin"
+      type = github
+      tags = Tags["gradle", "publish", "npm"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -385,6 +392,20 @@ category("Projects") {
       name = "izhangzhihao/intellij-rainbow-brackets"
       desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
       href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/Readhub"
+      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/Readhub"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/AwesomeKotlinPlugin"
+      desc = "[AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
       type = github
       tags = Tags["idea", "plugin"]
     }

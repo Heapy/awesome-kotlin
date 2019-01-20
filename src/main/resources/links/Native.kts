@@ -28,4 +28,27 @@ category("Kotlin Native") {
       tags = Tags["native", "llvm", "android", "ios", "backend", "linux"]
     }
   }
+  subcategory("Frameworks") {
+    link {
+      name = "KwangIO/kwang"
+      desc = "High Performance Kotlin Native Web Framework"
+      href = "https://github.com/KwangIO/kwang"
+      type = github
+      tags = Tags["native", "backend", "linux", "C", "high-performance"]
+    }
+    link {
+      name = "msink/kotlin-libui"
+      desc = "Kotlin/Native interop to libui: a portable GUI library"
+      href = "https://github.com/msink/kotlin-libui"
+      type = github
+      tags = Tags["native", "GUI", "C", "portable", "desktop", "libui"]
+    }
+    link {
+      name = "dbaelz/Konclik"
+      desc = "Kotlin/Native Command Line Interface Kit"
+      href = "https://github.com/dbaelz/Konclik"
+      type = github
+      tags = Tags["native", "CLI"]
+    }
+  }
 }
