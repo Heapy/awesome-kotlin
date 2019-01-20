@@ -578,6 +578,13 @@ category("Libraries/Frameworks") {
       tags = Tags["database", "query", "schema", "dao"]
     }
     link {
+      name = "ebean-orm/ebean"
+      desc = "Ebean is a Java & Kotlin ORM including type safe kotlin queries"
+      href = "https://github.com/ebean-orm/ebean"
+      type = github
+      tags = Tags["database", "sql", "orm", "query", "type-safe builder", "jpa"]
+    }
+    link {
       name = "cheptsov/kotlin-nosql"
       desc = "NoSQL database query and access library for Kotlin."
       href = "https://github.com/cheptsov/kotlin-nosql"
