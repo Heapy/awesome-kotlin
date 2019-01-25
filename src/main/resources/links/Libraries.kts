@@ -329,6 +329,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["snapshot", "test", "assert"]
     }
+    link {
+      name = "permissions-dispatcher/kompile-testing"
+      desc = "Testing tools for kotlinc and kapt."
+      href = "https://github.com/permissions-dispatcher/kompile-testing"
+      type = github
+      tags = Tags["kapt", "test"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
