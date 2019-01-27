@@ -904,6 +904,13 @@ category("Libraries/Frameworks") {
       tags = Tags["editor", "ide", "language"]
     }
     link {
+      name = "fwcd/KotlinLanguageServer"
+      desc = "Smart code completion, diagnostics and more for Kotlin using the Language Server Protocol. VS Code extension included."
+      href = "https://github.com/fwcd/KotlinLanguageServer"
+      type = github
+      tags = Tags["editor", "ide", "language"]
+    }
+    link {
       name = "mathiasfrohlich/vscode-kotlin"
       desc = "Kotlin language support for VS Code."
       href = "https://github.com/mathiasfrohlich/vscode-kotlin"
