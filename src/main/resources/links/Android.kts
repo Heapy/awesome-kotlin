@@ -604,6 +604,13 @@ category("Android") {
       type = github
       tags = Tags["android", "app", "companion-app", "kotlin", "mvvm", "android-architecture-components", "kotlin-coroutines", "dependency-injection", "fastadapter"]
     }
+    link {
+      name = "adrielcafe/ChromaAndroidApp"
+      desc = "Chromatic tuner app."
+      href = "https://github.com/adrielcafe/ChromaAndroidApp"
+      type = github
+      tags = Tags["android", "app", "mvvm", "android-architecture-components", "kotlin-coroutines", "music", "tuner", "chromatic-tuner"]
+    }
   }
   subcategory("Extensions") {
     link {
