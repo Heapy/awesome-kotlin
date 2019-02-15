@@ -373,6 +373,13 @@ category("Android") {
       type = github
       tags = Tags["cross-platform", "ikvm", "codenameone", "java", "iphone", "mobile"]
     }
+    link {
+      name = "hpost/kommon-mvi"
+      desc = "Minimal framework for Model View Intent inspired Android applications written in Kotlin."
+      href = "https://github.com/hpost/kommon-mvi"
+      type = github
+      tags = Tags["rxjava2", "rxjava", "android", "mvi", "mvi-architecture", "android-architecture"]
+    }
   }
   subcategory("Projects") {
     link {
