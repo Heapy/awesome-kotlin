@@ -343,6 +343,13 @@ category("Android") {
       type = github
       tags = Tags["android", "gradient", "drawable"]
     }
+    link {
+      name = "hpost/RxBrainwaves"
+      desc = "RxJava wrapper for NeuroSky MindWave headsets"
+      href = "https://github.com/hpost/rx-brainwaves"
+      type = github
+      tags = Tags["rxjava2", "rxjava-wrapper", "neurosky-mindwave", "android"]
+    }
   }
   subcategory("Frameworks") {
     link {
