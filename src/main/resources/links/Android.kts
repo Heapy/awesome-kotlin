@@ -350,6 +350,13 @@ category("Android") {
       type = github
       tags = Tags["rxjava2", "rxjava-wrapper", "neurosky-mindwave", "android"]
     }
+    link {
+      name = "adrielcafe/KrumbsView"
+      desc = "The ultimate breadcrumbs view for Android!"
+      href = "https://github.com/adrielcafe/KrumbsView"
+      type = github
+      tags = Tags["android", "breadcrumbs", "breadcrumb-navigation"]
+    }
   }
   subcategory("Frameworks") {
     link {
