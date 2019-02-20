@@ -230,6 +230,7 @@ Here awesome badge for your project:
 * [SeunAdelekan/Kanary](https://github.com/SeunAdelekan/Kanary) - A micro webframework for Kotlin
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
 * [zhudyos/duic](https://github.com/zhudyos/duic) Distributed configuration center（分布式配置中心）:new:
+* [skrapeit/skrape.it](https://docs.skrape.it/docs) HTML testing and web scraping library providing an intuitive DSL to receive and either extract or check markup (a jSoup wrapper DSL with extra functionality) :new:
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
