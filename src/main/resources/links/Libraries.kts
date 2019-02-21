@@ -852,6 +852,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["http", "http client", "dsl", "okhttp"]
     }
+    link {
+      name = "curiousnikhil/Asynkio"
+      desc = "Make asynchronous calls painlessly with async/await style."
+      href = "https://github.com/CuriousNikhil/AsynKio"
+      type = github
+      tags = Tags["http", "http client", "coroutines"]
+    }
   }
   subcategory("Editors") {
     link {
