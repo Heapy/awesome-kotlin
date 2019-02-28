@@ -336,6 +336,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["kapt", "test"]
     }
+    link {
+      name = "robfletcher/strikt"
+      desc = "An assertion library for Kotlin"
+      href = "https://github.com/robfletcher/strikt/"
+      type = github
+      tags = Tags["test", "strikt", "assert"]
+    }
+    link {
+      name = "dmcg/minutest"
+      desc = "Simple, Expressive, Extensible Testing for Kotlin on the JVM"
+      href = "https://github.com/dmcg/minutest"
+      type = github
+      tags = Tags["test", "minutest", "dsl"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
