@@ -372,6 +372,13 @@ category("Projects") {
       type = github
       tags = Tags["examples", "snippets", "sample", "study", "functional"]
     }
+    link {
+      name = "xurxodev/integration-testing-kotlin-multiplatform-kata"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin multiplatform using Ktor and Ktor Client Mock."
+      href = "https://github.com/xurxodev/integration-testing-kotlin-multiplatform-kata"
+      type = github
+      tags = Tags["examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
