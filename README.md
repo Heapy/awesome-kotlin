@@ -269,6 +269,8 @@ Here awesome badge for your project:
 * [konrad-kaminski/spring-kotlin-coroutine](https://github.com/konrad-kaminski/spring-kotlin-coroutine) - Kotlin coroutine support for Spring.
 * [marcoferrer/kroto-plus](https://github.com/marcoferrer/kroto-plus) - Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC.
 * [cloudoptlab/cloudopt-next](https://github.com/cloudoptlab/cloudopt-next) - A next-generation Java web lightweight framework based on vertx and kotlin. 
+* [viartemev/the-white-rabbit](https://github.com/viartemev/the-white-rabbit) - Coroutine client for RabbitMQ. 
+
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
 * [arrow-kt/arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
