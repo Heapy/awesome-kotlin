@@ -55,7 +55,7 @@ buildscript {
   repositories {
     jcenter()
     mavenCentral()
-    maven { url "http://dl.bintray.com/jonnyzzz/maven" }
+    maven { url "https://dl.bintray.com/jonnyzzz/maven" }
   }
 
   dependencies {
