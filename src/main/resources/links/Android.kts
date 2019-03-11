@@ -632,6 +632,13 @@ category("Android") {
       type = github
       tags = Tags["android", "app", "mvvm", "android-architecture-components", "kotlin-coroutines", "music", "tuner", "chromatic-tuner"]
     }
+    link {
+      name = "cuongpm/youtube-dl-android"
+      desc = "Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites."
+      href = "https://github.com/cuongpm/youtube-dl-android"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "youtube-dl", "youtube-downloader", "video-downloader", "android-video-downloader"]
+    }
   }
   subcategory("Extensions") {
     link {
