@@ -350,6 +350,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "minutest", "dsl"]
     }
+    link {
+      name = "codecentric/hikaku"
+      desc = "A library that tests if the implementation of a REST-API meets its specification."
+      href = "https://github.com/codecentric/hikaku"
+      type = github
+      tags = Tags["test", "assert", "api", "rest"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
