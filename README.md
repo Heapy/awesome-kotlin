@@ -683,6 +683,8 @@ Here awesome badge for your project:
 * [JetBrains/kotlin-native](https://github.com/JetBrains/kotlin-native) - Kotlin/Native is a LLVM backend for the Kotlin compiler, runtime implementation and native code generation facility using LLVM toolchain.
 * [perses-games/konan-sfml](https://github.com/perses-games/konan-sfml) - Kotlin native with SFML example
 * [JetBrains/kotlinconf-spinner](https://github.com/JetBrains/kotlinconf-spinner) - Simple spinner-like game intended to demonstrate capabilities of Kotlin/Native software stack.
+* [konanc-config/konanc-config](https://github.com/konanc-config/konanc-config) - Command line utility to read '*.kc' konanc config files to print compiler flags for konanc, the Kotlin Native compiler.
+* [datkt](https://github.com/datkt) - An effort to implement the DAT protocol as small modules in Kotlin Native using the NPM package system.
 
 ### <a name="kotlin-native-frameworks"></a>Frameworks <sup>[Back ⇈](#kotlin-native-frameworks-subcategory)</sup>
 * [KwangIO/kwang](https://github.com/KwangIO/kwang) - High Performance Kotlin Native Web Framework
