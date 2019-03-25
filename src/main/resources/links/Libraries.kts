@@ -1333,6 +1333,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["extensions","time","date","jdk8", "java.time", "utility"]
     }
+    link {
+      name = "pmwmedia/tinylog"
+      desc = "Lightweight logging framework with native logging API for Kotlin."
+      href = "https://github.com/pmwmedia/tinylog"
+      platforms = arrayOf(JVM, ANDROID)
+      type = github
+      tags = Tags["logging", "logger"]
+    }
   }
   subcategory("Extensions") {
     link {
