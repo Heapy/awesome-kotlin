@@ -357,6 +357,13 @@ category("Android") {
       type = github
       tags = Tags["android", "breadcrumbs", "breadcrumb-navigation"]
     }
+    link {
+      name = "inshiro/Skate"
+      desc = "A simple and easy to use Android fragment stack controller"
+      href = "https://github.com/inshiro/skate"
+      type = github
+      tags = Tags["android", "fragment", "controller", "navigation"]
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -528,9 +535,9 @@ category("Android") {
       tags = Tags["android", "extensions", "utils", "library", "material", "ui", "sharedpreferences", "media-picker", "searchview", "color-picker", "permission-manager"]
     }
     link {
-      name = "inshiro/Kitvei"
+      name = "inshiro/Kodesh"
       desc = "Free and open source Bible for Android"
-      href = "https://github.com/inshiro/Kitvei"
+      href = "https://github.com/inshiro/Kodesh"
       type = github
       tags = Tags["android", "application", "read", "book", "bible"]
     }
