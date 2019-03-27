@@ -1342,6 +1342,15 @@ category("Libraries/Frameworks") {
       tags = Tags["logging", "logger"]
     }
   }
+  subcategory("Raspberry Pi") {
+    link {
+      name = "mhashim6/Pi4K"
+      desc = "Pi4J Kotlin bindings."
+      href = "https://github.com/mhashim6/Pi4K"
+      type = github
+      tags = Tags["raspberry-pi", "raspberrypi", "gpio", "dsl", "pi4j"]
+    }
+  }
   subcategory("Extensions") {
     link {
       name = "Kotlin/kotlinx.support"
