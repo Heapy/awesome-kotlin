@@ -646,6 +646,13 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin", "mvvm", "youtube-dl", "youtube-downloader", "video-downloader", "android-video-downloader"]
     }
+    link {
+      name = "dgngulcan/droid-feed"
+      desc = "News feed aggregated exclusively for Android Developers."
+      href = "https://github.com/dgngulcan/droid-feed"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "kotlin-coroutines", "news", "app"]
+    }
   }
   subcategory("Extensions") {
     link {
