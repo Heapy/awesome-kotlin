@@ -4,10 +4,10 @@ import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.CopyTask
-import link.kotlin.scripts.utils.DefaultScriptCompiler
+import link.kotlin.scripts.utils.createHttpClient
+import link.kotlin.scripts.utils.createScriptCompiler
 import link.kotlin.scripts.utils.logger
 import link.kotlin.scripts.utils.measureAndLog
-import link.kotlin.scripts.utils.okHttpClient
 import java.nio.file.Files
 import java.nio.file.Files.write
 import java.nio.file.Paths
@@ -15,20 +15,25 @@ import java.nio.file.StandardOpenOption.CREATE
 import java.nio.file.StandardOpenOption.TRUNCATE_EXISTING
 
 object Application {
+    private val httpClient = createHttpClient()
+    private val scriptCompiler = createScriptCompiler()
+
     @JvmStatic
     fun main(args: Array<String>) {
         try {
             runBlocking {
                 LOGGER.info("Start getting project links and articles")
-                val compiler = DefaultScriptCompiler()
-                val projectLinks = ProjectLinks(compiler).getLinks()
-                val articles = Articles(compiler)
+                val projectLinks = ProjectLinks(scriptCompiler).getLinks()
+                val articles = Articles(scriptCompiler)
                 LOGGER.info("Finish getting project links and articles")
 
                 when (args.getOrNull(0)) {
                     "true" -> site(projectLinks, articles)
                     else -> readme(projectLinks, articles)
                 }
+
+                LOGGER.info("Done, exit.")
+                System.exit(0)
             }
         } catch (t: Throwable) {
             LOGGER.error("Unhandled error", t)
@@ -52,7 +57,15 @@ object Application {
         val config = ApplicationConfiguration()
 
         measureAndLog("checking links") {
-            LinkChecker(projectLinks).check()
+            LinkChecker(httpClient).check(
+                projectLinks.flatMap { category ->
+                    category.subcategories.flatMap { subcategory ->
+                        subcategory.links.map {
+                            it.href
+                        }
+                    }
+                }
+            )
         }
 
         // Sitemap
@@ -63,7 +76,7 @@ object Application {
 
         // Stars
         measureAndLog("fetching stars") {
-            val stars = DefaultStarsGenerator(config, mapper, okHttpClient)
+            val stars = DefaultStarsGenerator(config, mapper, httpClient)
                 .generate(projectLinks + articles.links())
             write(Paths.get("./app/LinksWithStars.json"), stars.toByteArray(), CREATE, TRUNCATE_EXISTING)
         }
@@ -94,15 +107,11 @@ object Application {
         }
 
         measureAndLog("fetching latest kotlin versions") {
-            val fetcher = MavenCentralVersionFetcher(
-                okHttpClient
-            )
+            val fetcher = MavenCentralVersionFetcher(httpClient)
 
             val versions = fetcher.getLatestVersions(listOf("1.0", "1.1", "1.2", "1.3"))
             write(Paths.get("./versions.json"), mapper.writeValueAsBytes(versions), CREATE, TRUNCATE_EXISTING)
         }
-
-        okHttpClient.dispatcher().executorService().shutdown()
     }
 
     private val LOGGER = logger<Application>()

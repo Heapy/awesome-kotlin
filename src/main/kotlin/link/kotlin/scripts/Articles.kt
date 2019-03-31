@@ -169,16 +169,11 @@ private fun getFileName(path: Path): String {
     val name = path.fileName.toString().removeSuffix(".kts")
 
     val escaped = name
-        .map { it.toInt() }
         .map { code ->
-            // See html codes: 32 - space, 47 - slash, 58 - colon, 64 - at, 91 - opening bracket, 96 - grave accent
-            // http://ascii-code.com/
-            // whitelist approach instead?
-            Char
-            if ((code in 32..47) || (code in 58..64) || (code in 91..96) || (code in 123..255)) {
+            if ((code !in 'a'..'Z') || (code !in '0'..'9')) {
                 '-'
             } else {
-                code.toChar()
+                code
             }
         }
         .joinToString(separator = "")

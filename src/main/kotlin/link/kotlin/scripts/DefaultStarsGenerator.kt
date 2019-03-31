@@ -3,25 +3,23 @@ package link.kotlin.scripts
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import link.kotlin.scripts.model.ApplicationConfiguration
-import link.kotlin.scripts.utils.await
+import link.kotlin.scripts.utils.HttpClient
+import link.kotlin.scripts.utils.body
 import link.kotlin.scripts.utils.logger
 import link.kotlin.scripts.utils.parseInstant
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.Response
+import org.apache.http.client.methods.HttpGet
 
 class DefaultStarsGenerator(
     private val config: ApplicationConfiguration,
     private val mapper: ObjectMapper,
-    private val okHttpClient: OkHttpClient
+    private val httpClient: HttpClient
 ) {
     suspend fun generate(links: Links): String {
         val deferredCategories = links.map { category ->
-            GlobalScope.async(Dispatchers.Default) { processCategory(category) }
+            GlobalScope.async { processCategory(category) }
         }
 
         val mapped = deferredCategories.map { it.await() }
@@ -31,7 +29,7 @@ class DefaultStarsGenerator(
 
     private suspend fun processCategory(category: Category): Category {
         val deferredSubcategories = category.subcategories.map { subcategory ->
-            GlobalScope.async(Dispatchers.Default) { processSubcategory(subcategory) }
+            GlobalScope.async { processSubcategory(subcategory) }
         }
 
         val processed = deferredSubcategories.map { it.await() }.toMutableList()
@@ -45,8 +43,8 @@ class DefaultStarsGenerator(
                 LinkType.github -> {
                     LOGGER.info("Fetching star count from github: ${link.name}.")
                     val json = try {
-                        val response = getGithubStarCount(okHttpClient, link.name, config.ghUser, config.ghToken)
-                        mapper.readTree(response.body()?.string() ?: "")
+                        val response = getGithubStarCount(httpClient, link.name, config.ghUser, config.ghToken)
+                        mapper.readTree(response)
                     } catch (e: Exception) {
                         LOGGER.error("Error while fetching data for '${link.name}'.", e)
                         throw e
@@ -64,10 +62,9 @@ class DefaultStarsGenerator(
                 }
                 LinkType.bitbucket -> {
                     LOGGER.info("Fetching star count from bitbucket: ${link.name}.")
-                    val response = getBitbucketStarCount(okHttpClient, link.name)
+                    val response = getBitbucketStarCount(httpClient, link.name)
 
-                    val stars = mapper.readValue<BitbucketResponse>(response.body()?.string() ?: "")
-                    link.star = stars.size
+                    val stars = mapper.readValue<BitbucketResponse>(response)
                     link
                 }
                 else -> link
@@ -81,28 +78,26 @@ class DefaultStarsGenerator(
 }
 
 
-private suspend fun getGithubStarCount(client: OkHttpClient, name: String, user: String, pass: String): Response {
+private suspend fun getGithubStarCount(client: HttpClient, name: String, user: String, pass: String): String {
     if (user == "" || pass == "") {
         throw RuntimeException("You should run this script only when you added GH_USER and GH_TOKEN to env." +
             "Token can be found here: https://github.com/settings/tokens")
     }
 
-    val request = Request.Builder()
-        .url("https://api.github.com/repos/$name")
-        .header("User-Agent", "Awesome-Kotlin-List")
-        .header("Authorization", "token $pass")
-        .build()
+    val request = HttpGet("https://api.github.com/repos/$name").also {
+        it.addHeader("User-Agent", "Awesome-Kotlin-List")
+        it.addHeader("Authorization", "token $pass")
+    }
 
-    return client.newCall(request).await()
+    return client.execute(request).body()
 }
 
-private suspend fun getBitbucketStarCount(client: OkHttpClient, name: String): Response {
-    val request = Request.Builder()
-        .url("https://api.bitbucket.org/2.0/repositories/$name/watchers")
-        .header("User-Agent", "Awesome-Kotlin-List")
-        .build()
+private suspend fun getBitbucketStarCount(client: HttpClient, name: String): String {
+    val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers").also {
+        it.addHeader("User-Agent", "Awesome-Kotlin-List")
+    }
 
-    return client.newCall(request).await()
+    return client.execute(request).body()
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)

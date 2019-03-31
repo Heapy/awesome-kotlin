@@ -16,6 +16,8 @@ object Dep {
     val commonmark = "com.atlassian.commonmark:commonmark:$commonmarkVersion"
     val commonmarkExtGfmTables = "com.atlassian.commonmark:commonmark-ext-gfm-tables:$commonmarkVersion"
 
+    val httpClient = "org.apache.httpcomponents:httpasyncclient:4.1.4"
+
     val mockk = "io.mockk:mockk:1.9"
     val junit = "org.junit.jupiter:junit-jupiter-engine:5.4.0"
 }

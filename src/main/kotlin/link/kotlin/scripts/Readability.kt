@@ -6,49 +6,41 @@ import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.model.ApplicationConfiguration
-import link.kotlin.scripts.utils.await
-import link.kotlin.scripts.utils.okHttpClient
+import link.kotlin.scripts.utils.HttpClient
+import link.kotlin.scripts.utils.body
+import link.kotlin.scripts.utils.createHttpClient
 import link.kotlin.scripts.utils.parseInstant
-import okhttp3.HttpUrl
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.Response
+import org.apache.http.client.methods.HttpGet
+import org.apache.http.client.utils.URIBuilder
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
 import java.time.LocalDateTime.now
 
 class Readability(
-    private val client: OkHttpClient,
+    private val httpClient: HttpClient,
     private val configuration: ApplicationConfiguration
 ) {
-    suspend fun getArticle(url: String): Response {
-        val request = Request.Builder()
-            .url(HttpUrl.Builder()
-                .scheme("https")
-                .host("mercury.postlight.com")
-                .encodedPath("/parser")
-                .addQueryParameter("url", url)
-                .build()
-            )
-            .header("Content-Type", "application/json")
-            .header("x-api-key", configuration.mercuryToken)
-            .build()
+    suspend fun getArticle(url: String): String {
+        val request = HttpGet().also {
+            it.uri = URIBuilder("https://mercury.postlight.com/parser").addParameter("url", url).build()
+            it.addHeader("Content-Type", "application/json")
+            it.addHeader("x-api-key", configuration.mercuryToken)
+        }
 
-        return client.newCall(request).await()
+        return httpClient.execute(request).body()
     }
 }
 
-fun main(args: Array<String>) = runBlocking {
+fun main() = runBlocking {
     val mapper = jacksonObjectMapper()
     val readability = Readability(
-        okHttpClient,
+        createHttpClient(),
         ApplicationConfiguration()
     )
 
     val response = readability.getArticle("https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1-1-is-out/")
-    val responseString = response.body()?.string() ?: throw RuntimeException("Response is null.")
-    val res = mapper.readValue<ReadabilityResponse>(responseString)
+    val res = mapper.readValue<ReadabilityResponse>(response)
     val article = res.toArticle()
     Files.write(
         Paths.get("./articles/english/2017/${res.title}.kts"),

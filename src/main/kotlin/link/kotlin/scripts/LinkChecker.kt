@@ -1,56 +1,32 @@
 package link.kotlin.scripts
 
-import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
-import link.kotlin.scripts.model.Link
-import link.kotlin.scripts.utils.await
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.withTimeout
+import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.logger
-import link.kotlin.scripts.utils.okHttpClient
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.Response
+import org.apache.http.client.methods.HttpHead
 
 class LinkChecker(
-    private val categories: List<Category>
+    private val httpClient: HttpClient
 ) {
-    suspend fun check() {
-        val responses = flattenRequests(categories, okHttpClient)
-
-        responses.forEach { response ->
-            try {
-                response.second.await().let {
-                    val code = it.code()
-
-                    if (code != 200) {
-                        LOGGER.error("${response.first.href}: Response code: $code.")
+    suspend fun check(links: List<String>) {
+        links.map { link ->
+            GlobalScope.async {
+                try {
+                    val response = withTimeout(10000) {
+                        httpClient.execute(HttpHead(link))
                     }
+
+                    if (response.statusLine.statusCode != 200) {
+                        LOGGER.error("$link: Response code: ${response.statusLine.statusCode}.")
+                    }
+                } catch (e: Exception) {
+                    LOGGER.error("Error checking link $link.", e)
                 }
-            } catch (e: Exception) {
-                LOGGER.error("Error checking link.", e)
             }
-        }
-    }
-
-    private suspend fun flattenRequests(
-        categories: List<Category>,
-        client: OkHttpClient
-    ): List<Pair<Link, Deferred<Response>>> {
-        return categories.map { category ->
-            category.subcategories.map { subcategory ->
-                subcategory.links.map { link ->
-                    link to GlobalScope.async { get(link.href, client) }
-                }
-            }.flatten()
-        }.flatten()
-    }
-
-    private suspend fun get(url: String, client: OkHttpClient): Response {
-        val request = Request.Builder()
-            .url(url)
-            .build()
-
-        return client.newCall(request).await()
+        }.awaitAll()
     }
 
     companion object {
