@@ -1,7 +1,7 @@
 package link.kotlin.scripts
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.CopyTask
 import link.kotlin.scripts.utils.DefaultScriptCompiler

@@ -1,39 +1,36 @@
-import org.gradle.kotlin.dsl.apply
-import org.gradle.kotlin.dsl.extra
-import org.gradle.kotlin.dsl.getValue
-import org.gradle.kotlin.dsl.kotlin
-import org.gradle.kotlin.dsl.repositories
-import org.jetbrains.kotlin.gradle.dsl.Coroutines
-import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
-
-val kotlinVersion: String by project
-val commonMarkVersion: String by project
+import Dep.Kotlin.reflect
+import Dep.Kotlin.stdlib
+import Dep.commonmark
+import Dep.commonmarkExtGfmTables
+import Dep.coroutines
+import Dep.jacksonKotlin
+import Dep.jacksonXml
+import Dep.junit
+import Dep.kotlinVersion
+import Dep.mockk
 
 plugins {
     application
-    kotlin("jvm") version "1.2.70"
+    kotlin("jvm") version Dep.kotlinVersion
 }
 
 application {
     mainClassName = "link.kotlin.scripts.Application"
 }
 
-kotlin {
-    experimental.coroutines = Coroutines.ENABLE
-}
-
 repositories {
     jcenter()
-    maven { setUrl("https://dl.bintray.com/heapy/heap") }
+    maven { url = uri("https://dl.bintray.com/heapy/heap") }
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
-    compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.22.5")
+    compile(stdlib)
+    compile(reflect)
+    compile(coroutines)
 
-    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2")
-    compile("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.3")
+    compile(jacksonXml)
+    compile(jacksonKotlin)
+
     compile("org.slf4j:slf4j-api:1.7.25")
     compile("ch.qos.logback:logback-classic:1.2.3")
     compile("io.sentry:sentry-logback:1.6.3")
@@ -45,10 +42,11 @@ dependencies {
 
     compile("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
     compile("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion")
-    compile("com.atlassian.commonmark:commonmark:$commonMarkVersion")
-    compile("com.atlassian.commonmark:commonmark-ext-gfm-tables:$commonMarkVersion")
+    compile(commonmark)
+    compile(commonmarkExtGfmTables)
 
     compile("com.squareup.okhttp3:okhttp:3.8.1")
 
-    testCompile("junit:junit:4.12")
+    testCompile(mockk)
+    testCompile(junit)
 }

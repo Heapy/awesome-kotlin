@@ -1,8 +1,8 @@
 package link.kotlin.scripts
 
-import kotlinx.coroutines.experimental.Deferred
-import kotlinx.coroutines.experimental.Unconfined
-import kotlinx.coroutines.experimental.async
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 import link.kotlin.scripts.model.Link
 import link.kotlin.scripts.utils.await
 import link.kotlin.scripts.utils.logger
@@ -39,7 +39,7 @@ class LinkChecker(
         return categories.map { category ->
             category.subcategories.map { subcategory ->
                 subcategory.links.map { link ->
-                    link to async(Unconfined) { get(link.href, client) }
+                    link to GlobalScope.async { get(link.href, client) }
                 }
             }.flatten()
         }.flatten()

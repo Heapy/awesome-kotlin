@@ -4,7 +4,7 @@ import by.heap.remark.Options
 import by.heap.remark.Remark
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.await
 import link.kotlin.scripts.utils.okHttpClient

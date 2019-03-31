@@ -3,9 +3,10 @@ package link.kotlin.scripts
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import kotlinx.coroutines.experimental.async
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 import link.kotlin.scripts.model.ApplicationConfiguration
-import link.kotlin.scripts.utils.applicationContext
 import link.kotlin.scripts.utils.await
 import link.kotlin.scripts.utils.logger
 import link.kotlin.scripts.utils.parseInstant
@@ -20,7 +21,7 @@ class DefaultStarsGenerator(
 ) {
     suspend fun generate(links: Links): String {
         val deferredCategories = links.map { category ->
-            async(applicationContext) { processCategory(category) }
+            GlobalScope.async(Dispatchers.Default) { processCategory(category) }
         }
 
         val mapped = deferredCategories.map { it.await() }
@@ -30,7 +31,7 @@ class DefaultStarsGenerator(
 
     private suspend fun processCategory(category: Category): Category {
         val deferredSubcategories = category.subcategories.map { subcategory ->
-            async(applicationContext) { processSubcategory(subcategory) }
+            GlobalScope.async(Dispatchers.Default) { processSubcategory(subcategory) }
         }
 
         val processed = deferredSubcategories.map { it.await() }.toMutableList()
