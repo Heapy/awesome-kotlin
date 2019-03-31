@@ -24,7 +24,7 @@ class SearchComponent extends React.Component<SearchProps, SearchState> {
   };
 
   componentDidMount() {
-    const query = qs.parse(this.props.location.search).q;
+    const query = qs.parse(this.props.location.search).q as string;
     if (query) {
       this.setState({value: query});
       this.props.onChange(query);
