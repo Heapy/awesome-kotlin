@@ -1351,6 +1351,15 @@ category("Libraries/Frameworks") {
       tags = Tags["raspberry-pi", "raspberrypi", "gpio", "dsl", "pi4j"]
     }
   }
+  subcategory("Multiplatform") {
+    link {
+      name = "ionspin/kotlin-multiplatform-bignum"
+      desc = "Pure kotlin multiplatform arbitrary precision arithmetic library."
+      href = "https://github.com/ionspin/kotlin-multiplatform-bignum"
+      type = github
+      tags = Tags["multiplatform", "bignum", "biginteger", "bigdecimal", "arbitrary-precision"]
+    }
+  }
   subcategory("Extensions") {
     link {
       name = "Kotlin/kotlinx.support"

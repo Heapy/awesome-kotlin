@@ -44,6 +44,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-game-development-subcategory"></a>[Game Development](#libraries-frameworks-game-development)
 * <a name="libraries-frameworks-misc-subcategory"></a>[Misc](#libraries-frameworks-misc)
 * <a name="libraries-frameworks-raspberry-pi-subcategory"></a>[Raspberry Pi](#libraries-frameworks-raspberry-pi)
+* <a name="libraries-frameworks-multiplatform-subcategory"></a>[Multiplatform](#libraries-frameworks-multiplatform)
 * <a name="libraries-frameworks-extensions-subcategory"></a>[Extensions](#libraries-frameworks-extensions)
 * <a name="libraries-frameworks-configuration-subcategory"></a>[Configuration](#libraries-frameworks-configuration)
 * <a name="libraries-frameworks-graphics-subcategory"></a>[Graphics](#libraries-frameworks-graphics)
@@ -419,6 +420,9 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-raspberry-pi"></a>Raspberry Pi<sup>[Back ⇈](#libraries-frameworks-raspberry-pi-subcategory)</sup>
 * [mhashim6/Pi4K](https://github.com/mhashim6/Pi4K) - Pi4J Kotlin bindings.
+
+### <a name="libraries-frameworks-multiplatform"></a>Multiplatform<sup>[Back ⇈](#libraries-frameworks-multiplatform-subcategory)</sup>
+* [ionspin/kotlin-multiplatform-bignum](https://github.com/ionspin/kotlin-multiplatform-bignum) - Pure kotlin multiplatform arbitrary precision arithmetic library.
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
