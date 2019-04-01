@@ -751,6 +751,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["postgres", "mysql", "database driver"]
     }
+    link {
+      name = "vincentlauvlwj/Ktorm"
+      desc = "A lightweight and efficient ORM Framework for Kotlin. It provides strong typed and flexible SQL DSL and many convenient extension functions to reduce our duplicated effort on database operations. "
+      href = "https://github.com/vincentlauvlwj/Ktorm"
+      type = github
+      tags = Tags["ORM", "SQL", "DSL", "JDBC"]
+    }
   }
   subcategory("Tools") {
 	  link {
