@@ -551,7 +551,7 @@ Here awesome badge for your project:
 * [izhangzhihao/intellij-rainbow-brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets) - Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs.
 * [roger-yh99/Readhub](https://github.com/roger-yh99/Readhub) - [Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs
 * [roger-yh99/AwesomeKotlinPlugin](https://github.com/roger-yh99/AwesomeKotlinPlugin) - [AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs
-
+* [wuseal/JsonToKotlinClass](https://github.com/wuseal/JsonToKotlinClass) - Plugin for Android Studio And IntelliJ Idea to generate Kotlin data class code from JSON text ( Json to Kotlin )
 
 ## <a name="android"></a>Android <sup>[Back ⇈](#android-category)</sup>
 ### <a name="android-libraries"></a>Libraries <sup>[Back ⇈](#android-libraries-subcategory)</sup>
