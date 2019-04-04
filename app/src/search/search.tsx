@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {withRouter} from "react-router";
-import * as qs from "query-string";
+import {parse} from "query-string";
 
 const styles = require("./search.less");
 
@@ -24,7 +24,7 @@ class SearchComponent extends React.Component<SearchProps, SearchState> {
   };
 
   componentDidMount() {
-    const query = qs.parse(this.props.location.search).q as string;
+    const query = parse(this.props.location.search, {}).q as string;
     if (query) {
       this.setState({value: query});
       this.props.onChange(query);

@@ -7,7 +7,7 @@
     "@babel/polyfill": "^7.4.0",
     "copy-to-clipboard": "3.0.8",
     "normalize.css": "8.0.0",
-    "query-string": "6.4.2",
+    "query-string": "Heapy/query-string",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "4.3.1",
