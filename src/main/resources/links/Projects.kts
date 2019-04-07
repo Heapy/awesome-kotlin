@@ -235,6 +235,13 @@ category("Projects") {
       type = github
       tags = Tags["gradle", "publish", "npm"]
     }
+    link {
+      name = "ruslanys/telegraff"
+      desc = "Kotlin DSL for Telegram Bots creation."
+      href= "https://github.com/ruslanys/telegraff"
+      type = github
+      tags = Tags["telegram", "bot", "dsl", "telegraff"]
+    }
   }
   subcategory("Desktop") {
     link {
