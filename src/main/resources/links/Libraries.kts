@@ -357,6 +357,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "assert", "api", "rest"]
     }
+    link {
+      name = "serpro69/kotlin-faker"
+      desc = "Port of ruby faker gem written in kotlin"
+      href = "https://github.com/serpro69/kotlin-faker"
+      type = github
+      tags = Tags["test", "testing", "data-generator", "faker"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
