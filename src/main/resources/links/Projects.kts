@@ -289,6 +289,13 @@ category("Projects") {
       tags = Tags["ratpack"]
     }
     link {
+      name = "som-one/zarif-kherkin"
+      desc = "Configurable BDD testing using a Kotlin DSL for Gherkin."
+      href = "https://github.com/som-one/zarif-kherkin"
+      type = github
+      tags = Tags["bdd", "gherkin", "dsl",  "test"]
+    }
+    link {
       name = "robfletcher/lazybones-kotlin"
       desc = "The Lazybones app migrated to Kotlin as a learning exercise."
       href = "https://github.com/robfletcher/lazybones-kotlin"
