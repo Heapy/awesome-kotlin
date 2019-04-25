@@ -661,6 +661,7 @@ Here awesome badge for your project:
 
 ### <a name="android-tools"></a>Tools <sup>[Back ⇈](#android-tools-subcategory)</sup>
 * [kiruto/debug-bottle](https://github.com/kiruto/debug-bottle) - Debug Bottle is an Android runtime debug / develop tools written using kotlin language.
+* [didi/booster](https://github.com/didi/booster) - Booster is an optimization toolkit for Android applications.
 
 ### <a name="android-tests"></a>Tests <sup>[Back ⇈](#android-tests-subcategory)</sup>
 * [agoda-com/Kakao](https://github.com/agoda-com/Kakao) -  Nice and simple DSL for Espresso in Kotlin.

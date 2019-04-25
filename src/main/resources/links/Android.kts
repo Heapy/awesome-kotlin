@@ -678,6 +678,13 @@ category("Android") {
       type = github
       tags = Tags["android", "debug"]
     }
+    link {
+      name = "didi/booster"
+      desc = "Booster is an optimization toolkit for Android applications"
+      href = "https://github.com/didi/booster"
+      type = github
+      tags = Tags["optimizer", "android", "gradle-plugin", "bytecode-manipulation", "static-analysis"]
+    }
   }
   subcategory("Tests") {
     link {
