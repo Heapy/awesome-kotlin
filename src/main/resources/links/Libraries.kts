@@ -226,7 +226,7 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "robstoll/atrium"
-      desc = "Fluent assertion library for Kotlin supporting i18n."
+      desc = "Multiplatform assertion library for Kotlin supporting i18n."
       href = "https://github.com/robstoll/atrium"
       type = github
       tags = Tags["test", "assertion-library", "assert"]
