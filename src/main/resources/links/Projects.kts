@@ -437,5 +437,33 @@ category("Projects") {
       type = github
       tags = Tags["idea", "plugin"]
     }
+    link {
+      name = "emedinaa/kotlin-mvvm"
+      desc = "MVVM(Model View ViewModel) sample in Kotlin using the components ViewModel, LiveData and Retrofit library"
+      href = "https://github.com/emedinaa/kotlin-mvvm"
+      type = github
+      tags = Tags["android", "examples", "mvvm", "kotlin"]
+    }
+    link {
+      name = "emedinaa/kotlin-mvp-volley"
+      desc = "Example of Android project in Kotlin using MVP(Model View Presenter) pattern and volley library"
+      href = "https://github.com/emedinaa/kotlin-mvp-volley"
+      type = github
+      tags = Tags["android", "examples", "mvp", "kotlin" , "volley"]
+    }
+    link {
+      name = "emedinaa/android-recyclerview"
+      desc = "Some samples about the RecyclerView and Adapters using kotlin"
+      href = "https://github.com/emedinaa/android-recyclerview-and-adapters"
+      type = github
+      tags = Tags["android", "examples", "recyclerview", "kotlin" , "adapter"]
+    }
+    link {
+      name = "emedinaa/kotlin-viewmodel"
+      desc = "Basic samples about ViewModel component"
+      href = "https://github.com/emedinaa/kotlin-viewmodel"
+      type = github
+      tags = Tags["android", "examples", "viewmodel", "kotlin" , "livedata"]
+    }
   }
 }
