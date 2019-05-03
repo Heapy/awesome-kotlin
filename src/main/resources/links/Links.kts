@@ -59,6 +59,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "Jobs for Kotlin Developers"
+      desc = "All job listings require Kotlin skills"
+      href = "https://kotlin-jobs.com/"
+    }
+    link {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
       href = "http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/"
