@@ -242,6 +242,13 @@ category("Projects") {
       type = github
       tags = Tags["telegram", "bot", "dsl", "telegraff"]
     }
+    link {
+      name = "krzema12/fsynth"
+      desc = "Music synthesizer as a Kotlin multiplatform project"
+      href= "https://github.com/krzema12/fsynth"
+      type = github
+      tags = Tags["music", "functional-programming", "multiplatform"]
+    }
   }
   subcategory("Desktop") {
     link {
