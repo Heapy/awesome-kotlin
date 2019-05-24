@@ -170,7 +170,6 @@ Here awesome badge for your project:
 * [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/) 
 * [Programming Community Curated Resources for learning Kotlin](https://hackr.io/tutorials/learn-kotlin) 
 * [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile) 
-* [Kotlin - Google+](https://plus.google.com/communities/104597899765146112928) 
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) 
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin.
 * [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
