@@ -99,10 +99,6 @@ category("Links") {
       href = "https://www.linkedin.com/groups/7417237/profile"
     }
     link {
-      name = "Kotlin - Google+"
-      href = "https://plus.google.com/communities/104597899765146112928"
-    }
-    link {
       name = "From Java To Kotlin"
       href = "https://github.com/fabiomsr/from-java-to-kotlin"
     }
