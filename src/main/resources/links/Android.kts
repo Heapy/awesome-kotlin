@@ -364,6 +364,13 @@ category("Android") {
       type = github
       tags = Tags["android", "fragment", "controller", "navigation"]
     }
+    link {
+      name = "AppIntro/AppIntro"
+      desc = "Make a cool/material intro for you Android App - Now all in Kotlin!"
+      href = "https://github.com/AppIntro/AppIntro"
+      type = github
+      tags = Tags["android", "fragment", "intro", "material", "kotlin", "kotlin-android", "viewpager"]
+    }
   }
   subcategory("Frameworks") {
     link {
