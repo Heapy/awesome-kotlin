@@ -371,6 +371,13 @@ category("Android") {
       type = github
       tags = Tags["android", "fragment", "intro", "material", "kotlin", "kotlin-android", "viewpager"]
     }
+    link {
+      name = "CuriousNikhil/gossip"
+      desc = "Android TextToSpeech Helper to speak any text you want and handle events."
+      href = "https://github.com/CuriousNikhil/gossip"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "TextToSpeech"]
+    }
   }
   subcategory("Frameworks") {
     link {
