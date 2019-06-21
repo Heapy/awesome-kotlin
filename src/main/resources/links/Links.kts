@@ -59,6 +59,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "Jobs for Kotlin Developers"
+      desc = "All job listings require Kotlin skills"
+      href = "https://kotlin-jobs.com/"
+    }
+    link {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
       href = "http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/"
@@ -92,10 +97,6 @@ category("Links") {
     link {
       name = "LinkedIn: Kotlin Developers (Join!)"
       href = "https://www.linkedin.com/groups/7417237/profile"
-    }
-    link {
-      name = "Kotlin - Google+"
-      href = "https://plus.google.com/communities/104597899765146112928"
     }
     link {
       name = "From Java To Kotlin"
