@@ -365,6 +365,13 @@ category("Android") {
       tags = Tags["android", "fragment", "controller", "navigation"]
     }
     link {
+      name = "cortinico/slidetoact"
+      desc = "A simple 'Slide to Unlock' Material widget for Android, written in Kotlin"
+      href = "https://github.com/cortinico/slidetoact"
+      type = github
+      tags = Tags["android", "ui", "widget", "material", "kotlin", "kotlin-android", "slider"]
+    }
+    link {
       name = "AppIntro/AppIntro"
       desc = "Make a cool/material intro for you Android App - Now all in Kotlin!"
       href = "https://github.com/AppIntro/AppIntro"
