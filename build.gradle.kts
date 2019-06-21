@@ -1,48 +1,53 @@
-import org.gradle.kotlin.dsl.apply
-import org.gradle.kotlin.dsl.extra
-import org.gradle.kotlin.dsl.getValue
-import org.gradle.kotlin.dsl.kotlin
-import org.gradle.kotlin.dsl.repositories
-import org.jetbrains.kotlin.gradle.dsl.Coroutines
-import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
+import Dep.Kotlin.reflect
+import Dep.Kotlin.stdlib
+import Dep.commonmark
+import Dep.commonmarkExtGfmTables
+import Dep.coroutines
+import Dep.httpClient
+import Dep.jacksonKotlin
+import Dep.jacksonXml
+import Dep.junit
+import Dep.kotlinVersion
+import Dep.mockk
 
 plugins {
     application
-    kotlin("jvm") version Versions.org_jetbrains_kotlin_jvm_gradle_plugin
-    id("de.fayard.buildSrcVersions") version Versions.de_fayard_buildsrcversions_gradle_plugin
+    kotlin("jvm") version Dep.kotlinVersion
 }
 
 application {
     mainClassName = "link.kotlin.scripts.Application"
 }
 
-kotlin {
-    experimental.coroutines = Coroutines.ENABLE
-}
-
 repositories {
     jcenter()
-    maven { setUrl("https://dl.bintray.com/heapy/heap") }
+    maven { url = uri("https://dl.bintray.com/heapy/heap") }
 }
 
 dependencies {
+    implementation(stdlib)
+    implementation(reflect)
+    implementation(coroutines)
 
-    compile(Libs.kotlin_stdlib_jdk8)
-    compile(Libs.kotlin_reflect)
-    compile(Libs.kotlinx_coroutines_jdk8) 
-    compile(Libs.jackson_module_kotlin) 
-    compile(Libs.jackson_dataformat_xml) 
-    compile(Libs.slf4j_api) 
-    compile(Libs.logback_classic) 
-    compile(Libs.sentry_logback) 
-    compile(Libs.rome) 
-    compile(Libs.sitemapgen4j) 
-    compile(Libs.jsoup) 
-    compile(Libs.remark_kotlin) 
-    compile(Libs.kotlin_script_util) 
-    compile(Libs.kotlin_compiler_embeddable) 
-    compile(Libs.commonmark) 
-    compile(Libs.commonmark_ext_gfm_tables) 
-    compile(Libs.okhttp) 
-    testCompile(Libs.junit)
+    implementation(jacksonXml)
+    implementation(jacksonKotlin)
+
+    implementation("org.slf4j:slf4j-api:1.7.25")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("io.sentry:sentry-logback:1.6.3")
+
+    implementation("com.rometools:rome:1.7.0")
+    implementation("com.github.dfabulich:sitemapgen4j:1.0.6")
+    implementation("org.jsoup:jsoup:1.10.2")
+    implementation("by.heap.remark:remark-kotlin:1.2.0")
+
+    implementation("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
+    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion")
+    implementation(commonmark)
+    implementation(commonmarkExtGfmTables)
+
+    implementation(httpClient)
+
+    testImplementation(mockk)
+    testImplementation(junit)
 }

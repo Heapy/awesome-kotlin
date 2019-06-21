@@ -9,7 +9,7 @@ interface ScriptCompiler {
     fun <T> execute(inputStream: InputStream): T
 }
 
-class DefaultScriptCompiler : ScriptCompiler {
+private class DefaultScriptCompiler : ScriptCompiler {
     private val factory = KotlinJsr223JvmLocalScriptEngineFactory()
     private var scriptEngine = factory.scriptEngine
     private var counter = AtomicInteger(0)
@@ -33,3 +33,5 @@ class DefaultScriptCompiler : ScriptCompiler {
         private val LOGGER = logger<DefaultScriptCompiler>()
     }
 }
+
+fun createScriptCompiler(): ScriptCompiler = DefaultScriptCompiler()

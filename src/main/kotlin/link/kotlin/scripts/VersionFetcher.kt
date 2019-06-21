@@ -3,9 +3,9 @@ package link.kotlin.scripts
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.module.kotlin.KotlinModule
-import link.kotlin.scripts.utils.await
-import okhttp3.OkHttpClient
-import okhttp3.Request
+import link.kotlin.scripts.utils.HttpClient
+import link.kotlin.scripts.utils.body
+import org.apache.http.client.methods.HttpGet
 
 /**
  * Fetch latest kotlin versions from maven central.
@@ -17,13 +17,12 @@ interface VersionFetcher {
 }
 
 class MavenCentralVersionFetcher(
-    private val client: OkHttpClient
+    private val client: HttpClient
 ) : VersionFetcher {
     override suspend fun getLatestVersions(branches: List<String>): List<String> {
         val url = "http://central.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/maven-metadata.xml"
 
-        val request = Request.Builder().get().url(url).build()
-        val xml = client.newCall(request).await().body()?.string()
+        val xml = client.execute(HttpGet(url)).body()
 
         val mapper = XmlMapper()
         mapper.registerModule(KotlinModule())

@@ -1,6 +1,5 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.utils.DefaultScriptCompiler
 import link.kotlin.scripts.utils.ScriptCompiler
 import link.kotlin.scripts.utils.logger
 import java.nio.file.Files
@@ -16,7 +15,7 @@ private val files = listOf(
     "UserGroups.kts"
 )
 
-class ProjectLinks(private val compiler: ScriptCompiler = DefaultScriptCompiler()) {
+class ProjectLinks(private val compiler: ScriptCompiler) {
     private val _links by lazy {
         files.map(this::linksFromFile)
     }

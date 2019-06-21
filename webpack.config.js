@@ -38,7 +38,6 @@ Build started with following configuration:
     module: {
       rules: [{
         test: /\.tsx?$/,
-        exclude: /node_modules/,
         loader: "ts-loader"
       }, {
         test: /\.less$/,

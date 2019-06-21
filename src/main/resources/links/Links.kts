@@ -22,8 +22,8 @@ category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (18k+ users)"
-      href = "https://kotlinslack.herokuapp.com/"
+      name = "Slack (21k+ users)"
+      href = "http://slack.kotlinlang.org/"
     }
     link {
       name = "Public chat archive of Kotlin's Slack"
@@ -59,6 +59,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "Jobs for Kotlin Developers"
+      desc = "All job listings require Kotlin skills"
+      href = "https://kotlin-jobs.com/"
+    }
+    link {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
       href = "http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/"
@@ -92,10 +97,6 @@ category("Links") {
     link {
       name = "LinkedIn: Kotlin Developers (Join!)"
       href = "https://www.linkedin.com/groups/7417237/profile"
-    }
-    link {
-      name = "Kotlin - Google+"
-      href = "https://plus.google.com/communities/104597899765146112928"
     }
     link {
       name = "From Java To Kotlin"
@@ -147,6 +148,13 @@ category("Links") {
       desc = "A website about Kotlin"
       href = "https://superkotlin.com"
       tags = Tags["blog", "articles", "tutorials", "interviews"]
+    }
+    link {
+      name = "AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
+      desc = "Code examples for 'Hands-on Design Patterns with Kotlin' book"
+      href = "https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
+      type = github
+      tags = Tags["GoF", "concurrency"]
     }
   }
   subcategory("Books and Courses") {
@@ -226,6 +234,11 @@ category("Links") {
       name = "Android Apprentice - Darryl Bayliss & Tom Blankenship"
       desc = "Beginning Android programming using Kotlin"
       href = "https://store.raywenderlich.com/products/android-apprentice"
+    }
+    link {
+      name = "Hands-on Design Patterns with Kotlin - Alexey Soshin"
+      desc = "Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin"
+      href = "https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014"
     }
   }
 }

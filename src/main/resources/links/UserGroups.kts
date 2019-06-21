@@ -154,6 +154,13 @@ category("Kotlin User Groups") {
       tags = Tags["Ukraine"]
     }
     link {
+      name = "Kraków Kotlin User Group"
+      desc = "Poland"
+      href = "https://www.meetup.com/krakow-kotlin/"
+      type = kug
+      tags = Tags["Poland"]
+    }
+    link {
       name = "London Kotlin"
       desc = "United Kingdom"
       href = "http://www.meetup.com/kotlin-london/"
@@ -215,6 +222,13 @@ category("Kotlin User Groups") {
       href = "https://www.meetup.com/de-DE/Kotlin-Rhein-Main/"
       type = kug
       tags = Tags["Germany"]
+    }
+    link {
+      name = "Rostov-on-Don Kotlin User Group"
+      desc = "Russia"
+      href = "https://vk.com/rndkotlin"
+      type = kug
+      tags = Tags["Russia"]
     }
     link {
       name = "St. Petersburg Kotlin User Group"
@@ -355,13 +369,6 @@ category("Kotlin User Groups") {
       name = "Bhubaneswar Kotlin User Group"
       desc = "India"
       href = "https://www.facebook.com/groups/1961143800818624/"
-      type = kug
-      tags = Tags["India"]
-    }
-    link {
-      name = "Chennai Kotlin User Group"
-      desc = "India"
-      href = "https://www.meetup.com/Chennai-Kotlin-User-Group/"
       type = kug
       tags = Tags["India"]
     }

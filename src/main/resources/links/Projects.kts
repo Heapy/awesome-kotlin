@@ -228,6 +228,27 @@ category("Projects") {
       type = github
       tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
     }
+    link {
+      name = "neworld/gradle-jdeploy-plugin"
+      desc = "Gradle plugin to publish JVM applications via npmjs.com"
+      href = "https://github.com/neworld/gradle-jdeploy-plugin"
+      type = github
+      tags = Tags["gradle", "publish", "npm"]
+    }
+    link {
+      name = "ruslanys/telegraff"
+      desc = "Kotlin DSL for Telegram Bots creation."
+      href= "https://github.com/ruslanys/telegraff"
+      type = github
+      tags = Tags["telegram", "bot", "dsl", "telegraff"]
+    }
+    link {
+      name = "krzema12/fsynth"
+      desc = "Music synthesizer as a Kotlin multiplatform project"
+      href= "https://github.com/krzema12/fsynth"
+      type = github
+      tags = Tags["music", "functional-programming", "multiplatform"]
+    }
   }
   subcategory("Desktop") {
     link {
@@ -273,6 +294,13 @@ category("Projects") {
       href = "https://github.com/robfletcher/midcentury-ipsum"
       type = github
       tags = Tags["ratpack"]
+    }
+    link {
+      name = "som-one/zarif-kherkin"
+      desc = "Configurable BDD testing using a Kotlin DSL for Gherkin."
+      href = "https://github.com/som-one/zarif-kherkin"
+      type = github
+      tags = Tags["bdd", "gherkin", "dsl",  "test"]
     }
     link {
       name = "robfletcher/lazybones-kotlin"
@@ -358,6 +386,20 @@ category("Projects") {
       type = github
       tags = Tags["examples", "javascript", "web", "react", "todomvc"]
     }
+    link {
+      name = "IvanMwiruki/30-seconds-of-kotlin"
+      desc = "Useful Kotlin snippets you can understand quickly, using only the stdlib."
+      href = "https://github.com/IvanMwiruki/30-seconds-of-kotlin"
+      type = github
+      tags = Tags["examples", "snippets", "sample", "study", "functional"]
+    }
+    link {
+      name = "xurxodev/integration-testing-kotlin-multiplatform-kata"
+      desc = "A full exercise to learn how to use stubbing HTTP in Kotlin multiplatform using Ktor and Ktor Client Mock."
+      href = "https://github.com/xurxodev/integration-testing-kotlin-multiplatform-kata"
+      type = github
+      tags = Tags["examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock"]
+    }
   }
   subcategory("Idea Plugins") {
     link {
@@ -387,6 +429,48 @@ category("Projects") {
       href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
       type = github
       tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/Readhub"
+      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/Readhub"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "roger-yh99/AwesomeKotlinPlugin"
+      desc = "[AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs"
+      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "emedinaa/kotlin-mvvm"
+      desc = "MVVM(Model View ViewModel) sample in Kotlin using the components ViewModel, LiveData and Retrofit library"
+      href = "https://github.com/emedinaa/kotlin-mvvm"
+      type = github
+      tags = Tags["android", "examples", "mvvm", "kotlin"]
+    }
+    link {
+      name = "emedinaa/kotlin-mvp-volley"
+      desc = "Example of Android project in Kotlin using MVP(Model View Presenter) pattern and volley library"
+      href = "https://github.com/emedinaa/kotlin-mvp-volley"
+      type = github
+      tags = Tags["android", "examples", "mvp", "kotlin" , "volley"]
+    }
+    link {
+      name = "emedinaa/android-recyclerview"
+      desc = "Some samples about the RecyclerView and Adapters using kotlin"
+      href = "https://github.com/emedinaa/android-recyclerview-and-adapters"
+      type = github
+      tags = Tags["android", "examples", "recyclerview", "kotlin" , "adapter"]
+    }
+    link {
+      name = "emedinaa/kotlin-viewmodel"
+      desc = "Basic samples about ViewModel component"
+      href = "https://github.com/emedinaa/kotlin-viewmodel"
+      type = github
+      tags = Tags["android", "examples", "viewmodel", "kotlin" , "livedata"]
     }
   }
 }
