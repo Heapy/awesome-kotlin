@@ -370,6 +370,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "html", "template", "dom", "dsl", "parser", "webcrawler", "scraper", "ktor", "spring-boot"]
     }
+    link {
+      name = "krzema12/PlotAssert"
+      desc = "Test the shape of your functions!"
+      href = "https://github.com/krzema12/PlotAssert"
+      type = github
+      tags = Tags["test", "testing", "dsl", "ascii-art"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
