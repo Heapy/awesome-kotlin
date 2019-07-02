@@ -385,6 +385,20 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin", "coroutines", "TextToSpeech"]
     }
+    link {
+      name = "adrielcafe/PufferDB"
+      desc = "An Android & JVM key-value storage powered by Protobuf and Coroutines."
+      href = "https://github.com/adrielcafe/pufferdb"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "rxjava", "protobuf", "storage", "database", "key-value"]
+    }
+    link {
+      name = "adrielcafe/HAL"
+      desc = "A non-deterministic finite-state machine for Android & JVM that won't let you down."
+      href = "https://github.com/adrielcafe/hal"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "livedata", "fsm", "state-machine", "finite-state-machine"]
+    }
   }
   subcategory("Frameworks") {
     link {
