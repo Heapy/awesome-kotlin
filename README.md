@@ -201,6 +201,10 @@ Here awesome badge for your project:
 * [Android Apprentice - Darryl Bayliss & Tom Blankenship](https://store.raywenderlich.com/products/android-apprentice) - Beginning Android programming using Kotlin
 * [Hands-on Design Patterns with Kotlin - Alexey Soshin](https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014) - Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin
 * [Building Spring Boot Applications with the Kotlin Programming Language](https://www.manning.com/livevideo/building-spring-boot-applications-with-the-kotlin-programming-language) - A liveVideo course that teaches you to write clean, concise, easily maintainable Kotlin code using Spring Boot.
+* [Kotlin Bootcamp for Programmers - Google](https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011) - Language fundamentals for developers
+* [Developing Android Apps with Kotlin - Google](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012) - Create concise, secure and performant apps with Kotlin
+* [Kotlin for Android Developers](https://www.udacity.com/course/kotlin-for-android-developers--ud888) - Convert an Android app from Java to Kotlin
+* [Kotlin for Java Developers - JetBrains](https://www.coursera.org/learn/kotlin-for-java-developers) - Detailed Kotlin introductory course for Java developers
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
