@@ -240,5 +240,25 @@ category("Links") {
       desc = "Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin"
       href = "https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014"
     }
+    link {
+      name = "Kotlin Bootcamp for Programmers - Google"
+      desc = "Language fundamentals for developers"
+      href = "https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011"
+    }
+    link {
+      name = "Developing Android Apps with Kotlin - Google"
+      desc = "Create concise, secure and performant apps with Kotlin"
+      href = "https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012"
+    }
+    link {
+      name = "Kotlin for Android Developers"
+      desc = "Convert an Android app from Java to Kotlin"
+      href = "https://www.udacity.com/course/kotlin-for-android-developers--ud888"
+    }
+    link {
+      name = "Kotlin for Java Developers - JetBrains"
+      desc = "Detailed Kotlin introductory course for Java developers"
+      href = "https://www.coursera.org/learn/kotlin-for-java-developers"
+    }
   }
 }
