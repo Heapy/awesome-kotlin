@@ -377,6 +377,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "dsl", "ascii-art"]
     }
+    link {
+      name = "EranBoudjnah/TestIt"
+      desc = "Generate unit testing boilerplate from kotlin files."
+      href = "https://github.com/EranBoudjnah/TestIt"
+      type = github
+      tags = Tags["test", "testing", "generator", "generation", "mock"]
+    }
+    link {
+      name = "EranBoudjnah/RandomGenKt"
+      desc = "Initialize instances of any class with generated data."
+      href = "https://github.com/EranBoudjnah/RandomGenKt"
+      type = github
+      tags = Tags["test", "testing", "random", "random-generation"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
