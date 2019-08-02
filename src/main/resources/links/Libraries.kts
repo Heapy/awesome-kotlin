@@ -391,6 +391,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "random", "random-generation"]
     }
+    link {
+      name = "KennethWussmann/mock-fuel"
+      desc = "JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel."
+      href = "https://github.com/KennethWussmann/mock-fuel"
+      type = github
+      tags = Tags["test", "testing", "mock", "fuel", "junit"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
