@@ -163,6 +163,10 @@ category("Links") {
       href = "https://manning.com/books/kotlin-in-action"
     }
     link {
+      name = "Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano"
+      href = "https://www.manning.com/books/functional-programming-in-kotlin"
+    }
+    link {
       name = "Kotlin for Android Developers - Antonio Leiva"
       href = "https://leanpub.com/kotlin-for-android-developers"
     }
