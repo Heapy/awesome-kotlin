@@ -1382,6 +1382,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["logging", "logger"]
     }
+    link {
+      name = "Lewik/klog"
+      desc = "Minimalistic and multiplatform logging for Kotlin"
+      href = "https://github.com/Lewik/klog"
+      type = github
+      platforms = arrayOf(JVM, JS, COMMON)
+      tags = Tags["logging", "multiplatform"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
