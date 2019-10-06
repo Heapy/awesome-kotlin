@@ -1060,6 +1060,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["text-gui", "games", "game-dev"]
     }
+    link {
+      name = "korlibs/KorGE"
+      desc = "Modern Multiplatform Game Engine for Kotlin. Write games for the JVM, JavaScript, Android and iOS in no time using Kotlin."
+      href = "https://github.com/korlibs/korge"
+      type = github
+      tags = Tags["desktop", "android", "games", "game-dev"]
+    }
   }
   subcategory("Misc") {
     link {
