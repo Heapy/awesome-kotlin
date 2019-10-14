@@ -644,6 +644,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["json", "json-query", "json-manager", "kotlin-library", "kotlin-android"]
     }
+    link {
+      name = "aafanasev/kson"
+      desc = "Auto-generate GSON type adapters for Kotlin data classes"
+      href = "https://github.com/aafanasev/kson"
+      type = github
+      tags = Tags["json", "gson", "type adapter", "annotation processing", "kapt"]
+    }
   }
   subcategory("Database") {
     link {
