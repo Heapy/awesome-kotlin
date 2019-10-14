@@ -391,6 +391,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "random", "random-generation"]
     }
+    link {
+      name = "jcornaz/kwik"
+      desc = "A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library."
+      href = "https://github.com/jcornaz/kwik"
+      type = github
+      tags = Tags["test", "testing", "assert", "random", "random-generation"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
