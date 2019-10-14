@@ -67,9 +67,9 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "http", "rest", "vert.x", "undertow"]
     }
     link {
-      name = "pgutkowski/KGraphQL"
+      name = "aPureBase/KGraphQL"
       desc = "A GraphQL implementation written in Kotlin"
-      href = "https://github.com/pgutkowski/KGraphQL"
+      href = "https://github.com/aPureBase/KGraphQL"
       type = github
       tags = Tags["graphql", "web"]
     }
@@ -1566,7 +1566,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }    
+    }
     link {
       name = "java-opengl-labs/Vulkan"
       desc = "port of https://github.com/SaschaWillems/Vulkan"
