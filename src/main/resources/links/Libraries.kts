@@ -1389,6 +1389,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["logging", "logger"]
     }
+    link {
+      name = "aafanasev/sekret"
+      desc = "Kotlin compiler plugin to exclude secret properties from toString() of Data class"
+      href = "https://github.com/aafanasev/sekret"
+      platforms = arrayOf(JVM, ANDROID)
+      type = github
+      tags = Tags["Data class", "toString"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
