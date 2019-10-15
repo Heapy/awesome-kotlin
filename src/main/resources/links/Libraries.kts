@@ -392,6 +392,13 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "testing", "random", "random-generation"]
     }
     link {
+      name = "KennethWussmann/mock-fuel"
+      desc = "JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel."
+      href = "https://github.com/KennethWussmann/mock-fuel"
+      type = github
+      tags = Tags["test", "testing", "mock", "fuel", "junit"]
+    }
+    link {
       name = "jcornaz/kwik"
       desc = "A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library."
       href = "https://github.com/jcornaz/kwik"
