@@ -46,8 +46,9 @@ Build started with following configuration:
         }, {
           loader: "css-loader",
           options: {
-            modules: true,
-            localIdentName: "[name]_[local]"
+            modules: {
+              localIdentName: "[name]_[local]"
+            }
           }
         }, {
           loader: "postcss-loader",
