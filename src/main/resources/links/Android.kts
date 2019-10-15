@@ -344,7 +344,7 @@ category("Android") {
       tags = Tags["android", "gradient", "drawable"]
     }
     link {
-      name = "hpost/RxBrainwaves"
+      name = "hpost/rx-brainwaves"
       desc = "RxJava wrapper for NeuroSky MindWave headsets"
       href = "https://github.com/hpost/rx-brainwaves"
       type = github
