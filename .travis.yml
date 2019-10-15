@@ -7,7 +7,7 @@ addons:
   ssh_known_hosts: kotlin.link
 
 before_script:
-  - nvm install 8
+  - nvm install 10
   - yarn install
 
 script:

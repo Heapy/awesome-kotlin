@@ -67,9 +67,9 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "http", "rest", "vert.x", "undertow"]
     }
     link {
-      name = "pgutkowski/KGraphQL"
+      name = "aPureBase/KGraphQL"
       desc = "A GraphQL implementation written in Kotlin"
-      href = "https://github.com/pgutkowski/KGraphQL"
+      href = "https://github.com/aPureBase/KGraphQL"
       type = github
       tags = Tags["graphql", "web"]
     }
@@ -398,6 +398,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "mock", "fuel", "junit"]
     }
+    link {
+      name = "jcornaz/kwik"
+      desc = "A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library."
+      href = "https://github.com/jcornaz/kwik"
+      type = github
+      tags = Tags["test", "testing", "assert", "random", "random-generation"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
@@ -643,6 +650,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/s4kibs4mi/kotlin-jsonq"
       type = github
       tags = Tags["json", "json-query", "json-manager", "kotlin-library", "kotlin-android"]
+    }
+    link {
+      name = "aafanasev/kson"
+      desc = "Auto-generate GSON type adapters for Kotlin data classes"
+      href = "https://github.com/aafanasev/kson"
+      type = github
+      tags = Tags["json", "gson", "type adapter", "annotation processing", "kapt"]
     }
   }
   subcategory("Database") {
@@ -1389,6 +1403,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["logging", "logger"]
     }
+    link {
+      name = "aafanasev/sekret"
+      desc = "Kotlin compiler plugin to exclude secret properties from toString() of Data class"
+      href = "https://github.com/aafanasev/sekret"
+      platforms = arrayOf(JVM, ANDROID)
+      type = github
+      tags = Tags["Data class", "toString"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
@@ -1573,7 +1595,7 @@ category("Libraries/Frameworks") {
       href = "https://github.com/java-opengl-labs/learn-OpenGL"
       type = github
       tags = Tags["opengl", "tutorial", "lwjgl"]
-    }    
+    }
     link {
       name = "java-opengl-labs/Vulkan"
       desc = "port of https://github.com/SaschaWillems/Vulkan"
