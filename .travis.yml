@@ -14,11 +14,15 @@ script:
   - ./gradlew check installDist
 
 deploy:
-  - provider: script
-    script: bash deploy.sh
-    skip_cleanup: true
-    on:
-      branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: true
+  local_dir: readme
+  target_branch: readme
+  committer_from_gh: true
+  on:
+    branch: master
 
 before_cache:
   - rm -f  "${HOME}/.gradle/caches/modules-2/modules-2.lock"
