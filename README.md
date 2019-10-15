@@ -428,6 +428,7 @@ Here awesome badge for your project:
 * [holgerbrandl/kravis](https://github.com/holgerbrandl/kravis) - A Kotlin grammar for scientific data visualization
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
 * [charleskorn/kaml](https://github.com/charleskorn/kaml) - YAML support for kotlinx.serialization
+* [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
 * [pemistahl/lingua](https://github.com/pemistahl/lingua) - A language detection library suitable for long and short text alike
 * [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
 * [pmwmedia/tinylog](https://github.com/pmwmedia/tinylog) - Lightweight logging framework with native logging API for Kotlin.
