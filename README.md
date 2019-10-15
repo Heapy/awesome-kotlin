@@ -357,6 +357,7 @@ Here awesome badge for your project:
 * [egorzhdan/networkinkt](https://github.com/egorzhdan/networkinkt) - Multiplatform coroutine-based HTTP client.
 * [rybalkinsd/kohttp](https://github.com/rybalkinsd/kohttp) - Kotlin DSL-based HTTP client.
 * [curiousnikhil/Asynkio](https://github.com/CuriousNikhil/AsynKio) - Make asynchronous calls painlessly with async/await style.
+* [speekha/httpmocker](https://github.com/speekha/httpmocker) - Kotlin library to handle offline mode easily with OkHttp.
 
 ### <a name="libraries-frameworks-editors"></a>Editors <sup>[Back ⇈](#libraries-frameworks-editors-subcategory)</sup>
 * [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) - IntelliJ IDEA Community Edition

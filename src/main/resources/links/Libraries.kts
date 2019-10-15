@@ -942,6 +942,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["http", "http client", "coroutines"]
     }
+    link {
+      name = "speekha/httpmocker"
+      desc = "Kotlin library to handle offline mode easily with OkHttp."
+      href = "https://github.com/speekha/httpmocker"
+      type = github
+      tags = Tags["http", "http client", "offline", "okhttp"]
+    }
   }
   subcategory("Editors") {
     link {
