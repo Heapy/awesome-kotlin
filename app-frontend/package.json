@@ -1,0 +1,59 @@
+{
+  "name": "awesome-kotlin",
+  "version": "1.0.0",
+  "description": "Awesome list for Kotlin",
+  "main": "app/src/main.tsx",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "copy-to-clipboard": "^3.2.0",
+    "highlight.js": "^9.15.10",
+    "normalize.css": "^8.0.1",
+    "query-string": "Heapy/query-string",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "typestyle": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/history": "^4.7.3",
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.6",
+    "@types/react-dom": "^16.9.2",
+    "@types/react-router": "^5.1.2",
+    "@types/react-router-dom": "^5.1.0",
+    "autoprefixer": "^9.6.5",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "webpack-dev-server --mode development",
+    "pack": "webpack --mode production -p --env.NODE_ENV production --env.SOURCE_MAP source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotlinBy/awesome-kotlin.git"
+  },
+  "keywords": [
+    "kotlin"
+  ],
+  "author": "Ibragimov Ruslan, Labushkina Hanna",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KotlinBy/awesome-kotlin/issues"
+  },
+  "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme"
+}
