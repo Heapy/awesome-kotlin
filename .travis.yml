@@ -14,7 +14,7 @@ install:
   - ./gradlew assemble
 
 script:
-  - yarn --cwd app-frontend run pack
+#  - yarn --cwd app-frontend run pack
   - ./gradlew check installDist
   - docker build -t "heapy/awesome:b${TRAVIS_BUILD_NUMBER}" -t "heapy/awesome:latest" ./
   - curl https://kotlin.link/api/readme > readme/README.adoc
