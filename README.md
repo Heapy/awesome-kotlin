@@ -30,6 +30,7 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
+* <a name="libraries-frameworks-generators-subcategory"></a>[Code Generators](#libraries-frameworks-generators)
 * <a name="libraries-frameworks-tests-subcategory"></a>[Tests](#libraries-frameworks-tests)
 * <a name="libraries-frameworks-dependency-injection-subcategory"></a>[Dependency Injection](#libraries-frameworks-dependency-injection)
 * <a name="libraries-frameworks-coroutines-subcategory"></a>[Coroutines](#libraries-frameworks-coroutines)
@@ -178,6 +179,9 @@ Here awesome badge for your project:
 * [SeunAdelekan/Kanary](https://github.com/SeunAdelekan/Kanary) - A micro webframework for Kotlin
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
+
+### <a name="libraries-frameworks-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-generators-subcategory)</sup>
+* [khipster](https://github.com/jhipster/jhipster-kotlin) - A scaffold generator to generate web apps or APIs using springboot and angularJS or React
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
