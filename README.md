@@ -387,6 +387,7 @@ Here awesome badge for your project:
 * [Lewik/klog](https://github.com/Lewik/klog) - Minimalistic and multiplatform logging for Kotlin
 * [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
 * [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
+* [dotCipher/kase-format](https://github.com/dotCipher/kase-format) - String case conversion and detection library
 
 ### <a name="libraries-frameworks-raspberry-pi"></a>Raspberry Pi <sup>[Back ⇈](#libraries-frameworks-raspberry-pi-subcategory)</sup>
 * [mhashim6/Pi4K](https://github.com/mhashim6/Pi4K) - Pi4J Kotlin bindings.
