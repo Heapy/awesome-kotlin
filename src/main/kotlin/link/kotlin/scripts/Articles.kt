@@ -170,10 +170,16 @@ private fun getFileName(path: Path): String {
 
     val escaped = name
         .map { code ->
-            if ((code !in 'a'..'Z') || (code !in '0'..'9')) {
-                '-'
-            } else {
+            if (
+                (code in 'a'..'z') ||
+                (code in 'A'..'Z') ||
+                (code in '0'..'9') ||
+                (code in 'a'..'я') ||
+                (code in 'А'..'Я')
+            ) {
                 code
+            } else {
+                '-'
             }
         }
         .joinToString(separator = "")

@@ -8,15 +8,19 @@
   }
 
   &_logo {
-    width: 100px;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 0 auto;
     padding: 20px 0;
+    opacity: 0.9;
+    &:hover {
+      opacity: 1;
+    }
   }
   @media screen and (max-width: 480px) {
     &_logo {
-      width: 50px;
+      max-width: 300px;
     }
   }
 }

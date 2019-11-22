@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
+import kotlinx.coroutines.withTimeout
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
@@ -47,7 +48,7 @@ class DefaultStarsGenerator(
                         mapper.readTree(response)
                     } catch (e: Exception) {
                         LOGGER.error("Error while fetching data for '${link.name}'.", e)
-                        throw e
+                        return@map link
                     }
 
                     val stargazers_count = json["stargazers_count"]?.asInt()
@@ -65,6 +66,7 @@ class DefaultStarsGenerator(
                     val response = getBitbucketStarCount(httpClient, link.name)
 
                     val stars = mapper.readValue<BitbucketResponse>(response)
+                    link.star = stars.size
                     link
                 }
                 else -> link
@@ -89,7 +91,9 @@ private suspend fun getGithubStarCount(client: HttpClient, name: String, user: S
         it.addHeader("Authorization", "token $pass")
     }
 
-    return client.execute(request).body()
+    return withTimeout(1000) {
+        client.execute(request).body()
+    }
 }
 
 private suspend fun getBitbucketStarCount(client: HttpClient, name: String): String {

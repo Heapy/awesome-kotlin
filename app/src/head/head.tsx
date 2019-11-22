@@ -17,6 +17,11 @@ export class Head extends React.Component<{}, State> {
       logos
     } = this.state;
 
+    // Skip if logo linked
+    if (logos[counter].link) {
+      return
+    }
+
     this.setState({
       counter: (counter + 1) % logos.length
     });
@@ -47,6 +52,7 @@ interface Logo {
   readonly src: string;
   readonly alt: string;
   readonly show: Predicate;
+  readonly link?: string;
 }
 
 type Predicate = () => boolean;
@@ -54,15 +60,30 @@ type Predicate = () => boolean;
 function getLogo(index: number, logos: Logo[]) {
   const logo = logos[index];
 
-  return (
-    <img src={logo.src}
-         alt={logo.alt}
-         className={styles.head_logo}/>
-  );
+  if (logo.link) {
+    return (
+      <a href={logo.link} target="_blank">
+        <img src={logo.src}
+             alt={logo.alt}
+             className={styles.head_logo}/>
+      </a>
+    );
+  } else {
+    return (
+      <img src={logo.src}
+           alt={logo.alt}
+           className={styles.head_logo}/>
+    );
+  }
 }
 
 function logosProvider(): Logo[] {
   return [{
+    src: require("./kc2019.svg"),
+    alt: "KotlinConf 2019 Live Streaming",
+    show: () => true,
+    link: "https://blog.jetbrains.com/kotlin/2019/11/kotlinconf-2019-live-join-the-broadcast-attend-the-qa/?utm_source=awesome_kotlin&utm_medium=referral&utm_campaign=kotlinconf-livestream"
+  }, {
     src: require("./kotlin-force.svg"),
     alt: "Kotlin Language Logo",
     show: () => {
