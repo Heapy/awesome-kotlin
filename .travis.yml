@@ -18,7 +18,7 @@ deploy:
     script: bash deploy.sh
     skip_cleanup: true
     on:
-      branch: master
+      branch: quick-fixes
 
 before_cache:
   - rm -f  "${HOME}/.gradle/caches/modules-2/modules-2.lock"
