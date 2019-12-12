@@ -510,9 +510,16 @@ category("Libraries/Frameworks") {
   }
   subcategory("Functional Programming") {
     link {
-      name = "arrow-kt/arrow"
+      name = "Arrow"
       desc = "Functional companion to Kotlin's Standard Library."
       href = "https://github.com/arrow-kt/arrow"
+      type = github
+      tags = Tags["fp", "functional"]
+    }
+    link {
+      name = "Arrow Meta"
+      desc = "Functional companion to Kotlin's Compiler."
+      href = "https://github.com/arrow-kt/arrow-meta"
       type = github
       tags = Tags["fp", "functional"]
     }
