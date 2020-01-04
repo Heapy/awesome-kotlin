@@ -79,11 +79,6 @@ function getLogo(index: number, logos: Logo[]) {
 
 function logosProvider(): Logo[] {
   return [{
-    src: require("./kc2019.svg"),
-    alt: "KotlinConf 2019 Live Streaming",
-    show: () => true,
-    link: "https://blog.jetbrains.com/kotlin/2019/11/kotlinconf-2019-live-join-the-broadcast-attend-the-qa/?utm_source=awesome_kotlin&utm_medium=referral&utm_campaign=kotlinconf-livestream"
-  }, {
     src: require("./kotlin-force.svg"),
     alt: "Kotlin Language Logo",
     show: () => {
