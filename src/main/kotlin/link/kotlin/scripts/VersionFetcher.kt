@@ -20,7 +20,7 @@ class MavenCentralVersionFetcher(
     private val client: HttpClient
 ) : VersionFetcher {
     override suspend fun getLatestVersions(branches: List<String>): List<String> {
-        val url = "http://central.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/maven-metadata.xml"
+        val url = "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/maven-metadata.xml"
 
         val xml = client.execute(HttpGet(url)).body()
 
