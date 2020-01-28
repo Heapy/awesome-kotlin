@@ -500,6 +500,7 @@ Here awesome badge for your project:
 * [Poweranimal/PowerCollections](https://github.com/Poweranimal/PowerCollections) - Powerfull Collections, Sets, Lists and Maps.
 * [neworld/gradle-jdeploy-plugin](https://github.com/neworld/gradle-jdeploy-plugin) - Gradle plugin to publish JVM applications via npmjs.com
 * [ruslanys/telegraff](https://github.com/ruslanys/telegraff) - Kotlin DSL for Telegram Bots creation.
+* [insanusmokrassar/TelegramBotAPI](https://github.com/insanusmokrassar/TelegramBotAPI) - Kotlin Multiplatform library for type-safe Telegram Bots requests
 * [krzema12/fsynth](https://github.com/krzema12/fsynth) - Music synthesizer as a Kotlin multiplatform project
 
 ### <a name="projects-desktop"></a>Desktop <sup>[Back ⇈](#projects-desktop-subcategory)</sup>
@@ -601,6 +602,7 @@ Here awesome badge for your project:
 * [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
 * [Shutter-Android](https://github.com/levibostian/Shutter-Android) - an Android library to take photos, record videos, pick images/videos from gallery, with ease. Written in Kotlin.
 * [skydoves/Balloon](https://github.com/skydoves/balloon) - A lightweight popup like tooltips, fully customizable with arrow and animations.
+* [ChuckerTeam/Chucker](https://github.com/ChuckerTeam/chucker) - An on-device HTTP and Throwable inspector for Android.
 
 ### <a name="android-frameworks"></a>Frameworks <sup>[Back ⇈](#android-frameworks-subcategory)</sup>
 * [nekocode/kotgo](https://github.com/nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
