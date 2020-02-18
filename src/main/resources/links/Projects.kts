@@ -243,6 +243,13 @@ category("Projects") {
       tags = Tags["telegram", "bot", "dsl", "telegraff"]
     }
     link {
+      name = "insanusmokrassar/TelegramBotAPI"
+      desc = "Kotlin Multiplatform library for type-safe Telegram Bots requests"
+      href= "https://github.com/insanusmokrassar/TelegramBotAPI"
+      type = github
+      tags = Tags["telegram", "bot", "multiplatform", "Kotlin/JVM"]
+    }
+    link {
       name = "krzema12/fsynth"
       desc = "Music synthesizer as a Kotlin multiplatform project"
       href= "https://github.com/krzema12/fsynth"
