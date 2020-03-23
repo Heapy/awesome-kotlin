@@ -59,6 +59,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "tbhaxor/GUIDE-TO-KOTLIN"
+      desc = "A practical guide on Kotlin for Developers"
+      href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
+    }
+    link {
       name = "Jobs for Kotlin Developers"
       desc = "All job listings require Kotlin skills"
       href = "https://kotlin-jobs.com/"
