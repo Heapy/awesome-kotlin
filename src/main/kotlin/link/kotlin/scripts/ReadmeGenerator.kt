@@ -73,15 +73,16 @@ internal fun getLinks(links: Links): String {
 
 internal fun generate(links: Links): String {
     val template = """<!--
-    This is GENERATED file,
-    please read CONTRIBUTING.md for more information.
+    This is GENERATED file, please consult 
+    https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md
+    for instructions.
 -->
 
 # Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
-[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Travis CI Build Status Badge](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/KotlinBy/awesome-kotlin.svg?branch=legacy)](https://travis-ci.com/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
