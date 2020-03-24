@@ -5,11 +5,10 @@ interface ReadmeGenerator {
 }
 
 class DefaultReadmeGenerator(
-    private val projects: List<Category>,
-    private val articles: List<Category>
+    private val projects: List<Category>
 ) : ReadmeGenerator {
     override fun generate(): String {
-        return generate(projects + articles)
+        return generate(projects)
     }
 }
 

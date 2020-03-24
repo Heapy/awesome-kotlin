@@ -15,7 +15,7 @@ class LinkChecker(
         links.map { link ->
             GlobalScope.async {
                 try {
-                    val response = withTimeout(10000) {
+                    val response = withTimeout(1000) {
                         httpClient.execute(HttpHead(link))
                     }
 

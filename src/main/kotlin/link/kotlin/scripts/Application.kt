@@ -25,12 +25,15 @@ object Application {
             runBlocking {
                 LOGGER.info("Start getting project links and articles")
                 val projectLinks = ProjectLinks(scriptCompiler).getLinks()
-                val articles = Articles(scriptCompiler)
                 LOGGER.info("Finish getting project links and articles")
 
                 when (args.getOrNull(0)) {
-                    "true" -> site(projectLinks, articles)
-                    else -> readme(projectLinks, articles)
+                    "true" -> readme(projectLinks)
+                    else -> {
+                        val articles = Articles(scriptCompiler)
+                        site(projectLinks, articles)
+                        readme(projectLinks)
+                    }
                 }
 
                 LOGGER.info("Done, exit.")
@@ -42,8 +45,8 @@ object Application {
         }
     }
 
-    private suspend fun readme(projectLinks: Links, articles: Articles) {
-        val readme = DefaultReadmeGenerator(projectLinks, articles.links()).generate()
+    private fun readme(projectLinks: Links) {
+        val readme = DefaultReadmeGenerator(projectLinks).generate()
         write(Paths.get("./readme/README.md"), readme.toByteArray(), CREATE, TRUNCATE_EXISTING)
     }
 
