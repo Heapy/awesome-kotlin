@@ -1,23 +1,23 @@
 object Dep {
-    const val kotlinVersion = "1.3.21"
+    const val kotlinVersion = "1.3.71"
 
     object Kotlin {
         val stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
         val reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
     }
 
-    private val jacksonVersion = "2.9.8"
+    private val jacksonVersion = "2.10.3"
     val jacksonXml = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$jacksonVersion"
     val jacksonKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonVersion"
 
-    val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.1.1"
+    val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.5"
 
-    private val commonmarkVersion = "0.11.0"
+    private val commonmarkVersion = "0.14.0"
     val commonmark = "com.atlassian.commonmark:commonmark:$commonmarkVersion"
     val commonmarkExtGfmTables = "com.atlassian.commonmark:commonmark-ext-gfm-tables:$commonmarkVersion"
 
     val httpClient = "org.apache.httpcomponents:httpasyncclient:4.1.4"
 
-    val mockk = "io.mockk:mockk:1.9"
-    val junit = "org.junit.jupiter:junit-jupiter-engine:5.4.0"
+    val mockk = "io.mockk:mockk:1.9.3"
+    val junit = "org.junit.jupiter:junit-jupiter-engine:5.6.1"
 }

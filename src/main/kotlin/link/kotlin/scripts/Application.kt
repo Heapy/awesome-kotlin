@@ -13,6 +13,7 @@ import java.nio.file.Files.write
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption.CREATE
 import java.nio.file.StandardOpenOption.TRUNCATE_EXISTING
+import kotlin.system.exitProcess
 
 object Application {
     private val httpClient = createHttpClient()
@@ -33,7 +34,7 @@ object Application {
                 }
 
                 LOGGER.info("Done, exit.")
-                System.exit(0)
+                exitProcess(0)
             }
         } catch (t: Throwable) {
             LOGGER.error("Unhandled error", t)
