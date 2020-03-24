@@ -109,9 +109,9 @@ category("Libraries/Frameworks") {
       tags = Tags["web", "rest", "http"]
     }
     link {
-      name = "kwebio/core"
-      desc = "[kweb.io](http://kweb.io/) Build rich live-updating web apps in pure server-side Kotlin."
-      href = "https://github.com/kwebio/core"
+      name = "kwebio/kweb-core"
+      desc = "Build rich live-updating web apps in pure server-side Kotlin."
+      href = "https://github.com/kwebio/kweb-core"
       type = github
       tags = Tags["web", "rest", "http", "fullstack"]
     }
@@ -815,7 +815,7 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Tools") {
-	  link {
+    link {
       name = "SonarSource/sonarlint-intellij"
       desc = "An IDE extension that helps you detect and fix quality issues as you write code."
       href = "https://github.com/SonarSource/sonarlint-intellij"

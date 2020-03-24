@@ -44,7 +44,7 @@ object Application {
 
     private suspend fun readme(projectLinks: Links, articles: Articles) {
         val readme = DefaultReadmeGenerator(projectLinks, articles.links()).generate()
-        write(Paths.get("README.md"), readme.toByteArray(), CREATE, TRUNCATE_EXISTING)
+        write(Paths.get("./readme/README.md"), readme.toByteArray(), CREATE, TRUNCATE_EXISTING)
     }
 
     private suspend fun site(projectLinks: Links, articles: Articles) {

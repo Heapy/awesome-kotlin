@@ -59,11 +59,6 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
-      name = "tbhaxor/GUIDE-TO-KOTLIN"
-      desc = "A practical guide on Kotlin for Developers"
-      href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
-    }
-    link {
       name = "Jobs for Kotlin Developers"
       desc = "All job listings require Kotlin skills"
       href = "https://kotlin-jobs.com/"
@@ -161,6 +156,11 @@ category("Links") {
       type = github
       tags = Tags["GoF", "concurrency"]
     }
+    link {
+      name = "tbhaxor/GUIDE-TO-KOTLIN"
+      desc = "A practical guide on Kotlin for Developers"
+      href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
+    }
   }
   subcategory("Books and Courses") {
     link {
@@ -189,7 +189,7 @@ category("Links") {
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
     }
-	link {
+    link {
       name = "Functional Kotlin"
       desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
       href = "https://www.packtpub.com/application-development/functional-kotlin"
