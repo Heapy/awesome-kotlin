@@ -19,6 +19,15 @@ deploy:
     skip_cleanup: true
     on:
       branch: legacy
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GH_TOKEN
+    keep_history: true
+    local_dir: readme
+    target_branch: readme
+    committer_from_gh: true
+    on:
+      branch: legacy
 
 before_cache:
   - rm -f  "${HOME}/.gradle/caches/modules-2/modules-2.lock"
