@@ -158,7 +158,7 @@ category("Links") {
     }
     link {
       name = "tbhaxor/GUIDE-TO-KOTLIN"
-      desc = "A practical guide on Kotlin for Developers"
+      desc = """A practical guide on "Kotlin for Developers""""
       href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
     }
   }

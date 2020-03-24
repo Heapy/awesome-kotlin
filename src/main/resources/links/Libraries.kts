@@ -199,6 +199,24 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["graphql", "web"]
     }
+    link {
+      name = "moia-dev/lambda-kotlin-request-router"
+      desc = "A REST request routing layer for AWS lambda handlers written in Kotlin"
+      href = "https://github.com/moia-dev/lambda-kotlin-request-router"
+      type = github
+    }
+    link {
+      name = "spypunk/sponge"
+      desc = "A website crawler and links downloader command line tool written in Kotlin"
+      href = "https://github.com/spypunk/sponge"
+      type = github
+    }
+    link {
+      name = "alpas/alpas"
+      desc = "Kotlin web framework inspired by Laravel/Rails. Easy, elegant and productive."
+      href = "https://github.com/alpas/alpas"
+      type = github
+    }
   }
   subcategory("Tests") {
     link {
@@ -449,6 +467,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["android", "dependency-injection", "injection", "functional"]
     }
+    link {
+      name = "Rasalexman/KODI"
+      desc = "light-weight KOtlin Dependency Injection Framework with or without reflection module without kapt"
+      href = "https://github.com/Rasalexman/KODI"
+      type = github
+    }
   }
   subcategory("Coroutines") {
     link {
@@ -507,6 +531,12 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "vertx", "spring", "restful", "springboot", "springboot", "cloudopt", "next"]
     }
+    link {
+      name = "Rasalexman/coroutinesmanager"
+      desc = "try-catch safety coroutines manager"
+      href = "https://github.com/Rasalexman/coroutinesmanager"
+      type = github
+    }
   }
   subcategory("Functional Programming") {
     link {
@@ -515,6 +545,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/arrow-kt/arrow"
       type = github
       tags = Tags["fp", "functional"]
+    }
+    link {
+      name = "arrow-kt/arrow-meta"
+      desc = "Functional companion to Kotlin's Compiler."
+      href = "https://github.com/arrow-kt/arrow-meta"
+      type = github
     }
     link {
       name = "ReactiveX/RxKotlin"
@@ -895,6 +931,14 @@ category("Libraries/Frameworks") {
       href = "https://github.com/jmfayard/buildSrcVersions"
       type = github
       tags = Tags["gradle", "plugin", "build", "development", "libraries", "versions"]
+    }
+  }
+  subcategory("Code Generators") {
+    link {
+      name = "jhipster/jhipster-kotlin"
+      desc = "A scaffold generator to generate web apps or APIs using springboot and angularJS or React"
+      href = "https://github.com/jhipster/jhipster-kotlin"
+      type = github
     }
   }
   subcategory("Desktop") {
