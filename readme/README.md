@@ -1,15 +1,16 @@
 <!--
-    This is GENERATED file,
-    please read CONTRIBUTING.md for more information.
+    This is GENERATED file, please consult 
+    https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md
+    for instructions.
 -->
 
 # Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
-Disquss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: **# awesome-kotlin**
+Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: **# awesome-kotlin**
 
-[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Travis CI Build Status Badge](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/KotlinBy/awesome-kotlin.svg?branch=legacy)](https://travis-ci.com/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
@@ -32,7 +33,6 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
-* <a name="libraries-frameworks-generators-subcategory"></a>[Code Generators](#libraries-frameworks-generators)
 * <a name="libraries-frameworks-tests-subcategory"></a>[Tests](#libraries-frameworks-tests)
 * <a name="libraries-frameworks-dependency-injection-subcategory"></a>[Dependency Injection](#libraries-frameworks-dependency-injection)
 * <a name="libraries-frameworks-coroutines-subcategory"></a>[Coroutines](#libraries-frameworks-coroutines)
@@ -40,6 +40,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-json-subcategory"></a>[JSON](#libraries-frameworks-json)
 * <a name="libraries-frameworks-database-subcategory"></a>[Database](#libraries-frameworks-database)
 * <a name="libraries-frameworks-tools-subcategory"></a>[Tools](#libraries-frameworks-tools)
+* <a name="libraries-frameworks-code-generators-subcategory"></a>[Code Generators](#libraries-frameworks-code-generators)
 * <a name="libraries-frameworks-desktop-subcategory"></a>[Desktop](#libraries-frameworks-desktop)
 * <a name="libraries-frameworks-http-clients-subcategory"></a>[Http Clients](#libraries-frameworks-http-clients)
 * <a name="libraries-frameworks-editors-subcategory"></a>[Editors](#libraries-frameworks-editors)
@@ -51,7 +52,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-extensions-subcategory"></a>[Extensions](#libraries-frameworks-extensions)
 * <a name="libraries-frameworks-configuration-subcategory"></a>[Configuration](#libraries-frameworks-configuration)
 * <a name="libraries-frameworks-graphics-subcategory"></a>[Graphics](#libraries-frameworks-graphics)
-* <a name="libraries-frameworks-science-subcategory"></a>[Science](#libraries-frameworks-science)
+* <a name="libraries-frameworks-data-science-subcategory"></a>[Data Science](#libraries-frameworks-data-science)
 * <a name="libraries-frameworks-command-line-interface-subcategory"></a>[Command Line Interface](#libraries-frameworks-command-line-interface)
 * <a name="libraries-frameworks-browsers-subcategory"></a>[Browsers](#libraries-frameworks-browsers)
 
@@ -96,7 +97,6 @@ Here awesome badge for your project:
 * [Home Page](http://kotlinlang.org/) 
 * [Language Reference](http://kotlinlang.org/docs/reference/) 
 * [Slack (21k+ users)](http://slack.kotlinlang.org/) 
-* [Public chat archive of Kotlin's Slack](http://kotlinlang.slackarchive.io/) 
 * [Try Kotlin!](http://try.kotlinlang.org/) 
 * [Blog](http://blog.jetbrains.com/kotlin/) 
 * [Issue Tracker](https://youtrack.jetbrains.com/issues/KT) 
@@ -129,7 +129,7 @@ Here awesome badge for your project:
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
-* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin)
+* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin) 
 * [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers) 
 * [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
 * [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
@@ -185,9 +185,6 @@ Here awesome badge for your project:
 * [spypunk/sponge](https://github.com/spypunk/sponge) - A website crawler and links downloader command line tool written in Kotlin
 * [alpas/alpas](https://github.com/alpas/alpas) - Kotlin web framework inspired by Laravel/Rails. Easy, elegant and productive.
 
-### <a name="libraries-frameworks-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-generators-subcategory)</sup>
-* [khipster](https://github.com/jhipster/jhipster-kotlin) - A scaffold generator to generate web apps or APIs using springboot and angularJS or React
-
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
 * [npryce/hamkrest](https://github.com/npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
@@ -240,8 +237,8 @@ Here awesome badge for your project:
 * [Rasalexman/coroutinesmanager](https://github.com/Rasalexman/coroutinesmanager) - try-catch safety coroutines manager
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
-* [Arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
-* [Arrow Meta](https://github.com/arrow-kt/arrow-meta) - Functional companion to Kotlin's Compiler.
+* [arrow-kt/arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
+* [arrow-kt/arrow-meta](https://github.com/arrow-kt/arrow-meta) - Functional companion to Kotlin's Compiler.
 * [ReactiveX/RxKotlin](https://github.com/ReactiveX/RxKotlin) - RxJava bindings for Kotlin.
 * [kittinunf/Result](https://github.com/kittinunf/Result) - The modelling for success/failure of operations in Kotlin.
 * [brianegan/bansa](https://github.com/brianegan/bansa) - A state container for Kotlin & Java, inspired by Elm & Redux.
@@ -305,6 +302,9 @@ Here awesome badge for your project:
 * [cypressious/KotlinW](https://github.com/cypressious/KotlinW) - A small wrapper for the Kotlin compiler that can be used to execute .kts scripts.
 * [s1monw1/KtsRunner](https://github.com/s1monw1/KtsRunner) - Library for executing .kts files from regular Kotlin code using Java Scripting Engines API
 * [jmfayard/buildSrcVersions](https://github.com/jmfayard/buildSrcVersions) - Better Gradle dependencies management inside the IDE. Search for available updates.
+
+### <a name="libraries-frameworks-code-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-code-generators-subcategory)</sup>
+* [jhipster/jhipster-kotlin](https://github.com/jhipster/jhipster-kotlin) - A scaffold generator to generate web apps or APIs using springboot and angularJS or React
 
 ### <a name="libraries-frameworks-desktop"></a>Desktop <sup>[Back ⇈](#libraries-frameworks-desktop-subcategory)</sup>
 * [edvin/tornadofx](https://github.com/edvin/tornadofx) - Lightweight JavaFX Framework for Kotlin/
