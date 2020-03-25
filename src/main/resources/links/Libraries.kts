@@ -536,6 +536,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/Rasalexman/coroutinesmanager"
       type = github
     }
+    link {
+      name = "rozkminiacz/FlowRiddles"
+      desc = "Repository for learning Kotlin Flow API"
+      href = "https://github.com/rozkminiacz/FlowRiddles"
+      type = github
+      tags = Tags["kotlin", "kotlin-flow", "learning", "riddles"]
+    }
   }
   subcategory("Functional Programming") {
     link {
