@@ -765,4 +765,13 @@ category("Android") {
       tags = Tags["espresso", "dsl "]
     }
   }
+  subcategory("Multiplatform") {
+    link {
+      name = "Reedyuk/blue-falcon"
+      desc = "A unified Bluetooth library for Android and iOS."
+      href = "https://github.com/Reedyuk/blue-falcon"
+      type = github
+      tags = Tags["bluetooth", "kotlin multiplatform", "android", "ios"]
+    }
+  }
 }
