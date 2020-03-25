@@ -71,6 +71,7 @@ Here awesome badge for your project:
 * <a name="android-extensions-subcategory"></a>[Extensions](#android-extensions)
 * <a name="android-tools-subcategory"></a>[Tools](#android-tools)
 * <a name="android-tests-subcategory"></a>[Tests](#android-tests)
+* <a name="android-multiplatform-subcategory"></a>[Multiplatform](#android-multiplatform)
 
 ### <a name="kotlin-javascript-category"></a>[Kotlin JavaScript](#kotlin-javascript)
 * <a name="kotlin-javascript-javascript-subcategory"></a>[JavaScript](#kotlin-javascript-javascript)
@@ -235,6 +236,7 @@ Here awesome badge for your project:
 * [marcoferrer/kroto-plus](https://github.com/marcoferrer/kroto-plus) - Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC.
 * [cloudoptlab/cloudopt-next](https://github.com/cloudoptlab/cloudopt-next) - A next-generation Java web lightweight framework based on vertx and kotlin. 
 * [Rasalexman/coroutinesmanager](https://github.com/Rasalexman/coroutinesmanager) - try-catch safety coroutines manager
+* [rozkminiacz/FlowRiddles](https://github.com/rozkminiacz/FlowRiddles) - Repository for learning Kotlin Flow API
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
 * [arrow-kt/arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
@@ -666,6 +668,9 @@ Here awesome badge for your project:
 
 ### <a name="android-tests"></a>Tests <sup>[Back ⇈](#android-tests-subcategory)</sup>
 * [agoda-com/Kakao](https://github.com/agoda-com/Kakao) -  Nice and simple DSL for Espresso in Kotlin.
+
+### <a name="android-multiplatform"></a>Multiplatform <sup>[Back ⇈](#android-multiplatform-subcategory)</sup>
+* [Reedyuk/blue-falcon](https://github.com/Reedyuk/blue-falcon) - A unified Bluetooth library for Android and iOS.
 
 
 ## <a name="kotlin-javascript"></a>Kotlin JavaScript <sup>[Back ⇈](#kotlin-javascript-category)</sup>
