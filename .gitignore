@@ -1,7 +1,8 @@
 # Generated
-app/LinksWithStars.json
+/app/LinksWithStars.json
 /project.env
 /versions.json
+/readme/README.md
 
 # Node
 node_modules
