@@ -261,9 +261,9 @@ category("Libraries/Frameworks") {
       tags = Tags["test", "assert", "bdd"]
     }
     link {
-      name = "kotlintest/kotlintest"
-      desc = "KotlinTest is a flexible and comprehensive testing tool for the Kotlin ecosystem based on and heavily inspired by the superb Scalatest."
-      href = "https://github.com/kotlintest/kotlintest"
+      name = "kotest/kotest"
+      desc = "Formerly known as KotlinTest, Kotest is a flexible and comprehensive testing tool that is multiplatform enabled."
+      href = "https://github.com/kotest/kotest"
       type = github
       tags = Tags["test", "bdd", "matchers"]
     }
@@ -557,6 +557,7 @@ category("Libraries/Frameworks") {
       desc = "Functional companion to Kotlin's Compiler."
       href = "https://github.com/arrow-kt/arrow-meta"
       type = github
+      tags = Tags["fp", "functional"]
     }
     link {
       name = "ReactiveX/RxKotlin"
