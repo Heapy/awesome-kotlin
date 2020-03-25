@@ -1758,9 +1758,20 @@ category("Libraries/Frameworks") {
   }
   subcategory("Data Science") {
     link {
-      name = "ligee/kotlin-jupyter"
-      desc = "Kotlin kernel for Jupyter/iPython."
-      href = "https://github.com/ligee/kotlin-jupyter"
+      name = "Kotlin for Data Science"
+      desc = "Kotlin for Data Science overview page"
+      href = "https://kotlinlang.org/docs/reference/data-science-overview.html"
+    }
+    link {
+      name = "JetBrains/lets-plot-kotlin"
+      desc = "Grammar of graphics visualization for Kotlin"
+      href = "https://github.com/JetBrains/lets-plot-kotlin"
+      type = github
+    }
+    link {
+      name = "Kotlin/kotlin-jupyter"
+      desc = "Official Kotlin Jupyter kernel"
+      href = "https://github.com/Kotlin/kotlin-jupyter"
       type = github
       tags = Tags["data science", "juputer", "repl"]
     }
@@ -1786,6 +1797,12 @@ category("Libraries/Frameworks") {
       tags = Tags["data science", "plot", "matlab", "numpy"]
     }
     link {
+      name = "mipt-npm/kmath"
+      desc = "A (not so numpy-like) multiplatform mathematical library with higher level abstractions."
+      href = "https://github.com/mipt-npm/kmath"
+      type = github
+    }
+    link {
       name = "MarcinMoskala/KotlinDiscreteMathToolkit"
       desc = "Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions."
       href = "https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit"
@@ -1805,6 +1822,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/sanity/pairAdjacentViolators"
       type = github
       tags = Tags["data science", "pair adjacent violators"]
+    }
+    link {
+      name = "breandan/kotlingrad"
+      desc = "Shape-Safe Differentiable Programming with Algebraic Data Types."
+      href = "https://github.com/breandan/kotlingrad"
+      type = github
     }
   }
   subcategory("Command Line Interface") {
