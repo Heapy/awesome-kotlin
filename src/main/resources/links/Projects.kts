@@ -407,6 +407,12 @@ category("Projects") {
       type = github
       tags = Tags["examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock"]
     }
+    link {
+      name = "mrcsxsiq/Kotlin-Pokedex"
+      desc = "A Pokedex demo app built with Kotlin using ViewModel, LiveData, Room and Navigation"
+      href = "https://github.com/mrcsxsiq/Kotlin-Pokedex"
+      type = github
+    }
   }
   subcategory("Idea Plugins") {
     link {

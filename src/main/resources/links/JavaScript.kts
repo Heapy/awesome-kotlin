@@ -83,6 +83,18 @@ category("Kotlin JavaScript") {
         type = github
         tags = Tags["web", "javascript", "kotlin-js"]
     }
+    link {
+      name = "Foso/MpApt"
+      desc = "Kotlin Native/JS/JVM Annotation Processor library"
+      href = "https://github.com/Foso/MpApt"
+      type = github
+    }
+    link {
+      name = "fortytwoapps/kstitch"
+      desc = "An object oriented toolkit for MongoDB Stitch in KotlinJS."
+      href = "https://github.com/fortytwoapps/kstitch"
+      type = github
+    }
   }
   subcategory("Frontend") {
     link {

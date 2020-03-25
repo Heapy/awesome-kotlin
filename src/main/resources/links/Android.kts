@@ -392,6 +392,30 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin", "coroutines", "livedata", "fsm", "state-machine", "finite-state-machine"]
     }
+    link {
+      name = "coil-kt/coil"
+      desc = "Image loading for Android backed by Kotlin Coroutines."
+      href = "https://github.com/coil-kt/coil"
+      type = github
+    }
+    link {
+      name = "levibostian/Shutter-Android"
+      desc = "an Android library to take photos, record videos, pick images/videos from gallery, with ease. Written in Kotlin."
+      href = "https://github.com/levibostian/Shutter-Android"
+      type = github
+    }
+    link {
+      name = "skydoves/balloon"
+      desc = "A lightweight popup like tooltips, fully customizable with arrow and animations."
+      href = "https://github.com/skydoves/balloon"
+      type = github
+    }
+    link {
+      name = "ChuckerTeam/chucker"
+      desc = "An on-device HTTP and Throwable inspector for Android."
+      href = "https://github.com/ChuckerTeam/chucker"
+      type = github
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -421,6 +445,18 @@ category("Android") {
       href = "https://github.com/hpost/rx-mvi"
       type = github
       tags = Tags["rxjava2", "rxjava", "android", "mvi", "mvi-architecture", "android-architecture"]
+    }
+    link {
+      name = "LouisCAD/Splitties"
+      desc = "A family of small Kotlin libraries for delightful Android development including View DSLs"
+      href = "https://github.com/LouisCAD/Splitties"
+      type = github
+    }
+    link {
+      name = "Miha-x64/Lychee"
+      desc = "Data binding and persistence infrastructure for building Android and JavaFX UIs and binding them with data"
+      href = "https://github.com/Miha-x64/Lychee"
+      type = github
     }
   }
   subcategory("Projects") {
@@ -680,6 +716,12 @@ category("Android") {
       href = "https://github.com/dgngulcan/droid-feed"
       type = github
       tags = Tags["android", "kotlin", "mvvm", "kotlin-coroutines", "news", "app"]
+    }
+    link {
+      name = "VMadalin/kotlin-sample-app"
+      desc = "Android Sample App using modular, clean, scalable, testable Architecture written in Kotlin following the best practices with Jetpack"
+      href = "https://github.com/VMadalin/kotlin-sample-app"
+      type = github
     }
   }
   subcategory("Extensions") {
