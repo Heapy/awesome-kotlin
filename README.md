@@ -1,15 +1,16 @@
 <!--
-    This is GENERATED file,
-    please read CONTRIBUTING.md for more information.
+    This is GENERATED file, please consult 
+    https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md
+    for instructions.
 -->
 
 # Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
 
 A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:
 
-Disquss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: **# awesome-kotlin**
+Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: **# awesome-kotlin**
 
-[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Travis CI Build Status Badge](https://api.travis-ci.org/KotlinBy/awesome-kotlin.svg?branch=master)](https://travis-ci.org/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/KotlinBy/awesome-kotlin.svg?branch=legacy)](https://travis-ci.com/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
@@ -32,7 +33,6 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
-* <a name="libraries-frameworks-generators-subcategory"></a>[Code Generators](#libraries-frameworks-generators)
 * <a name="libraries-frameworks-tests-subcategory"></a>[Tests](#libraries-frameworks-tests)
 * <a name="libraries-frameworks-dependency-injection-subcategory"></a>[Dependency Injection](#libraries-frameworks-dependency-injection)
 * <a name="libraries-frameworks-coroutines-subcategory"></a>[Coroutines](#libraries-frameworks-coroutines)
@@ -40,6 +40,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-json-subcategory"></a>[JSON](#libraries-frameworks-json)
 * <a name="libraries-frameworks-database-subcategory"></a>[Database](#libraries-frameworks-database)
 * <a name="libraries-frameworks-tools-subcategory"></a>[Tools](#libraries-frameworks-tools)
+* <a name="libraries-frameworks-code-generators-subcategory"></a>[Code Generators](#libraries-frameworks-code-generators)
 * <a name="libraries-frameworks-desktop-subcategory"></a>[Desktop](#libraries-frameworks-desktop)
 * <a name="libraries-frameworks-http-clients-subcategory"></a>[Http Clients](#libraries-frameworks-http-clients)
 * <a name="libraries-frameworks-editors-subcategory"></a>[Editors](#libraries-frameworks-editors)
@@ -51,7 +52,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-extensions-subcategory"></a>[Extensions](#libraries-frameworks-extensions)
 * <a name="libraries-frameworks-configuration-subcategory"></a>[Configuration](#libraries-frameworks-configuration)
 * <a name="libraries-frameworks-graphics-subcategory"></a>[Graphics](#libraries-frameworks-graphics)
-* <a name="libraries-frameworks-science-subcategory"></a>[Science](#libraries-frameworks-science)
+* <a name="libraries-frameworks-data-science-subcategory"></a>[Data Science](#libraries-frameworks-data-science)
 * <a name="libraries-frameworks-command-line-interface-subcategory"></a>[Command Line Interface](#libraries-frameworks-command-line-interface)
 * <a name="libraries-frameworks-browsers-subcategory"></a>[Browsers](#libraries-frameworks-browsers)
 
@@ -96,7 +97,6 @@ Here awesome badge for your project:
 * [Home Page](http://kotlinlang.org/) 
 * [Language Reference](http://kotlinlang.org/docs/reference/) 
 * [Slack (21k+ users)](http://slack.kotlinlang.org/) 
-* [Public chat archive of Kotlin's Slack](http://kotlinlang.slackarchive.io/) 
 * [Try Kotlin!](http://try.kotlinlang.org/) 
 * [Blog](http://blog.jetbrains.com/kotlin/) 
 * [Issue Tracker](https://youtrack.jetbrains.com/issues/KT) 
@@ -129,7 +129,7 @@ Here awesome badge for your project:
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
-* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin)
+* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin) 
 * [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers) 
 * [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
 * [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
@@ -185,9 +185,6 @@ Here awesome badge for your project:
 * [spypunk/sponge](https://github.com/spypunk/sponge) - A website crawler and links downloader command line tool written in Kotlin
 * [alpas/alpas](https://github.com/alpas/alpas) - Kotlin web framework inspired by Laravel/Rails. Easy, elegant and productive.
 
-### <a name="libraries-frameworks-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-generators-subcategory)</sup>
-* [khipster](https://github.com/jhipster/jhipster-kotlin) - A scaffold generator to generate web apps or APIs using springboot and angularJS or React
-
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
 * [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
 * [npryce/hamkrest](https://github.com/npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
@@ -240,8 +237,8 @@ Here awesome badge for your project:
 * [Rasalexman/coroutinesmanager](https://github.com/Rasalexman/coroutinesmanager) - try-catch safety coroutines manager
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
-* [Arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
-* [Arrow Meta](https://github.com/arrow-kt/arrow-meta) - Functional companion to Kotlin's Compiler.
+* [arrow-kt/arrow](https://github.com/arrow-kt/arrow) - Functional companion to Kotlin's Standard Library.
+* [arrow-kt/arrow-meta](https://github.com/arrow-kt/arrow-meta) - Functional companion to Kotlin's Compiler.
 * [ReactiveX/RxKotlin](https://github.com/ReactiveX/RxKotlin) - RxJava bindings for Kotlin.
 * [kittinunf/Result](https://github.com/kittinunf/Result) - The modelling for success/failure of operations in Kotlin.
 * [brianegan/bansa](https://github.com/brianegan/bansa) - A state container for Kotlin & Java, inspired by Elm & Redux.
@@ -261,7 +258,6 @@ Here awesome badge for your project:
 * [Shengaero/kotlin-json](https://github.com/Shengaero/kotlin-json) - A lightweight, stylistic, optimized, and multiplatform JSON library for Kotlin-JVM and Kotlin-JS
 * [fboldog/ext4klaxon](https://github.com/fboldog/ext4klaxon) - Type Extensions (Long, Int, Enum, Date) for Klaxon.
 * [Jire/KTON](https://github.com/Jire/KTON) - Object notation in pure Kotlin!
-* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format reflectionless serialization
 * [fluidsonic/fluid-json](https://github.com/fluidsonic/fluid-json) - A JSON library written in pure Kotlin.
 * [s4kibs4mi/kotlin-jsonq](https://github.com/s4kibs4mi/kotlin-jsonq) - A simple Kotlin library to Query over Json Data.
 * [aafanasev/kson](https://github.com/aafanasev/kson) - Auto-generate GSON type adapters for Kotlin data classes
@@ -289,7 +285,6 @@ Here awesome badge for your project:
 * [fluidsonic/fluid-mongo](https://github.com/fluidsonic/fluid-mongo) - Coroutine support for MongoDB built on top of the official MongoDB Asynchronous Java Driver.
 * [jasync-sql/jasync-sql](https://github.com/jasync-sql/jasync-sql) - Kotlin port of mauricio's async driver for postgres/mysql.
 * [vincentlauvlwj/Ktorm](https://github.com/vincentlauvlwj/Ktorm) - A lightweight and efficient ORM Framework for Kotlin. It provides strong typed and flexible SQL DSL and many convenient extension functions to reduce our duplicated effort on database operations. 
-* [TouK/krush](https://github.com/TouK/krush) - Idiomatic persistence layer for Kotlin, based on Exposed. It’s based on a compile-time JPA annotation processor that generates Exposed DSL table and objects mappings from your data classes.
 
 ### <a name="libraries-frameworks-tools"></a>Tools <sup>[Back ⇈](#libraries-frameworks-tools-subcategory)</sup>
 * [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) - An IDE extension that helps you detect and fix quality issues as you write code.
@@ -301,10 +296,12 @@ Here awesome badge for your project:
 * [shyiko/ktlint](https://github.com/shyiko/ktlint) - Kotlin linter.
 * [jtransc/jtransc](https://github.com/jtransc/jtransc) - JVM AOT compiler created in Kotlin.
 * [arturbosch/detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
-* [mkohm/detekt-hint](https://github.com/mkohm/detekt-hint) - Detection of design principle violations as a plugin to detekt.
 * [cypressious/KotlinW](https://github.com/cypressious/KotlinW) - A small wrapper for the Kotlin compiler that can be used to execute .kts scripts.
 * [s1monw1/KtsRunner](https://github.com/s1monw1/KtsRunner) - Library for executing .kts files from regular Kotlin code using Java Scripting Engines API
 * [jmfayard/buildSrcVersions](https://github.com/jmfayard/buildSrcVersions) - Better Gradle dependencies management inside the IDE. Search for available updates.
+
+### <a name="libraries-frameworks-code-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-code-generators-subcategory)</sup>
+* [jhipster/jhipster-kotlin](https://github.com/jhipster/jhipster-kotlin) - A scaffold generator to generate web apps or APIs using springboot and angularJS or React
 
 ### <a name="libraries-frameworks-desktop"></a>Desktop <sup>[Back ⇈](#libraries-frameworks-desktop-subcategory)</sup>
 * [edvin/tornadofx](https://github.com/edvin/tornadofx) - Lightweight JavaFX Framework for Kotlin/
@@ -349,7 +346,6 @@ Here awesome badge for your project:
 * [MehdiK/Humanizer.jvm](https://github.com/MehdiK/Humanizer.jvm) - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
 * [mplatvoet/kovenant](https://github.com/mplatvoet/kovenant) - Promises for Kotlin and Android
 * [kohesive/klutter](https://github.com/kohesive/klutter) - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
-* [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
 * [kohesive/solr-undertow](https://github.com/kohesive/solr-undertow) - Solr Standalone Tiny and High performant server.
 * [leprosus/kotlin-hashids](https://github.com/leprosus/kotlin-hashids) - Library that generates short, unique, non-sequential hashes from numbers.
 * [mplatvoet/progress](https://github.com/mplatvoet/progress) - Progress for Kotlin.
@@ -358,8 +354,8 @@ Here awesome badge for your project:
 * [hotchemi/khronos](https://github.com/hotchemi/khronos) - An intuitive Date extensions in Kotlin.
 * [yole/kxdate](https://github.com/yole/kxdate) - Kotlin extensions for Java 8 java.time API
 * [ingokegel/jclasslib](https://github.com/ingokegel/jclasslib) - jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.
+* [holgerbrandl/krangl](https://github.com/holgerbrandl/krangl) - krangl is a {K}otlin library for data w{rangl}ing
 * [debop/koda-time](https://github.com/debop/koda-time) - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
-* [saschpe/log4k](https://github.com/saschpe/log4k) - Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments.
 * [MicroUtils/kotlin-logging](https://github.com/MicroUtils/kotlin-logging) - Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
@@ -368,7 +364,6 @@ Here awesome badge for your project:
 * [consoleau/kassava](https://github.com/consoleau/kassava) - This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.
 * [moove-it/fakeit](https://github.com/moove-it/fakeit) - Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment.
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
-* [doyaaaaaken/kotlin-csv](https://github.com/doyaaaaaken/kotlin-csv) - A pure kotlin simple csv reader/writer.
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
 * [TicketmasterMobileStudio/actions-on-google-kotlin](https://github.com/TicketmasterMobileStudio/actions-on-google-kotlin) - Port of official Node.js SDK to Kotlin. Complete with all features and tests and nearly identical API.
 * [cretz/asmble](https://github.com/cretz/asmble) - Compile WebAssembly to JVM and other WASM tools.
@@ -389,22 +384,17 @@ Here awesome badge for your project:
 * [holgerbrandl/kravis](https://github.com/holgerbrandl/kravis) - A Kotlin grammar for scientific data visualization
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
 * [charleskorn/kaml](https://github.com/charleskorn/kaml) - YAML support for kotlinx.serialization
-* [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
 * [pemistahl/lingua](https://github.com/pemistahl/lingua) - A language detection library suitable for long and short text alike
 * [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
 * [pmwmedia/tinylog](https://github.com/pmwmedia/tinylog) - Lightweight logging framework with native logging API for Kotlin.
 * [Lewik/klog](https://github.com/Lewik/klog) - Minimalistic and multiplatform logging for Kotlin
 * [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
-* [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
-* [dotCipher/kase-format](https://github.com/dotCipher/kase-format) - String case conversion and detection library
-* [vittee/kformula](https://github.com/vittee/kformula) - Mathematical expression engine written in Kotlin, running on JVM.
 
 ### <a name="libraries-frameworks-raspberry-pi"></a>Raspberry Pi <sup>[Back ⇈](#libraries-frameworks-raspberry-pi-subcategory)</sup>
 * [mhashim6/Pi4K](https://github.com/mhashim6/Pi4K) - Pi4J Kotlin bindings.
 
 ### <a name="libraries-frameworks-multiplatform"></a>Multiplatform <sup>[Back ⇈](#libraries-frameworks-multiplatform-subcategory)</sup>
 * [ionspin/kotlin-multiplatform-bignum](https://github.com/ionspin/kotlin-multiplatform-bignum) - Pure kotlin multiplatform arbitrary precision arithmetic library.
-* [davidepianca98/KMQTT](https://github.com/davidepianca98/KMQTT) - MQTT Broker library/executables for Kotlin multiplatform.
 
 ### <a name="libraries-frameworks-extensions"></a>Extensions <sup>[Back ⇈](#libraries-frameworks-extensions-subcategory)</sup>
 * [Kotlin/kotlinx.support](https://github.com/Kotlin/kotlinx.support) - Extension and top-level functions to use JDK7/JDK8 features in Kotlin 1.0.
@@ -419,7 +409,6 @@ Here awesome badge for your project:
 * [daviddenton/configur8](https://github.com/daviddenton/configur8) - A Kotlin port of Configur8 - A Type Safe Configuration API for Kotlin, extendable to user-defined types.
 * [ufoscout/properlty](https://github.com/ufoscout/properlty) - Simple configuration library with placeholders resolution and zero magic!
 * [uchuhimo/konf](https://github.com/uchuhimo/konf) - A type-safe cascading configuration library for Kotlin/Java, supporting most configuration formats
-* [sksamuel/hoplite](https://github.com/sksamuel/hoplite) - A library for loading configuration files into typesafe Kotlin data classes in a boilerplate-free way
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [data2viz/data2viz](https://github.com/data2viz/data2viz) - multiplatform dataviz library, d3js port
@@ -440,18 +429,14 @@ Here awesome badge for your project:
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
 * [nwillc/ksvg](https://github.com/nwillc/ksvg) - Kotlin SVG image generation DSL, supporting inline and file formats.
 
-### <a name="libraries-frameworks-science"></a>Science <sup>[Back ⇈](#libraries-frameworks-science-subcategory)</sup>
-* [kotl.in/ds](https://kotlinlang.org/docs/reference/data-science-overview.html) - Kotlin for Data Science overview page
-* [JetBrains/lets-plot-kotlin](https://github.com/JetBrains/lets-plot-kotlin) - Grammar of graphics visualization for Kotlin
-* [Kotlin/kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter) - Official Kotlin Jupyter kernel
-* [holgerbrandl/krangl](https://github.com/holgerbrandl/krangl) - krangl is a {K}otlin library for data w{rangl}ing
-* [kyonifer/koma](https://github.com/kyonifer/koma) - A (numpy-like) multiplatform scientific computing library for Kotlin.
-* [mipt-npm/kmath](https://github.com/mipt-npm/kmath) - A (not so numpy-like) multiplatform mathematical library with higher level abstractions.
+### <a name="libraries-frameworks-data-science"></a>Data Science <sup>[Back ⇈](#libraries-frameworks-data-science-subcategory)</sup>
+* [ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Kotlin kernel for Jupyter/iPython.
 * [thomasnield/kotlin-statistics](https://github.com/thomasnield/kotlin-statistics) - Advanced math and statistical extensions for Kotlin.
+* [holgerbrandl/krangl](https://github.com/holgerbrandl/krangl) - krangl is a {K}otlin library for data w{rangl}ing.
+* [kyonifer/koma](https://github.com/kyonifer/koma) - A scientific computing library for Kotlin.
 * [MarcinMoskala/KotlinDiscreteMathToolkit](https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit) - Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions.
 * [sekwiatkowski/Komputation](https://github.com/sekwiatkowski/Komputation) - A neural network framework written in Kotlin.
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
-* [breandan/kotlingrad](https://github.com/breandan/kotlingrad) - Shape-Safe Differentiable Programming with Algebraic Data Types.
 
 ### <a name="libraries-frameworks-command-line-interface"></a>Command Line Interface <sup>[Back ⇈](#libraries-frameworks-command-line-interface-subcategory)</sup>
 * [ajalt/clikt](https://github.com/ajalt/clikt) - Clikt - Intuitive command line interface parsing for Kotlin.
@@ -531,7 +516,6 @@ Here awesome badge for your project:
 * [mkraynov/todomvc-react-kotlin](https://github.com/mkraynov/todomvc-react-kotlin) - React Kotlin TodoMVC – example based on create-react-kotlin-app and todomvc-react
 * [IvanMwiruki/30-seconds-of-kotlin](https://github.com/IvanMwiruki/30-seconds-of-kotlin) - Useful Kotlin snippets you can understand quickly, using only the stdlib.
 * [xurxodev/integration-testing-kotlin-multiplatform-kata](https://github.com/xurxodev/integration-testing-kotlin-multiplatform-kata) - A full exercise to learn how to use stubbing HTTP in Kotlin multiplatform using Ktor and Ktor Client Mock.
-* [mrcsxsiq/Kotlin-Pokedex](https://github.com/mrcsxsiq/Kotlin-Pokedex) - A Pokedex demo app built with Kotlin using ViewModel, LiveData, Room and Navigation
 
 ### <a name="projects-idea-plugins"></a>Idea Plugins <sup>[Back ⇈](#projects-idea-plugins-subcategory)</sup>
 * [Vektah/CodeGlance](https://github.com/Vektah/CodeGlance) - Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime.
@@ -548,6 +532,7 @@ Here awesome badge for your project:
 
 ## <a name="android"></a>Android <sup>[Back ⇈](#android-category)</sup>
 ### <a name="android-libraries"></a>Libraries <sup>[Back ⇈](#android-libraries-subcategory)</sup>
+* [Kotlin/anko](https://github.com/Kotlin/anko) - Pleasant Android application development.
 * [JakeWharton/kotterknife](https://github.com/JakeWharton/kotterknife) - View injection library for Android.
 * [0xe1f/KotX](https://github.com/0xe1f/KotX) - Kotlin extension and tool library for Android
 * [MarcinMoskala/ActivityStarter](https://github.com/MarcinMoskala/ActivityStarter) - Activity starter generator and arguments injection library for Android.
@@ -603,18 +588,12 @@ Here awesome badge for your project:
 * [CuriousNikhil/gossip](https://github.com/CuriousNikhil/gossip) - Android TextToSpeech Helper to speak any text you want and handle events.
 * [adrielcafe/PufferDB](https://github.com/adrielcafe/pufferdb) - An Android & JVM key-value storage powered by Protobuf and Coroutines.
 * [adrielcafe/HAL](https://github.com/adrielcafe/hal) - A non-deterministic finite-state machine for Android & JVM that won't let you down.
-* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
-* [Shutter-Android](https://github.com/levibostian/Shutter-Android) - an Android library to take photos, record videos, pick images/videos from gallery, with ease. Written in Kotlin.
-* [skydoves/Balloon](https://github.com/skydoves/balloon) - A lightweight popup like tooltips, fully customizable with arrow and animations.
-* [ChuckerTeam/Chucker](https://github.com/ChuckerTeam/chucker) - An on-device HTTP and Throwable inspector for Android.
 
 ### <a name="android-frameworks"></a>Frameworks <sup>[Back ⇈](#android-frameworks-subcategory)</sup>
 * [nekocode/kotgo](https://github.com/nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
 * [lightningkite/kotlin-core](https://github.com/lightningkite/kotlin-core) - A full framework for making Android apps. Based on Anko and Kotson.
 * [codenameone/CodenameOne](https://github.com/codenameone/CodenameOne) - Open source cross platform mobile development framework that offers write once run anywhere native development for iOS (iPhone/iPad), Android, Windows & more using Kotlin & Java
 * [hpost/rx-mvi](https://github.com/hpost/rx-mvi) - Minimal framework for Model View Intent inspired Android applications written in Kotlin.
-* [LouisCAD/Splitties/](https://github.com/LouisCAD/Splitties/) — A family of small Kotlin libraries for delightful Android development including View DSLs
-* [Miha-x64/Lychee](https://github.com/Miha-x64/Lychee) — Data binding and persistence infrastructure for building Android and JavaFX UIs and binding them with data
 
 ### <a name="android-projects"></a>Projects <sup>[Back ⇈](#android-projects-subcategory)</sup>
 * [antoniolg/Bandhook-Kotlin](https://github.com/antoniolg/Bandhook-Kotlin) - A showcase music app for Android entirely written using Kotlin language.
@@ -654,7 +633,6 @@ Here awesome badge for your project:
 * [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [cuongpm/youtube-dl-android](https://github.com/cuongpm/youtube-dl-android) - Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites.
 * [dgngulcan/droid-feed](https://github.com/dgngulcan/droid-feed) - News feed aggregated exclusively for Android Developers.
-* [VMadalin/kotlin-sample-app](https://github.com/VMadalin/kotlin-sample-app) - Android Sample App using modular, clean, scalable, testable Architecture written in Kotlin following the best practices with Jetpack.
 
 ### <a name="android-extensions"></a>Extensions <sup>[Back ⇈](#android-extensions-subcategory)</sup>
 * [ajalt/timberkt](https://github.com/ajalt/timberkt) - Easy Android logging with Kotlin and Timber.
@@ -681,8 +659,6 @@ Here awesome badge for your project:
 * [rjaros/kvision](https://github.com/rjaros/kvision) - Object oriented Web UI framework for Kotlin/JS
 * [nosix/vue-kotlin](https://github.com/nosix/vue-kotlin) - Libraries and tools supporting the use of Vue.js in Kotlin
 * [Kabbura/Kunafa](https://github.com/Kabbura/Kunafa) - Easy to use, high level framework in Kotlin for front-end web-development and creating web apps without using HTML, CSS, or JavaScript.
-* [MpApt](https://github.com/Foso/MpApt) - Kotlin Native/JS/JVM Annotation Processor library
-* [fortytwoapps/kstitch](https://github.com/fortytwoapps/kstitch) - An object oriented toolkit for MongoDB Stitch in KotlinJS.
 
 ### <a name="kotlin-javascript-frontend"></a>Frontend <sup>[Back ⇈](#kotlin-javascript-frontend-subcategory)</sup>
 * [olegcherr/Aza-Kotlin-CSS](https://github.com/olegcherr/Aza-Kotlin-CSS) - Kotlin DSL for CSS
@@ -712,66 +688,90 @@ Here awesome badge for your project:
 
 ## <a name="kotlin-user-groups"></a>Kotlin User Groups <sup>[Back ⇈](#kotlin-user-groups-category)</sup>
 ### <a name="kotlin-user-groups-europe"></a>Europe <sup>[Back ⇈](#kotlin-user-groups-europe-subcategory)</sup>
+* [Aachen Kotlin User Group](https://www.facebook.com/groups/KUGAachen/) - Germany
 * [Amsterdam Kotlin User Group](https://www.meetup.com/kotlin-amsterdam/) - Netherlands
+* [Amsterdam High-performance Kotlin User Group](https://www.meetup.com/High-performance-Kotlin/) - Netherlands
 * [Athens Kotlin User Group](https://www.meetup.com/Kotlin-Athens/) - Greece
 * [Barcelona, KotlinBCN](https://www.meetup.com/kotlinbcn/) - Spain
+* [Basel Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Basel/) - Switzerland
 * [Belarus Kotlin User Group](https://bkug.by/) - Belarus
+* [Belfast Kotlin User Group](https://www.meetup.com/kotlin-belfast/) - Northern Ireland
 * [Belgium Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Belgium/) - Belgium
 * [Berlin Kotlin User Group](https://www.meetup.com/kotlin-berlin/) - Germany
-* [Bosnia Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Bosnia/) - Bosnia and Herzegovina
+* [Bielefelder Kotlin User Group](https://www.meetup.com/Bielefelder-Kotlin-User-Group/) - Germany
+* [Bosnia Kotlin User Group](https://www.facebook.com/kotlinugbosnia) - Bosnia and Herzegovina
+* [Brighton Kotlin User Group](https://www.meetup.com/Brighton-Kotlin/) - United Kingdom
 * [Bucharest Kotlin User Group](https://www.meetup.com/kug-bucharest/) - Romania
 * [Budapest Kotlin User Group](https://www.facebook.com/groups/KotlinBudapest/) - Hungary
+* [Bulgarian Kotlin User Group](https://bg-kug.github.io/) - Bulgaria
 * [Cologne Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Cologne/?from=ref) - Germany
+* [Copenhagen Kotlin User Group](https://www.meetup.com/Kotlin-Copenhagen/) - Denmark
+* [Cosenza Kotlin User Group](https://www.facebook.com/groups/251720265392355) - Italy
 * [Croatia Kotlin User Group](https://www.meetup.com/Croatia-Kotlin-User-Group-Meetup/) - Croatia
 * [Czech Kotlin User Group](https://www.facebook.com/czkug/) - Czech Republic
 * [Dnipro Kotlin User Group](https://www.meetup.com/Kotlin-Dnipro/) - Ukraine
-* [Dublin Kotliners](https://www.meetup.com/Dublin-Kotliners/) - Ireland
+* [Dublin Kotlin User Group](https://www.meetup.com/Dublin-Kotlin-Meetup/) - Ireland
 * [Dusseldorf Kotlin User Group](https://www.meetup.com/Dusseldorf-Kotlin-Meetup/) - Germany
 * [Dutch Kotlin User Group](http://kotlin.nl/) - Netherlands
+* [Edinburgh Kotlin User Group](https://www.meetup.com/Edinburgh-Kotlin-User-Group/) - Scotland
+* [Estonia Kotlin User Group](https://www.facebook.com/groups/estoniaKotlin/) - Estonia
 * [Hamburg Kotlin User Group](https://www.meetup.com/de-DE/Kotlin-User-Group-Hamburg/) - Germany
 * [Helsinki Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Helsinki/?from=ref) - Finland
 * [Italy Kotlin User Group](https://www.facebook.com/groups/kotlinitaly/) - Italy
 * [Karlsruhe Kotlin User Group](https://www.meetup.com/Karlsruhe-Software-Development-Meetup/) - Germany
+* [Kassel Kotlin User Group](https://www.meetup.com/Kassel-Kotlin-User-Group/) - Germany
 * [Kyiv Kotlin User Group](https://www.meetup.com/KyivKUG) - Ukraine
-* [Kraków Kotlin User Group](https://www.meetup.com/krakow-kotlin/) - Poland
+* [Krakow Kotlin User Group](https://www.meetup.com/krakow-kotlin/) - Poland
+* [Leeds Kotlin User Group](https://leedskotlinusergroup.netlify.com/published/2020/1/6/our-first-meetup/) - Kingdom
+* [Limerick Kotlin User Group](https://www.meetup.com/kotlinlimerick/) - Ireland
+* [Lisboa Kotlin User Group](https://meetup.com/kotlin-lisboa/) - Portugal
 * [London Kotlin](http://www.meetup.com/kotlin-london/) - United Kingdom
+* [Lviv Kotlin User Group](https://www.facebook.com/groups/1395212093948927/) - Ukraine
 * [Lyon Kotlin User Group](http://www.meetup.com/Lyon-Kotlin-User-Group/) - France
 * [Madrid Kotlin User Group](https://www.meetup.com/KotlinMAD/) - Spain
 * [Manchester Kotlin Developers](http://www.meetup.com/Kotlin-Manchester/) - United Kingdom
 * [Milano Kotlin User Group](https://www.meetup.com/it-IT/KUG-Milan/) - Italy
 * [Moscow Kotlin User Group](https://vk.com/kotlinmoscow) - Russia
 * [Munich Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Munich/) - Germany
+* [Nizhny Novgorod Kotlin User Group](https://www.meetup.com/kotlin_nn/) - Russia
+* [Oslo Kotlin User Group](https://www.meetup.com/meetup-group-nWeRbyMu/) - Norway
 * [Paris Kotlin User Group](https://www.meetup.com/Kotlin-Paris-Meetup/) - France
 * [Rhein-Main Kotlin](https://www.meetup.com/de-DE/Kotlin-Rhein-Main/) - Germany
-* [Rostov-on-Don Kotlin User Group](https://vk.com/rndkotlin) - Russia
+* [Rostov Kotlin User Group](https://vk.com/rndkotlin) - Russia
+* [Samara Kotlin User Group](https://sitc.community/communities/kug/) - Russia
 * [St. Petersburg Kotlin User Group](https://www.meetup.com/St-Petersburg-Kotlin-User-Group/) - Russia
 * [Serbia Kotlin User Group](https://www.meetup.com/Serbia-Kotlin-User-Group/) - Serbia
+* [Slovakia Kotlin User Group](https://www.meetup.com/Kotlin-Slovakia/) - Slovakia
 * [Stockholm Kotlin User Group](https://www.meetup.com/Sweden-Kotlin-User-Group/) - Sweden
+* [Stuttgart Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Stuttgart/) - Germany
 * [Swiss Kotlin User Group](https://www.meetup.com/Kotlin-Swiss-User-Group/) - Switzerland
-* [Toulouse Kotlin User Group](https://www.meetup.com/fr-FR/Toulouse-Kotlin-User-Group/) - France
+* [Taganrog Kotlin User Group](https://vk.com/kotlintgn) - Russia
 * [Utrecht Kotlin User Group](https://www.meetup.com/meetup-group-YgJEOzCn/) - Netherlands
 * [Uzhgorod Kotlin User Group](https://www.facebook.com/groups/135578123824203/) - Ukraine
 * [Vienna Kotlin](https://www.meetup.com/Kotlin-Vienna/) - Austria
-* [Wroclaw Kotlin](https://www.meetup.com/pl-PL/Kotlin-Wroclaw) - Poland
 * [Warsaw Kotlin](https://www.meetup.com/Kotlin-Warsaw/) - Poland
-* [Yorkshire Kotlin Meetup](http://www.meetup.com/Kotlin-Yorkshire-Meetup-Group/) - United Kingdom
 
 ### <a name="kotlin-user-groups-asia"></a>Asia <sup>[Back ⇈](#kotlin-user-groups-asia-subcategory)</sup>
 * [Ahmedabad Kotlin User Group](https://www.meetup.com/KotlinAhmedabad/) - India
 * [Allahabad Kotlin User Group](https://www.facebook.com/Kotlin-Allahabad-User-Group-967463300076405/) - India
+* [Astana Java & Kotlin User Group](https://community-z.com/communities/astana-jkug) - Kazakhstan
 * [Azerbaijan Kotlin User Group](https://www.facebook.com/groups/395337754167951/) - Azerbaijan
 * [Bangladesh Kotlin User Group](https://www.facebook.com/KotlinBangladesh/) - Bangladesh
+* [Batam Kotlin User Group](https://t.me/KotlinDevBatam) - Indonesia
 * [Bengaluru Kotlin User Group](https://www.facebook.com/KotlinBengaluru/) - India
 * [Bengaluru Kotlin 'BlrKotlin' Meetup ](https://www.meetup.com/BlrKotlin/) - India
 * [Beijing Kotlin User Group](http://www.kotliner.cn/) - China
 * [Bhopal Kotlin User Group](https://www.facebook.com/kotlinbpl/) - India
 * [Bhubaneswar Kotlin User Group](https://www.facebook.com/groups/1961143800818624/) - India
-* [Chengdu Kotlin User Group](https://www.kotliner.cn/chengdu/) - China
+* [Cirebon Kotlin User Group](https://t.me/kotlin_crb) - Indonesia
 * [Coimbatore Kotlin User Group](https://facebook.com/kotlincbe/) - India
 * [Cambodia Kotlin User Group](https://www.facebook.com/groups/kotlinphnompenh) - Cambodia
 * [Dubai Kotlin User Group](https://www.facebook.com/kotlindubai/) - United Arab Emirates
+* [Jordan Kotlin User Group](https://www.facebook.com/KotlinJO/) - Jordan
 * [Hefei Kotlin User Group](http://weibo.com/kotlinhfug) - China
-* [Hyderabad Kotlin User Group](https://www.facebook.com/KotlinHyd/) - India
+* [Ho Chi Minh Kotlin User Group](https://www.facebook.com/kughcmc/) - Vietnam
+* [Hong Kong Kotlin User Group](https://www.facebook.com/KotlinHK) - China
+* [Hyderabad Kotlin User Group](https://www.meetup.com/KotlinHyderabad/) - India
 * [Indonesia Kotlin User Group](https://www.facebook.com/groups/395469687469099/) - Indonesia
 * [Indore Kotlin User Group](https://www.meetup.com/kotlinindore/) - India
 * [Israel Kotlin User Group](https://www.facebook.com/groups/107080706530829/) - Israel
@@ -780,15 +780,16 @@ Here awesome badge for your project:
 * [Japan Kotlin User Group](https://kotlin.connpass.com/) - Japan
 * [Karachi Kotlin User Group](https://www.facebook.com/kotlinkarachi/) - Pakistan
 * [Kathmandu Kotlin User Group](https://www.facebook.com/groups/100333660782830/) - Nepal
+* [Khabarovsk Kotlin User Group](https://devdv.ru/projects/kug) - Russia
 * [Kolkata Kotlin User Group](https://www.meetup.com/Kotlin-Kolkata-UG/) - India
-* [Korean Kotlin User Group](http://kotlin.kr/) - Korea
+* [Korean Kotlin User Group](http://kotlin.kr/) - South Korea
 * [Kozhikode Kotlin User Group](https://www.facebook.com/kotlinusergroup/) - India
-* [Mumbai Kotlin User Group](https://www.facebook.com/kotlinmumbai/) - India
-* [Mumbai Kotlin for Android](https://www.meetup.com/Kotline-for-Android/) - India
+* [Mumbai Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Mumbai/) - India
 * [Myanmar Kotlin User Group](https://www.facebook.com/groups/kotlinmyanmarusergroup/about/) - Myanmar
 * [Nepal Kotlin User Group](https://www.facebook.com/groups/dnkotlin/) - Nepal
-* [New Delhi Kotlin User Group](https://www.facebook.com/kotlinNewDelhi/) - India
+* [New Delhi Kotlin User Group](https://www.meetup.com/KotlinDelhi/) - India
 * [Pakistan KotlinUser Group](https://www.facebook.com/groups/565405337181251/) - Pakistan
+* [Palestine Kotlin User Group](https://www.facebook.com/groups/592717964582711/) - State of Palestine
 * [Philippines Kotlin](https://www.facebook.com/groups/642901202586581/) - Philippines
 * [Pune Kotlin User Group](https://www.facebook.com/groups/punekotlin) - India
 * [Saudi Arabia Kotlin User Group](https://www.facebook.com/KotlinArabia) - Saudi Arabia
@@ -796,33 +797,36 @@ Here awesome badge for your project:
 * [Singapore Kotlin User Group](https://www.meetup.com/Singapore-Kotlin-User-group/) - Singapore
 * [Sri Lanka Kotlin User Group](https://www.facebook.com/KotlinSrilanka/) - Sri Lanka
 * [Syria Kotlin User Group](https://www.facebook.com/KotlinSyria/) - Syria
-* [Sultanpur KNIT Kotlin User Group](https://www.facebook.com/KotlinKnit/) - India
+* [Surat Kotlin User Group](https://web.facebook.com/kotlinsurat) - India
 * [Taiwan Kotlin User Group](https://wetogether.co/kotlin-tw) - Taiwan
 * [Tel Aviv Kotlin User Group](https://www.meetup.com/KotlinTLV/) - Israel
 * [Thailand Kotlin Developers](https://www.facebook.com/groups/872547279487598/) - Thailand
 * [Turkey Kotlin User Group](http://kotlinveandroid.com/) - Turkey
 * [Vellore Kotlin User Group](https://www.facebook.com/kotlinvellore) - India
-* [Vietnam Kotlin User Group](https://vnkotlin.com) - Vietnam
+* [Vietnam Kotlin User Group (online community)](https://vnkotlin.com) - Vietnam
 * [Vijayawada Kotlin User Group](https://www.facebook.com/KotlinVijayawada/) - India
 
 ### <a name="kotlin-user-groups-north-america"></a>North America <sup>[Back ⇈](#kotlin-user-groups-north-america-subcategory)</sup>
 * [Albuquerque Kotlin User Group](https://www.meetup.com/Kotlin-ABQ/) - USA
-* [Bay Area Kotlin User Group](http://www.meetup.com/Bay-Area-Kotlin-User-Group/) - USA
+* [Austin Kotlin User Group](https://www.meetup.com/Austin-Kotlin-Meetup/) - USA
 * [Brooklyn (NY) Kotlin User Group](https://www.meetup.com/Brooklyn-Kotlin/) - USA
 * [Cambridge Kotlin Office Hours](https://www.meetup.com/kotlin-office-hours/) - USA
 * [Chicago Kotlin Users Group](http://www.meetup.com/Chicago-Kotlin/) - USA
 * [Cincinnati Kotlin User Group](https://www.meetup.com/Cincinnati-Kotlin/) - USA
-* [Columbus Kotlin User Group](https://www.meetup.com/Columbus-Kotlin-User-Group/) - USA
 * [Dallas, Kotlin DFW](https://www.meetup.com/Kotlin-DFW/) - USA
 * [Guadalajara Kotlin User Group](https://www.meetup.com/es/Kotlin-User-Group-GDL/) - Mexico
 * [Guatemala Kotlin Meetup](https://www.meetup.com/Guatemala-Kotlin-Meetup/) - Guatemala
+* [Houston Kotlin User Group](https://www.hccug.org/) - USA
+* [Kansas City User Group](https://www.meetup.com/Kansas-City-Kotlin-User-Group/) - USA
 * [Mexico, CDMX Kotlin User Group](https://www.meetup.com/es-ES/Kotlin-Nights-CDMX/) - Mexico
 * [Mérida Kotlin User Group](https://www.meetup.com/Merida-Kotlin-User-Group/) - Mexico
 * [New England User Group](https://www.meetup.com/New-England-Kotlin-Users-Group/) - USA
 * [New York Kotlin Meetup](http://www.meetup.com/New-York-Kotlin-Meetup/) - USA
 * [Norfolk Kotlin User Group](mailto:robert.chrzanowski@gmail.com) - USA
-* [Orange County Kotlin Meetup](https://www.meetup.com/oc-kotlin-meetup/) - USA
+* [Irvine Kotlin User Group "OC Kotlin Krew"](https://www.meetup.com/OCKotlinKrew/) - USA
+* [Portland Kotlin User Group](https://www.meetup.com/Kotlin-Portland-User-Group/) - USA
 * [San Diego Kotlin User Group](https://www.meetup.com/sd-kotlin/) - USA
+* [San Francisco Kotlin Meetup](https://www.meetup.com/San-Francisco-Kotlin-Meetup/) - USA
 * [Santa Cruz Kotlin User Group](https://www.meetup.com/Santa-Cruz-Kotlin-User-Group/events/245895831/) - USA
 * [South Florida Kotlin User Group](https://www.meetup.com/Kotlin-South-Florida-Users-Group/) - USA
 * [Toronto Kotlin](https://www.meetup.com/Kotlin-Toronto/events/235740293/) - Canada
@@ -830,50 +834,69 @@ Here awesome badge for your project:
 * [Utah Kotlin](https://www.meetup.com/Kotlin-Utah/) - USA
 * [Vancouver Kotlin Meetup](https://www.meetup.com/VancouverKotlin/) - Canada
 * [Washington DC Kotlin User Group](https://www.meetup.com/DCKotlin/) - USA
+* [Waterloo Kotlin P2P](https://www.meetup.com/Kotlin-Waterloo-P2P/events/) - Canada
 * [West Florida Kotlin User Group](https://www.facebook.com/groups/KotlnWestFlorida) - USA
 
 ### <a name="kotlin-user-groups-south-america"></a>South America <sup>[Back ⇈](#kotlin-user-groups-south-america-subcategory)</sup>
+* [Asunción Kotlin User Group](https://kotlin-user-group-asuncion-py.github.io/) - Paraguay
 * [Brasil Kotlin User Group](https://groups.google.com/forum/#!forum/kotlin-brasil) - Brazil
 * [Buenos Aires Desarrollo en Android con Kotlin](https://www.meetup.com/Desarrollo-en-Android-con-Kotlin/) - Argentina
 * [Cascavel Kotlin Meetup](https://www.meetup.com/Kotlin-Meetup-Cascavel/) - Brazil
 * [Chile Kotlin User Group](http://www.facebook.com/kotlinchile) - Chile
 * [Cochabamba Kotlin User Group](https://www.facebook.com/kotlincocha/) - Bolivia
-* [Curitiba Kotlin User Group](https://www.meetup.com/Kotlin-Curitiba/) - Brazil
-* [El Alto Kotlin User Group](https://www.meetup.com/es/Kotlin-El-Alto/?_cookie-check=x7g06koKCyQaUPnm) - Bolivia
+* [Curitiba CWB Kotlin User Group](https://www.meetup.com/KotlinCWB/) - Brazil
+* [El Alto Kotlin User Group](https://m.facebook.com/KotlinElAlto/) - Bolivia
 * [La Paz Kotlin User Group](https://www.facebook.com/KotlinLaPaz/) - Bolivia
 * [Lima Kotlin User Group](https://www.facebook.com/groups/limakotlin/) - Peru
 * [Peru Kotlin User Group](https://www.facebook.com/groups/1540580306247047/) - Peru
+* [Porto Alegre Kotlin User Group](https://www.meetup.com/Kotlin-RS/) - Brazil
+* [Santiago Kotlin User Group](https://www.facebook.com/kotlinsantiago/) - Chile
 * [Sao Paulo Kotlin Meetup](https://www.meetup.com/kotlin-meetup-sp/) - Brazil
 * [Rio de Janeiro](https://www.meetup.com/Kotlin-Rio/) - Brazil
 
 ### <a name="kotlin-user-groups-australia-oceania"></a>Australia/Oceania <sup>[Back ⇈](#kotlin-user-groups-australia-oceania-subcategory)</sup>
 * [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
-* [Sydney Kotlin User Group](https://sydkotlin.space/) - Australia
+* [Melbourne Kotlin User Group](https://www.meetup.com/Melbourne-Kotlin-Meetup/) - Australia
+* [Sydney Kotlin User Group](https://sydspace.org/kotlin/) - Australia
 * [Wellington Kotlin User Group](https://www.meetup.com/Wellington-kt/) - New Zealand
 
 ### <a name="kotlin-user-groups-africa"></a>Africa <sup>[Back ⇈](#kotlin-user-groups-africa-subcategory)</sup>
 * [Abidjan Kotlin User Group](https://www.facebook.com/groups/778398068995641/) - Cote d'Ivoire
 * [Abuja Kotlin User Group](https://www.meetup.com/Kotlin-Abuja-User-Group-Nigeria/) - Nigeria
-* [Agadir Kotlin User Group](https://www.meetup.com/Agadir-Kotlin-User-Group/) - Morocco
+* [Accra Ghana Kotlin User Group](http://groupspaces.com/AccraGhanaKotlinUserGroup/) - Ghana
 * [Ado-Ekiti Kotlin User Group](https://web.facebook.com/groups/1598555973529998/?ref=group_header) - Nigeria
+* [Agadir Kotlin User Group](https://www.meetup.com/Agadir-Kotlin-User-Group/) - Morocco
+* [Algeria Kotlin User Group](https://web.facebook.com/groups/383147662448461/) - Algeria
 * [Angola Kotlin User Group](https://www.facebook.com/groups/405177603231134/about/) - Angola
+* [Bauchi Kotlin User Group](https://www.facebook.com/groups/kotlinbauchi/) - Nigeria
 * [Beira Kotlin User Group](https://www.facebook.com/groups/470398203308975/) - Mozambique
+* [Benin Kotlin User Group](https://www.meetup.com/Kotlin-Benin/) - Nigeria
 * [Brazza Kotlin User Group](https://www.facebook.com/groups/KotlinBrazza/) - Congo
 * [Cairo Kotlin User Group](https://www.facebook.com/Kotlin.Cairo/) - Egypt
 * [Cotonou Kotlin User Group](https://www.facebook.com/kotlinCotonou/) - Benin
 * [Egypt Kotlin](https://www.facebook.com/kotlinegypt/) - Egypt
-* [Fayoum Kotlin User Group](https://www.facebook.com/kdgfayoum/) - Egypt
+* [Enugu Kotlin User Group](https://kotlin-enuguusergroup.slack.com/) - Nigeria
 * [Johannesburg Kotlin User Group](https://www.meetup.com/Kotlin-Software-Development-Meetup/) - South Africa
+* [Kano Kotlin User Group](https://www.meetup.com/Kotlin-Kano-User-Group-Nigeria/) - Nigeria
+* [Katsina Kotlin User Group](https://www.downtomeet.com/Katsina-Kotlin-Group) - Nigeria
 * [Lagos Kotlin User Group](https://www.meetup.com/Lagos-Kotlin-Meetup/) - Nigeria
+* [Lapai Kotlin User Group](https://www.meetup.com/Kotlin-Lapai-User-Group/) - Nigeria
 * [Lome Kotlin User Group](https://www.facebook.com/groups/1825278611119862/) - Togo
+* [Lubumbashi Kotlin User Group](https://www.meetup.com/Lubumbashi-Kotlin-User-Group/) - Congo
+* [Minna Kotlin User Group](https://www.meetup.com/Kotlin-Minna-User-Group-Nigeria/) - Nigeria
 * [Minya Kotlin User Group](https://www.facebook.com/kotlinminya/) - Egypt
 * [Nairobi Kotlin User Group](https://www.meetup.com/KotlinKenya/) - Kenya
 * [Noun Kotlin User Group](https://www.meetup.com/Noun-Kotlin-User-Group/) - Cameroon
 * [Ondo Kotlin User Group](https://www.meetup.com/Kotlin-Ondo-User-Group/) - Nigeria
 * [Ouagadougou Kotlin User Group](https://www.facebook.com/groups/649651491892414/) - Burkina Faso
 * [Rabat Kotlin User Group](https://www.meetup.com/Rabat-Kotlin-User-Group/) - Morocco
+* [Rivers Kotlin User Group](https://www.facebook.com/groups/2178453949151460/) - Nigeria
 * [Tunisia Kotlin User Group](https://www.facebook.com/groups/1501353116571104) - Tunisia
 * [Uganda Kotlin User Group](https://www.facebook.com/Uganda-Kotlin-User-Group-613707548753658/) - Uganda
+* [Warri Kotlin User Group](https://www.meetup.com/kotlin-warri/) - Nigeria
+* [Yola Kotlin User Group](https://www.facebook.com/Kotlin-Yola-User-Group-104198534358013/) - Nigeria
+
+
 
 ---
 
