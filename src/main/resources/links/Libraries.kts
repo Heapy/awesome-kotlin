@@ -923,6 +923,12 @@ category("Libraries/Frameworks") {
       tags = Tags["check style", "checkstyle"]
     }
     link {
+      name = "mkohm/detekt-hint"
+      desc = "Detection of design principle violations as a plugin to detekt."
+      href = "https://github.com/mkohm/detekt-hint"
+      type = github
+    }
+    link {
       name = "cypressious/KotlinW"
       desc = "A small wrapper for the Kotlin compiler that can be used to execute .kts scripts."
       href = "https://github.com/cypressious/KotlinW"
@@ -1186,6 +1192,12 @@ category("Libraries/Frameworks") {
       type = github
     }
     link {
+      name = "DragonKnightOfBreeze/breeze-framework"
+      desc = "Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks."
+      href = "https://github.com/DragonKnightOfBreeze/breeze-framework"
+      type = github
+    }
+    link {
       name = "kohesive/solr-undertow"
       desc = "Solr Standalone Tiny and High performant server."
       href = "https://github.com/kohesive/solr-undertow"
@@ -1242,18 +1254,17 @@ category("Libraries/Frameworks") {
       tags = Tags["bytecode"]
     }
     link {
-      name = "holgerbrandl/krangl"
-      desc = "krangl is a {K}otlin library for data w{rangl}ing"
-      href = "https://github.com/holgerbrandl/krangl"
-      type = github
-      tags = Tags["tabular data", "data processing"]
-    }
-    link {
       name = "debop/koda-time"
       desc = "Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)"
       href = "https://github.com/debop/koda-time"
       type = github
       tags = Tags["joda-time", "jsr-310"]
+    }
+    link {
+      name = "saschpe/log4k"
+      desc = "Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments."
+      href = "https://github.com/saschpe/log4k"
+      type = github
     }
     link {
       name = "MicroUtils/kotlin-logging"
@@ -1310,6 +1321,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/czyzby/kotlin-times"
       type = github
       tags = Tags["extensions", "utility"]
+    }
+    link {
+      name = "doyaaaaaken/kotlin-csv"
+      desc = "A pure kotlin simple csv reader/writer."
+      href = "https://github.com/doyaaaaaken/kotlin-csv"
+      type = github
     }
     link {
       name = "phxql/aleksa"
@@ -1449,6 +1466,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/charleskorn/kaml"
       type = github
       tags = Tags["serialization", "yaml"]
+    }
+    link {
+      name = "jershell/kbson"
+      desc = "Bson support for kotlinx.serialization"
+      href = "https://github.com/jershell/kbson"
+      type = github
     }
     link {
       name = "pemistahl/lingua"
