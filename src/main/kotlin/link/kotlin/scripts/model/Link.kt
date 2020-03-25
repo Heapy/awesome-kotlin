@@ -12,5 +12,6 @@ data class Link(
     val tags: Array<String> = arrayOf(),
     val whitelisted: Boolean = false,
     var star: Int? = null,
-    var update: String? = null
+    var update: String? = null,
+    var archived: Boolean = false
 )

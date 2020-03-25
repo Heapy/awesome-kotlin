@@ -1,4 +1,6 @@
 import * as React from "react";
+import {Link} from "../model";
+import {classes} from "typestyle";
 
 const styles = require("./listitem.less");
 
@@ -6,15 +8,15 @@ function split(str: string): string {
   return str.replace("/", "/​"); // replace "/" with "/ and https://en.wikipedia.org/wiki/Zero-width_space"
 }
 
-export function Listitem({link}) {
+export function Listitem({link}: ListitemProps) {
   return (
-    <li className={styles.listitem}>
+    <li className={classes(styles.listitem, {[styles.listitem_archived]: link.archived})}>
 
       {getStars(link)}
 
       <a href={link.href}
          target="_blank"
-         title={link.name}
+         title={getTitle(link)}
          rel="nofollow noopener"
          className={styles.listitem_link}>
         {split(link.name)}
@@ -25,6 +27,18 @@ export function Listitem({link}) {
 
     </li>
   );
+}
+
+interface ListitemProps {
+  readonly link: Link;
+}
+
+function getTitle(link: Link): string {
+  if (link.archived) {
+    return `[archived] ${link.name}`
+  } else {
+    return link.name
+  }
 }
 
 function getStars(link) {

@@ -50,10 +50,12 @@ class DefaultStarsGenerator(
 
                     val stargazers_count = json["stargazers_count"]?.asInt()
                     val pushed_at = json["pushed_at"]?.asText() ?: ""
+                    val archived = json["archived"]?.asBoolean() ?: false
 
                     if (pushed_at.isNotEmpty()) {
                         link.star = stargazers_count
                         link.update = parseInstant(pushed_at).format(formatter)
+                        link.archived = archived
                     }
 
                     link
