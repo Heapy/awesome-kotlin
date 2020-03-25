@@ -1,14 +1,13 @@
 package link.kotlin.scripts
 
 interface ReadmeGenerator {
-    fun generate(): String
+    fun generate(projects: List<Category>): String
 }
 
 class DefaultReadmeGenerator(
-    private val projects: List<Category>
 ) : ReadmeGenerator {
-    override fun generate(): String {
-        return generate(projects)
+    override fun generate(projects: List<Category>): String {
+        return generateReadme(projects)
     }
 }
 
@@ -40,37 +39,36 @@ internal fun getTocSubcategoryName(name: String, namespace: String) =
 internal fun tableOfContent(links: Links): String {
     fun getSubcategories(category: Category): String {
         return category
-            .subcategories
-            .map { (_, name) ->
+            .subcategories.joinToString("\n") { (_, name) ->
                 getTocSubcategoryName(name, category.name)
             }
-            .joinToString("\n")
     }
 
-    return links
-        .map { category ->
-            "${getTocCategoryName(category.name)}\n${getSubcategories(category)}"
-        }
-        .joinToString("\n\n")
+    return links.joinToString("\n\n") { category ->
+        "${getTocCategoryName(category.name)}\n${getSubcategories(category)}"
+    }
 }
 
 internal fun getLinks(links: Links): String {
-    return links.map { category ->
-        val subcategories = category.subcategories.map { subcategory ->
-            val mdLinks = subcategory.links.map { link ->
-                val getDesc = fun(desc: String?) = if (desc.isNullOrEmpty()) "" else "- $desc"
+    return links.joinToString("\n") { category ->
+        val subcategories = category.subcategories.joinToString("\n") { subcategory ->
+            val mdLinks = subcategory.links
+                .filter { link -> !link.archived }
+                .sortedBy { link -> link.star }
+                .joinToString("\n") { link ->
+                    val getDesc = fun(desc: String?) = if (desc.isNullOrEmpty()) "" else "- $desc"
 
-                "* [${link.name}](${link.href}) ${getDesc(link.desc)}"
-            }.joinToString("\n")
+                    "* [${link.name}](${link.href}) ${getDesc(link.desc)}"
+                }
 
             "${getSubcategoryName(subcategory.name, category.name)}\n$mdLinks\n"
-        }.joinToString("\n")
+        }
 
         "${getCategoryName(category.name)}\n${subcategories}\n"
-    }.joinToString("\n")
+    }
 }
 
-internal fun generate(links: Links): String {
+internal fun generateReadme(links: Links): String {
     val template = """<!--
     This is GENERATED file, please consult 
     https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md

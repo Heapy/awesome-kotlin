@@ -18,6 +18,8 @@ import kotlin.system.exitProcess
 object Application {
     private val httpClient = createHttpClient()
     private val scriptHost = AwesomeScriptHost()
+    private val mapper = jacksonObjectMapper()
+    private val config = ApplicationConfiguration()
 
     @JvmStatic
     fun main(args: Array<String>) {
@@ -47,9 +49,17 @@ object Application {
         }
     }
 
-    private fun readme(projectLinks: Links) {
-        val readme = DefaultReadmeGenerator(projectLinks).generate()
-        write(Paths.get("./readme/README.md"), readme.toByteArray(), CREATE, TRUNCATE_EXISTING)
+    private suspend fun readme(projectLinks: Links) {
+        // Stars
+        measureAndLog("fetching stars") {
+            val stars = DefaultStarsGenerator(config, mapper, httpClient).generate(projectLinks)
+            write(Paths.get("./app/LinksWithStars.json"), stars.toByteArray(), CREATE, TRUNCATE_EXISTING)
+        }
+
+        measureAndLog("generating readme") {
+            val readme = DefaultReadmeGenerator().generate(projectLinks)
+            write(Paths.get("./readme/README.md"), readme.toByteArray(), CREATE, TRUNCATE_EXISTING)
+        }
     }
 
     private suspend fun site(projectLinks: Links, articles: Articles) {
@@ -58,9 +68,6 @@ object Application {
             if (!Files.exists(Paths.get("./dist"))) Files.createDirectory(Paths.get("./dist"))
             if (!Files.exists(Paths.get("./dist/articles"))) Files.createDirectory(Paths.get("./dist/articles"))
         }
-
-        val mapper = jacksonObjectMapper()
-        val config = ApplicationConfiguration()
 
         measureAndLog("checking links") {
             LinkChecker(httpClient).check(
@@ -78,13 +85,6 @@ object Application {
         measureAndLog("generating sitemap") {
             val sitemap = DefaultSitemapGenerator(config).generate(articles.articles())
             write(Paths.get("./dist/sitemap.xml"), sitemap.toByteArray(), CREATE, TRUNCATE_EXISTING)
-        }
-
-        // Stars
-        measureAndLog("fetching stars") {
-            val stars = DefaultStarsGenerator(config, mapper, httpClient)
-                .generate(projectLinks + articles.links())
-            write(Paths.get("./app/LinksWithStars.json"), stars.toByteArray(), CREATE, TRUNCATE_EXISTING)
         }
 
         // Pages
