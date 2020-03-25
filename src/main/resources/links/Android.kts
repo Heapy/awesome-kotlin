@@ -84,7 +84,7 @@ category("Android") {
       tags = Tags["android"]
     }
     link {
-      name = "Stateful"
+      name = "PicsArt/stateful"
       desc = "Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state."
       href = "https://github.com/PicsArt/stateful"
       type = github

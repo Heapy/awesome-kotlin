@@ -828,7 +828,7 @@ category("Libraries/Frameworks") {
       tags = Tags["orm", "postgres", "mysql", "mssql", "sqlite", "oracle"]
     }
     link {
-      name = "dizitart/potassium-nitrite"
+      name = "dizitart/nitrite-database"
       desc = "Potassium Nitrite is a kotlin extension of nitrite database, an open source nosql embedded document store with mongodb like api."
       href = "https://github.com/dizitart/nitrite-database/tree/master/potassium-nitrite"
       type = github
