@@ -930,7 +930,7 @@ category("Kotlin User Groups") {
       tags = Tags["USA"]
     }
     link {
-      name = "Irvine Kotlin User Group "OC Kotlin Krew""
+      name = """Irvine Kotlin User Group "OC Kotlin Krew""""
       desc = "USA"
       href = "https://www.meetup.com/OCKotlinKrew/"
       type = kug

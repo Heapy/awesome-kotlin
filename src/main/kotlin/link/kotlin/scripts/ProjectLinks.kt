@@ -27,7 +27,7 @@ class ProjectLinks(private val scriptHost: AwesomeScriptHost) {
         try {
             return scriptHost.eval(Paths.get("src/main/resources/links/$path").toFile())
         } catch (e: Exception) {
-            LOGGER.error("Error while processing file {}.", path, e)
+            LOGGER.error("Error while processing file {}", path, e)
             throw e
         }
     }
