@@ -631,6 +631,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("JSON") {
     link {
+      name = "Kotlin/kotlinx.serialization"
+      desc = "Kotlin multiplatform / multi-format reflectionless serialization"
+      href = "https://github.com/Kotlin/kotlinx.serialization"
+      type = github
+    }
+    link {
       name = "cbeust/klaxon"
       desc = "Lightweight library to parse JSON in Kotlin."
       href = "https://github.com/cbeust/klaxon"
@@ -847,6 +853,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vincentlauvlwj/Ktorm"
       type = github
       tags = Tags["ORM", "SQL", "DSL", "JDBC"]
+    }
+    link {
+      name = "TouK/krush"
+      desc = "Idiomatic persistence layer for Kotlin, based on Exposed. It’s based on a compile-time JPA annotation processor that generates Exposed DSL table and objects mappings from your data classes."
+      href = "https://github.com/TouK/krush"
+      type = github
     }
   }
   subcategory("Tools") {
