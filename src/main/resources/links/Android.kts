@@ -7,13 +7,6 @@ import link.kotlin.scripts.subcategory
 category("Android") {
   subcategory("Libraries") {
     link {
-      name = "Kotlin/anko"
-      desc = "Pleasant Android application development."
-      href = "https://github.com/Kotlin/anko"
-      type = github
-      tags = Tags["android"]
-    }
-    link {
       name = "JakeWharton/kotterknife"
       desc = "View injection library for Android."
       href = "https://github.com/JakeWharton/kotterknife"

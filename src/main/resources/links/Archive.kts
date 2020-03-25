@@ -95,4 +95,13 @@ category("Archive") {
       tags = Tags["Spain"]
     }
   }
+  subcategory("Android") {
+    link {
+      name = "Kotlin/anko"
+      desc = "Pleasant Android application development."
+      href = "https://github.com/Kotlin/anko"
+      type = github
+      tags = Tags["android"]
+    }
+  }
 }
