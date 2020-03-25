@@ -1327,6 +1327,7 @@ category("Libraries/Frameworks") {
       desc = "A pure kotlin simple csv reader/writer."
       href = "https://github.com/doyaaaaaken/kotlin-csv"
       type = github
+      tags = Tags["csv", "kotlin multiplatform"]
     }
     link {
       name = "phxql/aleksa"
