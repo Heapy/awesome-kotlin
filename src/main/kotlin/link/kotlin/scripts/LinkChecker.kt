@@ -15,9 +15,7 @@ class LinkChecker(
         links.map { link ->
             GlobalScope.async {
                 try {
-                    val response = withTimeout(1000) {
-                        httpClient.execute(HttpHead(link))
-                    }
+                    val response = httpClient.execute(HttpHead(link))
 
                     if (response.statusLine.statusCode != 200) {
                         LOGGER.error("$link: Response code: ${response.statusLine.statusCode}.")

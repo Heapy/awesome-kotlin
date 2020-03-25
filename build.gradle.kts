@@ -41,13 +41,16 @@ dependencies {
     implementation("org.jsoup:jsoup:1.13.1")
     implementation("by.heap.remark:remark-kotlin:1.2.0")
 
-    implementation("org.jetbrains.kotlin:kotlin-script-util:$kotlinVersion")
-    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlinVersion")
-    implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:$kotlinVersion")
+    implementation(kotlin("scripting-common"))
+    implementation(kotlin("scripting-jvm"))
+    implementation(kotlin("scripting-jvm-host-embeddable"))
+
     implementation(commonmark)
     implementation(commonmarkExtGfmTables)
 
     implementation(httpClient)
+    implementation("org.apache.httpcomponents:httpcore:4.4.13")
+    implementation("org.apache.httpcomponents:httpcore-nio:4.4.13")
 
     testImplementation(mockk)
     testImplementation(junit)

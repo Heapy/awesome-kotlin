@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
-import kotlinx.coroutines.withTimeout
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
@@ -19,13 +18,11 @@ class DefaultStarsGenerator(
     private val httpClient: HttpClient
 ) {
     suspend fun generate(links: Links): String {
-        val deferredCategories = links.map { category ->
-            GlobalScope.async { processCategory(category) }
+        val categories = links.map { category ->
+            processCategory(category)
         }
 
-        val mapped = deferredCategories.map { it.await() }
-
-        return mapper.writeValueAsString(mapped)
+        return mapper.writeValueAsString(categories)
     }
 
     private suspend fun processCategory(category: Category): Category {
@@ -87,19 +84,14 @@ private suspend fun getGithubStarCount(client: HttpClient, name: String, user: S
     }
 
     val request = HttpGet("https://api.github.com/repos/$name").also {
-        it.addHeader("User-Agent", "Awesome-Kotlin-List")
         it.addHeader("Authorization", "token $pass")
     }
 
-    return withTimeout(1000) {
-        client.execute(request).body()
-    }
+    return client.execute(request).body()
 }
 
 private suspend fun getBitbucketStarCount(client: HttpClient, name: String): String {
-    val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers").also {
-        it.addHeader("User-Agent", "Awesome-Kotlin-List")
-    }
+    val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers")
 
     return client.execute(request).body()
 }

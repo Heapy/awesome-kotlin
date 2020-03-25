@@ -26,10 +26,6 @@ category("Links") {
       href = "http://slack.kotlinlang.org/"
     }
     link {
-      name = "Public chat archive of Kotlin's Slack"
-      href = "http://kotlinlang.slackarchive.io/"
-    }
-    link {
       name = "Try Kotlin!"
       href = "http://try.kotlinlang.org/"
     }

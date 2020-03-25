@@ -1,8 +1,7 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.utils.ScriptCompiler
+import link.kotlin.scripts.scripting.AwesomeScriptHost
 import link.kotlin.scripts.utils.logger
-import java.nio.file.Files
 import java.nio.file.Paths
 
 private val files = listOf(
@@ -15,7 +14,7 @@ private val files = listOf(
     "UserGroups.kts"
 )
 
-class ProjectLinks(private val compiler: ScriptCompiler) {
+class ProjectLinks(private val scriptHost: AwesomeScriptHost) {
     private val _links by lazy {
         files.map(this::linksFromFile)
     }
@@ -26,7 +25,7 @@ class ProjectLinks(private val compiler: ScriptCompiler) {
 
     private fun linksFromFile(path: String): Category {
         try {
-            return compiler.execute(Files.newInputStream(Paths.get("src/main/resources/links/$path")))
+            return scriptHost.eval(Paths.get("src/main/resources/links/$path").toFile())
         } catch (e: Exception) {
             LOGGER.error("Error while processing file {}.", path, e)
             throw e

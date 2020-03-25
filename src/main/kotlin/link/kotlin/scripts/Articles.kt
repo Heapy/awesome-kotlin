@@ -4,7 +4,7 @@ import link.kotlin.scripts.ArticleFeature.highlightjs
 import link.kotlin.scripts.model.LanguageCodes
 import link.kotlin.scripts.model.LanguageCodes.EN
 import link.kotlin.scripts.model.Link
-import link.kotlin.scripts.utils.ScriptCompiler
+import link.kotlin.scripts.scripting.AwesomeScriptHost
 import link.kotlin.scripts.utils.logger
 import org.commonmark.ext.gfm.tables.TablesExtension
 import org.commonmark.parser.Parser
@@ -55,14 +55,14 @@ data class Enclosure(
  * @since 0.1
  */
 class Articles(
-    private val compiler: ScriptCompiler
+    private val scriptHost: AwesomeScriptHost
 ) {
     private val _articles by lazy {
         this
             .scan(Paths.get("articles"))
             .asSequence()
             .onEach { validateArticleName(it.fileName.toString()) }
-            .map { toArticle(it, compiler, LOGGER) }
+            .map { toArticle(it, scriptHost, LOGGER) }
             .sortedWith(Comparator { a, b -> b.date.compareTo(a.date) })
             .toList()
     }
@@ -161,8 +161,8 @@ var extensions = listOf(TablesExtension.create())
 private val parser = Parser.builder().extensions(extensions).build()
 private val renderer = HtmlRenderer.builder().extensions(extensions).build()
 
-private fun readFile(path: Path, compiler: ScriptCompiler): Article {
-    return compiler.execute<Article>(Files.newInputStream(path))
+private fun readFile(path: Path, scriptHost: AwesomeScriptHost): Article {
+    return scriptHost.eval(path.toFile())
 }
 
 private fun getFileName(path: Path): String {
@@ -190,9 +190,9 @@ private fun getFileName(path: Path): String {
     return "$escaped.html"
 }
 
-private fun toArticle(path: Path, compiler: ScriptCompiler, logger: Logger): Article {
+private fun toArticle(path: Path, scriptHost: AwesomeScriptHost, logger: Logger): Article {
     logger.info("Processing script: $path.")
-    val article = readFile(path, compiler)
+    val article = readFile(path, scriptHost)
     val document = parser.parse(article.body)
     val html = renderer.render(document)
 

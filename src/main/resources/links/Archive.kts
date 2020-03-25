@@ -9,6 +9,12 @@ import link.kotlin.scripts.subcategory
  * Instead of deleting links (since they become 404, etc) move them here.
  */
 category("Archive") {
+  subcategory("Resources") {
+    link {
+      name = "Public chat archive of Kotlin's Slack"
+      href = "http://kotlinlang.slackarchive.io/"
+    }
+  }
   subcategory("Libraries/Frameworks") {
     link {
       name = "Kategory/Kategory"

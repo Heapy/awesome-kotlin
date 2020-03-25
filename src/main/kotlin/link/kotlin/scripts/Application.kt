@@ -3,9 +3,9 @@ package link.kotlin.scripts
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.model.ApplicationConfiguration
+import link.kotlin.scripts.scripting.AwesomeScriptHost
 import link.kotlin.scripts.utils.CopyTask
 import link.kotlin.scripts.utils.createHttpClient
-import link.kotlin.scripts.utils.createScriptCompiler
 import link.kotlin.scripts.utils.logger
 import link.kotlin.scripts.utils.measureAndLog
 import java.nio.file.Files
@@ -17,20 +17,22 @@ import kotlin.system.exitProcess
 
 object Application {
     private val httpClient = createHttpClient()
-    private val scriptCompiler = createScriptCompiler()
+    private val scriptHost = AwesomeScriptHost()
 
     @JvmStatic
     fun main(args: Array<String>) {
         try {
             runBlocking {
-                LOGGER.info("Start getting project links and articles")
-                val projectLinks = ProjectLinks(scriptCompiler).getLinks()
-                LOGGER.info("Finish getting project links and articles")
+                val projectLinks = measureAndLog("links") {
+                    ProjectLinks(scriptHost).getLinks()
+                }
 
                 when (args.getOrNull(0)) {
                     "true" -> readme(projectLinks)
                     else -> {
-                        val articles = Articles(scriptCompiler)
+                        val articles = measureAndLog("articles") {
+                            Articles(scriptHost)
+                        }
                         site(projectLinks, articles)
                         readme(projectLinks)
                     }

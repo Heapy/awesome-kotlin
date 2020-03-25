@@ -7,6 +7,7 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import org.apache.http.HttpResponse
 import org.apache.http.client.methods.HttpUriRequest
 import org.apache.http.concurrent.FutureCallback
+import org.apache.http.impl.cookie.IgnoreSpecProvider
 import org.apache.http.impl.nio.client.HttpAsyncClients
 import org.apache.http.nio.client.HttpAsyncClient
 import kotlin.concurrent.thread
@@ -50,9 +51,13 @@ private suspend fun HttpAsyncClient.execute(request: HttpUriRequest): HttpRespon
 }
 
 fun createHttpClient(): HttpClient {
+    val UA = "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
+
     val asyncClient = HttpAsyncClients.custom()
-        .setMaxConnPerRoute(1000)
-        .setMaxConnTotal(1000)
+        .setUserAgent(UA)
+        .setMaxConnPerRoute(10)
+        .setMaxConnTotal(100)
+        .setDefaultCookieSpecRegistry { IgnoreSpecProvider() }
         .build()
 
     Runtime.getRuntime().addShutdownHook(thread(start = false) {
