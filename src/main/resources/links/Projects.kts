@@ -489,6 +489,7 @@ category("Projects") {
       name = "wuseal/JsonToKotlinClass"
       desc = "Plugin for IntelliJ IDEs to generate Kotlin data class code from JSON text"
       href = "https://github.com/wuseal/JsonToKotlinClass"
+      type = github
       tags = Tags["json", "idea"]
     }
   }
