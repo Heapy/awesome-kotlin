@@ -1512,6 +1512,24 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["Data class", "toString"]
     }
+    link {
+      name = "Rasalexman/KDispatcher"
+      desc = "Simple and light-weight event dispatcher for Kotlin"
+      href = "https://github.com/Rasalexman/KDispatcher"
+      type = github
+    }
+    link {
+      name = "dotCipher/kase-format"
+      desc = "String case conversion and detection library"
+      href = "https://github.com/dotCipher/kase-format"
+      type = github
+    }
+    link {
+      name = "vittee/kformula"
+      desc = "Mathematical expression engine written in Kotlin, running on JVM."
+      href = "https://github.com/vittee/kformula"
+      type = github
+    }
   }
   subcategory("Raspberry Pi") {
     link {
@@ -1529,6 +1547,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/ionspin/kotlin-multiplatform-bignum"
       type = github
       tags = Tags["multiplatform", "bignum", "biginteger", "bigdecimal", "arbitrary-precision"]
+    }
+    link {
+      name = "davidepianca98/KMQTT"
+      desc = "MQTT Broker library/executables for Kotlin multiplatform."
+      href = "https://github.com/davidepianca98/KMQTT"
+      type = github
     }
   }
   subcategory("Extensions") {
@@ -1603,6 +1627,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/uchuhimo/konf"
       type = github
       tags = Tags["configuration"]
+    }
+    link {
+      name = "sksamuel/hoplite"
+      desc = "A library for loading configuration files into typesafe Kotlin data classes in a boilerplate-free way"
+      href = "https://github.com/sksamuel/hoplite"
+      type = github
     }
   }
   subcategory("Graphics") {
