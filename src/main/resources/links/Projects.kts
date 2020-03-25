@@ -485,5 +485,11 @@ category("Projects") {
       type = github
       tags = Tags["android", "examples", "viewmodel", "kotlin" , "livedata"]
     }
+    link {
+      name = "wuseal/JsonToKotlinClass"
+      desc = "Plugin for IntelliJ IDEs to generate Kotlin data class code from JSON text"
+      href = "https://github.com/wuseal/JsonToKotlinClass"
+      tags = Tags["json", "idea"]
+    }
   }
 }
