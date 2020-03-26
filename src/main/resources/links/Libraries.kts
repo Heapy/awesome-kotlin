@@ -910,9 +910,9 @@ category("Libraries/Frameworks") {
       tags = Tags["scripting", "kts"]
     }
     link {
-      name = "shyiko/ktlint"
-      desc = "Kotlin linter."
-      href = "https://github.com/shyiko/ktlint"
+      name = "pinterest/ktlint"
+      desc = "An anti-bikeshedding Kotlin linter with built-in formatter."
+      href = "https://github.com/pinterest/ktlint"
       type = github
       tags = Tags["style", "linter"]
     }

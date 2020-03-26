@@ -1,0 +1,1040 @@
+https://jeroenmols.com/blog/2018/10/05/kotlinconf18/
+https://github.com/square/sqldelight
+https://www.androidcentral.com/android-developers-love-kotlin
+https://habr.com/post/425527/
+https://proandroiddev.com/we-built-our-ios-and-android-apps-in-java-kotlin-one-year-later-b0df37274b75
+https://github.com/SchibstedSpain/Protein
+https://kotlinexpertise.com/kotlin-coroutines-guide/
+https://codelabs.developers.google.com/codelabs/kotlin-coroutines/index.html?index=..%2F..%2Findex#0
+https://youtu.be/jT2gHPQ4Z1Q
+http://akarnokd.blogspot.com/2017/09/rewriting-rxjava-with-kotlin-coroutines.html
+https://itnext.io/authentication-with-aws-amplify-google-login-878aaf11f2d4
+https://blog.jetbrains.com/idea/2018/10/spring-kotlin-references-in-value-annotation/
+https://habr.com/company/JetBrains/blog/425697/
+https://www.youtube.com/playlist?list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr
+https://kotlinconf.com/
+https://github.com/naXa777/spring-cloud-example
+https://blog.jetbrains.com/kotlin/2018/10/kotlinconf-2018-announcements/
+https://www.codacy.com/blog/shortcuts-to-learning-kotlin/
+https://play.kotlinlang.org/
+https://medium.com/@darych90/kotlin-spring-boot-mockk-6d1c1a6463ac
+https://habr.com/post/425609/
+https://todd.ginsberg.com/post/exhaustive-when/
+https://www.youtube.com/watch?v=MVdhRfe7Ww8&list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr
+https://github.com/rozkminiacz/KotlinUnitTesting
+https://blog.kotlin-academy.com/gradle-kotlin-the-missing-piece-of-the-puzzle-7528a85f0d2c
+https://github.com/jmfayard/gradle-kotlin-dsl-libs
+https://twitter.com/kot_academy/status/1049933832605057024
+https://codinginfinite.com/exploring-kotlin-coroutine-continuation/
+https://www.i-programmer.info/news/98-languages/12199-kotlin-gains-a-foundation-and-a-portal.html
+https://habr.com/company/funcorp/blog/425943/
+https://github.com/ratosh/pirarucu
+https://proandroiddev.com/writing-an-android-nes-emulator-performance-optimizations-86c2907e1c6
+https://github.com/JetBrains/kotlin/releases/tag/v1.3-rc3
+https://www.netguru.co/codestories/kotlinconf-2018-summary
+https://typealias.com/guides/inline-classes-and-autoboxing/
+https://blog.octo.com/en/kotlinconf-2018-recap/
+https://developers.google.com/programs/community/stories/kotlin-budapest
+https://github.com/rozkminiacz/KotlinUnitTesting
+https://medium.com/@vince.delricco/writing-kotlin-dsls-with-nested-builder-pattern-66452476d5ef
+https://typealias.com/guides/inline-classes-and-autoboxing/
+https://github.com/gbaldeck/react-js-jvm-kotlin-multiplatform
+https://medium.com/@elizarov/futures-cancellation-and-coroutines-b5ce9c3ede3a
+https://piotrminkowski.wordpress.com/2018/10/09/kotlin-microservices-with-ktor/
+https://strikt.io/
+https://blog.kotlin-academy.com/lambda-mixup-75a60696bdce
+https://www.raywenderlich.com/7266-converting-your-ios-app-to-android-using-kotlin
+https://www.coursera.org/learn/kotlin-for-java-developers
+http://blog.robert.pankowecki.pl/2018/10/ruby-vs-kotlin-custom-comparable-classes.html
+https://www.infoq.com/articles/intro-kotlin-java-developers
+https://blog.jetbrains.com/idea/2018/10/spring-boot-endpoints-and-kotlin/
+https://itnext.io/authentication-with-aws-amplify-and-andro-3rd-party-oidc-providers-df4beaf4110d
+http://www.profesor-p.com/2018/10/11/aplicacion-crud-en-kotlin-y-springboot-2a-parte/
+https://codinginfinite.com/kotlin-coroutine-call-adapter-retrofit/
+https://android.jlelse.eu/coroutines-basic-terminologies-and-usage-b4242bd1b2a4
+http://www.informit.com/store/kotlin-from-the-ground-up-livelessons-9780135263518
+http://paper.li/amrinder_0412/1491566712?read=http%3A%2F%2Ffindnerd.com%2Flist%2Fview%2FTop-5-Reasons-to-Choose-Kotlin-for-Your-Next-Android-App%2F40105%2F
+https://blog.98elements.com/new-in-kotlin-1-3-inline-classes/
+https://www.youtube.com/watch?v=lU8kafFjUJM
+https://habr.com/post/427089/
+https://www.youtube.com/watch?v=LT6m5_LO2DQ
+https://codinginfinite.com/android-kotlin-coroutinescope-example/
+https://www.youtube.com/watch?v=tAioWlhKA90&feature=youtu.be
+https://github.com/arun0009/kotlin-ktor-exposed-sample-api
+https://blog.jetbrains.com/idea/2018/10/kotlin-jpa-and-spring-data/
+https://instabug.com/blog/instabug-sdk-android-customization-tips/
+https://medium.com/expedia-engineering/graphql-kotlin-generate-a-graphql-schema-from-kotlin-code-21d1dc2f6e27
+https://www.infoq.com/articles/intro-kotlin-java-developers
+https://zupzup.org/kotlin-webflux-example/
+https://habr.com/post/427475/
+https://hackernoon.com/deploy-a-backend-app-as-an-android-engineer-part-2-b572245a3f3e
+https://github.com/Hexworks/zircon
+https://medium.com/@kpgalligan/saner-concurrency-74b0bf8ed446?_branch_match_id=583972572600259379
+https://github.com/yelp/kotlin-android-workshop
+https://github.com/KwangIO/kwang
+https://vimeo.com/297303175
+https://medium.com/@napperley/kotlin-for-the-web-frontend-2091ae8d6256
+https://medium.com/@elye.project/kotlin-made-interface-so-much-better-bbeaa59abdd7?source=friends_link&sk=4cbfbaf637c58137815c4676e584e4bc
+https://github.com/robinchew/mvil
+https://akos.ma/books/Android_for_iOS_Devs_Kotlin_Ed_2018.html
+https://github.com/Winfooz/WinAnalytics
+https://jonnyzzz.com/blog/2018/10/29/kn-libcurl-windows/
+https://engineering.udacity.com/simplifying-ui-states-with-kotlin-sealed-classes-and-databinding-2128112d0631
+https://github.com/rewe-digital-incubator/katana
+https://medium.com/@caffeine81/why-we-need-yet-another-dependency-injection-framework-for-kotlin-android-f8162174ea4
+https://github.com/mozilla-mobile/android-components
+https://pragprog.com/book/vskotlin/programming-kotlin
+https://todd.ginsberg.com/post/kotlin-1.3-features/
+https://hackaday.com/2018/10/22/jump-into-ai-with-a-neural-network-of-your-own/
+https://blog.kotlin-academy.com/gradle-kotlin-the-missing-piece-of-the-puzzle-7528a85f0d2c
+https://habr.com/company/JetBrains/blog/428291/
+https://medium.com/@preslavrachev/kotlinconf-2018-recap-c859fac3cbb9
+https://itnext.io/authentication-with-aws-amplify-and-android-integrating-biometrics-924f36c7b9c1
+https://www.youtube.com/watch?v=Tul_Jx-0NEA
+https://jeroenmols.com/blog/2018/10/05/kotlinconf18/
+https://medium.com/@ogunsanyatoluwani/the-beginners-guide-to-kotlin-coroutines-on-android-part-1-f84d849a1a9c
+https://android-developers.googleblog.com/2018/10/kotlin-momentum-for-android-and-beyond.html
+https://medium.com/@darych90/kotlin-spring-boot-mockk-6d1c1a6463ac
+https://habr.com/post/424005/
+https://blog.jetbrains.com/kotlin/2018/10/kotlinconf-2018-announcements/
+https://kotlinlang.org/foundation/kotlin-foundation.html
+https://xakep.ru/2018/10/04/android-234/
+https://dev.by/news/kotlin
+https://habr.com/post/425027/
+https://blog.jetbrains.com/idea/2018/10/spring-and-kotlin-final-classes/
+https://medium.com/@cortinico/discovering-kotlin-contracts-3e7ed1360602
+https://habr.com/post/425077/
+https://spring.io/blog/2018/10/02/the-evolution-of-spring-fu
+https://niels.nu/blog/2018/my-move-to-kotlin.html
+https://github.com/community-graph/community-radar#connection-details
+https://github.com/Kotlin-Polytech/KotlinAsFirst2018
+https://www.kotlindevelopment.com/typical-kotlin/
+https://proandroiddev.com/kotlin-coroutines-vs-rxjava-an-initial-performance-test-68160cfc6723
+https://habr.com/company/jugru/blog/424033/
+https://www.kotlindevelopment.com/typical-kotlin/
+https://blog.documentfoundation.org/blog/2018/09/22/libreoffice-at-droidcon-vienna/
+https://blog.codecentric.de/en/2018/09/kotlin-goodies-making-a-developers-life-easier/
+https://www.youtube.com/watch?v=vWXqaAzYbvk
+https://proandroiddev.com/repeating-without-looping-or-recursion-6443e5bf88c7
+https://habr.com/company/JetBrains/blog/424247/
+https://blog.jetbrains.com/idea/2018/09/spring-kotlin-gutters-and-navigation/
+https://insights.dice.com/2018/09/24/kotlin-jobs-meteoric-rise-android/
+https://itnext.io/authentication-with-aws-amplify-and-android-customizing-the-ui-2c36e888b200
+https://larder.io/blog/larder-links-08-kotlin-android/
+https://medium.com/@OhadShai/async-with-style-kotlin-web-backend-with-ktor-coroutines-and-jasync-mysql-b34e8c83e4bd
+https://www.kotlindevelopment.com/lazy-property/
+https://blog.philipphauer.de/kotlin-mongodb-perfect-match/
+https://blog.jetbrains.com/kotlin/2018/09/kotlinconf-2018-live-join-the-conference-online/
+https://medium.com/@martin.devillers/demystifying-coroutinecontext-1ce5b68407ad
+http://przybyszd.blogspot.com/2018/09/testing-kotlin-with-spock-part-3.html
+https://blog.jetbrains.com/kotlin/2018/08/kotlin-native-0-8-2/
+https://developer.okta.com/blog/2018/09/11/android-kotlin-crud
+https://blog.lehnerpat.com/post/2018-09-10/merging-per-suite-junit-reports-into-single-file-with-gradle-kotlin/
+http://androidahead.com/2018/04/06/rxjava-for-android-100-examples-pack/
+https://www.youtube.com/watch?v=9KSxI3eACd8
+https://speakerdeck.com/artem_zin/preparing-large-java-project-for-kotlin-adoption
+https://medium.com/@oleksiypylypenko/mockk-intentions-dbe378106a6b
+https://medium.com/@elizarov/blocking-threads-suspending-coroutines-d33e11bf4761
+https://codinginfinite.com/ten-best-programming-practices-tips-tricks/
+https://medium.com/@SUPERCILEX/advanced-kotlin-coroutines-tips-and-tricks-6bf6fb53a3d1
+https://kotlinexpertise.com/kotlin-coroutines-concurrency/
+https://github.com/jkcclemens/khttp
+https://soywiz.com/klock-1-0/
+https://github.com/cdimascio/kotlin-spring-mvc-template
+https://habr.com/company/rostelecom/blog/428578/
+https://medium.com/@OhadShai/just-a-small-example-of-how-kotlin-coroutines-are-great-c9774fe8434
+https://github.com/Hexworks/mixite
+https://medium.com/@caffeine81/leak-free-dependency-injection-in-android-adaf65643dbf
+https://github.com/vsch/kotlin-jdbc
+https://proandroiddev.com/the-tldr-on-kotlins-let-apply-also-with-and-run-functions-6253f06d152b
+https://habr.com/post/428994/
+https://www.raywenderlich.com/7357-ios-app-with-kotlin-native-getting-started
+https://medium.freecodecamp.org/how-to-implement-an-object-pool-with-an-actor-in-kotlin-ed06d3ba6257
+http://www.kotlintoday.com/
+https://vyne.co/ (https://gitlab.com/taxi-lang/taxi-lang/tree/master/taxi-annotation-processor)
+https://blog.jetbrains.com/kotlin/2018/10/kotlin-1-3/
+https://github.com/RubyLichtenstein/Kotlin-Multiplatform-Firebase
+https://dzone.com/articles/micronaut-with-kotlin-and-java-with-groovy-tests
+https://www.infoq.com/news/2018/10/oracle-introduces-helidon
+https://www.marcobehler.com/episodes/160-getting-started-with-kotlin-and-maven
+https://www.marcobehler.com/episodes/161-learning-kotlin-language-features-by-practice-part-1
+https://jaxenter.com/top-5-open-source-libraries-kotlin-151507.html
+https://blog.kotlin-academy.com/kotlin-fun-and-education-on-twitter-5ad5ded8f067
+https://habr.com/company/badoo/blog/429728/
+https://github.com/cretz/kastree
+https://www.instamobile.io/android-development/best-kotlin-starter-kits-build-android-app/
+https://medium.com/@ripenapps/android-app-development-java-kotlin-bb9f25748b1b
+https://github.com/ideaplugins/choco-ktx
+http://lordraydenmk.github.io//2018/functional-hangman-in-kotlin-with-arrow/
+https://medium.com/@pablisco/moving-forward-part-1-properties-d8f695b3c812
+https://www.youtube.com/watch?v=xxGCVVtMVn4&feature=youtu.be
+https://youtu.be/ES-852Dr4ZY
+https://medium.com/@pablisco/moving-forward-part-1-properties-d8f695b3c812
+https://www.onlineinterviewquestions.com/kotlin-interview-questions/
+https://medium.com/empathybroker/the-modern-backend-is-here-kotlin-89127e0db6a3
+https://medium.com/@antonarhipov/awesome-kotlin-domain-specific-languages-f1870be41b0
+https://lordraydenmk.github.io/2018/functional-hangman-in-kotlin-with-arrow/
+https://github.com/ruslanys/telegraff
+https://github.com/iadvize/kotlin-graylog
+https://medium.com/asos-techblog/what-you-didnt-know-about-arrays-in-kotlin-d3b20337e4
+https://medium.com/@hector6872/sealed-class-with-love-e554063aa9c6
+https://medium.com/@ngAnthonyy/the-difference-between-kotlin-and-java-and-why-i-felt-in-love-with-that-kotlin-programming-8db329dfb593
+https://github.com/EranBoudjnah/RandomGenKt
+https://medium.com/@elizarov/explicit-concurrency-67a8e8fd9b25
+https://blog.jetbrains.com/kotlin/2018/11/ktor-1-0/
+https://www.metizsoft.com/blog/should-you-make-a-switch-from-java-to-kotlin/
+https://www.youtube.com/watch?v=oN3QOsZ1KAw
+https://codinginfinite.com/kotlin-coroutines-best-practices-example/
+https://www.metizsoft.com/blog/learning-kotlin-programming-language/
+https://medium.com/@hector6872/presenters-and-views-meet-the-interface-segregation-principle-1cd6c98f46bb
+https://github.com/msnthrpc-drnkn-lnr/color-difference-fx
+https://medium.com/outbrain-engineering/observe-and-report-kotlin-coroutines-on-backend-services-697b2c64166c
+https://proandroiddev.com/moving-forward-with-kotlin-part-2-inheritance-64bc674e2224
+https://codinginfinite.com/deep-dive-kotlin-conventions/
+https://www.kotlindevelopment.com/destructuring-declarations/
+https://blog.kotlin-academy.com/the-advent-of-kotlin-2018-week-1-229e442a143
+https://heartbeat.fritz.ai/an-introduction-to-kotlin-on-android-2d3ab735b4d3
+https://play.data2viz.io/
+https://github.com/Trendyol/medusa
+https://blog.socialcops.com/technology/engineering/android-development-guide-rural-world/
+https://github.com/ScottPeterJohnson/kdbgen
+https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a
+https://medium.com/@cortinico/dont-be-lazy-use-rules-95c68f4ecb8b
+https://www.youtube.com/watch?v=pMuRv3qD8XY&feature=youtu.be
+https://khan.github.io/kotlin-for-python-developers/
+https://github.com/cdimascio/essence
+https://habr.com/post/430238/
+http://dkandalov.github.io/type-variance-of-an-assignment
+https://www.youtube.com/watch?v=1fA7-0hJOjk&feature=youtu.be
+https://medium.com/grandcentrix/integrate-cli-tools-with-gradle-by-example-detekt-96098123ccdb
+https://blog.socialcops.com/technology/engineering/mvp-pattern-to-build-collect/
+https://blog.kotlin-academy.com/advent-of-kotlin-week-2-dependency-injection-351f615da2e1
+https://habr.com/company/jugru/blog/431678/
+https://medium.com/@dmytrodanylyk/kotlin-coroutines-patterns-anti-patterns-f9d12984c68e
+https://habr.com/post/431990/
+https://habr.com/post/431696/
+https://www.lordcodes.com/posts/gradle-dependencies-using-kotlin
+https://medium.com/victoriagonda/using-the-kotlin-stdlib-in-java-code-2565818ba016
+https://medium.com/@dieffersonsantos/simple-android-cache-powered-by-coroutines-42db61306569
+https://www.websoptimization.com/blog/kotlin-vs-java/
+https://proandroiddev.com/the-curious-case-of-the-channel-that-wouldnt-quit-15fea9a29145
+https://habr.com/post/432310/
+https://habr.com/company/jugru/blog/431328/
+https://medium.com/@openrndr/improving-the-openrndr-guide-f98fba29c393
+https://blog.kotlin-academy.com/advent-of-kotlin-week-2-dependency-injection-351f615da2e1
+https://blog.kotlin-academy.com/advent-of-kotlin-week-3-sortedlist-2ff49c250aad
+https://blog.kotlin-academy.com/the-perils-of-inheritance-698b777fa773
+https://medium.com/square-corner-blog/kotlinpoet-1-0-is-here-a3c771c92d47
+https://blog.autsoft.hu/a-confusing-dependency/
+https://habr.com/post/433000/
+https://github.com/RadoslavYankov/valigator
+http://thetechstack.net/blog/2018/12/15/kotlin-operators
+https://blog.kotlin-academy.com/advent-of-kotlin-week-4-mocking-cde699ec9963
+https://blog.kotlin-academy.com/advent-of-kotlin-week-4-mocking-cde699ec9963
+https://github.com/rsocket/rsocket-kotlin
+https://blog.frankel.ch/even-odd-coroutines/
+https://medium.com/@mccorby/nlp-with-kotlin-ec84c068650
+https://aravindraj.me/diffutil-android-recyclerview/
+https://preslav.me/2018/03/18/platform-types-in-kotlin/
+https://towardsdatascience.com/nlp-with-kotlin-ec84c068650
+https://medium.com/@rohanmaity/tail-call-optimization-in-jvm-with-kotlin-ebdf90b34ec9
+https://github.com/NikkyAI/MinimalScriptingExample
+https://medium.com/@Phil_Boisney/playing-with-kotlin-you-know-everything-john-doe-8275a6e98a96
+https://dev.to/preslavrachev/q-how-much-of-the-kotlin-way-is-the-right-way-3129
+https://insights.dice.com/2019/01/02/top-tech-skills-2018-kotlin-kubernetes/
+https://habr.com/post/435220/
+https://medium.com/@desaismital/declarative-pipelines-in-kotlin-b9e18e77f2c5
+https://blog.kotlin-academy.com/understanding-kotlin-contracts-f255ded41ef2
+https://enterpriseblockchainsolutions.com/2019/01/corda-developer-certification-this-friday-for-free-study-guide/
+http://learnkotlinnative.com/
+https://medium.com/@anstrong22/announcing-sqldelight-1-0-d482aa408f64
+https://github.com/Serchinastico/Lin
+https://jakewharton.com/inline-classes-make-great-database-ids/
+https://github.com/cdimascio/java-dotenv
+https://web.stanford.edu/class/cs193a/videos.shtml
+https://medium.com/@oleksii_f/kotlin-how-can-a-programming-language-be-so-young-and-so-mature-at-the-same-time-a09386592b02
+https://github.com/IvanMwiruki/30-seconds-of-kotlin
+https://medium.com/@keyboardsurfer/dependency-injection-in-a-multi-module-project-1a09511c14b7
+https://medium.com/the-fabulous/kotlin-extension-methods-generation-15b5e6499dc8
+https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/
+https://www.kotlindevelopment.com/tips-for-writing-a-library-in-kotlin/
+https://zsmb.co/data-classes-arent-that-magical
+https://medium.com/@OhadShai/curly-braces-and-kotlin-609c0ad1e390
+https://dev.to/waterlink/how-to-try-kotlin-in-java-backend-codebase-without-risk-1ecc
+https://medium.com/@elizarov/deadlocks-in-non-hierarchical-csp-e5910d137cc
+https://github.com/AlecStrong/kotlin-native-cocoapods
+https://ripenapps.com/blog/android-app-development-kotlin-looming-demand/
+https://blog.rntech.co.uk/2019/01/19/build-your-own-either-in-kotlin/
+https://github.com/Foso/KotlinReactNativeMpp
+https://blog.kotlin-academy.com/kotlin-coroutines-cheat-sheet-8cf1e284dc35
+https://www.netguru.com/codestories/react-native-vs-kotlin-multiplatform
+https://github.com/effe-megna/ValiflaKtion
+http://www.jworks.io/migrating-from-lombok-to-kotlin/
+https://github.com/thomasnield/kotlin-data-science-resources
+https://medium.com/google-developers/announcing-the-java-kotlin-client-library-for-actions-on-google-217828dead
+https://www.youtube.com/watch?v=hb0hfHVWCS0
+https://blog.frankel.ch/sieve-eratosthenes/
+https://habr.com/ru/post/437726/
+https://github.com/web3j/libp2p
+https://www.scottbrady91.com/Kotlin/Ktor-using-OAuth-2-and-IdentityServer4
+https://jonnyzzz.com/blog/2019/02/04/companion-and-object/
+https://speakerdeck.com/elizarov/fresh-async-with-kotlin
+https://medium.com/@elizarov/null-is-your-friend-not-a-mistake-b63ff1751dd5
+https://medium.com/@altavir/about-good-programmers-good-programs-and-performance-2d7b79a2ab08
+https://github.com/snowe2010/pretty-print
+https://kotlinexpertise.com/kotlin-productivity/
+https://medium.com/@pjagielski/how-we-use-kotlin-with-exposed-at-touk-eacaae4565b5
+https://github.com/yshrsmz/BuildKonfig
+https://github.com/bernaferrari/GradleKotlinConverter
+https://github.com/epam/CoroutinesExtensions
+https://github.com/epam/CoroutinesCache
+https://github.com/tarek360/koshry
+https://medium.com/finn-no/kotlin-efficient-code-finds-your-next-flight-715c1d867cbe
+https://blog.usejournal.com/dart-vs-kotlin-vs-swift-the-ultimate-reference-table-of-main-differences-and-similarities-fda89e50214a
+https://www.youtube.com/watch?v=-6NzcjfPspI
+https://zsmb.co/retrofit-meets-coroutines
+http://oneeyedmen.com/test-driven-to-specification-with-minutest-part1.html
+http://oneeyedmen.com/test-driven-to-specification-with-minutest-part2.html
+https://github.com/Joserodrigo690/genetic-algorithm-example
+https://blog.kotlin-academy.com/mocking-is-not-rocket-science-mockk-advanced-features-42277e5983b5
+https://kvision.gitbook.io/kvision-guide/
+https://github.com/Queatz/On
+https://dev.to/cjbrooks12/how-to-document-a-kotlin-project-edc
+https://medium.com/android-things/building-a-kotlin-native-on-ios-android-6a6db9df5bef
+https://dev.to/cjbrooks12/how-to-document-a-kotlin-project-edc
+http://www.articleevent.com/kotlin-the-future-of-programming/
+https://medium.com/finn-no/kotlin-efficient-code-finds-your-next-flight-715c1d867cbe
+http://androchef.com/how-to-start-learning-android-from-scratch/
+https://github.com/mipt-npm/kmath
+https://medium.com/@trionkidnapper/launching-a-kotlin-coroutine-for-immediate-execution-on-the-main-thread-8555e701163b
+https://dev.to/cassiozen/kotlin-for-js-devs-part-1-5bld
+https://github.com/magdkudama/k-router
+http://oneeyedmen.com/property-based-testing-with-minutest.html
+https://medium.com/@jcamilorada/kotlin-nullable-type-vs-java-optional-arrow-option-58751116c399
+https://proandroiddev.com/whats-new-in-kotlintest-3-2-and-3-3-affbc1b25e1d
+https://github.com/cassaundra/rocket
+https://habr.com/ru/post/442440/
+https://medium.com/@elizarov/dealing-with-absence-of-value-307b80534903
+https://kales.dev/
+https://medium.com/@rocketwagon/presenter-as-a-function-structured-concurrency-edition-27ecfd47b7c2?sk=48ce328ef09e023fec7a75db640a70bd
+https://www.bradcypert.com/comparing-kotlin-to-scala/
+https://proandroiddev.com/introducing-the-kotlintest-intellij-plugin-cf8005e9177a
+https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld
+https://blog.kotlin-academy.com/the-beauty-of-kotlin-typing-system-7a2804fe6cf0
+https://medium.com/@june.pravin/better-kotlin-unit-testing-with-mock-helper-functions-38dc1a6c4684
+https://habr.com/ru/post/442500/
+https://typealias.com/guides/kotlin-sequences-illustrated-guide/
+https://github.com/fractalwrench/iokk
+https://github.com/tunjos/lean-kotlin
+https://joebirch.co/2019/03/07/chords-conversations-and-the-kotlin-client-library/
+https://medium.com/@elizarov/coroutine-context-and-scope-c8b255d59055
+https://github.com/mhashim6/Pi4K
+https://blog.kotlin-academy.com/how-to-create-a-rest-api-client-and-its-integration-tests-in-kotlin-multiplatform-d76c9a1be348
+https://proandroiddev.com/synchronization-and-thread-safety-techniques-in-java-and-kotlin-f63506370e6d
+https://medium.com/@gumil/managing-states-with-kaskade-3e1b7f26396d
+https://medium.com/@renaudcerrato/the-kotlin-guide-for-the-busy-java-developer-93dde84a77b7
+https://github.com/trello/mr-clean/
+https://itnext.io/android-local-database-tricks-with-kotlin-and-objectbox-2363988b557c
+https://jonnyzzz.com/blog/2019/03/04/gradle-kotlin-migration-1/
+https://habr.com/ru/post/443288/
+https://github.com/canal-pipelines/canal
+https://habr.com/ru/company/mailru/blog/443752/
+http://www.kotlinbits.com/2019/03/14/how-kotterknife-lazily-injects-android-views/
+https://github.com/codeniko/JsonPathLite
+https://proandroiddev.com/java-calling-kotlin-3cb3a84bde63
+https://www.youtube.com/watch?v=ggsP75GZCGo
+https://medium.com/android-things/why-we-need-kotlin-native-adacc03e988c
+https://alediaferia.com/2019/03/18/writing-graphql-dsl-kotlin/
+https://www.kotlindevelopment.com/help-yourself-and-the-compiler-with-contracts/
+https://habr.com/ru/company/oleg-bunin/blog/437592/
+https://quickbirdstudios.com/blog/is-kotlin-native-production-ready/
+https://medium.com/@shaileshsengar21/kotlin-coroutine-scopes-377219274461
+https://www.rivu.dev/basics-of-functional-programming-with-kotlin/
+https://habr.com/ru/post/445242/
+https://github.com/NephyProject/Penicillin
+https://kotlinexpertise.com/kotlin-generics-and-variance-vs-java/
+https://dev.to/rjaros/building-a-pokedex-app-with-kotlin-kvision-and-redux-part-1-51h5
+https://www.youtube.com/watch?v=zS5GLpgWNKQ
+https://itnext.io/kotlin-when-properties-are-evaluated-a7db5a8e2799
+https://kotlinexpertise.com/kotlin-generics-and-variance-vs-java/
+https://auth0.com/blog/building-graphql-apis-with-kotlin-spring-boot-and-mongodb/
+https://habr.com/ru/post/444616/
+https://github.com/AboutGoods/Kotlin-Workflow
+https://www.baeldung.com/kotlin-mockk
+https://blog.frankel.ch/comparison-assertion-libraries/
+https://proandroiddev.com/kotlin-pearls-3-its-an-object-it-s-a-function-it-s-an-invokable-bc4bfed2e63f
+https://www.youtube.com/watch?v=ei66Fr25Y2M
+https://hacks.mozilla.org/2019/04/crossing-the-rust-ffi-frontier-with-protocol-buffers/
+https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns
+https://billykorando.com/2019/04/01/an-extended-discussion-on-customization-in-junit-5/
+https://www.jworks.io/getting-started-with-javalin/
+https://functional.works-hub.com/jobs/tech-recruiting-partner-in-barcelona-spain-b13c0?utm_source=job&utm_medium=r%2Fkotlin&utm_campaign=n.walker
+https://www.youtube.com/watch?v=DOoJnJJnAG4
+https://medium.com/code-procedure-and-rants/not-another-kotlin-interviews-article-the-questions-848d55d79aee
+https://www.youtube.com/watch?v=jDFeNcMWzCs
+https://medium.com/@june.pravin/clean-architecture-error-handling-with-kotlin-rxjava-d01c82a0f31e\
+https://www.jworks.io/integration-testing-with-javalin/
+https://kotlinexpertise.com/kotlin-inline-classes/
+https://morioh.com/p/e092bcbcf0a7/top-5-kotlin-features-that-every-android-app-developer-must-know
+https://www.javacodegeeks.com/2019/04/kotlin-features-every-android-app-developer-know.html
+https://dev.to/alediaferia/a-concatenated-iterator-example-in-kotlin-1l23
+https://kotlinexpertise.com/kotlin-inline-classes/
+https://medium.com/tradeshift-engineering/introducing-blayze-2af6dc8eeef2
+https://github.com/vanatka/pulkovo
+https://github.com/rnett/kotnn
+https://medium.com/@elizarov/cold-flows-hot-channels-d74769805f9
+https://medium.com/@ryangodlontonshaw/e92f1f311ef
+https://www.thomaslegrand.tech/kotlin/2019/04/07/machine-learning-kotlin.html
+https://www.konform.io/
+https://www.jworks.io/kotlin-time-dsl-for-java-8-time/
+https://www.pamelaahill.com/post/step-by-step-full-stack-kotlin-part-1
+https://habr.com/ru/company/badoo/blog/447424/
+https://blog.autsoft.hu/delightful-delegate-design/
+https://morioh.com/p/369a3f3e74d0/kotlin-or-stick-to-the-good-ol-java
+https://blog.jetbrains.com/kotlin/2019/04/kotlin-1-3-30-released/
+http://blog.autsoft.hu/delightful-delegate-design/
+https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-1-getting-started-with-kotlin-dsl/
+https://blog.jetbrains.com/teamcity/2019/03/configuration-as-code-part-2-working-with-kotlin-scripts/
+https://blog.jetbrains.com/teamcity/2019/04/configuration-as-code-part-3-creating-build-configurations-dynamically/
+https://github.com/wuseal/JsonToKotlinClass
+https://codinginfinite.com/methods-launching-android-kotlin-activities/
+https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow
+https://www.thedroidsonroids.com/blog/how-to-distribute-android-libraries
+https://blog.kotlin-academy.com/abstract-class-vs-interface-in-kotlin-5ab8697c3a14
+https://www.pamelaahill.com/post/step-by-step-full-stack-kotlin-part-2
+https://www.infoq.com/articles/kotlin-multiplatform-ios-developers
+https://link.medium.com/e7OvFkXnZV
+https://www.jworks.io/tictactoe-in-bosque-and-kotlin/
+https://medium.com/@fardavide/kotlin-dsl-builder-pattern-by-delegation-pt-1-9417cd2a514b
+https://github.com/code-helix/slatekit
+https://www.youtube.com/watch?v=tubdYm6be6Y
+https://developer.squareup.com/blog/developing-on-ios-and-android/
+https://github.com/DaanVandenBosch/magneton
+https://medium.com/@kpgalligan/touchlab-square-collaborating-on-kotlin-multiplatform-eb6aa7eb4a4a
+https://medium.com/@kpgalligan/kotlin-xcode-plugin-64f52ff8dc2a
+https://github.com/cansik/architectural-floor-plan
+https://zsmb.co/the-dog-riddle/
+https://github.com/Tapchicoma/ktsexec-gradle
+https://ayusch.com/kotlin-tutorial/
+https://medium.com/@kpgalligan/kotlin-native-interop-generics-15eda6f6050f
+https://zsmb.co/maintaining-compatibility-in-kotlin-libraries/
+https://github.com/ionspin/kotlin-multiplatform-bignum
+https://medium.com/@ranilch/self-loathing-in-kotlin-d17431bcf21e
+https://itnext.io/three-paradigms-of-asynchronous-programming-in-vertx-b01ab24d0927?sk=13011976d7c34b1c8bc3f441089036aa
+https://habr.com/ru/post/449092/
+https://itnext.io/build-a-modern-android-chat-app-with-kotlin-8af05bbeafaa
+https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow
+https://habr.com/ru/post/451112/
+https://hackernoon.com/asynchronous-temporal-rest-with-vert-x-keycloak-and-kotlin-coroutines-217b25756314?sk=5eabb36b2984cf61a2dff3f9fe45addc
+https://www.jworks.io/intellij-postfix-completion/
+https://www.petrikainulainen.net/programming/testing/running-kotlin-tests-with-gradle/
+https://publicobject.com/2019/05/13/metrics-for-okhttps-kotlin-upgrade/
+https://badootech.badoo.com/reaktive-a-multiplatform-library-for-reactive-kotlin-android-ios-77b6ff25adb1
+https://medium.com/@altavir/diving-deeper-into-context-oriented-programming-in-kotlin-3ecb4ec38814
+https://medium.com/@elizarov/kotlin-flows-and-coroutines-256260fb3bdb
+https://medium.com/@martin.devillers/kotlin-coroutine-job-hierarchy-finish-cancel-and-fail-2d3d42a768a9
+https://www.jworks.io/loops-in-kotlin/
+https://medium.com/techshots/kotlin-collection-function-12fc3c16f579
+https://ahsensaeed.com/kotlin-lazy-evaluation-haskell-laziness/
+https://habr.com/ru/post/450488/
+https://habr.com/ru/company/funcorp/blog/451622/
+https://www.kotlindevelopment.com/lazy-property/
+https://medium.com/web-factory-llc/modularize-your-kotlin-multiplatform-project-6e5831508a81
+https://dev.to/karan_shah89/musings-what-the-tech-world-saw-in-kotlin-45me
+https://habr.com/ru/post/452524/
+https://jonnyzzz.com/blog/2019/05/20/gradle-kotlin-migration-3/
+https://blog.karumi.com/android-jetpack-compose-review/
+https://adambennett.dev/2019/06/easy-augmentation-with-decorators-in-kotlin/
+https://ahsensaeed.com/kotlinx-serialization-library-android-kotlin/
+https://medium.com/techshots/delegate-properties-in-kotlin-39524fc4ea13
+https://github.com/ntedgi/cld3-kotlin
+https://github.com/pearxteam/kasechange
+https://brunoaybar.com/kotlin-smart-casting
+https://medium.com/@vishna/kotlin-watchservice-a-better-file-watcher-using-channels-coroutines-and-sealed-classes-7ab5c9df3ada
+https://www.desmos.com/calculator/pb4ewmqdvy
+https://github.com/kizitonwose/CalendarView
+https://medium.com/@icerock/%D0%BE%D0%BF%D1%8B%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-kotlin-multiplatform-%D0%B7%D0%B0-10-%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B5%D0%B2-435a7e08e52d?sk=27131d9787337d880575a476520ee038
+https://github.com/benasher44/uuid
+https://github.com/haroldadmin/Vector
+https://medium.com/netflix-techblog/making-our-android-studio-apps-reactive-with-ui-components-redux-5e37aac3b244
+https://quickbirdstudios.com/blog/keep-87-typeclasses-kotlin/
+https://hexagonkt.com/
+https://github.com/cbeust/kash
+https://github.com/square/retrofit/blob/master/CHANGELOG.md#version-260-2019-06-05
+https://ahsensaeed.com/functional-style-error-handling-kotlin-runcatching-mapcatching/
+http://oneeyedmen.com/kotlin-hacks-printed.html
+https://habr.com/ru/company/hh/blog/455042/
+https://github.com/michaelbull/kotlin-inline-logger
+https://medium.com/@jonathan.leitschuh/want-to-take-over-the-java-ecosystem-all-you-need-is-a-mitm-1fc329d898fb?sk=3c99970c55a899ad9ef41f126efcde0e
+https://blog.danlew.net/2019/06/10/never-break-the-chain/
+https://blog.karumi.com/first-steps-into-kotlin-multiplatform/
+https://brunoaybar.com/how-do-kotlin-dsl-libraries-work
+https://medium.com/@spaghetticode/writing-finite-state-machines-in-kotlin-part-2-delta-hat-3f2ae5eb42bd
+https://medium.com/@elizarov/reactive-streams-and-kotlin-flows-bfd12772cda4
+http://www.alignminds.com/blog/advantages-kotlin-java/
+https://www.w2ssolutions.com/blog/java-vs-kotlin/
+https://itnext.io/moving-from-rxjava-to-coroutines-4e1c34419111
+https://blog.codota.com/kotlin-vs-scala/
+https://github.com/47deg/helios
+https://medium.com/@Syex/clean-architecture-example-with-kotlin-multiplatform-c361bb283fd0
+https://www.youtube.com/watch?v=hQrFfwT1IMo
+https://github.com/LunarWatcher/KClassUnpacker/
+https://github.com/mangatmodi/RandomJson/
+http://oneeyedmen.com/failure-is-not-an-option-part-6.html
+https://itnext.io/painless-json-with-kotlin-and-jackson-fc6d66fbf94a
+https://heartbeat.fritz.ai/handling-background-tasks-with-kotlin-coroutines-in-android-a674bab7a951
+https://www.opencodez.com/java/beginners-guide-kotlin.htm
+https://hackernoon.com/android-unidirectional-flow-with-livedata-bf24119e747
+https://itnext.io/creating-a-simple-cloud-dataflow-with-kotlin-cc9f76f47bc5
+https://habr.com/ru/post/456256/
+https://github.com/emedinaa/kotlin-mvvm
+https://github.com/ielkhalloufi/spring-webflux-kotlin-actors
+https://habr.com/ru/company/raiffeisenbank/blog/456376/
+https://gitlab.com/blacknet-ninja/blacknet
+https://dev.to/sierisimo/unit-testing-with-junit-3mcd
+https://samsieber.tech/posts/2019/06/type-safe-e2e-testing-dsls-in-kotlin/
+http://oneeyedmen.com/failure-is-not-an-option-part-7.html
+https://medium.com/@icerock/the-dos-and-donts-of-mobile-development-with-kotlin-multiplatform-db7c098545c0
+https://github.com/mercenary-creators/mercenary-creators-kotlin-mail
+https://www.youtube.com/watch?v=H0z_NhQIOHQ
+https://kotlinexpertise.com/default-map-in-kotlin/
+https://github.com/Autodesk/coroutineworker
+https://itnext.io/kotlin-wrapping-your-head-around-livedata-mutablelivedata-coroutine-networking-and-viewmodel-b552c3a74eec?sk=0fee90232adaf250943cfc73c4b61c4f
+https://github.com/pablobaxter/frybits-wtf
+https://medium.com/@icerock/the-dos-and-donts-of-mobile-development-with-kotlin-multiplatform-db7c098545c0
+https://johnoreilly.dev/posts/sqldelight-multiplatform/
+https://habr.com/ru/company/piter/blog/457224/
+https://github.com/felipecsl/ktnes
+https://medium.com/@icerock/the-dos-and-donts-of-mobile-development-with-kotlin-multiplatform-part-ii-d318dae8475b
+https://medium.com/@elizarov/application-programming-language-ff7f0063c16
+https://korge.soywiz.com/
+https://github.com/ChrisPenner/Advent-Of-Code-Polyglot/tree/master/kotlin
+http://kotlin4android.com
+
+Chinese edition of kotlin-for-android: https://www.gitbook.com/book/wangjiegulu/kotlin-for-android-developers-zh/details
+and kotlin-docs: https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details
+
+https://www.philosophicalhacker.com/post/why-im-skeptical-about-kotlin-coroutines-for-android-development/
+https://hackernoon.com/kotlin-functors-applicatives-and-monads-in-pictures-part-2-3-f99a09efd1ec
+https://github.com/elpassion/react.kt
+https://github.com/config4k/config4k
+
+https://dzone.com/articles/splitting-up-streams-using-kotlin
+https://medium.com/@OhadShai/logging-in-kotlin-95a4e76388f2#.dd68qy43r
+http://tomassetti.me/building-and-testing-a-parser-with-antlr-and-kotlin/
+http://www.tutorialforandroid.com/2016/08/easier-way-of-getting-your-layout-view.html
+https://realm.io/news/kau-jake-wharton-testing-robots/
+https://github.com/semoro/KotlinEvalSlackBot
+http://www.techtraversal.com/techt/series/learn-me-some-kotlin/
+https://pspdfkit.com/blog/2016/android-animations-powered-by-rx-java/
+https://medium.com/@juanchosaravia/keddit-final-part-conclusion-and-thanks-c3d68672269b#.2ihj4isng
+https://www.youtube.com/results?sp=EgIIA0gA6gMA&q=kotlin
+http://apptractor.ru/AndroidDev/podcast14.html
+https://medium.com/@elye.project/fast-mocked-ui-tests-on-android-kotlin-89ed0a8a351a#.gr6fm8dij
+https://discuss.kotlinlang.org/t/extension-types-for-kotlin/1390/2
+https://www.livecoding.tv/goddchen/videos/3dEyd-android-kotlin-odb2-android-app
+https://medium.com/@anton.averin.dev/keep-your-droid-clean-e9c093140eb6#.bf5p46a2b
+https://blog.frankel.ch/smart-logging-in-java8-kotlin/
+https://github.com/nfrankel/slf4k
+http://kennycason.com/posts/2016-06-01-genetic-algorithm-draw-images.html
+http://stackoverflow.com/questions/37828790/why-do-i-have-to-return-unit-instance-when-implementing-in-java-a-kotlin-functio
+https://medium.com/@stepango/kotlin-color-picker-part-1-427983cbcd66#.cjcxsd2e2
+https://medium.com/@tsuijten/thanks-for-this-post-totally-agree-68330572209f#.ltrdhdu3a
+https://medium.com/@gz_k/exploring-genetic-algorithm-with-kotlin-60dfd8d1509a#.3qankj9bg
+https://github.com/fboldog/async-under8
+https://medium.com/@voddan/a-handful-of-kotlin-permutations-7659c555d421#.pvxd77mnq
+https://github.com/yole/kotlin-style-guide/issues
+https://m.signalvnoise.com/some-of-my-favorite-kotlin-features-that-we-use-a-lot-in-basecamp-5ac9d6cea95#.poxwbmhm3
+http://blog.ninja-squad.com/2016/05/31/first-kotlin-project/
+https://github.com/gradle/gradle-script-kotlin/wiki/Frequently-Asked-Questions#in-what-language-should-i-develop-my-plugins
+https://opencredo.com/the-destructor-pattern/
+http://macoscope.com/blog/kotlin-anko-layouts/
+http://artemzin.com/blog/state-of-kotlin-as-main-language-for-android-project/
+https://opencredo.com/concursus-programming-model-kotlin/
+https://www.ekito.fr/people/kotlin-spring-boot-web-application/
+https://medium.com/@juanchosaravia/keddit-part-8-orientation-change-with-kotlin-parcelable-data-classes-f28136e8a6a8#.2ykicdht9
+https://medium.com/@c2q9450/performance-comparison-building-android-ui-with-code-anko-vs-xml-layout-cc0abb21c561#.ir7ly946v
+http://blog.jimbaca.com/2016/04/18/optional-params-in-kotlin/
+https://keyholesoftware.com/2016/04/18/kotlin-android-first-impressions/
+https://habrahabr.ru/company/redmadrobot/blog/301174/
+https://github.com/ridesafe/ridesafe-backend
+https://github.com/Deanveloper/SlaK/tree/master/src/main/kotlin/com/deanveloper/slak/channel
+http://blog.greenhouseci.com/greenhouse/update/android-testing-with-kotlin/
+https://opencredo.com/complex-kotlin/
+http://code.tutsplus.com/tutorials/how-to-use-kotlin-in-your-android-projects--cms-24052
+https://medium.com/@Cypressious/rxjava-kotlin-conditionally-delaying-the-first-item-in-a-stream-9d4e7a8d0071#.rqiho628c
+https://github.com/hcoles/pitest/issues/260
+http://melix.github.io/blog/2016/05/gradle-kotlin.html
+http://delivervalue.blogspot.com.by/2016/05/about-gradle-kotlin-and-inner-fear.html
+http://danveloper.github.io/gradle-kotlin-groovy.html
+https://github.com/ridesafe/ridesafe-android
+http://stackoverflow.com/questions/36753579/algebraic-data-types-in-kotlin
+http://petersommerhoff.com/dev/kotlin/kotlin-concise-code/
+http://blog.jimbaca.com/2016/04/11/avoiding-inheritance-hell-with-kotlin/
+https://github.com/maannajjar/lattekit
+https://dzone.com/articles/exercises-in-kotlin-part-1-getting-started
+https://dzone.com/articles/exercises-in-kotlin-part-2-high-level-syntax-and-v
+http://blog.jimbaca.com/2016/04/25/rxkotlin-multiple-observations/
+https://m.signalvnoise.com/how-i-fell-in-love-with-a-programming-language-8933d5e749ed#.timqqkdv7
+https://blog.gouline.net/kotlin-production-tales-62b56057dc8a#.rkmqzkpng
+https://discuss.kotlinlang.org/t/looking-for-kotlin-track-mentors-or-implementors-for-exercism-io/1672
+https://jcodingsite.wordpress.com/2016/05/15/improving-java-unit-tests-with-kotlin/
+https://github.com/xafero/dynkt
+https://github.com/hastebrot/TestFX.kt
+http://loicdescotte.github.io/posts/kotlin-compose-nullable-future/
+http://www.businesswire.com/news/home/20160517006230/en/Gradle-Elevates-Build-First-Class-Programming-Kotlin-Language
+http://optimalbi.com/blog/2016/05/20/kotlin-dragging-java-into-the-modern-world/
+http://exercism.io/languages/kotlin
+https://medium.com/@anton.averin.dev/keep-your-droid-clean-activities-and-fragments-da1799fe1e7a#.88z56548z
+https://blog.frankel.ch/comparing-lombok-and-kotlin/
+https://www.toptal.com/software/kotlin-android-language
+https://ebean-orm.github.io
+http://there4.co/hexagon/
+
+// old articles
+https://www.osp.ru/os/2011/09/13011550/
+http://blog.trukhin.com/2012/02/kotlin-opensource.html
+
+https://github.com/MarcinMoskala/KotlinPreferences/wiki/How-it-works%3F
+https://github.com/edsilfer/android-user-onboarding - A simple and customizable android onboarding library written in Kotlin matching Material Guidelines.
+https://medium.com/@macastiblancot/android-coroutines-getting-rid-of-runonuithread-and-callbacks-cleaner-thread-handling-and-more-234c0a9bd8eb#.nl51cyj3l
+https://medium.com/@workingkills/pushing-the-limits-of-kotlin-annotation-processing-8611027b6711#.c7s7nqybs
+https://medium.com/@workingkills/you-wont-believe-this-one-weird-trick-to-handle-android-intent-extras-with-kotlin-845ecf09e0e9#.wex94ybde
+https://hashnode.com/post/why-i-abandoned-java-in-favour-of-kotlin-ciuzhmecf09khdc530m1ghu6d
+https://code.tutsplus.com/articles/coding-functional-android-apps-in-kotlin-lambdas-null-safety-more--cms-27964
+https://habrahabr.ru/post/321600/
+https://medium.com/@gz_k/4ee3ad294674#.upkpchrew
+http://kotlinlang.ru/ aka http://kotlin.su/
+javamind-fr.blogspot.com.by/2017/01/script-gradle-kotlin-vs-groovy.html
+https://mercury.postlight.com/
+
+23 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=639f410549
+24 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=f6c05671c8
+25 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=352dca4ff7
+26 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=df7cd5c3c2
+27 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=8bc4e38bf0
+28 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=ac38ce9361
+29 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=503b57bb78
+30 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=0de9fa5baa
+31 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=6605c39b6f
+32 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=3429f629eb
+33 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=ad8cfb9feb
+
+// https://github.com/milos85vasic/Dispatcher
+// https://www.youtube.com/watch?v=hhWAA4aeJbc
+// https://www.youtube.com/watch?v=53JrKl5NR5o
+// https://www.youtube.com/watch?v=IxgIhBwDNDU
+// https://github.com/danneu/kog
+// https://github.com/sanity/kweb
+// https://github.com/danneu/kobx
+// https://dzone.com/articles/java-wish-list-the-top-differences-between-java-sc
+// https://medium.com/@lukleDev/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974#.orh80cps6
+
+// https://github.com/cy6erGn0m/vertx3-lang-kotlin // archive
+
+https://medium.com/@ahmedrizwan
+https://learnxinyminutes.com/docs/kotlin/
+https://medium.com/uptech-team/how-kotlin-became-our-primary-language-for-android-3af7fd6a994c#.3585vkuvp
+
+http://otfried.org/courses/cs109/index.html
+
+https://github.com/orangy/squash
+https://github.com/ilya-g/gradle-multitarget-nested
+https://github.com/cy6erGn0m/kotlin-rxokhttp-websocket
+https://github.com/zengzhihao/rxpromise-kotlin
+https://github.com/pakoito/Komprehensions
+https://habrahabr.ru/post/312776/
+https://hashnode.com/post/why-i-abandoned-java-in-favour-of-kotlin-ciuzhmecf09khdc530m1ghu6d
+https://pspdfkit.com/blog/2016/restoring-state-in-android-mvp-architecture/
+https://medium.com/@haarman.niek/async-await-in-android-f0202cf31088#.1oia3qgss
+https://medium.com/uptech-team/how-kotlin-became-our-primary-language-for-android-3af7fd6a994c#.aeyr6vw3t
+https://medium.com/@DarrenAtherton/intro-to-data-classes-in-kotlin-7f956d54365c#.li5n8yzbg
+https://developmentdave.wordpress.com/2016/10/26/kotlin-vs-java-7-brevity/
+http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=5436cdfa62
+https://www.novoda.com/blog/composing-functions-in-kotlin-with-extensions-and-operators/
+https://www.raywenderlich.com/132381/kotlin-for-android-an-introduction
+https://www.linkedin.com/pulse/adventures-blot-rxkotlin-john-farrell
+
+https://github.com/penemue/modular-arithmetik
+https://github.com/AntonRutkevich/annotation-processor-in-kotlin-setup
+
+## Tutorials
+- [Kotlin for Android (I~IV)](http://antonioleiva.com/kotlin/)
+- [Kotlin for Android Developers](http://www.javaadvent.com/2015/12/kotlin-android.html)
+- [Streamline Android Java Code with Kotlin](http://www.sitepoint.com/streamline-android-java-code-with-kotlin/)
+- [Android development with Kotlin](http://inaka.net/blog/2016/01/15/android-development-with-kotlin/)
+- [Building APIs on the JVM Using Kotlin and Spark](http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/)
+- [Using Project Kotlin for Android](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit)
+- [Kotlin for cross platform mobile app development](https://robovm.com/kotlin-for-cross-platform-mobile-app-development/)
+
+## Articles
+- [Early Impressions of Kotlin](http://natpryce.com/articles/000815.html)
+- [Better Annotation Processing: Supporting Stubs in kapt](http://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/)
+- [One month with Kotlin](https://medium.com/@ademar111190/one-month-with-kotlin-2d3d9bbd7840#.73d5en952)
+- [Kotlin my productivity language](https://medium.com/@mplatvoet/kotlin-6a09afc655b9#.ut2k99bvl)
+- [Why Kotlin is my next programming language](https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3#.sxlaz9821)
+- [Quasar and Kotlin ? a Powerful Match](http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/)
+- [The Kobalt diaries: Android](http://beust.com/weblog/2015/11/04/the-kobalt-diaries-android/)
+- [Exploring the Kotlin standard library](beust.com/weblog/2015/10/30/exploring-the-kotlin-standard-library/)
+- [Swift is like Kotlin](http://nilhcem.github.io/swift-is-like-kotlin/)
+- [Backlog Android: From Java to Kotlin With Lots of Fun](https://nulab-inc.com/blog/nulab/backlog-android-from-java-to-kotlin-with-lots-of-fun/)
+- [Type-safe Web with Kotlin](https://jaxenter.com/type-safe-web-with-kotlin-106187.html)
+
+## Tools
+- [kotlin-plugin-eclipse](https://marketplace.eclipse.org/content/kotlin-plugin-eclipse) - The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.
+- [android-parcelable-intellij-plugin-kotlin](https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin) - Plugin which generates Android Parcelable boilerplate code in Intellji/Android Studio.
+
+## Others
+- [kotlin-for-android-developers-zh](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md)
+- [Kotlin-in-Chinese](https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details)
+- [Kotlin Reference in Chinese](http://www.jianshu.com/notebooks/2822252/latest)
+
+## Kotlin with Android
+* [Using Project Kotlin for Android](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit?hl=en&forcehl=1#heading=h.96ldte2znfpc) by [Jake Wharton](https://github.com/JakeWharton)
+* [Android, Rx and Kotlin: a case study](http://beust.com/weblog/2015/03/23/android-rx-and-kotlin-a-case-study/)
+
+## Kotlin examples
+* [Kotlin workshop by JetBrains](https://github.com/JetBrains/workshop-jb)
+* [Example of Android project showing integration with Kotlin and Dagger 2](https://github.com/damianpetla/kotlin-dagger-example)
+* [Musical - kotlin sample application](https://github.com/tommykw/Musical)
+* [Andoid app with Kotlin and MVP](https://github.com/michaldrabik/KotlinMVP)
+
+## Android apps built with Kotlin on Github
+* [Blood sugar tracking App for Android](https://github.com/nlefler/Glucloser)
+* [Android app for generating color palettes](https://github.com/hzsweers/palettehelper)
+* [A Weather Android App in Kotlin](https://github.com/dpolishuk/weather-android-kotlin)
+
+## Slides
+* [Kotlin: New Hope in a Java 6 Wasteland by Michael Pardo
+](https://speakerdeck.com/pardom/kotlin-new-hope-in-a-java-6-wasteland)
+* [Advancing Development with Kotlin (Droidcon UK 2015) by Jake Wharton](https://speakerdeck.com/jakewharton/advancing-development-with-kotlin-droidcon-uk-2015)
+* [10 Extension Functions of Kotlin in Android Development](https://speakerdeck.com/magiepooh/10-extension-functions-of-kotlin-in-android-development)
+
+## Videos
+* [Kotlin: Practical Aspects of JVM Language Implementation](https://www.youtube.com/watch?v=SdvFwRmyVRM)
+* [Using Kotlin in an existing Java code base](https://www.youtube.com/watch?v=eDHUabQMRb4)
+* [Droidcon NYC 2015 - Kotlin: New Hope in a Java 6 Wasteland](https://www.youtube.com/watch?v=0BiPmgk3nyw)
+* [The Unpuzzling Kotlin: Bringing Clarity to Your Code](https://www.parleys.com/tutorial/52a753b9e4b0e619540cc4a9/)
+* [Advancing Development with Kotlin by Jake Wharton](https://speakerdeck.com/jakewharton/advancing-development-with-kotlin-droidcon-uk-2015)
+* [Flexible Types in Kotlin](https://www.youtube.com/watch?v=2IhT8HACc2E)
+* [Introduction to Kotlin: Making the Java Platform a Better Place](https://www.youtube.com/watch?v=sP9R9Nc3sRA)
+* [Advanced Kotlin: New Features and More](https://www.youtube.com/watch?v=rwsvbSve_BI)
+* [Functional Programming with Kotlin](https://www.youtube.com/watch?v=AhA-Q7MOre0)
+* [Advancing Android Development with the Kotlin Language
+](http://jakewharton.com/presentation/2015-11-06-oredev/)
+* [Advancing Development with the Kotlin Language at Droidcon London](https://skillsmatter.com/skillscasts/6651-advancing-development-with-the-kotlin-language)
+* [Advancing Android Development with Kotlin](https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/)
+* [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
+* [Programming Android with Kotlin](https://www.youtube.com/watch?v=011AL3Z6VmM&feature=youtu.be)
+
+
+https://github.com/ChrisPenner/Advent-Of-Code-Polyglot/tree/master/kotlin
+http://kotlin4android.com
+
+Chinese edition of kotlin-for-android: https://www.gitbook.com/book/wangjiegulu/kotlin-for-android-developers-zh/details
+and kotlin-docs: https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details
+
+https://www.philosophicalhacker.com/post/why-im-skeptical-about-kotlin-coroutines-for-android-development/
+https://hackernoon.com/kotlin-functors-applicatives-and-monads-in-pictures-part-2-3-f99a09efd1ec
+https://github.com/elpassion/react.kt
+https://github.com/config4k/config4k
+
+https://dzone.com/articles/splitting-up-streams-using-kotlin
+https://medium.com/@OhadShai/logging-in-kotlin-95a4e76388f2#.dd68qy43r
+http://tomassetti.me/building-and-testing-a-parser-with-antlr-and-kotlin/
+http://www.tutorialforandroid.com/2016/08/easier-way-of-getting-your-layout-view.html
+https://realm.io/news/kau-jake-wharton-testing-robots/
+https://github.com/semoro/KotlinEvalSlackBot
+http://www.techtraversal.com/techt/series/learn-me-some-kotlin/
+https://pspdfkit.com/blog/2016/android-animations-powered-by-rx-java/
+https://medium.com/@juanchosaravia/keddit-final-part-conclusion-and-thanks-c3d68672269b#.2ihj4isng
+https://www.youtube.com/results?sp=EgIIA0gA6gMA&q=kotlin
+http://apptractor.ru/AndroidDev/podcast14.html
+https://medium.com/@elye.project/fast-mocked-ui-tests-on-android-kotlin-89ed0a8a351a#.gr6fm8dij
+https://discuss.kotlinlang.org/t/extension-types-for-kotlin/1390/2
+https://www.livecoding.tv/goddchen/videos/3dEyd-android-kotlin-odb2-android-app
+https://medium.com/@anton.averin.dev/keep-your-droid-clean-e9c093140eb6#.bf5p46a2b
+https://blog.frankel.ch/smart-logging-in-java8-kotlin/
+https://github.com/nfrankel/slf4k
+http://kennycason.com/posts/2016-06-01-genetic-algorithm-draw-images.html
+http://stackoverflow.com/questions/37828790/why-do-i-have-to-return-unit-instance-when-implementing-in-java-a-kotlin-functio
+https://medium.com/@stepango/kotlin-color-picker-part-1-427983cbcd66#.cjcxsd2e2
+https://medium.com/@tsuijten/thanks-for-this-post-totally-agree-68330572209f#.ltrdhdu3a
+https://medium.com/@gz_k/exploring-genetic-algorithm-with-kotlin-60dfd8d1509a#.3qankj9bg
+https://github.com/fboldog/async-under8
+https://medium.com/@voddan/a-handful-of-kotlin-permutations-7659c555d421#.pvxd77mnq
+https://github.com/yole/kotlin-style-guide/issues
+https://m.signalvnoise.com/some-of-my-favorite-kotlin-features-that-we-use-a-lot-in-basecamp-5ac9d6cea95#.poxwbmhm3
+http://blog.ninja-squad.com/2016/05/31/first-kotlin-project/
+https://github.com/gradle/gradle-script-kotlin/wiki/Frequently-Asked-Questions#in-what-language-should-i-develop-my-plugins
+https://opencredo.com/the-destructor-pattern/
+http://macoscope.com/blog/kotlin-anko-layouts/
+http://artemzin.com/blog/state-of-kotlin-as-main-language-for-android-project/
+https://opencredo.com/concursus-programming-model-kotlin/
+https://www.ekito.fr/people/kotlin-spring-boot-web-application/
+https://medium.com/@juanchosaravia/keddit-part-8-orientation-change-with-kotlin-parcelable-data-classes-f28136e8a6a8#.2ykicdht9
+https://medium.com/@c2q9450/performance-comparison-building-android-ui-with-code-anko-vs-xml-layout-cc0abb21c561#.ir7ly946v
+http://blog.jimbaca.com/2016/04/18/optional-params-in-kotlin/
+https://keyholesoftware.com/2016/04/18/kotlin-android-first-impressions/
+https://habrahabr.ru/company/redmadrobot/blog/301174/
+https://github.com/ridesafe/ridesafe-backend
+https://github.com/Deanveloper/SlaK/tree/master/src/main/kotlin/com/deanveloper/slak/channel
+http://blog.greenhouseci.com/greenhouse/update/android-testing-with-kotlin/
+https://opencredo.com/complex-kotlin/
+http://code.tutsplus.com/tutorials/how-to-use-kotlin-in-your-android-projects--cms-24052
+https://medium.com/@Cypressious/rxjava-kotlin-conditionally-delaying-the-first-item-in-a-stream-9d4e7a8d0071#.rqiho628c
+https://github.com/hcoles/pitest/issues/260
+http://melix.github.io/blog/2016/05/gradle-kotlin.html
+http://delivervalue.blogspot.com.by/2016/05/about-gradle-kotlin-and-inner-fear.html
+http://danveloper.github.io/gradle-kotlin-groovy.html
+https://github.com/ridesafe/ridesafe-android
+http://stackoverflow.com/questions/36753579/algebraic-data-types-in-kotlin
+http://petersommerhoff.com/dev/kotlin/kotlin-concise-code/
+http://blog.jimbaca.com/2016/04/11/avoiding-inheritance-hell-with-kotlin/
+https://github.com/maannajjar/lattekit
+https://dzone.com/articles/exercises-in-kotlin-part-1-getting-started
+https://dzone.com/articles/exercises-in-kotlin-part-2-high-level-syntax-and-v
+http://blog.jimbaca.com/2016/04/25/rxkotlin-multiple-observations/
+https://m.signalvnoise.com/how-i-fell-in-love-with-a-programming-language-8933d5e749ed#.timqqkdv7
+https://blog.gouline.net/kotlin-production-tales-62b56057dc8a#.rkmqzkpng
+https://discuss.kotlinlang.org/t/looking-for-kotlin-track-mentors-or-implementors-for-exercism-io/1672
+https://jcodingsite.wordpress.com/2016/05/15/improving-java-unit-tests-with-kotlin/
+https://github.com/xafero/dynkt
+https://github.com/hastebrot/TestFX.kt
+http://loicdescotte.github.io/posts/kotlin-compose-nullable-future/
+http://www.businesswire.com/news/home/20160517006230/en/Gradle-Elevates-Build-First-Class-Programming-Kotlin-Language
+http://optimalbi.com/blog/2016/05/20/kotlin-dragging-java-into-the-modern-world/
+http://exercism.io/languages/kotlin
+https://medium.com/@anton.averin.dev/keep-your-droid-clean-activities-and-fragments-da1799fe1e7a#.88z56548z
+https://blog.frankel.ch/comparing-lombok-and-kotlin/
+https://www.toptal.com/software/kotlin-android-language
+https://ebean-orm.github.io
+http://there4.co/hexagon/
+
+// old articles
+https://www.osp.ru/os/2011/09/13011550/
+http://blog.trukhin.com/2012/02/kotlin-opensource.html
+
+https://github.com/MarcinMoskala/KotlinPreferences/wiki/How-it-works%3F
+https://github.com/edsilfer/android-user-onboarding - A simple and customizable android onboarding library written in Kotlin matching Material Guidelines.
+https://medium.com/@macastiblancot/android-coroutines-getting-rid-of-runonuithread-and-callbacks-cleaner-thread-handling-and-more-234c0a9bd8eb#.nl51cyj3l
+https://medium.com/@workingkills/pushing-the-limits-of-kotlin-annotation-processing-8611027b6711#.c7s7nqybs
+https://medium.com/@workingkills/you-wont-believe-this-one-weird-trick-to-handle-android-intent-extras-with-kotlin-845ecf09e0e9#.wex94ybde
+https://hashnode.com/post/why-i-abandoned-java-in-favour-of-kotlin-ciuzhmecf09khdc530m1ghu6d
+https://code.tutsplus.com/articles/coding-functional-android-apps-in-kotlin-lambdas-null-safety-more--cms-27964
+https://habrahabr.ru/post/321600/
+https://medium.com/@gz_k/4ee3ad294674#.upkpchrew
+http://kotlinlang.ru/ aka http://kotlin.su/
+javamind-fr.blogspot.com.by/2017/01/script-gradle-kotlin-vs-groovy.html
+https://mercury.postlight.com/
+
+23 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=639f410549
+24 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=f6c05671c8
+25 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=352dca4ff7
+26 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=df7cd5c3c2
+27 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=8bc4e38bf0
+28 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=ac38ce9361
+29 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=503b57bb78
+30 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=0de9fa5baa
+31 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=6605c39b6f
+32 http://us12.campaign-archive1.com/?u=f39692e245b94f7fb693b6d82&id=3429f629eb
+33 http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=ad8cfb9feb
+
+// https://github.com/milos85vasic/Dispatcher
+// https://www.youtube.com/watch?v=hhWAA4aeJbc
+// https://www.youtube.com/watch?v=53JrKl5NR5o
+// https://www.youtube.com/watch?v=IxgIhBwDNDU
+// https://github.com/danneu/kog
+// https://github.com/sanity/kweb
+// https://github.com/danneu/kobx
+// https://dzone.com/articles/java-wish-list-the-top-differences-between-java-sc
+// https://medium.com/@lukleDev/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974#.orh80cps6
+
+// https://github.com/cy6erGn0m/vertx3-lang-kotlin // archive
+
+https://medium.com/@ahmedrizwan
+https://learnxinyminutes.com/docs/kotlin/
+https://medium.com/uptech-team/how-kotlin-became-our-primary-language-for-android-3af7fd6a994c#.3585vkuvp
+
+http://otfried.org/courses/cs109/index.html
+
+https://github.com/orangy/squash
+https://github.com/ilya-g/gradle-multitarget-nested
+https://github.com/cy6erGn0m/kotlin-rxokhttp-websocket
+https://github.com/zengzhihao/rxpromise-kotlin
+https://github.com/pakoito/Komprehensions
+https://habrahabr.ru/post/312776/
+https://hashnode.com/post/why-i-abandoned-java-in-favour-of-kotlin-ciuzhmecf09khdc530m1ghu6d
+https://pspdfkit.com/blog/2016/restoring-state-in-android-mvp-architecture/
+https://medium.com/@haarman.niek/async-await-in-android-f0202cf31088#.1oia3qgss
+https://medium.com/uptech-team/how-kotlin-became-our-primary-language-for-android-3af7fd6a994c#.aeyr6vw3t
+https://medium.com/@DarrenAtherton/intro-to-data-classes-in-kotlin-7f956d54365c#.li5n8yzbg
+https://developmentdave.wordpress.com/2016/10/26/kotlin-vs-java-7-brevity/
+http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=5436cdfa62
+https://www.novoda.com/blog/composing-functions-in-kotlin-with-extensions-and-operators/
+https://www.raywenderlich.com/132381/kotlin-for-android-an-introduction
+https://www.linkedin.com/pulse/adventures-blot-rxkotlin-john-farrell
+
+https://github.com/penemue/modular-arithmetik
+https://github.com/AntonRutkevich/annotation-processor-in-kotlin-setup
+
+## Tutorials
+- [Kotlin for Android (I~IV)](http://antonioleiva.com/kotlin/)
+- [Kotlin for Android Developers](http://www.javaadvent.com/2015/12/kotlin-android.html)
+- [Streamline Android Java Code with Kotlin](http://www.sitepoint.com/streamline-android-java-code-with-kotlin/)
+- [Android development with Kotlin](http://inaka.net/blog/2016/01/15/android-development-with-kotlin/)
+- [Building APIs on the JVM Using Kotlin and Spark](http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/)
+- [Using Project Kotlin for Android](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit)
+- [Kotlin for cross platform mobile app development](https://robovm.com/kotlin-for-cross-platform-mobile-app-development/)
+
+## Articles
+- [Early Impressions of Kotlin](http://natpryce.com/articles/000815.html)
+- [Better Annotation Processing: Supporting Stubs in kapt](http://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/)
+- [One month with Kotlin](https://medium.com/@ademar111190/one-month-with-kotlin-2d3d9bbd7840#.73d5en952)
+- [Kotlin my productivity language](https://medium.com/@mplatvoet/kotlin-6a09afc655b9#.ut2k99bvl)
+- [Why Kotlin is my next programming language](https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3#.sxlaz9821)
+- [Quasar and Kotlin ? a Powerful Match](http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/)
+- [The Kobalt diaries: Android](http://beust.com/weblog/2015/11/04/the-kobalt-diaries-android/)
+- [Exploring the Kotlin standard library](beust.com/weblog/2015/10/30/exploring-the-kotlin-standard-library/)
+- [Swift is like Kotlin](http://nilhcem.github.io/swift-is-like-kotlin/)
+- [Backlog Android: From Java to Kotlin With Lots of Fun](https://nulab-inc.com/blog/nulab/backlog-android-from-java-to-kotlin-with-lots-of-fun/)
+- [Type-safe Web with Kotlin](https://jaxenter.com/type-safe-web-with-kotlin-106187.html)
+
+## Tools
+- [kotlin-plugin-eclipse](https://marketplace.eclipse.org/content/kotlin-plugin-eclipse) - The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.
+- [android-parcelable-intellij-plugin-kotlin](https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin) - Plugin which generates Android Parcelable boilerplate code in Intellji/Android Studio.
+
+## Others
+- [kotlin-for-android-developers-zh](https://github.com/wangjiegulu/kotlin-for-android-developers-zh/blob/master/SUMMARY.md)
+- [Kotlin-in-Chinese](https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details)
+- [Kotlin Reference in Chinese](http://www.jianshu.com/notebooks/2822252/latest)
+
+## Kotlin with Android
+* [Using Project Kotlin for Android](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit?hl=en&forcehl=1#heading=h.96ldte2znfpc) by [Jake Wharton](https://github.com/JakeWharton)
+* [Android, Rx and Kotlin: a case study](http://beust.com/weblog/2015/03/23/android-rx-and-kotlin-a-case-study/)
+
+## Kotlin examples
+* [Kotlin workshop by JetBrains](https://github.com/JetBrains/workshop-jb)
+* [Example of Android project showing integration with Kotlin and Dagger 2](https://github.com/damianpetla/kotlin-dagger-example)
+* [Musical - kotlin sample application](https://github.com/tommykw/Musical)
+* [Andoid app with Kotlin and MVP](https://github.com/michaldrabik/KotlinMVP)
+
+## Android apps built with Kotlin on Github
+* [Blood sugar tracking App for Android](https://github.com/nlefler/Glucloser)
+* [Android app for generating color palettes](https://github.com/hzsweers/palettehelper)
+* [A Weather Android App in Kotlin](https://github.com/dpolishuk/weather-android-kotlin)
+
+## Slides
+* [Kotlin: New Hope in a Java 6 Wasteland by Michael Pardo
+](https://speakerdeck.com/pardom/kotlin-new-hope-in-a-java-6-wasteland)
+* [Advancing Development with Kotlin (Droidcon UK 2015) by Jake Wharton](https://speakerdeck.com/jakewharton/advancing-development-with-kotlin-droidcon-uk-2015)
+* [10 Extension Functions of Kotlin in Android Development](https://speakerdeck.com/magiepooh/10-extension-functions-of-kotlin-in-android-development)
+
+## Videos
+* [Kotlin: Practical Aspects of JVM Language Implementation](https://www.youtube.com/watch?v=SdvFwRmyVRM)
+* [Using Kotlin in an existing Java code base](https://www.youtube.com/watch?v=eDHUabQMRb4)
+* [Droidcon NYC 2015 - Kotlin: New Hope in a Java 6 Wasteland](https://www.youtube.com/watch?v=0BiPmgk3nyw)
+* [The Unpuzzling Kotlin: Bringing Clarity to Your Code](https://www.parleys.com/tutorial/52a753b9e4b0e619540cc4a9/)
+* [Advancing Development with Kotlin by Jake Wharton](https://speakerdeck.com/jakewharton/advancing-development-with-kotlin-droidcon-uk-2015)
+* [Flexible Types in Kotlin](https://www.youtube.com/watch?v=2IhT8HACc2E)
+* [Introduction to Kotlin: Making the Java Platform a Better Place](https://www.youtube.com/watch?v=sP9R9Nc3sRA)
+* [Advanced Kotlin: New Features and More](https://www.youtube.com/watch?v=rwsvbSve_BI)
+* [Functional Programming with Kotlin](https://www.youtube.com/watch?v=AhA-Q7MOre0)
+* [Advancing Android Development with the Kotlin Language
+](http://jakewharton.com/presentation/2015-11-06-oredev/)
+* [Advancing Development with the Kotlin Language at Droidcon London](https://skillsmatter.com/skillscasts/6651-advancing-development-with-the-kotlin-language)
+* [Advancing Android Development with Kotlin](https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/)
+* [I built an app in Kotlin, and my client still paid me](https://www.youtube.com/watch?v=d7BiXy3Qdt8&feature=youtu.be)
+* [Programming Android with Kotlin](https://www.youtube.com/watch?v=011AL3Z6VmM&feature=youtu.be)
+
+http://smyachenkov.com/posts/kotlin-static-analysis-tools/
+https://github.com/cdimascio/openapi-spring-webflux-validator
+https://blog.kotlin-academy.com/flutter-and-kotlin-multiplatform-relationship-890616005f57
+https://github.com/Mindinventory/minavdrawer
+http://oneeyedmen.com/fun-with-maps-part-1.html
+http://oneeyedmen.com/fun-with-maps-part-2.html
+https://americanexpress.io/advanced-kotlin-delegates/
+https://github.com/rybalkinsd/kohttp
+https://medium.com/@pere_44849/the-advantages-of-java-over-kotlin-d1a9ff6369d
+https://github.com/iFanie/Intervention
+https://blog.frankel.ch/exercises-programming-style/8/
+https://natanfudge.github.io/fudgedocs/publish-kotlin-mpp-lib.html
+https://medium.com/@jeremyrempel/painless-dagger-android-kotlin-2c3767a24508
+https://github.com/felipecsl/kales
+https://www.petrikainulainen.net/programming/testing/running-kotlin-tests-with-gradle/
+https://ahsensaeed.com/sealed-classes-kotlinx-serialization-deserialization/
+https://medium.com/@sergei.rybalkin/upload-file-to-google-drive-with-kotlin-931cec5252c1
+https://brunoaybar.com/kotlin-android-synthetic-import-part-2
+https://dev.to/kerooker/testing-a-spring-boot-application-with-kotlintest-pgd
+https://medium.com/@elizarov/exceptions-in-kotlin-flows-b59643c940fb
+https://blog.kotlin-academy.com/httpmock-my-first-oss-library-5bae8adbccf4
+https://medium.com/@hinchman_amanda/troubleshooting-kotlin-mockito-in-android-testing-f5df66ae5cd5
+https://github.com/bcgit/bc-kotlin
+https://proandroiddev.com/forever-suspended-what-if-your-lateinit-var-was-really-late-b2652cc85de0
+https://medium.com/@BladeCoder/advanced-json-parsing-techniques-using-moshi-and-kotlin-daf56a7b963d
+https://www.inovex.de/blog/kotlin-multiplatform-for-clean-architecture/
+https://developer.squareup.com/blog/announcing-shark-smart-heap-analysis-reports-for-kotlin/
+https://www.callicoder.com/categories/kotlin/
+https://www.kotlindevelopment.com/data-pipelines-kotlin-akka-kafka/
+https://blog.kotlin-academy.com/a-little-reflection-about-coroutines-34050cbc4fe6
+https://quickbirdstudios.com/blog/gradle-kotlin-buildsrc-plugin-android/
+https://medium.com/@timelzayus/designing-a-kotlin-memory-safe-mode-c76c06317c3e
+https://medium.com/@bards95/comparative-evaluation-of-selected-constructs-in-java-and-kotlin-part-1-dynamic-metrics-2592820ce80
+https://dev.by/news/konferenciya-kotlin-everywhere-proidyot-v-minske-7-sentyabrya
+
+# Archive
+https://github.com/DavidMellul/Kotlin-Publish-Subscribe
+https://habr.com/ru/post/471670/
+
+https://www.youtube.com/watch?v=_n1M8G5ifKo
+
+https://ahsensaeed.com/asynchronous-programming-kotlin-coroutines/
+https://kotlin.christmas/2019/12
+https://kotlindays.com/2019/12/12/kotlin-poet/index.html
+
+https://medium.com/@cortinico/calling-the-kotlin-opensource-developers-d2fc97102e57
+https://enoent.fr/posts/compiling-a-kotlin-application-with-bazel/
+https://okkotlin.com/inline-classes/
+https://www.reddit.com/r/Kotlin/comments/e7hire/how_big_of_a_deal_is_kotlin/
+https://discuss.kotlinlang.org/t/how-to-protect-against-misplaced-return/15335
+https://github.com/dropbox/Store
+https://github.com/fogone/simple-kotlin-scripting
+https://github.com/JetBrains/lets-plot
+https://github.com/mozilla/glean
+https://kotlindays.com/2019/12/04/using-koin-for-dependency-injection/index.html
+https://jakewharton.com/public-api-challenges-in-kotlin/
+https://medium.com/@patrickcousins/kotlin-extension-functions-more-than-sugar-1f04ca7189ff
+https://blog.frankel.ch/kotlin-operators/
+https://github.com/dickensas/kotlin-gradle-templates/tree/master/sboot-wasm
+
+https://jivimberg.io/blog/2019/05/09/mockk-features-rundown/
+https://itnext.io/code-generation-for-backend-and-frontend-when-why-and-how-a14d1cbbc47b?sk=82f0e88a5de5b383c65f6a5261c05ff3
+https://github.com/SaeedMasoumi/sweep-gson
+http://oneeyedmen.com/press-to-test-part-1.html
+http://oneeyedmen.com/press-to-test-part-2.html
+https://medium.com/@kpgalligan/debugging-kotlin-natives-compiler-3cba9daec076
+https://blog.frankel.ch/exercises-programming-style/3/
+https://medium.com/koin-developers/ready-for-koin-2-0-2722ab59cac3
+http://oneeyedmen.com/press-to-test-part-3.html
+https://medium.com/@sirech/mock-verification-in-kotlin-using-mockk-and-atrium-2aa31c23955d
+https://www.businessinsider.in/heres-why-companies-like-google-square-and-atlassian-are-sprinting-to-use-kotlin-the-fastest-growing-programming-language-according-to-github/amp_articleshow/69487942.cms
+
+[KotlinConf 2018](https://www.youtube.com/playlist?list=PLQ176FUIyIUbVvFMqDc2jhxS-t562uytr) 
+[lightningkite/kotlin-observable](https://github.com/lightningkite/kotlin-observable) - Platform-independent observable framework
+[Kotlin for Android & Java Developers](https://www.manning.com/livevideo/kotlin-for-android-and-java-developers)
+[Building Spring Boot Applications with the Kotlin Programming Language](https://www.manning.com/livevideo/building-spring-boot-applications-with-the-kotlin-programming-language) - A liveVideo course that teaches you to write clean, concise, easily maintainable Kotlin code using Spring Boot.
+[KaenDagger/KParser](https://github.com/KaenDagger/KParser) - Arithmetic Expression Parser Koltin Multi-Platform Library
+[PHELAT/LiveDataDSL](https://github.com/PHELAT/LiveDataDSL) - Generates DSL for LiveData observation
+[viartemev/the-white-rabbit](https://github.com/viartemev/the-white-rabbit) - Coroutine client for RabbitMQ.
+[Kotlin coding puzzles](https://github.com/igorwojda/kotlin-coding-puzzle) - Set of programming challenges thats helps to improve whiteboard coding and problem-solving skills.
+[Yummypets/JSON.kt](https://github.com/Yummypets/JSON.kt) - Kotlin JSON Parsing that infers type
+[zhudyos/duic](https://github.com/zhudyos/duic) Distributed configuration center（分布式配置中心）:new:
+[meiblorn/kotidgy](https://github.com/meiblorn/kotidgy) — Index-based text data generator written in Kotlin
+[Rasalexman/Flair](https://github.com/Rasalexman/Flair) - Powerful android architecture framework based on MVC pattern without fragments and activities with events system, view backstack and simple lifecycle. Clean Architecture
+[CuriousNikhil/Asynkio](https://github.com/CuriousNikhil/AsynKio) - Write your asynchronous Network / IO call painlessly in Kotlin.
+[starcoinorg/sirius](https://github.com/starcoinorg/sirius/) - Sirius implement a 2nd-layer financial intermediary protocol.
+[konanc-config/konanc-config](https://github.com/konanc-config/konanc-config) - Command line utility to read '*.kc' konanc config files to print compiler flags for konanc, the Kotlin Native compiler.
+[datkt](https://github.com/datkt) - An effort to implement the DAT protocol as small modules in Kotlin Native using the NPM package system.
+[pmwmedia/tinylog](https://github.com/pmwmedia/tinylog) - Lightweight logging framework with native logging API for Kotlin
+[dkandalov/limited-wip](https://github.com/dkandalov/limited-wip) - Plugin to limit your work-in-progress.
+[dkandalov/pomodoro-tm](https://github.com/dkandalov/pomodoro-tm) - Pomodoro timer.

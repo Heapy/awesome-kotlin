@@ -9,13 +9,11 @@ import link.kotlin.scripts.subcategory
  * Instead of deleting links (since they become 404, etc) move them here.
  */
 category("Archive") {
-  subcategory("Resources") {
+  subcategory("Everything") {
     link {
       name = "Public chat archive of Kotlin's Slack"
       href = "http://kotlinlang.slackarchive.io/"
     }
-  }
-  subcategory("Libraries/Frameworks") {
     link {
       name = "Kategory/Kategory"
       desc = "Functional datatypes & abstractions for Kotlin."
@@ -57,51 +55,26 @@ category("Archive") {
       href = "https://github.com/Levelmoney/kbuilders"
       type = github
     }
-  }
-  subcategory("Kotlin User Group") {
     link {
-      name = "China Kotlin User Group"
-      desc = "China"
-      href = "http://kotlin.cn/"
-      type = kug
-      tags = Tags["China"]
+      name =  "griffon/griffon-kotlin-plugin"
+      desc = "Griffon Support"
+      href = "https://github.com/griffon/griffon-kotlin-plugin"
+      type = github
+      tags = Tags["griffon"]
     }
-    link {
-      name = "Japan Kotlin User Group"
-      desc = "Japan"
-      href = "https://kotlin.doorkeeper.jp/"
-      type = kug
-      tags = Tags["Japan"]
-    }
-    link {
-      name = "Kotlin Group of Boulder"
-      desc = "USA"
-      href = "http://www.meetup.com/Kotlin-Group-Boulder/"
-      type = kug
-      tags = Tags["USA"]
-    }
-    link {
-      name = "Czech Kotlin User Group"
-      desc = "Czechia"
-      href = "http://kotliners.cz/"
-      type = kug
-      tags = Tags["Czechia", "Czech"]
-    }
-    link {
-      name = "Kotlin.es"
-      desc = "Spain"
-      href = "http://kotlin.es/"
-      type = kug
-      tags = Tags["Spain"]
-    }
-  }
-  subcategory("Android") {
     link {
       name = "Kotlin/anko"
       desc = "Pleasant Android application development."
       href = "https://github.com/Kotlin/anko"
       type = github
       tags = Tags["android"]
+    }
+    link {
+      name = "danfma/kotlinjs-react"
+      desc = "A react wrapper to the kotlin library."
+      href = "https://github.com/danfma/kotlinjs-react"
+      type = github
+      tags = Tags["react", "javascript", "ui"]
     }
   }
 }
