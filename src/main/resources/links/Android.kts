@@ -529,6 +529,13 @@ category("Android") {
       tags = Tags["android", "application"]
     }
     link {
+      name = "skydoves/DisneyMotions"
+      desc = "A beautiful Disney app using transformation motions based on MVVM architecture."
+      href = "https://github.com/skydoves/DisneyMotions"
+      type = github
+      tags = Tags["Android", "Application", "Kotlin", "Motion", "MVVM", "Architecture", "Coroutines"]
+    }
+    link {
       name = "ziggy42/Blum-kotlin"
       desc = "A simple android Twitter client written in Kotlin"
       href = "https://github.com/ziggy42/Blum-kotlin"
