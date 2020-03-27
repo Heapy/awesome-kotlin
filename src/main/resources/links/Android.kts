@@ -730,6 +730,13 @@ category("Android") {
       href = "https://github.com/VMadalin/kotlin-sample-app"
       type = github
     }
+    link {
+      name = "PatilShreyas/Foodium"
+      desc = "Foodium is a sample food blog Android application built to demonstrate use of Modern Android development tools - (Kotlin, Coroutines, Flow, Dagger 2, Architecture Components, MVVM, Room, Retrofit, Moshi, Material Components)."
+      href = "https://github.com/PatilShreyas/Foodium"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "architecture"]
+    }
   }
   subcategory("Extensions") {
     link {
