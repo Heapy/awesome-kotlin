@@ -216,6 +216,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/alpas/alpas"
       type = github
     }
+    link {
+      name = "jetbrains/kotless"
+      desc = "Kotlin serverless framework reducing the routine of serverless deployment."
+      href = "https://github.com/jetbrains/kotless"
+      type = github
+      tags = Tags["web", "microservice", "serverless"]
+    }
   }
   subcategory("Tests") {
     link {
