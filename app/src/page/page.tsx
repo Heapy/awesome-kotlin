@@ -91,7 +91,7 @@ class PageComponent extends React.Component<PageProps, PageState> {
       <div>
         <a href="https://github.com/KotlinBy/awesome-kotlin">
           <img className={styles.page_github_link}
-               src={require("./forkme_right_white_ffffff.png")}
+               src={require("./fork-me.svg")}
                alt="Fork me on GitHub"/></a>
 
         <Head/>
