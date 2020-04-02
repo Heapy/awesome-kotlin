@@ -228,6 +228,7 @@ Here awesome badge for your project:
 * [Ekito/koin](https://github.com/Ekito/koin) - A functional Kotlin dependency injection framework for Android and JVM.
 
 ### <a name="libraries-frameworks-coroutines"></a>Coroutines <sup>[Back ⇈](#libraries-frameworks-coroutines-subcategory)</sup>
+* [Kotlin/kotlin-coroutines](https://github.com/Kotlin/kotlin-coroutines) - Design documents and examples for coroutines in Kotlin.
 * [Rasalexman/coroutinesmanager](https://github.com/Rasalexman/coroutinesmanager) - try-catch safety coroutines manager
 * [rozkminiacz/FlowRiddles](https://github.com/rozkminiacz/FlowRiddles) - Repository for learning Kotlin Flow API
 * [soywiz/korui](https://github.com/soywiz/korui) - Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui
@@ -236,7 +237,6 @@ Here awesome badge for your project:
 * [soywiz/korio](https://github.com/soywiz/korio) - Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser.
 * [konrad-kaminski/spring-kotlin-coroutine](https://github.com/konrad-kaminski/spring-kotlin-coroutine) - Kotlin coroutine support for Spring.
 * [marcoferrer/kroto-plus](https://github.com/marcoferrer/kroto-plus) - Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC.
-* [Kotlin/kotlin-coroutines](https://github.com/Kotlin/kotlin-coroutines) - Design documents and examples for coroutines in Kotlin.
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Libraries built upon Kotlin coroutines.
 
 ### <a name="libraries-frameworks-functional-programming"></a>Functional Programming <sup>[Back ⇈](#libraries-frameworks-functional-programming-subcategory)</sup>
@@ -292,13 +292,13 @@ Here awesome badge for your project:
 * [Raizlabs/DBFlow](https://github.com/Raizlabs/DBFlow) - A blazing fast, powerful, and very simple ORM android database library that writes database code for you.
 
 ### <a name="libraries-frameworks-tools"></a>Tools <sup>[Back ⇈](#libraries-frameworks-tools-subcategory)</sup>
-* [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) - An IDE extension that helps you detect and fix quality issues as you write code.
 * [Vorlonsoft/EasyDokkaPlugin](https://github.com/Vorlonsoft/EasyDokkaPlugin) - Gradle Script plugin to generate documentation by Dokka for Kotlin and Java, Android and non-Android projects.
 * [cypressious/KotlinW](https://github.com/cypressious/KotlinW) - A small wrapper for the Kotlin compiler that can be used to execute .kts scripts.
 * [Vorlonsoft/GradleMavenPush](https://github.com/Vorlonsoft/GradleMavenPush) - Gradle Script plugin to upload Gradle Android/Kotlin/Java Artifacts to Maven repositories (JCenter, Maven Central, ...).
 * [kohesive/keplin](https://github.com/kohesive/keplin) - Secure Kotlin scripting and binary lambda-scripts.
 * [mkohm/detekt-hint](https://github.com/mkohm/detekt-hint) - Detection of design principle violations as a plugin to detekt.
 * [s1monw1/KtsRunner](https://github.com/s1monw1/KtsRunner) - Library for executing .kts files from regular Kotlin code using Java Scripting Engines API
+* [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) - An IDE extension that helps you detect and fix quality issues as you write code.
 * [jtransc/jtransc](https://github.com/jtransc/jtransc) - JVM AOT compiler created in Kotlin.
 * [jmfayard/buildSrcVersions](https://github.com/jmfayard/buildSrcVersions) - Better Gradle dependencies management inside the IDE. Search for available updates.
 * [holgerbrandl/kscript](https://github.com/holgerbrandl/kscript) - Scripting utils for Kotlin.
@@ -434,6 +434,7 @@ Here awesome badge for your project:
 * [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [GlimpseFramework/glimpse-framework](https://github.com/GlimpseFramework/glimpse-framework) - OpenGL made simple.
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
+* [openrndr/orx](https://github.com/openrndr/orx) - ORX is a collection extras for OPENRNDR which add support for sensors, live-coding, user interfaces and much more.
 * [java-opengl-labs/Vulkan](https://github.com/java-opengl-labs/Vulkan) - port of https://github.com/SaschaWillems/Vulkan
 * [java-opengl-labs/learn-OpenGL](https://github.com/java-opengl-labs/learn-OpenGL) - port of https://learnopengl.com/ tutorial (lwjgl)
 * [kotlin-graphics/glm](https://github.com/kotlin-graphics/glm) - g-truck glm port, opengl mathematics library
@@ -442,6 +443,7 @@ Here awesome badge for your project:
 * [java-opengl-labs/modern-jogl-examples](https://github.com/java-opengl-labs/modern-jogl-examples) - port of 'Learning Modern 3D Graphic Programming' by J.L.McKesson (jogl)
 * [data2viz/data2viz](https://github.com/data2viz/data2viz) - multiplatform dataviz library, d3js port
 * [kotlin-graphics/imgui](https://github.com/kotlin-graphics/imgui) - jvm port of imgui
+* [openrndr/openrndr](https://github.com/openrndr/openrndr) - OPENRNDR, a framework for creative coding in Kotlin. Accelerated 2D and 3D graphics, vector graphics, shaders and animation
 
 ### <a name="libraries-frameworks-data-science"></a>Data Science <sup>[Back ⇈](#libraries-frameworks-data-science-subcategory)</sup>
 * [Kotlin for Data Science](https://kotlinlang.org/docs/reference/data-science-overview.html) - Kotlin for Data Science overview page
