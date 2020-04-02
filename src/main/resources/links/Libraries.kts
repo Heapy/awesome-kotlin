@@ -1770,6 +1770,20 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["ksvg", "svg", "kotlin", "dsl"]
     }
+    link {
+      name = "openrndr/openrndr"
+      desc = "OPENRNDR, a framework for creative coding in Kotlin. Accelerated 2D and 3D graphics, vector graphics, shaders and animation"
+      href = "https://github.com/openrndr/openrndr"
+      type = github
+      tags = Tags["opengl", "creative-coding", "kotlin", "dsl", "shaders", "ljwgl"]
+    }
+    link {
+      name = "openrndr/orx"
+      desc = "ORX is a collection extras for OPENRNDR which add support for sensors, live-coding, user interfaces and much more."
+      href = "https://github.com/openrndr/orx"
+      type = github
+      tags = Tags["opengl", "creative-coding", "kotlin", "dsl", "shaders", "ljwgl"]
+    }
   }
   subcategory("Data Science") {
     link {
