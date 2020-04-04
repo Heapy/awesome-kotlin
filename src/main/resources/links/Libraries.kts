@@ -687,6 +687,13 @@ category("Libraries/Frameworks") {
       tags = Tags["json"]
     }
     link {
+      name = "marifeta/kvalidator"
+      desc = "Kotlin validator (compatible with laravel validation rules) for json kotlinx.serialization!"
+      href = "https://github.com/marifeta/kvalidator"
+      type = github
+      tags = Tags["json", "validation", "laravel", "laravel-validation"]
+    }
+    link {
       name = "Jire/KTON"
       desc = "Object notation in pure Kotlin!"
       href = "https://github.com/Jire/KTON"
