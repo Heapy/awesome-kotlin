@@ -753,7 +753,7 @@ category("Libraries/Frameworks") {
     link {
       name = "darkredz/zeko-sql-builder"
       desc = "Zeko SQL Builder is a high-performance lightweight SQL query library with optional data access through HikariCP & Vert.x JDBC client"
-      href = "https://github.com/seratch/kotliquery"
+      href = "https://github.com/darkredz/Zeko-SQL-Builder"
       type = github
       tags = Tags["database", "sql", "query", "vert.x", "hikari-cp"]
     }
