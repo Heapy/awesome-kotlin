@@ -751,6 +751,13 @@ category("Libraries/Frameworks") {
       type = github
     }
     link {
+      name = "darkredz/zeko-sql-builder"
+      desc = "Zeko SQL Builder is a high-performance lightweight SQL query library with optional data access through HikariCP & Vert.x JDBC client"
+      href = "https://github.com/seratch/kotliquery"
+      type = github
+      tags = Tags["database", "sql", "query", "vert.x", "hikari-cp"]
+    }
+    link {
       name = "seratch/kotliquery"
       desc = "A handy database access library in Kotlin."
       href = "https://github.com/seratch/kotliquery"
