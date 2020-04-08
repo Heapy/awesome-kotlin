@@ -429,6 +429,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "assert", "random", "random-generation"]
     }
+    link {
+      name = "from-source/kiwi"
+      desc = "Fluent assertions library with support of json path."
+      href = "https://github.com/from-source/kiwi"
+      type = github
+      tags = Tags["test", "testing", "assert", "dsl", "multiplatform", "jsonpath"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
