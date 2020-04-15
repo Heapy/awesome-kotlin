@@ -1566,6 +1566,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vittee/kformula"
       type = github
     }
+    link {
+      name = "kotlin-telegram-bot/kotlin-telegram-bot"
+      desc = "A wrapper for the Telegram Bot API written in Kotlin."
+      href = "https://github.com/kotlin-telegram-bot/kotlin-telegram-bot"
+      type = github
+    }
   }
   subcategory("Raspberry Pi") {
     link {
