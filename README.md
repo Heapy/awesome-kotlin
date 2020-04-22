@@ -175,8 +175,8 @@ Here awesome badge for your project:
 * [hexagonkt/hexagon](https://github.com/hexagonkt/hexagon) - A Microservices framework that takes care of HTTP, serialization and storage.
 * [hypercube1024/firefly](https://github.com/hypercube1024/firefly) - An asynchronous web framework for rapid development of high-performance web application.
 * [SeunAdelekan/Kanary](https://github.com/SeunAdelekan/Kanary) - A micro webframework for Kotlin
-* [kwebio/kweb-core](https://github.com/kwebio/kweb-core) - Build rich live-updating web apps in pure server-side Kotlin.
 * [jetbrains/kotless](https://github.com/jetbrains/kotless) - Kotlin serverless framework reducing the routine of serverless deployment.
+* [kwebio/kweb-core](https://github.com/kwebio/kweb-core) - Build rich live-updating web apps in pure server-side Kotlin.
 * [TinyMission/kara](https://github.com/TinyMission/kara) - Web framework written in Kotlin.
 * [hhariri/wasabi](https://github.com/wasabifx/wasabi) - An HTTP Framework built with Kotlin for the JVM.
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
@@ -207,8 +207,8 @@ Here awesome badge for your project:
 * [permissions-dispatcher/kompile-testing](https://github.com/permissions-dispatcher/kompile-testing) - Testing tools for kotlinc and kapt.
 * [dmcg/minutest](https://github.com/dmcg/minutest) - Simple, Expressive, Extensible Testing for Kotlin on the JVM
 * [skrapeit/skrape.it](https://github.com/skrapeit/skrape.it) - A DSL-driven HTML/XML parser-library that enables meaningful testing of rendered HTML templates.
-* [codecentric/hikaku](https://github.com/codecentric/hikaku) - A library that tests if the implementation of a REST-API meets its specification.
 * [karumi/KotlinSnapshot](https://github.com/Karumi/KotlinSnapshot) - Verify your data with snapshot testing.
+* [codecentric/hikaku](https://github.com/codecentric/hikaku) - A library that tests if the implementation of a REST-API meets its specification.
 * [winterbe/expekt](https://github.com/winterbe/expekt) - BDD assertion library for Kotlin.
 * [robfletcher/strikt](https://github.com/robfletcher/strikt/) - An assertion library for Kotlin
 * [robstoll/atrium](https://github.com/robstoll/atrium) - Multiplatform assertion library for Kotlin supporting i18n.
@@ -295,6 +295,7 @@ Here awesome badge for your project:
 * [Raizlabs/DBFlow](https://github.com/Raizlabs/DBFlow) - A blazing fast, powerful, and very simple ORM android database library that writes database code for you.
 
 ### <a name="libraries-frameworks-tools"></a>Tools <sup>[Back ⇈](#libraries-frameworks-tools-subcategory)</sup>
+* [arturbosch/detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
 * [Vorlonsoft/EasyDokkaPlugin](https://github.com/Vorlonsoft/EasyDokkaPlugin) - Gradle Script plugin to generate documentation by Dokka for Kotlin and Java, Android and non-Android projects.
 * [cypressious/KotlinW](https://github.com/cypressious/KotlinW) - A small wrapper for the Kotlin compiler that can be used to execute .kts scripts.
 * [Vorlonsoft/GradleMavenPush](https://github.com/Vorlonsoft/GradleMavenPush) - Gradle Script plugin to upload Gradle Android/Kotlin/Java Artifacts to Maven repositories (JCenter, Maven Central, ...).
@@ -306,7 +307,6 @@ Here awesome badge for your project:
 * [jmfayard/buildSrcVersions](https://github.com/jmfayard/buildSrcVersions) - Better Gradle dependencies management inside the IDE. Search for available updates.
 * [holgerbrandl/kscript](https://github.com/holgerbrandl/kscript) - Scripting utils for Kotlin.
 * [Kotlin/dokka](https://github.com/Kotlin/dokka) - Documentation Engine for Kotlin.
-* [arturbosch/detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin.
 * [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter.
 
 ### <a name="libraries-frameworks-code-generators"></a>Code Generators <sup>[Back ⇈](#libraries-frameworks-code-generators-subcategory)</sup>
@@ -630,8 +630,8 @@ Here awesome badge for your project:
 * [ahong222/happy21](https://github.com/ahong222/happy21) - A simple game of Black-Jack write with kotlin
 * [inshiro/Kodesh](https://github.com/inshiro/Kodesh) - Free and open source Bible for Android
 * [massivedisaster/AFM](https://github.com/massivedisaster/AFM) - An library to help android developers working easly with activities and fragments with Kotlin
-* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [hanjoongcho/aaf-easypassword](https://github.com/hanjoongcho/aaf-easypassword) - A password manager using a single lock pattern for various type passwords management.
+* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [MakinGiants/todayhistory](https://github.com/MakinGiants/todayhistory) - App that shows what happened today in history.
 * [RxKotlin/Pocket](https://github.com/RxKotlin/Pocket) - This app help user to save links easily, and can export to Evernote as weekly.
 * [hanjoongcho/aaf-easyphotomap](https://github.com/hanjoongcho/aaf-easyphotomap) - This is a photomap app that shows photos taken on a map.
@@ -646,8 +646,8 @@ Here awesome badge for your project:
 * [dgngulcan/droid-feed](https://github.com/dgngulcan/droid-feed) - News feed aggregated exclusively for Android Developers.
 * [AllanWang/KAU](https://github.com/AllanWang/KAU) - An extensive collection of Kotlin Android Utils
 * [hanjoongcho/aaf-easydiary](https://github.com/hanjoongcho/aaf-easydiary) - This is a diary application optimized to user experience.
-* [cuongpm/youtube-dl-android](https://github.com/cuongpm/youtube-dl-android) - Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites.
 * [SidneyXu/AndroidDemoIn4Languages](https://github.com/SidneyXu/AndroidDemoIn4Languages) - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
+* [cuongpm/youtube-dl-android](https://github.com/cuongpm/youtube-dl-android) - Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites.
 * [SimpleMobileTools/Simple-Draw](https://github.com/SimpleMobileTools/Simple-Draw) - A canvas you can draw on with different colors.
 * [SimpleMobileTools/Simple-Notes](https://github.com/SimpleMobileTools/Simple-Notes) - A simple textfield for adding quick notes without ads.
 * [dodyg/AndroidRivers](https://github.com/dodyg/AndroidRivers) - RSS Readers for Android.
