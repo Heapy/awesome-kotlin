@@ -577,8 +577,8 @@ Here awesome badge for your project:
 * [bakhtiyork/gradients](https://github.com/bakhtiyork/gradients) - A curated collection of splendid gradients
 * [costular/kotlin-android-utils](https://github.com/costular/kotlin-android-utils) - Android utilities for easier and faster Kotlin programming.
 * [rahulchowdhury/Mystique](https://github.com/rahulchowdhury/Mystique) - A generalized adapter for RecyclerView on Android which makes it easy to add heterogeneous items to a list.
-* [MarcinMoskala/KotlinPreferences](https://github.com/MarcinMoskala/KotlinPreferences) - Kotlin Android Library, that makes preference usage in Kotlin simple and fun.
 * [levibostian/Shutter-Android](https://github.com/levibostian/Shutter-Android) - an Android library to take photos, record videos, pick images/videos from gallery, with ease. Written in Kotlin.
+* [MarcinMoskala/KotlinPreferences](https://github.com/MarcinMoskala/KotlinPreferences) - Kotlin Android Library, that makes preference usage in Kotlin simple and fun.
 * [adrielcafe/HAL](https://github.com/adrielcafe/hal) - A non-deterministic finite-state machine for Android & JVM that won't let you down.
 * [PicsArt/stateful](https://github.com/PicsArt/stateful) - Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state.
 * [adrielcafe/PufferDB](https://github.com/adrielcafe/pufferdb) - An Android & JVM key-value storage powered by Protobuf and Coroutines.
