@@ -1596,6 +1596,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/davidepianca98/KMQTT"
       type = github
     }
+    link {
+      name = "GitLiveApp/firebase-kotlin-sdk"
+      desc = "A Kotlin-first Multiplatform SDK for Firebase supporting iOS, Android & Web"
+      href = "https://github.com/GitLiveApp/firebase-kotlin-sdk"
+      type = github
+      tags = Tags["firebase", "firestore", "multiplatform"]
+    }
   }
   subcategory("Extensions") {
     link {
