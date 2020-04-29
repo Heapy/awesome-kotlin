@@ -17,6 +17,13 @@ category("Libraries/Frameworks") {
       tags = Tags["web"]
     }
     link {
+      name = "darkredz/Zeko-RestApi"
+      desc = "Fun, simple & lightweight async RESTful API framework on top of Vert.x. Automatic Swagger doc & code generation via Kotlin kapt"
+      href = "https://github.com/darkredz/zeko-restapi-framework"
+      type = github
+      tags = Tags["web", "http", "rest", "vert.x", "swagger", "openapi", "microframework", "rest-api", "reactive", "mvc"]
+    }
+    link {
       name = "TinyMission/kara"
       desc = "Web framework written in Kotlin."
       href = "https://github.com/TinyMission/kara"
