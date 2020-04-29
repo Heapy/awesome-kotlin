@@ -429,6 +429,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["test", "testing", "assert", "random", "random-generation"]
     }
+    link {
+      name = "from-source/kiwi"
+      desc = "Fluent assertions library with support of json path."
+      href = "https://github.com/from-source/kiwi"
+      type = github
+      tags = Tags["test", "testing", "assert", "dsl", "multiplatform", "jsonpath"]
+    }
   }
   subcategory("Dependency Injection") {
     link {
@@ -1559,6 +1566,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/vittee/kformula"
       type = github
     }
+    link {
+      name = "kotlin-telegram-bot/kotlin-telegram-bot"
+      desc = "A wrapper for the Telegram Bot API written in Kotlin."
+      href = "https://github.com/kotlin-telegram-bot/kotlin-telegram-bot"
+      type = github
+    }
   }
   subcategory("Raspberry Pi") {
     link {
@@ -1582,6 +1595,13 @@ category("Libraries/Frameworks") {
       desc = "MQTT Broker library/executables for Kotlin multiplatform."
       href = "https://github.com/davidepianca98/KMQTT"
       type = github
+    }
+    link {
+      name = "GitLiveApp/firebase-kotlin-sdk"
+      desc = "A Kotlin-first Multiplatform SDK for Firebase supporting iOS, Android & Web"
+      href = "https://github.com/GitLiveApp/firebase-kotlin-sdk"
+      type = github
+      tags = Tags["firebase", "firestore", "multiplatform"]
     }
   }
   subcategory("Extensions") {
