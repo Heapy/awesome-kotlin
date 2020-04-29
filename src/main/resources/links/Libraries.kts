@@ -993,6 +993,15 @@ category("Libraries/Frameworks") {
       tags = Tags["gradle", "plugin", "build", "development", "libraries", "versions"]
     }
   }
+  subcategory("Continuous Integration") {
+    link {
+      name = "danger/kotlin"
+      desc = "Stop saying \"you forgot to …\" in code review in Kotlin"
+      href = "https://github.com/danger/kotlin"
+      type = github
+      tags = Tags["danger", "ci", "continuous", "integration", "code", "review"]
+    }
+  }
   subcategory("Code Generators") {
     link {
       name = "jhipster/jhipster-kotlin"
