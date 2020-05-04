@@ -369,8 +369,8 @@ Here awesome badge for your project:
 * [sargunster/KtUnits](https://github.com/sargunster/KtUnits) - Tiny unit conversion library for Kotlin.
 * [evoasm/kasm](https://github.com/evoasm/kasm) - x64/x86-64 assembler and execution library
 * [sargunster/CakeParse](https://github.com/sargunster/CakeParse) - Simple parser combinator library for Kotlin.
-* [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
+* [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
 * [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
@@ -436,10 +436,10 @@ Here awesome badge for your project:
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
 * [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - Unofficial OpenGL SDK
-* [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
 * [GlimpseFramework/glimpse-framework](https://github.com/GlimpseFramework/glimpse-framework) - OpenGL made simple.
 * [nwillc/ksvg](https://github.com/nwillc/ksvg) - Kotlin SVG image generation DSL, supporting inline and file formats.
 * [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
+* [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
 * [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [Jonatino/JOGL2D](https://github.com/Jonatino/JOGL2D) - Zero-overhead 2D rendering library for JOGL using Kotlin.
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
