@@ -413,6 +413,12 @@ category("Projects") {
       href = "https://github.com/mrcsxsiq/Kotlin-Pokedex"
       type = github
     }
+    link {
+      name = "LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
+      desc = "Learn Kotlin Coroutines for Android by example. Sample implementations for real-world Android use cases. Unit tests included."
+      href = "https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
+      type = github
+    }
   }
   subcategory("Idea Plugins") {
     link {
