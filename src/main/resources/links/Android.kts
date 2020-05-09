@@ -737,6 +737,13 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin", "mvvm", "architecture"]
     }
+    link {
+      name = "skydoves/MarvelHeroes"
+      desc = "A sample Marvel heroes application based on MVVM (ViewModel, Coroutines, LiveData, Room, Repository, Koin)  architecture."
+      href = "https://github.com/skydoves/MarvelHeroes"
+      type = github
+      tags = Tags["android", "kotlin", "mvvm", "architecture", "coroutines", "motion", "app"]
+    }
   }
   subcategory("Extensions") {
     link {
