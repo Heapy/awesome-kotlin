@@ -195,16 +195,16 @@ Here awesome badge for your project:
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
 * [jcornaz/kwik](https://github.com/jcornaz/kwik) - A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library.
 * [EranBoudjnah/TestIt](https://github.com/EranBoudjnah/TestIt) - Generate unit testing boilerplate from kotlin files.
-* [from-source/kiwi](https://github.com/from-source/kiwi) - Fluent assertions library with support of json path.
 * [neworld/kupiter](https://github.com/neworld/kupiter) - Kotlin DSL for Junit5
+* [from-source/kiwi](https://github.com/from-source/kiwi) - Fluent assertions library with support of json path.
 * [mvysny/DynaTest](https://github.com/mvysny/dynatest) - Write your tests in DSL way. Runs on JUnit5 Platform.
 * [tyro/arbitrater](https://github.com/tyro/arbitrater) - Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing.
 * [dmcg/konsent](https://github.com/dmcg/konsent) - An acceptance test library for Kotlin.
 * [EranBoudjnah/RandomGenKt](https://github.com/EranBoudjnah/RandomGenKt) - Initialize instances of any class with generated data.
 * [dam5s/aspen](https://github.com/dam5s/aspen) - Aspen is an RSpec and Spek inspired test runner for Kotlin.
 * [xgouchet/Elmyr](https://github.com/xgouchet/Elmyr) - A utility to make Kotlin/Java tests random yet reproducible
-* [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker) - Port of ruby faker gem written in kotlin
 * [qwertukg/SeleniumBuilder](https://github.com/qwertukg/SeleniumBuilder) - DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin builder style.
+* [serpro69/kotlin-faker](https://github.com/serpro69/kotlin-faker) - Port of ruby faker gem written in kotlin
 * [EPadronU/balin](https://github.com/EPadronU/balin) - Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb.
 * [permissions-dispatcher/kompile-testing](https://github.com/permissions-dispatcher/kompile-testing) - Testing tools for kotlinc and kapt.
 * [dmcg/minutest](https://github.com/dmcg/minutest) - Simple, Expressive, Extensible Testing for Kotlin on the JVM
@@ -355,8 +355,8 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-misc"></a>Misc <sup>[Back ⇈](#libraries-frameworks-misc-subcategory)</sup>
 * [d-max/dsl-logger](https://github.com/d-max/dsl-logger) - Simple DSL for logging with logger abstraction layer
-* [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
 * [saschpe/log4k](https://github.com/saschpe/log4k) - Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments.
+* [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
 * [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
 * [nickhristov/krakdown](https://github.com/nickhristov/krakdown) - A native markdown parser written in Kotlin.
@@ -456,8 +456,8 @@ Here awesome badge for your project:
 
 ### <a name="libraries-frameworks-data-science"></a>Data Science <sup>[Back ⇈](#libraries-frameworks-data-science-subcategory)</sup>
 * [Kotlin for Data Science](https://kotlinlang.org/docs/reference/data-science-overview.html) - Kotlin for Data Science overview page
-* [JetBrains/lets-plot-kotlin](https://github.com/JetBrains/lets-plot-kotlin) - Grammar of graphics visualization for Kotlin
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
+* [JetBrains/lets-plot-kotlin](https://github.com/JetBrains/lets-plot-kotlin) - Grammar of graphics visualization for Kotlin
 * [MarcinMoskala/KotlinDiscreteMathToolkit](https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit) - Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions.
 * [mipt-npm/kmath](https://github.com/mipt-npm/kmath) - A (not so numpy-like) multiplatform mathematical library with higher level abstractions.
 * [breandan/kotlingrad](https://github.com/breandan/kotlingrad) - Shape-Safe Differentiable Programming with Algebraic Data Types.
@@ -568,8 +568,8 @@ Here awesome badge for your project:
 * [hpost/rx-brainwaves](https://github.com/hpost/rx-brainwaves) - RxJava wrapper for NeuroSky MindWave headsets
 * [robinchew/mvil](https://github.com/robinchew/mvil) - 'Virtual DOM' for Android inspired by Anvil.
 * [GlimpseFramework/glimpse-framework-android](https://github.com/GlimpseFramework/glimpse-framework-android) - OpenGL made simple.
-* [inshiro/Skate](https://github.com/inshiro/skate) - A simple and easy to use Android fragment stack controller
 * [programmerr47/ganalytics](https://github.com/programmerr47/ganalytics) - A tiny api layer for any analytics in application.
+* [inshiro/Skate](https://github.com/inshiro/skate) - A simple and easy to use Android fragment stack controller
 * [andre-artus/AnvilKotlin](https://github.com/andre-artus/AnvilKotlin) - Minimal UI library for Android inspired by React.
 * [adrielcafe/AndroidCoroutineScopes](https://github.com/adrielcafe/AndroidCoroutineScopes) - This lib implements the most common CoroutineScopes used in Android apps.
 * [0xe1f/KotX](https://github.com/0xe1f/KotX) - Kotlin extension and tool library for Android
