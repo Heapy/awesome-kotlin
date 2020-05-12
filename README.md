@@ -190,6 +190,7 @@ Here awesome badge for your project:
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Web backend framework for Kotlin. Easy to use, fun and asynchronous.
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
+* [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
 * [KennethWussmann/mock-fuel](https://github.com/KennethWussmann/mock-fuel) - JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel.
 * [krzema12/PlotAssert](https://github.com/krzema12/PlotAssert) - Test the shape of your functions!
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
@@ -216,7 +217,6 @@ Here awesome badge for your project:
 * [robstoll/atrium](https://github.com/robstoll/atrium) - Multiplatform assertion library for Kotlin supporting i18n.
 * [npryce/hamkrest](https://github.com/npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 * [MarkusAmshove/Kluent](https://github.com/MarkusAmshove/Kluent) - Fluent Assertion-Library for Kotlin.
-* [JetBrains/spek](https://github.com/jetbrains/spek) - A specification framework for Kotlin.
 * [nhaarman/mockito-kotlin](https://github.com/nhaarman/mockito-kotlin) - Using Mockito with Kotlin.
 * [kotest/kotest](https://github.com/kotest/kotest) - Formerly known as KotlinTest, Kotest is a flexible and comprehensive testing tool that is multiplatform enabled.
 * [mockk/mockk](https://github.com/mockk/mockk) - Pure Kotlin mocking library.
