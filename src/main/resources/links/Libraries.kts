@@ -1588,6 +1588,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/kotlin-telegram-bot/kotlin-telegram-bot"
       type = github
     }
+    link {
+      name = "aminography/PrimeCalendar"
+      desc = "Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other."
+      href = "https://github.com/aminography/PrimeCalendar"
+      type = github
+    }
   }
   subcategory("Raspberry Pi") {
     link {
