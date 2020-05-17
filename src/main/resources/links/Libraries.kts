@@ -1594,6 +1594,14 @@ category("Libraries/Frameworks") {
       href = "https://github.com/aminography/PrimeCalendar"
       type = github
     }
+    link {
+      name = "pearxteam/kasechange"
+      desc = "Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case"
+      href = "https://github.com/pearxteam/kasechange"
+      type = github
+      platforms = arrayOf(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+      tags = Tags["multiplatform", "string", "case-conversion"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
