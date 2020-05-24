@@ -1602,6 +1602,13 @@ category("Libraries/Frameworks") {
       platforms = arrayOf(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
       tags = Tags["multiplatform", "string", "case-conversion"]
     }
+    link {
+      name = "justwrote/kjob"
+      desc = "A coroutine based persistent background scheduler written in Kotlin."
+      href = "https://github.com/justwrote/kjob"
+      type = github
+      tags = Tags["job-scheduler", "task", "job-queue", "kotlin", "runner", "job", "mongodb", "kotlin-library", "kotlin-coroutines", "queue", "job-processor"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
