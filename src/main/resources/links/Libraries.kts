@@ -1208,6 +1208,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["desktop", "android", "games", "game-dev"]
     }
+    link {
+      name = "KogeLabs/Koge"
+      desc = "Koge (Kotlin OpenGL Game Engine) is a 2D game framework developed in Kotlin that works in Windows, Linux and Mac OS X."
+      href = "https://github.com/KogeLabs/Koge"
+      type = github
+      tags = Tags["desktop", "games", "game-dev"]
+    }
   }
   subcategory("Misc") {
     link {
