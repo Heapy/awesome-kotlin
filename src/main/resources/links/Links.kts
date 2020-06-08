@@ -265,5 +265,10 @@ category("Links") {
       desc = "Detailed Kotlin introductory course for Java developers"
       href = "https://www.coursera.org/learn/kotlin-for-java-developers"
     }
+    link {
+      name = "Kotlin Online Courses at Classpert"
+      desc = "Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search"
+      href = "https://classpert.com/kotlin-programming"
+    }    
   }
 }
