@@ -292,8 +292,8 @@ Here awesome badge for your project:
 * [ebean-orm/ebean](https://github.com/ebean-orm/ebean) - Ebean is a Java & Kotlin ORM including type safe kotlin queries
 * [requery/requery](https://github.com/requery/requery) - Modern SQL based query & persistence for Java/Kotlin/Android.
 * [square/sqldelight](https://github.com/square/sqldelight) - Generates Java models from CREATE TABLE statements.
-* [JetBrains/Exposed](https://github.com/jetbrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 * [jankotek/mapdb](https://github.com/jankotek/mapdb) - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+* [JetBrains/Exposed](https://github.com/jetbrains/Exposed) - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
 * [Raizlabs/DBFlow](https://github.com/Raizlabs/DBFlow) - A blazing fast, powerful, and very simple ORM android database library that writes database code for you.
 
 ### <a name="libraries-frameworks-tools"></a>Tools <sup>[Back ⇈](#libraries-frameworks-tools-subcategory)</sup>
