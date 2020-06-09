@@ -152,6 +152,7 @@ Here awesome badge for your project:
 * [Developing Android Apps with Kotlin - Google](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012) - Create concise, secure and performant apps with Kotlin
 * [Kotlin for Android Developers](https://www.udacity.com/course/kotlin-for-android-developers--ud888) - Convert an Android app from Java to Kotlin
 * [Kotlin for Java Developers - JetBrains](https://www.coursera.org/learn/kotlin-for-java-developers) - Detailed Kotlin introductory course for Java developers
+* [Kotlin Online Courses at Classpert](https://classpert.com/kotlin-programming) - Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
