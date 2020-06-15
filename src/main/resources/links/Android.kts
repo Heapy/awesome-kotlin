@@ -416,6 +416,13 @@ category("Android") {
       href = "https://github.com/ChuckerTeam/chucker"
       type = github
     }
+    link {
+      name = "rosariopfernandes/firecoil"
+      desc = "Display images stored in Cloud Storage for Firebase using Coil."
+      href = "https://github.com/rosariopfernandes/firecoil"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines"]
+    }
   }
   subcategory("Frameworks") {
     link {
