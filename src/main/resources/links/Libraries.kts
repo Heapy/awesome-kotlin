@@ -230,6 +230,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "microservice", "serverless"]
     }
+    link {
+      name = "jwstegemann/fritz2"
+      desc = "small lib to build reactive web-apps in pure Kotlin based on Flows"
+      href = "https://github.com/jwstegemann/fritz2"
+      type = github
+      tags = Tags["web", "ui", "reactive", "coroutines", "html", "routing"]
+    }
   }
   subcategory("Tests") {
     link {
