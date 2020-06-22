@@ -885,8 +885,9 @@ category("Libraries/Frameworks") {
     }
     link {
       name = "fluidsonic/fluid-mongo"
-      desc = "Coroutine support for MongoDB built on top of the official MongoDB Asynchronous Java Driver."
+      desc = "Coroutine support for MongoDB built on top of the official Reactive Streams Java Driver"
       href = "https://github.com/fluidsonic/fluid-mongo"
+      platforms = arrayOf(JVM)
       type = github
       tags = Tags["database", "mongodb", "nosql", "coroutines"]
     }
