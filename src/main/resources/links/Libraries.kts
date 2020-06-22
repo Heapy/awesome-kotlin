@@ -1616,6 +1616,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["job-scheduler", "task", "job-queue", "kotlin", "runner", "job", "mongodb", "kotlin-library", "kotlin-coroutines", "queue", "job-processor"]
     }
+    link {
+      name = "fluidsonic/fluid-pdf"
+      desc = "Easy PDF generation with HTML & CSS using Chromium or Google Chrome"
+      href = "https://github.com/fluidsonic/fluid-pdf"
+      platforms = arrayOf(JVM)
+      type = github
+      tags = Tags["pdf"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
