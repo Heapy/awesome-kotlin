@@ -967,9 +967,9 @@ category("Libraries/Frameworks") {
       tags = Tags["aot", "compiller"]
     }
     link {
-      name = "arturbosch/detekt"
+      name = "detekt/detekt"
       desc = "Static code analysis for Kotlin."
-      href = "https://github.com/arturbosch/detekt"
+      href = "https://github.com/detekt/detekt"
       type = github
       tags = Tags["check style", "checkstyle"]
     }
