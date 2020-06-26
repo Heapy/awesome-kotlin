@@ -237,6 +237,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "ui", "reactive", "coroutines", "html", "routing"]
     }
+    link {
+      name = "AurityLab/graphql-kotlin-toolkit"
+      desc = "GraphQL toolkit for Kotlin (includes code generator and spring boot integration)"
+      href = "https://github.com/AurityLab/graphql-kotlin-toolkit"
+      type = github
+      tags = Tags["web", "graphql", "codegenerator", "spring"]
+    }
   }
   subcategory("Tests") {
     link {
