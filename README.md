@@ -158,6 +158,7 @@ Here awesome badge for your project:
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
 * [darkredz/Zeko-RestApi](https://github.com/darkredz/zeko-restapi-framework) - Fun, simple & lightweight async RESTful API framework on top of Vert.x. Automatic Swagger doc & code generation via Kotlin kapt
+* [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin
 * [phenax/h](https://github.com/phenax/h) - HTML templating library written in Kotlin
