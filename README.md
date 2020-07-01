@@ -437,8 +437,8 @@ Here awesome badge for your project:
 * [jdiazcano/cfg4k](https://github.com/jdiazcano/cfg4k) - Flexible and easy to use config library written in kotlin.
 * [config4k/config4k](https://github.com/config4k/config4k) - A Kotlin wrapper for Typesafe Config
 * [uchuhimo/konf](https://github.com/uchuhimo/konf) - A type-safe cascading configuration library for Kotlin/Java, supporting most configuration formats
-* [sksamuel/hoplite](https://github.com/sksamuel/hoplite) - A library for loading configuration files into typesafe Kotlin data classes in a boilerplate-free way
 * [npryce/konfig](https://github.com/npryce/konfig) - A Type Safe Configuration API for Kotlin
+* [sksamuel/hoplite](https://github.com/sksamuel/hoplite) - A library for loading configuration files into typesafe Kotlin data classes in a boilerplate-free way
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
