@@ -1182,6 +1182,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Game Development") {
     link {
+      name = "zeganstyl/thelema-engine"
+      desc = "Crossplatform 3d graphics engine on Kotlin, based on LibGDX's sources."
+      href = "https://github.com/zeganstyl/thelema-engine"
+      type = github
+      tags = Tags["thelema-engine", "game dev", "games", "desktop", "webgl"]
+    }
+    link {
       name = "libktx/ktx"
       desc = "Kotlin utilities for LibGDX applications."
       href = "https://github.com/libktx/ktx"
