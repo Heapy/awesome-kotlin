@@ -906,9 +906,9 @@ category("Libraries/Frameworks") {
       tags = Tags["postgres", "mysql", "database driver"]
     }
     link {
-      name = "vincentlauvlwj/Ktorm"
-      desc = "A lightweight and efficient ORM Framework for Kotlin. It provides strong typed and flexible SQL DSL and many convenient extension functions to reduce our duplicated effort on database operations. "
-      href = "https://github.com/vincentlauvlwj/Ktorm"
+      name = "kotlin-orm/ktorm"
+      desc = "A lightweight ORM Framework for Kotlin. Provides strong-typed and flexible SQL DSL and convenient sequence APIs to reduce our duplicated effort on database operations. "
+      href = "https://github.com/kotlin-orm/ktorm"
       type = github
       tags = Tags["ORM", "SQL", "DSL", "JDBC"]
     }
