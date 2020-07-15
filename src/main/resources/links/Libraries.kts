@@ -1750,6 +1750,12 @@ category("Libraries/Frameworks") {
       href = "https://github.com/sksamuel/hoplite"
       type = github
     }
+    link {
+      name = "Nohus/AutoKonfig"
+      desc = "A Kotlin configuration library with batteries included. Type-safe, zero lines of setup."
+      href = "https://autokonfig.nohus.dev/"
+      tags = Tags["configuration"]
+    }
   }
   subcategory("Graphics") {
     link {
