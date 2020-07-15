@@ -397,9 +397,9 @@ Here awesome badge for your project:
 * [kohesive/solr-undertow](https://github.com/kohesive/solr-undertow) - Solr Standalone Tiny and High performant server.
 * [Kotlin/kotlinx.reflect.lite](https://github.com/Kotlin/kotlinx.reflect.lite) - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
 * [charleskorn/kaml](https://github.com/charleskorn/kaml) - YAML support for kotlinx.serialization
-* [doyaaaaaken/kotlin-csv](https://github.com/doyaaaaaken/kotlin-csv) - A pure kotlin simple csv reader/writer.
 * [TicketmasterMobileStudio/actions-on-google-kotlin](https://github.com/TicketmasterMobileStudio/actions-on-google-kotlin) - Port of official Node.js SDK to Kotlin. Complete with all features and tests and nearly identical API.
 * [holgerbrandl/kravis](https://github.com/holgerbrandl/kravis) - A Kotlin grammar for scientific data visualization
+* [doyaaaaaken/kotlin-csv](https://github.com/doyaaaaaken/kotlin-csv) - A pure kotlin simple csv reader/writer.
 * [kohesive/klutter](https://github.com/kohesive/klutter) - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
 * [MehdiK/Humanizer.jvm](https://github.com/MehdiK/Humanizer.jvm) - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
 * [h0tk3y/better-parse](https://github.com/h0tk3y/better-parse) - A nice parser combinator library for Kotlin
@@ -432,6 +432,7 @@ Here awesome badge for your project:
 * [vanshg/KrazyKotlin](https://github.com/vanshg/KrazyKotlin) - A collection of useful Kotlin Extension
 
 ### <a name="libraries-frameworks-configuration"></a>Configuration <sup>[Back ⇈](#libraries-frameworks-configuration-subcategory)</sup>
+* [Nohus/AutoKonfig](https://autokonfig.nohus.dev/) - A Kotlin configuration library with batteries included. Type-safe, zero lines of setup.
 * [daviddenton/configur8](https://github.com/daviddenton/configur8) - A Kotlin port of Configur8 - A Type Safe Configuration API for Kotlin, extendable to user-defined types.
 * [ufoscout/properlty](https://github.com/ufoscout/properlty) - Simple configuration library with placeholders resolution and zero magic!
 * [mariomac/kaconf](https://github.com/mariomac/kaconf) - KickAss Configuration. An annotation-based configuration system for Java and Kotlin
@@ -651,8 +652,8 @@ Here awesome badge for your project:
 * [RxKotlin/Pocket](https://github.com/RxKotlin/Pocket) - This app help user to save links easily, and can export to Evernote as weekly.
 * [inaka/kotlillon](https://github.com/inaka/kotlillon) - Android Kotlin Examples.
 * [hanjoongcho/aaf-easyphotomap](https://github.com/hanjoongcho/aaf-easyphotomap) - This is a photomap app that shows photos taken on a map.
-* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [Karumi/MaxibonKataKotlin](https://github.com/Karumi/MaxibonKataKotlin) - A ready to use playground to learn how to write tests using property-based testing in Kotlin. 
+* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [Karumi/KataContactsKotlin](https://github.com/Karumi/KataContactsKotlin) - An exercise to learn how to write software based on Clean Architecture using Kotlin.
 * [Karumi/KataTODOApiClientKotlin](https://github.com/Karumi/KataTODOApiClientKotlin) - A full exercise to learn how to use stubbing HTTP in Kotlin.
 * [mustafaberkaymutlu/uv-index](https://github.com/mustafaberkaymutlu/uv-index) - A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP
