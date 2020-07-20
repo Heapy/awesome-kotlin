@@ -334,8 +334,8 @@ Here awesome badge for your project:
 * [sargunster/kotlin-textmate-bundle](https://github.com/sargunster/kotlin-textmate-bundle) - Kotlin bundle for TextMate.
 * [alexmt/atom-kotlin-language](https://github.com/alexmt/atom-kotlin-language) - Adds syntax highlighting to Kotlin files in Atom
 * [ice1000/NppExtension](https://github.com/ice1000/NppExtension) - Kotlin Language extension for Notepad++
-* [ftomassetti/kanvas](https://github.com/ftomassetti/kanvas) - A truly hackable editor: simple, lightweight, understandable.
 * [vkostyukov/kotlin-sublime-package](https://github.com/vkostyukov/kotlin-sublime-package) - A Sublime Package for Kotlin.
+* [ftomassetti/kanvas](https://github.com/ftomassetti/kanvas) - A truly hackable editor: simple, lightweight, understandable.
 * [mathiasfrohlich/vscode-kotlin](https://github.com/mathiasfrohlich/vscode-kotlin) - Kotlin language support for VS Code.
 * [udalov/kotlin-vim](https://github.com/udalov/kotlin-vim) - Kotlin Syntax Highlighter for Vim.
 * [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer) - Smart code completion, diagnostics and more for Kotlin using the Language Server Protocol. VS Code extension included.
