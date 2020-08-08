@@ -124,7 +124,12 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
-     link {
+    link {
+      name = "Jetbrain's Hyperskill Academy"
+      desc = "An interactive learning plaform for Kotlin and other languages"
+      href = "https://hyperskill.org/join/4db19914"
+    }
+    link {
       name = "Kotlin Expertise Blog"
       desc = "A Blog with many articles covering basic and advanced Kotlin topics."
       href = "https://kotlinexpertise.com/"
