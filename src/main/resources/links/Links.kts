@@ -124,7 +124,12 @@ category("Links") {
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
     }
-     link {
+    link {
+      name = "Jetbrain's Hyperskill Academy"
+      desc = "An interactive learning plaform for Kotlin and other languages"
+      href = "https://hyperskill.org/join/4db19914"
+    }
+    link {
       name = "Kotlin Expertise Blog"
       desc = "A Blog with many articles covering basic and advanced Kotlin topics."
       href = "https://kotlinexpertise.com/"
@@ -154,7 +159,7 @@ category("Links") {
     }
     link {
       name = "tbhaxor/GUIDE-TO-KOTLIN"
-      desc = """A practical guide on "Kotlin for Developers""""
+      desc = "A practical guide on Kotlin for Developers"
       href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
     }
   }
@@ -270,5 +275,25 @@ category("Links") {
       desc = "Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search"
       href = "https://classpert.com/kotlin-programming"
     }    
+    link {
+      name = "Advanced Android App Architecture"
+      desc = "In Advanced Android App Architectures, you'll find a diverse and hands-on approach to architecting your apps on Android"
+      href = "https://store.raywenderlich.com/products/advanced-android-app-architecture"
+    }
+     link {
+      name = "Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda"
+      desc = "Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!"
+      href = "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"
+    }
+    link {
+      name = "Data Structures & Algorithms in Kotlin - Irina Galata & Matei Suica"
+      desc = "A book that teaches you the fundamental tools of implementing key data structures in Kotlin, and how to use them to solve algorithms"
+      href = "https://store.raywenderlich.com/products/data-structures-and-algorithms-in-kotlin"
+    }
+     link {
+      name = "Head First Kotlin"
+      desc = "Head First Kotlin is a complete introduction to coding in Kotlin"
+      href = "https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/"
+    }
   }
 }
