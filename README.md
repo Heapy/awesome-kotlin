@@ -193,8 +193,8 @@ Here awesome badge for your project:
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Web backend framework for Kotlin. Easy to use, fun and asynchronous.
 
 ### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
-* [KennethWussmann/mock-fuel](https://github.com/KennethWussmann/mock-fuel) - JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel.
 * [krzema12/PlotAssert](https://github.com/krzema12/PlotAssert) - Test the shape of your functions!
+* [KennethWussmann/mock-fuel](https://github.com/KennethWussmann/mock-fuel) - JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel.
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
 * [EranBoudjnah/TestIt](https://github.com/EranBoudjnah/TestIt) - Generate unit testing boilerplate from kotlin files.
 * [jcornaz/kwik](https://github.com/jcornaz/kwik) - A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library.
@@ -225,12 +225,12 @@ Here awesome badge for your project:
 * [mockk/mockk](https://github.com/mockk/mockk) - Pure Kotlin mocking library.
 
 ### <a name="libraries-frameworks-dependency-injection"></a>Dependency Injection <sup>[Back ⇈](#libraries-frameworks-dependency-injection-subcategory)</sup>
+* [Kodein-Framework/Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI) - Painless Kotlin Dependency Injection.
 * [Rasalexman/KODI](https://github.com/Rasalexman/KODI) - light-weight KOtlin Dependency Injection Framework with or without reflection module without kapt
 * [kailan/kodeinject](https://github.com/kailan/kodeinject) - Constructor dependency injection for Kodein.
 * [JLLeitschuh/kotlin-guiced](https://github.com/JLLeitschuh/kotlin-guiced) - Convenience Kotlin API over the Google Guice DI Library.
 * [authzee/kotlin-guice](https://github.com/authzee/kotlin-guice) - Guice DSL extensions for Kotlin
 * [traversals/kapsule](https://github.com/traversals/kapsule) - Minimalist dependency injection library for Kotlin.
-* [Kodein-Framework/Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI) - Painless Kotlin Dependency Injection.
 * [Ekito/koin](https://github.com/Ekito/koin) - A functional Kotlin dependency injection framework for Android and JVM.
 
 ### <a name="libraries-frameworks-coroutines"></a>Coroutines <sup>[Back ⇈](#libraries-frameworks-coroutines-subcategory)</sup>
@@ -279,8 +279,8 @@ Here awesome badge for your project:
 * [darkredz/zeko-sql-builder](https://github.com/darkredz/Zeko-SQL-Builder) - Zeko SQL Builder is a high-performance lightweight SQL query library with optional data access through HikariCP & Vert.x JDBC client
 * [shyiko/levelkt](https://github.com/shyiko/levelkt) - LevelDB client for Kotlin and/or Java 8+.
 * [SubiyaCryolite/jds](https://github.com/SubiyaCryolite/jds) - Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining.
-* [KotlinPorts/kt-postgresql-async](https://github.com/KotlinPorts/kt-postgresql-async) - Kotlin/Gradle port of mauricio's async driver for postgres/mysql.
 * [pm-dev/kotlin-gremlin-ogm](https://github.com/pm-dev/awesome-kotlin) - Kotlin-gremlin-ogm is a type-safe object/graph mapping library for Gremlin enabled graph databases.
+* [KotlinPorts/kt-postgresql-async](https://github.com/KotlinPorts/kt-postgresql-async) - Kotlin/Gradle port of mauricio's async driver for postgres/mysql.
 * [fluidsonic/fluid-mongo](https://github.com/fluidsonic/fluid-mongo) - Coroutine support for MongoDB built on top of the official Reactive Streams Java Driver
 * [seratch/kotliquery](https://github.com/seratch/kotliquery) - A handy database access library in Kotlin.
 * [TouK/krush](https://github.com/TouK/krush) - Idiomatic persistence layer for Kotlin, based on Exposed. It’s based on a compile-time JPA annotation processor that generates Exposed DSL table and objects mappings from your data classes.
@@ -334,8 +334,8 @@ Here awesome badge for your project:
 * [sargunster/kotlin-textmate-bundle](https://github.com/sargunster/kotlin-textmate-bundle) - Kotlin bundle for TextMate.
 * [alexmt/atom-kotlin-language](https://github.com/alexmt/atom-kotlin-language) - Adds syntax highlighting to Kotlin files in Atom
 * [ice1000/NppExtension](https://github.com/ice1000/NppExtension) - Kotlin Language extension for Notepad++
-* [vkostyukov/kotlin-sublime-package](https://github.com/vkostyukov/kotlin-sublime-package) - A Sublime Package for Kotlin.
 * [ftomassetti/kanvas](https://github.com/ftomassetti/kanvas) - A truly hackable editor: simple, lightweight, understandable.
+* [vkostyukov/kotlin-sublime-package](https://github.com/vkostyukov/kotlin-sublime-package) - A Sublime Package for Kotlin.
 * [mathiasfrohlich/vscode-kotlin](https://github.com/mathiasfrohlich/vscode-kotlin) - Kotlin language support for VS Code.
 * [udalov/kotlin-vim](https://github.com/udalov/kotlin-vim) - Kotlin Syntax Highlighter for Vim.
 * [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer) - Smart code completion, diagnostics and more for Kotlin using the Language Server Protocol. VS Code extension included.
