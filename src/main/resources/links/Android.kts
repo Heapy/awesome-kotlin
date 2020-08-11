@@ -800,6 +800,13 @@ category("Android") {
       href = "https://github.com/Reedyuk/blue-falcon"
       type = github
       tags = Tags["bluetooth", "kotlin multiplatform", "android", "ios"]
+    }    
+    link {
+      name = "cossacklabs/themis"
+      desc = "Multi-language framework for solving typical data security tasks: storage and messaging encryption, authentication, works for 14 languages."
+      href = "https://github.com/cossacklabs/themis"
+      type = github
+      tags = Tags["security", "cryptography", "crypto". "encryption", "kotlin multiplatform", "android", "ios"]
     }
   }
 }
