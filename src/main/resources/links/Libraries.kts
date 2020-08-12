@@ -1693,6 +1693,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["extensions", "jdk8", "time", "date", "range"]
     }
+    link {
+      name = "LukasForst/katlib"
+      desc = "A collection of Kotlin extension functions and utilities."
+      href = "https://github.com/LukasForst/katlib"
+      type = github
+      tags = Tags["extensions"]
+    }
   }
   subcategory("Configuration") {
     link {
