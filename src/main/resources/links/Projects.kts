@@ -498,5 +498,12 @@ category("Projects") {
       type = github
       tags = Tags["json", "idea"]
     }
+    link{
+      name = "csense-oss/idea-kotlin-checked-exceptions"
+      desc = "Plugin to help integrate with java and exceptions (highlights, warns when not catching exceptions and a lot more)"
+      href = "https://github.com/csense-oss/idea-kotlin-checked-exceptions"
+      type = github
+      tags = Tags["kotlin", "idea","exceptions"]
+    }
   }
 }
