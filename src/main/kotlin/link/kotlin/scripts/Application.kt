@@ -115,7 +115,7 @@ object Application {
         measureAndLog("fetching latest kotlin versions") {
             val fetcher = MavenCentralVersionFetcher(httpClient)
 
-            val versions = fetcher.getLatestVersions(listOf("1.0", "1.1", "1.2", "1.3"))
+            val versions = fetcher.getLatestVersions(listOf("1.3", "1.4"))
             write(Paths.get("./versions.json"), mapper.writeValueAsBytes(versions), CREATE, TRUNCATE_EXISTING)
         }
     }
