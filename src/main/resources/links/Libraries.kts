@@ -1639,6 +1639,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["pdf"]
     }
+    link {
+      name = "AhmedMourad0/no-copy"
+      desc = "A Kotlin compiler plugin that performs 'copy-erasure' on data classes."
+      href = "https://github.com/AhmedMourad0/no-copy"
+      platforms = arrayOf(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+      type = github
+      tags = Tags["data-class", "compiler-plugin", "value-based-classes", "binary-compatibility"]
+    }
   }
   subcategory("Raspberry Pi") {
     link {
