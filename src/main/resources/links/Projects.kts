@@ -443,6 +443,20 @@ category("Projects") {
       tags = Tags["idea", "plugin"]
     }
     link {
+      name = "dkandalov/limited-wip"
+      desc = "Plugin to limit your work-in-progress."
+      href = "https://github.com/dkandalov/limited-wip"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
+      name = "dkandalov/pomodoro-tm"
+      desc = "Pomodoro timer."
+      href = "https://github.com/dkandalov/pomodoro-tm"
+      type = github
+      tags = Tags["idea", "plugin"]
+    }
+    link {
       name = "izhangzhihao/intellij-rainbow-brackets"
       desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
       href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
