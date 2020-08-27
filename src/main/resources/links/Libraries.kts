@@ -637,6 +637,13 @@ category("Libraries/Frameworks") {
       tags = Tags["fp", "functional", "result", "monad", "either", "type"]
     }
     link {
+      name = "fork-handles/result4k"
+      desc = "Result monad for type safe error handling in Kotlin"
+      href = "https://github.com/fork-handles/forkhandles/blob/trunk/result4k"
+      type = github
+      tags = Tags["fp", "functional", "result", "monad", "either", "type", "error handling"]
+    }
+    link {
       name = "pakoito/Komprehensions"
       desc = "Do comprehensions for Kotlin and 3rd party libraries."
       href = "https://github.com/pakoito/Komprehensions"
@@ -1432,6 +1439,20 @@ category("Libraries/Frameworks") {
       tags = Tags["parser", "parser-combinator", "grammar", "lexer"]
     }
     link {
+      name = "fork-handles/parser4k"
+      desc = "Recursive descent parser combinator library"
+      href = "https://github.com/fork-handles/forkhandles/tree/trunk/parser4k"
+      type = github
+      tags = Tags["parser", "parser-combinator", "recursive descent"]
+    }
+    link {
+      name = "fork-handles/tuples4k"
+      desc = "Tuple classes"
+      href = "https://github.com/fork-handles/forkhandles/tree/trunk/tuples4k"
+      type = github
+      tags = Tags["tuples"]
+    }
+    link {
       name = "Kotlin/kotlinx.atomicfu"
       desc = "The idiomatic way to use atomic operations in Kotlin."
       href = "https://github.com/Kotlin/kotlinx.atomicfu"
@@ -2023,6 +2044,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/aPureBase/arkenv"
       type = github
       tags = Tags["cli", "argument", "env", "environment", "variables", "parser"]
+    }
+    link {
+      name = "fork-handles/bunting4k"
+      desc = "Simple, typesafe, testable command line flags"
+      href = "https://github.com/fork-handles/forkhandles/tree/trunk/bunting4k"
+      type = github
+      tags = Tags["cli", "command", "argument", "flag", "option", "parser"]
     }
   }
   subcategory("Browsers") {
