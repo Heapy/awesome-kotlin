@@ -806,7 +806,7 @@ category("Android") {
       desc = "Multi-language framework for solving typical data security tasks: storage and messaging encryption, authentication, works for 14 languages."
       href = "https://github.com/cossacklabs/themis"
       type = github
-      tags = Tags["security", "cryptography", "crypto". "encryption", "kotlin multiplatform", "android", "ios"]
+      tags = Tags["security", "cryptography", "crypto", "encryption", "kotlin multiplatform", "android", "ios"]
     }
   }
 }
