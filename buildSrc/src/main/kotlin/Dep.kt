@@ -5,7 +5,7 @@ const val reflect = "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
 const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.9"
 
 const val mockk = "io.mockk:mockk:1.9.3"
-const val junit = "org.junit.jupiter:junit-jupiter-engine:5.6.1"
+const val junit = "org.junit.jupiter:junit-jupiter-engine:5.6.2"
 
 private const val jacksonVersion = "2.11.2"
 const val jacksonXml = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$jacksonVersion"

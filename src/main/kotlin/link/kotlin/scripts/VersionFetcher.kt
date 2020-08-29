@@ -34,7 +34,9 @@ class MavenCentralVersionFetcher(
     }
 
     fun findMax(versions: List<String>, version: String): String {
-        return versions.filter { it.startsWith(version) }.max() ?: ""
+        return versions
+            .filterNot { it.endsWith("-rc") }
+            .filter { it.startsWith(version) }.maxOrNull() ?: ""
     }
 }
 
