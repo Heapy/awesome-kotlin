@@ -163,7 +163,7 @@ private fun getHtml(article: Article): String {
 }
 
 fun getFeatures(features: List<ArticleFeature>): String {
-    return features.map {
+    return features.joinToString(separator = "\n") {
         when (it) {
             mathjax -> """<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>"""
             highlightjs -> """
@@ -173,5 +173,5 @@ fun getFeatures(features: List<ArticleFeature>): String {
                 """
             else -> """<script type="application/javascript">console.error("Unknown feature: $it")</script>"""
         }
-    }.joinToString(separator = "\n")
+    }
 }

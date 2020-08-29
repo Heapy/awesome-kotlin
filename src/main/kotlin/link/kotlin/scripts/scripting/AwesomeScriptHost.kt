@@ -11,6 +11,7 @@ class AwesomeScriptHost {
 
     fun <T> eval(file: File): T {
         val eval = scriptingHost.evalWithTemplate<AwesomeScript>(file.toScriptSource())
+        @Suppress("UNCHECKED_CAST")
         return (eval.valueOrThrow().returnValue as ResultValue.Value).value as T
     }
 }

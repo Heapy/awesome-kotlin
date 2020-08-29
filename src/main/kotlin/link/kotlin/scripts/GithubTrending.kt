@@ -35,6 +35,6 @@ class GithubTrending(
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(GithubTrending(Cache(ObjectMapper())).fetch().size)
 }

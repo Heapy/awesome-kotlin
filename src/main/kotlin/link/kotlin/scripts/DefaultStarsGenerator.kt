@@ -3,8 +3,9 @@ package link.kotlin.scripts
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
@@ -25,14 +26,14 @@ class DefaultStarsGenerator(
         return mapper.writeValueAsString(categories)
     }
 
-    private suspend fun processCategory(category: Category): Category {
+    private suspend fun processCategory(category: Category): Category = coroutineScope {
         val deferredSubcategories = category.subcategories.map { subcategory ->
-            GlobalScope.async { processSubcategory(subcategory) }
+            async { processSubcategory(subcategory) }
         }
 
-        val processed = deferredSubcategories.map { it.await() }.toMutableList()
+        val processed = deferredSubcategories.awaitAll().toMutableList()
 
-        return category.copy(subcategories = processed)
+        category.copy(subcategories = processed)
     }
 
     private suspend fun processSubcategory(subcategory: Subcategory): Subcategory {
@@ -61,11 +62,8 @@ class DefaultStarsGenerator(
                     link
                 }
                 LinkType.bitbucket -> {
-                    LOGGER.info("Fetching star count from bitbucket: ${link.name}.")
-                    val response = getBitbucketStarCount(httpClient, link.name)
-
-                    val stars = mapper.readValue<BitbucketResponse>(response)
-                    link.star = stars.size
+                    val stars = getBitbucketStarCount(httpClient, link.name)
+                    link.star = stars?.size
                     link
                 }
                 else -> link
@@ -73,14 +71,33 @@ class DefaultStarsGenerator(
         }.toMutableList())
     }
 
+    private suspend fun getBitbucketStarCount(
+        client: HttpClient,
+        name: String
+    ): BitbucketResponse? {
+        return try {
+            LOGGER.info("Fetching star count from bitbucket: $name.")
+            val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers")
+            val response = client.execute(request).body()
+            mapper.readValue<BitbucketResponse>(response)
+        } catch(e: Exception) {
+            LOGGER.error("Fetching star count from bitbucket", e)
+            null
+        }
+    }
+
     companion object {
         private val LOGGER = logger<DefaultStarsGenerator>()
     }
 }
 
-
-private suspend fun getGithubStarCount(client: HttpClient, name: String, user: String, pass: String): String {
-    if (user == "" || pass == "") {
+private suspend fun getGithubStarCount(
+    client: HttpClient,
+    name: String,
+    user: String,
+    pass: String
+): String {
+    if (user.isEmpty() || pass.isEmpty()) {
         throw RuntimeException("You should run this script only when you added GH_USER and GH_TOKEN to env." +
             "Token can be found here: https://github.com/settings/tokens")
     }
@@ -88,12 +105,6 @@ private suspend fun getGithubStarCount(client: HttpClient, name: String, user: S
     val request = HttpGet("https://api.github.com/repos/$name").also {
         it.addHeader("Authorization", "token $pass")
     }
-
-    return client.execute(request).body()
-}
-
-private suspend fun getBitbucketStarCount(client: HttpClient, name: String): String {
-    val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers")
 
     return client.execute(request).body()
 }

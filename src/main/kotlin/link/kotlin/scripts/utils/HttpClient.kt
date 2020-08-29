@@ -51,10 +51,10 @@ private suspend fun HttpAsyncClient.execute(request: HttpUriRequest): HttpRespon
 }
 
 fun createHttpClient(): HttpClient {
-    val UA = "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
+    val ua = "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
 
     val asyncClient = HttpAsyncClients.custom()
-        .setUserAgent(UA)
+        .setUserAgent(ua)
         .setMaxConnPerRoute(10)
         .setMaxConnTotal(100)
         .setDefaultCookieSpecRegistry { IgnoreSpecProvider() }

@@ -1,18 +1,6 @@
-import Dep.Kotlin.reflect
-import Dep.Kotlin.stdlib
-import Dep.commonmark
-import Dep.commonmarkExtGfmTables
-import Dep.coroutines
-import Dep.httpClient
-import Dep.jacksonKotlin
-import Dep.jacksonXml
-import Dep.junit
-import Dep.kotlinVersion
-import Dep.mockk
-
 plugins {
     application
-    kotlin("jvm") version Dep.kotlinVersion
+    kotlin("jvm").version(kotlinVersion)
 }
 
 application {
@@ -43,14 +31,13 @@ dependencies {
 
     implementation(kotlin("scripting-common"))
     implementation(kotlin("scripting-jvm"))
-    implementation(kotlin("scripting-jvm-host-embeddable"))
+    implementation(kotlin("scripting-jvm-host"))
 
     implementation(commonmark)
     implementation(commonmarkExtGfmTables)
 
-    implementation(httpClient)
-    implementation("org.apache.httpcomponents:httpcore:4.4.13")
-    implementation("org.apache.httpcomponents:httpcore-nio:4.4.13")
+    implementation("io.ktor:ktor-client-apache:$ktorVersion")
+    implementation("io.ktor:ktor-client-jackson:$ktorVersion")
 
     testImplementation(mockk)
     testImplementation(junit)
