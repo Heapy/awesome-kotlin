@@ -1646,6 +1646,14 @@ category("Libraries/Frameworks") {
       tags = Tags["multiplatform", "string", "case-conversion"]
     }
     link {
+      name = "pearxteam/kpastebin"
+      desc = "Multiplatform Kotlin library to interact with the pastebin.com API"
+      href = "https://github.com/pearxteam/kpastebin"
+      type = github
+      platforms = arrayOf(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
+      tags = Tags["multiplatform", "pastebin", "api"]
+    }
+    link {
       name = "justwrote/kjob"
       desc = "A coroutine based persistent background scheduler written in Kotlin."
       href = "https://github.com/justwrote/kjob"
