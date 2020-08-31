@@ -244,6 +244,14 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["web", "graphql", "codegenerator", "spring"]
     }
+    link {
+      name = "apollographql/apollo-android"
+      desc = "Typesafe GraphQL client for the JVM and Kotlin native"
+      href = "https://github.com/apollographql/apollo-android"
+      type = github
+      tags = Tags["web", "graphql"]
+    }
+
   }
   subcategory("Tests") {
     link {
