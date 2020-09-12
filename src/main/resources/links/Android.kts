@@ -751,6 +751,20 @@ category("Android") {
       type = github
       tags = Tags["android", "kotlin", "mvvm", "architecture", "coroutines", "motion", "app"]
     }
+    link {
+      name = "halilozel1903/LearnKotlinProgramming"
+      desc = "Let's Learn Kotlin Programming ❤️"
+      href = "https://github.com/halilozel1903/LearnKotlinProgramming"
+      type = github
+      tags = Tags["android", "kotlin", "programming", "tutorial"]
+    }
+    link {
+      name = "halilozel1903/KotlinTutorials"
+      desc = "It's a project that contains lessons and examples about Kotlin programming language."
+      href = "https://github.com/halilozel1903/KotlinTutorials"
+      type = github
+      tags = Tags["android", "kotlin", "tutorial", "kotlintutorial", "kotlin101"]
+    }
   }
   subcategory("Extensions") {
     link {
