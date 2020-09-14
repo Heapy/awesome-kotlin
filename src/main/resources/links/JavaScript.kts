@@ -56,9 +56,9 @@ category("Kotlin JavaScript") {
       tags = Tags["boilerplate", "javascript", "kotlin2js"]
     }
     link {
-      name = "markaren/three.kt"
+      name = "markaren/three-kt-wrapper"
       desc = "Kotlin wrappers for three.js JavaScript 3D library"
-      href = "https://github.com/markaren/three.kt"
+      href = "https://github.com/markaren/three-kt-wrapper"
       type = github
       tags = Tags["web", "javascript", "kotlin-js", "three-js"]
     }

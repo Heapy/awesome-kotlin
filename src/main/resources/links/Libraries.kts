@@ -1943,6 +1943,13 @@ category("Libraries/Frameworks") {
       type = github
       tags = Tags["opengl", "creative-coding", "kotlin", "dsl", "shaders", "ljwgl"]
     }
+    link {
+      name = "markaren/three.kt"
+      desc = "Kotlin port of three.js JavaScript 3D library"
+      href = "https://github.com/markaren/three.kt"
+      type = github
+      tags = Tags["opengl", "lwjgl3", "three-js"]
+    }
   }
   subcategory("Data Science") {
     link {
