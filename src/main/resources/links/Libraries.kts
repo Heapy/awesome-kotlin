@@ -1198,7 +1198,7 @@ category("Libraries/Frameworks") {
   subcategory("Game Development") {
     link {
       name = "zeganstyl/thelema-engine"
-      desc = "Crossplatform 3d graphics engine on Kotlin, based on LibGDX's sources."
+      desc = "3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Koltin/JS, Kotlin/Native. See live demo: [TeaVM](https://zeganstyl.github.io/thelema-teavm-tests/), [Kotlin/JS](https://zeganstyl.github.io/thelema-kxjs-demo/)"
       href = "https://github.com/zeganstyl/thelema-engine"
       type = github
       tags = Tags["thelema-engine", "game dev", "games", "desktop", "webgl"]
