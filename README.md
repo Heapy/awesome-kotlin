@@ -357,7 +357,7 @@ Here awesome badge for your project:
 * [isagalaev/highlight.js](https://github.com/isagalaev/highlight.js) - Javascript syntax highlighter. (out-of-date)
 
 ### <a name="libraries-frameworks-game-development"></a>Game Development <sup>[Back ⇈](#libraries-frameworks-game-development-subcategory)</sup>
-* [zeganstyl/thelema-engine](https://github.com/zeganstyl/thelema-engine) - Crossplatform 3d graphics engine on Kotlin, based on LibGDX's sources.
+* [zeganstyl/thelema-engine](https://github.com/zeganstyl/thelema-engine) - 3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Koltin/JS, Kotlin/Native. See live demo: [TeaVM](https://zeganstyl.github.io/thelema-teavm-tests/), [Kotlin/JS](https://zeganstyl.github.io/thelema-kxjs-demo/)
 * [vassilibykov/AdventKT](https://github.com/vassilibykov/AdventKT) - A Kotlin-based DSL for text adventures, with a partial replica of the classic Colossal Cave as an example.
 * [icela/FriceEngine](https://github.com/icela/FriceEngine) - Make game developing easy again!
 * [Hexworks/zircon](https://github.com/Hexworks/zircon) - An extensible text GUI library which targets multiple platforms and designed specifically for game developers, written in Kotlin.
@@ -368,6 +368,7 @@ Here awesome badge for your project:
 ### <a name="libraries-frameworks-misc"></a>Misc <sup>[Back ⇈](#libraries-frameworks-misc-subcategory)</sup>
 * [fork-handles/parser4k](https://github.com/fork-handles/forkhandles/tree/trunk/parser4k) - Recursive descent parser combinator library
 * [fork-handles/tuples4k](https://github.com/fork-handles/forkhandles/tree/trunk/tuples4k) - Tuple classes
+* [themichailov/kache](https://github.com/themichailov/kache) - Kotlin functions caching library, reducing count of function executions.
 * [d-max/dsl-logger](https://github.com/d-max/dsl-logger) - Simple DSL for logging with logger abstraction layer
 * [pearxteam/kpastebin](https://github.com/pearxteam/kpastebin) - Multiplatform Kotlin library to interact with the pastebin.com API
 * [fluidsonic/fluid-pdf](https://github.com/fluidsonic/fluid-pdf) - Easy PDF generation with HTML & CSS using Chromium or Google Chrome
