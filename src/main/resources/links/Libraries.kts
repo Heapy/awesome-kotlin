@@ -1248,6 +1248,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      name = "themichailov/kache"
+      desc = "Kotlin functions caching library, reducing count of function executions."
+      href = "https://github.com/themichailov/kache"
+      type = github
+      tags = Tags["cache"]
+    }
+    link {
       name = "Kotlin/kotlinx.reflect.lite"
       desc = "Lightweight library allowing to introspect basic stuff about Kotlin symbols."
       href = "https://github.com/Kotlin/kotlinx.reflect.lite"
