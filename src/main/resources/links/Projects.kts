@@ -272,7 +272,13 @@ category("Projects") {
       type = github
       tags = Tags["javafx", "spring", "spring-boot"]
     }
-
+    link {
+      name = "datalisk/datalisk"
+      desc = "A file sync and storage application with end-to-end encryption and multi-platform support."
+      href = "https://github.com/datalisk/datalisk"
+      type = github
+      tags = Tags["filesync", "end-to-end-encryption", "dropbox", "storage"]
+    }
   }
   subcategory("Examples") {
     link {
