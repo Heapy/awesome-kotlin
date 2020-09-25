@@ -3,18 +3,24 @@ package link.kotlin.scripts
 import link.kotlin.scripts.TargetType.JVM
 import link.kotlin.scripts.model.Link
 
+@DslMarker
+annotation class LinkDSL
+
+@LinkDSL
 fun category(name: String, config: Category.() -> Unit): Category {
   return Category(name = name, subcategories = mutableListOf()).apply {
     config(this)
   }
 }
 
+@LinkDSL
 fun Category.subcategory(name: String, config: Subcategory.() -> Unit) {
   val subcategory = Subcategory(name = name, links = mutableListOf())
   config(subcategory)
   this.subcategories.add(subcategory)
 }
 
+@LinkDSL
 fun Subcategory.link(config: LinkBuilder.() -> Unit) {
   val linkBuilder = LinkBuilder()
   config(linkBuilder)
