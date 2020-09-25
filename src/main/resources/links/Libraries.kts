@@ -2031,6 +2031,13 @@ category("Libraries/Frameworks") {
       href = "https://github.com/breandan/kotlingrad"
       type = github
     }
+    link {
+      name = "kiegroup/optaplanner"
+      desc = "Constraint solving AI for planning and scheduling problems."
+      href = "https://www.optaplanner.org/compatibility/kotlin.html"
+      type = github
+      tags = Tags["data science", "artificial-intelligence", "mathematical-optimization", "constraint-solving"]
+    }
   }
   subcategory("Command Line Interface") {
     link {
