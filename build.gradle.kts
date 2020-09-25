@@ -36,9 +36,10 @@ dependencies {
     implementation(commonmark)
     implementation(commonmarkExtGfmTables)
 
-    implementation("io.ktor:ktor-client-apache:$ktorVersion")
-    implementation("io.ktor:ktor-client-jackson:$ktorVersion")
+    implementation(ktorClientApache)
+    implementation(ktorClientJackson)
 
     testImplementation(mockk)
-    testImplementation(junit)
+    testImplementation(junitApi)
+    testRuntimeOnly(junitEngine)
 }
