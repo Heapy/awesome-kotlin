@@ -39,7 +39,7 @@ private class DefaultLinksProcessor(
                 if (meta.pushedAt != null) {
                     link.copy(
                         name = link.name ?: link.github,
-                        href = link.href ?: "https://githib.com/${link.github}",
+                        href = link.href ?: "https://github.com/${link.github}",
                         desc = link.desc ?: meta.description,
                         star = meta.stargazersCount,
                         update = parseInstant(meta.pushedAt).format(formatter),
