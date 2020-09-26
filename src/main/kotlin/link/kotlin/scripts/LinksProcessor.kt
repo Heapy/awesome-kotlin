@@ -1,6 +1,7 @@
 package link.kotlin.scripts
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import link.kotlin.scripts.model.ApplicationConfiguration
@@ -24,49 +25,32 @@ private class DefaultLinksProcessor(
     private val linksChecker: LinksChecker
 ): LinksProcessor {
     override suspend fun process(link: Link): Link {
-        // TODO:
-        //  Fetch repo tags from github
-        //  Deduplicate link check
-        //  Model class for GH response
         return when {
             link.github != null -> {
                 LOGGER.debug("Fetching star count from github: ${link.github}.")
-                val json = try {
-                    val response = getGithubStarCount(link.github, configuration.ghUser, configuration.ghToken)
-                    mapper.readTree(response)
+                val meta = try {
+                    getGithubMetadata(link.github)
                 } catch (e: Exception) {
                     LOGGER.error("Error ({}) while fetching data for '${link.github}'.", e.message)
                     return link
                 }
+                link.check()
 
-                val stargazersCount = json["stargazers_count"]?.asInt()
-                val pushedAt = json["pushed_at"]?.asText() ?: ""
-                val description = json["description"]?.asText() ?: ""
-                val archived = json["archived"]?.asBoolean() ?: false
-
-                if (link.href != null) {
-                    LOGGER.debug("Checking link [${link.href}]")
-                    linksChecker.check(link.href)
-                }
-
-                if (pushedAt.isNotEmpty()) {
+                if (meta.pushedAt != null) {
                     link.copy(
                         name = link.name ?: link.github,
                         href = link.href ?: "https://githib.com/${link.github}",
-                        desc = link.desc ?: description,
-                        star = stargazersCount,
-                        update = parseInstant(pushedAt).format(formatter),
-                        archived = archived
+                        desc = link.desc ?: meta.description,
+                        star = meta.stargazersCount,
+                        update = parseInstant(meta.pushedAt).format(formatter),
+                        archived = meta.archived,
+                        tags = (link.tags + meta.topics).distinct()
                     )
                 } else link
             }
             link.bitbucket != null -> {
                 val stars = getBitbucketStarCount(link.bitbucket)
-
-                if (link.href != null) {
-                    LOGGER.debug("Checking link [${link.href}]")
-                    linksChecker.check(link.href)
-                }
+                link.check()
 
                 link.copy(
                     name = link.name ?: link.bitbucket,
@@ -75,46 +59,77 @@ private class DefaultLinksProcessor(
                 )
             }
             link.kug != null -> {
-                if (link.href != null) {
-                    LOGGER.debug("Checking link [${link.href}]")
-                    linksChecker.check(link.href)
-                }
+                link.check()
 
                 link.copy(
                     name = link.name ?: link.kug
                 )
             }
             else -> {
-                if (link.href != null) {
-                    LOGGER.debug("Checking link [${link.href}]")
-                    linksChecker.check(link.href)
-                }
+                link.check()
                 link
             }
         }
     }
 
-    private suspend fun getGithubStarCount(
-        name: String,
-        user: String,
-        pass: String
-    ): String {
-        if (user.isEmpty() || pass.isEmpty()) {
-            throw RuntimeException("You should run this script only when you added GH_USER and GH_TOKEN to env." +
-                "Token can be found here: https://github.com/settings/tokens")
+    private suspend fun Link.check() {
+        if (this.href != null) {
+            LOGGER.debug("Checking link [${this.href}]")
+            linksChecker.check(this.href)
         }
+    }
 
-        val request = HttpGet("https://api.github.com/repos/$name").also {
-            it.addHeader("Authorization", "token $pass")
+    private suspend fun getGithubRepoTopics(name: String): List<String> {
+        return try {
+            val request = HttpGet("https://api.github.com/repos/$name/topics").also {
+                it.addHeader("Authorization", "token ${configuration.ghToken}")
+                it.addHeader("Accept", "application/vnd.github.mercy-preview+json")
+            }
+
+            val response = httpClient.execute(request)
+
+            if (response.statusLine.statusCode != 200) {
+                LOGGER.error("[https://github.com/$name]: Response code: ${response.statusLine.statusCode}.")
+            }
+
+            mapper.readValue<GithubRepoTopicsResponse>(response.body()).names
+        } catch (e: Exception) {
+            LOGGER.error("Fetching topics from github", e)
+            emptyList()
         }
+    }
 
-        val response = httpClient.execute(request)
+    private suspend fun getGithubMetadata(name: String): GithubMetadata {
+        val githubStarCount = getGithubStarCount(name)
+        val topics = getGithubRepoTopics(name)
 
-        if (response.statusLine.statusCode != 200) {
-            LOGGER.error("[https://github.com/$name]: Response code: ${response.statusLine.statusCode}.")
+        return GithubMetadata(
+            stargazersCount = githubStarCount?.stargazersCount,
+            pushedAt = githubStarCount?.pushedAt,
+            description= githubStarCount?.description,
+            archived = githubStarCount?.archived ?: false,
+            topics = topics
+        )
+    }
+
+    private suspend fun getGithubStarCount(name: String): GithubRepoResponse? {
+        return try {
+            val request = HttpGet("https://api.github.com/repos/$name").also {
+                it.addHeader("Authorization", "token ${configuration.ghToken}")
+                it.addHeader("Accept", "application/vnd.github.v3+json")
+            }
+
+            val response = httpClient.execute(request)
+
+            if (response.statusLine.statusCode != 200) {
+                LOGGER.error("[https://github.com/$name]: Response code: ${response.statusLine.statusCode}.")
+            }
+
+            mapper.readValue<GithubRepoResponse>(response.body())
+        } catch (e: Exception) {
+            LOGGER.error("Fetching star count from github", e)
+            null
         }
-
-        return response.body()
     }
 
     private suspend fun getBitbucketStarCount(
@@ -149,7 +164,29 @@ fun LinksProcessor.Companion.default(
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-class BitbucketResponse(
+data class BitbucketResponse(
     val size: Int
 )
 
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class GithubRepoResponse(
+    @JsonProperty("stargazers_count")
+    val stargazersCount: Int,
+    @JsonProperty("pushed_at")
+    val pushedAt: String,
+    val description: String?,
+    val archived: Boolean
+)
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+data class GithubRepoTopicsResponse(
+    val names: List<String>
+)
+
+data class GithubMetadata(
+    val stargazersCount: Int?,
+    val pushedAt: String?,
+    val description: String?,
+    val archived: Boolean,
+    val topics: List<String>
+)
