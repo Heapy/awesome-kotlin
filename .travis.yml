@@ -8,7 +8,7 @@ jdk:
 addons:
   ssh_known_hosts: kotlin.link
 
-before_script:
+before_install:
   - nvm install 10
 
 install:
