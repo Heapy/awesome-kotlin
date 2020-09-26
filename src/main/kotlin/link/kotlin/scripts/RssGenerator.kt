@@ -7,6 +7,7 @@ import com.rometools.rome.feed.synd.SyndEntryImpl
 import com.rometools.rome.feed.synd.SyndFeedImpl
 import com.rometools.rome.feed.synd.SyndImageImpl
 import com.rometools.rome.io.SyndFeedOutput
+import link.kotlin.scripts.dsl.Article
 import java.io.StringWriter
 import java.time.Instant
 import java.util.Date

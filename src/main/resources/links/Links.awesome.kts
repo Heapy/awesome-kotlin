@@ -1,17 +1,8 @@
-import link.kotlin.scripts.LinkType
-import link.kotlin.scripts.LinkType.github
-import link.kotlin.scripts.Tags
-import link.kotlin.scripts.category
-import link.kotlin.scripts.link
-import link.kotlin.scripts.subcategory
-
 category("Links") {
   subcategory("Official Links") {
     link {
-      name = "JetBrains/kotlin"
-      href = "https://github.com/jetbrains/kotlin"
-      type = github
-      tags = Tags["kotlin"]
+      github = "JetBrains/kotlin"
+      setTags("kotlin")
     }
     link {
       name = "Home Page"
@@ -22,7 +13,7 @@ category("Links") {
       href = "http://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (21k+ users)"
+      name = "Slack (32k+ users)"
       href = "http://slack.kotlinlang.org/"
     }
     link {
@@ -42,14 +33,12 @@ category("Links") {
       href = "https://twitter.com/kotlin"
     }
     link {
-      name = "Kotlin/KEEP"
+      github = "Kotlin/KEEP"
       desc = "Kotlin Evolution and Enhancement Process"
-      href = "https://github.com/Kotlin/KEEP"
-      type = github
-      tags = Tags["keep", "async", "await"]
+      setTags("keep", "async", "await")
     }
     link {
-      name = "Forum"
+      name = "Kotlin Forum"
       href = "https://discuss.kotlinlang.org/"
     }
   }
@@ -58,24 +47,16 @@ category("Links") {
       name = "Jobs for Kotlin Developers"
       desc = "All job listings require Kotlin skills"
       href = "https://kotlin-jobs.com/"
+      commercial = true
     }
     link {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
-      href = "http://talkingkotlin.com/kotlin-at-pinterest-with-christina-lee/"
+      href = "http://talkingkotlin.com/"
     }
     link {
-      name = "/r/Kotlin"
+      name = "Kotlin Subreddit"
       href = "https://www.reddit.com/r/Kotlin/"
-    }
-    link {
-      name = "Stackoverflow Documentation on Kotlin"
-      href = "http://stackoverflow.com/documentation/kotlin/topics"
-      tags = Tags["documentation", "stackoverflow"]
-    }
-    link {
-      name = "Quora Kotlin"
-      href = "https://www.quora.com/topic/Kotlin"
     }
     link {
       name = "Trending Kotlin on Github"
@@ -84,7 +65,6 @@ category("Links") {
     link {
       name = "Antonio Leiva - Android and any other monsters"
       href = "http://antonioleiva.com/"
-      type = LinkType.blog
     }
     link {
       name = "Programming Community Curated Resources for learning Kotlin"
@@ -95,15 +75,13 @@ category("Links") {
       href = "https://www.linkedin.com/groups/7417237/profile"
     }
     link {
+      github = "fabiomsr/from-java-to-kotlin"
       name = "From Java To Kotlin"
       href = "https://github.com/fabiomsr/from-java-to-kotlin"
     }
     link {
-      name = "dbacinski/Design-Patterns-In-Kotlin"
-      desc = "Design Patterns implemented in Kotlin."
-      href = "https://github.com/dbacinski/Design-Patterns-In-Kotlin"
-      type = github
-      tags = Tags["Behavioral Patterns", "Creational Patterns", "Structural Patterns"]
+      github = "dbacinski/Design-Patterns-In-Kotlin"
+      setTags("Behavioral Patterns", "Creational Patterns", "Structural Patterns")
     }
     link {
       name = "Kotlin Cheat Sheet"
@@ -126,8 +104,8 @@ category("Links") {
     }
     link {
       name = "Jetbrain's Hyperskill Academy"
-      desc = "An interactive learning plaform for Kotlin and other languages"
-      href = "https://hyperskill.org/join/4db19914"
+      desc = "An interactive learning platform for Kotlin and other languages"
+      href = "https://hyperskill.org/onboarding/tracks/3"
     }
     link {
       name = "Kotlin Expertise Blog"
@@ -148,19 +126,16 @@ category("Links") {
       name = "SuperKotlin"
       desc = "A website about Kotlin"
       href = "https://superkotlin.com"
-      tags = Tags["blog", "articles", "tutorials", "interviews"]
+      setTags("blog", "articles", "tutorials", "interviews")
     }
     link {
-      name = "AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
+      github = "AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
       desc = "Code examples for 'Hands-on Design Patterns with Kotlin' book"
-      href = "https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
-      type = github
-      tags = Tags["GoF", "concurrency"]
+      setTags("GoF", "concurrency")
     }
     link {
-      name = "tbhaxor/GUIDE-TO-KOTLIN"
+      github = "tbhaxor/GUIDE-TO-KOTLIN"
       desc = "A practical guide on Kotlin for Developers"
-      href = "https://github.com/tbhaxor/GUIDE-TO-KOTLIN"
     }
   }
   subcategory("Books and Courses") {

@@ -1,529 +1,375 @@
-import link.kotlin.scripts.LinkType.github
-import link.kotlin.scripts.Tags
-import link.kotlin.scripts.category
-import link.kotlin.scripts.link
-import link.kotlin.scripts.subcategory
-
 category("Projects") {
   subcategory("Web") {
     link {
-      name = "sdeleuze/spring-boot-kotlin-demo"
+      github = "sdeleuze/spring-boot-kotlin-demo"
       desc = "Basic Spring Boot app in Kotlin."
-      href = "https://github.com/sdeleuze/spring-boot-kotlin-demo"
-      type = github
-      tags = Tags["spring", "spring-boot"]
+      setTags("spring", "spring-boot")
     }
     link {
-      name = "IRus/kotlin-dev-proxy"
+      github = "IRus/kotlin-dev-proxy"
       desc = "Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient."
-      href = "https://github.com/IRus/kotlin-dev-proxy"
-      type = github
-      tags = Tags["rest", "web"]
+      setTags("rest", "web")
     }
     link {
-      name = "ratpack/example-ratpack-gradle-kotlin-app"
+      github = "ratpack/example-ratpack-gradle-kotlin-app"
       desc = "An example of a Kotlin Ratpack app built with Gradle."
-      href = "https://github.com/ratpack/example-ratpack-gradle-kotlin-app"
-      type = github
-      tags = Tags["ratpack", "gradle", "rest", "web"]
+      setTags("ratpack", "gradle", "rest", "web")
     }
     link {
-      name = "mariomac/codebuilder"
+      github = "mariomac/codebuilder"
       desc = "Demo app about asynchronous architectures for long-response-time web applications."
-      href = "https://github.com/mariomac/codebuilder"
-      type = github
-      tags = Tags["vertx.io", "async", "example"]
+      setTags("vertx.io", "async", "example")
     }
     link {
-      name = "cbedoy/DYUM"
+      github = "cbedoy/DYUM"
       desc = "Basic Kotlin Implementation following MVP, and using Third Party library by Natural Analytics Language"
-      href = "https://github.com/cbedoy/DYUM"
-      type = github
-      tags = Tags["natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit"]
+      setTags("natural language", "third_party", "mvp", "demo", "basic kotlin", "retrofit")
     }
     link {
-      name = "eddywm/KTFLITE"
+      github = "eddywm/KTFLITE"
       desc = "Computer Vision on Android with Kotlin and Tensorflow Lite."
-      href = "https://github.com/eddywm/KTFLITE"
-      type = github
-      tags = Tags["tensorflow", "deep-learning", "computer-vision", "android", "machine-learning"]
+      setTags("tensorflow", "deep-learning", "computer-vision", "android", "machine-learning")
     }
     link {
-      name = "rocketraman/kotlin-web-hello-world"
+      github = "rocketraman/kotlin-web-hello-world"
       desc = "This project shows how to do a web-based \"Hello World!\" with Kotlin in combination with various JVM -" +
         " based web frameworks."
-      href = "https://github.com/rocketraman/kotlin-web-hello-world"
-      type = github
-      tags = Tags["spark java", "vertx", "wasabi", "ktor", "akka", "example"]
+      setTags("spark java", "vertx", "wasabi", "ktor", "akka", "example")
     }
     link {
-      name = "ivanpopelyshev/vertx-facebook-messenger"
+      github = "ivanpopelyshev/vertx-facebook-messenger"
       desc = "Seed project for facebook messenger bots. Vertx, Kotlin."
-      href = "https://github.com/ivanpopelyshev/vertx-facebook-messenger"
-      type = github
-      tags = Tags["chat bot", "vert.x", "facebook"]
+      setTags("chat bot", "vert.x", "facebook")
     }
     link {
-      name = "corda/corda"
+      github = "corda/corda"
       desc = "Corda is a distributed ledger platform designed to record, manage and automate legal agreements between business partners. "
-      href = "https://github.com/corda/corda"
-      type = github
-      tags = Tags["p2p", "blockchain"]
+      setTags("p2p", "blockchain")
     }
     link {
-      name = "spolnik/JAlgoArena"
+      github = "spolnik/JAlgoArena"
       desc = "JAlgoArena is a highly scalable programming contest platform which you can host on own infrastructure. It allows to define new problems and solve them in Kotlin and Java."
-      href = "https://github.com/spolnik/JAlgoArena"
-      type = github
-      tags = Tags["programming", "contest"]
+      setTags("programming", "contest")
     }
     link {
-      name = "mixitconf/mixit"
+      github = "mixitconf/mixit"
       desc = "MiXiT website"
-      href = "https://github.com/mixitconf/mixit"
-      type = github
-      tags = Tags["web", "gradle", "spring"]
+      setTags("web", "gradle", "spring")
     }
     link {
-      name = "derveloper/kiny"
+      github = "derveloper/kiny"
       desc = "Your super simple private serverless service running your kotlin functions like AWS lambda."
-      href = "https://github.com/derveloper/kiny"
-      type = github
-      tags = Tags["serverless", "lambda"]
+      setTags("serverless", "lambda")
     }
     link {
-      name = "ssouris/petclinic-spring5-reactive"
+      github = "ssouris/petclinic-spring5-reactive"
       desc = "Spring 5 Reactive Petclinic app written in Kotlin."
-      href = "https://github.com/ssouris/petclinic-spring5-reactive"
-      type = github
-      tags = Tags["spring", "reactive", "web"]
+      setTags("spring", "reactive", "web")
     }
     link {
-      name = "yyunikov/spring-boot-2-kotlin-starter"
+      github = "yyunikov/spring-boot-2-kotlin-starter"
       desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
-      href = "https://github.com/yyunikov/spring-boot-2-kotlin-starter"
-      type = github
-      tags = Tags["spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test"]
+      setTags("spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test")
     }
     link{
-      name = "viniciusccarvalho/kodein-cloud-functions"
+      github = "viniciusccarvalho/kodein-cloud-functions"
       desc = "Provides adapters to different cloud functions providers (AWS, Azure) to run vanilla kotlin functions defined as kodein modules"
-      href = "https://github.com/viniciusccarvalho/kodein-cloud-functions"
-      type = github
-      tags = Tags["kodein", "cloud", "serverless"]
+      setTags("kodein", "cloud", "serverless")
 
     }
   }
   subcategory("Build tools") {
     link {
-      name = "cbeust/kobalt"
+      github = "cbeust/kobalt"
       desc = "Build system inspired by Gradle."
-      href = "https://github.com/cbeust/kobalt"
-      type = github
     }
     link {
-      name = "gradle/gradle-script-kotlin"
+      github = "gradle/gradle-script-kotlin"
       desc = "Kotlin language support for Gradle build scripts."
-      href = "https://github.com/gradle/gradle-script-kotlin"
-      type = github
-      tags = Tags["gradle", "build"]
+      setTags("gradle", "build")
     }
     link {
-      name = "nebula-plugins/nebula-kotlin-plugin"
+      github = "nebula-plugins/nebula-kotlin-plugin"
       desc = "Provides the Kotlin plugin via the Gradle plugin portal, automatically depends on the standard library, and allows Kotlin library versions to be omitted."
-      href = "https://github.com/nebula-plugins/nebula-kotlin-plugin"
-      type = github
-      tags = Tags["gradle", "build"]
+      setTags("gradle", "build")
     }
     link {
-      name = "pubref/rules_kotlin"
+      github = "pubref/rules_kotlin"
       desc = "Bazel rules for Kotlin."
-      href = "https://github.com/pubref/rules_kotlin"
-      type = github
-      tags = Tags["bazel", "build"]
+      setTags("bazel", "build")
     }
   }
   subcategory("Misc") {
     link {
-      name = "quicktype/quicktype"
+      github = "quicktype/quicktype"
       desc = "Generate Kotlin types and converters from JSON, Schema, TypeScript, and GraphQL"
-      href = "https://github.com/quicktype/quicktype"
-      type = github
-      tags = Tags["json", "api", "web"]
+      setTags("json", "api", "web")
     }
     link {
-      name = "brikk/brikk"
-      desc = "Brikk dependency manager (Kotlin, KotlinJS, Java, ...)."
-      href = "https://github.com/brikk/brikk"
-      type = github
-      tags = Tags["dependency managment"]
-    }
-    link {
-      name = "lice-lang/lice"
+      github = "lice-lang/lice"
       desc = "A Lisp-like language's interpreter written in Kotlin"
-      href = "https://github.com/lice-lang/lice"
-      type = github
-      tags = Tags["lisp", "interpreter"]
+      setTags("lisp", "interpreter")
     }
     link {
-      name = "sureshg/InstallCerts"
+      github = "sureshg/InstallCerts"
       desc = "Create a PKCS12 TrustStore by retrieving server certificates."
-      href = "https://github.com/sureshg/InstallCerts"
-      type = github
-      tags = Tags["certificate", "crypto"]
+      setTags("certificate", "crypto")
     }
     link {
-      name = "vicboma1/GameBoyEmulatorEnvironment"
+      github = "vicboma1/GameBoyEmulatorEnvironment"
       desc = "Front-End developed with Kotlin Experimental for my GameBoy Emulator (coroutines)."
-      href = "https://github.com/vicboma1/GameBoyEmulatorEnvironment"
-      type = github
-      tags = Tags["GameBoy", "Emulator", "frontend", "kotlin", "experimental"]
+      setTags("GameBoy", "Emulator", "frontend", "kotlin", "experimental")
     }
     link {
-      name = "borisf/classyshark-bytecode-viewer"
+      github = "borisf/classyshark-bytecode-viewer"
       desc = "View your Kotlin generated classes as Java and bytecode format."
-      href = "https://github.com/borisf/classyshark-bytecode-viewer"
-      type = github
-      tags = Tags["bytecode", "decompiler"]
+      setTags("bytecode", "decompiler")
     }
     link {
-      name = "jenkinsci/doktor-plugin"
+      github = "jenkinsci/doktor-plugin"
       desc = "Jenkins plugin for automated documentation uploading to Confluence."
-      href = "https://github.com/jenkinsci/doktor-plugin"
-      type = github
-      tags = Tags["jenkins", "documentation", "confluence"]
+      setTags("jenkins", "documentation", "confluence")
     }
     link {
-      name = "mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
+      github = "mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
       desc = "Gradle plugin to help with build and test of Jenkins Pipeline Shared Libraries."
-      href = "https://github.com/mkobit/jenkins-pipeline-shared-libraries-gradle-plugin"
-      type = github
-      tags = Tags["jenkins", "gradle"]
+      setTags("jenkins", "gradle")
     }
     link {
-      name = "kpspemu/kpspemu"
+      github = "kpspemu/kpspemu"
       desc = "Multiplatform (JS and JVM) PSP Emulator written in Kotlin."
-      href = "https://github.com/kpspemu/kpspemu"
-      type = github
-      tags = Tags["Emulator", "Kotlin/JS", "Kotlin/JVM"]
+      setTags("Emulator", "Kotlin/JS", "Kotlin/JVM")
     }
     link {
-      name = "sourcerer-io/sourcerer-app"
+      github = "sourcerer-io/sourcerer-app"
       desc = "Visual profile for software engineers written in Kotlin."
-      href = "https://github.com/sourcerer-io/sourcerer-app"
-      type = github
-      tags = Tags["code analysis", "visualization", "resume", "profile"]
+      setTags("code analysis", "visualization", "resume", "profile")
     }
     link {
-      name = "chrislo27/RhythmHeavenRemixEditor"
+      github = "chrislo27/RhythmHeavenRemixEditor"
       desc = "An audio custom remix editor designed for the Rhythm Heaven series, using libGDX and Kotlin."
-      href = "https://github.com/chrislo27/RhythmHeavenRemixEditor"
-      type = github
-      tags = Tags["libgdx", "Rhythm Heaven", "custom remix"]
+      setTags("libgdx", "Rhythm Heaven", "custom remix")
     }
     link {
-      name = "Poweranimal/PowerCollections"
+      github = "Poweranimal/PowerCollections"
       desc = "Powerfull Collections, Sets, Lists and Maps."
-      href = "https://github.com/Poweranimal/PowerCollections"
-      type = github
-      tags = Tags["collections", "maps", "lists", "sets", "weakreference", "observable", "bounded"]
+      setTags("collections", "maps", "lists", "sets", "weakreference", "observable", "bounded")
     }
     link {
-      name = "neworld/gradle-jdeploy-plugin"
+      github = "neworld/gradle-jdeploy-plugin"
       desc = "Gradle plugin to publish JVM applications via npmjs.com"
-      href = "https://github.com/neworld/gradle-jdeploy-plugin"
-      type = github
-      tags = Tags["gradle", "publish", "npm"]
+      setTags("gradle", "publish", "npm")
     }
     link {
-      name = "ruslanys/telegraff"
+      github = "ruslanys/telegraff"
       desc = "Kotlin DSL for Telegram Bots creation."
       href= "https://github.com/ruslanys/telegraff"
-      type = github
-      tags = Tags["telegram", "bot", "dsl", "telegraff"]
+      setTags("telegram", "bot", "dsl", "telegraff")
     }
     link {
-      name = "insanusmokrassar/TelegramBotAPI"
+      github = "insanusmokrassar/TelegramBotAPI"
       desc = "Kotlin Multiplatform library for type-safe Telegram Bots requests"
       href= "https://github.com/insanusmokrassar/TelegramBotAPI"
-      type = github
-      tags = Tags["telegram", "bot", "multiplatform", "Kotlin/JVM"]
+      setTags("telegram", "bot", "multiplatform", "Kotlin/JVM")
     }
     link {
-      name = "krzema12/fsynth"
+      github = "krzema12/fsynth"
       desc = "Music synthesizer as a Kotlin multiplatform project"
       href= "https://github.com/krzema12/fsynth"
-      type = github
-      tags = Tags["music", "functional-programming", "multiplatform"]
+      setTags("music", "functional-programming", "multiplatform")
     }
   }
   subcategory("Desktop") {
     link {
-      name = "ice1000/Dekoder"
+      github = "ice1000/Dekoder"
       desc = " A kotlin music player, materially designed."
-      href = "https://github.com/ice1000/Dekoder"
-      type = github
-      tags = Tags["JavaFX", "Desktop", "Player"]
+      setTags("JavaFX", "Desktop", "Player")
     }
     link {
-      name = "ruslanys/vkmusic"
+      github = "ruslanys/vkmusic"
       desc = "JavaFX and Spring-Boot based application for grabbing music from VK.com."
-      href = "https://github.com/ruslanys/vkmusic"
-      type = github
-      tags = Tags["javafx", "spring", "spring-boot"]
+      setTags("javafx", "spring", "spring-boot")
     }
     link {
-      name = "datalisk/datalisk"
+      github = "datalisk/datalisk"
       desc = "A file sync and storage application with end-to-end encryption and multi-platform support."
-      href = "https://github.com/datalisk/datalisk"
-      type = github
-      tags = Tags["filesync", "end-to-end-encryption", "dropbox", "storage"]
+      setTags("filesync", "end-to-end-encryption", "dropbox", "storage")
     }
   }
   subcategory("Examples") {
     link {
-      name = "Kotlin/kotlin-koans"
+      github = "Kotlin/kotlin-koans"
       desc = "Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax."
-      href = "https://github.com/Kotlin/kotlin-koans"
-      type = github
-      tags = Tags["koans"]
+      setTags("koans")
     }
     link {
-      name = "JetBrains/kotlin-examples"
+      github = "JetBrains/kotlin-examples"
       desc = "Various examples for Kotlin."
-      href = "https://github.com/JetBrains/kotlin-examples"
-      type = github
-      tags = Tags["maven", "gradle", "android", "realm", "buttetknife", "dagger", "dbflow", "junit-test", "dokka"]
+      setTags("maven", "gradle", "android", "realm", "buttetknife", "dagger", "dbflow", "junit-test", "dokka")
     }
     link {
-      name = "JetBrains/swot"
+      github = "JetBrains/swot"
       desc = "Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts."
-      href = "https://github.com/jetbrains/swot"
-      type = github
     }
     link {
-      name = "robfletcher/midcentury-ipsum"
+      github = "robfletcher/midcentury-ipsum"
       desc = "Swingin’ filler text for your jet-age web page."
-      href = "https://github.com/robfletcher/midcentury-ipsum"
-      type = github
-      tags = Tags["ratpack"]
+      setTags("ratpack")
     }
     link {
-      name = "som-one/zarif-kherkin"
+      github = "som-one/zarif-kherkin"
       desc = "Configurable BDD testing using a Kotlin DSL for Gherkin."
-      href = "https://github.com/som-one/zarif-kherkin"
-      type = github
-      tags = Tags["bdd", "gherkin", "dsl",  "test"]
+      setTags("bdd", "gherkin", "dsl",  "test")
     }
     link {
-      name = "robfletcher/lazybones-kotlin"
+      github = "robfletcher/lazybones-kotlin"
       desc = "The Lazybones app migrated to Kotlin as a learning exercise."
-      href = "https://github.com/robfletcher/lazybones-kotlin"
-      type = github
-      tags = Tags["ratpack"]
+      setTags("ratpack")
     }
     link {
-      name = "wangjiegulu/KotlinAndroidSample"
+      github = "wangjiegulu/KotlinAndroidSample"
       desc = "Android sample with kotlin."
-      href = "https://github.com/wangjiegulu/KotlinAndroidSample"
-      type = github
-      tags = Tags["android", "sample"]
+      setTags("android", "sample")
     }
     link {
-      name = "dodyg/Kotlin101"
+      github = "dodyg/Kotlin101"
       desc = "101 examples for Kotlin Programming language."
-      href = "https://github.com/dodyg/Kotlin101"
-      type = github
-      tags = Tags["examples"]
+      setTags("examples")
     }
     link {
-      name = "dkandalov/kotlin-99"
+      github = "dkandalov/kotlin-99"
       desc = "Solve 99 problems with Kotlin!"
-      href = "https://github.com/dkandalov/kotlin-99"
-      type = github
-      tags = Tags["examples", "study"]
+      setTags("examples", "study")
     }
     link {
-      name = "dkandalov/rosettacode-kotlin"
+      github = "dkandalov/rosettacode-kotlin"
       desc = "Repository with source code from [RosettaCode](http://rosettacode.org/)"
-      href = "https://github.com/dkandalov/rosettacode-kotlin"
-      type = github
-      tags = Tags["examples", "study"]
+      setTags("examples", "study")
     }
     link {
-      name = "vicboma1/Kotlin-Koans"
+      github = "vicboma1/Kotlin-Koans"
       desc = "hese are the simple solutions of the kotlin koans online with intellij project."
-      href = "https://github.com/vicboma1/Kotlin-Koans"
-      type = github
-      tags = Tags["examples"]
+      setTags("examples")
     }
     link {
-      name = "vicboma1/GettingStartedKotlin"
+      github = "vicboma1/GettingStartedKotlin"
       desc = "Learn the basics of getting started with kotlin."
-      href = "https://github.com/vicboma1/GettingStartedKotlin"
-      type = github
-      tags = Tags["examples"]
+      setTags("examples")
     }
     link {
-      name = "vicboma1/Kotlin-Examples-Problems"
+      github = "vicboma1/Kotlin-Examples-Problems"
       desc = "These are the simple solutions of the kotlin example problems online."
-      href = "https://github.com/vicboma1/Kotlin-Examples-Problems"
-      type = github
-      tags = Tags["examples"]
+      setTags("examples")
     }
     link {
-      name = "pakoito/FunctionalAndroidReference"
+      github = "pakoito/FunctionalAndroidReference"
       desc = "A different Android app showcasing Functional Reactive Programming."
-      href = "https://github.com/pakoito/FunctionalAndroidReference"
-      type = github
-      tags = Tags["android", "examples", "functional"]
+      setTags("android", "examples", "functional")
     }
     link {
-      name = "bmaslakov/kotlin-algorithm-club"
+      github = "bmaslakov/kotlin-algorithm-club"
       desc = "Classic algorithms and data structures in Kotlin."
-      href = "https://github.com/bmaslakov/kotlin-algorithm-club"
-      type = github
-      tags = Tags["examples"]
+      setTags("examples")
     }
     link {
-      name = "gyulavoros/kotlin-todomvc"
+      github = "gyulavoros/kotlin-todomvc"
       desc = "Kotlin TodoMVC – full-stack Kotlin application demo"
-      href = "https://github.com/gyulavoros/kotlin-todomvc"
-      type = github
-      tags = Tags["examples", "javascript", "web", "gradle", "todomvc"]
+      setTags("examples", "javascript", "web", "gradle", "todomvc")
     }
     link {
-      name = "mkraynov/todomvc-react-kotlin"
+      github = "mkraynov/todomvc-react-kotlin"
       desc = "React Kotlin TodoMVC – example based on create-react-kotlin-app and todomvc-react"
-      href = "https://github.com/mkraynov/todomvc-react-kotlin"
-      type = github
-      tags = Tags["examples", "javascript", "web", "react", "todomvc"]
+      setTags("examples", "javascript", "web", "react", "todomvc")
     }
     link {
-      name = "IvanMwiruki/30-seconds-of-kotlin"
+      github = "IvanMwiruki/30-seconds-of-kotlin"
       desc = "Useful Kotlin snippets you can understand quickly, using only the stdlib."
-      href = "https://github.com/IvanMwiruki/30-seconds-of-kotlin"
-      type = github
-      tags = Tags["examples", "snippets", "sample", "study", "functional"]
+      setTags("examples", "snippets", "sample", "study", "functional")
     }
     link {
-      name = "xurxodev/integration-testing-kotlin-multiplatform-kata"
+      github = "xurxodev/integration-testing-kotlin-multiplatform-kata"
       desc = "A full exercise to learn how to use stubbing HTTP in Kotlin multiplatform using Ktor and Ktor Client Mock."
-      href = "https://github.com/xurxodev/integration-testing-kotlin-multiplatform-kata"
-      type = github
-      tags = Tags["examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock"]
+      setTags("examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock")
     }
     link {
-      name = "mrcsxsiq/Kotlin-Pokedex"
+      github = "mrcsxsiq/Kotlin-Pokedex"
       desc = "A Pokedex demo app built with Kotlin using ViewModel, LiveData, Room and Navigation"
-      href = "https://github.com/mrcsxsiq/Kotlin-Pokedex"
-      type = github
     }
     link {
-      name = "LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
+      github = "LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
       desc = "Learn Kotlin Coroutines for Android by example. Sample implementations for real-world Android use cases. Unit tests included."
-      href = "https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
-      type = github
     }
   }
   subcategory("Idea Plugins") {
     link {
-      name = "Vektah/CodeGlance"
+      github = "Vektah/CodeGlance"
       desc = "Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime."
-      href = "https://github.com/Vektah/CodeGlance"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "intellij-rust/intellij-rust"
+      github = "intellij-rust/intellij-rust"
       desc = "Rust IDE built using the IntelliJ Platform."
-      href = "https://github.com/intellij-rust/intellij-rust"
-      type = github
-      tags = Tags["idea", "plugin", "rust"]
+      setTags("idea", "plugin", "rust")
     }
     link {
-      name = "dkandalov/activity-tracker"
+      github = "dkandalov/activity-tracker"
       desc = "Plugin for IntelliJ IDEs to track and record user activity."
-      href = "https://github.com/dkandalov/activity-tracker"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "dkandalov/limited-wip"
+      github = "dkandalov/limited-wip"
       desc = "Plugin to limit your work-in-progress."
-      href = "https://github.com/dkandalov/limited-wip"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "dkandalov/pomodoro-tm"
+      github = "dkandalov/pomodoro-tm"
       desc = "Pomodoro timer."
-      href = "https://github.com/dkandalov/pomodoro-tm"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "izhangzhihao/intellij-rainbow-brackets"
+      github = "izhangzhihao/intellij-rainbow-brackets"
       desc = "Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs."
-      href = "https://github.com/izhangzhihao/intellij-rainbow-brackets"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "roger-yh99/Readhub"
+      github = "roger-yh99/Readhub"
       desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
-      href = "https://github.com/roger-yh99/Readhub"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "roger-yh99/AwesomeKotlinPlugin"
+      github = "roger-yh99/AwesomeKotlinPlugin"
       desc = "[AwesomeKotlin](https://plugins.jetbrains.com/plugin/11357-awesome-kotlin) plugin for IntelliJ IDEs"
-      href = "https://github.com/roger-yh99/AwesomeKotlinPlugin"
-      type = github
-      tags = Tags["idea", "plugin"]
+      setTags("idea", "plugin")
     }
     link {
-      name = "emedinaa/kotlin-mvvm"
+      github = "emedinaa/kotlin-mvvm"
       desc = "MVVM(Model View ViewModel) sample in Kotlin using the components ViewModel, LiveData and Retrofit library"
-      href = "https://github.com/emedinaa/kotlin-mvvm"
-      type = github
-      tags = Tags["android", "examples", "mvvm", "kotlin"]
+      setTags("android", "examples", "mvvm", "kotlin")
     }
     link {
-      name = "emedinaa/kotlin-mvp-volley"
+      github = "emedinaa/kotlin-mvp-volley"
       desc = "Example of Android project in Kotlin using MVP(Model View Presenter) pattern and volley library"
-      href = "https://github.com/emedinaa/kotlin-mvp-volley"
-      type = github
-      tags = Tags["android", "examples", "mvp", "kotlin" , "volley"]
+      setTags("android", "examples", "mvp", "kotlin" , "volley")
     }
     link {
-      name = "emedinaa/android-recyclerview"
+      github = "emedinaa/android-recyclerview"
       desc = "Some samples about the RecyclerView and Adapters using kotlin"
-      href = "https://github.com/emedinaa/android-recyclerview-and-adapters"
-      type = github
-      tags = Tags["android", "examples", "recyclerview", "kotlin" , "adapter"]
+      setTags("android", "examples", "recyclerview", "kotlin" , "adapter")
     }
     link {
-      name = "emedinaa/kotlin-viewmodel"
+      github = "emedinaa/kotlin-viewmodel"
       desc = "Basic samples about ViewModel component"
-      href = "https://github.com/emedinaa/kotlin-viewmodel"
-      type = github
-      tags = Tags["android", "examples", "viewmodel", "kotlin" , "livedata"]
+      setTags("android", "examples", "viewmodel", "kotlin" , "livedata")
     }
     link {
-      name = "wuseal/JsonToKotlinClass"
+      github = "wuseal/JsonToKotlinClass"
       desc = "Plugin for IntelliJ IDEs to generate Kotlin data class code from JSON text"
-      href = "https://github.com/wuseal/JsonToKotlinClass"
-      type = github
-      tags = Tags["json", "idea"]
+      setTags("json", "idea")
     }
     link{
-      name = "csense-oss/idea-kotlin-checked-exceptions"
+      github = "csense-oss/idea-kotlin-checked-exceptions"
       desc = "Plugin to help integrate with java and exceptions (highlights, warns when not catching exceptions and a lot more)"
-      href = "https://github.com/csense-oss/idea-kotlin-checked-exceptions"
-      type = github
-      tags = Tags["kotlin", "idea","exceptions"]
+      setTags("kotlin", "idea","exceptions")
     }
   }
 }

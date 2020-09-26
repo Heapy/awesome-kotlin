@@ -13,6 +13,17 @@ import kotlin.script.experimental.jvm.jvm
 abstract class AwesomeScript
 
 internal object LinkScriptCompilationConfiguration : ScriptCompilationConfiguration({
+    defaultImports(
+        "link.kotlin.scripts.dsl.*",
+        "link.kotlin.scripts.dsl.PlatformType.*",
+        "link.kotlin.scripts.dsl.PlatformType.ANDROID",
+        "link.kotlin.scripts.dsl.PlatformType.COMMON",
+        "link.kotlin.scripts.dsl.PlatformType.IOS",
+        "link.kotlin.scripts.dsl.PlatformType.JS",
+        "link.kotlin.scripts.dsl.PlatformType.JVM",
+        "link.kotlin.scripts.dsl.PlatformType.NATIVE",
+        "link.kotlin.scripts.dsl.PlatformType.WASM",
+    )
 
     jvm {
         dependenciesFromClassContext(
@@ -25,6 +36,4 @@ internal object LinkScriptCompilationConfiguration : ScriptCompilationConfigurat
     ide {
         acceptedLocations(ScriptAcceptedLocation.Project)
     }
-
-    defaultImports()
 })

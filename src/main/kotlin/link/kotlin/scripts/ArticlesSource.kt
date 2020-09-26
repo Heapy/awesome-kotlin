@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.dsl.Article
 import link.kotlin.scripts.scripting.ScriptEvaluator
 import java.nio.file.Files
 import java.nio.file.Paths

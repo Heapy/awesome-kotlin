@@ -1,6 +1,7 @@
 package link.kotlin.scripts
 
 import kotlinx.coroutines.runBlocking
+import link.kotlin.scripts.dsl.Category
 import link.kotlin.scripts.scripting.ScriptEvaluator
 import java.nio.file.Paths
 import java.nio.file.Files

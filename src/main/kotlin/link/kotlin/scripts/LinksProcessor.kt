@@ -24,51 +24,106 @@ private class DefaultLinksProcessor(
     private val linksChecker: LinksChecker
 ): LinksProcessor {
     override suspend fun process(link: Link): Link {
-        return when (link.type) {
-            LinkType.github -> {
-                LOGGER.debug("Fetching star count from github: ${link.name}.")
+        // TODO:
+        //  Fetch repo tags from github
+        //  Deduplicate link check
+        //  Model class for GH response
+        return when {
+            link.github != null -> {
+                LOGGER.debug("Fetching star count from github: ${link.github}.")
                 val json = try {
-                    val response = getGithubStarCount(httpClient, link.name, configuration.ghUser, configuration.ghToken)
+                    val response = getGithubStarCount(link.github, configuration.ghUser, configuration.ghToken)
                     mapper.readTree(response)
                 } catch (e: Exception) {
-                    LOGGER.error("Error ({}) while fetching data for '${link.name}'.", e.message)
+                    LOGGER.error("Error ({}) while fetching data for '${link.github}'.", e.message)
                     return link
                 }
 
-                val stargazers_count = json["stargazers_count"]?.asInt()
-                val pushed_at = json["pushed_at"]?.asText() ?: ""
+                val stargazersCount = json["stargazers_count"]?.asInt()
+                val pushedAt = json["pushed_at"]?.asText() ?: ""
+                val description = json["description"]?.asText() ?: ""
                 val archived = json["archived"]?.asBoolean() ?: false
 
-                if (pushed_at.isNotEmpty()) {
-                    link.star = stargazers_count
-                    link.update = parseInstant(pushed_at).format(formatter)
-                    link.archived = archived
+                if (link.href != null) {
+                    LOGGER.debug("Checking link [${link.href}]")
+                    linksChecker.check(link.href)
                 }
 
-                link
+                if (pushedAt.isNotEmpty()) {
+                    link.copy(
+                        name = link.name ?: link.github,
+                        href = link.href ?: "https://githib.com/${link.github}",
+                        desc = link.desc ?: description,
+                        star = stargazersCount,
+                        update = parseInstant(pushedAt).format(formatter),
+                        archived = archived
+                    )
+                } else link
             }
-            LinkType.bitbucket -> {
-                val stars = getBitbucketStarCount(httpClient, link.name)
-                link.star = stars?.size
-                link
+            link.bitbucket != null -> {
+                val stars = getBitbucketStarCount(link.bitbucket)
+
+                if (link.href != null) {
+                    LOGGER.debug("Checking link [${link.href}]")
+                    linksChecker.check(link.href)
+                }
+
+                link.copy(
+                    name = link.name ?: link.bitbucket,
+                    href = link.href ?: "https://bitbucket.org/${link.bitbucket}",
+                    star = stars?.size
+                )
+            }
+            link.kug != null -> {
+                if (link.href != null) {
+                    LOGGER.debug("Checking link [${link.href}]")
+                    linksChecker.check(link.href)
+                }
+
+                link.copy(
+                    name = link.name ?: link.kug
+                )
             }
             else -> {
-                LOGGER.debug("Checking link [${link.href}]")
-                linksChecker.check(link.href)
+                if (link.href != null) {
+                    LOGGER.debug("Checking link [${link.href}]")
+                    linksChecker.check(link.href)
+                }
                 link
             }
         }
     }
 
+    private suspend fun getGithubStarCount(
+        name: String,
+        user: String,
+        pass: String
+    ): String {
+        if (user.isEmpty() || pass.isEmpty()) {
+            throw RuntimeException("You should run this script only when you added GH_USER and GH_TOKEN to env." +
+                "Token can be found here: https://github.com/settings/tokens")
+        }
+
+        val request = HttpGet("https://api.github.com/repos/$name").also {
+            it.addHeader("Authorization", "token $pass")
+        }
+
+        val response = httpClient.execute(request)
+
+        if (response.statusLine.statusCode != 200) {
+            LOGGER.error("[https://github.com/$name]: Response code: ${response.statusLine.statusCode}.")
+        }
+
+        return response.body()
+    }
 
     private suspend fun getBitbucketStarCount(
-        client: HttpClient,
         name: String
     ): BitbucketResponse? {
         return try {
             LOGGER.debug("Fetching star count from bitbucket: $name.")
             val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers")
-            val response = client.execute(request).body()
+            val response = httpClient.execute(request).body()
             mapper.readValue<BitbucketResponse>(response)
         } catch(e: Exception) {
             LOGGER.error("Fetching star count from bitbucket", e)
@@ -91,30 +146,6 @@ fun LinksProcessor.Companion.default(
         httpClient = httpClient,
         linksChecker = linksChecker
     )
-}
-
-private suspend fun getGithubStarCount(
-    client: HttpClient,
-    name: String,
-    user: String,
-    pass: String
-): String {
-    if (user.isEmpty() || pass.isEmpty()) {
-        throw RuntimeException("You should run this script only when you added GH_USER and GH_TOKEN to env." +
-            "Token can be found here: https://github.com/settings/tokens")
-    }
-
-    val request = HttpGet("https://api.github.com/repos/$name").also {
-        it.addHeader("Authorization", "token $pass")
-    }
-
-    val response = client.execute(request)
-
-    if (response.statusLine.statusCode != 200) {
-        LOGGER.error("[https://github.com/$name]: Response code: ${response.statusLine.statusCode}.")
-    }
-
-    return response.body()
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)

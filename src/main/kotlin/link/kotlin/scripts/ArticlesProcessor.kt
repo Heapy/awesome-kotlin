@@ -1,5 +1,7 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.dsl.Article
+
 interface ArticlesProcessor {
     fun process(article: Article): Article
 

@@ -1,5 +1,7 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.dsl.Article
+import link.kotlin.scripts.dsl.Category
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.model.default
 import link.kotlin.scripts.scripting.ScriptEvaluator

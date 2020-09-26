@@ -1,17 +1,17 @@
 package link.kotlin.scripts.model
 
-import link.kotlin.scripts.LinkType
-import link.kotlin.scripts.TargetType
+import link.kotlin.scripts.dsl.PlatformType
 
 data class Link(
-    val name: String,
-    val href: String = "",
-    val desc: String = "",
-    val type: LinkType = LinkType.none,
-    val platforms: Array<TargetType>,
-    val tags: Array<String> = arrayOf(),
-    val whitelisted: Boolean = false,
-    var star: Int? = null,
-    var update: String? = null,
-    var archived: Boolean = false
+    val name: String? = null,
+    val github: String? = null,
+    val bitbucket: String? = null,
+    val kug: String? = null,
+    val href: String? = null,
+    val desc: String? = null,
+    val platforms: List<PlatformType> = emptyList(),
+    val tags: List<String> = emptyList(),
+    val star: Int? = null,
+    val update: String? = null,
+    val archived: Boolean = false
 )

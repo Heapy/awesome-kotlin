@@ -1,5 +1,6 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.dsl.Article
 import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.model.default
 

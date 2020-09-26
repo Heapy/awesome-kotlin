@@ -3,7 +3,7 @@ package link.kotlin.scripts
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.runBlocking
+import link.kotlin.scripts.dsl.Category
 
 interface CategoryProcessor {
     suspend fun process(category: Category): Category

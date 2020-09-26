@@ -1,5 +1,7 @@
 package link.kotlin.scripts
 
+import link.kotlin.scripts.dsl.Category
+
 interface ReadmeGenerator {
     fun generate(links: List<Category>): String
 
@@ -44,8 +46,8 @@ internal fun getTocSubcategoryName(name: String, namespace: String) =
 internal fun tableOfContent(links: List<Category>): String {
     fun getSubcategories(category: Category): String {
         return category
-            .subcategories.joinToString("\n") { (_, name) ->
-                getTocSubcategoryName(name, category.name)
+            .subcategories.joinToString("\n") { subcategory ->
+                getTocSubcategoryName(subcategory.name, category.name)
             }
     }
 
