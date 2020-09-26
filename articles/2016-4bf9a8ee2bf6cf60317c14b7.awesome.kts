@@ -1,7 +1,7 @@
 
-import link.kotlin.scripts.Article
-import link.kotlin.scripts.model.LanguageCodes.IT
-import link.kotlin.scripts.LinkType.video
+import link.kotlin.scripts.dsl.Article
+import link.kotlin.scripts.dsl.LanguageCodes.IT
+import link.kotlin.scripts.dsl.LinkType.video
 import java.time.LocalDate
 
 // language=Markdown

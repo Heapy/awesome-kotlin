@@ -1,8 +1,8 @@
 
-import link.kotlin.scripts.Article
-import link.kotlin.scripts.Enclosure
-import link.kotlin.scripts.model.LanguageCodes.RU
-import link.kotlin.scripts.LinkType.article
+import link.kotlin.scripts.dsl.Article
+import link.kotlin.scripts.dsl.Enclosure
+import link.kotlin.scripts.dsl.LanguageCodes.RU
+import link.kotlin.scripts.dsl.LinkType.article
 import java.time.LocalDate
 
 // language=Markdown
