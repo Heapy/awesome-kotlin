@@ -7,7 +7,7 @@ import kotlin.script.experimental.jvm.jvm
 
 @KotlinScript(
     displayName = "Awesome Kotlin Executor",
-    fileExtension = "kts",
+    fileExtension = "awesome.kts",
     compilationConfiguration = LinkScriptCompilationConfiguration::class
 )
 abstract class AwesomeScript

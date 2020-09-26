@@ -8,8 +8,8 @@ import {Component as Bar} from "../bar/Bar";
 
 const styles = require("./page.less");
 
-const data = require("../../LinksWithStars.json");
-const versions = require("../../../versions.json");
+const data = require("../../links.json");
+const versions = require("../../versions.json");
 
 function reduceCategory(category, searchTerm) {
   const subcategories = category.subcategories.reduce(function (acc, subcategory) {

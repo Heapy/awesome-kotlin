@@ -7,7 +7,7 @@ This awesome list contains two views: standard github README page view, and nice
 **To contribute** to both places you need:
 
 1. Checkout `legacy` branch;
-2. Edit  **[src/main/resources/links/](./src/main/resources/links/)${category}.kts**;
+2. Edit  **[src/main/resources/links/](./src/main/resources/links/)${category}.awesome.kts**;
 3. Create PR.
 
 *Happy contributing!*

@@ -1,7 +1,6 @@
+language: java
 os: linux
 dist: bionic
-  
-language: java
 
 jdk:
   - openjdk11
@@ -15,6 +14,7 @@ before_script:
 
 script:
   - ./gradlew check installDist
+  - ./build/install/awesome-kotlin/bin/awesome-kotlin
 
 deploy:
   - provider: script
@@ -39,6 +39,7 @@ before_cache:
 cache:
   yarn: true
   directories:
+    - "${HOME}/.cache/awesome-kotlin/"
     - "${HOME}/.gradle/caches/"
     - "${HOME}/.gradle/wrapper/"
 

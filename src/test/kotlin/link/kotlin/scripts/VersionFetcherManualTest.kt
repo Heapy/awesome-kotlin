@@ -1,10 +1,11 @@
 package link.kotlin.scripts
 
-import link.kotlin.scripts.utils.createHttpClient
+import link.kotlin.scripts.utils.HttpClient
+import link.kotlin.scripts.utils.default
 
 suspend fun main() {
-    val client = createHttpClient()
-    val fetcher = MavenCentralVersionFetcher(client)
+    val client = HttpClient.default()
+    val fetcher = KotlinVersionFetcher.default(client)
     val versions = fetcher.getLatestVersions(listOf("1.3", "1.4"))
     println(versions)
 }

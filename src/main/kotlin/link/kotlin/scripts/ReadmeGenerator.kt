@@ -1,14 +1,19 @@
 package link.kotlin.scripts
 
 interface ReadmeGenerator {
-    fun generate(projects: List<Category>): String
+    fun generate(links: List<Category>): String
+
+    companion object
 }
 
-class DefaultReadmeGenerator(
-) : ReadmeGenerator {
-    override fun generate(projects: List<Category>): String {
-        return generateReadme(projects)
+private class MardownReadmeGenerator : ReadmeGenerator {
+    override fun generate(links: List<Category>): String {
+        return generateReadme(links)
     }
+}
+
+fun ReadmeGenerator.Companion.default(): ReadmeGenerator {
+    return MardownReadmeGenerator()
 }
 
 internal fun normalizeName(name: String): String {
@@ -28,7 +33,7 @@ internal fun getCategoryName(name: String) =
     """## ${getAnchor(name)}$name <sup>${link("Back ⇈", "$name-category")}</sup>"""
 
 internal fun getSubcategoryName(name: String, namespace: String) =
-    """### ${getAnchor(namespace + "-" + name)}$name <sup>${link("Back ⇈", "$namespace-$name-subcategory")}</sup>"""
+    """### ${getAnchor("$namespace-$name")}$name <sup>${link("Back ⇈", "$namespace-$name-subcategory")}</sup>"""
 
 internal fun getTocCategoryName(name: String) =
     """### ${getAnchor("$name-category")}${link(name, name)}"""
@@ -36,7 +41,7 @@ internal fun getTocCategoryName(name: String) =
 internal fun getTocSubcategoryName(name: String, namespace: String) =
     """* ${getAnchor("$namespace-$name-subcategory")}${link(name, "$namespace-$name")}"""
 
-internal fun tableOfContent(links: Links): String {
+internal fun tableOfContent(links: List<Category>): String {
     fun getSubcategories(category: Category): String {
         return category
             .subcategories.joinToString("\n") { (_, name) ->
@@ -49,7 +54,7 @@ internal fun tableOfContent(links: Links): String {
     }
 }
 
-internal fun getLinks(links: Links): String {
+internal fun getLinks(links: List<Category>): String {
     return links.joinToString("\n") { category ->
         val subcategories = category.subcategories.joinToString("\n") { subcategory ->
             val mdLinks = subcategory.links
@@ -68,8 +73,9 @@ internal fun getLinks(links: Links): String {
     }
 }
 
-internal fun generateReadme(links: Links): String {
-    val template = """<!--
+internal fun generateReadme(links: List<Category>): String {
+    return """
+<!--
     This is GENERATED file, please consult 
     https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md
     for instructions.
@@ -105,6 +111,4 @@ ${getLinks(links)}
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 """
-
-    return template
 }

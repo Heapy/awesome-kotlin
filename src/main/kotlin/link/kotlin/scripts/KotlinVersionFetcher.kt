@@ -12,17 +12,19 @@ import org.apache.http.client.methods.HttpGet
  *
  * @author Ibragimov Ruslan
  */
-interface VersionFetcher {
+interface KotlinVersionFetcher {
     suspend fun getLatestVersions(branches: List<String>): List<String>
+
+    companion object
 }
 
-class MavenCentralVersionFetcher(
-    private val client: HttpClient
-) : VersionFetcher {
+private class MavenCentralKotlinVersionFetcher(
+    private val httpClient: HttpClient
+) : KotlinVersionFetcher {
     override suspend fun getLatestVersions(branches: List<String>): List<String> {
         val url = "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/maven-metadata.xml"
 
-        val xml = client.execute(HttpGet(url)).body()
+        val xml = httpClient.execute(HttpGet(url)).body()
 
         val mapper = XmlMapper()
         mapper.registerModule(KotlinModule())
@@ -33,11 +35,19 @@ class MavenCentralVersionFetcher(
         return branches.map { findMax(versions, it) }
     }
 
-    fun findMax(versions: List<String>, version: String): String {
+    private fun findMax(versions: List<String>, version: String): String {
         return versions
             .filterNot { it.endsWith("-rc") }
             .filter { it.startsWith(version) }.maxOrNull() ?: ""
     }
+}
+
+fun KotlinVersionFetcher.Companion.default(
+    httpClient: HttpClient
+): KotlinVersionFetcher {
+    return MavenCentralKotlinVersionFetcher(
+        httpClient = httpClient
+    )
 }
 
 @JsonIgnoreProperties("groupId", "artifactId")

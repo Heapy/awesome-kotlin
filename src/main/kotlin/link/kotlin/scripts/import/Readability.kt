@@ -1,14 +1,13 @@
-package link.kotlin.scripts
+package link.kotlin.scripts.import
 
 import by.heap.remark.Options
 import by.heap.remark.Remark
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.runBlocking
-import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
-import link.kotlin.scripts.utils.createHttpClient
+import link.kotlin.scripts.utils.default
 import link.kotlin.scripts.utils.parseInstant
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.utils.URIBuilder
@@ -18,14 +17,12 @@ import java.nio.file.StandardOpenOption
 import java.time.LocalDateTime.now
 
 class Readability(
-    private val httpClient: HttpClient,
-    private val configuration: ApplicationConfiguration
+    private val httpClient: HttpClient
 ) {
     suspend fun getArticle(url: String): String {
         val request = HttpGet().also {
             it.uri = URIBuilder("https://mercury.postlight.com/parser").addParameter("url", url).build()
             it.addHeader("Content-Type", "application/json")
-            it.addHeader("x-api-key", configuration.mercuryToken)
         }
 
         return httpClient.execute(request).body()
@@ -35,8 +32,7 @@ class Readability(
 fun main() = runBlocking {
     val mapper = jacksonObjectMapper()
     val readability = Readability(
-        createHttpClient(),
-        ApplicationConfiguration()
+        HttpClient.default()
     )
 
     val response = readability.getArticle("https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1-1-is-out/")

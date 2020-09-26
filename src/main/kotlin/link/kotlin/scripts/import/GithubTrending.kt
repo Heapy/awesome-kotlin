@@ -1,6 +1,5 @@
-package link.kotlin.scripts
+package link.kotlin.scripts.import
 
-import com.fasterxml.jackson.databind.ObjectMapper
 import link.kotlin.scripts.utils.Cache
 import org.jsoup.Jsoup
 
@@ -27,14 +26,9 @@ class GithubTrending(
 
         if (isAvailable) {
             val repos = doc.select(".repo-list h3 a").map { it.attr("href") }
-            cache.put(url, repos)
             return repos
         } else {
-            return cache.get(url, listOf())
+            return listOf()
         }
     }
-}
-
-fun main() {
-    println(GithubTrending(Cache(ObjectMapper())).fetch().size)
 }

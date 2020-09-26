@@ -12,6 +12,7 @@ const val junitApi = "org.junit.jupiter:junit-jupiter-api:$junitVersion"
 private const val jacksonVersion = "2.11.2"
 const val jacksonXml = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$jacksonVersion"
 const val jacksonKotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonVersion"
+const val jacksonJsr310 = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$jacksonVersion"
 
 private const val commonmarkVersion = "0.15.2"
 const val commonmark = "com.atlassian.commonmark:commonmark:$commonmarkVersion"

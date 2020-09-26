@@ -1,35 +1,86 @@
 package link.kotlin.scripts.utils
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.fasterxml.jackson.module.kotlin.readValue
-import java.io.InputStream
-import java.nio.file.Files.write
+import link.kotlin.scripts.model.ApplicationConfiguration
+import java.math.BigInteger
+import java.nio.file.Files
+import java.nio.file.Path
 import java.nio.file.Paths
-import java.nio.file.StandardOpenOption.CREATE
-import java.nio.file.StandardOpenOption.TRUNCATE_EXISTING
+import java.security.MessageDigest
+import kotlin.reflect.KClass
 
-class Cache(
+interface Cache {
+    fun <T> put(key: String, value: T)
+    fun <T : Any> get(key: String, type: KClass<T>): T?
+
+    companion object
+}
+
+fun Cache.Companion.cacheKey(data: String): String {
+    val magnitude = MessageDigest.getInstance("MD5").digest(data.toByteArray())
+    return "%032x".format(BigInteger(1, magnitude))
+}
+
+class FileCache(
+    private val folder: Path,
     private val mapper: ObjectMapper
-) {
-    private val cache = mutableMapOf<String, Any>()
-    private val cachePath = Paths.get("./dist/cache.json")
-
-
-    fun load(data: InputStream) {
-        cache += mapper.readValue<Map<String, Any>>(data)
+) : Cache {
+    override fun <T> put(key: String, value: T) {
+        val data = mapper.writeValueAsString(value)
+        writeFile(folder.resolve(key), data)
     }
 
-    fun save() {
-        val json = mapper.writeValueAsBytes(cache)
-        write(cachePath, json, CREATE, TRUNCATE_EXISTING)
+    override fun <T : Any> get(key: String, type: KClass<T>): T? {
+        val path = folder.resolve(key)
+        return if (Files.exists(path)) {
+            try {
+                val data = Files.readAllBytes(path)
+                mapper.readValue(data, type.java)
+            } catch (e: Exception) {
+                LOGGER.info("Removing invalid cache entry [$path].")
+                Files.delete(path)
+                null
+            }
+        } else null
     }
 
-    fun put(key: String, data: Any) {
-        cache.put(key, data)
+    companion object {
+        private val LOGGER = logger<FileCache>()
+    }
+}
+
+private class DisableCache(
+    private val cache: Cache,
+    private val configuration: ApplicationConfiguration
+) : Cache {
+    override fun <T> put(key: String, value: T) {
+        if (configuration.cacheEnabled) {
+            cache.put(key, value)
+        }
     }
 
-    @Suppress("UNCHECKED_CAST")
-    fun <T> get(key: String, default: T): T {
-        return cache[key] as T? ?: default
+    override fun <T : Any> get(key: String, type: KClass<T>): T? {
+        return if (configuration.cacheEnabled) {
+            cache.get(key, type)
+        } else null
     }
+
+}
+
+fun Cache.Companion.default(
+    folder: Path = Paths.get(System.getProperty("user.home"), ".cache", "awesome-kotlin"),
+    mapper: ObjectMapper,
+    configuration: ApplicationConfiguration
+): Cache {
+    Files.createDirectories(folder)
+
+    val fileCache = FileCache(
+        folder = folder,
+        mapper = mapper
+    )
+
+    return DisableCache(
+        cache = fileCache,
+        configuration = configuration
+    )
 }

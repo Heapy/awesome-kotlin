@@ -6,9 +6,6 @@ echo "TRAVIS_BUILD_DIR=${TRAVIS_BUILD_DIR}"
 echo "Clear and re-create the dist directory...";
 rm -rf dist || exit 1;
 
-echo "Run kotlin application to generate various data...";
-AWESOME_KOTLIN_OPTS="-Xmx2g" ./build/install/awesome-kotlin/bin/awesome-kotlin
-
 echo "Build React Application...";
 npm run pack
 
