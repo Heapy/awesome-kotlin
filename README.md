@@ -164,6 +164,7 @@ Here awesome badge for your project:
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
 * [darkredz/Zeko-RestApi](https://github.com/darkredz/zeko-restapi-framework) - Fun, simple & lightweight async RESTful API framework on top of Vert.x. Automatic Swagger doc & code generation via Kotlin kapt
+* [kohesive/kovert](https://github.com/kohesive/kovert) - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin
@@ -178,7 +179,6 @@ Here awesome badge for your project:
 * [aPureBase/KGraphQL](https://github.com/aPureBase/KGraphQL) - A GraphQL implementation written in Kotlin
 * [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
 * [mvysny/vaadin-on-kotlin](https://github.com/mvysny/vaadin-on-kotlin) - A simple way to write full-stack database-backed component-oriented web apps
-* [kohesive/kovert](https://github.com/kohesive/kovert) - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
 * [taskworld/kraph](https://github.com/taskworld/kraph) - GraphQL request string builder written in Kotlin
 * [alpas/alpas](https://github.com/alpas/alpas) - Kotlin web framework inspired by Laravel/Rails. Easy, elegant and productive.
 * [jwstegemann/fritz2](https://github.com/jwstegemann/fritz2) - small lib to build reactive web-apps in pure Kotlin based on Flows
