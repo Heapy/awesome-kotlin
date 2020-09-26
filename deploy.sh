@@ -3,9 +3,6 @@ set -e # exit with nonzero exit code if anything fails
 
 echo "TRAVIS_BUILD_DIR=${TRAVIS_BUILD_DIR}"
 
-echo "Clear and re-create the dist directory...";
-rm -rf dist || exit 1;
-
 echo "Build React Application...";
 npm run pack
 
