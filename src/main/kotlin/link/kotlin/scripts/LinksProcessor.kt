@@ -29,24 +29,24 @@ private class DefaultLinksProcessor(
             link.github != null -> {
                 LOGGER.debug("Fetching star count from github: ${link.github}.")
                 val meta = try {
-                    getGithubMetadata(link.github)
+                    if (!configuration.dryRun) {
+                        getGithubMetadata(link.github)
+                    } else GithubMetadata.DEFAULT
                 } catch (e: Exception) {
                     LOGGER.error("Error ({}) while fetching data for '${link.github}'.", e.message)
-                    return link
+                    GithubMetadata.DEFAULT
                 }
                 link.check()
 
-                if (meta.pushedAt != null) {
-                    link.copy(
-                        name = link.name ?: link.github,
-                        href = link.href ?: "https://github.com/${link.github}",
-                        desc = link.desc ?: meta.description,
-                        star = meta.stargazersCount,
-                        update = parseInstant(meta.pushedAt).format(formatter),
-                        archived = meta.archived,
-                        tags = (link.tags + meta.topics).distinct()
-                    )
-                } else link
+                link.copy(
+                    name = link.name ?: link.github,
+                    href = link.href ?: "https://github.com/${link.github}",
+                    desc = link.desc ?: meta.description,
+                    star = meta.stargazersCount,
+                    update = meta.pushedAt?.let { parseInstant(meta.pushedAt).format(formatter) },
+                    archived = meta.archived,
+                    tags = (link.tags + meta.topics).distinct()
+                )
             }
             link.bitbucket != null -> {
                 val stars = getBitbucketStarCount(link.bitbucket)
@@ -189,4 +189,14 @@ data class GithubMetadata(
     val description: String?,
     val archived: Boolean,
     val topics: List<String>
-)
+) {
+    companion object {
+        val DEFAULT = GithubMetadata(
+            stargazersCount = null,
+            pushedAt = null,
+            description = null,
+            archived = false,
+            topics = emptyList()
+        )
+    }
+}

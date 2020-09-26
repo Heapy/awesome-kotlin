@@ -1,11 +1,13 @@
 package link.kotlin.scripts.model
 
+import link.kotlin.scripts.utils.logger
 import java.lang.System.getenv
 
 interface ApplicationConfiguration {
     val ghToken: String
     val siteUrl: String
     val cacheEnabled: Boolean
+    val dryRun: Boolean
 
     companion object
 }
@@ -13,18 +15,17 @@ interface ApplicationConfiguration {
 data class DataApplicationConfiguration(
     override val ghToken: String = env("GH_TOKEN", ""),
     override val siteUrl: String = "https://kotlin.link/",
-    override val cacheEnabled: Boolean = env("AWESOME_KOTLIN_CACHE", "true").toBoolean()
+    override val cacheEnabled: Boolean = env("AWESOME_KOTLIN_CACHE", "true").toBoolean(),
+    override val dryRun: Boolean = false
 ): ApplicationConfiguration
 
 fun ApplicationConfiguration.Companion.default(): ApplicationConfiguration {
     val configuration = DataApplicationConfiguration()
 
-    if (configuration.ghToken.isEmpty()) {
-        throw RuntimeException("You should run this script only when you added GH_TOKEN to env." +
-            "Token can be found here: https://github.com/settings/tokens")
-    }
-
-    return configuration
+    return if (configuration.ghToken.isEmpty()) {
+        logger<DataApplicationConfiguration>().info("GH_TOKEN is not defined, dry run...")
+        configuration.copy(dryRun = true)
+    } else configuration
 }
 
 private fun env(key: String, default: String): String {
