@@ -2,7 +2,6 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const autoprefixer = require("autoprefixer");
 
 module.exports = function (options = {}) {
   // Settings
@@ -53,11 +52,9 @@ Build started with following configuration:
         }, {
           loader: "postcss-loader",
           options: {
-            plugins: function () {
-              return [
-                autoprefixer
-              ];
-            }
+            postcssOptions: {
+              plugins: [["autoprefixer"]]
+            },
           }
         }, {
           loader: "less-loader"
@@ -93,7 +90,11 @@ function createListOfPlugins({NODE_ENV}, APP_DIR) {
       template: path.resolve(APP_DIR, "index.html"),
       hash: true
     }),
-    new CopyWebpackPlugin([{from: path.resolve(APP_DIR, "icons")}]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {from: path.resolve(APP_DIR, "icons")}
+      ]
+    }),
     new webpack.DefinePlugin({
       "process.env": {
         "NODE_ENV": JSON.stringify(NODE_ENV)
