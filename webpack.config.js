@@ -37,7 +37,9 @@ Build started with following configuration:
     module: {
       rules: [{
         test: /\.tsx?$/,
-        loader: "ts-loader"
+        use: [{
+          loader: "ts-loader"
+        }]
       }, {
         test: /\.less$/,
         use: [{
@@ -61,10 +63,13 @@ Build started with following configuration:
         }]
       }, {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: "url-loader",
-        options: {
-          limit: 32768
-        }
+        use: [{
+          loader: "url-loader",
+          options: {
+            limit: 32768,
+            esModule: false
+          }
+        }]
       }]
     },
     optimization: {
