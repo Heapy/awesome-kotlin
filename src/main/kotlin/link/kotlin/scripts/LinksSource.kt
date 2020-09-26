@@ -2,10 +2,8 @@ package link.kotlin.scripts
 
 import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.scripting.ScriptEvaluator
-import link.kotlin.scripts.scripting.default
 import java.nio.file.Paths
 import java.nio.file.Files
-import kotlin.streams.toList
 
 interface LinksSource {
     fun getLinks(): List<Category>
@@ -13,19 +11,26 @@ interface LinksSource {
     companion object
 }
 
+private val files = listOf(
+    "Links.awesome.kts",
+    "Libraries.awesome.kts",
+    "Projects.awesome.kts",
+    "Android.awesome.kts",
+    "JavaScript.awesome.kts",
+    "Native.awesome.kts",
+    "UserGroups.awesome.kts"
+)
+
 private class FileSystemLinksSource(
     private val scriptEvaluator: ScriptEvaluator,
     private val categoryProcessor: CategoryProcessor
 ) : LinksSource {
     override fun getLinks(): List<Category> = runBlocking {
-        Files.list(Paths.get("src/main/resources/links"))
-            .toList()
-            .filter { it.fileName.toString().endsWith(".awesome.kts") }
-            .map { path ->
-                val source = Files.readString(path)
-                scriptEvaluator.eval(source, path.toString(), Category::class)
-            }
-            .map { category -> categoryProcessor.process(category) }
+        files.map { file ->
+            val source = Files.readString(Paths.get("src/main/resources/links/", file))
+            val category = scriptEvaluator.eval(source, file, Category::class)
+            categoryProcessor.process(category)
+        }
     }
 }
 
