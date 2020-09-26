@@ -10,13 +10,26 @@ addons:
 
 before_script:
   - nvm install 10
+
+install:
   - yarn install
+#  - yarn --cwd app-frontend install
+  - ./gradlew assemble
 
 script:
+  #  - yarn --cwd app-frontend run pack
+  #  - curl https://kotlin.link/api/readme > readme/README.adoc
   - ./gradlew check installDist
   - ./build/install/awesome-kotlin/bin/awesome-kotlin
+  - docker build -t "heapy/awesome:b${TRAVIS_BUILD_NUMBER}" -t "heapy/awesome:latest" ./app-backend/
+
 
 deploy:
+  - provider: script
+    script: bash .ci/deploy-docker.sh
+    skip_cleanup: true
+    on:
+      branch: legacy
   - provider: script
     script: bash deploy.sh
     skip_cleanup: true
