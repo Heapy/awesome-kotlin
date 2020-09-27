@@ -1,3 +1,58 @@
+Possible categories:
+Serialization
+Text processing
+Graphics
+Web
+Database clients
+Audio (Multimedia Processing)
+Templating (Templating Engines)
+Operating system
+Automation
+Telegram (Clients?)
+FS
+Game development
+User Interface toolkits
+Utility
+Syntax highlighting
+GitHub actions (CI/CD?)
+Blogs
+Books
+Cources
+Tutorials
+Built With Kotlin
+Testing (+Assertion, Coverage)
+Logging
+ML/DL
+Localization/Internaziolazition
+DSLs
+Conferences
+First Steps / Education
+Security
+Code Quality
+Validation
+Scripting
+Build Tools
+Serverless
+Benchmarking
+Compiller Plugins
+Boilerplates
+REPL
+Editor Support
+Benchmark
+Gradle Plugins
+API
+Documentation
+Monitoring
+Client (Third Party API)
+Reflection
+Language Design (Spec, KEEP)
+
+
+
+
+
+
+
 https://jeroenmols.com/blog/2018/10/05/kotlinconf18/
 https://github.com/square/sqldelight
 https://www.androidcentral.com/android-developers-love-kotlin
