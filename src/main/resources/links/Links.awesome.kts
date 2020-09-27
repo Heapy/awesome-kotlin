@@ -63,10 +63,6 @@ category("Links") {
       href = "https://github.com/trending?l=kotlin"
     }
     link {
-      name = "Antonio Leiva - Android and any other monsters"
-      href = "http://antonioleiva.com/"
-    }
-    link {
       name = "Programming Community Curated Resources for learning Kotlin"
       href = "https://hackr.io/tutorials/learn-kotlin"
     }
@@ -98,19 +94,9 @@ category("Links") {
       href = "https://kotlin.guide"
     }
     link {
-      name = "Kotlin Academy"
-      desc = "Blog that teach about Kotlin"
-      href = "https://blog.kotlin-academy.com/"
-    }
-    link {
       name = "Jetbrain's Hyperskill Academy"
       desc = "An interactive learning platform for Kotlin and other languages"
       href = "https://hyperskill.org/onboarding/tracks/3"
-    }
-    link {
-      name = "Kotlin Expertise Blog"
-      desc = "A Blog with many articles covering basic and advanced Kotlin topics."
-      href = "https://kotlinexpertise.com/"
     }
     link {
       name = "Google's Kotlin Codelab "
@@ -123,12 +109,6 @@ category("Links") {
       href = "https://kotlinquiz.com"
     }
     link {
-      name = "SuperKotlin"
-      desc = "A website about Kotlin"
-      href = "https://superkotlin.com"
-      setTags("blog", "articles", "tutorials", "interviews")
-    }
-    link {
       github = "AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin"
       desc = "Code examples for 'Hands-on Design Patterns with Kotlin' book"
       setTags("GoF", "concurrency")
@@ -136,6 +116,34 @@ category("Links") {
     link {
       github = "tbhaxor/GUIDE-TO-KOTLIN"
       desc = "A practical guide on Kotlin for Developers"
+    }
+  }
+  subcategory("Blogs") {
+    link {
+      name = "Antonio Leiva - Android and any other monsters"
+      href = "http://antonioleiva.com/"
+    }
+    link {
+      name = "Kotlin Expertise Blog"
+      desc = "A Blog with many articles covering basic and advanced Kotlin topics."
+      href = "https://kotlinexpertise.com/"
+    }
+    link {
+      name = "SuperKotlin"
+      desc = "A website about Kotlin"
+      href = "https://superkotlin.com"
+      setTags("blog", "articles", "tutorials", "interviews")
+    }
+    link {
+      name = "Kotlin Academy"
+      desc = "Blog that teach about Kotlin"
+      href = "https://blog.kotlin-academy.com/"
+    }
+    link {
+      name = "KotlinTesting Blog"
+      desc = "Blog about testing with Kotlin"
+      href = "https://kotlintesting.com"
+      setTags("resources", "testing")
     }
   }
   subcategory("Books and Courses") {

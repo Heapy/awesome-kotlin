@@ -2,6 +2,7 @@ category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
       github = "ktorio/ktor"
+      href = "https://ktor.io/"
       desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
       setPlatforms(JVM, ANDROID, NATIVE, IOS)
       setTags("web")
