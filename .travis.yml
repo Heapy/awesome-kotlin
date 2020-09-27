@@ -9,7 +9,7 @@ addons:
   ssh_known_hosts: kotlin.link
 
 before_install:
-  - nvm install 10
+  - nvm install 12
 
 install:
   - yarn install
