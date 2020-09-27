@@ -94,7 +94,7 @@ private class DefaultLinksProcessor(
 
             mapper.readValue<GithubRepoTopicsResponse>(response.body()).names
         } catch (e: Exception) {
-            LOGGER.error("Fetching topics from github", e)
+            LOGGER.error("Fetching topics from github: [$name]. Error: {}", e.message)
             emptyList()
         }
     }
@@ -127,7 +127,7 @@ private class DefaultLinksProcessor(
 
             mapper.readValue<GithubRepoResponse>(response.body())
         } catch (e: Exception) {
-            LOGGER.error("Fetching star count from github", e)
+            LOGGER.error("Fetching star count from github: [$name]. Error: {}", e.message)
             null
         }
     }
@@ -141,7 +141,7 @@ private class DefaultLinksProcessor(
             val response = httpClient.execute(request).body()
             mapper.readValue<BitbucketResponse>(response)
         } catch(e: Exception) {
-            LOGGER.error("Fetching star count from bitbucket", e)
+            LOGGER.error("Fetching star count from bitbucket: [$name]. Error: {}", e.message)
             null
         }
     }
