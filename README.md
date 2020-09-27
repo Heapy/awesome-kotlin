@@ -1,8 +1,18 @@
 
 <!--
+
+
+
+
+
     This is GENERATED file, please consult 
-    https://github.com/KotlinBy/awesome-kotlin/blob/legacy/CONTRIBUTING.md
+    https://github.com/KotlinBy/awesome-kotlin/blob/readme/contributing.md
     for instructions.
+
+
+
+
+
 -->
 
 # Awesome Kotlin ([https://kotlin.link](https://kotlin.link))
@@ -11,7 +21,7 @@ A curated list of awesome Kotlin related stuff inspired by awesome-java. :octoca
 
 Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: **# awesome-kotlin**
 
-[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/KotlinBy/awesome-kotlin.svg?branch=legacy)](https://travis-ci.com/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
+[![List of Awesome List Badge](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.com/KotlinBy/awesome-kotlin.svg?branch=main)](https://travis-ci.com/KotlinBy/awesome-kotlin) [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (20 latest articles)](http://kotlin.link/rss.xml)
 
@@ -161,7 +171,6 @@ Here awesome badge for your project:
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
-* [hhariri/wasabi](https://github.com/hhariri/wasabi) - An HTTP Framework built with Kotlin for the JVM.
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [darkredz/zeko-restapi-framework](https://github.com/darkredz/zeko-restapi-framework) - Asynchronous web framework for Kotlin. Create REST APIs in Kotlin easily with automatic Swagger/OpenAPI doc generation
@@ -187,6 +196,7 @@ Here awesome badge for your project:
 * [SeunAdelekan/Kanary](https://github.com/SeunAdelekan/Kanary) - A micro webframework for Kotlin
 * [kwebio/kweb-core](https://github.com/kwebio/kweb-core) - Build rich live-updating web apps in pure server-side Kotlin.
 * [TinyMission/kara](https://github.com/TinyMission/kara) - Web framework written in Kotlin.
+* [hhariri/wasabi](https://github.com/hhariri/wasabi) - An HTTP Framework built with Kotlin for the JVM.
 * [jetbrains/kotless](https://github.com/jetbrains/kotless) - Kotlin serverless framework reducing the routine of serverless deployment.
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
 * [perwendel/spark-kotlin](https://github.com/perwendel/spark-kotlin) - A DSL in idiomatic Kotlin for the Spark web framework.
@@ -460,8 +470,8 @@ Here awesome badge for your project:
 * [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - Unofficial OpenGL SDK
 * [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
 * [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
-* [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [Jonatino/JOGL2D](https://github.com/Jonatino/JOGL2D) - Zero-overhead 2D rendering library for JOGL using Kotlin.
+* [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
 * [java-opengl-labs/learn-OpenGL](https://github.com/java-opengl-labs/learn-OpenGL) - port of https://learnopengl.com/ tutorial (lwjgl)
 * [java-opengl-labs/Vulkan](https://github.com/java-opengl-labs/Vulkan) - port of https://github.com/SaschaWillems/Vulkan
@@ -692,8 +702,8 @@ Here awesome badge for your project:
 * [SimpleMobileTools/Simple-File-Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) - A simple file manager for browsing and editing files and directories.
 * [skydoves/MarvelHeroes](https://github.com/skydoves/MarvelHeroes) - A sample Marvel heroes application based on MVVM (ViewModel, Coroutines, LiveData, Room, Repository, Koin)  architecture.
 * [skydoves/DisneyMotions](https://github.com/skydoves/DisneyMotions) - A beautiful Disney app using transformation motions based on MVVM architecture.
-* [VMadalin/kotlin-sample-app](https://github.com/VMadalin/kotlin-sample-app) - Android Sample App using modular, clean, scalable, testable Architecture written in Kotlin following the best practices with Jetpack
 * [PatilShreyas/Foodium](https://github.com/PatilShreyas/Foodium) - Foodium is a sample food blog Android application built to demonstrate use of Modern Android development tools - (Kotlin, Coroutines, Flow, Dagger 2, Architecture Components, MVVM, Room, Retrofit, Moshi, Material Components).
+* [VMadalin/kotlin-sample-app](https://github.com/VMadalin/kotlin-sample-app) - Android Sample App using modular, clean, scalable, testable Architecture written in Kotlin following the best practices with Jetpack
 * [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - A gallery for viewing photos and videos without ads.
 * [antoniolg/Bandhook-Kotlin](https://github.com/antoniolg/Bandhook-Kotlin) - A showcase music app for Android entirely written using Kotlin language.
 * [TwidereProject/Twidere-Android](https://github.com/TwidereProject/Twidere-Android) - Material Design ready and feature rich Twitter app for Android 4.0+
@@ -980,4 +990,4 @@ Here awesome badge for your project:
 
 ---
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
