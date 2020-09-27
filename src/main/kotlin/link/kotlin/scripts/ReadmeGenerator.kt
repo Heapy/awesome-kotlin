@@ -8,14 +8,15 @@ interface ReadmeGenerator {
     companion object
 }
 
-private class MardownReadmeGenerator : ReadmeGenerator {
+private class MarkdownReadmeGenerator : ReadmeGenerator {
     override fun generate(links: List<Category>): String {
-        return generateReadme(links)
+        val readmeLinks = links.filterNot { it.name == "Kotlin User Groups" }
+        return generateReadme(readmeLinks)
     }
 }
 
 fun ReadmeGenerator.Companion.default(): ReadmeGenerator {
-    return MardownReadmeGenerator()
+    return MarkdownReadmeGenerator()
 }
 
 internal fun normalizeName(name: String): String {
