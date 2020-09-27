@@ -937,11 +937,6 @@ category("Libraries/Frameworks") {
       setTags("progress")
     }
     link {
-      github = "sargunster/CakeParse"
-      desc = "Simple parser combinator library for Kotlin."
-      setTags("parser", "combinator", "grammar", "lexer")
-    }
-    link {
       github = "sargunster/KtUnits"
       desc = "Tiny unit conversion library for Kotlin."
       setTags("time", "unit", "conversion")
@@ -1029,18 +1024,6 @@ category("Libraries/Frameworks") {
       github = "cretz/asmble"
       desc = "Compile WebAssembly to JVM and other WASM tools."
       setTags("wasm", "webassembly")
-    }
-    link {
-      github = "h0tk3y/better-parse"
-      desc = "A nice parser combinator library for Kotlin"
-      setTags("parser", "parser-combinator", "grammar", "lexer")
-    }
-    link {
-      github = "fork-handles/forkhandles"
-      name = "fork-handles/parser4k"
-      desc = "Recursive descent parser combinator library"
-      href = "https://github.com/fork-handles/forkhandles/tree/trunk/parser4k"
-      setTags("parser", "parser-combinator", "recursive descent")
     }
     link {
       github = "fork-handles/forkhandles"
@@ -1208,6 +1191,32 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin compiler plugin that performs 'copy-erasure' on data classes."
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
       setTags("data-class", "compiler-plugin", "value-based-classes", "binary-compatibility")
+    }
+  }
+  subcategory("Parsers") {
+    link {
+      github = "ParserKt/ParserKt"
+      setPlatforms(COMMON, JS, JVM)
+    }
+    link {
+      github = "sargunster/CakeParse"
+      desc = "Simple parser combinator library for Kotlin."
+      setTags("parser", "combinator", "grammar", "lexer")
+      setPlatforms(JVM)
+    }
+    link {
+      github = "h0tk3y/better-parse"
+      desc = "A nice parser combinator library for Kotlin"
+      setTags("parser", "parser-combinator", "grammar", "lexer")
+      setPlatforms(COMMON, JS, JVM, NATIVE, IOS)
+    }
+    link {
+      github = "fork-handles/forkhandles"
+      name = "fork-handles/parser4k"
+      desc = "Recursive descent parser combinator library"
+      href = "https://github.com/fork-handles/forkhandles/tree/trunk/parser4k"
+      setTags("parser", "parser-combinator", "recursive descent")
+      setPlatforms(JVM)
     }
   }
   subcategory("Raspberry Pi") {
