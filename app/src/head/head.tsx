@@ -79,6 +79,11 @@ function getLogo(index: number, logos: Logo[]) {
 
 function logosProvider(): Logo[] {
   return [{
+    src: require("./kotlin-14-event.png"),
+    alt: "Kotlin 1.4 Online Event",
+    show: () => true,
+    link: "https://kotl.in/14event_media?utm_source=awesome_kotlin"
+  }, {
     src: require("./kotlin-force.svg"),
     alt: "Kotlin Language Logo",
     show: () => {
