@@ -97,14 +97,6 @@ Here awesome badge for your project:
 * <a name="kotlin-native-projects-subcategory"></a>[Projects](#kotlin-native-projects)
 * <a name="kotlin-native-frameworks-subcategory"></a>[Frameworks](#kotlin-native-frameworks)
 
-### <a name="kotlin-user-groups-category"></a>[Kotlin User Groups](#kotlin-user-groups)
-* <a name="kotlin-user-groups-europe-subcategory"></a>[Europe](#kotlin-user-groups-europe)
-* <a name="kotlin-user-groups-asia-subcategory"></a>[Asia](#kotlin-user-groups-asia)
-* <a name="kotlin-user-groups-north-america-subcategory"></a>[North America](#kotlin-user-groups-north-america)
-* <a name="kotlin-user-groups-south-america-subcategory"></a>[South America](#kotlin-user-groups-south-america)
-* <a name="kotlin-user-groups-australia-oceania-subcategory"></a>[Australia/Oceania](#kotlin-user-groups-australia-oceania)
-* <a name="kotlin-user-groups-africa-subcategory"></a>[Africa](#kotlin-user-groups-africa)
-
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
 ### <a name="links-official-links"></a>Official Links <sup>[Back ⇈](#links-official-links-subcategory)</sup>
 * [Home Page](http://kotlinlang.org/) 
@@ -135,8 +127,8 @@ Here awesome badge for your project:
 * [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
 * [SuperKotlin](https://superkotlin.com) - A website about Kotlin
-* [tbhaxor/GUIDE-TO-KOTLIN](https://github.com/tbhaxor/GUIDE-TO-KOTLIN) - A practical guide on Kotlin for Developers
 * [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
+* [tbhaxor/GUIDE-TO-KOTLIN](https://github.com/tbhaxor/GUIDE-TO-KOTLIN) - A practical guide on Kotlin for Developers
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) - From Java to Kotlin Cheat Sheet
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin
 
@@ -172,6 +164,7 @@ Here awesome badge for your project:
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
+* [MarioAriasC/KotlinPrimavera](https://github.com/MarioAriasC/KotlinPrimavera) - Spring support libraries for Kotlin.
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [darkredz/zeko-restapi-framework](https://github.com/darkredz/zeko-restapi-framework) - Asynchronous web framework for Kotlin. Create REST APIs in Kotlin easily with automatic Swagger/OpenAPI doc generation
@@ -182,7 +175,6 @@ Here awesome badge for your project:
 * [spypunk/sponge](https://github.com/spypunk/sponge) - A website crawler and links downloader command line tool written in Kotlin
 * [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
 * [gimlet2/kottpd](https://github.com/gimlet2/kottpd) - REST framework in pure Kotlin, inspired by spark-java
-* [MarioAriasC/KotlinPrimavera](https://github.com/MarioAriasC/KotlinPrimavera) - Spring support libraries for Kotlin.
 * [jean79/yested](https://github.com/jean79/yested) - A Kotlin framework for building web applications in Javascript.
 * [aPureBase/KGraphQL](https://github.com/aPureBase/KGraphQL) - A GraphQL implementation written in Kotlin
 * [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
@@ -769,226 +761,6 @@ Here awesome badge for your project:
 * [dbaelz/Konclik](https://github.com/dbaelz/Konclik) - Konclik: Kotlin/Native Command Line Interface Kit
 * [KwangIO/kwang](https://github.com/KwangIO/kwang) - High Performance Kotlin Native Web Framework based on Lwan
 * [msink/kotlin-libui](https://github.com/msink/kotlin-libui) - Kotlin/Native interop to libui: a portable GUI library
-
-
-## <a name="kotlin-user-groups"></a>Kotlin User Groups <sup>[Back ⇈](#kotlin-user-groups-category)</sup>
-### <a name="kotlin-user-groups-europe"></a>Europe <sup>[Back ⇈](#kotlin-user-groups-europe-subcategory)</sup>
-* [Amsterdam Kotlin User Group](https://www.meetup.com/kotlin-amsterdam/) - Netherlands
-* [Amsterdam High-performance Kotlin User Group](https://www.meetup.com/High-performance-Kotlin/) - Netherlands
-* [Athens Kotlin User Group](https://www.meetup.com/Kotlin-Athens/) - Greece
-* [Barcelona, KotlinBCN](https://www.meetup.com/kotlinbcn/) - Spain
-* [Basel Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Basel/) - Switzerland
-* [Belarus Kotlin User Group](https://bkug.by/) - Belarus
-* [Belfast Kotlin User Group](https://www.meetup.com/kotlin-belfast/) - Northern Ireland
-* [Berlin Kotlin User Group](https://www.meetup.com/kotlin-berlin/) - Germany
-* [Bielefelder Kotlin User Group](https://www.meetup.com/Bielefelder-Kotlin-User-Group/) - Germany
-* [Bologna Kotlin User Group](https://www.facebook.com/Kotlin-User-Group-Bologna-111446750450756/) - Italy
-* [Bosnia Kotlin User Group](https://www.facebook.com/kotlinugbosnia) - Bosnia and Herzegovina
-* [Brighton Kotlin User Group](https://www.meetup.com/Brighton-Kotlin/) - United Kingdom
-* [Bucharest Kotlin User Group](https://www.meetup.com/kug-bucharest/) - Romania
-* [Budapest Kotlin User Group](https://www.facebook.com/groups/KotlinBudapest/) - Hungary
-* [Bulgarian Kotlin User Group](https://bg-kug.github.io/) - Bulgaria
-* [Cologne Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Cologne/?from=ref) - Germany
-* [Copenhagen Kotlin User Group](https://www.meetup.com/Kotlin-Copenhagen/) - Denmark
-* [Cosenza Kotlin User Group](https://www.facebook.com/groups/251720265392355) - Italy
-* [Croatia Kotlin User Group](https://www.meetup.com/Croatia-Kotlin-User-Group-Meetup/) - Croatia
-* [Czech Kotlin User Group](https://www.facebook.com/czkug/) - Czech Republic
-* [Dnipro Kotlin User Group](https://www.meetup.com/Kotlin-Dnipro/) - Ukraine
-* [Dublin Kotlin User Group](https://www.meetup.com/Dublin-Kotlin-Meetup/) - Ireland
-* [Dusseldorf Kotlin User Group](https://www.meetup.com/Dusseldorf-Kotlin-Meetup/) - Germany
-* [Dutch Kotlin User Group](http://kotlin.nl/) - Netherlands
-* [Edinburgh Kotlin User Group](https://www.meetup.com/Edinburgh-Kotlin-User-Group/) - Scotland
-* [Estonia Kotlin User Group](https://www.facebook.com/groups/estoniaKotlin/) - Estonia
-* [Hamburg Kotlin User Group](https://www.meetup.com/de-DE/Kotlin-User-Group-Hamburg/) - Germany
-* [Helsinki Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Helsinki/?from=ref) - Finland
-* [Italy Kotlin User Group](https://www.facebook.com/groups/kotlinitaly/) - Italy
-* [Karlsruhe Kotlin User Group](https://www.meetup.com/Karlsruhe-Software-Development-Meetup/) - Germany
-* [Kassel Kotlin User Group](https://www.meetup.com/Kassel-Kotlin-User-Group/) - Germany
-* [Kyiv Kotlin User Group](https://www.meetup.com/KyivKUG) - Ukraine
-* [Krakow Kotlin User Group](https://www.meetup.com/krakow-kotlin/) - Poland
-* [Leeds Kotlin User Group](https://leedskotlinusergroup.netlify.com/published/2020/1/6/our-first-meetup/) - Kingdom
-* [Limerick Kotlin User Group](https://www.meetup.com/kotlinlimerick/) - Ireland
-* [Lisboa Kotlin User Group](https://meetup.com/kotlin-lisboa/) - Portugal
-* [London Kotlin](http://www.meetup.com/kotlin-london/) - United Kingdom
-* [Lviv Kotlin User Group](https://www.facebook.com/groups/1395212093948927/) - Ukraine
-* [Lyon Kotlin User Group](http://www.meetup.com/Lyon-Kotlin-User-Group/) - France
-* [Madrid Kotlin User Group](https://www.meetup.com/KotlinMAD/) - Spain
-* [Manchester Kotlin Developers](http://www.meetup.com/Kotlin-Manchester/) - United Kingdom
-* [Marseille Kotlin User Group](https://www.meetup.com/Marseille-Kotlin-User-Group/) - France
-* [Milano Kotlin User Group](https://www.meetup.com/it-IT/KUG-Milan/) - Italy
-* [Moscow Kotlin User Group](https://vk.com/kotlinmoscow) - Russia
-* [Munich Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Munich/) - Germany
-* [Nantes Kotlin User Group](https://www.meetup.com/fr-FR/Kotlin-Nantes-Meetup) - France
-* [Nizhny Novgorod Kotlin User Group](https://www.meetup.com/kotlin_nn/) - Russia
-* [Odessa Kotlin User Group](https://www.facebook.com/groups/557764034687880/) - Ukraine
-* [Oslo Kotlin User Group](https://www.meetup.com/meetup-group-nWeRbyMu/) - Norway
-* [Omsk Kotlin User Group](https://vk.com/omskkotlin) - Russia
-* [Paris Kotlin User Group](https://www.meetup.com/Kotlin-Paris-Meetup/) - France
-* [Rhein-Main Kotlin](https://www.meetup.com/de-DE/Kotlin-Rhein-Main/) - Germany
-* [Rostov Kotlin User Group](https://vk.com/rndkotlin) - Russia
-* [Samara Kotlin User Group](https://sitc.community/communities/kug/) - Russia
-* [St. Petersburg Kotlin User Group](https://www.meetup.com/St-Petersburg-Kotlin-User-Group/) - Russia
-* [Serbia Kotlin User Group](https://www.meetup.com/Serbia-Kotlin-User-Group/) - Serbia
-* [Slovakia Kotlin User Group](https://www.meetup.com/Kotlin-Slovakia/) - Slovakia
-* [Stockholm Kotlin User Group](https://www.meetup.com/Sweden-Kotlin-User-Group/) - Sweden
-* [Stuttgart Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Stuttgart/) - Germany
-* [Swiss Kotlin User Group](https://www.meetup.com/Kotlin-Swiss-User-Group/) - Switzerland
-* [Taganrog Kotlin User Group](https://vk.com/kotlintgn) - Russia
-* [Tricity Kotlin User Group](https://www.facebook.com/groups/2519853351660362/) - Poland
-* [Utrecht Kotlin User Group](https://www.meetup.com/meetup-group-YgJEOzCn/) - Netherlands
-* [Uzhgorod Kotlin User Group](https://www.facebook.com/groups/135578123824203/) - Ukraine
-* [Vienna Kotlin](https://www.meetup.com/Kotlin-Vienna/) - Austria
-* [Warsaw Kotlin](https://www.meetup.com/Kotlin-Warsaw/) - Poland
-
-### <a name="kotlin-user-groups-asia"></a>Asia <sup>[Back ⇈](#kotlin-user-groups-asia-subcategory)</sup>
-* [Ahmedabad Kotlin User Group](https://www.meetup.com/KotlinAhmedabad/) - India
-* [Allahabad Kotlin User Group](https://www.facebook.com/Kotlin-Allahabad-User-Group-967463300076405/) - India
-* [Astana Java & Kotlin User Group](https://community-z.com/communities/astana-jkug) - Kazakhstan
-* [Azerbaijan Kotlin User Group](https://www.facebook.com/groups/395337754167951/) - Azerbaijan
-* [Bangladesh Kotlin User Group](https://www.facebook.com/KotlinBangladesh/) - Bangladesh
-* [Batam Kotlin User Group](https://t.me/KotlinDevBatam) - Indonesia
-* [Bengaluru Kotlin User Group](https://www.facebook.com/KotlinBengaluru/) - India
-* [Bengaluru Kotlin 'BlrKotlin' Meetup ](https://www.meetup.com/BlrKotlin/) - India
-* [Beijing Kotlin User Group](http://www.kotliner.cn/) - China
-* [Bhopal Kotlin User Group](https://www.facebook.com/kotlinbpl/) - India
-* [Bhubaneswar Kotlin User Group](https://www.facebook.com/groups/1961143800818624/) - India
-* [Cirebon Kotlin User Group](https://t.me/kotlin_crb) - Indonesia
-* [Coimbatore Kotlin User Group](https://facebook.com/kotlincbe/) - India
-* [Cambodia Kotlin User Group](https://www.facebook.com/groups/kotlinphnompenh) - Cambodia
-* [Dubai Kotlin User Group](https://www.facebook.com/kotlindubai/) - United Arab Emirates
-* [Jordan Kotlin User Group](https://www.facebook.com/KotlinJO/) - Jordan
-* [Hefei Kotlin User Group](http://weibo.com/kotlinhfug) - China
-* [Ho Chi Minh Kotlin User Group](https://www.facebook.com/kughcmc/) - Vietnam
-* [Hong Kong Kotlin User Group](https://www.facebook.com/KotlinHK) - China
-* [Hyderabad Kotlin User Group](https://www.meetup.com/KotlinHyderabad/) - India
-* [Indonesia Kotlin User Group](https://www.facebook.com/groups/395469687469099/) - Indonesia
-* [Indore Kotlin User Group](https://www.meetup.com/kotlinindore/) - India
-* [Israel Kotlin User Group](https://www.facebook.com/groups/107080706530829/) - Israel
-* [Istanbul Kotlin User Group](https://www.meetup.com/Kotlin-%C4%B0stanbul/) - Turkey
-* [Jaffna Kotlin User Group](https://www.facebook.com/Kotlin-User-Group-Jaffna-102091321371464/) - Sri Lanka
-* [Jalandhar Kotlin User Group](https://www.meetup.com/Kotlin-EveryWhere-Jalandhar-Group/) - India
-* [Japan Kotlin User Group](https://kotlin.connpass.com/) - Japan
-* [Karachi Kotlin User Group](https://www.facebook.com/kotlinkarachi/) - Pakistan
-* [Kathmandu Kotlin User Group](https://www.facebook.com/groups/100333660782830/) - Nepal
-* [Khabarovsk Kotlin User Group](https://devdv.ru/projects/kug) - Russia
-* [Kolkata Kotlin User Group](https://www.meetup.com/Kotlin-Kolkata-UG/) - India
-* [Korean Kotlin User Group](http://kotlin.kr/) - South Korea
-* [Kozhikode Kotlin User Group](https://www.facebook.com/kotlinusergroup/) - India
-* [Mumbai Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Mumbai/) - India
-* [Myanmar Kotlin User Group](https://www.facebook.com/groups/kotlinmyanmarusergroup/about/) - Myanmar
-* [Nagpur Kotlin User Group](https://www.facebook.com/kotlinnagpur/) - India
-* [Nepal Kotlin User Group](https://www.facebook.com/groups/dnkotlin/) - Nepal
-* [New Delhi Kotlin User Group](https://www.meetup.com/KotlinDelhi/) - India
-* [Pakistan KotlinUser Group](https://www.facebook.com/groups/565405337181251/) - Pakistan
-* [Palestine Kotlin User Group](https://www.facebook.com/groups/592717964582711/) - State of Palestine
-* [Philippines Kotlin](https://www.facebook.com/groups/642901202586581/) - Philippines
-* [Pune Kotlin User Group](https://www.facebook.com/groups/punekotlin) - India
-* [Saudi Arabia Kotlin User Group](https://www.facebook.com/KotlinArabia) - Saudi Arabia
-* [Shanghai, KotlinThree](http://kotlinthree.github.io/) - China
-* [Singapore Kotlin User Group](https://www.meetup.com/Singapore-Kotlin-User-group/) - Singapore
-* [Sri Lanka Kotlin User Group](https://www.facebook.com/KotlinSrilanka/) - Sri Lanka
-* [Syria Kotlin User Group](https://www.facebook.com/KotlinSyria/) - Syria
-* [Surat Kotlin User Group](https://web.facebook.com/kotlinsurat) - India
-* [Taiwan Kotlin User Group](https://wetogether.co/kotlin-tw) - Taiwan
-* [Tel Aviv Kotlin User Group](https://www.meetup.com/KotlinTLV/) - Israel
-* [Thailand Kotlin Developers](https://www.facebook.com/groups/872547279487598/) - Thailand
-* [Turkey Kotlin User Group](http://kotlinveandroid.com/) - Turkey
-* [Vellore Kotlin User Group](https://www.facebook.com/kotlinvellore) - India
-* [Vietnam Kotlin User Group (online community)](https://vnkotlin.com) - Vietnam
-* [Vijayawada Kotlin User Group](https://www.facebook.com/KotlinVijayawada/) - India
-* [Yerevan Kotlin User Group](https://www.meetup.com/Kotlin-Yerevan/) - Armenia
-
-### <a name="kotlin-user-groups-north-america"></a>North America <sup>[Back ⇈](#kotlin-user-groups-north-america-subcategory)</sup>
-* [Albuquerque Kotlin User Group](https://www.meetup.com/Kotlin-ABQ/) - USA
-* [Austin Kotlin User Group](https://www.meetup.com/Austin-Kotlin-Meetup/) - USA
-* [Brooklyn (NY) Kotlin User Group](https://www.meetup.com/Brooklyn-Kotlin/) - USA
-* [Cambridge Kotlin Office Hours](https://www.meetup.com/kotlin-office-hours/) - USA
-* [Chicago Kotlin Users Group](http://www.meetup.com/Chicago-Kotlin/) - USA
-* [Cincinnati Kotlin User Group](https://www.meetup.com/Cincinnati-Kotlin/) - USA
-* [Dallas, Kotlin DFW](https://www.meetup.com/Kotlin-DFW/) - USA
-* [Guadalajara Kotlin User Group](https://www.meetup.com/es/Kotlin-User-Group-GDL/) - Mexico
-* [Guatemala Kotlin Meetup](https://www.meetup.com/Guatemala-Kotlin-Meetup/) - Guatemala
-* [Houston Kotlin User Group](https://www.hccug.org/) - USA
-* [Kansas City User Group](https://www.meetup.com/Kansas-City-Kotlin-User-Group/) - USA
-* [Mexico, CDMX Kotlin User Group](https://www.meetup.com/es-ES/Kotlin-Nights-CDMX/) - Mexico
-* [Mérida Kotlin User Group](https://www.meetup.com/Merida-Kotlin-User-Group/) - Mexico
-* [New England User Group](https://www.meetup.com/New-England-Kotlin-Users-Group/) - USA
-* [New York Kotlin Meetup](http://www.meetup.com/New-York-Kotlin-Meetup/) - USA
-* [Norfolk Kotlin User Group](mailto:robert.chrzanowski@gmail.com) - USA
-* [Irvine Kotlin User Group "OC Kotlin Krew"](https://www.meetup.com/OCKotlinKrew/) - USA
-* [Portland Kotlin User Group](https://www.meetup.com/Kotlin-Portland-User-Group/) - USA
-* [San Diego Kotlin User Group](https://www.meetup.com/sd-kotlin/) - USA
-* [San Francisco Kotlin Meetup](https://www.meetup.com/San-Francisco-Kotlin-Meetup/) - USA
-* [Santa Cruz Kotlin User Group](https://www.meetup.com/Santa-Cruz-Kotlin-User-Group/events/245895831/) - USA
-* [South Florida Kotlin User Group](https://www.meetup.com/Kotlin-South-Florida-Users-Group/) - USA
-* [Toronto Kotlin](https://www.meetup.com/Kotlin-Toronto/events/235740293/) - Canada
-* [Twin Cities Kotlin User Group](https://www.meetup.com/Twin-Cities-Kotlin-User-Group/) - USA
-* [Utah Kotlin](https://www.meetup.com/Kotlin-Utah/) - USA
-* [Vancouver Kotlin Meetup](https://www.meetup.com/VancouverKotlin/) - Canada
-* [Washington DC Kotlin User Group](https://www.meetup.com/DCKotlin/) - USA
-* [Waterloo Kotlin P2P](https://www.meetup.com/Kotlin-Waterloo-P2P/events/) - Canada
-* [West Florida Kotlin User Group](https://www.facebook.com/groups/KotlnWestFlorida) - USA
-
-### <a name="kotlin-user-groups-south-america"></a>South America <sup>[Back ⇈](#kotlin-user-groups-south-america-subcategory)</sup>
-* [Asunción Kotlin User Group](https://kotlin-user-group-asuncion-py.github.io/) - Paraguay
-* [Brasil Kotlin User Group](https://groups.google.com/forum/#!forum/kotlin-brasil) - Brazil
-* [Buenos Aires Desarrollo en Android con Kotlin](https://www.meetup.com/Desarrollo-en-Android-con-Kotlin/) - Argentina
-* [Cascavel Kotlin Meetup](https://www.meetup.com/Kotlin-Meetup-Cascavel/) - Brazil
-* [Chile Kotlin User Group](http://www.facebook.com/kotlinchile) - Chile
-* [Cochabamba Kotlin User Group](https://www.facebook.com/kotlincocha/) - Bolivia
-* [Curitiba CWB Kotlin User Group](https://www.meetup.com/KotlinCWB/) - Brazil
-* [El Alto Kotlin User Group](https://m.facebook.com/KotlinElAlto/) - Bolivia
-* [La Paz Kotlin User Group](https://www.facebook.com/KotlinLaPaz/) - Bolivia
-* [Lima Kotlin User Group](https://www.facebook.com/groups/limakotlin/) - Peru
-* [Medellin Kotlin User Group](https://www.meetup.com/Kotlin-User-Group-Medellin/) - Colombia
-* [Peru Kotlin User Group](https://www.facebook.com/groups/1540580306247047/) - Peru
-* [Porto Alegre Kotlin User Group](https://www.meetup.com/Kotlin-RS/) - Brazil
-* [Santiago Kotlin User Group](https://www.facebook.com/kotlinsantiago/) - Chile
-* [Sao Paulo Kotlin Meetup](https://www.meetup.com/kotlin-meetup-sp/) - Brazil
-* [Rio de Janeiro](https://www.meetup.com/Kotlin-Rio/) - Brazil
-
-### <a name="kotlin-user-groups-australia-oceania"></a>Australia/Oceania <sup>[Back ⇈](#kotlin-user-groups-australia-oceania-subcategory)</sup>
-* [Brisbane Kotlin User Group](https://www.meetup.com/Brisbane-Kotlin-User-Group/) - Australia
-* [Melbourne Kotlin User Group](https://www.meetup.com/Melbourne-Kotlin-Meetup/) - Australia
-* [Sydney Kotlin User Group](https://sydspace.org/kotlin/) - Australia
-* [Wellington Kotlin User Group](https://www.meetup.com/Wellington-kt/) - New Zealand
-
-### <a name="kotlin-user-groups-africa"></a>Africa <sup>[Back ⇈](#kotlin-user-groups-africa-subcategory)</sup>
-* [Abidjan Kotlin User Group](https://www.facebook.com/groups/778398068995641/) - Cote d'Ivoire
-* [Abuja Kotlin User Group](https://www.meetup.com/Kotlin-Abuja-User-Group-Nigeria/) - Nigeria
-* [Accra Ghana Kotlin User Group](http://groupspaces.com/AccraGhanaKotlinUserGroup/) - Ghana
-* [Ado-Ekiti Kotlin User Group](https://web.facebook.com/groups/1598555973529998/?ref=group_header) - Nigeria
-* [Agadir Kotlin User Group](https://www.meetup.com/Agadir-Kotlin-User-Group/) - Morocco
-* [Algeria Kotlin User Group](https://web.facebook.com/groups/383147662448461/) - Algeria
-* [Angola Kotlin User Group](https://www.facebook.com/groups/405177603231134/about/) - Angola
-* [Bauchi Kotlin User Group](https://www.facebook.com/groups/kotlinbauchi/) - Nigeria
-* [Beira Kotlin User Group](https://www.facebook.com/groups/470398203308975/) - Mozambique
-* [Benin Kotlin User Group](https://www.meetup.com/Kotlin-Benin/) - Nigeria
-* [Brazza Kotlin User Group](https://www.facebook.com/groups/KotlinBrazza/) - Congo
-* [Cairo Kotlin User Group](https://www.facebook.com/Kotlin.Cairo/) - Egypt
-* [Cotonou Kotlin User Group](https://www.facebook.com/kotlinCotonou/) - Benin
-* [Egypt Kotlin](https://www.facebook.com/kotlinegypt/) - Egypt
-* [Enugu Kotlin User Group](https://kotlin-enuguusergroup.slack.com/) - Nigeria
-* [Johannesburg Kotlin User Group](https://www.meetup.com/Kotlin-Software-Development-Meetup/) - South Africa
-* [Kano Kotlin User Group](https://www.meetup.com/Kotlin-Kano-User-Group-Nigeria/) - Nigeria
-* [Katsina Kotlin User Group](https://www.downtomeet.com/Katsina-Kotlin-Group) - Nigeria
-* [Lagos Kotlin User Group](https://www.meetup.com/Lagos-Kotlin-Meetup/) - Nigeria
-* [Lapai Kotlin User Group](https://www.meetup.com/Kotlin-Lapai-User-Group/) - Nigeria
-* [Libreville Kotlin User Group](https://www.meetup.com/fr-FR/Libreville-Kotlin/) - Gabon
-* [Lome Kotlin User Group](https://www.facebook.com/groups/1825278611119862/) - Togo
-* [Lubumbashi Kotlin User Group](https://www.meetup.com/Lubumbashi-Kotlin-User-Group/) - Congo
-* [Minna Kotlin User Group](https://www.meetup.com/Kotlin-Minna-User-Group-Nigeria/) - Nigeria
-* [Minya Kotlin User Group](https://www.facebook.com/kotlinminya/) - Egypt
-* [Nairobi Kotlin User Group](https://www.meetup.com/KotlinKenya/) - Kenya
-* [Noun Kotlin User Group](https://www.meetup.com/Noun-Kotlin-User-Group/) - Cameroon
-* [Ondo Kotlin User Group](https://www.meetup.com/Kotlin-Ondo-User-Group/) - Nigeria
-* [Ouagadougou Kotlin User Group](https://www.facebook.com/groups/649651491892414/) - Burkina Faso
-* [Rabat Kotlin User Group](https://www.meetup.com/Rabat-Kotlin-User-Group/) - Morocco
-* [Rivers Kotlin User Group](https://www.facebook.com/groups/2178453949151460/) - Nigeria
-* [Tunisia Kotlin User Group](https://www.facebook.com/groups/1501353116571104) - Tunisia
-* [Uganda Kotlin User Group](https://www.facebook.com/Uganda-Kotlin-User-Group-613707548753658/) - Uganda
-* [Warri Kotlin User Group](https://www.meetup.com/kotlin-warri/) - Nigeria
-* [Yola Kotlin User Group](https://www.facebook.com/Kotlin-Yola-User-Group-104198534358013/) - Nigeria
 
 
 
