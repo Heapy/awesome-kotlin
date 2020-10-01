@@ -69,6 +69,7 @@ Here awesome badge for your project:
 * <a name="libraries-frameworks-data-science-subcategory"></a>[Data Science](#libraries-frameworks-data-science)
 * <a name="libraries-frameworks-command-line-interface-subcategory"></a>[Command Line Interface](#libraries-frameworks-command-line-interface)
 * <a name="libraries-frameworks-browsers-subcategory"></a>[Browsers](#libraries-frameworks-browsers)
+* <a name="libraries-frameworks-i-o-subcategory"></a>[I/O](#libraries-frameworks-i-o)
 
 ### <a name="projects-category"></a>[Projects](#projects)
 * <a name="projects-web-subcategory"></a>[Web](#projects-web)
@@ -464,6 +465,7 @@ Here awesome badge for your project:
 * [uchuhimo/konf](https://github.com/uchuhimo/konf) - A type-safe cascading configuration library for Kotlin/Java, supporting most configuration formats
 * [npryce/konfig](https://github.com/npryce/konfig) - A Type Safe Configuration API for Kotlin
 * [sksamuel/hoplite](https://github.com/sksamuel/hoplite) - A library for loading configuration files into typesafe Kotlin data classes in a boilerplate-free way
+* [cdimascio/dotenv-kotlin](https://github.com/cdimascio/dotenv-kotlin) - A zero-dependency module that loads environment variables from a .env file
 
 ### <a name="libraries-frameworks-graphics"></a>Graphics <sup>[Back ⇈](#libraries-frameworks-graphics-subcategory)</sup>
 * [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
@@ -513,6 +515,9 @@ Here awesome badge for your project:
 ### <a name="libraries-frameworks-browsers"></a>Browsers <sup>[Back ⇈](#libraries-frameworks-browsers-subcategory)</sup>
 * [wendigo/chrome-reactive-kotlin](https://github.com/wendigo/chrome-reactive-kotlin) - Headless Chrome DevTools Protocol Client (RxJava2 + Kotlin)
 
+### <a name="libraries-frameworks-i-o"></a>I/O <sup>[Back ⇈](#libraries-frameworks-i-o-subcategory)</sup>
+* [square/okio](https://square.github.io/okio) - A modern I/O library for Android, Kotlin, and Java.
+
 
 ## <a name="projects"></a>Projects <sup>[Back ⇈](#projects-category)</sup>
 ### <a name="projects-web"></a>Web <sup>[Back ⇈](#projects-web-subcategory)</sup>
@@ -557,6 +562,8 @@ Here awesome badge for your project:
 * [datalisk/datalisk](https://github.com/datalisk/datalisk) - A file sync and storage application with end-to-end encryption and multi-platform support.
 * [ice1000/Dekoder](https://github.com/ice1000/Dekoder) -  A kotlin music player, materially designed.
 * [ruslanys/vkmusic](https://github.com/ruslanys/vkmusic) - JavaFX and Spring-Boot based application for grabbing music from VK.com.
+* [ice1000/dev-kt](https://github.com/ice1000/dev-kt) - DevC++-like cross-platform Kotlin IDE.
+* [yschimke/okurl](https://github.com/yschimke/okurl) - cURL-like client based on OkHttp.
 
 ### <a name="projects-examples"></a>Examples <sup>[Back ⇈](#projects-examples-subcategory)</sup>
 * [robfletcher/lazybones-kotlin](https://github.com/robfletcher/lazybones-kotlin) - The Lazybones app migrated to Kotlin as a learning exercise.
