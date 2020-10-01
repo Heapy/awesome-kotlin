@@ -399,7 +399,7 @@ category("Libraries/Frameworks") {
     link {
       github = "marcoferrer/kroto-plus"
       desc = "Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC."
-      setTags("coroutines","grpc","protobuf")
+      setTags("coroutines", "grpc", "protobuf")
     }
     link {
       github = "cloudoptlab/cloudopt-next"
@@ -1124,7 +1124,7 @@ category("Libraries/Frameworks") {
     link {
       github = "sandjelkovic/kxjtime"
       desc = "Lightweight Kotlin extensions for java.time API"
-      setTags("extensions","time","date","jdk8", "java.time", "utility")
+      setTags("extensions", "time", "date", "jdk8", "java.time", "utility")
     }
     link {
       github = "pmwmedia/tinylog"
@@ -1522,6 +1522,15 @@ category("Libraries/Frameworks") {
     link {
       github = "wendigo/chrome-reactive-kotlin"
       setTags("web", "chrome", "automation", "browser")
+    }
+  }
+  subcategory("I/O") {
+    link {
+      github = "square/okio"
+      href = "https://square.github.io/okio"
+      desc = "A modern I/O library for Android, Kotlin, and Java."
+      setPlatforms(ANDROID, JVM, COMMON, IOS, NATIVE, JS)
+      setTags("io", "multiplatform")
     }
   }
 }
