@@ -71,7 +71,7 @@ category("Projects") {
       desc = "Spring Boot 2.0 Kotlin application starter with configurations for Gradle, Mongo, JUnit 5 tests, logging, CircleCI and Docker compose."
       setTags("spring", "gradle", "reactive", "web", "spring-boot", "docker", "junit-test")
     }
-    link{
+    link {
       github = "viniciusccarvalho/kodein-cloud-functions"
       desc = "Provides adapters to different cloud functions providers (AWS, Azure) to run vanilla kotlin functions defined as kodein modules"
       setTags("kodein", "cloud", "serverless")
@@ -163,19 +163,19 @@ category("Projects") {
     link {
       github = "ruslanys/telegraff"
       desc = "Kotlin DSL for Telegram Bots creation."
-      href= "https://github.com/ruslanys/telegraff"
+      href = "https://github.com/ruslanys/telegraff"
       setTags("telegram", "bot", "dsl", "telegraff")
     }
     link {
       github = "insanusmokrassar/TelegramBotAPI"
       desc = "Kotlin Multiplatform library for type-safe Telegram Bots requests"
-      href= "https://github.com/insanusmokrassar/TelegramBotAPI"
+      href = "https://github.com/insanusmokrassar/TelegramBotAPI"
       setTags("telegram", "bot", "multiplatform", "Kotlin/JVM")
     }
     link {
       github = "krzema12/fsynth"
       desc = "Music synthesizer as a Kotlin multiplatform project"
-      href= "https://github.com/krzema12/fsynth"
+      href = "https://github.com/krzema12/fsynth"
       setTags("music", "functional-programming", "multiplatform")
     }
   }
@@ -194,6 +194,11 @@ category("Projects") {
       github = "datalisk/datalisk"
       desc = "A file sync and storage application with end-to-end encryption and multi-platform support."
       setTags("filesync", "end-to-end-encryption", "dropbox", "storage")
+    }
+    link {
+      github = "yschimke/okurl"
+      desc = "cURL-like client based on OkHttp."
+      setTags("cli", "http", "scripting")
     }
   }
   subcategory("Examples") {
@@ -219,7 +224,7 @@ category("Projects") {
     link {
       github = "som-one/zarif-kherkin"
       desc = "Configurable BDD testing using a Kotlin DSL for Gherkin."
-      setTags("bdd", "gherkin", "dsl",  "test")
+      setTags("bdd", "gherkin", "dsl", "test")
     }
     link {
       github = "robfletcher/lazybones-kotlin"
@@ -349,27 +354,27 @@ category("Projects") {
     link {
       github = "emedinaa/kotlin-mvp-volley"
       desc = "Example of Android project in Kotlin using MVP(Model View Presenter) pattern and volley library"
-      setTags("android", "examples", "mvp", "kotlin" , "volley")
+      setTags("android", "examples", "mvp", "kotlin", "volley")
     }
     link {
       github = "emedinaa/android-recyclerview"
       desc = "Some samples about the RecyclerView and Adapters using kotlin"
-      setTags("android", "examples", "recyclerview", "kotlin" , "adapter")
+      setTags("android", "examples", "recyclerview", "kotlin", "adapter")
     }
     link {
       github = "emedinaa/kotlin-viewmodel"
       desc = "Basic samples about ViewModel component"
-      setTags("android", "examples", "viewmodel", "kotlin" , "livedata")
+      setTags("android", "examples", "viewmodel", "kotlin", "livedata")
     }
     link {
       github = "wuseal/JsonToKotlinClass"
       desc = "Plugin for IntelliJ IDEs to generate Kotlin data class code from JSON text"
       setTags("json", "idea")
     }
-    link{
+    link {
       github = "csense-oss/idea-kotlin-checked-exceptions"
       desc = "Plugin to help integrate with java and exceptions (highlights, warns when not catching exceptions and a lot more)"
-      setTags("kotlin", "idea","exceptions")
+      setTags("kotlin", "idea", "exceptions")
     }
   }
 }
