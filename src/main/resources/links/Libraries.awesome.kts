@@ -399,7 +399,7 @@ category("Libraries/Frameworks") {
     link {
       github = "marcoferrer/kroto-plus"
       desc = "Protoc plugin for bringing together Kotlin, Protobuf, Coroutines, and gRPC."
-      setTags("coroutines","grpc","protobuf")
+      setTags("coroutines", "grpc", "protobuf")
     }
     link {
       github = "cloudoptlab/cloudopt-next"
@@ -1124,7 +1124,7 @@ category("Libraries/Frameworks") {
     link {
       github = "sandjelkovic/kxjtime"
       desc = "Lightweight Kotlin extensions for java.time API"
-      setTags("extensions","time","date","jdk8", "java.time", "utility")
+      setTags("extensions", "time", "date", "jdk8", "java.time", "utility")
     }
     link {
       github = "pmwmedia/tinylog"
@@ -1315,6 +1315,12 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin configuration library with batteries included. Type-safe, zero lines of setup."
       href = "https://autokonfig.nohus.dev/"
       setTags("configuration")
+    }
+    link {
+      github = "cdimascio/dotenv-kotlin"
+      desc = "A zero-dependency module that loads environment variables from a .env file"
+      setTags("twelve-factor", "environment-variables")
+      setPlatforms(ANDROID, JVM)
     }
   }
   subcategory("Graphics") {
