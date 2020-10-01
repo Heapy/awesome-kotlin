@@ -128,6 +128,7 @@ Here awesome badge for your project:
 * [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) - From Java to Kotlin Cheat Sheet
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin
+* [Android Kotlin Fundamentals](https://codelabs.developers.google.com/android-kotlin-fundamentals)- Android Kotlin Fundamentals
 
 ### <a name="links-blogs"></a>Blogs <sup>[Back ⇈](#links-blogs-subcategory)</sup>
 * [Antonio Leiva - Android and any other monsters](http://antonioleiva.com/) 
@@ -135,6 +136,7 @@ Here awesome badge for your project:
 * [SuperKotlin](https://superkotlin.com) - A website about Kotlin
 * [Kotlin Academy](https://blog.kotlin-academy.com/) - Blog that teach about Kotlin
 * [KotlinTesting Blog](https://kotlintesting.com) - Blog about testing with Kotlin
+
 
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
