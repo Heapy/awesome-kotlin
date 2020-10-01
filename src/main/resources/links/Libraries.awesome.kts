@@ -1193,6 +1193,11 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
       setTags("data-class", "compiler-plugin", "value-based-classes", "binary-compatibility")
     }
+    link {
+      github = "Kotlin/kotlinx-datetime"
+      desc = "A multiplatform Kotlin library for working with date and time."
+      setTags("multiplatform", "date", "time")
+    }
   }
   subcategory("Parsers") {
     link {
