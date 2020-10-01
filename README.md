@@ -137,7 +137,6 @@ Here awesome badge for your project:
 * [Kotlin Academy](https://blog.kotlin-academy.com/) - Blog that teach about Kotlin
 * [KotlinTesting Blog](https://kotlintesting.com) - Blog about testing with Kotlin
 
-
 ### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
 * [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin) 
