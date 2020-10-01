@@ -1530,4 +1530,13 @@ category("Libraries/Frameworks") {
       setTags("web", "chrome", "automation", "browser")
     }
   }
+  subcategory("I/O") {
+    link {
+      github = "square/okio"
+      href = "https://square.github.io/okio"
+      desc = "A modern I/O library for Android, Kotlin, and Java."
+      setPlatforms(ANDROID, JVM, COMMON, IOS, NATIVE, JS)
+      setTags("io", "multiplatform")
+    }
+  }
 }
