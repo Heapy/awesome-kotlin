@@ -205,6 +205,11 @@ category("Projects") {
       desc = "cURL-like client based on OkHttp."
       setTags("cli", "http", "scripting")
     }
+    link {
+      github = "hazae41/Kotlin-Compiler-GUI"
+      desc = "Easily compile Kotlin classes (.kt) and run Kotlin scripts (.kts)"
+      setTags("compiler", "gui", "scripts", "desktop")
+    }
   }
   subcategory("Examples") {
     link {
