@@ -186,6 +186,11 @@ category("Projects") {
       setTags("JavaFX", "Desktop", "Player")
     }
     link {
+      github = "ice1000/dev-kt"
+      desc = "DevC++-like cross-platform Kotlin IDE."
+      setTags("IDE", "swing")
+    }
+    link {
       github = "ruslanys/vkmusic"
       desc = "JavaFX and Spring-Boot based application for grabbing music from VK.com."
       setTags("javafx", "spring", "spring-boot")
