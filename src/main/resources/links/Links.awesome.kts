@@ -150,42 +150,16 @@ category("Links") {
       setTags("resources", "testing")
     }
   }
-  subcategory("Books and Courses") {
+  subcategory("Courses") {
     link {
-      name = "Kotlin in Action - Dmitry Jemerov, Svetlana Isakova"
-      href = "https://manning.com/books/kotlin-in-action"
-    }
-    link {
-      name = "Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano"
-      href = "https://www.manning.com/books/functional-programming-in-kotlin"
-    }
-    link {
-      name = "Kotlin for Android Developers - Antonio Leiva"
-      href = "https://leanpub.com/kotlin-for-android-developers"
-    }
-    link {
-      name = "Programming Kotlin - Stephen Samuel, Stefan Bocutiu"
-      href = "https://www.packtpub.com/application-development/programming-kotlin"
-    }
-    link {
-      name = "Fundamental Kotlin, First Edition"
-      desc = "Learn Kotlin quickly from the start"
-      href = "http://www.fundamental-kotlin.com/"
+      name = "Android Kotlin Fundamentals"
+      href = "https://codelabs.developers.google.com/android-kotlin-fundamentals"
+      desc = "Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin."
     }
     link {
       name = "Kotlin for Java Developers"
       desc = "160-minute Android Course."
       href = "https://teamtreehouse.com/library/kotlin-for-java-developers"
-    }
-    link {
-      name = "Functional Kotlin"
-      desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
-      href = "https://www.packtpub.com/application-development/functional-kotlin"
-    }
-    link {
-      name = "Reactive Programming in Kotlin - Rivu Chakraborty"
-      desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
-      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
     }
     link {
       name = "Kotlin Programming: Next Level Java Development"
@@ -208,34 +182,9 @@ category("Links") {
       href = "https://caster.io/courses/introduction-to-kotlin/"
     }
     link {
-      name = "Android Development with Kotlin - Marcin Moskala, Igor Wojda"
-      desc = "Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code"
-      href = "https://www.packtpub.com/application-development/android-development-kotlin"
-    }
-    link {
-      name = "Mastering Android Development with Kotlin - Miloš Vasić"
-      desc = "Master Android development using a variety of Kotlin features"
-      href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
-    }
-    link {
       name = "Building Android Apps with Kotlin: Getting Started - Alex Dunn"
       desc = "Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before."
       href = "https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started"
-    }
-    link {
-      name = "Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro"
-      desc = "Beginning programming with Kotlin"
-      href = "https://store.raywenderlich.com/products/kotlin-apprentice"
-    }
-    link {
-      name = "Android Apprentice - Darryl Bayliss & Tom Blankenship"
-      desc = "Beginning Android programming using Kotlin"
-      href = "https://store.raywenderlich.com/products/android-apprentice"
-    }
-    link {
-      name = "Hands-on Design Patterns with Kotlin - Alexey Soshin"
-      desc = "Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin"
-      href = "https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014"
     }
     link {
       name = "Kotlin Bootcamp for Programmers - Google"
@@ -263,14 +212,72 @@ category("Links") {
       href = "https://classpert.com/kotlin-programming"
     }
     link {
-      name = "Advanced Android App Architecture"
-      desc = "In Advanced Android App Architectures, you'll find a diverse and hands-on approach to architecting your apps on Android"
-      href = "https://store.raywenderlich.com/products/advanced-android-app-architecture"
-    }
-    link {
       name = "Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda"
       desc = "Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!"
       href = "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"
+    }
+  }
+  subcategory("Books") {
+    link {
+      name = "Kotlin in Action - Dmitry Jemerov, Svetlana Isakova"
+      href = "https://manning.com/books/kotlin-in-action"
+    }
+    link {
+      name = "Kotlin for Android Developers - Antonio Leiva"
+      href = "https://leanpub.com/kotlin-for-android-developers"
+    }
+    link {
+      name = "Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano"
+      href = "https://www.manning.com/books/functional-programming-in-kotlin"
+    }
+    link {
+      name = "Programming Kotlin - Stephen Samuel, Stefan Bocutiu"
+      href = "https://www.packtpub.com/application-development/programming-kotlin"
+    }
+    link {
+      name = "Fundamental Kotlin, First Edition"
+      desc = "Learn Kotlin quickly from the start"
+      href = "http://www.fundamental-kotlin.com/"
+    }
+    link {
+      name = "Android Development with Kotlin - Marcin Moskala, Igor Wojda"
+      desc = "Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code"
+      href = "https://www.packtpub.com/application-development/android-development-kotlin"
+    }
+    link {
+      name = "Mastering Android Development with Kotlin - Miloš Vasić"
+      desc = "Master Android development using a variety of Kotlin features"
+      href = "https://www.packtpub.com/application-development/mastering-android-development-kotlin"
+    }
+    link {
+      name = "Functional Kotlin"
+      desc = "Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/functional-kotlin"
+    }
+    link {
+      name = "Reactive Programming in Kotlin - Rivu Chakraborty"
+      desc = "Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty"
+      href = "https://www.packtpub.com/application-development/reactive-programming-kotlin"
+    }
+    link {
+      name = "Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro"
+      desc = "Beginning programming with Kotlin"
+      href = "https://store.raywenderlich.com/products/kotlin-apprentice"
+    }
+    link {
+      name = "Android Apprentice - Darryl Bayliss & Tom Blankenship"
+      desc = "Beginning Android programming using Kotlin"
+      href = "https://store.raywenderlich.com/products/android-apprentice"
+    }
+    link {
+      name = "Hands-on Design Patterns with Kotlin - Alexey Soshin"
+      desc = "Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin"
+      href = "https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014"
+    }
+    link {
+      name = "Advanced Android App Architecture"
+      desc = "In Advanced Android App Architectures, you'll find a diverse and hands-on approach to architecting your apps on Android"
+      href = "https://store.raywenderlich.com/products/advanced-android-app-architecture"
     }
     link {
       name = "Data Structures & Algorithms in Kotlin - Irina Galata & Matei Suica"
