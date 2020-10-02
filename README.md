@@ -78,6 +78,7 @@ Here awesome badge for your project:
 * <a name="projects-desktop-subcategory"></a>[Desktop](#projects-desktop)
 * <a name="projects-examples-subcategory"></a>[Examples](#projects-examples)
 * <a name="projects-idea-plugins-subcategory"></a>[Idea Plugins](#projects-idea-plugins)
+* <a name="projects-playground-subcategory"></a>[Playground](#projects-playground)
 
 ### <a name="android-category"></a>[Android](#android)
 * <a name="android-libraries-subcategory"></a>[Libraries](#android-libraries)
@@ -603,6 +604,9 @@ Here awesome badge for your project:
 * [wuseal/JsonToKotlinClass](https://github.com/wuseal/JsonToKotlinClass) - Plugin for IntelliJ IDEs to generate Kotlin data class code from JSON text
 * [intellij-rust/intellij-rust](https://github.com/intellij-rust/intellij-rust) - Rust IDE built using the IntelliJ Platform.
 * [izhangzhihao/intellij-rainbow-brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets) - Rainbow Brackets / Rainbow Parentheses for IntelliJ IDEA based IDEs.
+
+### <a name="projects-playground"></a>Playground <sup>[Back ⇈](#projects-playground-subcategory)</sup>
+* [LouisCAD/kotlin-libraries-playground](https://github.com/LouisCAD/kotlin-libraries-playground) - A playground to gain a wider and deeper knowledge of the libraries in the Kotlin ecosystem. Also the official sample for gradle refreshVersions.
 
 
 ## <a name="android"></a>Android <sup>[Back ⇈](#android-category)</sup>
