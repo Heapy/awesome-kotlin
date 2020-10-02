@@ -30,7 +30,7 @@ deploy:
     on:
       branch: main
   - provider: script
-    script: bash ./ci/deploy-site.sh
+    script: bash .ci/deploy-site.sh
     skip_cleanup: true
     on:
       branch: main
