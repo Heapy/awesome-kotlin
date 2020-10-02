@@ -118,8 +118,8 @@ category("Links") {
       desc = "A practical guide on Kotlin for Developers"
     }
     link {
+      name = "Kotlin syntax cheat sheet"
       href = "https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a"
-      desc = "Kotlin syntax cheat sheet"
     }
   }
   subcategory("Blogs") {
