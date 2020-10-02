@@ -6,7 +6,7 @@ import {withRouter} from "react-router";
 import {searchString} from "../../locations";
 import {Bar} from "../../components/bar/bar";
 
-const styles = require("./page.less");
+const styles = require("./home.less");
 
 const data = require("../../../links.json");
 const versions = require("../../../versions.json");
