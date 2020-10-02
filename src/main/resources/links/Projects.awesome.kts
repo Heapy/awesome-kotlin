@@ -387,4 +387,10 @@ category("Projects") {
       setTags("kotlin", "idea", "exceptions")
     }
   }
+  subcategory("Playground") {
+    link {
+      github = "LouisCAD/kotlin-libraries-playground"
+      setPlatforms(JVM)
+    }
+  }
 }
