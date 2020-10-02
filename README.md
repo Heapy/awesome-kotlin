@@ -41,7 +41,8 @@ Here awesome badge for your project:
 * <a name="links-official-links-subcategory"></a>[Official Links](#links-official-links)
 * <a name="links-resources-subcategory"></a>[Resources](#links-resources)
 * <a name="links-blogs-subcategory"></a>[Blogs](#links-blogs)
-* <a name="links-books-and-courses-subcategory"></a>[Books and Courses](#links-books-and-courses)
+* <a name="links-courses-subcategory"></a>[Courses](#links-courses)
+* <a name="links-books-subcategory"></a>[Books](#links-books)
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
@@ -140,38 +141,42 @@ Here awesome badge for your project:
 * [Kotlin Academy](https://blog.kotlin-academy.com/) - Blog that teach about Kotlin
 * [KotlinTesting Blog](https://kotlintesting.com) - Blog about testing with Kotlin
 
-### <a name="links-books-and-courses"></a>Books and Courses <sup>[Back ⇈](#links-books-and-courses-subcategory)</sup>
-* [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
-* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin) 
-* [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers) 
-* [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
-* [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
+### <a name="links-courses"></a>Courses <sup>[Back ⇈](#links-courses-subcategory)</sup>
+* [Android Kotlin Fundamentals](https://codelabs.developers.google.com/android-kotlin-fundamentals) - Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin.
 * [Kotlin for Java Developers](https://teamtreehouse.com/library/kotlin-for-java-developers) - 160-minute Android Course.
-* [Functional Kotlin](https://www.packtpub.com/application-development/functional-kotlin) - Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty
-* [Reactive Programming in Kotlin - Rivu Chakraborty](https://www.packtpub.com/application-development/reactive-programming-kotlin) - Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
 * [Introduction to Kotlin Programming by Hadi Hariri](http://shop.oreilly.com/product/0636920052982.do) - From Hello World to Interoperability with Java
 * [Advanced Kotlin Programming](http://shop.oreilly.com/product/0636920052999.do) - From Nested Functions to Asynchronous Programming
 * [Kotlin an Introduction - Caster.io](https://caster.io/courses/introduction-to-kotlin/) - Kotlin introductory course at Caster.io
-* [Android Development with Kotlin - Marcin Moskala, Igor Wojda](https://www.packtpub.com/application-development/android-development-kotlin) - Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code
-* [Mastering Android Development with Kotlin - Miloš Vasić](https://www.packtpub.com/application-development/mastering-android-development-kotlin) - Master Android development using a variety of Kotlin features
 * [Building Android Apps with Kotlin: Getting Started - Alex Dunn](https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started) - Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before.
-* [Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro](https://store.raywenderlich.com/products/kotlin-apprentice) - Beginning programming with Kotlin
-* [Android Apprentice - Darryl Bayliss & Tom Blankenship](https://store.raywenderlich.com/products/android-apprentice) - Beginning Android programming using Kotlin
-* [Hands-on Design Patterns with Kotlin - Alexey Soshin](https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014) - Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin
 * [Kotlin Bootcamp for Programmers - Google](https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011) - Language fundamentals for developers
 * [Developing Android Apps with Kotlin - Google](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012) - Create concise, secure and performant apps with Kotlin
 * [Kotlin for Android Developers](https://www.udacity.com/course/kotlin-for-android-developers--ud888) - Convert an Android app from Java to Kotlin
 * [Kotlin for Java Developers - JetBrains](https://www.coursera.org/learn/kotlin-for-java-developers) - Detailed Kotlin introductory course for Java developers
 * [Kotlin Online Courses at Classpert](https://classpert.com/kotlin-programming) - Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search
-* [Advanced Android App Architecture](https://store.raywenderlich.com/products/advanced-android-app-architecture) - In Advanced Android App Architectures, you'll find a diverse and hands-on approach to architecting your apps on Android
 * [Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda](https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started) - Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!
+
+### <a name="links-books"></a>Books <sup>[Back ⇈](#links-books-subcategory)</sup>
+* [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
+* [Kotlin for Android Developers - Antonio Leiva](https://leanpub.com/kotlin-for-android-developers) 
+* [Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano](https://www.manning.com/books/functional-programming-in-kotlin) 
+* [Programming Kotlin - Stephen Samuel, Stefan Bocutiu](https://www.packtpub.com/application-development/programming-kotlin) 
+* [Fundamental Kotlin, First Edition](http://www.fundamental-kotlin.com/) - Learn Kotlin quickly from the start
+* [Android Development with Kotlin - Marcin Moskala, Igor Wojda](https://www.packtpub.com/application-development/android-development-kotlin) - Learn how to make Android development much faster using a variety of Kotlin features, from basics to advanced, to write better quality code
+* [Mastering Android Development with Kotlin - Miloš Vasić](https://www.packtpub.com/application-development/mastering-android-development-kotlin) - Master Android development using a variety of Kotlin features
+* [Functional Kotlin](https://www.packtpub.com/application-development/functional-kotlin) - Learn Functional Programming in Kotlin from scratch and how to apply Functional Programming with Kotlin to real-life projects with popular libraries like Arrow. By Mario Arias, Rivu Chakraborty
+* [Reactive Programming in Kotlin - Rivu Chakraborty](https://www.packtpub.com/application-development/reactive-programming-kotlin) - Learn how to implement Reactive Programming paradigms with Kotlin, and apply them to Web programming with Spring Framework 5.0 as well as in Android Application Development. By Rivu Chakraborty
+* [Kotlin Apprentice - Irina Galata, Joe Howard, Richard Lucas & Ellen Shapiro](https://store.raywenderlich.com/products/kotlin-apprentice) - Beginning programming with Kotlin
+* [Android Apprentice - Darryl Bayliss & Tom Blankenship](https://store.raywenderlich.com/products/android-apprentice) - Beginning Android programming using Kotlin
+* [Hands-on Design Patterns with Kotlin - Alexey Soshin](https://www.amazon.com/Hands-Design-Patterns-Kotlin-applications/dp/1788998014) - Book that covers building scalable applications using traditional, reactive, and concurrent design patterns in Kotlin
+* [Advanced Android App Architecture](https://store.raywenderlich.com/products/advanced-android-app-architecture) - In Advanced Android App Architectures, you'll find a diverse and hands-on approach to architecting your apps on Android
 * [Data Structures & Algorithms in Kotlin - Irina Galata & Matei Suica](https://store.raywenderlich.com/products/data-structures-and-algorithms-in-kotlin) - A book that teaches you the fundamental tools of implementing key data structures in Kotlin, and how to use them to solve algorithms
 * [Head First Kotlin](https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/) - Head First Kotlin is a complete introduction to coding in Kotlin
 
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
+* [Kotlin/kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML.
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [darkredz/zeko-restapi-framework](https://github.com/darkredz/zeko-restapi-framework) - Asynchronous web framework for Kotlin. Create REST APIs in Kotlin easily with automatic Swagger/OpenAPI doc generation
@@ -201,7 +206,6 @@ Here awesome badge for your project:
 * [jetbrains/kotless](https://github.com/jetbrains/kotless) - Kotlin serverless framework reducing the routine of serverless deployment.
 * [ExpediaDotCom/graphql-kotlin](https://github.com/ExpediaDotCom/graphql-kotlin) - Code-only GraphQL schema generation for Kotlin
 * [perwendel/spark-kotlin](https://github.com/perwendel/spark-kotlin) - A DSL in idiomatic Kotlin for the Spark web framework.
-* [Kotlin/kotlinx.html](https://github.com/Kotlin/kotlinx.html) - Kotlin DSL for HTML.
 * [jooby-project/jooby](https://github.com/jooby-project/jooby) - Modular micro web framework for Java and Kotlin
 * [http4k/http4k](http://www.http4k.org) - Toolkit for serving and consuming HTTP services in a functional and consistent way.
 * [apollographql/apollo-android](https://github.com/apollographql/apollo-android) - Typesafe GraphQL client for the JVM and Kotlin native
