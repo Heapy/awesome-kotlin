@@ -1198,6 +1198,13 @@ category("Libraries/Frameworks") {
       desc = "A multiplatform Kotlin library for working with date and time."
       setTags("multiplatform", "date", "time")
     }
+    link {
+      github = "oolong-kt/oolong"
+      href = "https://oolong-kt.org"
+      desc = "Elm inspired Model-View-Update (MVU) implementation for Kotlin multiplatform."
+      setTags("multiplatform", "mvu", "coroutines")
+      setPlatforms(COMMON, IOS, JVM, NATIVE)
+    }
   }
   subcategory("Parsers") {
     link {
