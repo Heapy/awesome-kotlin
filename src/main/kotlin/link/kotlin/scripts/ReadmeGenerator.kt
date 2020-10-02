@@ -68,7 +68,7 @@ internal fun getLinks(links: List<Category>): String {
                         ""
                     } else {
                         // Hot fix to remove paragraph added by commonmark
-                        "- ${desc.removePrefix("<p>").removeSuffix("</p>")}"
+                        "- ${desc.removePrefix("<p>").removeSuffix("</p>\n")}"
                     }
 
                     "* [${link.name}](${link.href}) ${getDesc(link.desc)}"
