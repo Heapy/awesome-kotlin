@@ -49,7 +49,10 @@ private class DefaultSiteGenerator(
     }
 
     override fun generateLinksJson(links: List<Category>) {
-        writeFile("$base/app/links.json", mapper.writeValueAsString(links))
+        writeFile(
+            "$base/app/links.json",
+            mapper.writeValueAsString(links.map { category -> category.copy(subcategories = category.subcategories.sortedByDescending { it.links.size }.toMutableList()) })
+        )
     }
 
     override fun generateKotlinVersionsJson() = runBlocking {
