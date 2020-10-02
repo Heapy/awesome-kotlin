@@ -127,7 +127,7 @@ Here awesome badge for your project:
 * [Jetbrain's Hyperskill Academy](https://hyperskill.org/onboarding/tracks/3) - An interactive learning platform for Kotlin and other languages
 * [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
-* [null](https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a) - Kotlin syntax cheat sheet
+* [Kotlin syntax cheat sheet](https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a) 
 * [tbhaxor/GUIDE-TO-KOTLIN](https://github.com/tbhaxor/GUIDE-TO-KOTLIN) - A practical guide on Kotlin for Developers
 * [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) - From Java to Kotlin Cheat Sheet
