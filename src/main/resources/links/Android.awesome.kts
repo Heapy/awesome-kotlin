@@ -213,7 +213,7 @@ category("Android") {
     link {
       github = "adrielcafe/AndroidCoroutineScopes"
       desc = "This lib implements the most common CoroutineScopes used in Android apps."
-      setTags("kotlin",  "coroutines", "coroutinescopes")
+      setTags("kotlin", "coroutines", "coroutinescopes")
     }
     link {
       github = "WindSekirun/RxSocialLogin"
@@ -285,6 +285,26 @@ category("Android") {
       github = "rosariopfernandes/firecoil"
       desc = "Display images stored in Cloud Storage for Firebase using Coil."
       setTags("kotlin", "coroutines")
+    }
+    link {
+      github = "skydoves/Only"
+      desc = "An easy way to persist and run code block only as many times as necessary on Android."
+      setTags("preference", "dsl", "persistence")
+    }
+    link {
+      github = "skydoves/AndroidVeil"
+      desc = "An easy, flexible way to implement veil skeletons and shimmering effect for Android."
+      setTags("skeleton", "shimmer", "ui", "animation")
+    }
+    link {
+      github = "skydoves/Submarine"
+      desc = "Fully customizable floating navigation view for listing items dynamically on Android."
+      setTags("navigation", "animation", "dsl")
+    }
+    link {
+      github = "skydoves/Needs"
+      desc = "An easy way to implement modern permission instructions popup."
+      setTags("permission", "popup", "animation")
     }
   }
   subcategory("Frameworks") {
@@ -569,7 +589,7 @@ category("Android") {
       github = "Reedyuk/blue-falcon"
       desc = "A unified Bluetooth library for Android and iOS."
       setTags("bluetooth", "kotlin multiplatform", "ios")
-    }    
+    }
     link {
       github = "cossacklabs/themis"
       desc = "Multi-language framework for solving typical data security tasks: storage and messaging encryption, authentication, works for 14 languages."

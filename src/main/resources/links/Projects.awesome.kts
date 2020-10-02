@@ -393,4 +393,16 @@ category("Projects") {
       setPlatforms(JVM)
     }
   }
+  subcategory("Android") {
+    link {
+      github = "skydoves/themovies"
+      desc = "A simple project for The Movie DB based on Kotlin MVVM clean architecture and material design & animations."
+      setTags("mvvm", "material-design", "dagger2", "tdd")
+    }
+    link {
+      github = "skydoves/githubfollows"
+      desc = "A demo project based on MVVM architecture and material design & animations."
+      setTags("mvvm", "material-design", "material-animations", "dagger2", "room-persistence", "preferenceroom", "github-api", "retrofit", "repository-pattern")
+    }
+  }
 }
