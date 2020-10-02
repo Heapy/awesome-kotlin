@@ -1,15 +1,15 @@
 import * as React from "react";
-import {Head} from "../head/head";
-import {Search} from "../search/search";
-import {Category} from "../category/category";
+import {Head} from "../../components/head/head";
+import {Search} from "../../components/search/search";
+import {Category} from "../../components/category/category";
 import {withRouter} from "react-router";
-import {searchString} from "../locations";
-import {Component as Bar} from "../bar/Bar";
+import {searchString} from "../../locations";
+import {Bar} from "../../components/bar/bar";
 
 const styles = require("./page.less");
 
-const data = require("../../links.json");
-const versions = require("../../versions.json");
+const data = require("../../../links.json");
+const versions = require("../../../versions.json");
 
 function reduceCategory(category, searchTerm) {
   const subcategories = category.subcategories.reduce(function (acc, subcategory) {
@@ -117,7 +117,7 @@ interface PageState {
   readonly data: any;
 }
 
-export const Page = withRouter(PageComponent);
+export const Home = withRouter(PageComponent);
 
 function toLower(string) {
   return string.toLowerCase();

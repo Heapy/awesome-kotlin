@@ -1,6 +1,6 @@
 import * as React from "react";
 import {style} from "typestyle";
-import {Component as KotlinVersion} from "./KotlinVersion";
+import {KotlinVersion} from "./KotlinVersion";
 
 const {wrapper, bar} = {
   wrapper: style({
@@ -19,7 +19,7 @@ const {wrapper, bar} = {
   })
 };
 
-export function Component({versions}: Props) {
+export function Bar({versions}: Props) {
   return (
     <section className={bar}>
       <div className={wrapper}>

@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Link} from "../model";
+import {Link} from "../../model";
 import {classes} from "typestyle";
 
 const styles = require("./listitem.less");

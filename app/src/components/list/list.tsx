@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Listitem} from "../listitem/listitem";
-import {Link, Subcategory} from "../model";
+import {Link, Subcategory} from "../../model";
 
 const styles = require("./list.less");
 

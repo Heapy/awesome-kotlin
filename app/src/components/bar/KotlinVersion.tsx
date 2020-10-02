@@ -23,7 +23,7 @@ function copyVersion(version: string): () => void {
   return () => copy(version);
 }
 
-export function Component({version}: Props) {
+export function KotlinVersion({version}: Props) {
   return (
     <span className={styles.version}
           title="Click to copy."
