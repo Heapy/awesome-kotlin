@@ -147,19 +147,39 @@ private class DefaultLinksProcessor(
     }
 }
 
+class DescriptionMarkdownLinkProcessor(
+    private val linksProcessor: LinksProcessor,
+    private val markdownRenderer: MarkdownRenderer
+) : LinksProcessor {
+    override suspend fun process(link: Link): Link {
+        val processed = linksProcessor.process(link)
+
+        return if (processed.desc != null) {
+            processed.copy(desc = markdownRenderer.render(processed.desc))
+        } else processed
+    }
+
+}
+
 private val LOGGER = logger<DefaultLinksProcessor>()
 
 fun LinksProcessor.Companion.default(
     configuration: ApplicationConfiguration,
     mapper: ObjectMapper,
     httpClient: HttpClient,
-    linksChecker: LinksChecker
+    linksChecker: LinksChecker,
+    markdownRenderer: MarkdownRenderer
 ): LinksProcessor {
-    return DefaultLinksProcessor(
+    val defaultLinksProcessor = DefaultLinksProcessor(
         configuration = configuration,
         mapper = mapper,
         httpClient = httpClient,
         linksChecker = linksChecker
+    )
+
+    return DescriptionMarkdownLinkProcessor(
+        linksProcessor = defaultLinksProcessor,
+        markdownRenderer = markdownRenderer
     )
 }
 

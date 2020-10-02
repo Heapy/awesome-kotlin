@@ -23,7 +23,8 @@ export function Listitem({link}: ListitemProps) {
       </a>
 
       {getLastUpdated(link)}
-      <p className={styles.listitem_description}>{link.desc}</p>
+      <span className={styles.listitem_description}
+            dangerouslySetInnerHTML={{ __html: link.desc }}/>
 
     </li>
   );

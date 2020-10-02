@@ -46,7 +46,7 @@ internal fun getFileName(title: String): String {
 }
 
 fun ArticlesProcessor.Companion.default(
-    markdownRenderer: MarkdownRenderer = MarkdownRenderer.default()
+    markdownRenderer: MarkdownRenderer
 ): ArticlesProcessor {
     return DefaultArticlesProcessor(
         markdownRenderer = markdownRenderer

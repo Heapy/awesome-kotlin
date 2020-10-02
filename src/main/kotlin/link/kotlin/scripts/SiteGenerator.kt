@@ -30,21 +30,21 @@ private class DefaultSiteGenerator(
     private val rssGenerator: RssGenerator
 ) : SiteGenerator {
     private val base = "./app-frontend"
-
+    private val dist = "$base/dist"
 
     override fun createDistFolders() {
         // Output folder
-        if (Files.notExists(Paths.get("$base/dist"))) Files.createDirectory(Paths.get("$base/dist"))
-        if (Files.notExists(Paths.get("$base/dist/articles"))) Files.createDirectory(Paths.get("$base/dist/articles"))
+        if (Files.notExists(Paths.get("$dist"))) Files.createDirectory(Paths.get("$dist"))
+        if (Files.notExists(Paths.get("$dist/articles"))) Files.createDirectory(Paths.get("$dist/articles"))
     }
 
     override fun copyResources() {
         copyResources(
-            "$base/pages/github.css" to "$base/dist/github.css",
-            "$base/pages/styles.css" to "$base/dist/styles.css",
-            "$base/pages/highlight.pack.js" to "$base/dist/highlight.pack.js",
-            "$base/root/robots.txt" to "$base/dist/robots.txt",
-            "$base/root/awesome-kotlin.svg" to "$base/dist/awesome-kotlin.svg"
+            "$base/pages/github.css" to "$dist/github.css",
+            "$base/pages/styles.css" to "$dist/styles.css",
+            "$base/pages/highlight.pack.js" to "$dist/highlight.pack.js",
+            "$base/root/robots.txt" to "$dist/robots.txt",
+            "$base/root/awesome-kotlin.svg" to "$dist/awesome-kotlin.svg"
         )
     }
 
@@ -58,19 +58,19 @@ private class DefaultSiteGenerator(
     }
 
     override fun generateSitemap(articles: List<Article>) {
-        writeFile("$base/dist/sitemap.xml", sitemapGenerator.generate(articles))
+        writeFile("$dist/sitemap.xml", sitemapGenerator.generate(articles))
     }
 
     override fun generateFeeds(articles: List<Article>) {
         val rss = rssGenerator.generate(articles.take(20), "rss.xml")
         val fullRss = rssGenerator.generate(articles, "rss-full.xml")
 
-        writeFile("$base/dist/rss.xml", rss)
-        writeFile("$base/dist/rss-full.xml", fullRss)
+        writeFile("$dist/rss.xml", rss)
+        writeFile("$dist/rss-full.xml", fullRss)
     }
 
     override fun generateArticles(articles: List<Article>) {
-        pagesGenerator.generate(articles)
+        pagesGenerator.generate(articles, dist)
     }
 }
 

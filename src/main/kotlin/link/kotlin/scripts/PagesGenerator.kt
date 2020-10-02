@@ -12,13 +12,13 @@ import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 
 interface PagesGenerator {
-    fun generate(articles: List<Article>)
+    fun generate(articles: List<Article>, dist: String)
 
     companion object
 }
 
 private class DefaultPagesGenerator : PagesGenerator {
-    override fun generate(articles: List<Article>) {
+    override fun generate(articles: List<Article>, dist: String) {
         val articleBody = articles
             .groupBy { formatDate(it.date) }
             .map { """<div>${it.key}</div><ul>${getGroupLinks(it.value)}</ul>""" }
@@ -39,7 +39,7 @@ private class DefaultPagesGenerator : PagesGenerator {
         )
 
         (articles + article).forEach {
-            writeFile("./app-frontend/dist/articles/${it.filename}", getHtml(it))
+            writeFile("$dist/articles/${it.filename}", getHtml(it))
         }
     }
 }

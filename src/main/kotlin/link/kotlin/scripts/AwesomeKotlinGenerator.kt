@@ -55,6 +55,7 @@ fun AwesomeKotlinGenerator.Companion.default(): AwesomeKotlinGenerator {
     val mapper = KotlinObjectMapper.default()
     val httpClient = HttpClient.default()
     val configuration = ApplicationConfiguration.default()
+    val markdownRenderer = MarkdownRenderer.default()
 
     val cache = Cache.default(
         mapper = mapper,
@@ -89,7 +90,8 @@ fun AwesomeKotlinGenerator.Companion.default(): AwesomeKotlinGenerator {
         mapper = mapper,
         httpClient = httpClient,
         linksChecker = linksChecker,
-        configuration = configuration
+        configuration = configuration,
+        markdownRenderer = markdownRenderer
     )
 
     val categoryProcessor = CategoryProcessor.default(
@@ -102,7 +104,10 @@ fun AwesomeKotlinGenerator.Companion.default(): AwesomeKotlinGenerator {
             categoryProcessor = categoryProcessor
         ),
         articlesSource = ArticlesSource.default(
-            scriptEvaluator = scriptEvaluator
+            scriptEvaluator = scriptEvaluator,
+            articlesProcessor = ArticlesProcessor.default(
+                markdownRenderer = markdownRenderer
+            )
         ),
         readmeGenerator = ReadmeGenerator.default(),
         siteGenerator = siteGenerator

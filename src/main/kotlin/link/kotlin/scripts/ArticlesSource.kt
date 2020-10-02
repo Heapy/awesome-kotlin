@@ -31,7 +31,7 @@ private class FileSystemArticlesSource(
 
 fun ArticlesSource.Companion.default(
     scriptEvaluator: ScriptEvaluator,
-    articlesProcessor: ArticlesProcessor = ArticlesProcessor.default()
+    articlesProcessor: ArticlesProcessor
 ): ArticlesSource {
     return FileSystemArticlesSource(
         scriptEvaluator = scriptEvaluator,
