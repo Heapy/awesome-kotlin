@@ -9,7 +9,8 @@
 
   &_logo {
     max-width: 600px;
-    height: auto;
+    min-height: 140px;
+    max-height: 140px;
     display: block;
     margin: 0 auto;
     padding: 20px 0;
@@ -21,6 +22,8 @@
   @media screen and (max-width: 480px) {
     &_logo {
       max-width: 200px;
+      min-height: 50px;
+      max-height: 50px;
     }
   }
 }
