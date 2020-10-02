@@ -85,7 +85,7 @@ internal fun generateReadme(links: List<Category>): String {
 
 
     This is GENERATED file, please consult 
-    https://github.com/KotlinBy/awesome-kotlin/blob/readme/contributing.md
+    https://github.com/KotlinBy/awesome-kotlin/blob/main/.github/contributing.md
     for instructions.
 
 
@@ -108,7 +108,7 @@ Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: *
 
 ## Spread Awesome Kotlin!
 
-Here awesome badge for your project:
+Here is the awesome badge for your project:
 
 ```markdown
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)

@@ -10,12 +10,14 @@ Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: *
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (full archive)](http://kotlin.link/rss-full.xml)
 
+:octocat: [Awesome Kotlin - README.md](https://github.com/KotlinBy/awesome-kotlin/blob/readme/README.md) - README with links
+
 ## Spread Awesome Kotlin!
 
-Here awesome badge for your project:
+Here is the awesome badge for your project:
 
 ```markdown
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 ```
 
-To contribute, check [CONTRIBUTING.md](https://github.com/KotlinBy/awesome-kotlin/blob/readme/contributing.md).
+To contribute, check [CONTRIBUTING.md](https://github.com/KotlinBy/awesome-kotlin/blob/main/.github/contributing.md).
