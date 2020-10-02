@@ -148,17 +148,23 @@ private class DefaultLinksProcessor(
 }
 
 class DescriptionMarkdownLinkProcessor(
-    private val linksProcessor: LinksProcessor,
     private val markdownRenderer: MarkdownRenderer
 ) : LinksProcessor {
     override suspend fun process(link: Link): Link {
-        val processed = linksProcessor.process(link)
-
-        return if (processed.desc != null) {
-            processed.copy(desc = markdownRenderer.render(processed.desc))
-        } else processed
+        return if (link.desc != null) {
+            link.copy(desc = markdownRenderer.render(link.desc))
+        } else link
     }
+}
 
+class CombinedLinksProcessors(
+    private val processors: List<LinksProcessor>
+) : LinksProcessor {
+    override suspend fun process(link: Link): Link {
+        return processors.fold(link) { curr, processor ->
+            processor.process(curr)
+        }
+    }
 }
 
 private val LOGGER = logger<DefaultLinksProcessor>()
@@ -177,10 +183,11 @@ fun LinksProcessor.Companion.default(
         linksChecker = linksChecker
     )
 
-    return DescriptionMarkdownLinkProcessor(
-        linksProcessor = defaultLinksProcessor,
+    val markdownLinkProcessor = DescriptionMarkdownLinkProcessor(
         markdownRenderer = markdownRenderer
     )
+
+    return CombinedLinksProcessors(listOf(defaultLinksProcessor, markdownLinkProcessor))
 }
 
 @JsonIgnoreProperties(ignoreUnknown = true)

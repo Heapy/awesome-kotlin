@@ -64,7 +64,12 @@ internal fun getLinks(links: List<Category>): String {
                 .filter { link -> !link.archived }
                 .sortedBy { link -> link.star }
                 .joinToString("\n") { link ->
-                    val getDesc = fun(desc: String?) = if (desc.isNullOrEmpty()) "" else "- $desc"
+                    val getDesc = fun(desc: String?) = if (desc.isNullOrEmpty()) {
+                        ""
+                    } else {
+                        // Hot fix to remove paragraph added by commonmark
+                        "- ${desc.removePrefix("<p>").removeSuffix("</p>")}"
+                    }
 
                     "* [${link.name}](${link.href}) ${getDesc(link.desc)}"
                 }
