@@ -39,7 +39,7 @@ private class DefaultPagesGenerator : PagesGenerator {
         )
 
         (articles + article).forEach {
-            writeFile("./dist/articles/${it.filename}", getHtml(it))
+            writeFile("./app-frontend/dist/articles/${it.filename}", getHtml(it))
         }
     }
 }

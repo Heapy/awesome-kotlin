@@ -1,13 +1,5 @@
 # Generated
-/app/links.json
-/app/versions.json
 /readme/README.md
-
-# Node
-node_modules
-
-# Webpack
-dist
 
 # Intellij Idea
 .idea

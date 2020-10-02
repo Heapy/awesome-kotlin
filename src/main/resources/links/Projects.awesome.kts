@@ -258,7 +258,7 @@ category("Projects") {
     }
     link {
       github = "dkandalov/rosettacode-kotlin"
-      desc = "Repository with source code from [RosettaCode](http://rosettacode.org/)"
+      desc = "Repository with source code from [RosettaCode](https://rosettacode.org/)"
       setTags("examples", "study")
     }
     link {
@@ -348,7 +348,7 @@ category("Projects") {
     }
     link {
       github = "roger-yh99/Readhub"
-      desc = "[Readhub](http://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
+      desc = "[Readhub](https://plugins.jetbrains.com/plugin/10539-readhub) is a News Reader plugin for IntelliJ IDEs"
       setTags("idea", "plugin")
     }
     link {

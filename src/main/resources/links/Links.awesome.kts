@@ -6,23 +6,23 @@ category("Links") {
     }
     link {
       name = "Home Page"
-      href = "http://kotlinlang.org/"
+      href = "https://kotlinlang.org/"
     }
     link {
       name = "Language Reference"
-      href = "http://kotlinlang.org/docs/reference/"
+      href = "https://kotlinlang.org/docs/reference/"
     }
     link {
       name = "Slack (32k+ users)"
-      href = "http://slack.kotlinlang.org/"
+      href = "https://slack.kotlinlang.org/"
     }
     link {
       name = "Try Kotlin!"
-      href = "http://try.kotlinlang.org/"
+      href = "https://try.kotlinlang.org/"
     }
     link {
       name = "Blog"
-      href = "http://blog.jetbrains.com/kotlin/"
+      href = "https://blog.jetbrains.com/kotlin/"
     }
     link {
       name = "Issue Tracker"
@@ -52,7 +52,7 @@ category("Links") {
     link {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
-      href = "http://talkingkotlin.com/"
+      href = "https://talkingkotlin.com/"
     }
     link {
       name = "Kotlin Subreddit"
@@ -125,7 +125,7 @@ category("Links") {
   subcategory("Blogs") {
     link {
       name = "Antonio Leiva - Android and any other monsters"
-      href = "http://antonioleiva.com/"
+      href = "https://antonioleiva.com/"
     }
     link {
       name = "Kotlin Expertise Blog"
@@ -169,12 +169,12 @@ category("Links") {
     link {
       name = "Introduction to Kotlin Programming by Hadi Hariri"
       desc = "From Hello World to Interoperability with Java"
-      href = "http://shop.oreilly.com/product/0636920052982.do"
+      href = "https://shop.oreilly.com/product/0636920052982.do"
     }
     link {
       name = "Advanced Kotlin Programming"
       desc = "From Nested Functions to Asynchronous Programming"
-      href = "http://shop.oreilly.com/product/0636920052999.do"
+      href = "https://shop.oreilly.com/product/0636920052999.do"
     }
     link {
       name = "Kotlin an Introduction - Caster.io"

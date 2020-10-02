@@ -19,7 +19,7 @@ category("Archive") {
     }
     link {
       name = "Stackoverflow Documentation on Kotlin"
-      href = "http://stackoverflow.com/documentation/kotlin/topics"
+      href = "https://stackoverflow.com/documentation/kotlin/topics"
       setTags("documentation", "stackoverflow")
     }
   }
@@ -40,7 +40,7 @@ category("Archive") {
   subcategory("Everything") {
     link {
       name = "Public chat archive of Kotlin's Slack"
-      href = "http://kotlinlang.slackarchive.io/"
+      href = "https://kotlinlang.slackarchive.io/"
     }
     link {
       github = "Kategory/Kategory"

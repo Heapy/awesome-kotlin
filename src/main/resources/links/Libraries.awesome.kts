@@ -19,7 +19,7 @@ category("Libraries/Frameworks") {
     link {
       github = "http4k/http4k"
       desc = "Toolkit for serving and consuming HTTP services in a functional and consistent way."
-      href = "http://www.http4k.org"
+      href = "https://www.http4k.org"
       setTags("web", "http", "http client", "jetty", "netty", "undertow")
     }
     link {

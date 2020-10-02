@@ -1,0 +1,10 @@
+# Generated
+/app/links.json
+/app/versions.json
+
+# Node
+/node_modules/
+
+# Webpack
+/dist/
+

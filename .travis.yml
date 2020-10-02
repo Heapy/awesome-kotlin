@@ -12,15 +12,14 @@ before_install:
   - nvm install 12
 
 install:
-  - yarn install
-#  - yarn --cwd app-frontend install
+  - yarn --cwd app-frontend install
   - ./gradlew assemble
 
 script:
-  #  - yarn --cwd app-frontend run pack
   #  - curl https://kotlin.link/api/readme > readme/README.adoc
   - ./gradlew check installDist
   - ./build/install/awesome-kotlin/bin/awesome-kotlin
+  - yarn --cwd app-frontend run pack
   - docker build -t "heapy/awesome:b${TRAVIS_BUILD_NUMBER}" -t "heapy/awesome:latest" ./app-backend/
 
 
@@ -31,7 +30,7 @@ deploy:
     on:
       branch: main
   - provider: script
-    script: bash deploy.sh
+    script: bash ./ci/deploy-site.sh
     skip_cleanup: true
     on:
       branch: main
@@ -57,4 +56,4 @@ cache:
     - "${HOME}/.gradle/wrapper/"
 
 git:
-  depth: 1
+  depth: 10
