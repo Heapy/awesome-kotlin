@@ -10,7 +10,7 @@ function split(str: string): string {
 
 export function Listitem({link}: ListitemProps) {
   return (
-    <li className={classes(styles.listitem, {[styles.listitem_archived]: link.archived})}>
+    <li className={classes(styles.listitem, {[styles.listitem_archived]: link.archived, [styles.listitem_unsupported]: link.unsupported})}>
 
       {getStars(link)}
 
@@ -24,7 +24,7 @@ export function Listitem({link}: ListitemProps) {
 
       {getLastUpdated(link)}
       <span className={styles.listitem_description}
-            dangerouslySetInnerHTML={{ __html: link.desc }}/>
+            dangerouslySetInnerHTML={{__html: link.desc}}/>
 
     </li>
   );
@@ -37,6 +37,8 @@ interface ListitemProps {
 function getTitle(link: Link): string {
   if (link.archived) {
     return `[archived] ${link.name}`
+  } else if (link.unsupported) {
+    return `[unsupported] ${link.name}`
   } else {
     return link.name
   }

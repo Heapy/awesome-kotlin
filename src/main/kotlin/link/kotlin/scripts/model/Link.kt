@@ -13,5 +13,6 @@ data class Link(
     val tags: List<String> = emptyList(),
     val star: Int? = null,
     val update: String? = null,
-    val archived: Boolean = false
+    val archived: Boolean = false,
+    val unsupported: Boolean = false,
 )

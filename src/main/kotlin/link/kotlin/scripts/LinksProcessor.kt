@@ -9,8 +9,11 @@ import link.kotlin.scripts.model.Link
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
 import link.kotlin.scripts.utils.logger
-import link.kotlin.scripts.utils.parseInstant
 import org.apache.http.client.methods.HttpGet
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
 
 interface LinksProcessor {
     suspend fun process(link: Link): Link
@@ -23,7 +26,9 @@ private class DefaultLinksProcessor(
     private val mapper: ObjectMapper,
     private val httpClient: HttpClient,
     private val linksChecker: LinksChecker
-): LinksProcessor {
+) : LinksProcessor {
+    private val now: Instant = Instant.now()
+
     override suspend fun process(link: Link): Link {
         return when {
             link.github != null -> {
@@ -43,8 +48,9 @@ private class DefaultLinksProcessor(
                     href = link.href ?: "https://github.com/${link.github}",
                     desc = link.desc ?: meta.description,
                     star = meta.stargazersCount,
-                    update = meta.pushedAt?.let { parseInstant(meta.pushedAt).format(formatter) },
+                    update = meta.pushedAt?.let { LocalDateTime.ofInstant(it, ZoneId.of("UTC")).format(formatter) },
                     archived = meta.archived,
+                    unsupported = meta.unsupported,
                     tags = (link.tags + meta.topics).distinct()
                 )
             }
@@ -100,19 +106,19 @@ private class DefaultLinksProcessor(
     }
 
     private suspend fun getGithubMetadata(name: String): GithubMetadata {
-        val githubStarCount = getGithubStarCount(name)
+        val githubRepoInfo = getGithubRepoInfo(name)
         val topics = getGithubRepoTopics(name)
 
         return GithubMetadata(
-            stargazersCount = githubStarCount?.stargazersCount,
-            pushedAt = githubStarCount?.pushedAt,
-            description= githubStarCount?.description,
-            archived = githubStarCount?.archived ?: false,
+            stargazersCount = githubRepoInfo?.stargazersCount,
+            pushedAt = githubRepoInfo?.pushedAt,
+            description = githubRepoInfo?.description,
+            archived = githubRepoInfo?.archived ?: false,
             topics = topics
         )
     }
 
-    private suspend fun getGithubStarCount(name: String): GithubRepoResponse? {
+    private suspend fun getGithubRepoInfo(name: String): GithubRepoResponse? {
         return try {
             val request = HttpGet("https://api.github.com/repos/$name").also {
                 it.addHeader("Authorization", "token ${configuration.ghToken}")
@@ -140,11 +146,16 @@ private class DefaultLinksProcessor(
             val request = HttpGet("https://api.bitbucket.org/2.0/repositories/$name/watchers")
             val response = httpClient.execute(request).body()
             mapper.readValue<BitbucketResponse>(response)
-        } catch(e: Exception) {
+        } catch (e: Exception) {
             LOGGER.error("Fetching star count from bitbucket: [$name]. Error: {}", e.message)
             null
         }
     }
+
+    private val GithubMetadata.unsupported: Boolean
+        get() {
+            return (this.pushedAt?.isBefore(now.minus(365, ChronoUnit.DAYS)) ?: false) && (this.stargazersCount ?: 100 < 100)
+        }
 }
 
 class DescriptionMarkdownLinkProcessor(
@@ -200,7 +211,7 @@ data class GithubRepoResponse(
     @JsonProperty("stargazers_count")
     val stargazersCount: Int,
     @JsonProperty("pushed_at")
-    val pushedAt: String,
+    val pushedAt: Instant,
     val description: String?,
     val archived: Boolean
 )
@@ -212,7 +223,7 @@ data class GithubRepoTopicsResponse(
 
 data class GithubMetadata(
     val stargazersCount: Int?,
-    val pushedAt: String?,
+    val pushedAt: Instant?,
     val description: String?,
     val archived: Boolean,
     val topics: List<String>
