@@ -5,6 +5,7 @@ export interface Subcategory {
 
 export interface Link {
   readonly archived: boolean;
+  readonly unsupported: boolean;
   readonly star: number;
   readonly href: string;
   readonly name: string;

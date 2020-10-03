@@ -12,7 +12,8 @@ export class Subcategories extends React.Component<SubcategoriesProps, Subcatego
       <section ref="subcategory" className={styles.list}>
         <h3 className={styles.list_title}>{subcategory.name}</h3>
         <ul className={styles.list_list}>
-          {renderLinks(subcategory.links.filter(link => !link.archived))}
+          {renderLinks(subcategory.links.filter(link => !link.archived && !link.unsupported))}
+          {renderLinks(subcategory.links.filter(link => link.unsupported))}
           {renderLinks(subcategory.links.filter(link => link.archived))}
         </ul>
       </section>

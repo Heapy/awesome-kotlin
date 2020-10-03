@@ -3,7 +3,8 @@
 .listitem {
   padding: 10px 5px;
 
-  &_archived {
+  &_archived,
+  &_unsupported {
     opacity: 0.4;
   }
 
@@ -12,6 +13,7 @@
 
     text-decoration: none;
     color: darken(@blue, 15%);
+
     &:hover {
       color: @dark-blue;
     }
@@ -34,6 +36,7 @@
 
     font-size: 14px;
     color: @gray;
+
     &:empty {
       display: none;
     }
@@ -55,6 +58,7 @@
       background-size: 20px 20px;
       color: @light-blue;
     }
+
     &_count {
       display: inline-block;
       vertical-align: top;
