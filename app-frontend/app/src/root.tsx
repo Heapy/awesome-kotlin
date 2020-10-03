@@ -1,18 +1,22 @@
 import * as React from "react";
-import {Home} from "./pages/home/home";
+import {Suspense, lazy} from "react";
 import {Route, BrowserRouter} from "react-router-dom";
 import {Switch} from "react-router";
-import {Kugs} from "./pages/kugs/kugs";
-import {Articles} from "./pages/articles/articles";
+
+const Home = lazy(() => import("./pages/home/home"));
+const Kugs = lazy(() => import("./pages/kugs/kugs"));
+const Articles = lazy(() => import("./pages/articles/articles"));
 
 export function Root() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/articles" component={Articles}/>
-        <Route path="/kugs" component={Kugs}/>
-      </Switch>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/kugs" component={Kugs}/>
+          <Route path="/articles" component={Articles}/>
+        </Switch>
+      </Suspense>
     </BrowserRouter>
   );
 }

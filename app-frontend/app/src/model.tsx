@@ -1,3 +1,10 @@
+export type Links = Category[];
+
+export interface Category {
+  readonly name: string;
+  readonly subcategories: Subcategory[];
+}
+
 export interface Subcategory {
   readonly name: string;
   readonly links: Link[];
