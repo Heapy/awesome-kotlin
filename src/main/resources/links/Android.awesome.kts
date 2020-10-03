@@ -306,6 +306,31 @@ category("Android") {
       desc = "An easy way to implement modern permission instructions popup."
       setTags("permission", "popup", "animation")
     }
+    link {
+      github = "evilthreads669966/EvadeMe"
+      desc = "A heuristics evasion library that prevents your code from being analyzed or tested."
+      setTags("security", "functional")
+    }
+    link {
+      github = "evilthreads669966/BootLaces"
+      desc = "Turns your background service persistent."
+      setTags("service", "functional")
+    }
+    link {
+      github = "evilthreads669966/WakeService"
+      desc = "An IntentService that keeps your processor awake while doing work."
+      setTags("service")
+    }
+    link {
+      github = "evilthreads669966/Pickpocket"
+      desc = "An asynchronous Android library for content providers and more."
+      setTags("content-providers")
+    }
+    link {
+      github = "evilthreads669966/EasyShells"
+      desc = "A simple shell for executing Linux commands with responses"
+      setTags("system")
+    }
   }
   subcategory("Frameworks") {
     link {
