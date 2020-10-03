@@ -1491,6 +1491,10 @@ category("Libraries/Frameworks") {
       href = "https://www.optaplanner.org/compatibility/kotlin.html"
       setTags("data science", "artificial-intelligence", "mathematical-optimization", "constraint-solving")
     }
+    link {
+      github = "cdietze/euklid"
+      setPlatforms(COMMON, JS, JVM)
+    }
   }
   subcategory("Command Line Interface") {
     link {
