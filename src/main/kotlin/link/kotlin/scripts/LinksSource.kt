@@ -24,23 +24,30 @@ private val files = listOf(
 
 private class FileSystemLinksSource(
     private val scriptEvaluator: ScriptEvaluator,
+    private val githubTrending: GithubTrending,
     private val categoryProcessor: CategoryProcessor
 ) : LinksSource {
     override fun getLinks(): List<Category> = runBlocking {
-        files.map { file ->
+        val scriptCategories = files.map { file ->
             val source = Files.readString(Paths.get("src/main/resources/links/", file))
-            val category = scriptEvaluator.eval(source, file, Category::class)
-            categoryProcessor.process(category)
+            scriptEvaluator.eval(source, file, Category::class)
         }
+
+        val trendingCategory = listOfNotNull(githubTrending.fetch())
+
+        (trendingCategory + scriptCategories)
+            .map { category -> categoryProcessor.process(category) }
     }
 }
 
 fun LinksSource.Companion.default(
     scriptEvaluator: ScriptEvaluator,
+    githubTrending: GithubTrending,
     categoryProcessor: CategoryProcessor
 ): LinksSource {
     return FileSystemLinksSource(
         scriptEvaluator = scriptEvaluator,
+        githubTrending = githubTrending,
         categoryProcessor = categoryProcessor
     )
 }

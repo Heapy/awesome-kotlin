@@ -98,9 +98,14 @@ fun AwesomeKotlinGenerator.Companion.default(): AwesomeKotlinGenerator {
         linksProcessor = linksProcessor
     )
 
+    val githubTrending = GithubTrending.default(
+        cache = cache
+    )
+
     val implementation = DefaultAwesomeKotlinGenerator(
         linksSource = LinksSource.default(
             scriptEvaluator = scriptEvaluator,
+            githubTrending = githubTrending,
             categoryProcessor = categoryProcessor
         ),
         articlesSource = ArticlesSource.default(
