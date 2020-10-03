@@ -84,7 +84,7 @@ category("Projects") {
       desc = "Build system inspired by Gradle."
     }
     link {
-      github = "gradle/gradle-script-kotlin"
+      github = "gradle/kotlin-dsl-samples"
       desc = "Kotlin language support for Gradle build scripts."
       setTags("gradle", "build")
     }
