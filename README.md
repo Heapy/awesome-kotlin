@@ -46,13 +46,14 @@ Here is the awesome badge for your project:
 
 ### <a name="libraries-frameworks-category"></a>[Libraries/Frameworks](#libraries-frameworks)
 * <a name="libraries-frameworks-web-subcategory"></a>[Web](#libraries-frameworks-web)
-* <a name="libraries-frameworks-tests-subcategory"></a>[Tests](#libraries-frameworks-tests)
+* <a name="libraries-frameworks-testing-subcategory"></a>[Testing](#libraries-frameworks-testing)
 * <a name="libraries-frameworks-dependency-injection-subcategory"></a>[Dependency Injection](#libraries-frameworks-dependency-injection)
 * <a name="libraries-frameworks-coroutines-subcategory"></a>[Coroutines](#libraries-frameworks-coroutines)
 * <a name="libraries-frameworks-functional-programming-subcategory"></a>[Functional Programming](#libraries-frameworks-functional-programming)
 * <a name="libraries-frameworks-json-subcategory"></a>[JSON](#libraries-frameworks-json)
 * <a name="libraries-frameworks-database-subcategory"></a>[Database](#libraries-frameworks-database)
 * <a name="libraries-frameworks-tools-subcategory"></a>[Tools](#libraries-frameworks-tools)
+* <a name="libraries-frameworks-compiler-plugins-subcategory"></a>[Compiler Plugins](#libraries-frameworks-compiler-plugins)
 * <a name="libraries-frameworks-continuous-integration-subcategory"></a>[Continuous Integration](#libraries-frameworks-continuous-integration)
 * <a name="libraries-frameworks-code-generators-subcategory"></a>[Code Generators](#libraries-frameworks-code-generators)
 * <a name="libraries-frameworks-desktop-subcategory"></a>[Desktop](#libraries-frameworks-desktop)
@@ -176,7 +177,6 @@ Here is the awesome badge for your project:
 
 ## <a name="libraries-frameworks"></a>Libraries/Frameworks <sup>[Back ⇈](#libraries-frameworks-category)</sup>
 ### <a name="libraries-frameworks-web"></a>Web <sup>[Back ⇈](#libraries-frameworks-web-subcategory)</sup>
-* [MarioAriasC/KotlinPrimavera](https://github.com/MarioAriasC/KotlinPrimavera) - Spring support libraries for Kotlin.
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [darkredz/zeko-restapi-framework](https://github.com/darkredz/zeko-restapi-framework) - Asynchronous web framework for Kotlin. Create REST APIs in Kotlin easily with automatic Swagger/OpenAPI doc generation
@@ -187,6 +187,7 @@ Here is the awesome badge for your project:
 * [spypunk/sponge](https://github.com/spypunk/sponge) - A website crawler and links downloader command line tool written in Kotlin
 * [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
 * [gimlet2/kottpd](https://github.com/gimlet2/kottpd) - REST framework in pure Kotlin, inspired by spark-java
+* [MarioAriasC/KotlinPrimavera](https://github.com/MarioAriasC/KotlinPrimavera) - Spring support libraries for Kotlin.
 * [jean79/yested](https://github.com/jean79/yested) - A Kotlin framework for building web applications in Javascript.
 * [aPureBase/KGraphQL](https://github.com/aPureBase/KGraphQL) - A GraphQL implementation written in Kotlin
 * [brianmadden/krawler](https://github.com/brianmadden/krawler) - A web crawling framework written in Kotlin
@@ -212,7 +213,8 @@ Here is the awesome badge for your project:
 * [tipsy/javalin](https://github.com/tipsy/javalin) - A Simple REST API Library for Java/Kotlin.
 * [ktorio/ktor](https://ktor.io/) - Web backend framework for Kotlin. Easy to use, fun and asynchronous.
 
-### <a name="libraries-frameworks-tests"></a>Tests <sup>[Back ⇈](#libraries-frameworks-tests-subcategory)</sup>
+### <a name="libraries-frameworks-testing"></a>Testing <sup>[Back ⇈](#libraries-frameworks-testing-subcategory)</sup>
+* [willowtreeapps/opentest4k](https://github.com/willowtreeapps/opentest4k) - kotlin multiplatform implementation/bindings of opentest4j
 * [krzema12/PlotAssert](https://github.com/krzema12/PlotAssert) - Test the shape of your functions!
 * [KennethWussmann/mock-fuel](https://github.com/KennethWussmann/mock-fuel) - JUnit 5 extension to easily mock external HTTP requests made with the HTTP client Fuel.
 * [dmcg/k-sera](https://github.com/dmcg/k-sera) - A JMock wrapper for Kotlin.
@@ -235,9 +237,11 @@ Here is the awesome badge for your project:
 * [skrapeit/skrape.it](https://github.com/skrapeit/skrape.it) - A DSL-driven HTML/XML parser-library that enables meaningful testing of rendered HTML templates.
 * [codecentric/hikaku](https://github.com/codecentric/hikaku) - A library that tests if the implementation of a REST-API meets its specification.
 * [winterbe/expekt](https://github.com/winterbe/expekt) - BDD assertion library for Kotlin.
+* [tschuchortdev/kotlin-compile-testing](https://github.com/tschuchortdev/kotlin-compile-testing) - A library for testing Kotlin and Java annotation processors, compiler plugins and code generation
 * [robfletcher/strikt](https://github.com/robfletcher/strikt) - An assertion library for Kotlin
 * [npryce/hamkrest](https://github.com/npryce/hamkrest) - A reimplementation of Hamcrest to take advantage of Kotlin language features.
 * [robstoll/atrium](https://github.com/robstoll/atrium) - Multiplatform assertion library for Kotlin supporting i18n.
+* [willowtreeapps/assertk](https://github.com/willowtreeapps/assertk) - assertions for kotlin inspired by assertj
 * [MarkusAmshove/Kluent](https://github.com/MarkusAmshove/Kluent) - Fluent Assertion-Library for Kotlin.
 * [JetBrains/spek](https://github.com/JetBrains/spek) - A specification framework for Kotlin.
 * [nhaarman/mockito-kotlin](https://github.com/nhaarman/mockito-kotlin) - Using Mockito with Kotlin.
@@ -250,6 +254,7 @@ Here is the awesome badge for your project:
 * [JLLeitschuh/kotlin-guiced](https://github.com/JLLeitschuh/kotlin-guiced) - Convenience Kotlin API over the Google Guice DI Library.
 * [authzee/kotlin-guice](https://github.com/authzee/kotlin-guice) - Guice DSL extensions for Kotlin
 * [traversals/kapsule](https://github.com/traversals/kapsule) - Minimalist dependency injection library for Kotlin.
+* [evant/kotlin-inject](https://github.com/evant/kotlin-inject) - Dependency injection lib for kotlin
 * [Kodein-Framework/Kodein-DI](https://github.com/Kodein-Framework/Kodein-DI) - Painless Kotlin Dependency Injection.
 * [Ekito/koin](https://github.com/Ekito/koin) - A functional Kotlin dependency injection framework for Android and JVM.
 
@@ -334,6 +339,11 @@ Here is the awesome badge for your project:
 * [detekt/detekt](https://github.com/detekt/detekt) - Static code analysis for Kotlin.
 * [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter.
 
+### <a name="libraries-frameworks-compiler-plugins"></a>Compiler Plugins <sup>[Back ⇈](#libraries-frameworks-compiler-plugins-subcategory)</sup>
+* [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
+* [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
+* [AhmedMourad0/no-copy](https://github.com/AhmedMourad0/no-copy) - A Kotlin compiler plugin that performs 'copy-erasure' on data classes.
+
 ### <a name="libraries-frameworks-continuous-integration"></a>Continuous Integration <sup>[Back ⇈](#libraries-frameworks-continuous-integration-subcategory)</sup>
 * [danger/kotlin](https://github.com/danger/kotlin) - Stop saying &quot;you forgot to …&quot; in code review in Kotlin
 
@@ -404,7 +414,6 @@ Here is the awesome badge for your project:
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
-* [aafanasev/sekret](https://github.com/aafanasev/sekret) - Kotlin compiler plugin to exclude secret properties from toString() of Data class
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
@@ -412,7 +421,6 @@ Here is the awesome badge for your project:
 * [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
 * [s1monw1/TLSLibrary](https://github.com/s1monw1/TLSLibrary) - Simple TlsLibrary written in Kotlin - Provides DSL for creating TLS connections
-* [AhmedMourad0/no-copy](https://github.com/AhmedMourad0/no-copy) - A Kotlin compiler plugin that performs 'copy-erasure' on data classes.
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
 * [leprosus/kotlin-hashids](https://github.com/leprosus/kotlin-hashids) - Library that generates short, unique, non-sequential hashes from numbers.
 * [consoleau/kassava](https://github.com/consoleau/kassava) - This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.
