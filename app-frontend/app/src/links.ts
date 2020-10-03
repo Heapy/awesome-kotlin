@@ -1,11 +1,11 @@
-import {Category} from "./model";
+import {Links} from "./model";
 
-const data: Category[] = require("../links.json");
+const data: Links = require("../links.json");
 
-export function LinksData(): Category[] {
+export function LinksData(): Links {
   return data.filter(it =>  it.name != "Kotlin User Groups")
 }
 
-export function KugsData(): Category[] {
+export function KugsData(): Links {
   return data.filter(it =>  it.name == "Kotlin User Groups")
 }
