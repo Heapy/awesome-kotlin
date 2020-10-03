@@ -11,7 +11,7 @@ module.exports = function (options = {}) {
 
   const APP_DIR = path.resolve(__dirname, "app");
 
-  console.log(`
+  console.error(`
 Build started with following configuration:
 ===========================================
 → NODE_ENV: ${NODE_ENV}
@@ -27,7 +27,13 @@ Build started with following configuration:
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "[name].js?[hash]",
+      chunkFilename: "[name].bundle.js?[hash]",
       publicPath: "/"
+    },
+    optimization: {
+      splitChunks: {
+        chunks: "all"
+      }
     },
     resolve: {
       extensions: [".ts", ".tsx", ".js"]
@@ -71,11 +77,6 @@ Build started with following configuration:
           }
         }]
       }]
-    },
-    optimization: {
-      splitChunks: {
-        chunks: "all"
-      }
     },
     plugins: createListOfPlugins({NODE_ENV}, APP_DIR),
     devServer: {
