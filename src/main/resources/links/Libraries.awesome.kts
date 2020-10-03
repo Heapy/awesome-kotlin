@@ -176,7 +176,7 @@ category("Libraries/Frameworks") {
     }
 
   }
-  subcategory("Tests") {
+  subcategory("Testing") {
     link {
       github = "JetBrains/spek"
       desc = "A specification framework for Kotlin."
@@ -328,6 +328,21 @@ category("Libraries/Frameworks") {
       desc = "Fluent assertions library with support of json path."
       setTags("test", "testing", "assert", "dsl", "multiplatform", "jsonpath")
     }
+    link {
+      github = "tschuchortdev/kotlin-compile-testing"
+      desc = "A library for testing Kotlin and Java annotation processors, compiler plugins and code generation"
+      setPlatforms(JVM)
+    }
+    link {
+      github = "willowtreeapps/assertk"
+      desc = "assertions for kotlin inspired by assertj"
+      setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
+    link {
+      github = "willowtreeapps/opentest4k"
+      desc = "kotlin multiplatform implementation/bindings of opentest4j"
+      setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
   }
   subcategory("Dependency Injection") {
     link {
@@ -363,6 +378,10 @@ category("Libraries/Frameworks") {
     link {
       github = "Rasalexman/KODI"
       desc = "light-weight KOtlin Dependency Injection Framework with or without reflection module without kapt"
+    }
+    link {
+      github = "evant/kotlin-inject"
+      setPlatforms(JVM)
     }
   }
   subcategory("Coroutines") {
@@ -723,6 +742,25 @@ category("Libraries/Frameworks") {
       github = "jmfayard/buildSrcVersions"
       desc = "Better Gradle dependencies management inside the IDE. Search for available updates."
       setTags("gradle", "plugin", "build", "development", "libraries", "versions")
+    }
+  }
+  subcategory("Compiler Plugins") {
+    link {
+      github = "google/ksp"
+      desc = " Kotlin Symbol Processing API"
+      setPlatforms(JVM)
+    }
+    link {
+      github = "aafanasev/sekret"
+      desc = "Kotlin compiler plugin to exclude secret properties from toString() of Data class"
+      setPlatforms(JVM, ANDROID)
+      setTags("Data class", "toString")
+    }
+    link {
+      github = "AhmedMourad0/no-copy"
+      desc = "A Kotlin compiler plugin that performs 'copy-erasure' on data classes."
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+      setTags("data-class", "compiler-plugin", "value-based-classes", "binary-compatibility")
     }
   }
   subcategory("Continuous Integration") {
@@ -1139,12 +1177,6 @@ category("Libraries/Frameworks") {
       setTags("logging", "multiplatform")
     }
     link {
-      github = "aafanasev/sekret"
-      desc = "Kotlin compiler plugin to exclude secret properties from toString() of Data class"
-      setPlatforms(JVM, ANDROID)
-      setTags("Data class", "toString")
-    }
-    link {
       github = "Rasalexman/KDispatcher"
       desc = "Simple and light-weight event dispatcher for Kotlin"
     }
@@ -1186,12 +1218,6 @@ category("Libraries/Frameworks") {
       desc = "Easy PDF generation with HTML & CSS using Chromium or Google Chrome"
       setPlatforms(JVM)
       setTags("pdf")
-    }
-    link {
-      github = "AhmedMourad0/no-copy"
-      desc = "A Kotlin compiler plugin that performs 'copy-erasure' on data classes."
-      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
-      setTags("data-class", "compiler-plugin", "value-based-classes", "binary-compatibility")
     }
     link {
       github = "Kotlin/kotlinx-datetime"
