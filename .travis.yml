@@ -19,7 +19,7 @@ script:
   #  - curl https://kotlin.link/api/readme > readme/README.adoc
   - ./gradlew check installDist
   - ./build/install/awesome-kotlin/bin/awesome-kotlin
-  - yarn --cwd app-frontend run pack
+  - yarn --cwd app-frontend run build
   - docker build -t "heapy/awesome:b${TRAVIS_BUILD_NUMBER}" -t "heapy/awesome:latest" ./app-backend/
 
 

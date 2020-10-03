@@ -41,8 +41,9 @@
   },
   "scripts": {
     "prestart": "yarn install",
-    "start": "webpack-dev-server --mode development",
-    "pack": "webpack --mode production -p --env.NODE_ENV production --env.SOURCE_MAP source-map"
+    "prebuild": "yarn install",
+    "start": "webpack-dev-server --mode development --env.NODE_ENV development --env.SOURCE_MAP eval-source-map",
+    "build": "webpack --mode production -p --env.NODE_ENV production --env.SOURCE_MAP source-map"
   },
   "repository": {
     "type": "git",
