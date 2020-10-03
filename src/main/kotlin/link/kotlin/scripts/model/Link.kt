@@ -14,5 +14,5 @@ data class Link(
     val star: Int? = null,
     val update: String? = null,
     val archived: Boolean = false,
-    val unsupported: Boolean? = false,
+    val unsupported: Boolean = false,
 )

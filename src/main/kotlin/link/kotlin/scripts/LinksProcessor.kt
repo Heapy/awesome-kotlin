@@ -27,7 +27,7 @@ private class DefaultLinksProcessor(
     private val httpClient: HttpClient,
     private val linksChecker: LinksChecker
 ) : LinksProcessor {
-    val now: Instant = Instant.now()
+    private val now: Instant = Instant.now()
 
     override suspend fun process(link: Link): Link {
         return when {
