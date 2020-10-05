@@ -152,6 +152,11 @@ category("Links") {
   }
   subcategory("Courses") {
     link {
+      name = "Kotlin Course - Tutorial for Beginners by freeCodeCamp.org"
+      href = "https://youtu.be/F9UC9DY-vIU"
+      desc = "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development."
+    }
+    link {
       name = "Android Kotlin Fundamentals"
       href = "https://codelabs.developers.google.com/android-kotlin-fundamentals"
       desc = "Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin."
