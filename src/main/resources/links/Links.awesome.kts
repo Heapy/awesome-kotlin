@@ -47,7 +47,6 @@ category("Links") {
       name = "Jobs for Kotlin Developers"
       desc = "All job listings require Kotlin skills"
       href = "https://kotlin-jobs.com/"
-      commercial = true
     }
     link {
       name = "Podcast: Talking Kotlin"

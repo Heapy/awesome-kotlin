@@ -57,7 +57,6 @@ class LinkBuilder {
     var name: String? = null
     var href: String? = null
     var desc: String? = null
-    var commercial: Boolean = false
 
     var github: String? = null
     var bitbucket: String? = null
