@@ -13,6 +13,7 @@ export function Category({category}) {
             return (
               <Subcategories
                 key={i}
+                prefix={category.name}
                 subcategory={subcategory}
               />
             );
