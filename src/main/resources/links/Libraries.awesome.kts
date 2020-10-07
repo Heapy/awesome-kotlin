@@ -38,6 +38,12 @@ category("Libraries/Frameworks") {
       setTags("web", "html")
     }
     link {
+      github = "celtric/kotlin-html"
+      desc = "A library to generate HTML in Kotlin."
+      setPlatforms(JVM)
+      setTags("html-generator", "template-engine")
+    }
+    link {
       github = "MarioAriasC/KotlinPrimavera"
       desc = "Spring support libraries for Kotlin."
       setTags("spring")
