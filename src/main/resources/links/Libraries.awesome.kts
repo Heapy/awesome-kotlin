@@ -557,6 +557,12 @@ category("Libraries/Frameworks") {
       setTags("json", "validation", "laravel", "laravel-validation")
     }
     link {
+      github = "deva666/KValidation"
+      desc = "Validation library"
+      setPlatforms(JVM)
+      setTags("validation", "validator")
+    }
+    link {
       github = "Jire/KTON"
       desc = "Object notation in pure Kotlin!"
       setTags("JSON", "XML")
