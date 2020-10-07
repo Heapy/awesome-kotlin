@@ -601,6 +601,12 @@ category("Android") {
       desc = "Unofficial Kotlin Extensions for the Firebase Android SDK."
       setTags("firebase", "kotlin", "firebase-database", "firestore")
     }
+    link {
+      github = "matteocrippa/karamba"
+      desc = "A Swiss army knife of useful extensions for Kotlin"
+      setPlatforms(ANDROID)
+      setTags("extension", "string", "date", "boolean")
+    }
   }
   subcategory("Tools") {
     link {
