@@ -514,6 +514,12 @@ category("Libraries/Frameworks") {
       desc = "An observables framework for Kotlin."
       setTags("observables", "fp", "functional")
     }
+    link {
+      github = "RubyLichtenstein/RxTest"
+      desc = "Kotlin DSL for testing RxJava2"
+      setTags("rxjava2", "kotlin",  "kotlin-android",  "testing", "kotlin-dsl")
+      setPlatforms(JVM)
+    }
   }
   subcategory("JSON") {
     link {
