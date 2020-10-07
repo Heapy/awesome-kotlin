@@ -428,5 +428,11 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("Android", "Dribbble")
     }
+    link {
+      github = "SimonSchubert/LinuxCommandBibliotheca"
+      desc = "Andorid app which provides a bunch of useful Linux commands."
+      setPlatforms(ANDROID)
+      setTags("android", "project")
+    }
   }
 }
