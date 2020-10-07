@@ -434,6 +434,12 @@ category("Libraries/Frameworks") {
       desc = "Repository for learning Kotlin Flow API"
       setTags("kotlin", "kotlin-flow", "learning", "riddles")
     }
+    link {
+      github = "KingFalse/harrier"
+      desc = "Simpler use of multithreading in Kotlin."
+      setTags("Thread", "Coroutines", "Multithreading", "JVM")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Functional Programming") {
     link {
