@@ -1,107 +1,70 @@
 import * as React from "react";
+import {Logo, LOGOS} from "./logos";
 
 const styles = require("./head.less");
+
+interface State {
+  readonly index: number;
+  readonly logos: Logo[];
+}
 
 export class Head extends React.Component<{}, State> {
   constructor(props) {
     super(props);
+
+    const activeLogos = LOGOS.filter(it => it.show())
+    const exclusiveLogo = activeLogos.find(logo => logo.exclusive)
+    let logos: Logo[]
+
+    if (exclusiveLogo) {
+      logos = [exclusiveLogo]
+    } else {
+      logos = activeLogos
+    }
+
     this.state = {
-      counter: 0,
-      logos: logosProvider()
+      index: 0,
+      logos: logos
     };
   }
 
   changeLogo = () => {
-    const {
-      counter,
-      logos
-    } = this.state;
-
-    // Skip if logo linked
-    if (logos[counter].link) {
-      return
+    if (this.state.logos.length <= 1) {
+      return;
     }
 
     this.setState({
-      counter: (counter + 1) % logos.length
+      index: (this.state.index + 1) % this.state.logos.length
     });
   };
 
-  render() {
-    const {
-      counter,
-      logos
-    } = this.state;
+  activeLogo = () => {
+    const logo = this.state.logos[this.state.index];
 
+    if (logo.link) {
+      return (
+        <a href={logo.link} target="_blank">
+          <img src={logo.src}
+               alt={logo.alt()}
+               className={styles.head_logo}/>
+        </a>
+      );
+    } else {
+      return (
+        <img src={logo.src}
+             alt={logo.alt()}
+             className={styles.head_logo}/>
+      );
+    }
+  }
+
+  render() {
     return (
       <section className={styles.head}>
         <div className={styles.head_wrapper} onClick={this.changeLogo}>
-          {getLogo(counter, logos)}
+          {this.activeLogo()}
         </div>
       </section>
     );
   }
-}
-
-interface State {
-  readonly counter: number;
-  readonly logos: Logo[];
-}
-
-interface Logo {
-  readonly src: string;
-  readonly alt: string;
-  readonly show: Predicate;
-  readonly link?: string;
-}
-
-type Predicate = () => boolean;
-
-function getLogo(index: number, logos: Logo[]) {
-  const logo = logos[index];
-
-  if (logo.link) {
-    return (
-      <a href={logo.link} target="_blank">
-        <img src={logo.src}
-             alt={logo.alt}
-             className={styles.head_logo}/>
-      </a>
-    );
-  } else {
-    return (
-      <img src={logo.src}
-           alt={logo.alt}
-           className={styles.head_logo}/>
-    );
-  }
-}
-
-function logosProvider(): Logo[] {
-  return [{
-    src: require("./kotlin-14-event.png"),
-    alt: "Kotlin 1.4 Online Event",
-    show: () => true,
-    link: "https://kotl.in/14event_media?utm_source=awesome_kotlin"
-  }, {
-    src: require("./kotlin-force.svg"),
-    alt: "Kotlin Language Logo",
-    show: () => {
-      const today = new Date();
-      // May, 4
-      return today.getMonth() === 4 && today.getDate() === 4;
-    }
-  }, {
-    src: require("./kotlin-0.svg"),
-    alt: "Kotlin Language Logo",
-    show: () => true
-  }, {
-    src: require("./kotlin-1.svg"),
-    alt: "Kotlin Language Logo",
-    show: () => true
-  }, {
-    src: require("./kotlin-2.png"),
-    alt: "Kotlin Language Logo",
-    show: () => true
-  }].filter(it => it.show());
 }
