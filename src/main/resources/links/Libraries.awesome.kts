@@ -839,6 +839,14 @@ category("Libraries/Frameworks") {
       setTags("http", "http client", "offline", "okhttp")
     }
   }
+  subcategory("Networking") {
+    link {
+      github = "seniorjoinu/reliable-udp"
+      desc = "Multiplexed, coroutine-powered reliable UDP for Kotlin using fountain codes"
+      setPlatforms(JVM)
+      setTags("networking", "reliable transport", "reliable udp", "no-arq", "fec")
+    }
+  }
   subcategory("Editors") {
     link {
       github = "JetBrains/intellij-community"
