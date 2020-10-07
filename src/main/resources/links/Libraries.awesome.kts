@@ -563,12 +563,6 @@ category("Libraries/Frameworks") {
       setTags("json", "validation", "laravel", "laravel-validation")
     }
     link {
-      github = "deva666/KValidation"
-      desc = "Validation library"
-      setPlatforms(JVM)
-      setTags("validation", "validator")
-    }
-    link {
       github = "Jire/KTON"
       desc = "Object notation in pure Kotlin!"
       setTags("JSON", "XML")
@@ -587,6 +581,20 @@ category("Libraries/Frameworks") {
       github = "aafanasev/kson"
       desc = "Auto-generate GSON type adapters for Kotlin data classes"
       setTags("json", "gson", "type adapter", "annotation processing", "kapt")
+    }
+    link {
+      github = "holgerbrandl/jsonbuilder"
+      desc = "A tiny DSL to create json using idiomatic Kotlin"
+      setPlatforms(JVM)
+      setTags("json")
+    }
+  }
+  subcategory("Validation") {
+    link {
+      github = "deva666/KValidation"
+      desc = "Validation library"
+      setPlatforms(JVM)
+      setTags("validation", "validator")
     }
   }
   subcategory("Database") {
