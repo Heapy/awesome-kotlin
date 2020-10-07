@@ -273,6 +273,7 @@ Here is the awesome badge for your project:
 * [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin
 * [phenax/h](https://github.com/phenax/h) - HTML templating library written in Kotlin
 * [bootique/bootique-kotlin](https://github.com/bootique/bootique-kotlin) - Provides extension function and features for smooth development with Bootique and Kotlin.
+* [celtric/kotlin-html](https://github.com/celtric/kotlin-html) - A library to generate HTML in Kotlin.
 * [sepatel/tekniq](https://github.com/sepatel/tekniq) - Full-feature HTTP DSL Framework, HTTP Client, JDBC DSL, Loading Cache and Configuration
 * [spypunk/sponge](https://github.com/spypunk/sponge) - A website crawler and links downloader command line tool written in Kotlin
 * [danneu/kog](https://github.com/danneu/kog) - A web framework focused on simplicity, middleware, and functional composition
@@ -371,6 +372,7 @@ Here is the awesome badge for your project:
 * [arrow-kt/arrow-meta](https://github.com/arrow-kt/arrow-meta) - Functional companion to Kotlin's Compiler.
 * [pardom/redux-kotlin](https://github.com/pardom/redux-kotlin) - Direct port of Redux for Kotlin.
 * [michaelbull/kotlin-result](https://github.com/michaelbull/kotlin-result) - A Result monad for modelling success or failure operations - inspired by Elm, Rust, &amp; Haskell.
+* [RubyLichtenstein/RxTest](https://github.com/RubyLichtenstein/RxTest) - Kotlin DSL for testing RxJava2
 * [brianegan/bansa](https://github.com/brianegan/bansa) - A state container for Kotlin &amp; Java, inspired by Elm &amp; Redux.
 * [kittinunf/Result](https://github.com/kittinunf/Result) - The modelling for success/failure of operations in Kotlin.
 * [reactor/reactor-core](https://github.com/reactor/reactor-core) - Non-Blocking Reactive Streams Foundation for the JVM. Natively supports Kotlin, since 3.1.0.M3.
@@ -381,6 +383,7 @@ Here is the awesome badge for your project:
 * [marifeta/kvalidator](https://github.com/marifeta/kvalidator) - Kotlin validator (compatible with laravel validation rules) for json kotlinx.serialization!
 * [Shengaero/kotlin-json](https://github.com/Shengaero/kotlin-json) - A lightweight, stylistic, optimized, and multiplatform JSON library for Kotlin-JVM and Kotlin-JS
 * [fboldog/ext4klaxon](https://github.com/fboldog/ext4klaxon) - Type Extensions (Long, Int, Enum, Date) for Klaxon.
+* [deva666/KValidation](https://github.com/deva666/KValidation) - Validation library
 * [fluidsonic/fluid-json](https://github.com/fluidsonic/fluid-json) - A JSON library written in pure Kotlin.
 * [s4kibs4mi/kotlin-jsonq](https://github.com/s4kibs4mi/kotlin-jsonq) - A simple Kotlin library to Query over Json Data.
 * [Jire/KTON](https://github.com/Jire/KTON) - Object notation in pure Kotlin!
@@ -718,9 +721,11 @@ Here is the awesome badge for your project:
 * [LouisCAD/kotlin-libraries-playground](https://github.com/LouisCAD/kotlin-libraries-playground) - A playground to gain a wider and deeper knowledge of the libraries in the Kotlin ecosystem. Also the official sample for gradle refreshVersions.
 
 ### <a name="projects-android"></a>Android <sup>[Back ⇈](#projects-android-subcategory)</sup>
+* [deva666/NewsReader](https://github.com/deva666/NewsReader) - Android app for reading news
 * [skydoves/githubfollows](https://github.com/skydoves/githubfollows) - A demo project based on MVVM architecture and material design &amp; animations.
 * [skydoves/themovies](https://github.com/skydoves/themovies) - A simple project for The Movie DB based on Kotlin MVVM clean architecture and material design &amp; animations.
 * [enricocid/Music-Player-GO](https://play.google.com/store/apps/details?id=com.iven.musicplayergo) - Simple yet fully-featured local music player aiming at simplicity and performance.
+* [TonnyL/Mango](https://github.com/TonnyL/Mango) - An Android app for dribbble.com
 
 
 ## <a name="android"></a>Android <sup>[Back ⇈](#android-category)</sup>
@@ -743,6 +748,7 @@ Here is the awesome badge for your project:
 * [andre-artus/AnvilKotlin](https://github.com/andre-artus/AnvilKotlin) - Minimal UI library for Android inspired by React.
 * [adrielcafe/AndroidCoroutineScopes](https://github.com/adrielcafe/AndroidCoroutineScopes) - This lib implements the most common CoroutineScopes used in Android apps.
 * [yundom/kache](https://github.com/yundom/kache) - A lightweight cache library written in Kotlin.
+* [matteocrippa/Parrot](https://github.com/matteocrippa/Parrot) - A lightweight library to load remote image and handle caching in ImageView.
 * [mathcamp/fiberglass](https://github.com/mathcamp/fiberglass) - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
 * [inaka/KillerTask](https://github.com/inaka/KillerTask) - Android AsyncTask wrapper library, written in Kotlin
 * [rakshakhegde/ObservableFlow](https://github.com/rakshakhegde/ObservableFlow) - Functional Constructs for Databinding + Kotlin + RxJava
@@ -848,6 +854,7 @@ Here is the awesome badge for your project:
 * [inorichi/tachiyomi](https://github.com/inorichi/tachiyomi) - Free and open source manga reader for Android.
 
 ### <a name="android-extensions"></a>Extensions <sup>[Back ⇈](#android-extensions-subcategory)</sup>
+* [matteocrippa/karamba](https://github.com/matteocrippa/karamba) - A Swiss army knife of useful extensions for Kotlin
 * [ajalt/timberkt](https://github.com/ajalt/timberkt) - Easy Android logging with Kotlin and Timber.
 
 ### <a name="android-tools"></a>Tools <sup>[Back ⇈](#android-tools-subcategory)</sup>
