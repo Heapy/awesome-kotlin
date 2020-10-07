@@ -1575,5 +1575,12 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, JVM, COMMON, IOS, NATIVE, JS)
       setTags("io", "multiplatform")
     }
+    link {
+      github = "rsocket/rsocket-kotlin"
+      href = "https://rsocket.io"
+      desc = "Kotlin implementation of RSocket."
+      setPlatforms(JVM, JS)
+      setTags("rsocket", "rx", "reactive-streams")
+    }
   }
 }
