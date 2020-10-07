@@ -331,6 +331,12 @@ category("Android") {
       desc = "A simple shell for executing Linux commands with responses"
       setTags("system")
     }
+    link {
+      github = "mr-wizman/Consent"
+      desc = "Easy Android permissions. Powered by Kotlin."
+      setPlatforms(ANDROID)
+      setTags("permissions")
+    }
   }
   subcategory("Frameworks") {
     link {
