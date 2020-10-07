@@ -314,6 +314,11 @@ category("Projects") {
       github = "LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android"
       desc = "Learn Kotlin Coroutines for Android by example. Sample implementations for real-world Android use cases. Unit tests included."
     }
+    link {
+      github = "rozkminiacz/KotlinUnitTesting"
+      desc = "Kotlin Unit Testing Examples."
+      setTags("unit-test", "junit4", "junit5", "kotlintest", "spek", "mockito", "mockk", "strikt")
+    }
   }
   subcategory("Idea Plugins") {
     link {
