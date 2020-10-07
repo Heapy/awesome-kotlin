@@ -435,10 +435,16 @@ category("Projects") {
       setTags("android", "project")
     }
     link {
-      name = "SimonSchubert/NewsOut"
+      github = "SimonSchubert/NewsOut"
       desc = "Android and iOS mobile client for Nextcloud News app"
       setPlatforms(ANDROID, IOS, COMMON)
       setTags("multiplatform", "android", "ios", "project")
+    }
+    link {
+      github = "pranayairan/CoinBit"
+      desc = "CoinBit is completely free Bitcoin & cryptocurrency portfolio tracker app. It helps you over 4000+ cryptocurrencies on 150+ platforms including Binance, GDAX, Kraken etc"
+      setPlatforms(ANDROID)
+      setTags("cryptocurrency", "kotlin", "android", "app")
     }
   }
 }
