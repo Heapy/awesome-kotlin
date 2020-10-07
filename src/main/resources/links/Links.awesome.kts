@@ -121,6 +121,11 @@ category("Links") {
       name = "Kotlin syntax cheat sheet"
       href = "https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a"
     }
+    link {
+      name = "Kotlin Standard Functions cheat-sheet "
+      desc = "Learn how to use kotlin's standard library with lambda functions"
+      href = "https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326"
+    }
   }
   subcategory("Blogs") {
     link {
