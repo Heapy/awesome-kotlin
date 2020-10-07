@@ -337,6 +337,12 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("permissions")
     }
+    link {
+      github = "matteocrippa/Parrot"
+      desc = "A lightweight library to load remote image and handle caching in ImageView."
+      setPlatforms(ANDROID)
+      setTags("image", "download")
+    }
   }
   subcategory("Frameworks") {
     link {
