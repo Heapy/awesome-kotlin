@@ -409,5 +409,11 @@ category("Projects") {
       desc = "A demo project based on MVVM architecture and material design & animations."
       setTags("mvvm", "material-design", "material-animations", "dagger2", "room-persistence", "preferenceroom", "github-api", "retrofit", "repository-pattern")
     }
+    link {
+      github = "enricocid/Music-Player-GO"
+      href = "https://play.google.com/store/apps/details?id=com.iven.musicplayergo"
+      desc = "Simple yet fully-featured local music player aiming at simplicity and performance."
+      setTags("music-player", "material-design", "media-player")
+    }
   }
 }
