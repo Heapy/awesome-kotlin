@@ -1271,6 +1271,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "mvu", "coroutines")
       setPlatforms(COMMON, IOS, JVM, NATIVE)
     }
+    link {
+      github = "mobiletoly/urlsome"
+      desc = "URL builder library for Kotlin"
+      setTags("URL", "builder", "http")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Parsers") {
     link {
