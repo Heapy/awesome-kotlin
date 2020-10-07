@@ -430,9 +430,15 @@ category("Projects") {
     }
     link {
       github = "SimonSchubert/LinuxCommandBibliotheca"
-      desc = "Andorid app which provides a bunch of useful Linux commands."
+      desc = "Android app which provides a bunch of useful Linux commands."
       setPlatforms(ANDROID)
       setTags("android", "project")
+    }
+    link {
+      name = "SimonSchubert/NewsOut"
+      desc = "Android and iOS mobile client for Nextcloud News app"
+      setPlatforms(ANDROID, IOS, COMMON)
+      setTags("multiplatform", "android", "ios", "project")
     }
   }
 }
