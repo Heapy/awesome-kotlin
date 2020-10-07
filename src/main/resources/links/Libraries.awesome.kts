@@ -180,7 +180,6 @@ category("Libraries/Frameworks") {
       desc = "Typesafe GraphQL client for the JVM and Kotlin native"
       setTags("web", "graphql")
     }
-
   }
   subcategory("Testing") {
     link {
@@ -1566,6 +1565,12 @@ category("Libraries/Frameworks") {
     link {
       github = "cdietze/euklid"
       setPlatforms(COMMON, JS, JVM)
+    }
+    link {
+      github = "lamba92/KGraph"
+      desc = "A Kotlin multi-platform library for graph data structures"
+      setTags("data-science")
+      setPlatforms(JVM, JS, COMMON, NATIVE)
     }
   }
   subcategory("Command Line Interface") {
