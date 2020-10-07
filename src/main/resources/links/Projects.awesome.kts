@@ -413,7 +413,14 @@ category("Projects") {
       github = "enricocid/Music-Player-GO"
       href = "https://play.google.com/store/apps/details?id=com.iven.musicplayergo"
       desc = "Simple yet fully-featured local music player aiming at simplicity and performance."
+      setPlatforms(ANDROID)
       setTags("music-player", "material-design", "media-player")
+    }
+    link {
+      github = "deva666/NewsReader"
+      desc = "Android app for reading news"
+      setPlatforms(ANDROID)
+      setTags("android", "coroutines", "rxJava")
     }
   }
 }
