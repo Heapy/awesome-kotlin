@@ -422,5 +422,11 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("android", "coroutines", "rxJava")
     }
+    link {
+      github = "TonnyL/Mango"
+      desc = "An Android app for dribbble.com"
+      setPlatforms(ANDROID)
+      setTags("Android", "Dribbble")
+    }
   }
 }
