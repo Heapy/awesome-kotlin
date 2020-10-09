@@ -741,6 +741,12 @@ category("Libraries/Frameworks") {
       github = "TouK/krush"
       desc = "Idiomatic persistence layer for Kotlin, based on Exposed. It’s based on a compile-time JPA annotation processor that generates Exposed DSL table and objects mappings from your data classes."
     }
+    link {
+      github = "coupang/spring-data-requery"
+      desc = "Spring Data for Requery (lightweight ORM)"
+      setTags("spring", "spring-data", "requery", "java", "kotlin", "kotlin-coroutines", "orm", "jpa")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
