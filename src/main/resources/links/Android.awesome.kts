@@ -660,5 +660,11 @@ category("Android") {
       setTags("cleanarchitecture", "android", "boilerplate", "architecturecomponents")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "bufferapp/android-clean-architecture-boilerplate"
+      desc = "A clean architecture boilerplate for android written in Kotlin"
+      setTags("cleanarchitecture", "android", "boilerplate")
+      setPlatforms(ANDROID)
+    }
   }
 }
