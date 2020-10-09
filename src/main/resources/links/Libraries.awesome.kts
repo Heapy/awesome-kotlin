@@ -537,7 +537,7 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
     }
   }
-  subcategory("JSON") {
+  subcategory("Serialization") {
     link {
       github = "Kotlin/kotlinx.serialization"
       desc = "Kotlin multiplatform / multi-format reflectionless serialization"
@@ -600,6 +600,12 @@ category("Libraries/Frameworks") {
       desc = "A tiny DSL to create json using idiomatic Kotlin"
       setPlatforms(JVM)
       setTags("json")
+    }
+    link {
+      github = "qwertukg/xml-builder"
+      desc = "Simplest XML builder for Kotlin"
+      setTags("xml", "builder", "dsl")
+      setPlatforms(JVM)
     }
   }
   subcategory("Validation") {
