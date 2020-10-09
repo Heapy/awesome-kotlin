@@ -343,6 +343,12 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("image", "download")
     }
+    link {
+      github = "deva666/peko"
+      desc = "Android library for requesting runtime permissions with Kotlin Coroutines"
+      setTags("permissions", "coroutines", "android", "library")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
