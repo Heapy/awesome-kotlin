@@ -2,6 +2,9 @@ package link.kotlin.scripts.model
 
 import link.kotlin.scripts.dsl.PlatformType
 
+/**
+ * Internal representation
+ */
 data class Link(
     val name: String? = null,
     val github: String? = null,
@@ -15,4 +18,5 @@ data class Link(
     val update: String? = null,
     val archived: Boolean = false,
     val unsupported: Boolean = false,
+    val awesome: Boolean = false
 )

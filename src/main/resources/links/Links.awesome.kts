@@ -3,10 +3,12 @@ category("Links") {
     link {
       github = "JetBrains/kotlin"
       setTags("kotlin")
+      awesome()
     }
     link {
       name = "Home Page"
       href = "https://kotlinlang.org/"
+      awesome()
     }
     link {
       name = "Language Reference"
@@ -15,6 +17,7 @@ category("Links") {
     link {
       name = "Slack (32k+ users)"
       href = "https://slack.kotlinlang.org/"
+      awesome()
     }
     link {
       name = "Try Kotlin!"
@@ -52,6 +55,7 @@ category("Links") {
       name = "Podcast: Talking Kotlin"
       desc = "A Podcast on Kotlin and more"
       href = "https://talkingkotlin.com/"
+      awesome()
     }
     link {
       name = "Kotlin Subreddit"
@@ -91,16 +95,6 @@ category("Links") {
       name = "Kotlin Guide"
       desc = "An introduction to Kotlin"
       href = "https://kotlin.guide"
-    }
-    link {
-      name = "Jetbrain's Hyperskill Academy"
-      desc = "An interactive learning platform for Kotlin and other languages"
-      href = "https://hyperskill.org/onboarding/tracks/3"
-    }
-    link {
-      name = "Google's Kotlin Codelab "
-      desc = "Build your first Kotlin Android App"
-      href = "https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/"
     }
     link {
       name = "Kotlin Quiz"
@@ -156,14 +150,22 @@ category("Links") {
   }
   subcategory("Courses") {
     link {
-      name = "Kotlin Course - Tutorial for Beginners by freeCodeCamp.org"
-      href = "https://youtu.be/F9UC9DY-vIU"
-      desc = "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development."
+      name = "Jetbrain's Hyperskill Academy"
+      desc = "An interactive learning platform for Kotlin and other languages"
+      href = "https://hyperskill.org/onboarding/tracks/3"
+      awesome()
+    }
+    link {
+      name = "Google's Kotlin Codelab "
+      desc = "Build your first Kotlin Android App"
+      href = "https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/"
+      awesome()
     }
     link {
       name = "Android Kotlin Fundamentals"
       href = "https://codelabs.developers.google.com/android-kotlin-fundamentals"
       desc = "Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin."
+      awesome()
     }
     link {
       name = "Kotlin for Java Developers"
@@ -179,11 +181,13 @@ category("Links") {
       name = "Introduction to Kotlin Programming by Hadi Hariri"
       desc = "From Hello World to Interoperability with Java"
       href = "https://shop.oreilly.com/product/0636920052982.do"
+      awesome()
     }
     link {
       name = "Advanced Kotlin Programming"
       desc = "From Nested Functions to Asynchronous Programming"
       href = "https://shop.oreilly.com/product/0636920052999.do"
+      awesome()
     }
     link {
       name = "Kotlin an Introduction - Caster.io"
@@ -214,6 +218,7 @@ category("Links") {
       name = "Kotlin for Java Developers - JetBrains"
       desc = "Detailed Kotlin introductory course for Java developers"
       href = "https://www.coursera.org/learn/kotlin-for-java-developers"
+      awesome()
     }
     link {
       name = "Kotlin Online Courses at Classpert"
@@ -225,15 +230,22 @@ category("Links") {
       desc = "Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!"
       href = "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"
     }
+    link {
+      name = "Kotlin Course - Tutorial for Beginners by freeCodeCamp.org"
+      href = "https://youtu.be/F9UC9DY-vIU"
+      desc = "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development."
+    }
   }
   subcategory("Books") {
     link {
       name = "Kotlin in Action - Dmitry Jemerov, Svetlana Isakova"
       href = "https://manning.com/books/kotlin-in-action"
+      awesome()
     }
     link {
       name = "Kotlin for Android Developers - Antonio Leiva"
       href = "https://leanpub.com/kotlin-for-android-developers"
+      awesome()
     }
     link {
       name = "Functional Programming in Kotlin - Marco Vermeulen, Rúnar Bjarnason, and Paul Chiusano"
@@ -297,6 +309,7 @@ category("Links") {
       name = "Head First Kotlin"
       desc = "Head First Kotlin is a complete introduction to coding in Kotlin"
       href = "https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/"
+      awesome()
     }
   }
 }

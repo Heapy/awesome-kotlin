@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Link} from "../../model";
+import {Link, LinkState} from "../../model";
 import {classes} from "typestyle";
 
 const styles = require("./listitem.less");
@@ -10,7 +10,10 @@ function split(str: string): string {
 
 export function Listitem({link}: ListitemProps) {
   return (
-    <li className={classes(styles.listitem, {[styles.listitem_archived]: link.archived, [styles.listitem_unsupported]: link.unsupported})}>
+    <li className={classes(styles.listitem, {
+      [styles.listitem_archived]: link.state === LinkState.ARCHIVED,
+      [styles.listitem_unsupported]: link.state === LinkState.UNSUPPORTED
+    })}>
 
       {getStars(link)}
 
@@ -35,12 +38,14 @@ interface ListitemProps {
 }
 
 function getTitle(link: Link): string {
-  if (link.archived) {
-    return `[archived] ${link.name}`
-  } else if (link.unsupported) {
-    return `[unsupported] ${link.name}`
+  if (link.state === LinkState.AWESOME) {
+    return `[awesome] ${link.name}`;
+  } else if (link.state === LinkState.UNSUPPORTED) {
+    return `[unsupported] ${link.name}`;
+  } else if (link.state === LinkState.ARCHIVED) {
+    return `[archived] ${link.name}`;
   } else {
-    return link.name
+    return link.name;
   }
 }
 

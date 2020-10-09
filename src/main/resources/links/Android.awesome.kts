@@ -625,6 +625,8 @@ category("Android") {
       github = "agoda-com/Kakao"
       desc = " Nice and simple DSL for Espresso in Kotlin."
       setTags("espresso", "dsl")
+      setPlatforms(ANDROID)
+      awesome()
     }
   }
   subcategory("Multiplatform") {

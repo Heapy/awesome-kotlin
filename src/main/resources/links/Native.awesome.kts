@@ -4,6 +4,7 @@ category("Kotlin Native") {
       github = "JetBrains/kotlin-native"
       desc = "Kotlin/Native is a LLVM backend for the Kotlin compiler, runtime implementation and native code generation facility using LLVM toolchain."
       setTags("native", "macos", "linux", "llvm")
+      awesome()
     }
     link {
       github = "perses-games/konan-sfml"
@@ -24,10 +25,6 @@ category("Kotlin Native") {
     link {
       github = "msink/kotlin-libui"
       setTags("native", "GUI", "C", "portable", "desktop", "libui")
-    }
-    link {
-      github = "dbaelz/Konclik"
-      setTags("native", "CLI")
     }
   }
 }

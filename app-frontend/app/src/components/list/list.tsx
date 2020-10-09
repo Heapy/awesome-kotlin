@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Listitem} from "../listitem/listitem";
-import {Link, Subcategory} from "../../model";
+import {Link, LinkState, Subcategory} from "../../model";
 
 const styles = require("./list.less");
 
@@ -14,9 +14,10 @@ export class Subcategories extends React.Component<SubcategoriesProps, Subcatego
           <a href={`#${getAnchor(this.props.prefix, subcategory.name)}`}>{subcategory.name}</a>
         </h3>
         <ul className={styles.list_list}>
-          {renderLinks(subcategory.links.filter(link => !link.archived && !link.unsupported))}
-          {renderLinks(subcategory.links.filter(link => link.unsupported))}
-          {renderLinks(subcategory.links.filter(link => link.archived && !link.unsupported))}
+          {renderLinks(subcategory.links.filter(link => link.state === LinkState.AWESOME))}
+          {renderLinks(subcategory.links.filter(link => link.state === LinkState.DEFAULT))}
+          {renderLinks(subcategory.links.filter(link => link.state === LinkState.ARCHIVED))}
+          {renderLinks(subcategory.links.filter(link => link.state === LinkState.UNSUPPORTED))}
         </ul>
       </section>
     );

@@ -1,7 +1,7 @@
 import * as React from "react";
 import LinksPageComponent from "../../components/page_wrapper/page_wrapper";
-import {LinksData} from "../../links";
+import {all, awesome} from "../../links";
 
 export default function Home() {
-  return <LinksPageComponent data={LinksData()}/>
+  return <LinksPageComponent displayLinks={awesome} searchLinks={all}/>
 }

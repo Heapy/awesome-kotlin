@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import kotlinx.coroutines.runBlocking
 import link.kotlin.scripts.dsl.Article
 import link.kotlin.scripts.dsl.Category
+import link.kotlin.scripts.model.toDto
 import link.kotlin.scripts.utils.callLogger
 import link.kotlin.scripts.utils.copyResources
 import link.kotlin.scripts.utils.writeFile
@@ -34,7 +35,7 @@ private class DefaultSiteGenerator(
 
     override fun createDistFolders() {
         // Output folder
-        if (Files.notExists(Paths.get("$dist"))) Files.createDirectory(Paths.get("$dist"))
+        if (Files.notExists(Paths.get(dist))) Files.createDirectory(Paths.get(dist))
         if (Files.notExists(Paths.get("$dist/articles"))) Files.createDirectory(Paths.get("$dist/articles"))
     }
 
@@ -49,10 +50,8 @@ private class DefaultSiteGenerator(
     }
 
     override fun generateLinksJson(links: List<Category>) {
-        writeFile(
-            "$base/app/links.json",
-            mapper.writeValueAsString(links.map { category -> category.copy(subcategories = category.subcategories.sortedByDescending { it.links.size }.toMutableList()) })
-        )
+        val dtos = links.map { category -> category.toDto() }
+        writeFile("$base/app/links.json", mapper.writeValueAsString(dtos))
     }
 
     override fun generateKotlinVersionsJson() = runBlocking {

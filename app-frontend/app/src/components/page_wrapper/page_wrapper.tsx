@@ -72,7 +72,7 @@ function filterData(categories: Links, value) {
 class LinksPageComponent extends React.Component<PageProps, PageState> {
   constructor(props) {
     super(props);
-    this.state = {data: props.data};
+    this.state = {data: props.displayLinks};
   }
 
   onSearchValueChanged = (value: any): void => {
@@ -81,9 +81,9 @@ class LinksPageComponent extends React.Component<PageProps, PageState> {
     });
 
     if (value) {
-      this.setState({data: filterData(this.props.data, value)});
+      this.setState({data: filterData(this.props.searchLinks, value)});
     } else {
-      this.setState({data: this.props.data});
+      this.setState({data: this.props.displayLinks});
     }
   };
 
@@ -93,7 +93,8 @@ class LinksPageComponent extends React.Component<PageProps, PageState> {
         <a href="https://github.com/KotlinBy/awesome-kotlin">
           <img className={styles.page_github_link}
                src={require("./fork-me.svg")}
-               alt="Fork me on GitHub"/></a>
+               alt="Fork me on GitHub"/>
+        </a>
 
         <Navigation/>
 
@@ -112,9 +113,10 @@ class LinksPageComponent extends React.Component<PageProps, PageState> {
 }
 
 interface PageProps {
-  history: any;
-  match: any;
-  data: Links;
+  readonly history: any;
+  readonly match: any;
+  readonly displayLinks: Links;
+  readonly searchLinks: Links;
 }
 
 interface PageState {

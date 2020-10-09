@@ -37,7 +37,8 @@ export function Navigation(props: Props) {
   return (
     <section className={bar}>
       <div className={wrapper}>
-        <NavLink activeClassName="active" exact={true} className="link" to="/">Home</NavLink>
+        <NavLink activeClassName="active" exact={true} className="link" to="/">Awesome</NavLink>
+        <NavLink activeClassName="active" exact={true} className="link" to="/resources">Resources</NavLink>
         <NavLink activeClassName="active" exact={true} className="link" to="/kugs">Kotlin User Groups</NavLink>
       </div>
     </section>

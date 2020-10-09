@@ -24,6 +24,7 @@ category("Kotlin JavaScript") {
       github = "Kotlin/kotlin-fullstack-sample"
       desc = "Kotlin Full-stack Application Example."
       setTags("fullstack", "javascript", "web", "ktor")
+      awesome()
     }
     link {
       github = "danfma/kodando"
@@ -83,6 +84,7 @@ category("Kotlin JavaScript") {
       github = "Kotlin/kotlin-frontend-plugin"
       desc = "Gradle Kotlin plugin for frontend development."
       setTags("webpack", "npm", "gradle", "karma", "javascript")
+      awesome()
     }
     link {
       github = "huston007/kotlin-loader"
@@ -94,7 +96,15 @@ category("Kotlin JavaScript") {
     link {
       github = "kotlin/ts2kt"
       desc = "Converter of TypeScript definition files to Kotlin declarations (stubs)."
+      setPlatforms(JS)
       setTags("javascript", "typescript")
+    }
+    link {
+      github = "Kotlin/dukat"
+      desc = "Converter of <any kind of declarations> to Kotlin external declarations"
+      setTags("javascript", "typescript")
+      setPlatforms(JS)
+      awesome()
     }
   }
 }

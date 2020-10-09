@@ -6,6 +6,7 @@ category("Libraries/Frameworks") {
       desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
       setPlatforms(JVM, ANDROID, NATIVE, IOS)
       setTags("web")
+      awesome()
     }
     link {
       github = "darkredz/zeko-restapi-framework"
@@ -21,6 +22,7 @@ category("Libraries/Frameworks") {
       desc = "Toolkit for serving and consuming HTTP services in a functional and consistent way."
       href = "https://www.http4k.org"
       setTags("web", "http", "http client", "jetty", "netty", "undertow")
+      awesome()
     }
     link {
       github = "jean79/yested"
@@ -36,6 +38,7 @@ category("Libraries/Frameworks") {
       github = "Kotlin/kotlinx.html"
       desc = "Kotlin DSL for HTML."
       setTags("web", "html")
+      awesome()
     }
     link {
       github = "celtric/kotlin-html"
@@ -137,6 +140,7 @@ category("Libraries/Frameworks") {
       github = "bootique/bootique-kotlin"
       desc = "Provides extension function and features for smooth development with Bootique and Kotlin."
       setTags("kotlin", "web-framework", "undertow", "jetty")
+      setPlatforms(JVM)
     }
     link {
       github = "SeunAdelekan/Kanary"
@@ -164,6 +168,7 @@ category("Libraries/Frameworks") {
       github = "jetbrains/kotless"
       desc = "Kotlin serverless framework reducing the routine of serverless deployment."
       setTags("web", "microservice", "serverless")
+      awesome()
     }
     link {
       github = "jwstegemann/fritz2"
@@ -186,6 +191,7 @@ category("Libraries/Frameworks") {
       github = "JetBrains/spek"
       desc = "A specification framework for Kotlin."
       setTags("test", "assert", "bdd")
+      awesome()
     }
     link {
       github = "npryce/hamkrest"
@@ -196,6 +202,7 @@ category("Libraries/Frameworks") {
       github = "nhaarman/mockito-kotlin"
       desc = "Using Mockito with Kotlin."
       setTags("test", "mock")
+      awesome()
     }
     link {
       github = "robstoll/atrium"
@@ -246,6 +253,7 @@ category("Libraries/Frameworks") {
       github = "mockk/mockk"
       desc = "Pure Kotlin mocking library."
       setTags("test", "mock")
+      awesome()
     }
     link {
       github = "mvysny/DynaTest"
@@ -354,6 +362,7 @@ category("Libraries/Frameworks") {
       github = "Kodein-Framework/Kodein-DI"
       desc = "Painless Kotlin Dependency Injection."
       setTags("di", "dependency injection")
+      awesome()
     }
     link {
       github = "kailan/kodeinject"
@@ -379,6 +388,7 @@ category("Libraries/Frameworks") {
       github = "Ekito/koin"
       desc = "A functional Kotlin dependency injection framework for Android and JVM."
       setTags("android", "dependency-injection", "injection", "functional")
+      awesome()
     }
     link {
       github = "Rasalexman/KODI"
@@ -399,6 +409,7 @@ category("Libraries/Frameworks") {
       github = "Kotlin/kotlinx.coroutines"
       desc = "Libraries built upon Kotlin coroutines."
       setTags("async", "await", "yield", "generator")
+      awesome()
     }
     link {
       github = "soywiz/korio"
@@ -530,6 +541,7 @@ category("Libraries/Frameworks") {
     link {
       github = "Kotlin/kotlinx.serialization"
       desc = "Kotlin multiplatform / multi-format reflectionless serialization"
+      awesome()
     }
     link {
       github = "cbeust/klaxon"
@@ -545,6 +557,8 @@ category("Libraries/Frameworks") {
       github = "FasterXML/jackson-module-kotlin"
       desc = "Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes."
       setTags("json", "jakson")
+      setPlatforms(JVM)
+      awesome()
     }
     link {
       github = "Shengaero/kotlin-json"
@@ -601,6 +615,14 @@ category("Libraries/Frameworks") {
       github = "JetBrains/Exposed"
       desc = "Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language."
       setTags("database", "query", "schema", "dao")
+      awesome()
+    }
+    link {
+      github = "JetBrains/xodus"
+      desc = "Transactional schema-less embedded database used by JetBrains YouTrack and JetBrains Hub."
+      setTags("embedded-database", "java", "kotlin", "key-value", "entity-store", "transactional", "log-structured", "schema-less", "snapshot-isolation", "nosql", "xodus", "db", "database", "youtrack")
+      setPlatforms(JVM)
+      awesome()
     }
     link {
       github = "ebean-orm/ebean"
@@ -615,6 +637,7 @@ category("Libraries/Frameworks") {
     link {
       github = "jankotek/mapdb"
       desc = "MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine."
+      setPlatforms(JVM)
     }
     link {
       github = "darkredz/Zeko-SQL-Builder"
@@ -634,6 +657,7 @@ category("Libraries/Frameworks") {
       github = "square/sqldelight"
       desc = "Generates Java models from CREATE TABLE statements."
       setTags("database", "sql", "type-safe builder")
+      awesome()
     }
     link {
       github = "x2bool/kuery"
@@ -721,6 +745,7 @@ category("Libraries/Frameworks") {
     link {
       github = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
+      awesome()
     }
     link {
       github = "Vorlonsoft/EasyDokkaPlugin"
@@ -744,6 +769,7 @@ category("Libraries/Frameworks") {
       github = "pinterest/ktlint"
       desc = "An anti-bikeshedding Kotlin linter with built-in formatter."
       setTags("style", "linter")
+      awesome()
     }
     link {
       github = "jtransc/jtransc"
@@ -754,6 +780,7 @@ category("Libraries/Frameworks") {
       github = "detekt/detekt"
       desc = "Static code analysis for Kotlin."
       setTags("check style", "checkstyle")
+      awesome()
     }
     link {
       github = "mkohm/detekt-hint"
@@ -773,12 +800,13 @@ category("Libraries/Frameworks") {
       github = "jmfayard/buildSrcVersions"
       desc = "Better Gradle dependencies management inside the IDE. Search for available updates."
       setTags("gradle", "plugin", "build", "development", "libraries", "versions")
+      awesome()
     }
   }
   subcategory("Compiler Plugins") {
     link {
       github = "google/ksp"
-      desc = " Kotlin Symbol Processing API"
+      desc = "Kotlin Symbol Processing API"
       setPlatforms(JVM)
     }
     link {
@@ -859,6 +887,7 @@ category("Libraries/Frameworks") {
       github = "JetBrains/intellij-community"
       desc = "IntelliJ IDEA Community Edition"
       setTags("editor", "ide", "language")
+      awesome()
     }
     link {
       github = "alexmt/atom-kotlin-language"
@@ -1114,6 +1143,7 @@ category("Libraries/Frameworks") {
       github = "Kotlin/kotlinx.atomicfu"
       desc = "The idiomatic way to use atomic operations in Kotlin."
       setTags("atomic")
+      awesome()
     }
     link {
       github = "vjames19/kotlin-futures"
@@ -1262,6 +1292,7 @@ category("Libraries/Frameworks") {
       github = "Kotlin/kotlinx-datetime"
       desc = "A multiplatform Kotlin library for working with date and time."
       setTags("multiplatform", "date", "time")
+      awesome()
     }
     link {
       github = "oolong-kt/oolong"
@@ -1363,6 +1394,8 @@ category("Libraries/Frameworks") {
       github = "config4k/config4k"
       desc = "A Kotlin wrapper for Typesafe Config"
       setTags("configuration")
+      setPlatforms(JVM)
+      awesome()
     }
     link {
       github = "jdiazcano/cfg4k"
@@ -1508,25 +1541,30 @@ category("Libraries/Frameworks") {
       name = "Kotlin for Data Science"
       desc = "Kotlin for Data Science overview page"
       href = "https://kotlinlang.org/docs/reference/data-science-overview.html"
+      awesome()
     }
     link {
       github = "JetBrains/lets-plot-kotlin"
       desc = "Grammar of graphics visualization for Kotlin"
+      awesome()
     }
     link {
       github = "Kotlin/kotlin-jupyter"
       desc = "Official Kotlin Jupyter kernel"
       setTags("data science", "juputer", "repl")
+      awesome()
     }
     link {
       github = "thomasnield/kotlin-statistics"
       desc = "Advanced math and statistical extensions for Kotlin."
       setTags("data science", "extensions")
+      awesome()
     }
     link {
       github = "holgerbrandl/krangl"
       desc = "krangl is a {K}otlin library for data w{rangl}ing."
       setTags("data science", "data wrangling")
+      awesome()
     }
     link {
       github = "kyonifer/koma"
@@ -1536,6 +1574,7 @@ category("Libraries/Frameworks") {
     link {
       github = "mipt-npm/kmath"
       desc = "A (not so numpy-like) multiplatform mathematical library with higher level abstractions."
+      awesome()
     }
     link {
       github = "MarcinMoskala/KotlinDiscreteMathToolkit"
@@ -1611,6 +1650,11 @@ category("Libraries/Frameworks") {
       href = "https://github.com/fork-handles/forkhandles/tree/trunk/bunting4k"
       setTags("cli", "command", "argument", "flag", "option", "parser")
     }
+    link {
+      github = "dbaelz/Konclik"
+      setTags("native", "CLI")
+      setPlatforms(JVM, JS, NATIVE, COMMON)
+    }
   }
   subcategory("Browsers") {
     link {
@@ -1625,6 +1669,7 @@ category("Libraries/Frameworks") {
       desc = "A modern I/O library for Android, Kotlin, and Java."
       setPlatforms(ANDROID, JVM, COMMON, IOS, NATIVE, JS)
       setTags("io", "multiplatform")
+      awesome()
     }
     link {
       github = "rsocket/rsocket-kotlin"

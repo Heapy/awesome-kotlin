@@ -62,12 +62,20 @@ class LinkBuilder {
     var bitbucket: String? = null
     var kug: String? = null
 
+    private var awesome: Boolean = false
+    @LinkDSL
+    fun awesome() {
+        this.awesome = true
+    }
+
     private var platforms: List<PlatformType> = emptyList()
+    @LinkDSL
     fun setPlatforms(vararg platforms: PlatformType) {
         this.platforms = platforms.toList()
     }
 
     private var tags: List<String> = emptyList()
+    @LinkDSL
     fun setTags(vararg tags: String) {
         this.tags = tags.toList()
     }
@@ -81,7 +89,8 @@ class LinkBuilder {
             tags = tags,
             bitbucket = bitbucket,
             github = github,
-            kug = kug
+            kug = kug,
+            awesome = awesome
         )
     }
 }
