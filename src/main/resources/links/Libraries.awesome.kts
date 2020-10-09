@@ -185,6 +185,12 @@ category("Libraries/Frameworks") {
       desc = "Typesafe GraphQL client for the JVM and Kotlin native"
       setTags("web", "graphql")
     }
+    link {
+      github = "welvet/summer"
+      desc = "Lightweight Jetty/JDBC wrapper library inspired by SparkJava and MyBatis with DI and Testing support for Kotlin"
+      setTags("jdbc", "web", "di")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Testing") {
     link {
