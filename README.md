@@ -142,54 +142,35 @@ Here is the awesome badge for your project:
 * [covid-be-app/cwa-app-android](https://github.com/covid-be-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
 * [lelandrichardson/compose-dogfooding](https://github.com/lelandrichardson/compose-dogfooding) - Code written during the Compose Dogfooding streams
 * [noonmaru/psychics](https://github.com/noonmaru/psychics) - Minecraft psychic plugin for Paper
-* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
 * [androiddevnotes/awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources) - [Hacktoberfest] 👓 A curated list of awesome android learning resources for android app developers.
-* [immuni-app/immuni-app-android](https://github.com/immuni-app/immuni-app-android) - Official repository for the Android version of the immuni application
 * [inorichi/tachiyomi-extensions](https://github.com/inorichi/tachiyomi-extensions) 
 * [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - :iphone: KeePass implementation for android with material design and deluxe features
-* [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
-* [ChuckerTeam/chucker](https://github.com/ChuckerTeam/chucker) - 🔎 An HTTP inspector for Android &amp; OkHTTP (like Charles but on device) - More Chucker than Chuck
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [mozilla-mobile/android-components](https://github.com/mozilla-mobile/android-components) - A collection of Android libraries to build browsers or browser-like applications.
 * [fossasia/open-event-attendee-android](https://github.com/fossasia/open-event-attendee-android) - Open Event Attendee Android General App https://github.com/fossasia/open-event-android/blob/apk/open-event-dev-app-playStore-debug.apk
-* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [DanielMartinus/Konfetti](https://github.com/DanielMartinus/Konfetti) - Celebrate more with this lightweight confetti particle system 🎊
 * [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
-* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [sourcerer-io/sourcerer-app](https://github.com/sourcerer-io/sourcerer-app) - 🦄 Sourcerer app makes a visual profile from your GitHub and git repositories.
-* [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
-* [inorichi/tachiyomi](https://github.com/inorichi/tachiyomi) - Free and open source manga reader for Android
 * [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [vicedev/ZY-Player-Android](https://github.com/vicedev/ZY-Player-Android) - 基于https://github.com/Hunlongyu/ZY-Player 做的Android版本 资源播放器
 * [CarlosEsco/Neko](https://github.com/CarlosEsco/Neko) - Free, open source, unofficial MangaDex reader  for Android
 * [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
-* [immuni-app/immuni-app-android](https://github.com/immuni-app/immuni-app-android) - Official repository for the Android version of the immuni application
-* [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
-* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
 * [kotest/kotest](https://github.com/kotest/kotest) - Powerful, elegant and flexible test framework for Kotlin
 * [cashapp/sqldelight](https://github.com/cashapp/sqldelight) - SQLDelight - Generates typesafe Kotlin APIs from SQL
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
-* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [JetBrains/kotlin-native](https://github.com/JetBrains/kotlin-native) - Kotlin/Native infrastructure
-* [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
 * [square/okio](https://github.com/square/okio) - A modern I/O library for Android, Kotlin, and Java.
-* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 * [JakeWharton/timber](https://github.com/JakeWharton/timber) - A logger with a small, extensible API which provides utility on top of Android's normal Log class.
 * [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
 * [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [google/iosched](https://github.com/google/iosched) - The Google I/O 2019 Android App
 * [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
-* [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
-* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -215,8 +196,6 @@ Here is the awesome badge for your project:
 * [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
 * [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
 * [Kotlin Guide](https://kotlin.guide) - An introduction to Kotlin
-* [Jetbrain's Hyperskill Academy](https://hyperskill.org/onboarding/tracks/3) - An interactive learning platform for Kotlin and other languages
-* [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
 * [Kotlin syntax cheat sheet](https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a) 
 * [Kotlin Standard Functions cheat-sheet ](https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326) - Learn how to use kotlin's standard library with lambda functions
@@ -233,7 +212,8 @@ Here is the awesome badge for your project:
 * [KotlinTesting Blog](https://kotlintesting.com) - Blog about testing with Kotlin
 
 ### <a name="links-courses"></a>Courses <sup>[Back ⇈](#links-courses-subcategory)</sup>
-* [Kotlin Course - Tutorial for Beginners by freeCodeCamp.org](https://youtu.be/F9UC9DY-vIU) - Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.
+* [Jetbrain's Hyperskill Academy](https://hyperskill.org/onboarding/tracks/3) - An interactive learning platform for Kotlin and other languages
+* [Google's Kotlin Codelab ](https://codelabs.developers.google.com/codelabs/build-your-first-android-app-kotlin/) - Build your first Kotlin Android App
 * [Android Kotlin Fundamentals](https://codelabs.developers.google.com/android-kotlin-fundamentals) - Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin.
 * [Kotlin for Java Developers](https://teamtreehouse.com/library/kotlin-for-java-developers) - 160-minute Android Course.
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
@@ -247,6 +227,7 @@ Here is the awesome badge for your project:
 * [Kotlin for Java Developers - JetBrains](https://www.coursera.org/learn/kotlin-for-java-developers) - Detailed Kotlin introductory course for Java developers
 * [Kotlin Online Courses at Classpert](https://classpert.com/kotlin-programming) - Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search
 * [Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda](https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started) - Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!
+* [Kotlin Course - Tutorial for Beginners by freeCodeCamp.org](https://youtu.be/F9UC9DY-vIU) - Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.
 
 ### <a name="links-books"></a>Books <sup>[Back ⇈](#links-books-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
@@ -414,6 +395,7 @@ Here is the awesome badge for your project:
 * [Litote/kmongo](https://github.com/Litote/kmongo) - KMongo - Kotlin toolkit for Mongo
 * [dizitart/nitrite-database](https://github.com/dizitart/nitrite-database/tree/master/potassium-nitrite) - Potassium Nitrite is a kotlin extension of nitrite database, an open source nosql embedded document store with mongodb like api.
 * [kotlin-orm/ktorm](https://github.com/kotlin-orm/ktorm) - A lightweight ORM Framework for Kotlin. Provides strong-typed and flexible SQL DSL and convenient sequence APIs to reduce our duplicated effort on database operations.
+* [JetBrains/xodus](https://github.com/JetBrains/xodus) - Transactional schema-less embedded database used by JetBrains YouTrack and JetBrains Hub.
 * [jasync-sql/jasync-sql](https://github.com/jasync-sql/jasync-sql) - Kotlin port of mauricio's async driver for postgres/mysql.
 * [ebean-orm/ebean](https://github.com/ebean-orm/ebean) - Ebean is a Java &amp; Kotlin ORM including type safe kotlin queries
 * [requery/requery](https://github.com/requery/requery) - Modern SQL based query &amp; persistence for Java/Kotlin/Android.
@@ -628,6 +610,7 @@ Here is the awesome badge for your project:
 * [aPureBase/arkenv](https://github.com/aPureBase/arkenv) - Fully fledged command line arguments / environment variables parser via simple Kotlin delegates
 * [leprosus/kotlin-cli](https://github.com/leprosus/kotlin-cli) - Kotlin-CLI - command line interface options parser for Kotlin.
 * [jimschubert/kopper](https://github.com/jimschubert/kopper) - A simple Kotlin option parser
+* [dbaelz/Konclik](https://github.com/dbaelz/Konclik) - Konclik: Kotlin/Native Command Line Interface Kit
 * [ajalt/mordant](https://github.com/ajalt/mordant) - Mordant - Full-featured text styling for Kotlin command line applications.
 * [xenomachina/kotlin-argparser](https://github.com/xenomachina/kotlin-argparser) - Easy to use and concise yet powerful and robust command line argument parsing for Kotlin.
 * [ajalt/clikt](https://github.com/ajalt/clikt) - Clikt - Intuitive command line interface parsing for Kotlin.
@@ -907,7 +890,7 @@ Here is the awesome badge for your project:
 * [huston007/kotlin-loader](https://github.com/huston007/kotlin-loader) - Kotlin webpack loader.
 
 ### <a name="kotlin-javascript-integration"></a>Integration <sup>[Back ⇈](#kotlin-javascript-integration-subcategory)</sup>
-
+* [Kotlin/dukat](https://github.com/Kotlin/dukat) - Converter of <any kind of declarations> to Kotlin external declarations
 
 
 ## <a name="kotlin-native"></a>Kotlin Native <sup>[Back ⇈](#kotlin-native-category)</sup>
@@ -917,7 +900,6 @@ Here is the awesome badge for your project:
 * [JetBrains/kotlin-native](https://github.com/JetBrains/kotlin-native) - Kotlin/Native is a LLVM backend for the Kotlin compiler, runtime implementation and native code generation facility using LLVM toolchain.
 
 ### <a name="kotlin-native-frameworks"></a>Frameworks <sup>[Back ⇈](#kotlin-native-frameworks-subcategory)</sup>
-* [dbaelz/Konclik](https://github.com/dbaelz/Konclik) - Konclik: Kotlin/Native Command Line Interface Kit
 * [KwangIO/kwang](https://github.com/KwangIO/kwang) - High Performance Kotlin Native Web Framework based on Lwan
 * [msink/kotlin-libui](https://github.com/msink/kotlin-libui) - Kotlin/Native interop to libui: a portable GUI library
 
