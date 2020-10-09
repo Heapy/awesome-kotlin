@@ -1313,6 +1313,11 @@ category("Libraries/Frameworks") {
       setTags("URL", "builder", "http")
       setPlatforms(JVM)
     }
+    link {
+      github = "ssuukk/Qotlin"
+      desc = "IBM Q Experience Kotlin toolkit - Kotlin library to interact and write assembly code for IBM Quantum computers"
+      setPlatforms(JVM)
+    }
   }
   subcategory("Parsers") {
     link {
