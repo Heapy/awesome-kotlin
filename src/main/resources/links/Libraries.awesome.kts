@@ -1330,6 +1330,12 @@ category("Libraries/Frameworks") {
       desc = "IBM Q Experience Kotlin toolkit - Kotlin library to interact and write assembly code for IBM Quantum computers"
       setPlatforms(JVM)
     }
+    link {
+      github = "DavidMellul/Kotlin-Publish-Subscribe"
+      desc = "Intuitive and powerful human-readable Kotlin DSL for IPCs & turning anything into a message receiver / broadcaster"
+      setTags("ipc", "extension", "misc")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Parsers") {
     link {
