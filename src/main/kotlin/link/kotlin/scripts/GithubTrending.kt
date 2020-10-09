@@ -2,12 +2,8 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.dsl.Category
 import link.kotlin.scripts.dsl.Subcategory
-import link.kotlin.scripts.model.ApplicationConfiguration
 import link.kotlin.scripts.model.Link
-import link.kotlin.scripts.model.default
 import link.kotlin.scripts.utils.Cache
-import link.kotlin.scripts.utils.KotlinObjectMapper
-import link.kotlin.scripts.utils.default
 import org.jsoup.Jsoup
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -44,7 +40,9 @@ private class CachedGithubTrending(
 private class JSoupGithubTrending(
 ) : GithubTrending {
     override suspend fun fetch(): Category? {
-        val subcategories = trending.mapNotNull { it.toSubcategory() }.toMutableList()
+        val subcategories = trending.mapNotNull { it.toSubcategory() }
+            .deleteDuplicates()
+            .toMutableList()
 
         return if (subcategories.isNotEmpty()) {
             Category(
@@ -52,6 +50,17 @@ private class JSoupGithubTrending(
                 subcategories = subcategories
             )
         } else null
+    }
+
+    private fun List<Subcategory>.deleteDuplicates(): List<Subcategory> {
+        val pool = mutableSetOf<Link>()
+
+        return this.map { subcategory ->
+            val filtered = subcategory.links.subtract(pool)
+            val result = subcategory.copy(links = filtered.toMutableList())
+            pool.addAll(subcategory.links)
+            result
+        }
     }
 
     private fun Pair<String, String>.toSubcategory(): Subcategory? {
