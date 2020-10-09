@@ -647,4 +647,12 @@ category("Android") {
       setTags("security", "cryptography", "crypto", "encryption", "kotlin multiplatform", "ios")
     }
   }
+  subcategory("Boilerplate") {
+    link {
+      github = "bufferapp/android-clean-architecture-mvi-boilerplate"
+      desc = "A clean architecture boilerplate using android written in Kotlin and using the Model-View-Intent pattern"
+      setTags("cleanarchitecture", "android", "boilerplate", "mvi")
+      setPlatforms(ANDROID)
+    }
+  }
 }
