@@ -595,6 +595,11 @@ category("Android") {
       desc = "It's a project that contains lessons and examples about Kotlin programming language."
       setTags("kotlin", "tutorial", "kotlintutorial", "kotlin101")
     }
+    link {
+      github = "android-password-store/Android-Password-Store"
+      desc = "Android application compatible with ZX2C4's Pass command line application."
+      setTags("kotlin", "android", "app", "password-manager", "pass", "openpgp", "gpg")
+    }
   }
   subcategory("Extensions") {
     link {
