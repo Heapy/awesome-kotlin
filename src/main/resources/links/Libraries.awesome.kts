@@ -1387,7 +1387,7 @@ category("Libraries/Frameworks") {
     }
     link {
       github = "DetachHead/kotlinxpath"
-      desc = "A typesafe builder for Xpath with several useful helper functions to make Xpath easier to work with"
+      desc = "A typesafe builder for Xpath with several useful helper functions that make Xpath easier to work with"
       setTags("xpath", "xpath-builder", "typesafe-builder", "multiplatform")
     }
   }
