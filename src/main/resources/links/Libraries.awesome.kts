@@ -1385,6 +1385,11 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin-first Multiplatform SDK for Firebase supporting iOS, Android & Web"
       setTags("firebase", "firestore", "multiplatform")
     }
+    link {
+      github = "DetachHead/kotlinxpath"
+      desc = "A typesafe builder for Xpath with several useful helper functions that make Xpath easier to work with"
+      setTags("xpath", "xpath-builder", "typesafe-builder", "multiplatform")
+    }
   }
   subcategory("Extensions") {
     link {
