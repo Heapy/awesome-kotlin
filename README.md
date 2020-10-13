@@ -418,6 +418,7 @@ Here is the awesome badge for your project:
 * [Vorlonsoft/GradleMavenPush](https://github.com/Vorlonsoft/GradleMavenPush) - Gradle Script plugin to upload Gradle Android/Kotlin/Java Artifacts to Maven repositories (JCenter, Maven Central, ...).
 * [kohesive/keplin](https://github.com/kohesive/keplin) - Secure Kotlin scripting and binary lambda-scripts.
 * [mkohm/detekt-hint](https://github.com/mkohm/detekt-hint) - Detection of design principle violations as a plugin to detekt.
+* [cqfn/diktat](https://github.com/cqfn/diktat) - Strict coding standard for Kotlin and a custom set of rules for detecting and autofixing code smells.
 * [s1monw1/KtsRunner](https://github.com/s1monw1/KtsRunner) - Library for executing .kts files from regular Kotlin code using Java Scripting Engines API
 * [SonarSource/sonarlint-intellij](https://github.com/SonarSource/sonarlint-intellij) - An IDE extension that helps you detect and fix quality issues as you write code.
 * [jtransc/jtransc](https://github.com/jtransc/jtransc) - JVM AOT compiler created in Kotlin.
