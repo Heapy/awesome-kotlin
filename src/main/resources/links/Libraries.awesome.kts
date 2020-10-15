@@ -1473,6 +1473,11 @@ category("Libraries/Frameworks") {
       setTags("twelve-factor", "environment-variables")
       setPlatforms(ANDROID, JVM)
     }
+    link {
+      github = "davidohana/kofiko-kotlin"
+      desc = "Kofiko: Code-First configuration library. Lightweight, simple and minimal boilerplate."
+      setTags("configuration", "environment-variables", "ini", "json", "env")
+    }
   }
   subcategory("Graphics") {
     link {
