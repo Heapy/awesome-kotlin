@@ -613,6 +613,12 @@ category("Libraries/Frameworks") {
       setTags("xml", "builder", "dsl")
       setPlatforms(JVM)
     }
+    link {
+      github = "lectra-tech/koson"
+      desc = "A concise and lightweight Kotlin DSL to build JSON objects and render their String representations"
+      setTags("json", "dsl", "builder")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Validation") {
     link {
