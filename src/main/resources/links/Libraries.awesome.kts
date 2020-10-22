@@ -1729,5 +1729,11 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS)
       setTags("rsocket", "rx", "reactive-streams")
     }
+    link {
+      github = "Dynamium/EVCalc"
+      desc = "EVCalc is a calculation engine for mobile electric venicles (Electric scooters, electric unicycles, and so on) written in Kotlin."
+      setPlatforms(JVM)
+      setTags("evcalc", "dynamium", "calculation", "ev", "euc", "electric unicycles", "electric-scooters", "engine")
+    }
   }
 }
