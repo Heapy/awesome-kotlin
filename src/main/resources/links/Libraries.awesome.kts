@@ -1589,7 +1589,7 @@ category("Libraries/Frameworks") {
     link {
       github = "JetBrains/skiko"
       desc = "Kotlin Multiplatform bindings to Skia"
-      setPlatforms(JVM)
+      setPlatforms(JVM, NATIVE)
       setTags("skia")
     }
   }
