@@ -1586,6 +1586,12 @@ category("Libraries/Frameworks") {
       desc = "Kotlin port of three.js JavaScript 3D library"
       setTags("opengl", "lwjgl3", "three-js")
     }
+    link {
+      github = "JetBrains/skiko"
+      desc = "Kotlin Multiplatform bindings to Skia"
+      setPlatforms(JVM, NATIVE)
+      setTags("skia")
+    }
   }
   subcategory("Data Science") {
     link {
