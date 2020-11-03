@@ -1153,6 +1153,12 @@ category("Libraries/Frameworks") {
       setTags("alexa", "amazon echo", "text to speech")
     }
     link {
+      github = "just-ai/jaicf-kotlin"
+      desc = "Kotlin framework for conversational voice assistants and chatbots development."
+      setTags("chatbot", "speech to text", "text to speech", "alexa", "google assistant", "actions on google", "voice")
+      setPlatforms(JVM, ANDROID)
+    }
+    link {
       github = "TicketmasterMobileStudio/actions-on-google-kotlin"
       desc = "Port of official Node.js SDK to Kotlin. Complete with all features and tests and nearly identical API."
       setTags("actions on google", "google assistant", "google home")
