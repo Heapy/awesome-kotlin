@@ -37,9 +37,11 @@ private class MavenCentralKotlinVersionFetcher(
 
     private fun findMax(versions: List<String>, version: String): String {
         return versions
-            .filterNot { it.endsWith("-rc", ignoreCase = true) }
+            .filter { it.matches(versionRegex) }
             .filter { it.startsWith(version) }.maxOrNull() ?: ""
     }
+
+    private val versionRegex = Regex("^[0-9]+.[0-9]+.[0-9]+$")
 }
 
 fun KotlinVersionFetcher.Companion.default(
