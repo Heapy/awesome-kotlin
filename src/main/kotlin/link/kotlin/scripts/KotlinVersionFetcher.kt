@@ -37,7 +37,7 @@ private class MavenCentralKotlinVersionFetcher(
 
     private fun findMax(versions: List<String>, version: String): String {
         return versions
-            .filterNot { it.endsWith("-rc") }
+            .filterNot { it.endsWith("-rc", ignoreCase = true) }
             .filter { it.startsWith(version) }.maxOrNull() ?: ""
     }
 }
