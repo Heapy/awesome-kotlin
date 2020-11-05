@@ -795,11 +795,11 @@ category("Libraries/Frameworks") {
       setTags("style", "linter")
       awesome()
     }
-	link {
+    link {
       github = "cqfn/diktat"
       desc = "Strict coding standard for Kotlin and a custom set of rules for detecting and autofixing code smells."
       setTags("style", "linter", "static-analysis", "check style", "code smell")
-      awesome()
+      setPlatforms(COMMON)
     }
     link {
       github = "jtransc/jtransc"
@@ -1407,6 +1407,7 @@ category("Libraries/Frameworks") {
       github = "DetachHead/kotlinxpath"
       desc = "A typesafe builder for Xpath with several useful helper functions that make Xpath easier to work with"
       setTags("xpath", "xpath-builder", "typesafe-builder", "multiplatform")
+      setPlatforms(COMMON, JVM, JS, NATIVE)
     }
   }
   subcategory("Extensions") {
@@ -1489,6 +1490,7 @@ category("Libraries/Frameworks") {
       github = "davidohana/kofiko-kotlin"
       desc = "Kofiko: Code-First configuration library. Lightweight, simple and minimal boilerplate."
       setTags("configuration", "environment-variables", "ini", "json", "env")
+      setPlatforms(JVM)
     }
   }
   subcategory("Graphics") {

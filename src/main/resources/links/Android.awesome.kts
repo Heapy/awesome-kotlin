@@ -599,6 +599,7 @@ category("Android") {
       github = "android-password-store/Android-Password-Store"
       desc = "Android application compatible with ZX2C4's Pass command line application."
       setTags("kotlin", "android", "app", "password-manager", "pass", "openpgp", "gpg")
+      setPlatforms(ANDROID)
     }
   }
   subcategory("Extensions") {
