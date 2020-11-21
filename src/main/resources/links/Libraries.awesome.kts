@@ -1750,4 +1750,12 @@ category("Libraries/Frameworks") {
       setTags("evcalc", "dynamium", "calculation", "ev", "euc", "electric unicycles", "electric-scooters", "engine")
     }
   }
+  subcategory("API Clients") {
+    link {
+      github = "JetBrains/space-kotlin-sdk"
+      desc = "Kotlin client for JetBrains Space HTTP API"
+      setPlatforms(COMMON, JS, JVM)
+      awesome()
+    }
+  }
 }
