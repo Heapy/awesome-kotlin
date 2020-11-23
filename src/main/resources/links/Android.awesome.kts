@@ -601,6 +601,11 @@ category("Android") {
       setTags("kotlin", "android", "app", "password-manager", "pass", "openpgp", "gpg")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "PatilShreyas/NotyKT"
+      desc = "NotyKT is a complete Kotlin-stack (Backend + Android) application built to demonstrate the use of Modern development tools with best practices implementation."
+      setTags("kotlin", "mvvm", "architecture", "kotlin-android", "ktor", "jetpack-compose", "navigation", "hilt", "coroutines", "flow")
+    }
   }
   subcategory("Extensions") {
     link {
