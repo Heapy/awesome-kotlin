@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClassName = "link.kotlin.scripts.Application"
+    mainClass.set("link.kotlin.scripts.Application")
 }
 
 repositories {
