@@ -115,13 +115,12 @@ Here is the awesome badge for your project:
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [kami-blue/client](https://github.com/kami-blue/client) - KAMI Blue: a continuation of KAMI | LOOKING FOR MAINTAINERS. CHECK README.
+* [hi-dhl/AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice) - 本仓库致力于建立最全、最新的的 AndroidX Jetpack 相关组件的实践项目 以及组件对应的分析文章（持续更新中）如果对你有帮助，请在右上角 star 一下，感谢
 * [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [SmartToolFactory/Animation-Tutorials](https://github.com/SmartToolFactory/Animation-Tutorials) - 🍭🚀💗  Tutorials about animations with Animators, Animated Vector Drawables, Shared Transitions, and more
+* [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - Minimal Kotlin Multiplatform project using Jetpack Compose and SwiftUI
 * [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
 * [ExpediaGroup/graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) - Libraries for running GraphQL in Kotlin
 * [LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - 🎓 Learning Kotlin Coroutines for Android by example. 🚀 Sample implementations for real-world Android use cases. 🛠 Unit tests included!
-* [eycorsican/kitsunebi-android](https://github.com/eycorsican/kitsunebi-android) - A fully-featured V2Ray client for Android.
-* [VMadalin/android-modular-architecture](https://github.com/VMadalin/android-modular-architecture) - 📚  Sample Android Components Architecture on a modular word focused on the scalability, testability and maintainability written in Kotlin, following best practices using Jetpack.
 * [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - Browse your memories without any interruptions with this photo and video gallery
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
@@ -135,43 +134,45 @@ Here is the awesome badge for your project:
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) - Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩（支持分卷压缩与加密） | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK | 编译运行一下说不定会找到惊喜
-* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 * [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language
+* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [fredoverflow/karel](https://github.com/fredoverflow/karel) - Karel The Robot
 * [JetBrains/projector-server](https://github.com/JetBrains/projector-server) - Server-side library for running Swing applications remotely
-* [hi-dhl/AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice) - 本仓库致力于建立最全、最新的的 AndroidX Jetpack 相关组件的实践项目 以及组件对应的分析文章（持续更新中）如果对你有帮助，请在右上角 star 一下，感谢
 * [mamoe/mirai-console](https://github.com/mamoe/mirai-console) - mirai 的高效率 QQ 机器人控制台
 * [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
 * [Gurupreet/ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook) - A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential
-* [mozilla-mobile/android-components](https://github.com/mozilla-mobile/android-components) - A collection of Android libraries to build browsers or browser-like applications.
+* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
+* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
 * [kotest/kotest](https://github.com/kotest/kotest) - Powerful, elegant and flexible test framework for Kotlin
 * [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
 * [skydoves/Pokedex](https://github.com/skydoves/Pokedex) - 🗡️ Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack (Room, ViewModel, LiveData) based on MVVM architecture.
+* [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
 * [inorichi/tachiyomi](https://github.com/inorichi/tachiyomi) - Free and open source manga reader for Android
-* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
+* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [Gurupreet/ComposeSpotifyDesktop](https://github.com/Gurupreet/ComposeSpotifyDesktop) - Spotify Demo Desktop app using Jetpack compose
+* [JetBrains/compose-for-web-demos](https://github.com/JetBrains/compose-for-web-demos) - Demo projects powered by Compose for Web. / DON'T USE IN PRODUCTION!
 * [LorittaBot/Loritta](https://github.com/LorittaBot/Loritta) - 💁 A multipurpose, multilanguage, customizable, modular, and very cute bot for Discord using JDA! ~Making your server more awesome~
-* [jitsi/jibri](https://github.com/jitsi/jibri) - Jitsi BRoadcasting Infrastructure
-* [inorichi/tachiyomi-extensions](https://github.com/inorichi/tachiyomi-extensions) 
-* [KieronQuinn/TapTap](https://github.com/KieronQuinn/TapTap) - Port of the double tap on back of device feature from Android 11 to any Android 7.0+ device
-* [material-components/material-components-android-examples](https://github.com/material-components/material-components-android-examples) - Companion example apps and code for MDC-Android.
-* [android10/Android-CleanArchitecture-Kotlin](https://github.com/android10/Android-CleanArchitecture-Kotlin) - This is a movies sample app in Kotlin, which is part of a serie of blog posts I have written about architecting android application using different approaches.
-* [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
-* [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
+* [Gurupreet/ComposeSpotifyDesktop](https://github.com/Gurupreet/ComposeSpotifyDesktop) - Spotify Demo Desktop app using Jetpack compose
+* [Dhaval2404/ImagePicker](https://github.com/Dhaval2404/ImagePicker) - 📸Image Picker for Android, Pick an image from Gallery or Capture a new image with Camera
+* [touchlab/KaMPKit](https://github.com/touchlab/KaMPKit) - KaMP Kit by Touchlab is a collection of code and tools designed to get your mobile team started quickly with Kotlin Multiplatform.
+* [videolan/vlc-android](https://github.com/videolan/vlc-android) - VLC for Android, Android TV and ChromeOS
+* [PierfrancescoSoffritti/android-youtube-player](https://github.com/PierfrancescoSoffritti/android-youtube-player) - YouTube Player library for Android and Chromecast, stable and customizable.
+* [TwidereProject/Twidere-Android](https://github.com/TwidereProject/Twidere-Android) 
+* [detekt/detekt](https://github.com/detekt/detekt) - Static code analysis for Kotlin
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
-* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
+* [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
 * [KotlinBy/awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) - A curated list of awesome Kotlin related stuff Inspired by awesome-java.
+* [android/uamp](https://github.com/android/uamp) - A sample audio app for Android
 * [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) - 😍 A beautiful, fluid, and extensible dialogs API for Kotlin &amp; Android.
-* [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
-* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
+* [google/iosched](https://github.com/google/iosched) - The Google I/O 2019 Android App
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -835,8 +836,8 @@ Here is the awesome badge for your project:
 * [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [Karumi/KataContactsKotlin](https://github.com/Karumi/KataContactsKotlin) - An exercise to learn how to write software based on Clean Architecture using Kotlin.
 * [Karumi/KataTODOApiClientKotlin](https://github.com/Karumi/KataTODOApiClientKotlin) - A full exercise to learn how to use stubbing HTTP in Kotlin.
-* [Karumi/KataScreenshotKotlin](https://github.com/Karumi/KataScreenshotKotlin) - An full exercise to learn how to create screenshot tests for Android
 * [mustafaberkaymutlu/uv-index](https://github.com/mustafaberkaymutlu/uv-index) - A simple ultraviolet index viewer app for demonstrating Instant Apps + Kotlin + Dagger + MVP
+* [Karumi/KataScreenshotKotlin](https://github.com/Karumi/KataScreenshotKotlin) - An full exercise to learn how to create screenshot tests for Android
 * [ziggy42/Blum-kotlin](https://github.com/ziggy42/Blum-kotlin) - A simple android Twitter client written in Kotlin
 * [Karumi/KataSuperHeroesKotlin](https://github.com/Karumi/KataSuperHeroesKotlin) - A full exercise to learn how to create espresso tests using test doubles and a dependency injector for Android written in Kotlin.
 * [dgngulcan/droid-feed](https://github.com/dgngulcan/droid-feed) - News feed aggregated exclusively for Android Developers.
