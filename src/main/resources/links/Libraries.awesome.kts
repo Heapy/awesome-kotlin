@@ -1026,6 +1026,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "RationalityFrontline/kevent"
+      desc = "A powerful in-process event dispatcher based on Kotlin and Coroutines."
+      setTags("eventbus", "event-dispatcher", "event-driven", "publish–subscribe", "android", "swing", "javafx", "coroutines", "functional-programming")
+    }
+    link {
       github = "themichailov/kache"
       desc = "Kotlin functions caching library, reducing count of function executions."
       setTags("cache")
