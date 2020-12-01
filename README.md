@@ -115,25 +115,25 @@ Here is the awesome badge for your project:
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [fredoverflow/karel](https://github.com/fredoverflow/karel) - Karel The Robot
+* [hi-dhl/AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice) - 本仓库致力于建立最全、最新的的 AndroidX Jetpack 相关组件的实践项目 以及组件对应的分析文章（持续更新中）如果对你有帮助，请在右上角 star 一下，感谢
 * [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - Minimal Kotlin Multiplatform project using Jetpack Compose and SwiftUI
 * [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
+* [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - Minimal Kotlin Multiplatform project using Jetpack Compose and SwiftUI
 * [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
 * [ExpediaGroup/graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) - Libraries for running GraphQL in Kotlin
 * [videolan/vlc-android](https://github.com/videolan/vlc-android) - VLC for Android, Android TV and ChromeOS
+* [Gurupreet/ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook) - A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential
 * [android/databinding-samples](https://github.com/android/databinding-samples) 
-* [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - Browse your memories without any interruptions with this photo and video gallery
+* [LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - 🎓 Learning Kotlin Coroutines for Android by example. 🚀 Sample implementations for real-world Android use cases. 🛠 Unit tests included!
 * [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [material-components/material-components-android-examples](https://github.com/material-components/material-components-android-examples) - Companion example apps and code for MDC-Android.
 * [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
-* [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
-* [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
 * [cashapp/sqldelight](https://github.com/cashapp/sqldelight) - SQLDelight - Generates typesafe Kotlin APIs from SQL
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
-* [JetBrains/kotlin-native](https://github.com/JetBrains/kotlin-native) - Kotlin/Native infrastructure
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [inorichi/tachiyomi](https://github.com/inorichi/tachiyomi) - Free and open source manga reader for Android
 * [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
@@ -142,33 +142,37 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Spotify Music Downloader For Android!
-* [mamoe/mirai-console](https://github.com/mamoe/mirai-console) - mirai 的高效率 QQ 机器人控制台
+* [Gurupreet/ComposeSpotifyDesktop](https://github.com/Gurupreet/ComposeSpotifyDesktop) - Spotify Demo Desktop app using Jetpack compose
+* [dkrivoruchko/ScreenStream](https://github.com/dkrivoruchko/ScreenStream) - Screen Stream over HTTP mobile app
 * [Kotlin/kotlinx-datetime](https://github.com/Kotlin/kotlinx-datetime) - KotlinX multiplatform date/time library
+* [ahmedeltaher/MVVM-Kotlin-Android-Architecture](https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture) - MVVM + Kotlin + Retrofit2 + Dagger2 + Coroutines + MVP + Kotlin-Android-Extensions + RX-java + Mockk + Espresso + Junit5
 * [inorichi/tachiyomi-extensions](https://github.com/inorichi/tachiyomi-extensions) 
-* [Gurupreet/ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook) - A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential
 * [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [KotlinBy/awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) - A curated list of awesome Kotlin related stuff Inspired by awesome-java.
 * [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) - The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design.
-* [android/uamp](https://github.com/android/uamp) - A sample audio app for Android
-* [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) - 😍 A beautiful, fluid, and extensible dialogs API for Kotlin &amp; Android.
-* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
+* [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [TheCodeMonks/NYTimes-App](https://github.com/TheCodeMonks/NYTimes-App) - 🗽 A Simple Demonstration of the New York Times App 📱 using Jsoup web crawler with MVVM Architecture 🔥
-* [thanksmister/wallpanel-android](https://github.com/thanksmister/wallpanel-android) - WallPanel is an Android application for Web Based Dashboards and Home Automation Platforms
-* [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
-* [mukul500/AnimeXStream](https://github.com/mukul500/AnimeXStream) - An Android app to watch anime on your phone without ads.
-* [h4h13/RetroMusicPlayer](https://github.com/h4h13/RetroMusicPlayer) - Best material design music player for Android
-* [LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - 🎓 Learning Kotlin Coroutines for Android by example. 🚀 Sample implementations for real-world Android use cases. 🛠 Unit tests included!
-* [KieronQuinn/TapTap](https://github.com/KieronQuinn/TapTap) - Port of the double tap on back of device feature from Android 11 to any Android 7.0+ device
-* [moezbhatti/qksms](https://github.com/moezbhatti/qksms) - The most beautiful SMS messenger for Android
-* [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) - 💎 Android application following best practices:  Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
-* [AppIntro/AppIntro](https://github.com/AppIntro/AppIntro) - Make a cool intro for your Android app.
-* [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
+* [pleo-io/antaeus](https://github.com/pleo-io/antaeus) - 🚀 The Pleo Backend Challenge
+* [Vove7/EnergyRing](https://github.com/Vove7/EnergyRing) - Energy Ring - 电量指示环
+* [girish3/Vlog](https://github.com/girish3/Vlog) - An in-display logging library for Android
+* [cioccarellia/kite](https://github.com/cioccarellia/kite) - 🪁 Android Resources Wrapper Library
+* [mapbox/mapbox-navigation-android](https://github.com/mapbox/mapbox-navigation-android) - Mapbox Navigation SDK for Android
+* [korlibs/korge](https://github.com/korlibs/korge) - KorGE Game Engine. Multiplatform Kotlin Game Engine
+* [ktorio/ktor-samples](https://github.com/ktorio/ktor-samples) - Sample projects for Ktor
+* [ChuckerTeam/chucker](https://github.com/ChuckerTeam/chucker) - 🔎 An HTTP inspector for Android &amp; OkHTTP (like Charles but on device) - More Chucker than Chuck
+* [westnordost/StreetComplete](https://github.com/westnordost/StreetComplete) - Easy to use OpenStreetMap editor for Android
+* [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
+* [TakuSemba/Spotlight](https://github.com/TakuSemba/Spotlight) - Android Library that lights items for tutorials or walk-throughs etc...
+* [intellij-rust/intellij-rust](https://github.com/intellij-rust/intellij-rust) - Rust plugin for the IntelliJ Platform
+* [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
+* [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
+* [JetBrains/kotlin-native](https://github.com/JetBrains/kotlin-native) - Kotlin/Native infrastructure
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
+* [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -488,14 +492,14 @@ Here is the awesome badge for your project:
 * [nickhristov/krakdown](https://github.com/nickhristov/krakdown) - A native markdown parser written in Kotlin.
 * [Lewik/klog](https://github.com/Lewik/klog) - Minimalistic and multiplatform logging for Kotlin
 * [fork-handles/tuples4k](https://github.com/fork-handles/forkhandles/tree/trunk/tuples4k) - Tuple classes
-* [justwrote/kjob](https://github.com/justwrote/kjob) - A coroutine based persistent background scheduler written in Kotlin.
 * [ssuukk/Qotlin](https://github.com/ssuukk/Qotlin) - IBM Q Experience Kotlin toolkit - Kotlin library to interact and write assembly code for IBM Quantum computers
+* [justwrote/kjob](https://github.com/justwrote/kjob) - A coroutine based persistent background scheduler written in Kotlin.
 * [spoptchev/kotlin-preconditions](https://github.com/spoptchev/kotlin-preconditions) - Precondition error checking in kotlin.
 * [dotCipher/kase-format](https://github.com/dotCipher/kase-format) - String case conversion and detection library
 * [DavidMellul/Kotlin-Publish-Subscribe](https://github.com/DavidMellul/Kotlin-Publish-Subscribe) - Intuitive and powerful human-readable Kotlin DSL for IPCs &amp; turning anything into a message receiver / broadcaster
 * [vittee/kformula](https://github.com/vittee/kformula) - Mathematical expression engine written in Kotlin, running on JVM.
-* [mplatvoet/progress](https://github.com/mplatvoet/progress) - Progress for Kotlin.
 * [sargunster/KtUnits](https://github.com/sargunster/KtUnits) - Tiny unit conversion library for Kotlin.
+* [mplatvoet/progress](https://github.com/mplatvoet/progress) - Progress for Kotlin.
 * [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
 * [aminography/PrimeCalendar](https://github.com/aminography/PrimeCalendar) - Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other.
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
@@ -503,8 +507,8 @@ Here is the awesome badge for your project:
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
-* [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
+* [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
