@@ -827,7 +827,7 @@ category("Libraries/Frameworks") {
       setTags("dsl", "scripting")
     }
     link {
-      github = "jmfayard/buildSrcVersions"
+      github = "jmfayard/refreshVersions"
       desc = "Better Gradle dependencies management inside the IDE. Search for available updates."
       setTags("gradle", "plugin", "build", "development", "libraries", "versions")
       awesome()
