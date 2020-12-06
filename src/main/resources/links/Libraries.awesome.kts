@@ -1763,4 +1763,18 @@ category("Libraries/Frameworks") {
       awesome()
     }
   }
+  subcategory("Internationalisation and Localization") {
+    link {
+      github = "cashapp/barber"
+      desc = "A type safe Kotlin JVM library for building up localized, fillable, themed documents using Mustache templating."
+      setTags("Mustache")
+      setPlatforms(JVM)
+    }
+    link {
+      github = "projectfluent/fluent-kotlin"
+      desc = "Kotlin tooling implementation of ProjectFluent. Read, write, and transform Fluent files."
+      setTags("L10n")
+      setPlatforms(JVM)
+    }
+  }
 }

@@ -23,7 +23,6 @@ Built With Kotlin
 Testing (+Assertion, Coverage)
 Logging
 ML/DL
-Localization/Internaziolazition
 DSLs
 Conferences
 First Steps / Education
