@@ -124,6 +124,7 @@ Here is the awesome badge for your project:
 * [ExpediaGroup/graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) - Libraries for running GraphQL in Kotlin
 * [Gurupreet/ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook) - A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential
 * [mozilla-mobile/android-components](https://github.com/mozilla-mobile/android-components) - A collection of Android libraries to build browsers or browser-like applications.
+* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [material-components/material-components-android-examples](https://github.com/material-components/material-components-android-examples) - Companion example apps and code for MDC-Android.
 * [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
@@ -135,42 +136,40 @@ Here is the awesome badge for your project:
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [inorichi/tachiyomi](https://github.com/inorichi/tachiyomi) - Free and open source manga reader for Android
 * [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
-* [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) - 😍 A beautiful, fluid, and extensible dialogs API for Kotlin &amp; Android.
-* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 * [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Spotify Music Downloader For Android!
-* [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
-* [TheRatCode/RatPoison](https://github.com/TheRatCode/RatPoison) - Latest Ver: 1.7; Default Menu Key is F1; Charlatano's Successor
+* [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Spotify/Gaana/Youtube Music Downloader For Android!
 * [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
-* [inorichi/tachiyomi-extensions](https://github.com/inorichi/tachiyomi-extensions) 
-* [h4h13/RetroMusicPlayer](https://github.com/h4h13/RetroMusicPlayer) - Best material design music player for Android
+* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
+* [mamoe/mirai-console](https://github.com/mamoe/mirai-console) - mirai 的高效率 QQ 机器人控制台
+* [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
 * [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
 * [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
+* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
 * [zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor) - An android image compression library.
 * [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
-* [square/okio](https://github.com/square/okio) - A modern I/O library for Android, Kotlin, and Java.
+* [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - :electric_plug:Translation plugin for JetBrains IDEs/Android Studio
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
+* [wasabeef/recyclerview-animators](https://github.com/wasabeef/recyclerview-animators) - An Android Animation library which easily add itemanimator to RecyclerView items.
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [zacharee/Tweaker](https://github.com/zacharee/Tweaker) 
-* [TwidereProject/TwidereX-Android](https://github.com/TwidereProject/TwidereX-Android) 
-* [kami-blue/client](https://github.com/kami-blue/client) - KAMI Blue: a continuation of KAMI | LOOKING FOR MAINTAINERS. CHECK README.
-* [eprendre/tingshu](https://github.com/eprendre/tingshu) - 一款可在线播放多个免费听书站点的安卓app
-* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [enricocid/Music-Player-GO](https://github.com/enricocid/Music-Player-GO) - 🎶🎼 Very slim music player 👨‍🎤 100% made in Italy 🍕🌳🌞🍝🌄
-* [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - :iphone: KeePass implementation for android with material design and deluxe features
+* [FauxKiwi/Pumpkin-Engine](https://github.com/FauxKiwi/Pumpkin-Engine) - A powerful and capable 2d game engine in Kotlin
+* [ibrahimsn98/speedometer](https://github.com/ibrahimsn98/speedometer) - A lightweight circular indicator view library for Android
+* [udacity/andfun-kotlin-android-trivia](https://github.com/udacity/andfun-kotlin-android-trivia) 
+* [CCBlueX/LiquidBounce](https://github.com/CCBlueX/LiquidBounce) - A free mixin-based injection hacked client for Minecraft using Minecraft Forge
+* [mukul500/AnimeXStream](https://github.com/mukul500/AnimeXStream) - An Android app to watch anime on your phone without ads.
+* [zhengcx/MethodTraceMan](https://github.com/zhengcx/MethodTraceMan) - 用于快速找到高耗时方法，定位解决Android App卡顿问题。通过gradle plugin+ASM实现可配置范围的方法插桩来统计所有方法的耗时，并提供友好的界面展示，支持耗时筛选、线程筛选、方法名筛选等。(A Tool for Discovering High Time-consuming Methods for Android App)
 * [KieronQuinn/TapTap](https://github.com/KieronQuinn/TapTap) - Port of the double tap on back of device feature from Android 11 to any Android 7.0+ device
-* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [Szaki/XiaomiADBFastbootTools](https://github.com/Szaki/XiaomiADBFastbootTools) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot
-* [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
+* [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
+* [android10/Android-CleanArchitecture-Kotlin](https://github.com/android10/Android-CleanArchitecture-Kotlin) - This is a movies sample app in Kotlin, which is part of a serie of blog posts I have written about architecting android application using different approaches.
 * [moezbhatti/qksms](https://github.com/moezbhatti/qksms) - The most beautiful SMS messenger for Android
 * [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
-* [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - :electric_plug:Translation plugin for JetBrains IDEs/Android Studio
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -506,8 +505,8 @@ Here is the awesome badge for your project:
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
 * [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
-* [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
+* [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
@@ -583,8 +582,8 @@ Here is the awesome badge for your project:
 * [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - Unofficial OpenGL SDK
 * [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
 * [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
-* [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [Jonatino/JOGL2D](https://github.com/Jonatino/JOGL2D) - Zero-overhead 2D rendering library for JOGL using Kotlin.
+* [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
 * [java-opengl-labs/learn-OpenGL](https://github.com/java-opengl-labs/learn-OpenGL) - port of https://learnopengl.com/ tutorial (lwjgl)
 * [java-opengl-labs/Vulkan](https://github.com/java-opengl-labs/Vulkan) - port of https://github.com/SaschaWillems/Vulkan
@@ -847,8 +846,8 @@ Here is the awesome badge for your project:
 * [SidneyXu/AndroidDemoIn4Languages](https://github.com/SidneyXu/AndroidDemoIn4Languages) - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
 * [hanjoongcho/aaf-easydiary](https://github.com/hanjoongcho/aaf-easydiary) - This is a diary application optimized to user experience.
 * [SimpleMobileTools/Simple-Draw](https://github.com/SimpleMobileTools/Simple-Draw) - A canvas you can draw on with different colors.
-* [PatilShreyas/NotyKT](https://github.com/PatilShreyas/NotyKT) - NotyKT is a complete Kotlin-stack (Backend + Android) application built to demonstrate the use of Modern development tools with best practices implementation.
 * [cuongpm/youtube-dl-android](https://github.com/cuongpm/youtube-dl-android) - Video downloader for Android - Download videos from Youtube, Facebook, Twitter, Instagram, Dailymotion, Vimeo and more than 1000 other sites.
+* [PatilShreyas/NotyKT](https://github.com/PatilShreyas/NotyKT) - NotyKT is a complete Kotlin-stack (Backend + Android) application built to demonstrate the use of Modern development tools with best practices implementation.
 * [dodyg/AndroidRivers](https://github.com/dodyg/AndroidRivers) - RSS Readers for Android.
 * [SimpleMobileTools/Simple-Notes](https://github.com/SimpleMobileTools/Simple-Notes) - A simple textfield for adding quick notes without ads.
 * [SimpleMobileTools/Simple-Camera](https://github.com/SimpleMobileTools/Simple-Camera) - A camera with flash, zoom and no ads.
