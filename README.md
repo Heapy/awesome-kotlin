@@ -500,8 +500,8 @@ Here is the awesome badge for your project:
 * [mplatvoet/progress](https://github.com/mplatvoet/progress) - Progress for Kotlin.
 * [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
-* [aminography/PrimeCalendar](https://github.com/aminography/PrimeCalendar) - Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other.
 * [evoasm/kasm](https://github.com/evoasm/kasm) - x64/x86-64 assembler and execution library
+* [aminography/PrimeCalendar](https://github.com/aminography/PrimeCalendar) - Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other.
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
@@ -605,6 +605,8 @@ Here is the awesome badge for your project:
 * [Kotlin for Data Science](https://kotlinlang.org/docs/reference/data-science-overview.html) - Kotlin for Data Science overview page
 * [cdietze/euklid](https://github.com/cdietze/euklid) - A cross-platform geometry library in Kotlin
 * [lamba92/KGraph](https://github.com/lamba92/KGraph) - A Kotlin multi-platform library for graph data structures
+* [Kotlin/multik](https://github.com/Kotlin/multik) 
+* [breandan/kaliningraph](https://github.com/breandan/kaliningraph) - 🕸️ A graph based IR in Kotlin
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
 * [JetBrains/lets-plot-kotlin](https://github.com/JetBrains/lets-plot-kotlin) - Grammar of graphics visualization for Kotlin
 * [MarcinMoskala/KotlinDiscreteMathToolkit](https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit) - Set of extensions for Kotlin that provides Discrete Math functionalities as an Kotlin extension functions.
