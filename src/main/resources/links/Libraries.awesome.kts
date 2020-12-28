@@ -1681,6 +1681,15 @@ category("Libraries/Frameworks") {
       setTags("data-science")
       setPlatforms(JVM, JS, COMMON, NATIVE)
     }
+    link {
+      github = "Kotlin/multik"
+      setTags("multidimensional array")
+      setPlatforms(JVM)
+    }
+    link {
+      github = "breandan/kaliningraph"
+      setPlatforms(JVM)
+    }
   }
   subcategory("Command Line Interface") {
     link {
