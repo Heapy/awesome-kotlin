@@ -832,6 +832,12 @@ category("Libraries/Frameworks") {
       setTags("gradle", "plugin", "build", "development", "libraries", "versions")
       awesome()
     }
+    link {
+      github = "Kotlin/kotlin-interactive-shell"
+      desc = "Kotlin Language Interactive Shell"
+      setTags("shell")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Compiler Plugins") {
     link {
