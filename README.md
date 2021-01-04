@@ -121,19 +121,19 @@ Here is the awesome badge for your project:
 * [mukul500/AnimeXStream](https://github.com/mukul500/AnimeXStream) - An Android app to watch anime on your phone without ads.
 * [tachiyomiorg/tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions) - Source extensions for the Tachiyomi app.
 * [KieronQuinn/TapTap](https://github.com/KieronQuinn/TapTap) - Port of the double tap on back of device feature from Android 11 to any Android 7.0+ device
+* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [material-components/material-components-android-examples](https://github.com/material-components/material-components-android-examples) - Companion example apps and code for MDC-Android.
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
-* [kotest/kotest](https://github.com/kotest/kotest) - Powerful, elegant and flexible test framework for Kotlin
 * [android10/Android-CleanArchitecture-Kotlin](https://github.com/android10/Android-CleanArchitecture-Kotlin) - This is a movies sample app in Kotlin, which is part of a serie of blog posts I have written about architecting android application using different approaches.
 * [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
-* [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - :electric_plug:Translation plugin for JetBrains IDEs/Android Studio
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - Free and open source manga reader for Android.
+* [android/uamp](https://github.com/android/uamp) - A sample audio app for Android
+* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
 * [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
@@ -142,32 +142,33 @@ Here is the awesome badge for your project:
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [mitchtabian/MVVMRecipeApp](https://github.com/mitchtabian/MVVMRecipeApp) - Kotlin, MVVM, Navigation Component, Hilt, Jetpack Compose, Retrofit2
-* [tytydraco/LADB](https://github.com/tytydraco/LADB) - A local ADB shell for Android!
+* [android/permissions-samples](https://github.com/android/permissions-samples) - Multiple samples showing the best practices in permissions on Android.
 * [Fate-Grand-Automata/FGA](https://github.com/Fate-Grand-Automata/FGA) - Auto-battle app for F/GO Android
-* [JunioJsv/mtk-easy-su](https://github.com/JunioJsv/mtk-easy-su) - Get bootless root access with few clicks
+* [Dhaval2404/ImagePicker](https://github.com/Dhaval2404/ImagePicker) - 📸Image Picker for Android, Pick an image from Gallery or Capture a new image with Camera
+* [mamoe/mirai-console](https://github.com/mamoe/mirai-console) - mirai 的高效率 QQ 机器人控制台
 * [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
+* [MlxChange/WaveDisPlay](https://github.com/MlxChange/WaveDisPlay) - A view that can be used like recyclerView to see the content of the next or previous page
 * [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - :iphone: KeePass implementation for android with material design and deluxe features
-* [Tencent/bk-ci](https://github.com/Tencent/bk-ci) - 蓝鲸CI平台(BlueKing CI)
-* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
 * [skydoves/Pokedex](https://github.com/skydoves/Pokedex) - 🗡️ Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack (Room, ViewModel, LiveData) based on MVVM architecture.
-* [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [android/plaid](https://github.com/android/plaid) - An Android app which provides design news &amp; inspiration as well as being an example of implementing material design.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [arduia/ProExpense](https://github.com/arduia/ProExpense) - A simple free finance note to safely record daily expenses
-* [android/permissions-samples](https://github.com/android/permissions-samples) - Multiple samples showing the best practices in permissions on Android.
-* [pl3xgaming/Purpur](https://github.com/pl3xgaming/Purpur) - Purpur is a fork of Paper and Tuinity with the goal of providing new and interesting configuration options, which allow for creating a unique gameplay experience not seen anywhere else
+* [saurabharora90/MotionLayout-Playground](https://github.com/saurabharora90/MotionLayout-Playground) - A collection of UI's built to showcase the capabilities of Motion Layout and Constraint Layout 2.0/2.1
+* [hufman/AndroidAutoIdrive](https://github.com/hufman/AndroidAutoIdrive) - Implementations of some Android Auto features as unofficial IDrive apps
 * [kami-blue/client](https://github.com/kami-blue/client) - KAMI Blue: a continuation of 1.12.2 KAMI
-* [ibrahimsn98/SmoothBottomBar](https://github.com/ibrahimsn98/SmoothBottomBar) - A lightweight Android material bottom navigation bar library
-* [VREMSoftwareDevelopment/WiFiAnalyzer](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer) - Android application to analyze WiFi signals.
+* [vicedev/ZY-Player-Android](https://github.com/vicedev/ZY-Player-Android) - 基于https://github.com/Hunlongyu/ZY-Player 做的Android版本 资源播放器
+* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
+* [rumboalla/apkupdater](https://github.com/rumboalla/apkupdater) - APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.
+* [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) - Share your VPN connection over hotspot or repeater! (root required)
 * [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - Browse your memories without any interruptions with this photo and video gallery
-* [Szaki/XiaomiADBFastbootTools](https://github.com/Szaki/XiaomiADBFastbootTools) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot
-* [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [moezbhatti/qksms](https://github.com/moezbhatti/qksms) - The most beautiful SMS messenger for Android
-* [KotlinBy/awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) - A curated list of awesome Kotlin related stuff Inspired by awesome-java.
-* [Tamsiree/RxTool](https://github.com/Tamsiree/RxTool) - Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | Zip4j压缩（支持分卷压缩与加密） | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 蛛网等级 | 颜色选择器 | ArcGis | VTPK | 编译运行一下说不定会找到惊喜
+* [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) - Easy to use OpenStreetMap editor for Android
+* [SimpleMobileTools/Simple-Calendar](https://github.com/SimpleMobileTools/Simple-Calendar) - A simple calendar with events, customizable widgets and no ads.
+* [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
+* [airbnb/MvRx](https://github.com/airbnb/MvRx) - MvRx: Android on Autopilot
+* [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -294,8 +295,8 @@ Here is the awesome badge for your project:
 * [jcornaz/kwik](https://github.com/jcornaz/kwik) - A property-based testing library for Kotlin. Execute tests with randomized inputs with a test-engine agnostic and compile-time safe library.
 * [EranBoudjnah/TestIt](https://github.com/EranBoudjnah/TestIt) - Generate unit testing boilerplate from kotlin files.
 * [mvysny/DynaTest](https://github.com/mvysny/DynaTest) - Write your tests in DSL way. Runs on JUnit5 Platform.
-* [tyro/arbitrater](https://github.com/tyro/arbitrater) - Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing.
 * [dmcg/konsent](https://github.com/dmcg/konsent) - An acceptance test library for Kotlin.
+* [tyro/arbitrater](https://github.com/tyro/arbitrater) - Arbitrater is a library for creating arbitrary (randomized) instances of classes by reflection for use in testing.
 * [EranBoudjnah/RandomGenKt](https://github.com/EranBoudjnah/RandomGenKt) - Initialize instances of any class with generated data.
 * [dam5s/aspen](https://github.com/dam5s/aspen) - Aspen is an RSpec and Spek inspired test runner for Kotlin.
 * [qwertukg/SeleniumBuilder](https://github.com/qwertukg/SeleniumBuilder) - DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin builder style.
@@ -476,8 +477,8 @@ Here is the awesome badge for your project:
 ### <a name="libraries-frameworks-misc"></a>Misc <sup>[Back ⇈](#libraries-frameworks-misc-subcategory)</sup>
 * [mobiletoly/urlsome](https://github.com/mobiletoly/urlsome) - URL builder library for Kotlin
 * [d-max/dsl-logger](https://github.com/d-max/dsl-logger) - Simple DSL for logging with logger abstraction layer
-* [RationalityFrontline/kevent](https://github.com/RationalityFrontline/kevent) - A powerful in-process event dispatcher based on Kotlin and Coroutines.
 * [themichailov/kache](https://github.com/themichailov/kache) - Kotlin functions caching library, reducing count of function executions.
+* [RationalityFrontline/kevent](https://github.com/RationalityFrontline/kevent) - A powerful in-process event dispatcher based on Kotlin and Coroutines.
 * [pearxteam/kpastebin](https://github.com/pearxteam/kpastebin) - Multiplatform Kotlin library to interact with the pastebin.com API
 * [saschpe/log4k](https://github.com/saschpe/log4k) - Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments.
 * [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
@@ -505,9 +506,9 @@ Here is the awesome badge for your project:
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
 * [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
+* [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
-* [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
 * [s1monw1/TLSLibrary](https://github.com/s1monw1/TLSLibrary) - Simple TlsLibrary written in Kotlin - Provides DSL for creating TLS connections
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
@@ -579,8 +580,8 @@ Here is the awesome badge for your project:
 * [kotlin-graphics/ovr](https://github.com/kotlin-graphics/ovr) - Oculus binding
 * [kotlin-graphics/uno-sdk](https://github.com/kotlin-graphics/uno-sdk) - Unofficial OpenGL SDK
 * [kotlin-graphics/gli](https://github.com/kotlin-graphics/gli) - g-truck gli port, image library
-* [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
 * [Jonatino/JOGL2D](https://github.com/Jonatino/JOGL2D) - Zero-overhead 2D rendering library for JOGL using Kotlin.
+* [kotlin-graphics/openvr](https://github.com/kotlin-graphics/openvr) - OpenVR binding
 * [kotlin-graphics/bullet](https://github.com/kotlin-graphics/bullet) - bullet port
 * [soywiz/kaifu2x](https://github.com/soywiz/kaifu2x) - Waifu2x port to Kotlin as library and CLI. Convolutional-neural-network based upscaler for Anime-like images and noise/artifact reduction.
 * [java-opengl-labs/learn-OpenGL](https://github.com/java-opengl-labs/learn-OpenGL) - port of https://learnopengl.com/ tutorial (lwjgl)
