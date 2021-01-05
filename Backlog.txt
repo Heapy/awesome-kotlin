@@ -1942,3 +1942,4 @@ https://proandroiddev.com/backing-properties-in-kotlin-cb78dfebfd90
 http://blog.hellocode.co/post/receiving-multiple-images-android/
 https://github.com/arunkumar9t2/transition-x
 https://blog.jetbrains.com/kotlin/2018/09/kotlin-1-3-rc-is-here-migrate-your-coroutines/
+https://chao2zhang.medium.com/unraveling-mockks-black-magic-e725c61ed9dd

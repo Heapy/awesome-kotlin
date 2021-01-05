@@ -1792,4 +1792,11 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
     }
   }
+  subcategory("Logging") {
+    link {
+      github = "Foso/Cabret-Log"
+      desc = "Method call logging for Kotlin Multiplatform"
+      setPlatforms(JVM, JS, ANDROID, NATIVE, IOS, COMMON)
+    }
+  }
 }
