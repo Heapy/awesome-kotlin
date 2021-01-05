@@ -385,6 +385,10 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "BanDev/Buddha-Quotes"
+      desc = "A collaborative project to create a Free and Open Source Buddha Quotes app."
+    }
+    link {
       github = "antoniolg/Bandhook-Kotlin"
       desc = "A showcase music app for Android entirely written using Kotlin language."
     }
