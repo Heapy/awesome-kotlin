@@ -318,7 +318,7 @@ category("Libraries/Frameworks") {
       setTags("test", "html", "template", "dom", "dsl", "parser", "webcrawler", "scraper", "ktor", "spring-boot")
     }
     link {
-      github = "krzema12/PlotAssert"
+      github = "krzema12/vis-assert"
       desc = "Test the shape of your functions!"
       setTags("test", "testing", "dsl", "ascii-art")
     }
