@@ -1799,4 +1799,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS, ANDROID, NATIVE, IOS, COMMON)
     }
   }
+  subcategory("Mail") {
+    link {
+      github = "bluefireoly/SimpleKotlinMail"
+      desc = "A simple, modern and coroutine based Kotlin Email API, supporting both clientside and serverside projects."
+      setTags("mail", "smtp", "email", "mailserver")
+      setPlatforms(JVM)
+    }
+  }
 }
