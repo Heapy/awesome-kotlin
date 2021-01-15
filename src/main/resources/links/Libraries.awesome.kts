@@ -1029,6 +1029,11 @@ category("Libraries/Frameworks") {
       desc = "Modern Multiplatform Game Engine for Kotlin. Write games for the JVM, JavaScript, Android and iOS in no time using Kotlin."
       setTags("desktop", "android", "games", "game-dev")
     }
+    link {
+      github = "KogeLabs/Ockero"
+      desc = "Ockero: Kotlin OpenGl Game Engine"
+      setPlatforms(JVM)
+    }
   }
   subcategory("Misc") {
     link {
