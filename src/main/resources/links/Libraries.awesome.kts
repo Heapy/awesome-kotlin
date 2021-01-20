@@ -1782,6 +1782,11 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, JS, JVM)
       awesome()
     }
+    link {
+      github = "adamint/spotify-web-api-kotlin"
+      desc = "Spotify Web API wrapper for Kotlin/Android, JVM, JS, and Native targets."
+      setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
+    }
   }
   subcategory("Internationalisation and Localization") {
     link {
