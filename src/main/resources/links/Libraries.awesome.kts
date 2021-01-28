@@ -1683,6 +1683,13 @@ category("Libraries/Frameworks") {
       setTags("data science", "artificial-intelligence", "mathematical-optimization", "constraint-solving")
     }
     link {
+      github = "holgerbrandl/kalasim"
+      desc = "Discrete event simulator that enables complex, dynamic process models."
+      href = "https://www.kalasim.org"
+      setTags("data science", "state machine")
+      setPlatforms(JVM)
+    }
+    link {
       github = "cdietze/euklid"
       setPlatforms(COMMON, JS, JVM)
     }
