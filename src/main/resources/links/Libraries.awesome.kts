@@ -1781,6 +1781,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("evcalc", "dynamium", "calculation", "ev", "euc", "electric unicycles", "electric-scooters", "engine")
     }
+    link {
+      github = "agcom/knio2"
+      desc = "Kotlinx coroutines extensions for Java NIO.2"
+      setPlatforms(JVM)
+      setTags("io")
+    }
   }
   subcategory("API Clients") {
     link {
