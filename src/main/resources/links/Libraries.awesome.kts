@@ -409,7 +409,6 @@ category("Libraries/Frameworks") {
       desc = "Forget about modules and components. DI can be simple"
       setTags("di", "dependency injection", "android", "multiplatform")
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
-      awesome()
     }
   }
   subcategory("Coroutines") {
