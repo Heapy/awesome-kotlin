@@ -404,6 +404,12 @@ category("Libraries/Frameworks") {
       github = "evant/kotlin-inject"
       setPlatforms(JVM)
     }
+    link {
+      github = "corbella83/PopKorn"
+      desc = "Forget about modules and components. DI can be simple"
+      setTags("di", "dependency injection", "android", "multiplatform")
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
+    }
   }
   subcategory("Coroutines") {
     link {
