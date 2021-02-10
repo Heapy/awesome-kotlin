@@ -1402,6 +1402,12 @@ category("Libraries/Frameworks") {
       setTags("parser", "parser-combinator", "recursive descent")
       setPlatforms(JVM)
     }
+    link {
+      github = "asm0dey/staks"
+      desc = "Extensible XML parser DSL, based on StAX"
+      setTags("XML", "StAX", "DSL", "parser")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Raspberry Pi") {
     link {
