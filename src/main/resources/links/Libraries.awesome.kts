@@ -1324,6 +1324,7 @@ category("Libraries/Frameworks") {
       desc = "Kotlin Multiplatform library for type-safe work with Telegram Bot API"
       href = "https://github.com/insanusmokrassar/TelegramBotAPI"
       setTags("telegram", "bot", "multiplatform", "Kotlin/JVM", "Kotlin/JS")
+      setPlatforms(COMMON, JVM, JS)
     }
     link {
       github = "aminography/PrimeCalendar"
