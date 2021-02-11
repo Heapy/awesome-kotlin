@@ -1320,6 +1320,12 @@ category("Libraries/Frameworks") {
       desc = "A wrapper for the Telegram Bot API written in Kotlin."
     }
     link {
+      github = "insanusmokrassar/TelegramBotAPI"
+      desc = "Kotlin Multiplatform library for type-safe work with Telegram Bot API"
+      setTags("telegram", "bot", "multiplatform", "Kotlin/JVM", "Kotlin/JS")
+      setPlatforms(COMMON, JVM, JS)
+    }
+    link {
       github = "aminography/PrimeCalendar"
       desc = "Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other."
     }
