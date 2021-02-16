@@ -1382,6 +1382,12 @@ category("Libraries/Frameworks") {
       setTags("ipc", "extension", "misc")
       setPlatforms(JVM)
     }
+    link {
+      github = "ivanisidrowu/KtRssReader"
+      desc = "Kotlin library for parsing RSS feeds"
+      setTags("rss", "feed")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Parsers") {
     link {
