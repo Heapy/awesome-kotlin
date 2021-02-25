@@ -1449,6 +1449,11 @@ category("Libraries/Frameworks") {
       setTags("xpath", "xpath-builder", "typesafe-builder", "multiplatform")
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
+    link {
+      github = "ionspin/kotlin-multiplatform-libsodium"
+      desc = "Kotlin multiplatform wrapper for Libsodium cryptographic library."
+      setTags("multiplatform", "libsodium", "cryptography")
+    }
   }
   subcategory("Extensions") {
     link {
