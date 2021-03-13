@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     application
     kotlin("jvm").version(kotlinVersion)
@@ -8,8 +10,19 @@ application {
 }
 
 repositories {
-    jcenter()
-    maven { url = uri("https://dl.bintray.com/heapy/heap") }
+    mavenCentral()
+    maven { url = uri("https://repo.kotlin.link") }
+}
+
+tasks.withType<Test>().configureEach {
+    useJUnitPlatform()
+}
+
+tasks.withType<KotlinCompile>().configureEach {
+    kotlinOptions {
+        jvmTarget = "11"
+        languageVersion = "1.4"
+    }
 }
 
 dependencies {
@@ -25,10 +38,9 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.2.3")
     implementation("io.sentry:sentry-logback:1.7.30")
 
-    implementation("com.rometools:rome:1.12.2")
+    implementation("com.rometools:rome:1.15.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
     implementation("org.jsoup:jsoup:1.13.1")
-    implementation("by.heap.remark:remark-kotlin:1.2.0")
 
     implementation(kotlin("scripting-common"))
     implementation(kotlin("scripting-jvm"))

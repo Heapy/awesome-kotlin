@@ -1,7 +1,5 @@
 package link.kotlin.scripts.import
 
-import by.heap.remark.Options
-import by.heap.remark.Remark
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.runBlocking
@@ -64,19 +62,11 @@ data class ReadabilityResponse(
     val next_page_url: String?
 )
 
-val opts = Options().apply {
-    hardwraps = true
-    fencedCodeBlocks = Options.FencedCodeBlocks.ENABLED_BACKTICK
-    autoLinks = true
-    tables = Options.Tables.CONVERT_TO_CODE_BLOCK
-    inlineLinks = true
-}
-val remark = Remark(opts)
 
 fun ReadabilityResponse.toArticle(): String {
     val date = if (date_published != null) parseInstant(date_published) else now()
 
-    val body = remark.convert(content)
+    val body = content.toMarkdown()
 
     return """
 
@@ -104,4 +94,8 @@ Article(
   body = body
 )
 """
+}
+
+private fun String.toMarkdown(): String {
+    return this
 }
