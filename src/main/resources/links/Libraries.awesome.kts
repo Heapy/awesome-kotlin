@@ -1846,6 +1846,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Logging") {
     link {
+      github = "LighthouseGames/KmLogging"
+      desc = "Kotlin multiplatform logging. High performance, composable and simple to use."
+      setPlatforms(ANDROID, NATIVE, IOS, COMMON, JVM, JS)
+      setTags("logging", "multiplatform")
+    }
+    link {
       github = "Foso/Cabret-Log"
       desc = "Method call logging for Kotlin Multiplatform"
       setPlatforms(JVM, JS, ANDROID, NATIVE, IOS, COMMON)
