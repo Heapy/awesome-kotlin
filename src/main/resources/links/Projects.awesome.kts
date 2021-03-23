@@ -172,6 +172,11 @@ category("Projects") {
       href = "https://github.com/krzema12/fsynth"
       setTags("music", "functional-programming", "multiplatform")
     }
+    link {
+      github = "AngryJKirk/familybot"
+      desc = "Telegram bot to have some fun with your buddies"
+      setTags("telegram")
+    }
   }
   subcategory("Desktop") {
     link {
