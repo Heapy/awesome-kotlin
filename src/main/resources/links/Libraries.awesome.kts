@@ -191,6 +191,12 @@ category("Libraries/Frameworks") {
       setTags("jdbc", "web", "di")
       setPlatforms(JVM)
     }
+    link {
+      github = "ButterCam/sisyphus"
+      desc = "Modern gRPC service framework based on Kotlin/Spring Boot with Message DSL/HTTP transcoding/Google AIP support."
+      setTags("web", "microservice", "grpc", "spring", "protobuf", "rest")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Testing") {
     link {
