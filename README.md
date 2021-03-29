@@ -119,9 +119,10 @@ Here is the awesome badge for your project:
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform  Music Downloader ,supports: Spotify/Gaana/Youtube
 * [android/android-dev-challenge-compose](https://github.com/android/android-dev-challenge-compose) - Template repository for the Jetpack Compose #AndroidDevChallenge
+* [DroidKaigi/conference-app-2021](https://github.com/DroidKaigi/conference-app-2021) - The Official App for DroidKaigi 2021
 * [edxposedd/wework](https://github.com/edxposedd/wework) - 【Xposed Hook 企业微信 微信】企业微信机器人 微信机器人 自动抢回复 会话 自动通过 好友列表 群管理 SDK
+* [CarlosEsco/Neko](https://github.com/CarlosEsco/Neko) - Free, open source, unofficial MangaDex reader  for Android
 * [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - Minimal Kotlin Multiplatform project using Jetpack Compose and SwiftUI
 * [hegaojian/JetpackMvvm](https://github.com/hegaojian/JetpackMvvm) - :chicken::basketball:一个Jetpack结合MVVM的快速开发框架，基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation组件 使用Kotlin语言，添加大量拓展函数，简化代码 加入Retrofit网络请求,协程，帮你简化各种操作，让你快速开发项目
 * [tachiyomiorg/tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions) - Source extensions for the Tachiyomi app.
 * [hussien89aa/KotlinUdemy](https://github.com/hussien89aa/KotlinUdemy) - Learn how to make online games, and apps for Android O, like Pokémon , twitter,Tic Tac Toe, and notepad using Kotlin
@@ -134,48 +135,46 @@ Here is the awesome badge for your project:
 * [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
 * [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
+* [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
 * [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - Free and open source manga reader for Android.
 * [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
-* [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
-* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [Moriafly/DsoMusic](https://github.com/Moriafly/DsoMusic) - Kotlin 开发的安卓音乐软件，音源：网易云音乐、QQ 音乐
 * [mars885/gamedge](https://github.com/mars885/gamedge) - An Android application for browsing video games and checking the latest gaming news from around the world.
+* [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) - Mirai HTTP API (console) plugin
+* [android/storage-samples](https://github.com/android/storage-samples) - Multiple samples showing the best practices in storage APIs on Android.
 * [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
-* [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
+* [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
 * [Netflix/dgs-framework](https://github.com/Netflix/dgs-framework) 
 * [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [Szaki/XiaomiADBFastbootTools](https://github.com/Szaki/XiaomiADBFastbootTools) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
-* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
 * [skydoves/Pokedex](https://github.com/skydoves/Pokedex) - 🗡️ Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack (Room, ViewModel, LiveData) based on MVVM architecture.
 * [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - :electric_plug:Translation plugin for IntelliJ based IDEs/Android Studio
-* [nickbutcher/plaid](https://github.com/nickbutcher/plaid) - An Android app which provides design news &amp; inspiration as well as being an example of implementing material design.
-* [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 * [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [Netflix/dgs-codegen](https://github.com/Netflix/dgs-codegen) 
-* [fidloo/flux](https://github.com/fidloo/flux) - #AndroidDevChallenge
+* [aculix/Channelify](https://github.com/aculix/Channelify) - Convert your YouTube channel into a native Android app using YouTube Data API v3.
+* [dbaroncelli/D-KMP-sample](https://github.com/dbaroncelli/D-KMP-sample) - D-KMP official sample
+* [codinginflow/MVVMNewsApp](https://github.com/codinginflow/MVVMNewsApp) 
+* [fredoverflow/karel](https://github.com/fredoverflow/karel) - Karel The Robot
 * [ejiaogl/FuckCoolapk](https://github.com/ejiaogl/FuckCoolapk) - Best present for 316 and 423.
-* [mapbox/mapbox-navigation-android](https://github.com/mapbox/mapbox-navigation-android) - Mapbox Navigation SDK for Android
-* [jitsi/jibri](https://github.com/jitsi/jibri) - Jitsi BRoadcasting Infrastructure
-* [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) - Mirai HTTP API (console) plugin
-* [JetBrains/projector-server](https://github.com/JetBrains/projector-server) - Server-side library for running Swing applications remotely
-* [android/storage-samples](https://github.com/android/storage-samples) - Multiple samples showing the best practices in storage APIs on Android.
-* [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android
-* [Tencent/bk-ci](https://github.com/Tencent/bk-ci) - 蓝鲸CI平台(BlueKing CI)
+* [Spikeysanju/Expenso](https://github.com/Spikeysanju/Expenso) - 📊 A Minimal Expense Tracker App built to demonstrate the use of modern android architecture component with MVVM Architecture
+* [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
+* [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - Browse your memories without any interruptions with this photo and video gallery
 * [CypherpunkArmory/UserLAnd](https://github.com/CypherpunkArmory/UserLAnd) - Main UserLAnd Repository
-* [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
+* [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
+* [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
+* [cashapp/sqldelight](https://github.com/cashapp/sqldelight) - SQLDelight - Generates typesafe Kotlin APIs from SQL
 * [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
-* [kittinunf/fuel](https://github.com/kittinunf/fuel) - The easiest HTTP networking library for Kotlin/Android
-* [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人框架 / High-performance bot framework for QQ
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
+* [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -508,10 +507,10 @@ Here is the awesome badge for your project:
 * [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
 * [evoasm/kasm](https://github.com/evoasm/kasm) - x64/x86-64 assembler and execution library
-* [insanusmokrassar/TelegramBotAPI](https://github.com/insanusmokrassar/TelegramBotAPI) - Kotlin Multiplatform library for type-safe work with Telegram Bot API
 * [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [aminography/PrimeCalendar](https://github.com/aminography/PrimeCalendar) - Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other.
 * [phxql/aleksa](https://github.com/phxql/aleksa) - Aleksa is a small framework for writing Alexa Skills in Kotlin.
+* [insanusmokrassar/TelegramBotAPI](https://github.com/insanusmokrassar/TelegramBotAPI) - Kotlin Multiplatform library for type-safe work with Telegram Bot API
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [korlibs/kds](https://github.com/korlibs/kds) - Optimized Kotlin Data Structures for JVM, JS and Common
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
@@ -918,8 +917,8 @@ Here is the awesome badge for your project:
 * [stangls/kotlin-js-jquery](https://github.com/stangls/kotlin-js-jquery) - A small framework for writing client -side web -applications in Kotlin.
 * [shafirov/klogging](https://github.com/shafirov/klogging) - Kotlin logging, both js and jvm.
 * [markaren/three-kt-wrapper](https://github.com/markaren/three-kt-wrapper) - Kotlin wrappers for three.js JavaScript 3D library
-* [pixijs/pixi-native](https://github.com/pixijs/pixi-native) - The aim of this project is to provide a fast lightweight 2D library that works across all devices.
 * [danfma/kodando](https://github.com/danfma/kodando) - Kotlin JS bindings and libraries.
+* [pixijs/pixi-native](https://github.com/pixijs/pixi-native) - The aim of this project is to provide a fast lightweight 2D library that works across all devices.
 * [Kabbura/Kunafa](https://github.com/Kabbura/Kunafa) - Easy to use, high level framework in Kotlin for front-end web-development and creating web apps without using HTML, CSS, or JavaScript.
 * [nosix/vue-kotlin](https://github.com/nosix/vue-kotlin) - Libraries and tools supporting the use of Vue.js in Kotlin
 * [Foso/MpApt](https://github.com/Foso/MpApt) - Kotlin Native/JS/JVM Annotation Processor library
