@@ -825,6 +825,11 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "facebookincubator/ktfmt"
+      desc = "Kotlin code formatter that reflows lines and always produces the same result."
+      setTags("formatter", "pretty print")
+    }
+    link {
       github = "mkohm/detekt-hint"
       desc = "Detection of design principle violations as a plugin to detekt."
     }
