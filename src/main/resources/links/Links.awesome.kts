@@ -126,6 +126,10 @@ category("Links") {
       href = "https://antonioleiva.com/"
     }
     link {
+      name = "freecodecamp Kotlin article collection"
+      href = "https://www.freecodecamp.org/news/tag/kotlin/"
+    }
+    link {
       name = "Kotlin Expertise Blog"
       desc = "A Blog with many articles covering basic and advanced Kotlin topics."
       href = "https://kotlinexpertise.com/"
