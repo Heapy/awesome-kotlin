@@ -25,11 +25,6 @@ script:
 
 deploy:
   - provider: script
-    script: bash .ci/deploy-docker.sh
-    skip_cleanup: true
-    on:
-      branch: main
-  - provider: script
     script: bash .ci/deploy-site.sh
     skip_cleanup: true
     on:
