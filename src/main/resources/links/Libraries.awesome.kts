@@ -690,6 +690,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "bloomberg/selekt"
+      href = "https://bloomberg.github.io/selekt"
+      desc = "Android SQL database library wrapping the community edition of SQLCipher, an SQLite extension that provides 256-bit AES encryption. Selekt realises the maximum concurrency offered by SQLite3."
+      setTags("android", "database", "sql", "sqlcipher", "sqlite")
+    }
+    link {
       github = "x2bool/kuery"
       desc = "Typesafe SQL with Kotlin."
       setTags("database", "sql", "type-safe builder")
