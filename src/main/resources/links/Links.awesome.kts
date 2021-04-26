@@ -47,6 +47,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "Awesome Kotlin Jobs"
+      desc = "A curated list of companies using Kotlin"
+      href = "https://github.com/vinigmoraes/awesome-kotlin-jobs"
+    }
+    link {
       name = "Jobs for Kotlin Developers"
       desc = "All job listings require Kotlin skills"
       href = "https://kotlin-jobs.com/"
