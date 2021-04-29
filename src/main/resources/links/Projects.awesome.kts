@@ -77,6 +77,10 @@ category("Projects") {
       setTags("kodein", "cloud", "serverless")
 
     }
+    link {
+      github = "MichaelGrigoryan25/kotlin-url-shortener"
+      desc = "Basic URL shortener built with Kotlin, Redis and Javalin"
+      setTags("javalin", "url-shortener", "redis", "web", "gradle", "kotlin")
   }
   subcategory("Build tools") {
     link {
