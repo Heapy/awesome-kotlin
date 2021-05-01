@@ -28,7 +28,7 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles("**/*.gradle.kts", "**/gradle-wrapper.properties") }}
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
       - name: "Set up JDK ${{ matrix.jdk }}"
