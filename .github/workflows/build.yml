@@ -1,8 +1,8 @@
 name: "Build"
 on:
   push:
-    branches:
-      - "main"
+#    branches:
+#      - "main"
   schedule:
     - cron: "37 13 * * *"
 jobs:
