@@ -13,10 +13,6 @@ indent_size=2
 indent_style=space
 indent_size=4
 
-[.travis.yml]
-indent_style=space
-indent_size=2
-
-[*.{js,ts,tsx,less,html}]
+[*.{js,ts,tsx,less,html,yml}]
 indent_style=space
 indent_size=2
