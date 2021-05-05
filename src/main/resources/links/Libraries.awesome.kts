@@ -1567,6 +1567,11 @@ category("Libraries/Frameworks") {
       setTags("glm", "opengl", "vulkan", "matrices", "vectors", "math-library")
     }
     link {
+      github = "dananas/kotlin-glsl"
+      desc = "Write your GLSL shaders in Kotlin"
+      setTags("glsl", "opengl")
+    }
+    link {
       github = "kotlin-graphics/kotlin-unsigned"
       desc = "Unsigned operators and boxed types (Ubyte, Uint, Ulong and Ushort) for unsigned support."
       setTags("unsigned", "math")
