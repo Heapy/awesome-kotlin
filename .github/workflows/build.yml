@@ -85,8 +85,8 @@ jobs:
           push: true
           context: app-frontend
           tags: |
-            ghcr.io/KotlinBy/awesome-kotlin:main
-            ghcr.io/KotlinBy/awesome-kotlin:b${{ github.run_number }}
+            ghcr.io/kotlinby/awesome-kotlin:main
+            ghcr.io/kotlinby/awesome-kotlin:b${{ github.run_number }}
       - name: "Deploy Readme"
         uses: peaceiris/actions-gh-pages@v3
         with:
