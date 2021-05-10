@@ -21,7 +21,6 @@ tasks.withType<Test>().configureEach {
 tasks.withType<KotlinCompile>().configureEach {
     kotlinOptions {
         jvmTarget = "11"
-        languageVersion = "1.4"
     }
 }
 
@@ -36,7 +35,6 @@ dependencies {
 
     implementation("org.slf4j:slf4j-api:1.7.30")
     implementation("ch.qos.logback:logback-classic:1.2.3")
-    implementation("io.sentry:sentry-logback:1.7.30")
 
     implementation("com.rometools:rome:1.15.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
