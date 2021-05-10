@@ -2,8 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {withRouter} from "react-router";
 import {parse} from "query-string";
-
-const styles = require("./search.less");
+import "./search.less";
 
 class SearchComponent extends React.Component<SearchProps, SearchState> {
   constructor(props) {
@@ -33,9 +32,9 @@ class SearchComponent extends React.Component<SearchProps, SearchState> {
   };
 
   render() {
-    return <section className={styles.search}>
-      <form className={styles.search_wrapper}>
-        <input className={styles.search_field}
+    return <section className="search">
+      <form className="search_wrapper">
+        <input className="search_field"
                ref="search"
                onKeyPress={this.handleKeyPress}
                onChange={this.handleChange}

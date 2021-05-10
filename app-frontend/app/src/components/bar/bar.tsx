@@ -1,28 +1,11 @@
 import * as React from "react";
-import {style} from "typestyle";
-import {KotlinVersion} from "./KotlinVersion";
-
-const {wrapper, bar} = {
-  wrapper: style({
-    display: "block",
-    maxWidth: "1024px",
-    margin: "auto",
-    padding: "20px"
-  }),
-  bar: style({
-    backgroundColor: "rgba(242, 242, 242, 0.7)",
-    $nest: {
-      "& > *": {
-        boxSizing: "border-box"
-      }
-    }
-  })
-};
+import {KotlinVersion} from "../version/KotlinVersion";
+import "./bar.less";
 
 export function Bar({versions}: Props) {
   return (
-    <section className={bar}>
-      <div className={wrapper}>
+    <section className="bar">
+      <div className="bar_wrapper">
         {versions.map(version => <KotlinVersion key={version} version={version}/>)}
       </div>
     </section>

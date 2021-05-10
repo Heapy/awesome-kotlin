@@ -6,9 +6,8 @@ import {withRouter} from "react-router";
 import {searchString} from "../../locations";
 import {Bar} from "../bar/bar";
 import {Links} from "../../model";
-import {Navigation} from "../bar/Navigation";
-
-const styles = require("./page_wrapper.less");
+import {Navigation} from "../navigation/Navigation";
+import "./page_wrapper.less";
 
 const versions = require("../../../versions.json");
 
@@ -91,7 +90,7 @@ class LinksPageComponent extends React.Component<PageProps, PageState> {
     return (
       <div>
         <a href="https://github.com/KotlinBy/awesome-kotlin">
-          <img className={styles.page_github_link}
+          <img className="page_github_link"
                src={require("./fork-me.svg")}
                alt="Fork me on GitHub"/>
         </a>

@@ -26,8 +26,8 @@ Build started with following configuration:
     },
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "[name].js?[hash]",
-      chunkFilename: "[name].bundle.js?[hash]",
+      filename: "[name].js?[contenthash]",
+      chunkFilename: "[name].bundle.js?[chunkhash]",
       publicPath: "/"
     },
     optimization: {
@@ -51,12 +51,7 @@ Build started with following configuration:
         use: [{
           loader: "style-loader"
         }, {
-          loader: "css-loader",
-          options: {
-            modules: {
-              localIdentName: "[name]_[local]"
-            }
-          }
+          loader: "css-loader"
         }, {
           loader: "postcss-loader",
           options: {
@@ -69,13 +64,12 @@ Build started with following configuration:
         }]
       }, {
         test: /\.(png|jpg|gif|svg)$/,
-        use: [{
-          loader: "url-loader",
-          options: {
-            limit: 32768,
-            esModule: false
+        type: "asset",
+        parser: {
+          dataUrlCondition: {
+            maxSize: 32768
           }
-        }]
+        }
       }]
     },
     plugins: createListOfPlugins({NODE_ENV}, APP_DIR),

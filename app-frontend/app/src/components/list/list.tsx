@@ -1,19 +1,18 @@
 import * as React from "react";
 import {Listitem} from "../listitem/listitem";
 import {Link, LinkState, Subcategory} from "../../model";
-
-const styles = require("./list.less");
+import "./list.less";
 
 export class Subcategories extends React.Component<SubcategoriesProps, SubcategoriesState> {
   render() {
     const {subcategory} = this.props;
 
     return (
-      <section ref="subcategory" className={styles.list}>
-        <h3 id={getAnchor(this.props.prefix, subcategory.name)} className={styles.list_title}>
+      <section ref="subcategory" className="list">
+        <h3 id={getAnchor(this.props.prefix, subcategory.name)} className="list_title">
           <a href={`#${getAnchor(this.props.prefix, subcategory.name)}`}>{subcategory.name}</a>
         </h3>
-        <ul className={styles.list_list}>
+        <ul className="list_list">
           {renderLinks(subcategory.links.filter(link => link.state === LinkState.AWESOME))}
           {renderLinks(subcategory.links.filter(link => link.state === LinkState.DEFAULT))}
           {renderLinks(subcategory.links.filter(link => link.state === LinkState.ARCHIVED))}

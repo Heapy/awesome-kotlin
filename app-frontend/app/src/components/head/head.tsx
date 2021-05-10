@@ -1,7 +1,6 @@
 import * as React from "react";
 import {Logo, LOGOS} from "./logos";
-
-const styles = require("./head.less");
+import "./head.less";
 
 interface State {
   readonly index: number;
@@ -46,22 +45,22 @@ export class Head extends React.Component<{}, State> {
         <a href={logo.link} target="_blank">
           <img src={logo.src}
                alt={logo.alt()}
-               className={styles.head_logo}/>
+               className="head_logo"/>
         </a>
       );
     } else {
       return (
         <img src={logo.src}
              alt={logo.alt()}
-             className={styles.head_logo}/>
+             className="head_logo"/>
       );
     }
   }
 
   render() {
     return (
-      <section className={styles.head}>
-        <div className={styles.head_wrapper} onClick={this.changeLogo}>
+      <section className="head">
+        <div className="head_wrapper" onClick={this.changeLogo}>
           {this.activeLogo()}
         </div>
       </section>

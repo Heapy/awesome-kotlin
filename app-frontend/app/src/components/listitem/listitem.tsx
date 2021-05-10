@@ -1,8 +1,7 @@
 import * as React from "react";
 import {Link, LinkState} from "../../model";
-import {classes} from "typestyle";
-
-const styles = require("./listitem.less");
+import {classes} from "../../styles";
+import "./listitem.less";
 
 function split(str: string): string {
   return str.replace("/", "/​"); // replace "/" with "/ and https://en.wikipedia.org/wiki/Zero-width_space"
@@ -10,9 +9,10 @@ function split(str: string): string {
 
 export function Listitem({link}: ListitemProps) {
   return (
-    <li className={classes(styles.listitem, {
-      [styles.listitem_archived]: link.state === LinkState.ARCHIVED,
-      [styles.listitem_unsupported]: link.state === LinkState.UNSUPPORTED
+    <li className={classes({
+      ["listitem"]: true,
+      ["listitem_archived"]: link.state === LinkState.ARCHIVED,
+      ["listitem_unsupported"]: link.state === LinkState.UNSUPPORTED
     })}>
 
       {getStars(link)}
@@ -21,12 +21,12 @@ export function Listitem({link}: ListitemProps) {
          target="_blank"
          title={getTitle(link)}
          rel="nofollow noopener"
-         className={styles.listitem_link}>
+         className="listitem_link">
         {split(link.name)}
       </a>
 
       {getLastUpdated(link)}
-      <span className={styles.listitem_description}
+      <span className="listitem_description"
             dangerouslySetInnerHTML={{__html: link.desc}}/>
 
     </li>
@@ -52,11 +52,11 @@ function getTitle(link: Link): string {
 function getStars(link) {
   if (link.star) {
     return (
-      <span className={styles.listitem_star}>
-        <span className={styles.listitem_star_count}>{link.star}</span>
+      <span className="listitem_star">
+        <span className="listitem_star_count">{link.star}</span>
         <img src={require("./star.svg")}
              alt="Star"
-             className={styles.listitem_star_icon}/>
+             className="listitem_star_icon"/>
       </span>
     );
   }
@@ -65,7 +65,7 @@ function getStars(link) {
 function getLastUpdated(link) {
   if (link.update) {
     return (
-      <p className={styles.listitem_description}>{`Last update: ${link.update}`}</p>
+      <p className="listitem_description">{`Last update: ${link.update}`}</p>
     );
   }
 }

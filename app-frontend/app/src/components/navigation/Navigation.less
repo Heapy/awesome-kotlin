@@ -1,0 +1,27 @@
+.navigation {
+  &_bar {
+    background-color: rgba(242, 242, 242, 0.7);
+
+    & > * {
+      box-sizing: border-box;
+    }
+
+    &_wrapper {
+      display: block;
+      max-width: 1024px;
+      margin: auto;
+      padding: 20px;
+
+      & a.link {
+        font-size: 24px;
+        color: #F0610B;
+        text-decoration: none;
+        margin: 10px;
+
+        &:active {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
