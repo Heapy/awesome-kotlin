@@ -75,12 +75,12 @@ category("Projects") {
       github = "viniciusccarvalho/kodein-cloud-functions"
       desc = "Provides adapters to different cloud functions providers (AWS, Azure) to run vanilla kotlin functions defined as kodein modules"
       setTags("kodein", "cloud", "serverless")
-
     }
     link {
       github = "MichaelGrigoryan25/kotlin-url-shortener"
       desc = "Basic URL shortener built with Kotlin, Redis and Javalin"
       setTags("javalin", "url-shortener", "redis", "web", "gradle", "kotlin")
+    }
   }
   subcategory("Build tools") {
     link {
