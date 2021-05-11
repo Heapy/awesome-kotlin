@@ -773,7 +773,6 @@ __metadata:
     normalize.css: ^8.0.1
     postcss: ^8.2.14
     postcss-loader: ^5.2.0
-    query-string: Heapy/query-string
     react: ^17.0.2
     react-dom: ^17.0.2
     react-router: ^5.2.0
@@ -4684,13 +4683,6 @@ fsevents@^1.2.7:
   version: 6.7.0
   resolution: "qs@npm:6.7.0"
   checksum: 8590470436ff0a75ae35e6b45fd7260e2beb537ff8ec1104f9703a349b09ce1aa27e8e1c06b9ad25ac62fc098e12cc65df93042a233128a0276ccd6de4c7819a
-  languageName: node
-  linkType: hard
-
-query-string@Heapy/query-string:
-  version: 1.0.0
-  resolution: "query-string@https://github.com/Heapy/query-string.git#commit=777eb5fd82d04dfcffdd0678ab0a5d84297f9883"
-  checksum: b7b6ded3284642d25ce919fd69135031e9d97d624e09fe00a76d47135f18a6da0e5988fd80513e13ba249aedce660a16a1d611d4a8e7a62021b16762368400af
   languageName: node
   linkType: hard
 

@@ -54,7 +54,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normalize.css", "npm:8.0.1"],
             ["postcss", "npm:8.2.14"],
             ["postcss-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.2.0"],
-            ["query-string", "https://github.com/Heapy/query-string.git#commit=777eb5fd82d04dfcffdd0678ab0a5d84297f9883"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:17.0.2"],
             ["react-router", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.2.0"],
@@ -1022,7 +1021,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normalize.css", "npm:8.0.1"],
             ["postcss", "npm:8.2.14"],
             ["postcss-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.2.0"],
-            ["query-string", "https://github.com/Heapy/query-string.git#commit=777eb5fd82d04dfcffdd0678ab0a5d84297f9883"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:17.0.2"],
             ["react-router", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.2.0"],
@@ -5541,15 +5539,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/qs-npm-6.7.0-15161a344c-8590470436.zip/node_modules/qs/",
           "packageDependencies": [
             ["qs", "npm:6.7.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["query-string", [
-        ["https://github.com/Heapy/query-string.git#commit=777eb5fd82d04dfcffdd0678ab0a5d84297f9883", {
-          "packageLocation": "./.yarn/cache/query-string-https-7b1cfe4e11-b7b6ded328.zip/node_modules/query-string/",
-          "packageDependencies": [
-            ["query-string", "https://github.com/Heapy/query-string.git#commit=777eb5fd82d04dfcffdd0678ab0a5d84297f9883"]
           ],
           "linkType": "HARD",
         }]

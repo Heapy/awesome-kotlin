@@ -7,7 +7,6 @@
     "copy-to-clipboard": "^3.3.1",
     "core-js": "^3.12.1",
     "normalize.css": "^8.0.1",
-    "query-string": "Heapy/query-string",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
