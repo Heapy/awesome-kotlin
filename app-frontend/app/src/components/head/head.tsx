@@ -45,6 +45,7 @@ export class Head extends React.Component<{}, State> {
         <a href={logo.link} target="_blank">
           <img src={logo.src}
                alt={logo.alt()}
+               title={logo.alt()}
                className="head_logo"/>
         </a>
       );
@@ -52,6 +53,7 @@ export class Head extends React.Component<{}, State> {
       return (
         <img src={logo.src}
              alt={logo.alt()}
+             title={logo.alt()}
              className="head_logo"/>
       );
     }

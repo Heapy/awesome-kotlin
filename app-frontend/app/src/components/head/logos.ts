@@ -69,5 +69,18 @@ export const LOGOS: Logo[] = [
     alt: () => "Kotlin Language Logo",
     show: () => true,
     exclusive: false,
-  }
+  },
+  {
+    src: require("./10K.svg"),
+    alt: () => {
+      return `Celebrating 10 Years of Kotlin!`
+    },
+    show: () => {
+      const now = Date.now()
+
+      return (1623448800000 <= now) && (now <= 1624140000000);
+    },
+    exclusive: true,
+    link: "https://blog.jetbrains.com/kotlin/2021/05/10-years-of-kotlin-stories/"
+  },
 ]
