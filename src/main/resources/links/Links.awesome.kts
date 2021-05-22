@@ -15,7 +15,7 @@ category("Links") {
       href = "https://kotlinlang.org/docs/reference/"
     }
     link {
-      name = "Slack (32k+ users)"
+      name = "Slack (38k+ users)"
       href = "https://slack.kotlinlang.org/"
       awesome()
     }
