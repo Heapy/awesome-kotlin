@@ -6,7 +6,7 @@ on:
     - cron: "37 13 * * *"
 jobs:
   build:
-    name: "Build on JDK 11 and Node.JS 12.x"
+    name: "Build on JDK 11 and Node.JS 14.x"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -35,7 +35,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 14.x
       - run: yarn install
         working-directory: app-frontend
       - run: yarn run build
