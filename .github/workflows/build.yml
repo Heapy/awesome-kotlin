@@ -5,6 +5,15 @@ on:
   schedule:
     - cron: "37 13 * * *"
 jobs:
+  check:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: yarn install --check-cache
   build:
     name: "Build on JDK 11 and Node.JS 14.x"
     runs-on: ubuntu-latest
