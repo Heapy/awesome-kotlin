@@ -349,6 +349,12 @@ category("Android") {
       setTags("permissions", "coroutines", "android", "library")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "MackHartley/DashedView"
+      desc = "The easiest way to create a dashed or striped background on Android"
+      setTags("library", "android", "ui")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
