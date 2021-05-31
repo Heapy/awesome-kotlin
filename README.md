@@ -83,6 +83,7 @@ Here is the awesome badge for your project:
 * <a name="libraries-frameworks-internationalisation-and-localization-subcategory"></a>[Internationalisation and Localization](#libraries-frameworks-internationalisation-and-localization)
 * <a name="libraries-frameworks-logging-subcategory"></a>[Logging](#libraries-frameworks-logging)
 * <a name="libraries-frameworks-mail-subcategory"></a>[Mail](#libraries-frameworks-mail)
+* <a name="libraries-frameworks-jetpack-compose-subcategory"></a>[Jetpack-Compose](#libraries-frameworks-jetpack-compose)
 
 ### <a name="projects-category"></a>[Projects](#projects)
 * <a name="projects-web-subcategory"></a>[Web](#projects-web)
@@ -117,7 +118,7 @@ Here is the awesome badge for your project:
 
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
-* [pl3xgaming/Purpur](https://github.com/pl3xgaming/Purpur) - Purpur is a fork of Paper, Tuinity, and Airplane with the goal of providing new and interesting configuration options, which allow for creating a unique gameplay experience not seen anywhere else
+* [pl3xgaming/Purpur](https://github.com/pl3xgaming/Purpur) - Purpur is a drop-in replacement for Paper servers designed for configurability, new fun and exciting gameplay features, and high performance built on top of Tuinity and Airplane.
 * [zskingking/Jetpack-Mvvm](https://github.com/zskingking/Jetpack-Mvvm) - 使用Jetpack全家桶+Kotlin实现的Android社区App加音乐播放器。不写晦涩难懂的代码，尽量标清每一行注释，严格遵守六大基本原则，大量运用设计模式，此项目可快速帮你入手Kotlin、Jetpack。如果觉得对你有帮助，右上角点个star，事先谢过🍉🍉🍉
 * [CarlosEsco/Neko](https://github.com/CarlosEsco/Neko) - Free, open source, unofficial MangaDex reader  for Android
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform Music Downloader, Supports Spotify / Gaana / Youtube Music .
@@ -130,8 +131,8 @@ Here is the awesome badge for your project:
 * [Gurupreet/ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook) - A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
 * [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
-* [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [android10/Android-CleanArchitecture-Kotlin](https://github.com/android10/Android-CleanArchitecture-Kotlin) - This is a movies sample app in Kotlin, which is part of a serie of blog posts I have written about architecting android application using different approaches.
+* [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
 * [iSoron/uhabits](https://github.com/iSoron/uhabits) - Loop Habit Tracker, a mobile app for creating and maintaining long-term positive habits
 * [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
@@ -662,6 +663,9 @@ Here is the awesome badge for your project:
 
 ### <a name="libraries-frameworks-mail"></a>Mail <sup>[Back ⇈](#libraries-frameworks-mail-subcategory)</sup>
 * [bluefireoly/SimpleKotlinMail](https://github.com/bluefireoly/SimpleKotlinMail) - A simple, modern and coroutine based Kotlin Email API, supporting both clientside and serverside projects.
+
+### <a name="libraries-frameworks-jetpack-compose"></a>Jetpack-Compose <sup>[Back ⇈](#libraries-frameworks-jetpack-compose-subcategory)</sup>
+* [neumorphic-compose](https://github.com/neumorphic-compose) - Neumorphism UI on Android with Jetpack Compose. Just add one modifer = Modifier.neumorphic()
 
 
 ## <a name="projects"></a>Projects <sup>[Back ⇈](#projects-category)</sup>
