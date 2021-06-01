@@ -1889,7 +1889,7 @@ category("Libraries/Frameworks") {
   }
   subcategory("Jetpack-Compose"){
     link{
-      github = "neumorphic-compose"
+      github = "CuriousNikhil/neumorphic-compose"
       desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifer = Modifier.neumorphic()"
       setTags("jetpack-compose", "compose", "kotlin", "ui")
       setPlatforms(ANDROID)
