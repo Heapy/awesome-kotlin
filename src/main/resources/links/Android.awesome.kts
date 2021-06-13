@@ -355,6 +355,12 @@ category("Android") {
       setTags("library", "android", "ui")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "MackHartley/RoundedProgressBar"
+      desc = "A customizable, animated progress bar that features rounded corners. This Android library is designed to look great and be simple to use"
+      setTags("library", "android", "ui", "progressbar")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
