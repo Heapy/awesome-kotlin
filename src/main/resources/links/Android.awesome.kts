@@ -362,9 +362,9 @@ category("Android") {
       setPlatforms(ANDROID)
     }
     link {
-      github = "developingdeveloper-tech/toaster-android'
+      github = "developingdeveloper-tech/toaster-android"
       desc = "A simple library to add custom toast to android applications."
-      setTags("ui", "android", "custom-toast')
+      setTags("ui", "android", "custom-toast")
       setPlatforms(ANDROID)
     }
   }
