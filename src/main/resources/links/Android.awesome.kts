@@ -361,6 +361,12 @@ category("Android") {
       setTags("library", "android", "ui", "progressbar")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "developingdeveloper-tech/toaster-android"
+      desc = "A simple library to add custom toast to android applications."
+      setTags("ui", "android", "custom-toast")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
