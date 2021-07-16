@@ -119,23 +119,23 @@ Here is the awesome badge for your project:
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [Leon406/Sub](https://github.com/Leon406/Sub) - 纯kotlin实现, 节点爬取,筛选, 支持Clash,base64订阅解析,自动生成可用的ss, ssr, v2ray, trojan节点. 已集成Github Action,每天8-24,定时更新.
-* [ethereum-lists/chains](https://github.com/ethereum-lists/chains) - provides metadata for networkIDs and chainIDs
+* [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
 * [yujincheng08/BiliRoaming](https://github.com/yujincheng08/BiliRoaming) - 哔哩漫游，解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能。An Xposed module that unblocks bangumi area limit of BILIBILI with miscellaneous features.
 * [ChuckerTeam/chucker](https://github.com/ChuckerTeam/chucker) - 🔎 An HTTP inspector for Android &amp; OkHTTP (like Charles but on device)
-* [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) - Browse your memories without any interruptions with this photo and video gallery
 * [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) - Easy to use OpenStreetMap editor for Android
 * [google/accompanist](https://github.com/google/accompanist) - A collection of extension libraries for Jetpack Compose
-* [Szaki/XiaomiADBFastbootTools](https://github.com/Szaki/XiaomiADBFastbootTools) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
-* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
+* [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop and Web, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [Kr328/ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
 * [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - Free and open source manga reader for Android.
+* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
 * [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 * [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
@@ -146,34 +146,34 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [msoultanidis/quillnote](https://github.com/msoultanidis/quillnote) - Take beautiful markdown notes and stay organized with task lists.
+* [grab/Grazel](https://github.com/grab/Grazel) - Grazel is a Gradle plugin to automate generation of valid Bazel files for a given Android/Kotlin/Java project.
+* [CCBlueX/LiquidBounce](https://github.com/CCBlueX/LiquidBounce) - A free mixin-based injection hacked client for Minecraft using the Fabric API
 * [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [CarlosEsco/Neko](https://github.com/CarlosEsco/Neko) - Free, open source, unofficial MangaDex reader  for Android
 * [MindorksOpenSource/Kotlin-Coroutines-Android-Examples](https://github.com/MindorksOpenSource/Kotlin-Coroutines-Android-Examples) - Learn Kotlin Coroutines for Android by Examples. Learn how to use Kotlin Coroutines for Android App Development.
+* [zhaobozhen/LibChecker](https://github.com/zhaobozhen/LibChecker) - An app to view libraries used in apps in your device.
 * [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform Music Downloader, Supports Spotify / Gaana / Youtube Music / Jio Saavn .
 * [ExpediaGroup/graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) - Libraries for running GraphQL in Kotlin
 * [tachiyomiorg/tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions) - Source extensions for the Tachiyomi app.
 * [Tencent/bk-ci](https://github.com/Tencent/bk-ci) - 蓝鲸CI平台(BlueKing CI)
-* [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet) - The universal proxy toolchain for Android
-* [Kotlin/dokka](https://github.com/Kotlin/dokka) - Documentation Engine for Kotlin
+* [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
 * [material-components/material-components-android-examples](https://github.com/material-components/material-components-android-examples) - Companion example apps and code for MDC-Android.
+* [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
 * [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
-* [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Jetpack Compose for Desktop and Web, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
+* [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [eu-digital-green-certificates/dgc-certlogic-android](https://github.com/eu-digital-green-certificates/dgc-certlogic-android) - This repository contains the source code of the EU Digital COVID Certificate Certlogic for Android.
-* [google-developer-training/android-basics-kotlin-words-app](https://github.com/google-developer-training/android-basics-kotlin-words-app) 
-* [eu-digital-green-certificates/dgca-verifier-app-android](https://github.com/eu-digital-green-certificates/dgca-verifier-app-android) - Repository for the dgca verifier android app.
-* [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) - Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL.
-* [aws/aws-toolkit-jetbrains](https://github.com/aws/aws-toolkit-jetbrains) - AWS Toolkit for JetBrains - a plugin for interacting with AWS from JetBrains IDEs
-* [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
+* [android/storage-samples](https://github.com/android/storage-samples) - Multiple samples showing the best practices in storage APIs on Android.
 * [hegaojian/JetpackMvvm](https://github.com/hegaojian/JetpackMvvm) - :chicken::basketball:一个Jetpack结合MVVM的快速开发框架，基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation组件 使用Kotlin语言，添加大量拓展函数，简化代码 加入Retrofit网络请求,协程，帮你简化各种操作，让你快速开发项目
-* [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
+* [Netflix/dgs-framework](https://github.com/Netflix/dgs-framework) - GraphQL for Java with Spring Boot made easy.
 * [liujingxing/rxhttp](https://github.com/liujingxing/rxhttp) - 🔥🔥🔥 Based on OkHttp encapsulation, support Kotlin Coroutines、RxJava2、RxJava3; 30s to get started.
-* [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
-* [zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor) - An android image compression library.
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
-* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
+* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
+* [airbnb/mavericks](https://github.com/airbnb/mavericks) - Mavericks: Android on Autopilot
+* [skydoves/Pokedex](https://github.com/skydoves/Pokedex) - 🗡️ Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack (Room, ViewModel) based on MVVM architecture.
+* [tipsy/javalin](https://github.com/tipsy/javalin) - A simple and modern Java and Kotlin web framework
+* [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) - 💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...
+* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
+* [AppIntro/AppIntro](https://github.com/AppIntro/AppIntro) - Make a cool intro for your Android app.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
