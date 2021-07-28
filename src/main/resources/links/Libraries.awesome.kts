@@ -368,6 +368,12 @@ category("Libraries/Frameworks") {
       desc = "kotlin multiplatform implementation/bindings of opentest4j"
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
+    link {
+      github = "sokomishalov/skraper"
+      desc = "Kotlin/Java library, cli tool and telegram-bot for scraping posts and media from various sources with neither authorization nor full page rendering (Facebook, Instagram, Twitter, Youtube, Tiktok, Telegram, Twitch, Reddit, Pinterest, Flickr, Tumblr, etc.)"
+      setPlatforms(JVM)
+      setTags("scraper", "parser", "webcrawler", "telegram", "bot")
+    }
   }
   subcategory("Dependency Injection") {
     link {
