@@ -633,6 +633,11 @@ category("Android") {
       desc = "Currency Exchange App that displays real-time currency rates, shows a chart for any currency pair in the world to see their currency history and provides a currency converter."
       setTags("kotlin", "mvvm", "android", "dagger2", "rxjava2", "Retrofit", "leakcanary ", "Timber", "ViewBinding", "Live Data")
     }
+    link {
+      github = "AmrDeveloper/Linkhub"
+      desc = "Free and open source effective link management app with no ads."
+      setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines")
+    }
   }
   subcategory("Extensions") {
     link {
