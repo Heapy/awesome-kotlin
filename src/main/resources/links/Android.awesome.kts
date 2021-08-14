@@ -628,6 +628,11 @@ category("Android") {
       desc = "NotyKT is a complete Kotlin-stack (Backend + Android) application built to demonstrate the use of Modern development tools with best practices implementation."
       setTags("kotlin", "mvvm", "architecture", "kotlin-android", "ktor", "jetpack-compose", "navigation", "hilt", "coroutines", "flow")
     }
+    link {
+      github = "Marwa-Eltayeb/CurrencyExchange"
+      desc = "Currency Exchange App that displays real-time currency rates, shows a chart for any currency pair in the world to see their currency history and provides a currency converter."
+      setTags("kotlin", "mvvm", "android", "dagger2", "rxjava2", "Retrofit", "leakcanary ", "Timber", "ViewBinding", "Live Data")
+    }
   }
   subcategory("Extensions") {
     link {
