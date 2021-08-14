@@ -628,6 +628,11 @@ category("Android") {
       desc = "NotyKT is a complete Kotlin-stack (Backend + Android) application built to demonstrate the use of Modern development tools with best practices implementation."
       setTags("kotlin", "mvvm", "architecture", "kotlin-android", "ktor", "jetpack-compose", "navigation", "hilt", "coroutines", "flow")
     }
+    link {
+      github = "AmrDeveloper/Linkhub"
+      desc = "Free and open source effective link management app with no ads."
+      setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines")
+    }
   }
   subcategory("Extensions") {
     link {
