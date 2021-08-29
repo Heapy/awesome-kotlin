@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Jooq Generator" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="GenerateKt" />
+    <module name="awesome-kotlin.app-backend-jooq.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

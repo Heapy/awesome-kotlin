@@ -1,0 +1,44 @@
+POST {{host}}/register
+Content-Type: application/json
+
+{
+    "nickname": "IRus",
+    "email": "ruslan@heapy.io",
+    "password": [
+        "w",
+        "o",
+        "r",
+        "l",
+        "d"
+    ]
+}
+
+###
+
+POST {{host}}/login
+Content-Type: application/json
+
+{
+    "email": "ruslan@heapy.io",
+    "password": [
+        "w",
+        "o",
+        "r",
+        "l",
+        "d"
+    ]
+}
+
+> {% client.global.set("auth_token", response.body.json.token); %}
+
+###
+
+GET {{host}}/
+Authorization: Bearer {{auth_token}}
+
+###
+
+GET {{host}}/ping/test
+Authorization: Bearer {{auth_token}}
+
+###
