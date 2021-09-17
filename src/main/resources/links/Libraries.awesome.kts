@@ -374,6 +374,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("scraper", "parser", "webcrawler", "telegram", "bot")
     }
+    link {
+      github = "iotacb/ChefkochAPI"
+      desc = "Kotlin/Java library, to parse and get information of recipes from chefkoch"
+      setPlatforms(JVM)
+      setTags("scraper", "parser", "webcrawler", "chefkoch", "api")
+    }
   }
   subcategory("Dependency Injection") {
     link {
