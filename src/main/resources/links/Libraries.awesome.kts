@@ -1693,6 +1693,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "JetBrains/KotlinDL"
+      desc = "High-level Deep Learning Framework written in Kotlin and inspired by Keras."
+      href = "https://jetbrains.github.io/KotlinDL/"
+      setTags("data science", "neural-networks", "deep-learning", "machine-learning", "artificial-intelligence")
+      awesome()
+    }
+    link {
       github = "Kotlin/kotlin-jupyter"
       desc = "Official Kotlin Jupyter kernel"
       setTags("data science", "juputer", "repl")
