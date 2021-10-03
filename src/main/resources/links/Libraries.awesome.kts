@@ -1913,5 +1913,13 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "ui")
       setPlatforms(ANDROID)
     }
+    
+    link{
+      github = "CuriousNikhil/compose-particle-system"
+      desc = "A lightweight particle system for Jetpack Compose - Quarks"
+      setTags("jetpack-compose", "compose", "kotlin", "ui")
+      setPlatforms(ANDROID)
+    }
+    
   }
 }
