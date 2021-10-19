@@ -1726,6 +1726,11 @@ category("Libraries/Frameworks") {
       github = "mipt-npm/kmath"
       desc = "A (not so numpy-like) multiplatform mathematical library with higher level abstractions."
       awesome()
+    }    
+    link {
+      github = "unipu-ict/ksdtoolkit"
+      desc = "Kotlin System Dynamics Toolkit - for system dynamics modelling and simulation with Kotlin."
+      setTags("system dynamics", "modelling", "simulation", "complex system")
     }
     link {
       github = "MarcinMoskala/KotlinDiscreteMathToolkit"
