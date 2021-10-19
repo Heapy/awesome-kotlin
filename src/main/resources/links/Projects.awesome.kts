@@ -181,6 +181,11 @@ category("Projects") {
       desc = "Telegram bot to have some fun with your buddies"
       setTags("telegram")
     }
+    link {
+      github = "madhead/tyzenhaus"
+      desc = "Shared expenses tracking Telegram bot"
+      setTags("telegram")
+    }
   }
   subcategory("Desktop") {
     link {
