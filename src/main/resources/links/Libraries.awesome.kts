@@ -381,6 +381,17 @@ category("Libraries/Frameworks") {
       setTags("scraper", "parser", "webcrawler", "chefkoch", "api")
     }
   }
+  subcategory("Mocks and Fakes") {
+    link {
+      github = "moove-it/fakeit"
+      desc = "Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment."
+      setTags("testing", "android", "utility")
+    }
+    link {
+      github = "bluegroundltd/kfactory"
+      desc = "Fixture factory in Kotlin"
+    }
+  }
   subcategory("Dependency Injection") {
     link {
       github = "Kodein-Framework/Kodein-DI"
@@ -1188,11 +1199,6 @@ category("Libraries/Frameworks") {
       github = "consoleau/kassava"
       desc = "This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate."
       setTags("hashCode", "equals", "toString")
-    }
-    link {
-      github = "moove-it/fakeit"
-      desc = "Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment."
-      setTags("testing", "android", "utility")
     }
     link {
       github = "czyzby/kotlin-times"
