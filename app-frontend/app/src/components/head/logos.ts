@@ -89,4 +89,36 @@ export const LOGOS: Logo[] = [
     exclusive: true,
     link: "https://blog.jetbrains.com/kotlin/2021/05/10-years-of-kotlin-stories/"
   },
+  {
+    src: (() => {
+      const maskots = [
+        require('./maskots/01.svg'),
+        require('./maskots/02.svg'),
+        require('./maskots/03.svg'),
+        require('./maskots/04.svg'),
+        require('./maskots/05.svg'),
+        require('./maskots/06.svg'),
+        require('./maskots/07.svg'),
+        require('./maskots/08.svg'),
+        require('./maskots/09.svg'),
+        require('./maskots/10.svg'),
+        require('./maskots/11.svg'),
+        require('./maskots/12.svg'),
+        require('./maskots/13.svg'),
+        require('./maskots/14.svg'),
+      ]
+
+      return maskots[Math.floor(Math.random() * maskots.length)]
+    })(),
+    alt: () => {
+      return `Let’s choose the name for the Kotlin mascot together!`
+    },
+    show: () => {
+      const now = new Date(Date.now())
+
+      return (new Date(2021, 9, 22) <= now) && (now <= new Date(2021, 10, 22));
+    },
+    exclusive: true,
+    link: "https://forms.gle/yktEz3xCAwKEm9cx9"
+  },
 ]
