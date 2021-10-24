@@ -428,6 +428,12 @@ category("Libraries/Frameworks") {
       setTags("di", "dependency injection", "android", "multiplatform")
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
     }
+    link {
+      github = "sergeshustoff/dikt"
+      desc = "Simple and powerful DI for kotlin multiplatform"
+      setTags("di", "dependency injection", "android", "multiplatform")
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
+    }
   }
   subcategory("Coroutines") {
     link {
