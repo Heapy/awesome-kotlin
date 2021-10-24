@@ -71,6 +71,12 @@ export const LOGOS: Logo[] = [
     exclusive: false,
   },
   {
+    src: require("./kotlin-3.svg"),
+    alt: () => "Kotlin Language Logo",
+    show: () => true,
+    exclusive: false,
+  },
+  {
     src: require("./10K.svg"),
     alt: () => {
       return `Celebrating 10 Years of Kotlin!`
