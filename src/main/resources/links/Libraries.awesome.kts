@@ -1843,6 +1843,10 @@ category("Libraries/Frameworks") {
       setTags("native", "CLI")
       setPlatforms(JVM, JS, NATIVE, COMMON)
     }
+    link {
+      github = "varabyte/konsole"
+      desc = "A declarative, Kotlin-idiomatic API for writing dynamic command line applications"
+    }
   }
   subcategory("Browsers") {
     link {
