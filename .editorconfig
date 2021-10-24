@@ -6,13 +6,10 @@ indent_style=space
 indent_size=4
 
 [*.kts]
-indent_style=space
 indent_size=2
 
 [build.gradle.kts]
-indent_style=space
 indent_size=4
 
 [*.{js,ts,tsx,less,html,yml}]
-indent_style=space
 indent_size=2

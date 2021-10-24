@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     application
-    kotlin("jvm").version(kotlinVersion)
+    alias(libs.plugins.kt.jvm)
 }
 
 application {
@@ -25,32 +25,32 @@ tasks.withType<KotlinCompile>().configureEach {
 }
 
 dependencies {
-    implementation(stdlib)
-    implementation(reflect)
-    implementation(coroutines)
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlin.reflect)
+    implementation(libs.kotlin.coroutines)
 
-    implementation(jacksonXml)
-    implementation(jacksonKotlin)
-    implementation(jacksonJsr310)
+    implementation(libs.jackson.module.kotlin)
+    implementation(libs.jackson.datatype.jsr310)
+    implementation(libs.jackson.dataformat.xml)
 
-    implementation("org.slf4j:slf4j-api:1.7.30")
-    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation(libs.slf4j.api)
+    implementation(libs.logback)
 
-    implementation("com.rometools:rome:1.15.0")
-    implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
-    implementation("org.jsoup:jsoup:1.13.1")
+    implementation(libs.rome)
+    implementation(libs.sitemapgen4j)
+    implementation(libs.jsoup)
 
-    implementation(kotlin("scripting-common"))
-    implementation(kotlin("scripting-jvm"))
-    implementation(kotlin("scripting-jvm-host"))
+    implementation(libs.kotlin.scripting.common)
+    implementation(libs.kotlin.scripting.jvm)
+    implementation(libs.kotlin.scripting.jvm.host)
 
-    implementation(commonmark)
-    implementation(commonmarkExtGfmTables)
+    implementation(libs.commonmark)
+    implementation(libs.commonmark.ext.gfm.tables)
 
-    implementation(ktorClientApache)
-    implementation(ktorClientJackson)
+    implementation(libs.ktor.client.apache)
+    implementation(libs.ktor.client.jackson)
 
-    testImplementation(mockk)
-    testImplementation(junitApi)
-    testRuntimeOnly(junitEngine)
+    testImplementation(libs.mockk)
+    testImplementation(libs.junit.api)
+    testRuntimeOnly(libs.junit.engine)
 }

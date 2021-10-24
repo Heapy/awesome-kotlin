@@ -21,7 +21,7 @@ fun ReadmeGenerator.Companion.default(): ReadmeGenerator {
 
 internal fun normalizeName(name: String): String {
     return name
-        .toLowerCase()
+        .lowercase()
         .replace(Regex("[ ,/\\\\]"), "-") // Replace special symbols with dash
         .replace(Regex("-+"), "-") // Replace multiple dashes with one dash
 }
