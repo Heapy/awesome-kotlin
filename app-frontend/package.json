@@ -52,5 +52,6 @@
   "bugs": {
     "url": "https://github.com/KotlinBy/awesome-kotlin/issues"
   },
-  "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme"
+  "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme",
+  "packageManager": "yarn@3.1.0-rc.13"
 }
