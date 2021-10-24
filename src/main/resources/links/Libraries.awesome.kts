@@ -1795,6 +1795,10 @@ category("Libraries/Frameworks") {
       github = "breandan/kaliningraph"
       setPlatforms(JVM)
     }
+    link {
+      github = "grinisrit/noa-atra"
+      desc = "Analytics for Trading with NOA"
+    }
   }
   subcategory("Command Line Interface") {
     link {
@@ -1886,6 +1890,11 @@ category("Libraries/Frameworks") {
       github = "adamint/spotify-web-api-kotlin"
       desc = "Spotify Web API wrapper for Kotlin/Android, JVM, JS, and Native targets."
       setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
+    }
+    link {
+      github = "awslabs/aws-sdk-kotlin"
+      desc = "Multiplatform AWS SDK for Kotlin"
+      setPlatforms(JVM, ANDROID)
     }
   }
   subcategory("Internationalisation and Localization") {
