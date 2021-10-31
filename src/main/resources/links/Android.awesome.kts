@@ -279,7 +279,7 @@ category("Android") {
     }
     link {
       github = "ChuckerTeam/chucker"
-      desc = "An on-device HTTP and Throwable inspector for Android."
+      desc = "An on-device network inspection tool for Android."
     }
     link {
       github = "rosariopfernandes/firecoil"
