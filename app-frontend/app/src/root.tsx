@@ -1,7 +1,6 @@
 import * as React from "react";
 import {Suspense, lazy} from "react";
-import {Route, BrowserRouter} from "react-router-dom";
-import {Switch} from "react-router";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 const Home = lazy(() => import("./pages/home/home"));
 const Resources = lazy(() => import("./pages/resources/resources"));
@@ -12,12 +11,12 @@ export function Root() {
   return (
     <BrowserRouter>
       <Suspense fallback={<div/>}>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/kugs" component={Kugs}/>
-          <Route path="/resources" component={Resources}/>
-          <Route path="/articles" component={Articles}/>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/kugs" element={<Kugs/>}/>
+          <Route path="/resources" element={<Resources/>}/>
+          <Route path="/articles" element={<Articles/>}/>
+        </Routes>
       </Suspense>
     </BrowserRouter>
   );

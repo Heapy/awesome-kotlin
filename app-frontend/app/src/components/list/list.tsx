@@ -3,24 +3,22 @@ import {Listitem} from "../listitem/listitem";
 import {Link, LinkState, Subcategory} from "../../model";
 import "./list.less";
 
-export class Subcategories extends React.Component<SubcategoriesProps, SubcategoriesState> {
-  render() {
-    const {subcategory} = this.props;
-
-    return (
-      <section ref="subcategory" className="list">
-        <h3 id={getAnchor(this.props.prefix, subcategory.name)} className="list_title">
-          <a href={`#${getAnchor(this.props.prefix, subcategory.name)}`}>{subcategory.name}</a>
-        </h3>
-        <ul className="list_list">
-          {renderLinks(subcategory.links.filter(link => link.state === LinkState.AWESOME))}
-          {renderLinks(subcategory.links.filter(link => link.state === LinkState.DEFAULT))}
-          {renderLinks(subcategory.links.filter(link => link.state === LinkState.ARCHIVED))}
-          {renderLinks(subcategory.links.filter(link => link.state === LinkState.UNSUPPORTED))}
-        </ul>
-      </section>
-    );
-  }
+export function Subcategories({subcategory, prefix}: SubcategoriesProps) {
+  return (
+    <section className="list">
+      <h3 id={getAnchor(prefix, subcategory.name)} className="list_title">
+        <a href={`#${getAnchor(prefix, subcategory.name)}`}>
+          {subcategory.name}
+        </a>
+      </h3>
+      <ul className="list_list">
+        {renderLinks(subcategory.links.filter(link => link.state === LinkState.AWESOME))}
+        {renderLinks(subcategory.links.filter(link => link.state === LinkState.DEFAULT))}
+        {renderLinks(subcategory.links.filter(link => link.state === LinkState.ARCHIVED))}
+        {renderLinks(subcategory.links.filter(link => link.state === LinkState.UNSUPPORTED))}
+      </ul>
+    </section>
+  );
 }
 
 function getAnchor(prefix: string, suffix: string): string {
@@ -38,7 +36,4 @@ function renderLinks(links: Link[]) {
 interface SubcategoriesProps {
   readonly prefix: string;
   readonly subcategory: Subcategory;
-}
-
-interface SubcategoriesState {
 }

@@ -1,44 +1,33 @@
 import * as React from "react";
 import {Logo, LOGOS} from "./logos";
 import "./head.less";
+import {useState} from "react";
 
-interface State {
-  readonly index: number;
-  readonly logos: Logo[];
+function getLogos(): Logo[] {
+  const activeLogos = LOGOS.filter(it => it.show());
+  const exclusiveLogo = activeLogos.find(logo => logo.exclusive);
+
+  if (exclusiveLogo) {
+    return [exclusiveLogo]
+  } else {
+    return activeLogos
+  }
 }
 
-export class Head extends React.Component<{}, State> {
-  constructor(props) {
-    super(props);
+export function Header() {
+  const [logos] = useState(() => getLogos());
+  const [index, setIndex] = useState(() => 0);
 
-    const activeLogos = LOGOS.filter(it => it.show())
-    const exclusiveLogo = activeLogos.find(logo => logo.exclusive)
-    let logos: Logo[]
-
-    if (exclusiveLogo) {
-      logos = [exclusiveLogo]
-    } else {
-      logos = activeLogos
-    }
-
-    this.state = {
-      index: 0,
-      logos: logos
-    };
-  }
-
-  changeLogo = () => {
-    if (this.state.logos.length <= 1) {
+  function changeLogo() {
+    if (logos.length <= 1) {
       return;
     }
 
-    this.setState({
-      index: (this.state.index + 1) % this.state.logos.length
-    });
-  };
+    setIndex((index + 1) % logos.length);
+  }
 
-  activeLogo = () => {
-    const logo = this.state.logos[this.state.index];
+  function activeLogo() {
+    const logo = logos[index];
 
     if (logo.link) {
       return (
@@ -59,13 +48,11 @@ export class Head extends React.Component<{}, State> {
     }
   }
 
-  render() {
-    return (
-      <section className="head">
-        <div className="head_wrapper" onClick={this.changeLogo}>
-          {this.activeLogo()}
-        </div>
-      </section>
-    );
-  }
+  return (
+    <section className="head">
+      <div className="head_wrapper" onClick={changeLogo}>
+        {activeLogo()}
+      </div>
+    </section>
+  );
 }

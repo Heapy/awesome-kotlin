@@ -6,9 +6,24 @@ export function Navigation(props: Props) {
   return (
     <section className="navigation_bar">
       <div className="navigation_bar_wrapper">
-        <NavLink activeClassName="active" exact={true} className="link" to="/">Awesome</NavLink>
-        <NavLink activeClassName="active" exact={true} className="link" to="/resources">Resources</NavLink>
-        <NavLink activeClassName="active" exact={true} className="link" to="/kugs">Kotlin User Groups</NavLink>
+        <NavLink
+          end={true}
+          className={({isActive}) => "link" + (isActive ? " active" : "")}
+          to="/">
+          Awesome
+        </NavLink>
+        <NavLink
+          end={true}
+          className={({isActive}) => "link" + (isActive ? " active" : "")}
+          to="/resources">
+          Resources
+        </NavLink>
+        <NavLink
+          end={true}
+          className={({isActive}) => "link" + (isActive ? " active" : "")}
+          to="/kugs">
+          Kotlin User Groups
+        </NavLink>
       </div>
     </section>
   );

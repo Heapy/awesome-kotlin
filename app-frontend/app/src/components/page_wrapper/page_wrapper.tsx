@@ -1,9 +1,8 @@
 import * as React from "react";
-import {Head} from "../head/head";
+import {useState} from "react";
+import {Header} from "../head/head";
 import {Search} from "../search/search";
 import {Category} from "../category/category";
-import {withRouter} from "react-router";
-import {searchString} from "../../locations";
 import {Bar} from "../bar/bar";
 import {Links} from "../../model";
 import {Navigation} from "../navigation/Navigation";
@@ -68,61 +67,45 @@ function filterData(categories: Links, value) {
   }, []);
 }
 
-class LinksPageComponent extends React.Component<PageProps, PageState> {
-  constructor(props) {
-    super(props);
-    this.state = {data: props.displayLinks};
-  }
+export function LinksPageComponent(props: PageProps) {
+  const [data, setData] = useState(props.displayLinks);
 
-  onSearchValueChanged = (value: any): void => {
-    this.props.history.push({
-      search: searchString({...this.props.match.params, q: value})
-    });
-
+  function onSearchValueChanged(value: string) {
     if (value) {
-      this.setState({data: filterData(this.props.searchLinks, value)});
+      setData(filterData(props.searchLinks, value))
     } else {
-      this.setState({data: this.props.displayLinks});
+      setData(props.displayLinks)
     }
-  };
-
-  render() {
-    return (
-      <div>
-        <a href="https://github.com/KotlinBy/awesome-kotlin">
-          <img className="page_github_link"
-               src={require("./fork-me.svg")}
-               alt="Fork me on GitHub"/>
-        </a>
-
-        <Navigation/>
-
-        <Head/>
-
-        <Search onChange={this.onSearchValueChanged}/>
-
-        <Bar versions={versions}/>
-
-        {this.state.data.map((category, i) => {
-          return <Category category={category} key={i}/>;
-        })}
-      </div>
-    );
   }
+
+  return (
+    <div>
+      <a href="https://github.com/KotlinBy/awesome-kotlin">
+        <img className="page_github_link"
+             src={require("./fork-me.svg")}
+             alt="Fork me on GitHub"/>
+      </a>
+
+      <Navigation/>
+
+      <Header/>
+
+      <Search onChange={onSearchValueChanged}/>
+
+      <Bar versions={versions}/>
+
+      {data.map((category, i) => {
+        return <Category category={category} key={i}/>;
+      })}
+    </div>
+  );
 }
 
+
 interface PageProps {
-  readonly history: any;
-  readonly match: any;
   readonly displayLinks: Links;
   readonly searchLinks: Links;
 }
-
-interface PageState {
-  readonly data: Links;
-}
-
-export default withRouter(LinksPageComponent);
 
 function toLower(string) {
   return string.toLowerCase();

@@ -1,57 +1,59 @@
 import * as React from "react";
-import {withRouter} from "react-router";
+import {ChangeEvent, KeyboardEvent, useEffect, useRef, useState} from "react";
+import {useLocation, useNavigate, useParams} from "react-router-dom";
 import "./search.less";
+import {searchString} from "../../locations";
 
-class SearchComponent extends React.Component<SearchProps, SearchState> {
-  private readonly inputRef: React.RefObject<HTMLInputElement>;
-  constructor(props) {
-    super(props);
-    this.state = {value: ""};
-    this.inputRef = React.createRef();
+export function Search(props: SearchProps) {
+  const [query, setQuery] = useState("");
+  const location = useLocation();
+  const navigate = useNavigate();
+  const params = useParams();
+  const searchInputRef = useRef(null);
+
+  useEffect(() => {
+    const q = new URLSearchParams(location.search).get("q");
+    if (q) {
+      setQuery(q);
+      props.onChange(q);
+
+      navigate({
+        search: searchString({...params, q}),
+      });
+    }
+    searchInputRef.current.focus();
+  }, []);
+
+  function handleChange(event: ChangeEvent<HTMLInputElement>) {
+    const q = event.target.value;
+    setQuery(q);
+    props.onChange(q);
+    navigate({
+      search: searchString({...params, q})
+    });
   }
 
-  handleChange = (event) => {
-    this.setState({value: event.target.value});
-    this.props.onChange(event.target.value);
-  };
-
-  handleKeyPress = (event) => {
-    if (event.key === "Enter") {
-      event.preventDefault();
-      return false;
-    }
-  };
-
-  componentDidMount() {
-    const query = new URLSearchParams(this.props.location.search).get("q");
-    if (query) {
-      this.setState({value: query});
-      this.props.onChange(query);
-    }
-    this.inputRef.current.focus();
-  };
-
-  render() {
-    return <section className="search">
+  return (
+    <section className="search">
       <form className="search_wrapper">
         <input className="search_field"
-               ref={this.inputRef}
-               onKeyPress={this.handleKeyPress}
-               onChange={this.handleChange}
+               ref={searchInputRef}
+               onKeyPress={handleKeyPress}
+               onChange={handleChange}
                placeholder="Type to Filter"
-               value={this.state.value}/>
+               value={query}/>
       </form>
-    </section>;
+    </section>
+  );
+}
+
+function handleKeyPress(event: KeyboardEvent<Element>) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    return false;
   }
 }
 
 interface SearchProps {
-  onChange: (value: any) => void;
-  location?: any;
+  onChange: (value: string) => void;
 }
-
-interface SearchState {
-  value: string;
-}
-
-export const Search = withRouter(SearchComponent);

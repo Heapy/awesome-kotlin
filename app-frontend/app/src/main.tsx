@@ -6,7 +6,9 @@ import "./style.less";
 import "css-loader!normalize.css";
 
 ReactDOM.render(
-  <Root/>,
+  <React.StrictMode>
+    <Root />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
