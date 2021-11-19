@@ -6,6 +6,6 @@ import link.kotlin.scripts.utils.default
 suspend fun main() {
     val client = HttpClient.default()
     val fetcher = KotlinVersionFetcher.default(client)
-    val versions = fetcher.getLatestVersions(listOf("1.4", "1.5"))
+    val versions = fetcher.getLatestVersions(listOf("1.5", "1.6"))
     println(versions)
 }
