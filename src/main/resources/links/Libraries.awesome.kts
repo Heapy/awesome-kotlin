@@ -1788,7 +1788,14 @@ category("Libraries/Frameworks") {
     }
     link {
       github = "Kotlin/multik"
+      desc = "A Kotlin library for working with multi-demensional arrays"
       setTags("multidimensional array")
+      setPlatforms(JVM)
+    }
+    link {
+      github = "Kotlin/dataframe"
+      desc = "A Kotlin library for in-memory data manipulation"
+      setTags("data wrangling", "csv")
       setPlatforms(JVM)
     }
     link {
