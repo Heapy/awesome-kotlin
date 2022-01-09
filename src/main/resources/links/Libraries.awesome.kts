@@ -1429,6 +1429,12 @@ category("Libraries/Frameworks") {
       setTags("rss", "feed")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "z4kn4fein/kotlin-semver"
+      desc = "Semantic Versioning library for Kotlin Multiplatform."
+      setTags("multiplatform", "semver", "semantic", "version")
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+    }
   }
   subcategory("Parsers") {
     link {
