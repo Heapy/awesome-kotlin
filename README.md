@@ -119,12 +119,10 @@ Here is the awesome badge for your project:
 
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
-* [LawnchairLauncher/lawnicons](https://github.com/LawnchairLauncher/lawnicons) 
 * [tytydraco/LADB](https://github.com/tytydraco/LADB) - A local ADB shell for Android!
 * [LagradOst/CloudStream-3](https://github.com/LagradOst/CloudStream-3) - Android app for streaming and downloading Movies, TV-Series and Anime.
 * [bytedance/btrace](https://github.com/bytedance/btrace) - 🔥🔥 btrace(AKA RheaTrace) is a high performance Android trace tool which is based on Systrace, it support to define custom events automatically during building apk and using bhook to provider more native events like IO.
-* [easychen/pushdeer](https://github.com/easychen/pushdeer) - 开放源码的无App推送服务，iOS15扫码即用。🚧   客户端和快应用开发中
-* [Kotlin/kmm-production-sample](https://github.com/Kotlin/kmm-production-sample) - cross-platform application built with Kotlin Multiplatform Mobile
+* [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
 * [ethereum-lists/chains](https://github.com/ethereum-lists/chains) - provides metadata for networkIDs and chainIDs
 * [mukul500/AnimeXStream](https://github.com/mukul500/AnimeXStream) - An Android app to watch anime on your phone without ads.
 * [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) - Best Material You Design music player for Android
@@ -138,6 +136,8 @@ Here is the awesome badge for your project:
 * [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [Kr328/ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) 
 * [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - Free and open source manga reader for Android.
@@ -146,39 +146,40 @@ Here is the awesome badge for your project:
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) - Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL.
+* [LawnchairLauncher/lawnicons](https://github.com/LawnchairLauncher/lawnicons) 
 * [kl3jvi/animity](https://github.com/kl3jvi/animity) - 🎦 An Android app to watch anime on your phone without ads.
 * [SkyD666/Imomoe](https://github.com/SkyD666/Imomoe) - 樱花动漫第三方安卓Android客户端，不含广告，免费开源，目的是学习Android开发。
+* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
+* [easychen/pushdeer](https://github.com/easychen/pushdeer) - 开放源码的无App推送服务，iOS15扫码即用。🚧   客户端和快应用开发中
+* [Kotlin/kmm-production-sample](https://github.com/Kotlin/kmm-production-sample) - cross-platform application built with Kotlin Multiplatform Mobile
+* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
 * [ExpediaGroup/graphql-kotlin](https://github.com/ExpediaGroup/graphql-kotlin) - Libraries for running GraphQL in Kotlin
-* [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
-* [Netflix/dgs-framework](https://github.com/Netflix/dgs-framework) - GraphQL for Java with Spring Boot made easy.
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [burhanrashid52/PhotoEditor](https://github.com/burhanrashid52/PhotoEditor) - A Photo Editor library with simple, easy support for image editing using paints,text,filters,emoji and Sticker like stories.
 * [google/accompanist](https://github.com/google/accompanist) - A collection of extension libraries for Jetpack Compose
-* [cashapp/sqldelight](https://github.com/cashapp/sqldelight) - SQLDelight - Generates typesafe Kotlin APIs from SQL
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
+* [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - Vim emulation plugin for IDEs based on the IntelliJ Platform
 * [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
-* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) - Android隐私合规检测，注解+Asm修改字节码的检测方案
+* [saikou-app/saikou](https://github.com/saikou-app/saikou) - Literally best anime &amp; manga app!
+* [mapbox/mapbox-navigation-android](https://github.com/mapbox/mapbox-navigation-android) - Mapbox Navigation SDK for Android
 * [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) - A suite of tools to assist with reviewing Open Source Software dependencies.
-* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [FasterXML/jackson-module-kotlin](https://github.com/FasterXML/jackson-module-kotlin) - Module that adds support for serialization/deserialization of Kotlin (http://kotlinlang.org) classes and data classes.
+* [project-mirai/mirai-api-http](https://github.com/project-mirai/mirai-api-http) - Mirai HTTP API (console) plugin
 * [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
-* [Foso/Jetpack-Compose-Playground](https://github.com/Foso/Jetpack-Compose-Playground) - Community-driven collection of Jetpack Compose example code and tutorials :rocket:  https://foso.github.io/compose
-* [tommybuonomo/dotsindicator](https://github.com/tommybuonomo/dotsindicator) - Three material Dots Indicators for view pagers in Android !
-* [jitsi/jitsi-videobridge](https://github.com/jitsi/jitsi-videobridge) - Jitsi Videobridge is a WebRTC compatible video router or SFU that lets build highly scalable video conferencing infrastructure (i.e., up to hundreds of conferences per server).
-* [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
-* [detekt/detekt](https://github.com/detekt/detekt) - Static code analysis for Kotlin
-* [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
-* [square/okio](https://github.com/square/okio) - A modern I/O library for Android, Java, and Kotlin Multiplatform.
+* [videolan/vlc-android](https://github.com/videolan/vlc-android) - VLC for Android, Android TV and ChromeOS
+* [wikimedia/apps-android-wikipedia](https://github.com/wikimedia/apps-android-wikipedia) - 📱The official Wikipedia app for Android!
+* [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
+* [PierfrancescoSoffritti/android-youtube-player](https://github.com/PierfrancescoSoffritti/android-youtube-player) - YouTube Player library for Android and Chromecast, stable and customizable.
+* [wordpress-mobile/WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android) - WordPress for Android
+* [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) - 💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...
+* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
+* [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 * [KotlinBy/awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) - A curated list of awesome Kotlin related stuff Inspired by awesome-java.
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [android/uamp](https://github.com/android/uamp) - A sample audio app for Android
+* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) - 😍 A beautiful, fluid, and extensible dialogs API for Kotlin &amp; Android.
-* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 * [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
 
 
@@ -263,8 +264,8 @@ Here is the awesome badge for your project:
 * [laviua/komock](https://github.com/laviua/komock) - HTTP/Consul/SMTP/Spring Config mocker framework written in Kotlin
 * [AurityLab/graphql-kotlin-toolkit](https://github.com/AurityLab/graphql-kotlin-toolkit) - GraphQL toolkit for Kotlin (includes code generator and spring boot integration)
 * [phenax/h](https://github.com/phenax/h) - HTML templating library written in Kotlin
-* [bootique/bootique-kotlin](https://github.com/bootique/bootique-kotlin) - Provides extension function and features for smooth development with Bootique and Kotlin.
 * [darkredz/zeko-restapi-framework](https://github.com/darkredz/zeko-restapi-framework) - Asynchronous web framework for Kotlin. Create REST APIs in Kotlin easily with automatic Swagger/OpenAPI doc generation
+* [bootique/bootique-kotlin](https://github.com/bootique/bootique-kotlin) - Provides extension function and features for smooth development with Bootique and Kotlin.
 * [moia-dev/lambda-kotlin-request-router](https://github.com/moia-dev/lambda-kotlin-request-router) - A REST request routing layer for AWS lambda handlers written in Kotlin
 * [celtric/kotlin-html](https://github.com/celtric/kotlin-html) - A library to generate HTML in Kotlin.
 * [sepatel/tekniq](https://github.com/sepatel/tekniq) - Full-feature HTTP DSL Framework, HTTP Client, JDBC DSL, Loading Cache and Configuration
