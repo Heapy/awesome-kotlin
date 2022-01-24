@@ -890,6 +890,12 @@ category("Libraries/Frameworks") {
       setTags("shell")
       setPlatforms(JVM)
     }
+    link {
+      github = "krzema12/github-actions-kotlin-dsl"
+      desc = "Authoring GitHub Actions workflows in Kotlin."
+      setTags("github", "dsl", "scripting")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Compiler Plugins") {
     link {
