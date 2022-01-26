@@ -1969,6 +1969,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "ui")
       setPlatforms(ANDROID)
     }
-    
+    link{
+      github = "CuriousNikhil/k5-compose"
+      desc = "K5-compose is a sketchy port of p5.js for Jetpack Compose Desktop"
+      setTags("jetpack-compose", "compose", "kotlin", "ui", "compose-desktop")
+      setPlatforms(NATIVE, JVM)
+    }
   }
 }
