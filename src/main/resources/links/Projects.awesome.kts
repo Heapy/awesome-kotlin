@@ -218,6 +218,11 @@ category("Projects") {
       desc = "Easily compile Kotlin classes (.kt) and run Kotlin scripts (.kts)"
       setTags("compiler", "gui", "scripts", "desktop")
     }
+    link {
+      github = "pintowar/sudoscan"
+      desc = "Scans and solves Sudoku Puzzles from images using AI"
+      setTags("artificial-intelligence", "machine-learning", "open-cv", "csp", "cli")
+    }
   }
   subcategory("Examples") {
     link {
