@@ -1866,6 +1866,13 @@ category("Libraries/Frameworks") {
       github = "varabyte/konsole"
       desc = "A declarative, Kotlin-idiomatic API for writing dynamic command line applications"
     }
+    link {
+      github = "kotlin-inquirer/kotlin-inquirer"
+      name = "kotlin-inquirer"
+      desc = "A collection of common interactive command line user interfaces written in Kotlin"
+      href = "https://github.com/kotlin-inquirer/kotlin-inquirer"
+      setTags("cli", "command", "interactive", "ui", "ansi", "color", "command line interface")
+    }
   }
   subcategory("Browsers") {
     link {
