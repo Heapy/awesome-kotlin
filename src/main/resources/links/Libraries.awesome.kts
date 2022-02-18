@@ -1863,8 +1863,10 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS, NATIVE, COMMON)
     }
     link {
-      github = "varabyte/konsole"
+      github = "varabyte/kotter"
       desc = "A declarative, Kotlin-idiomatic API for writing dynamic command line applications"
+      setTags("cli", "ansi", "color")
+      setPlatforms(JVM)
     }
     link {
       github = "kotlin-inquirer/kotlin-inquirer"
