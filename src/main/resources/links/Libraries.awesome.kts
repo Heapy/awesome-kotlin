@@ -197,6 +197,13 @@ category("Libraries/Frameworks") {
       setTags("web", "microservice", "grpc", "spring", "protobuf", "rest")
       setPlatforms(JVM)
     }
+    link {
+      github = "varabyte/kobweb"
+      href = "https://kobweb.varabyte.com"
+      desc = "A modern framework for full stack web apps in Kotlin"
+      setPlatforms(JS)
+      setTags("web", "framework", "fullstack")
+    }
   }
   subcategory("Testing") {
     link {
