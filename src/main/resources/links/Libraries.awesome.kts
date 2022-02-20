@@ -1514,6 +1514,12 @@ category("Libraries/Frameworks") {
       desc = "Kotlin multiplatform wrapper for Libsodium cryptographic library."
       setTags("multiplatform", "libsodium", "cryptography")
     }
+    link {
+      github = "petertrr/kotlin-multiplatform-diff"
+      desc = "Multiplatform kotlin library for calculating text differences. Based on java-diff-utils."
+      setTags("multiplatform", "tools", "text", "diff", "myers", "algorithm")
+      setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
   }
   subcategory("Extensions") {
     link {
