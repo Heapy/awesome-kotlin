@@ -867,6 +867,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Kotlin/kotlinx-kover"
+      desc = "Gradle plugin for Kotlin code coverage agents."
+      setTags("coverage", "code coverage", "jacoco")
+      awesome()
+    }
+    link {
       github = "facebookincubator/ktfmt"
       desc = "Kotlin code formatter that reflows lines and always produces the same result."
       setTags("formatter", "pretty print")
