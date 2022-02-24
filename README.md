@@ -120,10 +120,10 @@ Here is the awesome badge for your project:
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [ktorio/ktor-documentation](https://github.com/ktorio/ktor-documentation) 
+* [Skytils/SkytilsMod](https://github.com/Skytils/SkytilsMod) - A Hypixel Skyblock Utilities mod
 * [mouredev/Weekly-Challenge-2022-Kotlin](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin) - Retos semanales de la comunidad MoureDev para practicar Kotlin &amp; Android
 * [nightscout/AndroidAPS](https://github.com/nightscout/AndroidAPS) 
 * [LawnchairLauncher/lawnicons](https://github.com/LawnchairLauncher/lawnicons) 
-* [raamcosta/compose-destinations](https://github.com/raamcosta/compose-destinations) - Annotation processing library for type-safe Jetpack Compose navigation with no boilerplate.
 * [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [mukul500/AnimeXStream](https://github.com/mukul500/AnimeXStream) - An Android app to watch anime on your phone without ads.
@@ -138,47 +138,47 @@ Here is the awesome badge for your project:
 * [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
 * [YTVanced/VancedManager](https://github.com/YTVanced/VancedManager) - Vanced Installer
 * [gedoor/legado](https://github.com/gedoor/legado) - 阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
-* [mamoe/mirai](https://github.com/mamoe/mirai) - 高效率 QQ 机器人支持库
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
+* [Kr328/ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - https://1.2345345.xyz/ads.html
-* [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi) - Free and open source manga reader for Android.
+* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [Skytils/SkytilsMod](https://github.com/Skytils/SkytilsMod) - A Hypixel Skyblock Utilities mod
-* [VegaBobo/DSU-Sideloader](https://github.com/VegaBobo/DSU-Sideloader) - A simple app made to help users easily install GSIs via DSU's Android feature.
 * [saikou-app/saikou](https://github.com/saikou-app/saikou) - An anilist only client, which lets you stream &amp; download Anime &amp; Manga.
+* [Iamlooker/Droid-ify](https://github.com/Iamlooker/Droid-ify) - F-Droid client with Material UI.
+* [spotify/ruler](https://github.com/spotify/ruler) - Gradle plugin which helps you analyze the size of your Android apps.
 * [tytydraco/LADB](https://github.com/tytydraco/LADB) - A local ADB shell for Android!
-* [LagradOst/CloudStream-3](https://github.com/LagradOst/CloudStream-3) - Android app for streaming and downloading Movies, TV-Series and Anime.
+* [GetStream/stream-chat-android](https://github.com/GetStream/stream-chat-android) - Official Android SDK for Stream Chat. Powerful client, offline support, and UI component libraries for awesome in-app chat features. Kotlin-first, Open-Source, free for Makers.
+* [seemoo-lab/AirGuard](https://github.com/seemoo-lab/AirGuard) - Protect yourself from being tracked 🌍 by AirTags 🏷 and Find My accessories 📍
 * [PatilShreyas/NotyKT](https://github.com/PatilShreyas/NotyKT) - 📒 NotyKT is a complete 💎Kotlin-stack (Backend + Android) 📱 application built to demonstrate the use of Modern development tools with best practices implementation🦸.
 * [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
-* [hegaojian/JetpackMvvm](https://github.com/hegaojian/JetpackMvvm) - :chicken::basketball:一个Jetpack结合MVVM的快速开发框架，基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation组件 使用Kotlin语言，添加大量拓展函数，简化代码 加入Retrofit网络请求,协程，帮你简化各种操作，让你快速开发项目
 * [vinaygaba/Learn-Jetpack-Compose-By-Example](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example) - 🚀 This project contains various examples that show how you would do things the &quot;Jetpack Compose&quot; way
-* [Kotlin/dokka](https://github.com/Kotlin/dokka) - Documentation Engine for Kotlin
-* [kizitonwose/CalendarView](https://github.com/kizitonwose/CalendarView) - A highly customizable calendar library for Android, powered by RecyclerView.
 * [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
-* [android/sunflower](https://github.com/android/sunflower) - A gardening app illustrating Android development best practices with Android Jetpack.
+* [square/okio](https://github.com/square/okio) - A modern I/O library for Android, Java, and Kotlin Multiplatform.
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) - 😍 A beautiful, fluid, and extensible dialogs API for Kotlin &amp; Android.
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 * [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
 * [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [fankes/TSBattery](https://github.com/fankes/TSBattery) - A new way to save your battery avoid cancer apps hacker it.
+* [KieronQuinn/SIMNumberSetter](https://github.com/KieronQuinn/SIMNumberSetter) - A small Xposed module to set the SIM card's phone subscriber number
 * [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) - Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL.
-* [lambda-client/lambda](https://github.com/lambda-client/lambda) - Minecraft utility mod coded in Kotlin
-* [trycatchx/RocketXPlugin](https://github.com/trycatchx/RocketXPlugin) - android 端编译加速插件🚀
-* [mapbox/mapbox-navigation-android](https://github.com/mapbox/mapbox-navigation-android) - Mapbox Navigation SDK for Android
-* [google-developer-training/android-kotlin-fundamentals-starter-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps) - android-kotlin-fundamentals-starter-apps
-* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
-* [Tencent/bk-ci](https://github.com/Tencent/bk-ci) - 蓝鲸CI平台(BlueKing CI)
-* [apollographql/apollo-kotlin](https://github.com/apollographql/apollo-kotlin) - :robot:  A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.
+* [awslabs/aws-sdk-kotlin](https://github.com/awslabs/aws-sdk-kotlin) - Multiplatform AWS SDK for Kotlin
+* [philipplackner/CleanArchitectureNoteApp](https://github.com/philipplackner/CleanArchitectureNoteApp) 
+* [raamcosta/compose-destinations](https://github.com/raamcosta/compose-destinations) - Annotation processing library for type-safe Jetpack Compose navigation with no boilerplate.
+* [running-libo/Tiktok](https://github.com/running-libo/Tiktok) - 高仿抖音APP
+* [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) - Best Material You Design music player for Android
+* [skydoves/android-developer-roadmap](https://github.com/skydoves/android-developer-roadmap) - 🗺 Android Developer Roadmap 2022 suggests learning paths to understanding Android development.
+* [corona-warn-app/cwa-app-android](https://github.com/corona-warn-app/cwa-app-android) - Native Android app using the Apple/Google exposure notification API.
 * [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
-* [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
 * [zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor) - An android image compression library.
 * [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin
 * [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
-* [Kr328/ClashForAndroid](https://github.com/Kr328/ClashForAndroid) - A rule-based tunnel for Android.
+* [android/uamp](https://github.com/android/uamp) - A sample audio app for Android
+* [android/architecture-components-samples](https://github.com/android/architecture-components-samples) - Samples for Android Architecture Components.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
