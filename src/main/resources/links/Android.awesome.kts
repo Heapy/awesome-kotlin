@@ -367,6 +367,14 @@ category("Android") {
       setTags("ui", "android", "custom-toast")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "popovanton0/heart-switch"
+      name = "heart-switch"
+      desc = "A heart-shaped toggle switch component for Jetpack Compose"
+      href = "https://github.com/popovanton0/heart-switch"
+      setTags("android", "kotlin", "ui", "toggle", "switch", "heart", "ui-components", "heart-shaped-curve", "toggle-switch", "jetpack-compose", "heart-shape")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
