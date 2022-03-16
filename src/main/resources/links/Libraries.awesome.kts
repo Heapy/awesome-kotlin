@@ -667,6 +667,13 @@ category("Libraries/Frameworks") {
       setTags("json", "dsl", "builder")
       setPlatforms(JVM)
     }
+    link {
+      name = "knbt"
+      github = "BenWoodworth/knbt"
+      desc = "Minecraft NBT support for kotlinx.serialization"
+      setTags("nbt", "snbt", "minecraft", "kotlinx.serialization")
+      setPlatforms(COMMON, ANDROID, IOS, JS, JVM, NATIVE)
+    }
   }
   subcategory("Validation") {
     link {
