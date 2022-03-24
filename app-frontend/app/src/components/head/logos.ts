@@ -121,4 +121,15 @@ export const LOGOS: Logo[] = [
     exclusive: true,
     link: "https://forms.gle/yktEz3xCAwKEm9cx9"
   },
+  {
+    src: require("./ukraine.svg"),
+    alt: () => "War in Ukraine",
+    show: () => {
+      const now = Date.now()
+
+      return 1645675200000 <= now; // Until further notification
+    },
+    exclusive: true,
+    link: "https://bank.gov.ua/en/about/support-the-armed-forces"
+  },
 ]
