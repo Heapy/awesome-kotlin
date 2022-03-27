@@ -9,10 +9,20 @@
     }
 
     &_wrapper {
-      display: block;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
       max-width: 1024px;
       margin: auto;
       padding: 20px;
+
+      & .separator {
+        font-size: 24px;
+        color: @accent;
+        margin: 10px;
+        cursor: default;
+        user-select: none;
+      }
 
       & a.link {
         font-size: 24px;
@@ -20,8 +30,9 @@
         text-decoration: none;
         margin: 10px;
 
-        &:active {
+        &.active {
           text-decoration: underline;
+          text-decoration-thickness: 2.5px;
         }
       }
     }
