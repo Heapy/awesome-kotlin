@@ -80,13 +80,25 @@ export function LinksPageComponent(props: PageProps) {
 
   return (
     <div>
-      <a href="https://github.com/KotlinBy/awesome-kotlin">
-        <img className="page_github_link"
-             src={require("./fork-me.svg")}
-             alt="Fork me on GitHub"/>
-      </a>
-
-      <Navigation/>
+      <Navigation links={[
+        {
+          name: "Essential",
+          href: "/",
+        },
+        {
+          name: "Everything",
+          href: "/resources",
+        },
+        {
+          name: "Kotlin User Groups",
+          href: "/kugs",
+        },
+        {
+          name: "Github",
+          title: "Fork me!",
+          href: "https://github.com/KotlinBy/awesome-kotlin",
+        },
+      ]}/>
 
       <Header/>
 
