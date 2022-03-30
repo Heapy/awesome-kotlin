@@ -2010,5 +2010,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "ui", "compose-desktop")
       setPlatforms(NATIVE, JVM)
     }
+    link{
+      github = "Canopas/Intro-showcase-view"
+      desc = "An android library to highlight different features of the app built using Jetpack Compose."
+      setTags("jetpack-compose", "compose", "kotlin", "jetpack-android", "android")
+      setPlatforms(ANDROID)
+    }
   }
 }
