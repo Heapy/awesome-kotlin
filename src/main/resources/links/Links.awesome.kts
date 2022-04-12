@@ -329,5 +329,10 @@ category("Links") {
       href = "https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/"
       awesome()
     }
+    link {
+      name = "Kotlin Coroutines: Deep Dive"
+      desc = "A practical book dedicated to Kotlin Coroutines, common use-cases, best practices and deep understanding."
+      href = "https://kt.academy/book/coroutines"
+    }
   }
 }
