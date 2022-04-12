@@ -320,6 +320,10 @@ category("Links") {
       href = "https://store.raywenderlich.com/products/data-structures-and-algorithms-in-kotlin"
     }
     link {
+      name = "Effective Kotlin"
+      href = "https://kt.academy/book/effectivekotlin"
+    }
+    link {
       name = "Head First Kotlin"
       desc = "Head First Kotlin is a complete introduction to coding in Kotlin"
       href = "https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/"
