@@ -146,9 +146,14 @@ category("Links") {
       setTags("blog", "articles", "tutorials", "interviews")
     }
     link {
-      name = "Kotlin Academy"
+      name = "Kt. Academy Medium"
       desc = "Blog that teach about Kotlin"
       href = "https://blog.kotlin-academy.com/"
+    }
+    link {
+      name = "Kt. Academy"
+      desc = "Publication with regular Kotlin posts."
+      href = "https://kt.academy/article"
     }
     link {
       name = "KotlinTesting Blog"
