@@ -257,6 +257,10 @@ category("Links") {
       awesome()
     }
     link {
+      name = "Kotlin in Action, Second Edition"
+      href = "https://www.manning.com/books/kotlin-in-action-second-edition"
+      awesome()
+    link {
       name = "Kotlin for Android Developers - Antonio Leiva"
       href = "https://leanpub.com/kotlin-for-android-developers"
       awesome()
