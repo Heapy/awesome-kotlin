@@ -857,7 +857,7 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
-      github = "cqfn/diktat"
+      github = "saveourtool/diktat"
       desc = "Strict coding standard for Kotlin and a custom set of rules for detecting and autofixing code smells."
       setTags("style", "linter", "static-analysis", "check style", "code smell")
       setPlatforms(COMMON)
