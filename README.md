@@ -798,16 +798,6 @@ Here is the awesome badge for your project:
 
 ## <a name="android"></a>Android <sup>[Back ⇈](#android-category)</sup>
 ### <a name="android-libraries"></a>Libraries <sup>[Back ⇈](#android-libraries-subcategory)</sup>
-* [PicsArt/stateful](https://github.com/PicsArt/stateful) 
-* [BennyWang/KBinding](https://github.com/BennyWang/KBinding) 
-* [inaka/KillerTask](https://github.com/inaka/KillerTask) 
-* [grandstaish/paperparcel](https://github.com/grandstaish/paperparcel) - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
-* [andre-artus/AnvilKotlin](https://github.com/andre-artus/AnvilKotlin) - Minimal UI library for Android inspired by React.
-* [mathcamp/fiberglass](https://github.com/mathcamp/fiberglass) - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
-* [nitrico/LastAdapter](https://github.com/nitrico/LastAdapter) - Don't write a RecyclerView adapter again. Not even a ViewHolder!.
-* [denisidoro/krouter](https://github.com/denisidoro/krouter) - A lightweight Android activity router.
-* [metalabdesign/AsyncAwait](https://github.com/metalabdesign/AsyncAwait) - async/await for Android built upon coroutines introduced in Kotlin 1.1.
-* [jupf/staticlog](https://github.com/jupf/staticlog) - StaticLog - super lightweight static logging for Kotlin, Java and Android.
 * [zserge/anvil](https://github.com/zserge/anvil) - Minimal UI library for Android inspired by React.
 * [robinchew/mvil](https://github.com/robinchew/mvil) - 'Virtual DOM' for Android inspired by Anvil.
 * [DanielMartinus/Stepper-Touch](https://github.com/DanielMartinus/Stepper-Touch) - Fun playful Android stepper widget for counting, written in Kotlin.
@@ -863,23 +853,33 @@ Here is the awesome badge for your project:
 * [MackHartley/RoundedProgressBar](https://github.com/MackHartley/RoundedProgressBar) - A customizable, animated progress bar that features rounded corners. This Android library is designed to look great and be simple to use
 * [developingdeveloper-tech/toaster-android](https://github.com/developingdeveloper-tech/toaster-android) - A simple library to add custom toast to android applications.
 * [heart-switch](https://github.com/popovanton0/heart-switch) - A heart-shaped toggle switch component for Jetpack Compose
+* [andre-artus/AnvilKotlin](https://github.com/andre-artus/AnvilKotlin) - Minimal UI library for Android inspired by React.
+* [mathcamp/fiberglass](https://github.com/mathcamp/fiberglass) - Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties.
+* [inaka/KillerTask](https://github.com/inaka/KillerTask) - Android AsyncTask wrapper library, written in Kotlin
+* [jupf/staticlog](https://github.com/jupf/staticlog) - StaticLog - super lightweight static logging for Kotlin, Java and Android.
 * [MarcinMoskala/KotlinPreferences](https://github.com/MarcinMoskala/KotlinPreferences) - Android Library to make SharedPreferences usage easier.
+* [PicsArt/stateful](https://github.com/PicsArt/stateful) - Stateful is a Kotlin library which makes Android application development faster and easier.
 * [TouK/bubble](https://github.com/TouK/bubble) - Screen orientation detector for android
+* [denisidoro/krouter](https://github.com/denisidoro/krouter) - A lightweight Android activity router.
 * [MarcinMoskala/PreferenceHolder](https://github.com/MarcinMoskala/PreferenceHolder) - SharedPreference usage made fun in Kotlin
 * [ragunathjawahar/kaffeine](https://github.com/ragunathjawahar/kaffeine) - Kaffeine is a Kotlin-flavored Android library for accelerating development.
+* [metalabdesign/AsyncAwait](https://github.com/metalabdesign/AsyncAwait) - async/await for Android built upon coroutines introduced in Kotlin 1.1.
+* [BennyWang/KBinding](https://github.com/BennyWang/KBinding) - Android MVVM framework write in kotlin, develop Android has never been so fun.
 * [MarcinMoskala/ActivityStarter](https://github.com/MarcinMoskala/ActivityStarter) - Simple Android Library, that provides easy way to start the Activities with arguments.
+* [grandstaish/paperparcel](https://github.com/grandstaish/paperparcel) - Boilerplate reduction library written specifically for working with Kotlin data classes on Android.
 * [mcxiaoke/kotlin-koi](https://github.com/mcxiaoke/kotlin-koi) - Koi, a lightweight kotlin library for Android Development.
 * [chibatching/Kotpref](https://github.com/chibatching/Kotpref) - Kotpref - Android SharedPreferences delegation library for Kotlin
+* [nitrico/LastAdapter](https://github.com/nitrico/LastAdapter) - Don't write a RecyclerView adapter again. Not even a ViewHolder!.
 * [pawegio/KAndroid](https://github.com/pawegio/KAndroid) - Kotlin library for Android
 
 ### <a name="android-frameworks"></a>Frameworks <sup>[Back ⇈](#android-frameworks-subcategory)</sup>
 * [nekocode/kotgo](https://github.com/nekocode/kotgo) - An android development framwork on kotlin using MVP architecture.
 * [lightningkite/kotlin-core](https://github.com/lightningkite/kotlin-core) - A full framework for making Android apps. Based on Anko and Kotson.
-* [codenameone/CodenameOne](https://github.com/codenameone/CodenameOne) - Open source cross platform mobile development framework that offers write once run anywhere native development for iOS (iPhone/iPad), Android, Windows &amp; more using Kotlin &amp; Java
 * [hpost/rx-mvi](https://github.com/hpost/rx-mvi) - Minimal framework for Model View Intent inspired Android applications written in Kotlin.
 * [LouisCAD/Splitties](https://github.com/LouisCAD/Splitties) - A family of small Kotlin libraries for delightful Android development including View DSLs
 * [Miha-x64/Lychee](https://github.com/Miha-x64/Lychee) - Data binding and persistence infrastructure for building Android and JavaFX UIs and binding them with data
 * [0xe1f/ararat](https://github.com/0xe1f/ararat) 
+* [codenameone/CodenameOne](https://github.com/codenameone/CodenameOne) - Open source cross platform mobile development framework that offers write once run anywhere native development for iOS (iPhone/iPad), Android, Windows &amp; more using Kotlin &amp; Java
 
 ### <a name="android-projects"></a>Projects <sup>[Back ⇈](#android-projects-subcategory)</sup>
 * [BanDev/Buddha-Quotes](https://github.com/BanDev/Buddha-Quotes) - A collaborative project to create a Free and Open Source Buddha Quotes app.
