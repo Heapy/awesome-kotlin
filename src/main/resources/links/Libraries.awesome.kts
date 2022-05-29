@@ -916,6 +916,12 @@ category("Libraries/Frameworks") {
       setTags("github", "dsl", "scripting")
       setPlatforms(JVM)
     }
+    link {
+      github = "L-Briand/TT"
+      desc = "A powerful key:value template processor."
+      setTags("template", "template-engine")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Compiler Plugins") {
     link {
