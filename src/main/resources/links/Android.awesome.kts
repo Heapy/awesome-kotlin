@@ -676,6 +676,11 @@ category("Android") {
       desc = "Booster is an optimization toolkit for Android applications"
       setTags("optimizer", "gradle-plugin", "bytecode-manipulation", "static-analysis")
     }
+    link {
+      github = "Kotlin/kdoctor"
+      desc = "CLI tool that helps to set up the environment for Kotlin Multiplatform Mobile app development."
+      setTags("kmm", "multiplatform")
+    }
   }
   subcategory("Tests") {
     link {
