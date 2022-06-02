@@ -682,6 +682,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("validation", "validator")
     }
+    link {
+      github = "konform-kt/konform"
+      desc = "Multiplatform validations for Kotlin data classes"
+      setPlatforms(JVM, JS)
+      setTags("validation", "dsl")
+    }
   }
   subcategory("Database") {
     link {
