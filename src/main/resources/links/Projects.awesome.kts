@@ -223,6 +223,11 @@ category("Projects") {
       desc = "Scans and solves Sudoku Puzzles from images using AI"
       setTags("artificial-intelligence", "machine-learning", "open-cv", "csp", "cli")
     }
+    link {
+      github = "russellbanks/HashHash"
+      desc = "A Multiplatform GUI for Hashing, written in Compose for Desktop."
+      setTags("hashing", "compose-for-desktop")
+    }
   }
   subcategory("Examples") {
     link {
