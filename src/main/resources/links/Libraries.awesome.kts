@@ -1395,6 +1395,11 @@ category("Libraries/Frameworks") {
       desc = "Mathematical expression engine written in Kotlin, running on JVM."
     }
     link {
+      github = "vendelieu/telegram-bot"
+      desc = "A lightweight, feature-rich wrapper for the Telegram Bot API"
+      setTags("telegram", "bot", "Kotlin")
+    }
+    link {
       github = "kotlin-telegram-bot/kotlin-telegram-bot"
       desc = "A wrapper for the Telegram Bot API written in Kotlin."
     }
