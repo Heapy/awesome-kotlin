@@ -1214,6 +1214,11 @@ category("Libraries/Frameworks") {
       setTags("logging", "slf4j")
     }
     link {
+      github = "InsanusMokrassar/KSLog"
+      desc = "Fully customizable and lightweight logging library for Kotlin"
+      setTags("logging")
+    }
+    link {
       github = "cesarferreira/kotlin-pluralizer"
       desc = "Kotlin extension to pluralize and singularize strings."
       setTags("pluralize", "singularizen")
