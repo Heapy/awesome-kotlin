@@ -1007,6 +1007,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("networking", "reliable transport", "reliable udp", "no-arq", "fec")
     }
+    link {
+      github = "open-coap/kotlin-mbedtls"
+      desc = "Integration with mbedtls library to provide DTLS client and server in jvm"
+      setPlatforms(JVM)
+      setTags("networking", "udp", "dtls", "tls")
+    }   
   }
   subcategory("Editors") {
     link {
