@@ -690,7 +690,7 @@ category("Libraries/Frameworks") {
     }
 
     link {
-      github = "LeoColman/SimpleCpfValidator
+      github = "LeoColman/SimpleCpfValidator"
       desc = "Simple Brazilian taxpayer document (CPF) validator"
       setPlatforms(JVM)
       setTags("validation", "validator", "cpf", "brazil")
