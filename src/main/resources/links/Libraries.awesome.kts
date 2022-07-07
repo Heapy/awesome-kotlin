@@ -688,6 +688,13 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS)
       setTags("validation", "dsl")
     }
+
+    link {
+      github = "LeoColman/SimpleCpfValidator"
+      desc = "Simple Brazilian taxpayer document (CPF) validator"
+      setPlatforms(JVM)
+      setTags("validation", "validator", "cpf", "brazil")
+    }
   }
   subcategory("Database") {
     link {
