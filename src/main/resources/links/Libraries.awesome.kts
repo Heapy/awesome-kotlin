@@ -387,6 +387,11 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("scraper", "parser", "webcrawler", "chefkoch", "api")
     }
+    link {
+      github = "HelloCuriosity/model-forge"
+      desc = "A Kotlin library for auto generating models for tests."
+      setTags("test", "model-generation", "fixtures")
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
