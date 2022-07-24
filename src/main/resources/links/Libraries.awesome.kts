@@ -1501,6 +1501,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "semver", "semantic", "version")
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
     }
+    link {
+      github = "krud-dev/shapeshift"
+      desc = "A Kotlin library for intelligent object mapping and conversion between objects."
+      setTags("object-mapping", "utility", "conversion", "spring")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Parsers") {
     link {
