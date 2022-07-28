@@ -10,6 +10,7 @@ import com.rometools.rome.io.SyndFeedOutput
 import link.kotlin.scripts.dsl.Article
 import java.io.StringWriter
 import java.time.Instant
+import java.time.ZoneOffset
 import java.util.Date
 
 interface RssGenerator {
@@ -58,7 +59,7 @@ private fun toSyndEntry(article: Article): SyndEntry {
         link = "https://kotlin.link/articles/${article.filename}"
         title = article.title
         author = article.author
-        updatedDate = Date.from(Instant.from(article.date))
+        updatedDate = Date.from(article.date.atStartOfDay().toInstant(ZoneOffset.UTC))
         description = SyndContentImpl().also { content ->
             content.value = article.description
         }
