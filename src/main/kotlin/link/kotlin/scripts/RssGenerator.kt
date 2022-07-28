@@ -58,6 +58,7 @@ private fun toSyndEntry(article: Article): SyndEntry {
         link = "https://kotlin.link/articles/${article.filename}"
         title = article.title
         author = article.author
+        updatedDate = Date.from(Instant.from(article.date))
         description = SyndContentImpl().also { content ->
             content.value = article.description
         }

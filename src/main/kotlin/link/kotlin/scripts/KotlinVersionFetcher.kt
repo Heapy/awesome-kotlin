@@ -2,7 +2,7 @@ package link.kotlin.scripts
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
-import com.fasterxml.jackson.module.kotlin.KotlinModule
+import com.fasterxml.jackson.module.kotlin.kotlinModule
 import link.kotlin.scripts.utils.HttpClient
 import link.kotlin.scripts.utils.body
 import org.apache.http.client.methods.HttpGet
@@ -27,7 +27,7 @@ private class MavenCentralKotlinVersionFetcher(
         val xml = httpClient.execute(HttpGet(url)).body()
 
         val mapper = XmlMapper()
-        mapper.registerModule(KotlinModule())
+        mapper.registerModule(kotlinModule {})
 
         val metadata = mapper.readValue(xml, MavenMetadata::class.java)
         val versions = metadata.versioning.versions
