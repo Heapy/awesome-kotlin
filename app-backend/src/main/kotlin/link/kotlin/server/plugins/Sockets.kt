@@ -1,10 +1,14 @@
 package link.kotlin.server.plugins
 
-import io.ktor.http.cio.websocket.*
 import io.ktor.websocket.*
 import java.time.*
-import io.ktor.application.*
-import io.ktor.routing.*
+import io.ktor.server.application.Application
+import io.ktor.server.application.install
+import io.ktor.server.routing.routing
+import io.ktor.server.websocket.WebSockets
+import io.ktor.server.websocket.pingPeriod
+import io.ktor.server.websocket.timeout
+import io.ktor.server.websocket.webSocket
 
 fun Application.configureSockets() {
     install(WebSockets) {
@@ -27,6 +31,7 @@ fun Application.configureSockets() {
                             close(CloseReason(CloseReason.Codes.NORMAL, "Client said BYE"))
                         }
                     }
+                    else -> {}
                 }
             }
         }

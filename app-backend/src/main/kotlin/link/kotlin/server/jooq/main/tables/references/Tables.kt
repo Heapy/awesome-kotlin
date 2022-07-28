@@ -6,7 +6,9 @@ package link.kotlin.server.jooq.main.tables.references
 
 import link.kotlin.server.jooq.main.tables.FlywaySchemaHistory
 import link.kotlin.server.jooq.main.tables.Kotliner
+import link.kotlin.server.jooq.main.tables.KotlinerKug
 import link.kotlin.server.jooq.main.tables.KotlinerMeta
+import link.kotlin.server.jooq.main.tables.Kug
 
 
 
@@ -21,6 +23,16 @@ val FLYWAY_SCHEMA_HISTORY: FlywaySchemaHistory = FlywaySchemaHistory.FLYWAY_SCHE
 val KOTLINER: Kotliner = Kotliner.KOTLINER
 
 /**
+ * The table <code>public.kotliner_kug</code>.
+ */
+val KOTLINER_KUG: KotlinerKug = KotlinerKug.KOTLINER_KUG
+
+/**
  * The table <code>public.kotliner_meta</code>.
  */
 val KOTLINER_META: KotlinerMeta = KotlinerMeta.KOTLINER_META
+
+/**
+ * The table <code>public.kug</code>.
+ */
+val KUG: Kug = Kug.KUG

@@ -1,4 +1,4 @@
-package link.kotlin.server.routes
+package link.kotlin.server.dao
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -71,7 +71,7 @@ class DefaultKotlinerDao(
                         ConstraintViolationFields(
                             message = UNIQUE_KOTLINER_EMAIL.name,
                             fields = listOf(
-                                KotlinerDao.SaveView::email
+                                KotlinerDao.SaveView::email.name
                             ),
                         ),
                     ),
@@ -82,7 +82,7 @@ class DefaultKotlinerDao(
                         ConstraintViolationFields(
                             message = UNIQUE_KOTLINER_NICKNAME.name,
                             fields = listOf(
-                                KotlinerDao.SaveView::nickname
+                                KotlinerDao.SaveView::nickname.name
                             ),
                         ),
                     ),

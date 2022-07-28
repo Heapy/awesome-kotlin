@@ -52,7 +52,7 @@ private class DefaultAwesomeKotlinGenerator(
 }
 
 fun AwesomeKotlinGenerator.Companion.default(): AwesomeKotlinGenerator {
-    val mapper = KotlinObjectMapper.default()
+    val mapper = KotlinObjectMapper()
     val httpClient = HttpClient.default()
     val configuration = ApplicationConfiguration.default()
     val markdownRenderer = MarkdownRenderer.default()

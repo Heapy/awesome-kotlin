@@ -10,17 +10,29 @@ import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
-import io.github.config4k.extract
-import io.ktor.auth.authenticate
-import io.ktor.routing.routing
-import io.ktor.server.cio.CIO
+import io.ktor.client.HttpClient
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.serialization.kotlinx.json.json
+import io.ktor.server.auth.authenticate
 import io.ktor.server.engine.embeddedServer
+import io.ktor.server.routing.routing
+import io.micrometer.prometheus.PrometheusConfig
+import io.micrometer.prometheus.PrometheusMeterRegistry
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.hocon.Hocon
+import kotlinx.serialization.hocon.decodeFromConfig
+import kotlinx.serialization.json.Json
 import link.kotlin.server.lifecycle.JvmShutdownManager
 import link.kotlin.server.lifecycle.ShutdownManager
 import link.kotlin.server.plugins.JwtConfiguration
 import link.kotlin.server.plugins.defaults
-import link.kotlin.server.routes.DefaultKotlinerDao
-import link.kotlin.server.routes.KotlinerDao
+import link.kotlin.server.dao.DefaultKotlinerDao
+import link.kotlin.server.dao.DefaultKugDao
+import link.kotlin.server.dao.KotlinerDao
+import link.kotlin.server.dao.KugDao
+import link.kotlin.server.routes.LinkSource
+import link.kotlin.server.routes.kugs
+import link.kotlin.server.routes.links
 import link.kotlin.server.routes.login
 import link.kotlin.server.routes.ping
 import link.kotlin.server.routes.register
@@ -34,7 +46,9 @@ import java.lang.management.ManagementFactory
 import java.lang.management.RuntimeMXBean
 import java.security.SecureRandom
 import javax.sql.DataSource
-import kotlin.time.Duration
+import kotlin.time.Duration.Companion.milliseconds
+import io.ktor.client.engine.cio.CIO as ClientCIO
+import io.ktor.server.cio.CIO as ServerCIO
 
 fun main() {
     ApplicationFactory().run()
@@ -53,9 +67,27 @@ open class ApplicationFactory {
         DefaultKotlinerDao(dslContext)
     }
 
+    open val kugDao: KugDao by lazy {
+        DefaultKugDao(dslContext)
+    }
+
+    open val linkSource by lazy {
+        LinkSource()
+    }
+
+    open val httpClient by lazy {
+        HttpClient(ClientCIO) {
+            install(ContentNegotiation) {
+                json(json = Json {
+                    ignoreUnknownKeys = true
+                })
+            }
+        }
+    }
+
     open val ktorServer by lazy {
         embeddedServer(
-            factory = CIO,
+            factory = ServerCIO,
             port = serverConfig.port,
             host = serverConfig.host
         ) {
@@ -65,21 +97,27 @@ open class ApplicationFactory {
                 ping()
                 login(jwtConfig, bcryptVerifier, kotlinerDao)
                 register(bcryptHasher, kotlinerDao)
+                links(linkSource.get())
+                kugs(httpClient, kugDao)
 
                 authenticate("jwt") {
 
                 }
             }
             configureSockets()
-            configureMonitoring()
+            configureMonitoring(meterRegistry)
         }
+    }
+
+    open val meterRegistry by lazy {
+        PrometheusMeterRegistry(PrometheusConfig.DEFAULT)
     }
 
     open fun run() {
         shutdownHandler.registerHook()
         flyway.migrate()
         ktorServer.start(wait = true)
-        logger.info("Server started in {}", Duration.milliseconds(runtimeMXBean.uptime))
+        logger.info("Server started in {}", runtimeMXBean.uptime.milliseconds)
     }
 
     open val runtimeMXBean: RuntimeMXBean by lazy {
@@ -129,11 +167,11 @@ open class ApplicationFactory {
     }
 
     open val serverConfig: ServerConfig by lazy {
-        config.extract("server")
+        Hocon.decodeFromConfig(config.getConfig("server"))
     }
 
     open val jwtConfig: JwtConfiguration by lazy {
-        config.extract("jwt")
+        Hocon.decodeFromConfig(config.getConfig("jwt"))
     }
 
     open val config: Config by lazy {
@@ -141,6 +179,7 @@ open class ApplicationFactory {
     }
 }
 
+@Serializable
 data class ServerConfig(
     val port: Int,
     val host: String,

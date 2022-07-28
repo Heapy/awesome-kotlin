@@ -1,0 +1,390 @@
+{
+    "name": "Kotlin JavaScript",
+    "subcategories": [
+        {
+            "name": "JavaScript",
+            "links": [
+                {
+                    "name": null,
+                    "github": "andrewoma/reakt",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Reakt is a Kotlin wrapper for facebook's React library.",
+                    "platforms": [],
+                    "tags": [
+                        "react",
+                        "javascript",
+                        "ui"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "pixijs/pixi-native",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "The aim of this project is to provide a fast lightweight 2D library that works across all devices.",
+                    "platforms": [],
+                    "tags": [
+                        "javascript",
+                        "2d",
+                        "canvas",
+                        "WebGL"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "shafirov/klogging",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin logging, both js and jvm.",
+                    "platforms": [],
+                    "tags": [
+                        "javascript",
+                        "logging"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "stangls/kotlin-js-jquery",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "A small framework for writing client -side web -applications in Kotlin.",
+                    "platforms": [],
+                    "tags": [
+                        "javascript",
+                        "jquery"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "Kotlin/kotlin-fullstack-sample",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin Full-stack Application Example.",
+                    "platforms": [],
+                    "tags": [
+                        "fullstack",
+                        "javascript",
+                        "web",
+                        "ktor"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
+                },
+                {
+                    "name": null,
+                    "github": "danfma/kodando",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin JS bindings and libraries.",
+                    "platforms": [],
+                    "tags": [
+                        "bindings",
+                        "react",
+                        "mobx",
+                        "rxjs"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "kengorab/kotlin-javascript-boilerplate",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "An extremely barebones boilerplate project for compiling Kotlin to Javascript.",
+                    "platforms": [],
+                    "tags": [
+                        "boilerplate",
+                        "javascript",
+                        "kotlin2js"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "markaren/three-kt-wrapper",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin wrappers for three.js JavaScript 3D library",
+                    "platforms": [],
+                    "tags": [
+                        "web",
+                        "javascript",
+                        "kotlin-js",
+                        "three-js"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "rjaros/kvision",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Object oriented Web UI framework for Kotlin/JS",
+                    "platforms": [],
+                    "tags": [
+                        "web",
+                        "javascript",
+                        "kotlin-js",
+                        "framework"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "nosix/vue-kotlin",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Libraries and tools supporting the use of Vue.js in Kotlin",
+                    "platforms": [],
+                    "tags": [
+                        "vuejs2",
+                        "javascript",
+                        "kotlin-js",
+                        "gradle-plugin",
+                        "ui"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "Kabbura/Kunafa",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Easy to use, high level framework in Kotlin for front-end web-development and creating web apps without using HTML, CSS, or JavaScript.",
+                    "platforms": [],
+                    "tags": [
+                        "web",
+                        "javascript",
+                        "kotlin-js"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "Foso/MpApt",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin Native/JS/JVM Annotation Processor library",
+                    "platforms": [],
+                    "tags": [],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "fortytwoapps/kstitch",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "An object oriented toolkit for MongoDB Stitch in KotlinJS.",
+                    "platforms": [],
+                    "tags": [],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Frontend",
+            "links": [
+                {
+                    "name": null,
+                    "github": "olegcherr/Aza-Kotlin-CSS",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin DSL for CSS",
+                    "platforms": [],
+                    "tags": [
+                        "web",
+                        "css"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Game Development",
+            "links": [
+                {
+                    "name": null,
+                    "github": "perses-games/kudens",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Develop browser games in Kotlin",
+                    "platforms": [],
+                    "tags": [
+                        "games",
+                        "game dev",
+                        "javascript"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Build Tools",
+            "links": [
+                {
+                    "name": null,
+                    "github": "Kotlin/kotlin-frontend-plugin",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Gradle Kotlin plugin for frontend development.",
+                    "platforms": [],
+                    "tags": [
+                        "webpack",
+                        "npm",
+                        "gradle",
+                        "karma",
+                        "javascript"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
+                },
+                {
+                    "name": null,
+                    "github": "huston007/kotlin-loader",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin webpack loader.",
+                    "platforms": [],
+                    "tags": [
+                        "webpack",
+                        "javascript"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Integration",
+            "links": [
+                {
+                    "name": null,
+                    "github": "kotlin/ts2kt",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Converter of TypeScript definition files to Kotlin declarations (stubs).",
+                    "platforms": [
+                        "JS"
+                    ],
+                    "tags": [
+                        "javascript",
+                        "typescript"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "Kotlin/dukat",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Converter of <any kind of declarations> to Kotlin external declarations",
+                    "platforms": [
+                        "JS"
+                    ],
+                    "tags": [
+                        "javascript",
+                        "typescript"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
+                }
+            ]
+        }
+    ]
+}

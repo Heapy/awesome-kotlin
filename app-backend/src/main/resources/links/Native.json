@@ -1,0 +1,119 @@
+{
+    "name": "Kotlin Native",
+    "subcategories": [
+        {
+            "name": "Projects",
+            "links": [
+                {
+                    "name": null,
+                    "github": "JetBrains/kotlin-native",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin/Native is a LLVM backend for the Kotlin compiler, runtime implementation and native code generation facility using LLVM toolchain.",
+                    "platforms": [],
+                    "tags": [
+                        "native",
+                        "macos",
+                        "linux",
+                        "llvm"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
+                },
+                {
+                    "name": null,
+                    "github": "perses-games/konan-sfml",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Kotlin native with SFML example",
+                    "platforms": [],
+                    "tags": [
+                        "sfml",
+                        "linux",
+                        "native"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "JetBrains/kotlinconf-spinner",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Simple spinner-like game intended to demonstrate capabilities of Kotlin/Native software stack.",
+                    "platforms": [],
+                    "tags": [
+                        "native",
+                        "llvm",
+                        "android",
+                        "ios",
+                        "backend",
+                        "linux"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "links": [
+                {
+                    "name": null,
+                    "github": "KwangIO/kwang",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": null,
+                    "platforms": [],
+                    "tags": [
+                        "native",
+                        "backend",
+                        "linux",
+                        "C",
+                        "high-performance"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "msink/kotlin-libui",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": null,
+                    "platforms": [],
+                    "tags": [
+                        "native",
+                        "GUI",
+                        "C",
+                        "portable",
+                        "desktop",
+                        "libui"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        }
+    ]
+}

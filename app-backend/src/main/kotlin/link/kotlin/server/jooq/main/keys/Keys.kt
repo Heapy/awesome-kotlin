@@ -6,10 +6,14 @@ package link.kotlin.server.jooq.main.keys
 
 import link.kotlin.server.jooq.main.tables.FlywaySchemaHistory
 import link.kotlin.server.jooq.main.tables.Kotliner
+import link.kotlin.server.jooq.main.tables.KotlinerKug
 import link.kotlin.server.jooq.main.tables.KotlinerMeta
+import link.kotlin.server.jooq.main.tables.Kug
 import link.kotlin.server.jooq.main.tables.records.FlywaySchemaHistoryRecord
+import link.kotlin.server.jooq.main.tables.records.KotlinerKugRecord
 import link.kotlin.server.jooq.main.tables.records.KotlinerMetaRecord
 import link.kotlin.server.jooq.main.tables.records.KotlinerRecord
+import link.kotlin.server.jooq.main.tables.records.KugRecord
 
 import org.jooq.ForeignKey
 import org.jooq.UniqueKey
@@ -26,11 +30,15 @@ val FLYWAY_SCHEMA_HISTORY_PK: UniqueKey<FlywaySchemaHistoryRecord> = Internal.cr
 val KOTLINER_PKEY: UniqueKey<KotlinerRecord> = Internal.createUniqueKey(Kotliner.KOTLINER, DSL.name("kotliner_pkey"), arrayOf(Kotliner.KOTLINER.ID), true)
 val UNIQUE_KOTLINER_EMAIL: UniqueKey<KotlinerRecord> = Internal.createUniqueKey(Kotliner.KOTLINER, DSL.name("unique_kotliner_email"), arrayOf(Kotliner.KOTLINER.NORMALIZED_EMAIL), true)
 val UNIQUE_KOTLINER_NICKNAME: UniqueKey<KotlinerRecord> = Internal.createUniqueKey(Kotliner.KOTLINER, DSL.name("unique_kotliner_nickname"), arrayOf(Kotliner.KOTLINER.NICKNAME), true)
+val UNIQUE_KOTLINER_KUG: UniqueKey<KotlinerKugRecord> = Internal.createUniqueKey(KotlinerKug.KOTLINER_KUG, DSL.name("unique_kotliner_kug"), arrayOf(KotlinerKug.KOTLINER_KUG.KOTLINER_ID), true)
 val KOTLINER_META_PKEY: UniqueKey<KotlinerMetaRecord> = Internal.createUniqueKey(KotlinerMeta.KOTLINER_META, DSL.name("kotliner_meta_pkey"), arrayOf(KotlinerMeta.KOTLINER_META.ID), true)
 val UNIQUE_KOTLINER_META: UniqueKey<KotlinerMetaRecord> = Internal.createUniqueKey(KotlinerMeta.KOTLINER_META, DSL.name("unique_kotliner_meta"), arrayOf(KotlinerMeta.KOTLINER_META.META_KEY, KotlinerMeta.KOTLINER_META.KOTLINER_ID), true)
+val KUG_PKEY: UniqueKey<KugRecord> = Internal.createUniqueKey(Kug.KUG, DSL.name("kug_pkey"), arrayOf(Kug.KUG.ID), true)
 
 // -------------------------------------------------------------------------
 // FOREIGN KEY definitions
 // -------------------------------------------------------------------------
 
+val KOTLINER_KUG__KOTLINER_KUG_KOTLINER_ID_FKEY: ForeignKey<KotlinerKugRecord, KotlinerRecord> = Internal.createForeignKey(KotlinerKug.KOTLINER_KUG, DSL.name("kotliner_kug_kotliner_id_fkey"), arrayOf(KotlinerKug.KOTLINER_KUG.KOTLINER_ID), link.kotlin.server.jooq.main.keys.KOTLINER_PKEY, arrayOf(Kotliner.KOTLINER.ID), true)
+val KOTLINER_KUG__KOTLINER_KUG_KUG_ID_FKEY: ForeignKey<KotlinerKugRecord, KugRecord> = Internal.createForeignKey(KotlinerKug.KOTLINER_KUG, DSL.name("kotliner_kug_kug_id_fkey"), arrayOf(KotlinerKug.KOTLINER_KUG.KUG_ID), link.kotlin.server.jooq.main.keys.KUG_PKEY, arrayOf(Kug.KUG.ID), true)
 val KOTLINER_META__KOTLINER_META_KOTLINER_ID_FKEY: ForeignKey<KotlinerMetaRecord, KotlinerRecord> = Internal.createForeignKey(KotlinerMeta.KOTLINER_META, DSL.name("kotliner_meta_kotliner_id_fkey"), arrayOf(KotlinerMeta.KOTLINER_META.KOTLINER_ID), link.kotlin.server.jooq.main.keys.KOTLINER_PKEY, arrayOf(Kotliner.KOTLINER.ID), true)

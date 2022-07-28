@@ -42,3 +42,13 @@ GET {{host}}/ping/test
 Authorization: Bearer {{auth_token}}
 
 ###
+
+GET {{host}}/kugs
+
+###
+
+POST {{host}}/kugs
+
+###
+
+GET {{host}}/metrics-micrometer

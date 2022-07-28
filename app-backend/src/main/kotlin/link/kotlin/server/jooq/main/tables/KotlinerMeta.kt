@@ -108,6 +108,10 @@ open class KotlinerMeta(
     override fun getReferences(): List<ForeignKey<KotlinerMetaRecord, *>> = listOf(KOTLINER_META__KOTLINER_META_KOTLINER_ID_FKEY)
 
     private lateinit var _kotliner: Kotliner
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table.
+     */
     fun kotliner(): Kotliner {
         if (!this::_kotliner.isInitialized)
             _kotliner = Kotliner(this, KOTLINER_META__KOTLINER_META_KOTLINER_ID_FKEY)

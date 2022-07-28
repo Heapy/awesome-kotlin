@@ -1,16 +1,17 @@
 package link.kotlin.server.routes
 
 import at.favre.lib.crypto.bcrypt.BCrypt
-import io.ktor.application.call
 import io.ktor.http.HttpStatusCode
-import io.ktor.request.receive
-import io.ktor.response.respond
-import io.ktor.routing.Routing
-import io.ktor.routing.post
+import io.ktor.server.application.call
+import io.ktor.server.request.receive
+import io.ktor.server.response.respond
+import io.ktor.server.routing.Routing
+import io.ktor.server.routing.post
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
-import link.kotlin.server.routes.KotlinerDao.*
+import link.kotlin.server.dao.KotlinerDao
+import link.kotlin.server.dao.KotlinerDao.*
 
 fun Routing.register(
     bcryptHasher: BCrypt.Hasher,

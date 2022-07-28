@@ -1,3 +1,4 @@
+@Suppress("DSL_SCOPE_VIOLATION") // https://youtrack.jetbrains.com/issue/KTIJ-19369
 plugins {
     application
     kotlin("jvm")
@@ -16,16 +17,14 @@ repositories {
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
         jvmTarget = "11"
-        freeCompilerArgs = freeCompilerArgs + "-Xopt-in=kotlin.time.ExperimentalTime"
-        freeCompilerArgs = freeCompilerArgs + "-Xopt-in=io.ktor.locations.KtorExperimentalLocationsAPI"
     }
 }
 
 dependencies {
     implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlinx.serialization.hocon)
     implementation(libs.kotlin.reflect)
     implementation(libs.kotlin.coroutines)
-    implementation(libs.kotlin.coroutines.test)
 
     implementation(libs.flyway)
     implementation(libs.jooq.core)
@@ -34,18 +33,20 @@ dependencies {
 
     implementation(libs.bcrypt)
 
-    implementation(libs.config4k)
-
-    implementation(libs.ktor.server.core)
-    implementation(libs.ktor.server.websockets)
-    implementation(libs.ktor.server.serialization)
-    implementation(libs.ktor.server.micrometer)
-    implementation(libs.micrometer.prometheus)
-    implementation(libs.ktor.server.host)
+    implementation(libs.ktor.serialization)
+    implementation(libs.ktor.client)
+    implementation(libs.ktor.client.content.negation)
+    implementation(libs.ktor.server)
     implementation(libs.ktor.server.locations)
-    implementation(libs.ktor.server.auth)
+    implementation(libs.ktor.server.websockets)
+    implementation(libs.ktor.server.content.negation)
     implementation(libs.ktor.server.auth.jwt)
-    implementation(libs.ktor.server.cio)
+    implementation(libs.ktor.server.metrics.micrometer)
+    implementation(libs.micrometer.prometheus)
+    implementation(libs.ktor.server.call.logging)
+    implementation(libs.ktor.server.default.headers)
+    implementation(libs.ktor.server.caching.headers)
+    implementation(libs.ktor.server.status.pages)
 
     implementation(libs.jackson.module.kotlin)
     implementation(libs.jackson.datatype.jsr310)
@@ -54,9 +55,8 @@ dependencies {
     implementation(libs.slf4j.api)
     implementation(libs.logback)
 
-    testImplementation(libs.ktor.server.tests)
+    testImplementation(libs.kotlin.coroutines.test)
     testImplementation(libs.kotlin.test)
     testImplementation(libs.mockk)
-    testImplementation(libs.junit.api)
-    testRuntimeOnly(libs.junit.engine)
+    testImplementation(libs.junit)
 }

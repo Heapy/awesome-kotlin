@@ -8,7 +8,9 @@ import kotlin.collections.List
 
 import link.kotlin.server.jooq.main.tables.FlywaySchemaHistory
 import link.kotlin.server.jooq.main.tables.Kotliner
+import link.kotlin.server.jooq.main.tables.KotlinerKug
 import link.kotlin.server.jooq.main.tables.KotlinerMeta
+import link.kotlin.server.jooq.main.tables.Kug
 
 import org.jooq.Catalog
 import org.jooq.Table
@@ -39,15 +41,27 @@ open class Public : SchemaImpl("public", DefaultCatalog.DEFAULT_CATALOG) {
     val KOTLINER: Kotliner get() = Kotliner.KOTLINER
 
     /**
+     * The table <code>public.kotliner_kug</code>.
+     */
+    val KOTLINER_KUG: KotlinerKug get() = KotlinerKug.KOTLINER_KUG
+
+    /**
      * The table <code>public.kotliner_meta</code>.
      */
     val KOTLINER_META: KotlinerMeta get() = KotlinerMeta.KOTLINER_META
+
+    /**
+     * The table <code>public.kug</code>.
+     */
+    val KUG: Kug get() = Kug.KUG
 
     override fun getCatalog(): Catalog = DefaultCatalog.DEFAULT_CATALOG
 
     override fun getTables(): List<Table<*>> = listOf(
         FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY,
         Kotliner.KOTLINER,
-        KotlinerMeta.KOTLINER_META
+        KotlinerKug.KOTLINER_KUG,
+        KotlinerMeta.KOTLINER_META,
+        Kug.KUG
     )
 }

@@ -1,0 +1,3537 @@
+{
+    "name": "Kotlin User Groups",
+    "subcategories": [
+        {
+            "name": "Europe",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Amsterdam Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlin-amsterdam/",
+                    "desc": "Netherlands",
+                    "platforms": [],
+                    "tags": [
+                        "Netherlands"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Amsterdam High-performance Kotlin User Group",
+                    "href": "https://www.meetup.com/High-performance-Kotlin/",
+                    "desc": "Netherlands",
+                    "platforms": [],
+                    "tags": [
+                        "Netherlands"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Athens Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Athens/",
+                    "desc": "Greece",
+                    "platforms": [],
+                    "tags": [
+                        "Greece"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Barcelona, KotlinBCN",
+                    "href": "https://www.meetup.com/kotlinbcn/",
+                    "desc": "Spain",
+                    "platforms": [],
+                    "tags": [
+                        "Spain"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Basel Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Basel/",
+                    "desc": "Switzerland",
+                    "platforms": [],
+                    "tags": [
+                        "Switzerland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Belarus Kotlin User Group",
+                    "href": "https://bkug.by/",
+                    "desc": "Belarus",
+                    "platforms": [],
+                    "tags": [
+                        "Belarus"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Belfast Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlin-belfast/",
+                    "desc": "Northern Ireland",
+                    "platforms": [],
+                    "tags": [
+                        "Northern Ireland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Berlin Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlin-berlin/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bielefelder Kotlin User Group",
+                    "href": "https://www.meetup.com/Bielefelder-Kotlin-User-Group/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bologna Kotlin User Group",
+                    "href": "https://www.facebook.com/Kotlin-User-Group-Bologna-111446750450756/",
+                    "desc": "Italy",
+                    "platforms": [],
+                    "tags": [
+                        "Italy"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bosnia Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinugbosnia",
+                    "desc": "Bosnia and Herzegovina",
+                    "platforms": [],
+                    "tags": [
+                        "Bosnia and Herzegovina"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Brighton Kotlin User Group",
+                    "href": "https://www.meetup.com/Brighton-Kotlin/",
+                    "desc": "United Kingdom",
+                    "platforms": [],
+                    "tags": [
+                        "United Kingdom"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bucharest Kotlin User Group",
+                    "href": "https://www.meetup.com/kug-bucharest/",
+                    "desc": "Romania",
+                    "platforms": [],
+                    "tags": [
+                        "Romania"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Budapest Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/KotlinBudapest/",
+                    "desc": "Hungary",
+                    "platforms": [],
+                    "tags": [
+                        "Hungary"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bulgarian Kotlin User Group",
+                    "href": "https://bg-kug.github.io/",
+                    "desc": "Bulgaria",
+                    "platforms": [],
+                    "tags": [
+                        "Bulgaria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cologne Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Cologne/?from=ref",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Copenhagen Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Copenhagen/",
+                    "desc": "Denmark",
+                    "platforms": [],
+                    "tags": [
+                        "Denmark"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cosenza Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/251720265392355",
+                    "desc": "Italy",
+                    "platforms": [],
+                    "tags": [
+                        "Italy"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Croatia Kotlin User Group",
+                    "href": "https://www.meetup.com/Croatia-Kotlin-User-Group-Meetup/",
+                    "desc": "Croatia",
+                    "platforms": [],
+                    "tags": [
+                        "Croatia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Czech Kotlin User Group",
+                    "href": "https://www.facebook.com/czkug/",
+                    "desc": "Czech Republic",
+                    "platforms": [],
+                    "tags": [
+                        "Czech Republic"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dnipro Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Dnipro/",
+                    "desc": "Ukraine",
+                    "platforms": [],
+                    "tags": [
+                        "Ukraine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dublin Kotlin User Group",
+                    "href": "https://www.meetup.com/Dublin-Kotlin-Meetup/",
+                    "desc": "Ireland",
+                    "platforms": [],
+                    "tags": [
+                        "Ireland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dusseldorf Kotlin User Group",
+                    "href": "https://www.meetup.com/Dusseldorf-Kotlin-Meetup/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dutch Kotlin User Group",
+                    "href": "http://kotlin.nl/",
+                    "desc": "Netherlands",
+                    "platforms": [],
+                    "tags": [
+                        "Netherlands"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Edinburgh Kotlin User Group",
+                    "href": "https://www.meetup.com/Edinburgh-Kotlin-User-Group/",
+                    "desc": "Scotland",
+                    "platforms": [],
+                    "tags": [
+                        "Scotland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Estonia Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/estoniaKotlin/",
+                    "desc": "Estonia",
+                    "platforms": [],
+                    "tags": [
+                        "Estonia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Hamburg Kotlin User Group",
+                    "href": "https://www.meetup.com/de-DE/Kotlin-User-Group-Hamburg/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Helsinki Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Helsinki/?from=ref",
+                    "desc": "Finland",
+                    "platforms": [],
+                    "tags": [
+                        "Finland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Italy Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/kotlinitaly/",
+                    "desc": "Italy",
+                    "platforms": [],
+                    "tags": [
+                        "Italy"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Karlsruhe Kotlin User Group",
+                    "href": "https://www.meetup.com/Karlsruhe-Software-Development-Meetup/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kassel Kotlin User Group",
+                    "href": "https://www.meetup.com/Kassel-Kotlin-User-Group/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kyiv Kotlin User Group",
+                    "href": "https://www.meetup.com/KyivKUG",
+                    "desc": "Ukraine",
+                    "platforms": [],
+                    "tags": [
+                        "Ukraine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Krakow Kotlin User Group",
+                    "href": "https://www.meetup.com/krakow-kotlin/",
+                    "desc": "Poland",
+                    "platforms": [],
+                    "tags": [
+                        "Poland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Leeds Kotlin User Group",
+                    "href": "https://leedskotlinusergroup.netlify.com/published/2020/1/6/our-first-meetup/",
+                    "desc": "Kingdom",
+                    "platforms": [],
+                    "tags": [
+                        "Kingdom"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Limerick Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlinlimerick/",
+                    "desc": "Ireland",
+                    "platforms": [],
+                    "tags": [
+                        "Ireland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lisboa Kotlin User Group",
+                    "href": "https://meetup.com/kotlin-lisboa/",
+                    "desc": "Portugal",
+                    "platforms": [],
+                    "tags": [
+                        "Portugal"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "London Kotlin",
+                    "href": "http://www.meetup.com/kotlin-london/",
+                    "desc": "United Kingdom",
+                    "platforms": [],
+                    "tags": [
+                        "United Kingdom"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lviv Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/1395212093948927/",
+                    "desc": "Ukraine",
+                    "platforms": [],
+                    "tags": [
+                        "Ukraine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lyon Kotlin User Group",
+                    "href": "http://www.meetup.com/Lyon-Kotlin-User-Group/",
+                    "desc": "France",
+                    "platforms": [],
+                    "tags": [
+                        "France"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Madrid Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinMAD/",
+                    "desc": "Spain",
+                    "platforms": [],
+                    "tags": [
+                        "Spain"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Manchester Kotlin Developers",
+                    "href": "http://www.meetup.com/Kotlin-Manchester/",
+                    "desc": "United Kingdom",
+                    "platforms": [],
+                    "tags": [
+                        "United Kingdom"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Marseille Kotlin User Group",
+                    "href": "https://www.meetup.com/Marseille-Kotlin-User-Group/",
+                    "desc": "France",
+                    "platforms": [],
+                    "tags": [
+                        "France"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Milano Kotlin User Group",
+                    "href": "https://www.meetup.com/it-IT/KUG-Milan/",
+                    "desc": "Italy",
+                    "platforms": [],
+                    "tags": [
+                        "Italy"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Moscow Kotlin User Group",
+                    "href": "https://vk.com/kotlinmoscow",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Munich Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Munich/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Nantes Kotlin User Group",
+                    "href": "https://www.meetup.com/fr-FR/Kotlin-Nantes-Meetup",
+                    "desc": "France",
+                    "platforms": [],
+                    "tags": [
+                        "France"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Nizhny Novgorod Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlin_nn/",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Odessa Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/557764034687880/",
+                    "desc": "Ukraine",
+                    "platforms": [],
+                    "tags": [
+                        "Ukraine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Oslo Kotlin User Group",
+                    "href": "https://www.meetup.com/meetup-group-nWeRbyMu/",
+                    "desc": "Norway",
+                    "platforms": [],
+                    "tags": [
+                        "Norway"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Omsk Kotlin User Group",
+                    "href": "https://vk.com/omskkotlin",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Paris Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Paris-Meetup/",
+                    "desc": "France",
+                    "platforms": [],
+                    "tags": [
+                        "France"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Rhein-Main Kotlin",
+                    "href": "https://www.meetup.com/de-DE/Kotlin-Rhein-Main/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Rostov Kotlin User Group",
+                    "href": "https://vk.com/rndkotlin",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Samara Kotlin User Group",
+                    "href": "https://sitc.community/communities/kug/",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "St. Petersburg Kotlin User Group",
+                    "href": "https://www.meetup.com/St-Petersburg-Kotlin-User-Group/",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Serbia Kotlin User Group",
+                    "href": "https://www.meetup.com/Serbia-Kotlin-User-Group/",
+                    "desc": "Serbia",
+                    "platforms": [],
+                    "tags": [
+                        "Serbia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Slovakia Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Slovakia/",
+                    "desc": "Slovakia",
+                    "platforms": [],
+                    "tags": [
+                        "Slovakia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Stockholm Kotlin User Group",
+                    "href": "https://www.meetup.com/Sweden-Kotlin-User-Group/",
+                    "desc": "Sweden",
+                    "platforms": [],
+                    "tags": [
+                        "Sweden"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Stuttgart Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Stuttgart/",
+                    "desc": "Germany",
+                    "platforms": [],
+                    "tags": [
+                        "Germany"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Swiss Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Swiss-User-Group/",
+                    "desc": "Switzerland",
+                    "platforms": [],
+                    "tags": [
+                        "Switzerland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Taganrog Kotlin User Group",
+                    "href": "https://vk.com/kotlintgn",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Tricity Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/2519853351660362/",
+                    "desc": "Poland",
+                    "platforms": [],
+                    "tags": [
+                        "Poland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Utrecht Kotlin User Group",
+                    "href": "https://www.meetup.com/meetup-group-YgJEOzCn/",
+                    "desc": "Netherlands",
+                    "platforms": [],
+                    "tags": [
+                        "Netherlands"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Uzhgorod Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/135578123824203/",
+                    "desc": "Ukraine",
+                    "platforms": [],
+                    "tags": [
+                        "Ukraine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Vienna Kotlin",
+                    "href": "https://www.meetup.com/Kotlin-Vienna/",
+                    "desc": "Austria",
+                    "platforms": [],
+                    "tags": [
+                        "Austria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Warsaw Kotlin",
+                    "href": "https://www.meetup.com/Kotlin-Warsaw/",
+                    "desc": "Poland",
+                    "platforms": [],
+                    "tags": [
+                        "Poland"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Ahmedabad Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinAhmedabad/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Allahabad Kotlin User Group",
+                    "href": "https://www.facebook.com/Kotlin-Allahabad-User-Group-967463300076405/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Astana Java & Kotlin User Group",
+                    "href": "https://community-z.com/communities/astana-jkug",
+                    "desc": "Kazakhstan",
+                    "platforms": [],
+                    "tags": [
+                        "Kazakhstan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Azerbaijan Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/395337754167951/",
+                    "desc": "Azerbaijan",
+                    "platforms": [],
+                    "tags": [
+                        "Azerbaijan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bangladesh Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinBangladesh/",
+                    "desc": "Bangladesh",
+                    "platforms": [],
+                    "tags": [
+                        "Bangladesh"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Batam Kotlin User Group",
+                    "href": "https://t.me/KotlinDevBatam",
+                    "desc": "Indonesia",
+                    "platforms": [],
+                    "tags": [
+                        "Indonesia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bengaluru Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinBengaluru/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bengaluru Kotlin 'BlrKotlin' Meetup ",
+                    "href": "https://www.meetup.com/BlrKotlin/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Beijing Kotlin User Group",
+                    "href": "http://www.kotliner.cn/",
+                    "desc": "China",
+                    "platforms": [],
+                    "tags": [
+                        "China"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bhopal Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinbpl/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bhubaneswar Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/1961143800818624/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cirebon Kotlin User Group",
+                    "href": "https://t.me/kotlin_crb",
+                    "desc": "Indonesia",
+                    "platforms": [],
+                    "tags": [
+                        "Indonesia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Coimbatore Kotlin User Group",
+                    "href": "https://facebook.com/kotlincbe/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cambodia Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/kotlinphnompenh",
+                    "desc": "Cambodia",
+                    "platforms": [],
+                    "tags": [
+                        "Cambodia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dubai Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlindubai/",
+                    "desc": "United Arab Emirates",
+                    "platforms": [],
+                    "tags": [
+                        "United Arab Emirates"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Jordan Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinJO/",
+                    "desc": "Jordan",
+                    "platforms": [],
+                    "tags": [
+                        "Jordan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Hefei Kotlin User Group",
+                    "href": "http://weibo.com/kotlinhfug",
+                    "desc": "China",
+                    "platforms": [],
+                    "tags": [
+                        "China"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Ho Chi Minh Kotlin User Group",
+                    "href": "https://www.facebook.com/kughcmc/",
+                    "desc": "Vietnam",
+                    "platforms": [],
+                    "tags": [
+                        "Vietnam"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Hong Kong Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinHK",
+                    "desc": "China",
+                    "platforms": [],
+                    "tags": [
+                        "China"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Hyderabad Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinHyderabad/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Indonesia Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/395469687469099/",
+                    "desc": "Indonesia",
+                    "platforms": [],
+                    "tags": [
+                        "Indonesia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Indore Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlinindore/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Israel Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/107080706530829/",
+                    "desc": "Israel",
+                    "platforms": [],
+                    "tags": [
+                        "Israel"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Istanbul Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-%C4%B0stanbul/",
+                    "desc": "Turkey",
+                    "platforms": [],
+                    "tags": [
+                        "Turkey"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Jaffna Kotlin User Group",
+                    "href": "https://www.facebook.com/Kotlin-User-Group-Jaffna-102091321371464/",
+                    "desc": "Sri Lanka",
+                    "platforms": [],
+                    "tags": [
+                        "Sri Lanka"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Jalandhar Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-EveryWhere-Jalandhar-Group/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Japan Kotlin User Group",
+                    "href": "https://kotlin.connpass.com/",
+                    "desc": "Japan",
+                    "platforms": [],
+                    "tags": [
+                        "Japan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Karachi Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinkarachi/",
+                    "desc": "Pakistan",
+                    "platforms": [],
+                    "tags": [
+                        "Pakistan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kathmandu Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/100333660782830/",
+                    "desc": "Nepal",
+                    "platforms": [],
+                    "tags": [
+                        "Nepal"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Khabarovsk Kotlin User Group",
+                    "href": "https://devdv.ru/projects/kug",
+                    "desc": "Russia",
+                    "platforms": [],
+                    "tags": [
+                        "Russia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kolkata Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Kolkata-UG/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Korean Kotlin User Group",
+                    "href": "http://kotlin.kr/",
+                    "desc": "South Korea",
+                    "platforms": [],
+                    "tags": [
+                        "South Korea"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kozhikode Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinusergroup/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Mumbai Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Mumbai/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Myanmar Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/kotlinmyanmarusergroup/about/",
+                    "desc": "Myanmar",
+                    "platforms": [],
+                    "tags": [
+                        "Myanmar"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Nagpur Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinnagpur/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Nepal Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/dnkotlin/",
+                    "desc": "Nepal",
+                    "platforms": [],
+                    "tags": [
+                        "Nepal"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "New Delhi Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinDelhi/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Pakistan KotlinUser Group",
+                    "href": "https://www.facebook.com/groups/565405337181251/",
+                    "desc": "Pakistan",
+                    "platforms": [],
+                    "tags": [
+                        "Pakistan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Palestine Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/592717964582711/",
+                    "desc": "State of Palestine",
+                    "platforms": [],
+                    "tags": [
+                        "State of Palestine"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Philippines Kotlin",
+                    "href": "https://www.facebook.com/groups/642901202586581/",
+                    "desc": "Philippines",
+                    "platforms": [],
+                    "tags": [
+                        "Philippines"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Pune Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/punekotlin",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Saudi Arabia Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinArabia",
+                    "desc": "Saudi Arabia",
+                    "platforms": [],
+                    "tags": [
+                        "Saudi Arabia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Shanghai, KotlinThree",
+                    "href": "http://kotlinthree.github.io/",
+                    "desc": "China",
+                    "platforms": [],
+                    "tags": [
+                        "China"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Singapore Kotlin User Group",
+                    "href": "https://www.meetup.com/Singapore-Kotlin-User-group/",
+                    "desc": "Singapore",
+                    "platforms": [],
+                    "tags": [
+                        "Singapore"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Sri Lanka Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinSrilanka/",
+                    "desc": "Sri Lanka",
+                    "platforms": [],
+                    "tags": [
+                        "Sri Lanka"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Syria Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinSyria/",
+                    "desc": "Syria",
+                    "platforms": [],
+                    "tags": [
+                        "Syria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Surat Kotlin User Group",
+                    "href": "https://web.facebook.com/kotlinsurat",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Taiwan Kotlin User Group",
+                    "href": "https://wetogether.co/kotlin-tw",
+                    "desc": "Taiwan",
+                    "platforms": [],
+                    "tags": [
+                        "Taiwan"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Tel Aviv Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinTLV/",
+                    "desc": "Israel",
+                    "platforms": [],
+                    "tags": [
+                        "Israel"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Thailand Kotlin Developers",
+                    "href": "https://www.facebook.com/groups/872547279487598/",
+                    "desc": "Thailand",
+                    "platforms": [],
+                    "tags": [
+                        "Thailand"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Turkey Kotlin User Group",
+                    "href": "http://kotlinveandroid.com/",
+                    "desc": "Turkey",
+                    "platforms": [],
+                    "tags": [
+                        "Turkey"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Vellore Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinvellore",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Vietnam Kotlin User Group (online community)",
+                    "href": "https://vnkotlin.com",
+                    "desc": "Vietnam",
+                    "platforms": [],
+                    "tags": [
+                        "Vietnam"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Vijayawada Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinVijayawada/",
+                    "desc": "India",
+                    "platforms": [],
+                    "tags": [
+                        "India"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Yerevan Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Yerevan/",
+                    "desc": "Armenia",
+                    "platforms": [],
+                    "tags": [
+                        "Armenia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "North America",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Albuquerque Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-ABQ/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Austin Kotlin User Group",
+                    "href": "https://www.meetup.com/Austin-Kotlin-Meetup/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Brooklyn (NY) Kotlin User Group",
+                    "href": "https://www.meetup.com/Brooklyn-Kotlin/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cambridge Kotlin Office Hours",
+                    "href": "https://www.meetup.com/kotlin-office-hours/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Chicago Kotlin Users Group",
+                    "href": "http://www.meetup.com/Chicago-Kotlin/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cincinnati Kotlin User Group",
+                    "href": "https://www.meetup.com/Cincinnati-Kotlin/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Dallas, Kotlin DFW",
+                    "href": "https://www.meetup.com/Kotlin-DFW/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Guadalajara Kotlin User Group",
+                    "href": "https://www.meetup.com/es/Kotlin-User-Group-GDL/",
+                    "desc": "Mexico",
+                    "platforms": [],
+                    "tags": [
+                        "Mexico"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Guatemala Kotlin Meetup",
+                    "href": "https://www.meetup.com/Guatemala-Kotlin-Meetup/",
+                    "desc": "Guatemala",
+                    "platforms": [],
+                    "tags": [
+                        "Guatemala"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Houston Kotlin User Group",
+                    "href": "https://www.hccug.org/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kansas City User Group",
+                    "href": "https://www.meetup.com/Kansas-City-Kotlin-User-Group/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Mexico, CDMX Kotlin User Group",
+                    "href": "https://www.meetup.com/es-ES/Kotlin-Nights-CDMX/",
+                    "desc": "Mexico",
+                    "platforms": [],
+                    "tags": [
+                        "Mexico"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Mérida Kotlin User Group",
+                    "href": "https://www.meetup.com/Merida-Kotlin-User-Group/",
+                    "desc": "Mexico",
+                    "platforms": [],
+                    "tags": [
+                        "Mexico"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "New England User Group",
+                    "href": "https://www.meetup.com/New-England-Kotlin-Users-Group/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "New York Kotlin Meetup",
+                    "href": "http://www.meetup.com/New-York-Kotlin-Meetup/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Norfolk Kotlin User Group",
+                    "href": "mailto:robert.chrzanowski@gmail.com",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Irvine Kotlin User Group \"OC Kotlin Krew\"",
+                    "href": "https://www.meetup.com/OCKotlinKrew/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Portland Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Portland-User-Group/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "San Diego Kotlin User Group",
+                    "href": "https://www.meetup.com/sd-kotlin/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "San Francisco Kotlin Meetup",
+                    "href": "https://www.meetup.com/San-Francisco-Kotlin-Meetup/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Santa Cruz Kotlin User Group",
+                    "href": "https://www.meetup.com/Santa-Cruz-Kotlin-User-Group/events/245895831/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "South Florida Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-South-Florida-Users-Group/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Toronto Kotlin",
+                    "href": "https://www.meetup.com/Kotlin-Toronto/events/235740293/",
+                    "desc": "Canada",
+                    "platforms": [],
+                    "tags": [
+                        "Canada"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Twin Cities Kotlin User Group",
+                    "href": "https://www.meetup.com/Twin-Cities-Kotlin-User-Group/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Utah Kotlin",
+                    "href": "https://www.meetup.com/Kotlin-Utah/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Vancouver Kotlin Meetup",
+                    "href": "https://www.meetup.com/VancouverKotlin/",
+                    "desc": "Canada",
+                    "platforms": [],
+                    "tags": [
+                        "Canada"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Washington DC Kotlin User Group",
+                    "href": "https://www.meetup.com/DCKotlin/",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Waterloo Kotlin P2P",
+                    "href": "https://www.meetup.com/Kotlin-Waterloo-P2P/events/",
+                    "desc": "Canada",
+                    "platforms": [],
+                    "tags": [
+                        "Canada"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "West Florida Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/KotlnWestFlorida",
+                    "desc": "USA",
+                    "platforms": [],
+                    "tags": [
+                        "USA"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "South America",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Asunción Kotlin User Group",
+                    "href": "https://kotlin-user-group-asuncion-py.github.io/",
+                    "desc": "Paraguay",
+                    "platforms": [],
+                    "tags": [
+                        "Paraguay"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Brasil Kotlin User Group",
+                    "href": "https://groups.google.com/forum/#!forum/kotlin-brasil",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Buenos Aires Desarrollo en Android con Kotlin",
+                    "href": "https://www.meetup.com/Desarrollo-en-Android-con-Kotlin/",
+                    "desc": "Argentina",
+                    "platforms": [],
+                    "tags": [
+                        "Argentina"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cascavel Kotlin Meetup",
+                    "href": "https://www.meetup.com/Kotlin-Meetup-Cascavel/",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Chile Kotlin User Group",
+                    "href": "http://www.facebook.com/kotlinchile",
+                    "desc": "Chile",
+                    "platforms": [],
+                    "tags": [
+                        "Chile"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cochabamba Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlincocha/",
+                    "desc": "Bolivia",
+                    "platforms": [],
+                    "tags": [
+                        "Bolivia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Curitiba CWB Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinCWB/",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "El Alto Kotlin User Group",
+                    "href": "https://m.facebook.com/KotlinElAlto/",
+                    "desc": "Bolivia",
+                    "platforms": [],
+                    "tags": [
+                        "Bolivia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "La Paz Kotlin User Group",
+                    "href": "https://www.facebook.com/KotlinLaPaz/",
+                    "desc": "Bolivia",
+                    "platforms": [],
+                    "tags": [
+                        "Bolivia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lima Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/limakotlin/",
+                    "desc": "Peru",
+                    "platforms": [],
+                    "tags": [
+                        "Peru"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Medellin Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-User-Group-Medellin/",
+                    "desc": "Colombia",
+                    "platforms": [],
+                    "tags": [
+                        "Colombia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Peru Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/1540580306247047/",
+                    "desc": "Peru",
+                    "platforms": [],
+                    "tags": [
+                        "Peru"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Porto Alegre Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-RS/",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Santiago Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinsantiago/",
+                    "desc": "Chile",
+                    "platforms": [],
+                    "tags": [
+                        "Chile"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Sao Paulo Kotlin Meetup",
+                    "href": "https://www.meetup.com/kotlin-meetup-sp/",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Rio de Janeiro",
+                    "href": "https://www.meetup.com/Kotlin-Rio/",
+                    "desc": "Brazil",
+                    "platforms": [],
+                    "tags": [
+                        "Brazil"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Australia/Oceania",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Brisbane Kotlin User Group",
+                    "href": "https://www.meetup.com/Brisbane-Kotlin-User-Group/",
+                    "desc": "Australia",
+                    "platforms": [],
+                    "tags": [
+                        "Australia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Melbourne Kotlin User Group",
+                    "href": "https://www.meetup.com/Melbourne-Kotlin-Meetup/",
+                    "desc": "Australia",
+                    "platforms": [],
+                    "tags": [
+                        "Australia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Sydney Kotlin User Group",
+                    "href": "https://sydspace.org/kotlin/",
+                    "desc": "Australia",
+                    "platforms": [],
+                    "tags": [
+                        "Australia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Wellington Kotlin User Group",
+                    "href": "https://www.meetup.com/Wellington-kt/",
+                    "desc": "New Zealand",
+                    "platforms": [],
+                    "tags": [
+                        "New Zealand"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "links": [
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Abidjan Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/778398068995641/",
+                    "desc": "Cote d'Ivoire",
+                    "platforms": [],
+                    "tags": [
+                        "Cote d'Ivoire"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Abuja Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Abuja-User-Group-Nigeria/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Accra Ghana Kotlin User Group",
+                    "href": "http://groupspaces.com/AccraGhanaKotlinUserGroup/",
+                    "desc": "Ghana",
+                    "platforms": [],
+                    "tags": [
+                        "Ghana"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Ado-Ekiti Kotlin User Group",
+                    "href": "https://web.facebook.com/groups/1598555973529998/?ref=group_header",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Agadir Kotlin User Group",
+                    "href": "https://www.meetup.com/Agadir-Kotlin-User-Group/",
+                    "desc": "Morocco",
+                    "platforms": [],
+                    "tags": [
+                        "Morocco"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Algeria Kotlin User Group",
+                    "href": "https://web.facebook.com/groups/383147662448461/",
+                    "desc": "Algeria",
+                    "platforms": [],
+                    "tags": [
+                        "Algeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Angola Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/405177603231134/about/",
+                    "desc": "Angola",
+                    "platforms": [],
+                    "tags": [
+                        "Angola"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Bauchi Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/kotlinbauchi/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Beira Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/470398203308975/",
+                    "desc": "Mozambique",
+                    "platforms": [],
+                    "tags": [
+                        "Mozambique"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Benin Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Benin/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Brazza Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/KotlinBrazza/",
+                    "desc": "Congo",
+                    "platforms": [],
+                    "tags": [
+                        "Congo"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cairo Kotlin User Group",
+                    "href": "https://www.facebook.com/Kotlin.Cairo/",
+                    "desc": "Egypt",
+                    "platforms": [],
+                    "tags": [
+                        "Egypt"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Cotonou Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinCotonou/",
+                    "desc": "Benin",
+                    "platforms": [],
+                    "tags": [
+                        "Benin"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Egypt Kotlin",
+                    "href": "https://www.facebook.com/kotlinegypt/",
+                    "desc": "Egypt",
+                    "platforms": [],
+                    "tags": [
+                        "Egypt"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Enugu Kotlin User Group",
+                    "href": "https://kotlin-enuguusergroup.slack.com/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Johannesburg Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Software-Development-Meetup/",
+                    "desc": "South Africa",
+                    "platforms": [],
+                    "tags": [
+                        "South Africa"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Kano Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Kano-User-Group-Nigeria/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Katsina Kotlin User Group",
+                    "href": "https://www.downtomeet.com/Katsina-Kotlin-Group",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lagos Kotlin User Group",
+                    "href": "https://www.meetup.com/Lagos-Kotlin-Meetup/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lapai Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Lapai-User-Group/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Libreville Kotlin User Group",
+                    "href": "https://www.meetup.com/fr-FR/Libreville-Kotlin/",
+                    "desc": "Gabon",
+                    "platforms": [],
+                    "tags": [
+                        "Gabon"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lome Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/1825278611119862/",
+                    "desc": "Togo",
+                    "platforms": [],
+                    "tags": [
+                        "Togo"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Lubumbashi Kotlin User Group",
+                    "href": "https://www.meetup.com/Lubumbashi-Kotlin-User-Group/",
+                    "desc": "Congo",
+                    "platforms": [],
+                    "tags": [
+                        "Congo"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Minna Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Minna-User-Group-Nigeria/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Minya Kotlin User Group",
+                    "href": "https://www.facebook.com/kotlinminya/",
+                    "desc": "Egypt",
+                    "platforms": [],
+                    "tags": [
+                        "Egypt"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Nairobi Kotlin User Group",
+                    "href": "https://www.meetup.com/KotlinKenya/",
+                    "desc": "Kenya",
+                    "platforms": [],
+                    "tags": [
+                        "Kenya"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Noun Kotlin User Group",
+                    "href": "https://www.meetup.com/Noun-Kotlin-User-Group/",
+                    "desc": "Cameroon",
+                    "platforms": [],
+                    "tags": [
+                        "Cameroon"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Ondo Kotlin User Group",
+                    "href": "https://www.meetup.com/Kotlin-Ondo-User-Group/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Ouagadougou Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/649651491892414/",
+                    "desc": "Burkina Faso",
+                    "platforms": [],
+                    "tags": [
+                        "Burkina Faso"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Rabat Kotlin User Group",
+                    "href": "https://www.meetup.com/Rabat-Kotlin-User-Group/",
+                    "desc": "Morocco",
+                    "platforms": [],
+                    "tags": [
+                        "Morocco"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Rivers Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/2178453949151460/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Tunisia Kotlin User Group",
+                    "href": "https://www.facebook.com/groups/1501353116571104",
+                    "desc": "Tunisia",
+                    "platforms": [],
+                    "tags": [
+                        "Tunisia"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Uganda Kotlin User Group",
+                    "href": "https://www.facebook.com/Uganda-Kotlin-User-Group-613707548753658/",
+                    "desc": "Uganda",
+                    "platforms": [],
+                    "tags": [
+                        "Uganda"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Warri Kotlin User Group",
+                    "href": "https://www.meetup.com/kotlin-warri/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": null,
+                    "bitbucket": null,
+                    "kug": "Yola Kotlin User Group",
+                    "href": "https://www.facebook.com/Kotlin-Yola-User-Group-104198534358013/",
+                    "desc": "Nigeria",
+                    "platforms": [],
+                    "tags": [
+                        "Nigeria"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                }
+            ]
+        }
+    ]
+}

@@ -1580,6 +1580,13 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
   }
+  subcategory("DSL") {
+    link {
+      github = "h0tk3y/regex-dsl"
+      desc = "A Kotlin DSL for regular expressions"
+      setPlatforms(JVM)
+    }
+  }
   subcategory("Extensions") {
     link {
       github = "Kotlin/kotlinx.support"

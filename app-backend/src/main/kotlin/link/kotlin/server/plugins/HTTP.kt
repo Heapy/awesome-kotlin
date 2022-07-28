@@ -2,25 +2,26 @@ package link.kotlin.server.plugins
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
-import io.ktor.application.Application
-import io.ktor.application.call
-import io.ktor.application.install
-import io.ktor.auth.authentication
-import io.ktor.auth.jwt.JWTPrincipal
-import io.ktor.auth.jwt.jwt
-import io.ktor.features.CachingHeaders
-import io.ktor.features.ContentNegotiation
-import io.ktor.features.DefaultHeaders
-import io.ktor.features.StatusPages
+
 import io.ktor.http.CacheControl
 import io.ktor.http.ContentType
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.content.CachingOptions
-import io.ktor.locations.Locations
-import io.ktor.response.respond
-import io.ktor.serialization.json
+import io.ktor.serialization.kotlinx.json.json
+import io.ktor.server.application.Application
+import io.ktor.server.application.install
+import io.ktor.server.auth.authentication
+import io.ktor.server.auth.jwt.JWTPrincipal
+import io.ktor.server.auth.jwt.jwt
+import io.ktor.server.locations.Locations
+import io.ktor.server.plugins.cachingheaders.CachingHeaders
+import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.server.plugins.defaultheaders.DefaultHeaders
+import io.ktor.server.plugins.statuspages.StatusPages
+import io.ktor.server.response.respond
+import kotlinx.serialization.Serializable
 import kotlin.reflect.KProperty
-import kotlin.time.Duration
+import kotlin.time.Duration.Companion.days
 
 fun Application.defaults(
     jwtConfiguration: JwtConfiguration,
@@ -36,12 +37,11 @@ fun Application.defaults(
     }
 
     install(CachingHeaders) {
-        options { outgoingContent ->
+        options { _, outgoingContent ->
             when (outgoingContent.contentType?.withoutParameters()) {
                 ContentType.Text.CSS -> CachingOptions(
                     CacheControl.MaxAge(
-                        maxAgeSeconds = Duration
-                            .days(365)
+                        maxAgeSeconds = 365.days
                             .inWholeSeconds
                             .toInt()
                     )
@@ -52,13 +52,13 @@ fun Application.defaults(
     }
 
     install(StatusPages) {
-        exception<AuthenticationException> { cause ->
+        exception<AuthenticationException> { call, _ ->
             call.respond(HttpStatusCode.Unauthorized)
         }
-        exception<AuthorizationException> { cause ->
+        exception<AuthorizationException> { call, _ ->
             call.respond(HttpStatusCode.Forbidden)
         }
-        exception<ConstraintViolationException> { cause ->
+        exception<ConstraintViolationException> { call, cause ->
             call.respond(HttpStatusCode.BadRequest, cause.fields)
         }
     }
@@ -84,6 +84,7 @@ fun Application.defaults(
     }
 }
 
+@Serializable
 data class JwtConfiguration(
     val audience: String,
     val realm: String,
@@ -96,10 +97,11 @@ class AuthenticationException : RuntimeException()
 class AuthorizationException : RuntimeException()
 
 class ConstraintViolationException(
-    val fields: List<ConstraintViolationFields>
+    val fields: List<ConstraintViolationFields>,
 ) : RuntimeException()
 
+@Serializable
 data class ConstraintViolationFields(
     val message: String,
-    val fields: List<KProperty<*>>
+    val fields: List<String>,
 )

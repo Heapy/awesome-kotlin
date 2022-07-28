@@ -1,20 +1,24 @@
 package link.kotlin.server.plugins
 
-import io.ktor.features.*
-import io.micrometer.prometheus.*
-import io.ktor.metrics.micrometer.*
-import org.slf4j.event.*
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
-import io.ktor.routing.*
+import io.ktor.server.application.Application
+import io.ktor.server.application.call
+import io.ktor.server.application.install
+import io.ktor.server.metrics.micrometer.MicrometerMetrics
+import io.ktor.server.plugins.callloging.CallLogging
+import io.ktor.server.request.path
+import io.ktor.server.response.respond
+import io.ktor.server.routing.get
+import io.ktor.server.routing.routing
+import io.micrometer.prometheus.PrometheusConfig
+import io.micrometer.prometheus.PrometheusMeterRegistry
+import org.slf4j.event.Level
 
-fun Application.configureMonitoring() {
-    val appMicrometerRegistry = PrometheusMeterRegistry(PrometheusConfig.DEFAULT)
 
+fun Application.configureMonitoring(
+    meterRegistry: PrometheusMeterRegistry,
+) {
     install(MicrometerMetrics) {
-        registry = appMicrometerRegistry
-        // ...
+        registry = meterRegistry
     }
 
     install(CallLogging) {
@@ -24,7 +28,7 @@ fun Application.configureMonitoring() {
 
     routing {
         get("/metrics-micrometer") {
-            call.respond(appMicrometerRegistry.scrape())
+            call.respond(meterRegistry.scrape())
         }
     }
 }
