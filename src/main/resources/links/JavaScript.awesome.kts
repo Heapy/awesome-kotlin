@@ -78,6 +78,11 @@ category("Kotlin JavaScript") {
       desc = "Develop browser games in Kotlin"
       setTags("games", "game dev", "javascript")
     }
+    link {
+      github = "Ayfri/PIXI-Kotlin"
+      desc = "Typings for the graphics library PixiJs"
+      setTags("games", "game dev", "javascript", "graphics", "pixijs")
+    }
   }
   subcategory("Build Tools") {
     link {
