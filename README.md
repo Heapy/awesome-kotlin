@@ -121,12 +121,14 @@ Here is the awesome badge for your project:
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [inotia00/VancedManager_v2](https://github.com/inotia00/VancedManager_v2) 
+* [mouredev/Weekly-Challenge-2022-Kotlin](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin) - Retos semanales de la comunidad MoureDev para practicar Kotlin &amp; Android
 * [vfsfitvnm/ViMusic](https://github.com/vfsfitvnm/ViMusic) - An Android application for streaming music from YouTube Music.
 * [revanced/revanced-manager](https://github.com/revanced/revanced-manager) - 💊 The official ReVanced Manager
 * [revanced/revanced-patches](https://github.com/revanced/revanced-patches) - 🧩 Official patches by ReVanced
 * [android/play-billing-samples](https://github.com/android/play-billing-samples) - Samples for Google Play In-app Billing
 * [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [ethereum-lists/chains](https://github.com/ethereum-lists/chains) - provides metadata for networkIDs and chainIDs
+* [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet) - The universal proxy toolchain for Android
 * [androidx/androidx](https://github.com/androidx/androidx) - Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP.
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
 * [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization
@@ -135,9 +137,7 @@ Here is the awesome badge for your project:
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform Music Downloader, Supports Spotify /   Gaana / Youtube Music / Jio Saavn / SoundCloud.                                                                                          NOTE:   BEING REWRITTEN,  SO  STAY TUNED.
 * [skydoves/Pokedex](https://github.com/skydoves/Pokedex) - 🗡️ Pokedex demonstrates modern Android development with Hilt, Material Motion, Coroutines, Flow, Jetpack (Room, ViewModel) based on MVVM architecture.
 * [mozilla-mobile/fenix](https://github.com/mozilla-mobile/fenix) - Firefox for Android
-* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [android/nowinandroid](https://github.com/android/nowinandroid) - A fully functional Android app built entirely with Kotlin and Jetpack Compose
-* [uber/RIBs](https://github.com/uber/RIBs) - Uber's cross-platform mobile architecture framework.
 * [JetBrains/compose-jb](https://github.com/JetBrains/compose-jb) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls &amp; full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
@@ -148,41 +148,39 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [SkidderMC/FDPClient](https://github.com/SkidderMC/FDPClient) - Minecraft 1.8.9 forge hacked client forked from LiquidBounce
-* [Skytils/SkytilsMod](https://github.com/Skytils/SkytilsMod) - A Hypixel Skyblock Utilities mod
+* [DroidKaigi/conference-app-2022](https://github.com/DroidKaigi/conference-app-2022) - The Official Conference App for DroidKaigi 2022
+* [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android) - Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL.
 * [yechaoa/MaterialDesign](https://github.com/yechaoa/MaterialDesign) - Material Design Samples。ConstraintLayout、MaterialButton、ShapeableImageView、TabLayout、SearchView...
 * [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading Movies, TV-Series and Anime.
-* [KieronQuinn/AmbientMusicMod](https://github.com/KieronQuinn/AmbientMusicMod) - Port of Now Playing from Pixels to other Android devices
 * [googlecodelabs/android-compose-codelabs](https://github.com/googlecodelabs/android-compose-codelabs) 
+* [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - Video/Audio downloader for Android, designed and themed with Material You.
 * [MatsuriDayo/Matsuri](https://github.com/MatsuriDayo/Matsuri) - Matsuri (茉莉) / Android proxy toolchain / 安卓代理应用 / Fork of SagerNet
 * [allenymt/PrivacySentry](https://github.com/allenymt/PrivacySentry) - 工信部-Android隐私合规整改检测工具，注解+Asm修改字节码的检测方案
-* [cashapp/molecule](https://github.com/cashapp/molecule) - Build a StateFlow stream using Jetpack Compose
-* [GetStream/stream-chat-android](https://github.com/GetStream/stream-chat-android) - :speech_balloon: Android Chat SDK ➜ Stream Chat API. UI component libraries for chat apps. Kotlin &amp; Jetpack Compose messaging SDK for Android chat
-* [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) - Share your VPN connection over hotspot or repeater! (root required)
 * [saikou-app/saikou](https://github.com/saikou-app/saikou) - An Android Anilist only client, which lets you stream &amp; download Anime &amp; Manga.
 * [Foso/Jetpack-Compose-Playground](https://github.com/Foso/Jetpack-Compose-Playground) - Community-driven collection of Jetpack Compose example code and tutorials :rocket:  https://foso.github.io/compose
 * [vinaygaba/Learn-Jetpack-Compose-By-Example](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example) - 🚀 This project contains various examples that show how you would do things the &quot;Jetpack Compose&quot; way
 * [KieronQuinn/TapTap](https://github.com/KieronQuinn/TapTap) - Port of the double tap on back of device feature from Android 12 to any Android 7.0+ device
-* [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
+* [facebook/facebook-android-sdk](https://github.com/facebook/facebook-android-sdk) - Used to integrate Android apps with Facebook Platform.
 * [javalin/javalin](https://github.com/javalin/javalin) - A simple and modern Java and Kotlin web framework
+* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [dotlin-org/dotlin](https://github.com/dotlin-org/dotlin) - Kotlin to Dart compiler
-* [bytedance/appshark](https://github.com/bytedance/appshark) 
-* [mouredev/Weekly-Challenge-2022-Kotlin](https://github.com/mouredev/Weekly-Challenge-2022-Kotlin) - Retos semanales de la comunidad MoureDev para practicar Kotlin &amp; Android
-* [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - Video/Audio downloader for Android, designed and themed with Material You.
-* [mobile-dev-inc/dadb](https://github.com/mobile-dev-inc/dadb) - A Kotlin/Java library to connect directly to an Android device without an adb binary or an ADB server
+* [slackhq/circuit](https://github.com/slackhq/circuit) - ⚡️ A Compose-driven architecture for Android apps.
+* [HuolalaTech/hll-wp-therouter-android](https://github.com/HuolalaTech/hll-wp-therouter-android) - Android Routing SDK
+* [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) - A suite of tools to assist with reviewing Open Source Software dependencies.
+* [google-developer-training/android-kotlin-fundamentals-apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps) - android-kotlin-fundamentals-apps
 * [vector-im/element-android](https://github.com/vector-im/element-android) - A glossy Matrix collaboration client for Android.
-* [detekt/detekt](https://github.com/detekt/detekt) - Static code analysis for Kotlin
-* [google/accompanist](https://github.com/google/accompanist) - A collection of extension libraries for Jetpack Compose
-* [chrisbanes/tivi](https://github.com/chrisbanes/tivi) - Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.
+* [jitsi/jitsi-videobridge](https://github.com/jitsi/jitsi-videobridge) - Jitsi Videobridge is a WebRTC compatible video router or SFU that lets build highly scalable video conferencing infrastructure (i.e., up to hundreds of conferences per server).
+* [android/camera-samples](https://github.com/android/camera-samples) - Multiple samples showing the best practices in camera APIs on Android.
+* [mockk/mockk](https://github.com/mockk/mockk) - mocking library for Kotlin
+* [pinterest/ktlint](https://github.com/pinterest/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
+* [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) - 💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - Vim emulation plugin for IDEs based on the IntelliJ Platform
-* [thundernest/k-9](https://github.com/thundernest/k-9) - K-9 Mail – Open Source Email App for Android
 * [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android backed by Kotlin Coroutines.
-* [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - Translation plugin for IntelliJ based IDEs/Android Studio/HUAWEI DevEco Studio.
-* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
-* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -540,11 +538,11 @@ Here is the awesome badge for your project:
 * [pearxteam/kasechange](https://github.com/pearxteam/kasechange) - Multiplatform Kotlin library to convert strings between various case formats including Camel Case, Snake Case, Pascal Case and Kebab Case
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
 * [ivanisidrowu/KtRssReader](https://github.com/ivanisidrowu/KtRssReader) - Kotlin library for parsing RSS feeds
-* [krud-dev/shapeshift](https://github.com/krud-dev/shapeshift) - A Kotlin library for intelligent object mapping and conversion between objects.
 * [s1monw1/TLSLibrary](https://github.com/s1monw1/TLSLibrary) - Simple TlsLibrary written in Kotlin - Provides DSL for creating TLS connections
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
+* [krud-dev/shapeshift](https://github.com/krud-dev/shapeshift) - A Kotlin library for intelligent object mapping and conversion between objects.
 * [debop/koda-time](https://github.com/debop/koda-time) - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * [KotlinNLP/SimpleDNN](https://github.com/KotlinNLP/SimpleDNN) - SimpleDNN is a machine learning lightweight open-source library part of KotlinNLP and has been designed to support relevant neural network architectures in natural language processing tasks.
 * [kohesive/solr-undertow](https://github.com/kohesive/solr-undertow) - Solr Standalone Tiny and High performant server.
