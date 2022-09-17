@@ -236,6 +236,7 @@ Here is the awesome badge for your project:
 * [Kotlin Online Courses at Classpert](https://classpert.com/kotlin-programming) - Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search
 * [Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda](https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started) - Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!
 * [Kotlin Course - Tutorial for Beginners by freeCodeCamp.org](https://youtu.be/F9UC9DY-vIU) - Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.
+* [Kotlin courses](https://skillcombo.com/topic/kotlin/) - A curated list of Kotlin courses.
 
 ### <a name="links-books"></a>Books <sup>[Back ⇈](#links-books-subcategory)</sup>
 * [Kotlin in Action - Dmitry Jemerov, Svetlana Isakova](https://manning.com/books/kotlin-in-action) 
