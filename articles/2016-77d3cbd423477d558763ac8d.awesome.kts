@@ -24,7 +24,7 @@ A question you might have at this point in the journey is this: _Should I even t
 
 With Android, a device may change configuration at any time. The most common type of configuration change is orientation. There are many other types, [as documented here](http://developer.android.com/guide/topics/manifest/activity-element.html) (see android:configChanges within). Changes in orientation are especially important for Android views, because it is common practice to have a different layout for both landscape and portrait.
 
-When dealing with XML layouts, it’s trivial to handle configuration changes that result in different UI. You simply define your layout twice — once for landscape under res/layout-land and once for portrait under res/layout-port. When you give the XML files the same name in these different spaces, that lets Android know to find and inflate the correct version of the layout for each circumstance. Generally speaking, you write no extra code to handle this change.
+When dealing with XML layouts, it’s trivial to handle configuration changes that result in different UI. You simply define your layout twice — once for landscape under res/layout-land and once for portrait under res/layout-port. When you give the XML files the same name in these different spaces, that lets Android know to find and inflate the correct version of the layout for each circumstance. Generally speaking, you write no extra code to handle this change.
 
 When dealing with layouts generated from code, you don’t get this configuration switching behavior for free. If you want to change layouts for different configurations, you have to write conditional logic to decide which views to create. And, if you do this a lot, it becomes cumbersome.
 

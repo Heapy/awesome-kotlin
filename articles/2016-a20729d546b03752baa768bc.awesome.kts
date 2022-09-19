@@ -59,7 +59,7 @@ So says [the website](https://readytalk.github.io/avian/). They aren’t joking.
 
 Avian can get these tiny sizes because it’s fully focused on doing so: it implements optimisations and features the standard HotSpot JVM lacks, like the use of LZMA compression and ProGuard to strip the standard libraries. Yet it still provides a garbage collector and a JIT compiler.
 
-For people who want to use Kotlin to write small, self contained command line apps of the kind Go is sometimes used for, a much simpler and better solution than an LLVM backend would be to make a fully integrated Avian/Kotlin combination. Avian is hard to use right now — you’re expected to be familiar with native-world tools like GCC and make. Making a one-click JetBrains style GUI would yield programs that _look_ to the user like they were AOT compiled: they’re single executables that only require the base OS. And using SWT you can build GUIs that look native on every platform because under the hood they _are_ native. But you wouldn’t need to abandon the benefits of JIT compilation or garbage collection.
+For people who want to use Kotlin to write small, self contained command line apps of the kind Go is sometimes used for, a much simpler and better solution than an LLVM backend would be to make a fully integrated Avian/Kotlin combination. Avian is hard to use right now — you’re expected to be familiar with native-world tools like GCC and make. Making a one-click JetBrains style GUI would yield programs that _look_ to the user like they were AOT compiled: they’re single executables that only require the base OS. And using SWT you can build GUIs that look native on every platform because under the hood they _are_ native. But you wouldn’t need to abandon the benefits of JIT compilation or garbage collection.
 
 ### Losing garbage collection
 
@@ -81,7 +81,7 @@ But that’s probably not the long term direction the JVM platform will go in fo
 
 The final reason is native code interop. If you compile to native, so the reasoning goes, it’ll be easier to use C/C++ libraries like the ones your operating system provides.
 
-But the existence of projects like JNA seem to disprove this — you can have convenient interop without generating native code yourself. And there are some exciting techniques for working with native libraries coming up:
+But the existence of projects like JNA seem to disprove this — you can have convenient interop without generating native code yourself. And there are some exciting techniques for working with native libraries coming up:
 
 *   The OpenJDK Panama project is adding support for things like inline assembly, pointers and struct layouts directly to Java and HotSpot. Yes, if you check out the Panama branch of the hotspot repository you can actually define assembly snippets in Java and they’ll be inlined directly into usage sites, just like an __asm__ block in C would. Panama also provides a clang-based tool that parses C/C++ headers and auto generates the equivalent Java declarations. All this should be automatically available to Kotlin and Scala users too.
 *   The Graal/Truffle research projects are creating [Sulong](http://github.com/graalvm/sulong/), which is a way to JIT compile LLVM bitcode on top of the JVM. There is a simple C API that exists when code is run on top of Sulong that allows for near zero-overhead interop with managed code.
@@ -99,7 +99,7 @@ Instead, I think the right direction for the community to go is:
 
 This approach isn’t flawless: the AOT mode being added to HotSpot is planned to be a commercial feature, and big upgrades like Panama are long term projects. But adding an LLVM backend to the Kotlin or Scala compilers would be a long term project too, it’d mean sacrificing other features that might be more useful, and it would likely never close the performance gap.
 
-As always in engineering, there are no solutions — only trade offs. I’d rather have more features in the core Kotlin language/tooling than a native backend, and let other teams tackle the varying challenges involved.
+As always in engineering, there are no solutions — only trade offs. I’d rather have more features in the core Kotlin language/tooling than a native backend, and let other teams tackle the varying challenges involved.
 
 """
 

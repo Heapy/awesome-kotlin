@@ -21,7 +21,7 @@ In this first of a series of blog posts, I’ll go over the cleanest possible pa
 
 The [official docs](https://kotlinlang.org/docs/tutorials/kotlin-android.html) on getting started with Kotlin will show you how to install the Kotlin IDE plugin, and use that to modify an Android project’s Gradle config to add support for compiling Kotlin source. I don’t recommend this particular process, because I found the result of the automation to be less than satisfactory. While the changes it makes to the project’s Gradle build files might technically work, they don’t seem to be consistent with the way that new Android projects are typically set up.
 
-To be frank, I have never been a fan of any Android Studio plugin that tries to guess changes to make to Android builds — more often than not, they botch things up, and I have to redo everything it did to clean it up to my liking. Gradle build files are actually source code, and automated processes are not really good at making changes to existing code! So, if you’re picky like me, take the extra minute to configure your project manually.
+To be frank, I have never been a fan of any Android Studio plugin that tries to guess changes to make to Android builds — more often than not, they botch things up, and I have to redo everything it did to clean it up to my liking. Gradle build files are actually source code, and automated processes are not really good at making changes to existing code! So, if you’re picky like me, take the extra minute to configure your project manually.
 
 If you want to follow along, we’ll take four quick steps to get up and running:
 

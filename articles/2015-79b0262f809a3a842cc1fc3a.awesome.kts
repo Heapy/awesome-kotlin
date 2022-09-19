@@ -16,7 +16,7 @@ I started with [RxAndroid](https://github.com/ReactiveX/RxAndroid) about a week 
 
 ##### *Such Rx. Much Reactive. Wow!*
 
-In short, you can use Rx almost everywhere — but **you shouldn’t**. You should intelligently figure out where it should go. Because in some instances, Rx can be a 100 times more productive and better than normal imperative programming, and in others, it just isn’t necessary.
+In short, you can use Rx almost everywhere — but **you shouldn’t**. You should intelligently figure out where it should go. Because in some instances, Rx can be a 100 times more productive and better than normal imperative programming, and in others, it just isn’t necessary.
 
 I’ll demonstrate a few examples in both **Kotlin** and **Java** so that you get an idea of Rx as well as a comparison of the two languages.
 
@@ -202,7 +202,7 @@ Observable.just("Hello World")
 
 So... What does it do?
 
-When you run this code — It’ll display a log message
+When you run this code — It’ll display a log message
 
 ```
 Output: Hello World!
@@ -216,7 +216,7 @@ Ok by now... You know how to create simple observables, right? So let’s do one
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/400/1*lyOcKYAvTjDnArAN4rEDNw.gif)
 
-In this example, I enter text into an EditText and against this text, a response is triggered automatically —in which I print out the text. Now the response could be a call to an API. So if I trigger this call for every character I enter — that would be a waste because I only need the last one, meaning it should trigger a call only when I stop typing — let’s say after 1 second of typing-inactivity.
+In this example, I enter text into an EditText and against this text, a response is triggered automatically —in which I print out the text. Now the response could be a call to an API. So if I trigger this call for every character I enter — that would be a waste because I only need the last one, meaning it should trigger a call only when I stop typing — let’s say after 1 second of typing-inactivity.
 
 So how do we do this in non-reactive programming?
 

@@ -29,7 +29,7 @@ It's time to tell you how null-safety in Kotlin works. In Java, when we need to 
 
 ```kotlin
 if (name != null) {
-   name.length
+   name.length
 }
 ```
 
@@ -55,7 +55,7 @@ val name: String!! = null
 
 ## Collections
 
-If you had an experience with developing on Java, there is nothing special in Kotlin. I would say that Kotlin simplified everything for us again. Instead of LinkedLists and ArrayLists, we have  Lists, Maps, etc.
+If you had an experience with developing on Java, there is nothing special in Kotlin. I would say that Kotlin simplified everything for us again. Instead of LinkedLists and ArrayLists, we have  Lists, Maps, etc.
 
 Kotlin allows us to define immutable lists.
 
@@ -103,7 +103,7 @@ And yeah, you can write lambda-expressions.
 Classes and methods in Kotlin are final by default. We can construct classes in two ways: with primary and secondary constructors. The primary class constructor is a part of header. Also, it doesn’t have any code to execute. If we need to do some operations, we can use ‘init’ block.
 
 ```kotlin
-class Cat(val name: String)  {
+class Cat(val name: String)  {
     init {
         println("We've just initialized Cat with ${"$"}{name}")
     }
@@ -119,7 +119,7 @@ class Dog: Animal {
 }
 ```
 
-As you can see, super method works like inheritance and it’s absolutely incredible.  
+As you can see, super method works like inheritance and it’s absolutely incredible.  
 
 ```kotlin
 class Cat : Animal {
@@ -169,69 +169,69 @@ We have just replaced this ugly boilerplate construction with an elegant and sho
 
 In March, within a few weeks, I wrote Munchkin Level Counter for use in the world-famous game. I decided to build an application with the usage of pattern proposed by Android-developer and Kotlin-lover, Antoine Leiva, who demonstrated how to build an application in the MVP architecture. It is even more reminiscent of VIPER popular architecture for developing iOS, which, in our version, deleted the letter R (Router).
 
-We are constantly improving our application to provide the best user experience. We added dependency injection to Dagger and transferred all the code on Kotlin. We plan to use RxJava to eliminate the heaps of the implementation of interfaces that do not make the code  elegant nor beautiful for the perception of any developer.
+We are constantly improving our application to provide the best user experience. We added dependency injection to Dagger and transferred all the code on Kotlin. We plan to use RxJava to eliminate the heaps of the implementation of interfaces that do not make the code  elegant nor beautiful for the perception of any developer.
 
 Let's see how on the presenter class Toad on Kotlin.
 
 ```kotlin
 public class DashboardPresenterImpl implements DashboardPresenter, DashboardInteractor.OnLoadPlayerListener {
 
-   private DashboardView dashboardView;
-   private DashboardInteractor interactor;
+   private DashboardView dashboardView;
+   private DashboardInteractor interactor;
 
-   public DashboardPresenterImpl(DashboardView dashboardView, DashboardInteractor interactor) {
-       this.dashboardView = dashboardView;
-       this.interactor = interactor;
-   }
+   public DashboardPresenterImpl(DashboardView dashboardView, DashboardInteractor interactor) {
+       this.dashboardView = dashboardView;
+       this.interactor = interactor;
+   }
 
-   @Override
-   public void updatePlayerListItem(Player player, int position) {
-       if (dashboardView != null) {
-           interactor.updatePlayer(player, position, this);
-       }
-   }
+   @Override
+   public void updatePlayerListItem(Player player, int position) {
+       if (dashboardView != null) {
+           interactor.updatePlayer(player, position, this);
+       }
+   }
 
-   @Override
-   public void onResume() {
-       if (dashboardView != null) {
-           interactor.loadPlayersList(this);
-       }
-   }
+   @Override
+   public void onResume() {
+       if (dashboardView != null) {
+           interactor.loadPlayersList(this);
+       }
+   }
 
-   @Override
-   public void onFinished(ArrayList<Player> players) {
-       if (dashboardView != null) {
-           dashboardView.setItems(players);
-       }
-   }
+   @Override
+   public void onFinished(ArrayList<Player> players) {
+       if (dashboardView != null) {
+           dashboardView.setItems(players);
+       }
+   }
 
-   @Override
-   public void onPlayerUpdated(Player player, int position) {
-       if (dashboardView != null) {
-           dashboardView.updatePlayerData(player, position);
-       }
-   }
+   @Override
+   public void onPlayerUpdated(Player player, int position) {
+       if (dashboardView != null) {
+           dashboardView.updatePlayerData(player, position);
+       }
+   }
 
-   @Override
-   public void onDestroy() {
-       if (dashboardView != null) {
-           dashboardView = null;
-       }
-   }
+   @Override
+   public void onDestroy() {
+       if (dashboardView != null) {
+           dashboardView = null;
+       }
+   }
 
-   @Override
-   public void setGameFinished() {
-       if (dashboardView != null) {
-           interactor.setGameFinished();
-       }
-   }
+   @Override
+   public void setGameFinished() {
+       if (dashboardView != null) {
+           interactor.setGameFinished();
+       }
+   }
 
-   @Override
-   public void insertStep(Player player) {
-       if (dashboardView != null) {
-           interactor.insertStep(player);
-       }
-   }
+   @Override
+   public void insertStep(Player player) {
+       if (dashboardView != null) {
+           interactor.insertStep(player);
+       }
+   }
 }
 ```
 
@@ -242,41 +242,41 @@ We have re-written this class in Kotlin. It can be achieved with plug-in for And
 ```kotlin
 class DashboardPresenterImpl : DashboardPresenter, DashboardInteractor.OnLoadPlayerListener {
 
-   private var interactor: DashboardInteractor
-   private var dashboardView: DashboardView?
+   private var interactor: DashboardInteractor
+   private var dashboardView: DashboardView?
 
-   constructor(dashboardView: DashboardView, interactor: DashboardInteractor) {
-       this.dashboardView = dashboardView
-       this.interactor = interactor
-   }
+   constructor(dashboardView: DashboardView, interactor: DashboardInteractor) {
+       this.dashboardView = dashboardView
+       this.interactor = interactor
+   }
 
-   override fun updatePlayerListItem(player: Player, position: Int) {
-       interactor.updatePlayer(player, position, this)
-   }
+   override fun updatePlayerListItem(player: Player, position: Int) {
+       interactor.updatePlayer(player, position, this)
+   }
 
-   override fun onResume() {
-       interactor.loadPlayersList(this)
-   }
+   override fun onResume() {
+       interactor.loadPlayersList(this)
+   }
 
-   override fun onFinished(players: ArrayList<Player>) {
-       dashboardView?.setItems(players)
-   }
+   override fun onFinished(players: ArrayList<Player>) {
+       dashboardView?.setItems(players)
+   }
 
-   override fun onPlayerUpdated(player: Player, position: Int) {
-       dashboardView?.updatePlayerData(player, position)
-   }
+   override fun onPlayerUpdated(player: Player, position: Int) {
+       dashboardView?.updatePlayerData(player, position)
+   }
 
-   override fun onDestroy() {
-       dashboardView = null
-   }
+   override fun onDestroy() {
+       dashboardView = null
+   }
 
-   override fun setGameFinished() {
-       interactor.setGameFinished()
-   }
+   override fun setGameFinished() {
+       interactor.setGameFinished()
+   }
 
-   override fun insertStep(player: Player) {
-       interactor.insertStep(player)
-   }
+   override fun insertStep(player: Player) {
+       interactor.insertStep(player)
+   }
 }
 ```
 
@@ -289,67 +289,67 @@ We have an activity where we load game results in three fragments that display c
 ```kotlin
 public class GameResultActivity extends AppCompatActivity implements GameResultView {
 
-   public static final String TAG = LogUtil.makeLogTag(GameResultActivity.class);
+   public static final String TAG = LogUtil.makeLogTag(GameResultActivity.class);
 
-   private GameResultPresenter presenter;
-   private Toolbar toolbar;
-   private ViewPager vpCharts;
-   private TabLayout tlChartsTitle;
-   private ChartsPagerAdapter vpChartsAdapter;
+   private GameResultPresenter presenter;
+   private Toolbar toolbar;
+   private ViewPager vpCharts;
+   private TabLayout tlChartsTitle;
+   private ChartsPagerAdapter vpChartsAdapter;
 
-   @Override
-   protected void onCreate(Bundle savedInstanceState) {
-       super.onCreate(savedInstanceState);
-       presenter = new GameResultPresenterImpl(this, this);
-       setContentView(R.layout.activity_game_result);
-       toolbar = (Toolbar) findViewById(R.id.toolbar);
-       setSupportActionBar(toolbar);
-       getSupportActionBar().setHomeButtonEnabled(true);
-       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-       presenter.onCreate();
-   }
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+       super.onCreate(savedInstanceState);
+       presenter = new GameResultPresenterImpl(this, this);
+       setContentView(R.layout.activity_game_result);
+       toolbar = (Toolbar) findViewById(R.id.toolbar);
+       setSupportActionBar(toolbar);
+       getSupportActionBar().setHomeButtonEnabled(true);
+       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+       presenter.onCreate();
+   }
 
-   @Override
-   public void loadChartFragments() {
-       vpCharts = (ViewPager) findViewById(R.id.vp_charts);
-       vpChartsAdapter = new ChartsPagerAdapter(getSupportFragmentManager(), this);
-       vpCharts.setAdapter(vpChartsAdapter);
-       vpCharts.setOffscreenPageLimit(3);
-       tlChartsTitle = (TabLayout) findViewById(R.id.tl_charts_title);
-       tlChartsTitle.setupWithViewPager(vpCharts);
-   }
+   @Override
+   public void loadChartFragments() {
+       vpCharts = (ViewPager) findViewById(R.id.vp_charts);
+       vpChartsAdapter = new ChartsPagerAdapter(getSupportFragmentManager(), this);
+       vpCharts.setAdapter(vpChartsAdapter);
+       vpCharts.setOffscreenPageLimit(3);
+       tlChartsTitle = (TabLayout) findViewById(R.id.tl_charts_title);
+       tlChartsTitle.setupWithViewPager(vpCharts);
+   }
 
-   @Override
-   protected void onResume() {
-       super.onResume();
-   }
+   @Override
+   protected void onResume() {
+       super.onResume();
+   }
 
-   @Override
-   public void onBackPressed() {
-       super.onBackPressed();
-       presenter.onBackPressed();
-       Intent intent = new Intent(this, PlayersListActivity.class);
-       startActivity(intent);
-       finish();
-   }
+   @Override
+   public void onBackPressed() {
+       super.onBackPressed();
+       presenter.onBackPressed();
+       Intent intent = new Intent(this, PlayersListActivity.class);
+       startActivity(intent);
+       finish();
+   }
 
-   @Override
-   public boolean onOptionsItemSelected(MenuItem item) {
-       switch (item.getItemId()) {
-           case android.R.id.home:
-               onBackPressed();
-               return true;
-           default:
-               break;
-       }
-       return false;
-   }
+   @Override
+   public boolean onOptionsItemSelected(MenuItem item) {
+       switch (item.getItemId()) {
+           case android.R.id.home:
+               onBackPressed();
+               return true;
+           default:
+               break;
+       }
+       return false;
+   }
 
-   @Override
-   protected void onStop() {
-       super.onStop();
-       presenter.onStop();
-   }
+   @Override
+   protected void onStop() {
+       super.onStop();
+       presenter.onStop();
+   }
 }
 ```
 
@@ -358,54 +358,54 @@ You can see how an activity can look in Kotlin:
 ```kotlin
 class GameResultActivity : AppCompatActivity(), GameResultView {
 
-   companion object {
-       val TAG = LogUtil.makeLogTag(GameResultActivity::class.java)
-   }
+   companion object {
+       val TAG = LogUtil.makeLogTag(GameResultActivity::class.java)
+   }
 
-   private val toolbar by lazy { findViewById(R.id.toolbar) as Toolbar? }
-   private val vpCharts by lazy { findViewById(R.id.vp_charts) as ViewPager? }
-   private val tlChartsTitle by lazy { findViewById(R.id.tl_charts_title) as TabLayout? }
-   private val vpChartsAdapter: ChartsPagerAdapter = ChartsPagerAdapter(supportFragmentManager, this)
+   private val toolbar by lazy { findViewById(R.id.toolbar) as Toolbar? }
+   private val vpCharts by lazy { findViewById(R.id.vp_charts) as ViewPager? }
+   private val tlChartsTitle by lazy { findViewById(R.id.tl_charts_title) as TabLayout? }
+   private val vpChartsAdapter: ChartsPagerAdapter = ChartsPagerAdapter(supportFragmentManager, this)
 
-   private val presenter: GameResultPresenter = GameResultPresenterImpl(this, this)
+   private val presenter: GameResultPresenter = GameResultPresenterImpl(this, this)
 
-   override fun onCreate(savedInstanceState: Bundle?) {
-       super.onCreate(savedInstanceState)
-       setContentView(R.layout.activity_game_result)
-       setSupportActionBar(toolbar)
-       supportActionBar?.setHomeButtonEnabled(true)
-       supportActionBar?.setDisplayHomeAsUpEnabled(true)
-       presenter.onCreate()
-   }
+   override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+       setContentView(R.layout.activity_game_result)
+       setSupportActionBar(toolbar)
+       supportActionBar?.setHomeButtonEnabled(true)
+       supportActionBar?.setDisplayHomeAsUpEnabled(true)
+       presenter.onCreate()
+   }
 
-   override fun loadChartFragments() {
-       vpCharts?.adapter = vpChartsAdapter
-       vpCharts?.offscreenPageLimit = 3
-       tlChartsTitle?.setupWithViewPager(vpCharts)
-   }
+   override fun loadChartFragments() {
+       vpCharts?.adapter = vpChartsAdapter
+       vpCharts?.offscreenPageLimit = 3
+       tlChartsTitle?.setupWithViewPager(vpCharts)
+   }
 
-   override fun onBackPressed() {
-       super.onBackPressed()
-       presenter.onBackPressed()
-       val intent = Intent(this, PlayersListActivity::class.java)
-       startActivity(intent)
-       finish()
-   }
+   override fun onBackPressed() {
+       super.onBackPressed()
+       presenter.onBackPressed()
+       val intent = Intent(this, PlayersListActivity::class.java)
+       startActivity(intent)
+       finish()
+   }
 
-   override fun onOptionsItemSelected(item: MenuItem): Boolean {
-       when (item.itemId) {
-           android.R.id.home -> {
-               onBackPressed()
-               return true
-           }
-       }
-       return false
-   }
+   override fun onOptionsItemSelected(item: MenuItem): Boolean {
+       when (item.itemId) {
+           android.R.id.home -> {
+               onBackPressed()
+               return true
+           }
+       }
+       return false
+   }
 
-   override fun onStop() {
-       super.onStop()
-       presenter.onStop()
-   }
+   override fun onStop() {
+       super.onStop()
+       presenter.onStop()
+   }
 }
 ```
 

@@ -25,7 +25,7 @@ Code is available [on GitHub](https://github.com/ftomassetti/LangSandbox) under 
 
 ## Implement semantic checks
 
-In the previous post we have seen how to implement the function _process_ to execute an action on all the nodes of our AST. A typical case is that we want to execute certain operation only on certain nodes. We want still to use process to navigate the tree. We can do that by creating this function named _specificProcess_.
+In the previous post we have seen how to implement the function _process_ to execute an action on all the nodes of our AST. A typical case is that we want to execute certain operation only on certain nodes. We want still to use process to navigate the tree. We can do that by creating this function named _specificProcess_.
 
 ```kotlin
 fun <T: Node> Node.specificProcess(klass: Class<T>, operation: (T) -> Unit) {
@@ -33,11 +33,11 @@ fun <T: Node> Node.specificProcess(klass: Class<T>, operation: (T) -> Unit) {
 }
 ```
 
-Let’s see how to use _specificProcess _to:
+Let’s see how to use _specificProcess _to:
 
-*   find all the _VariableDeclarations_ and check they are not re-declaring a variable already declared
-*   find all the _VarReferences_ and verify they are not referring to a variable that has been not declared or has been declared after the _VarReference_
-*   perform the same check done on _VarReferences_ also for _Assignments_
+*   find all the _VariableDeclarations_ and check they are not re-declaring a variable already declared
+*   find all the _VarReferences_ and verify they are not referring to a variable that has been not declared or has been declared after the _VarReference_
+*   perform the same check done on _VarReferences_ also for _Assignments_
 
 ```kotlin
 data class Error(val message: String, val position: Point)
@@ -76,7 +76,7 @@ fun SandyFile.validate() : List<Error> {
 }
 ```
 
-Ok, so invoking _validate_ on the root of the AST will return all possible semantic errors.
+Ok, so invoking _validate_ on the root of the AST will return all possible semantic errors.
 
 ## Getting all errors: lexical, syntactic, and semantic
 
@@ -160,7 +160,7 @@ In the rest of the system we will simply call the _SandyParserFacade_ without th
 
 ## Test validation
 
-_Will it fly? _Let’s verify that.
+_Will it fly? _Let’s verify that.
 
 
 ```kotlin

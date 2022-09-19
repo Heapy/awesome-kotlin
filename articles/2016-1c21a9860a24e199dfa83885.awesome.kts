@@ -10,14 +10,14 @@ val body = """
 
 **Kotlin** is a statically typed programming language for the JVM, Android and the browser.
 
-### **Why use Kotlin for Android Development ?**
+### **Why use Kotlin for Android Development ?**
 
 * **Concise:** Drastically reduce the amount of boilerplate code you need to write.
 * **Safe:** Avoid entire classes of errors such as null pointer exceptions.
 * **Versatile:** Build server-side applications, Android apps or front-end code running in the browser.
 * **Interoperable:** Leverage existing frameworks and libraries of the JVM with 100% Java Interoperability.
 
-### Let’s see the things in more detail ( **Kotlin vs Java** ) **:**
+### Let’s see the things in more detail ( **Kotlin vs Java** ) **:**
 
 ### **Interoperable with Java:** 
 

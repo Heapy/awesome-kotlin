@@ -6,7 +6,7 @@ import java.time.LocalDate
 
 // language=Markdown
 val body = """
-> Sometimes a large number of independent extensions are possible and would produce an explosion of subclasses to support every combination. _— (GoF)_
+> Sometimes a large number of independent extensions are possible and would produce an explosion of subclasses to support every combination. _— (GoF)_
 
 As a kid, I was a fan of diving as it gave me freedom and measureless joy. Over the years my passion changed and I have started diving in deep waters of the ocean of programming. Knowing how things work brings a lot of satisfaction so let’s try to understand amazing extensions in Kotlin.
 

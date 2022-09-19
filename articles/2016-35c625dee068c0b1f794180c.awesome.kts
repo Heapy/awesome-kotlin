@@ -6,13 +6,13 @@ import java.time.LocalDate
 
 // language=Markdown
 val body = """
-> There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don’t know. But there are also unknown unknowns. There are things we don’t know we don’t know. — Donald Rumsfeld
+> There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don’t know. But there are also unknown unknowns. There are things we don’t know we don’t know. — Donald Rumsfeld
 
 I have been using Kotlin for almost a two years and I started from putting it to toy project intended for my tech talks. Do you remember that time when Kotlin had _traits_ instead of _interfaces_? From the very first line, I knew that this language will change my life, and you know what? I was totally right.
 
 Knowledge makes you better and that is why world’s most successful engineers are constantly learning new things. Here is my list of five less known things about Kotlin and I hope you will find at least three worth knowing.
 
-### 1. Name your imports
+### 1. Name your imports
 
 In Kotlin, _imports_ are used by the compiler to let you name your classes by their unqualified name. What happens if you have naming conflict? Sad things happen!
 
@@ -50,7 +50,7 @@ class UserInfoFragment : Fragment(), View {
 ```
 _Refactored code using named import_
 
-### 2. Change companion object name
+### 2. Change companion object name
 
 Companion object was introduced to replace static members. It is not only for declaring static properties but also to name them. How? Let’s have a look at this example.
 
@@ -191,7 +191,7 @@ inline fun <T> T?.ifNull(function: (T?) -> Unit) {
 }
 ```
 
-### 5. Validate an assignment and “veto” it
+### 5. Validate an assignment and “veto” it
 
 The way in which Kotlin handles delegation is pretty spectacular so if you are not familiar with it, you should totally check my article: “Zero boilerplate delegation in Kotlin”.
 

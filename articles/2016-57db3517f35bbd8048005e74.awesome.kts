@@ -18,7 +18,7 @@ Along with that _anko_ provide other helpers for android development, among them
 
 If you are a user of anko, then using _AnkoLogger_ has no additional installation. Super easy. If you are not using anko, then it is an overkill to install it just for logging. kotlin-logging is pretty simple to install with gradle, and there is an example [in here](https://github.com/MicroUtils/kotlin-logging-example-android).
 
-### Package size
+### Package size
 
 For anko this is not relevant since the AnkoLogger is just one class among many. kotlin-logging jar is about 10kb but requires additional dependencies of ~50kb (slf4j+android bridge). Pretty light-weight.
 
@@ -53,13 +53,13 @@ class SomeActivity : Activity(), AnkoLogger {
 
 The logger is defined in an interface called _AnkoLogger_ that your class is extending. You don’t access it directly, instead just call the log methods by the level. Again, a lazy flavors exists for different log levels. AnkoLogger also “pollutes” your class with a public property called _loggerTag_, and all logging methods are public. Of course this can be fixed with a companion object.
 
-### Logger name
+### Logger name
 
 Looks like a small detail but still...
 
 In kotlin-logging the name of the logger is inferred from the class and package name. In cases the name is too long it is truncated and replaced with stars. more details in [Logger name mapping](http://www.slf4j.org/android). In AnkoLogger, the name of the logger is the class name only without package name. Again, if it is long it is getting truncated.
 
-One notable different is that AnkoLogger doesn’t handle inheritance, so in case of inheritance the logger name is of the child class even when the log message was issued in the parent class. A little bit confusing :-(
+One notable different is that AnkoLogger doesn’t handle inheritance, so in case of inheritance the logger name is of the child class even when the log message was issued in the parent class. A little bit confusing :-(
 
 ### Performance and resource consumption
 

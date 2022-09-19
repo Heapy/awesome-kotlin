@@ -6,12 +6,12 @@ import java.time.LocalDate
 
 // language=Markdown
 val body = """
-## Kotlin — Love at first line
+## Kotlin — Love at first line
 
 Kotlin 1.0 has been [released](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)
  a few days ago and it’s time to check out its awesome features.
 
-For those of you who might have been living under a rock and don’t know what Kotlin is — Kotlin is a new JVM programming language that tries to “fill in the gaps” that Java has. It’s 100% interoperable with Java — meaning that you can have a mixed project that contains Kotlin & Java classes. The classes are compiled to Java bytecode, and that bytecode is “runnable” on Java6+, which makes it runnable on Android.
+For those of you who might have been living under a rock and don’t know what Kotlin is — Kotlin is a new JVM programming language that tries to “fill in the gaps” that Java has. It’s 100% interoperable with Java — meaning that you can have a mixed project that contains Kotlin & Java classes. The classes are compiled to Java bytecode, and that bytecode is “runnable” on Java6+, which makes it runnable on Android.
 
 The language is awesome, and combined with the [Anko](https://github.com/Kotlin/anko) library it’s even [awesome-er*](http://www.urbandictionary.com/define.php?term=Awesome-er). I won’t be explaining the syntax of the language (for that you have the official [page](https://kotlinlang.org/)). I’m just going to try and expose a few of it’s awesome features.
 
@@ -67,7 +67,7 @@ Intentionally left blank.
 
 ### [Optionals / Null safety](https://kotlinlang.org/docs/reference/null-safety.html)
 
-Forget about NullPointerExceptions. Kotlin has 2 types of variables, nullable and non-nullable. If we declare our variable as non-nullable — the compiler won’t let us assign a null value to it. Only nullable variables can be null.
+Forget about NullPointerExceptions. Kotlin has 2 types of variables, nullable and non-nullable. If we declare our variable as non-nullable — the compiler won’t let us assign a null value to it. Only nullable variables can be null.
 
 
 ```kotlin
@@ -88,7 +88,7 @@ The code above won’t fail, even if the *nullable* variable has a null value. I
 
 ### [Elvis operator](https://kotlinlang.org/docs/reference/null-safety.html#elvis-operator)
 
-The result of a **safe call (?.)** is always a nullable variable. So in cases where we are calling a method on a null variable — the result will be null.
+The result of a **safe call (?.)** is always a nullable variable. So in cases where we are calling a method on a null variable — the result will be null.
 
 That can be inconvenient sometimes. For example, in the code sample above, we want our **length** variable to be a non-null variable because it’s logical for it to have a value of 0 in case of a null string.
 
@@ -164,7 +164,7 @@ var completed: Boolean
 
 ### [Lazy properties](https://kotlinlang.org/docs/reference/delegated-properties.html#lazy)
 
-Kotlin allows us to declare lazy properties — properties that are initialized when we first access them.
+Kotlin allows us to declare lazy properties — properties that are initialized when we first access them.
 
 
 ```kotlin
@@ -235,7 +235,7 @@ val parser = rowParser {
 """
 
 Article(
-  title = "Kotlin — Love at first line",
+  title = "Kotlin — Love at first line",
   url = "https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.p5hp6dxlh",
   categories = listOf(
     "Anko",

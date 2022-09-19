@@ -14,7 +14,7 @@ _Skeuomorphism_
 
 So I decided to migrate a quite advanced layout I used a while back to Anko. The layout contains a RelativeLayout container with 17 child ImageViews (all with a drawables using 9 slice), 1 SurfaceView as the viewfinder, 2 TextViews and a regular View. Which is still a quite decent layout since there are no nested containers.
 
-### Why does Anko preform better?
+### Why does Anko preform better?
 
 XML Layouts are parsed at runtime. In other the XML needs to be retrieved form the assets, and the XmlPullParser needs to parse all the elements and create them one by one. The attributes need to be parsed and be set correctly. This all is overhead, but how much time is actually getting wasted?
 

@@ -51,7 +51,7 @@ By the way, you can [join us on slack](http://kotlinslackin.herokuapp.com/) and 
 
 * [Kotlin for Java Developers: 10 Features You Will Love About Kotlin](http://petersommerhoff.com/dev/kotlin/kotlin-for-java-devs/)
 * [10 Features I Wish Java Would Steal From the Kotlin Language](http://blog.jooq.org/2016/03/31/10-features-i-wish-java-would-steal-from-the-kotlin-language/)
-* [Kotlin — Love at first line](https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.kan4x5dyg)
+* [Kotlin — Love at first line](https://medium.com/@dime.kotevski/kotlin-love-at-first-line-7127befe240f#.kan4x5dyg)
 * [An Introduction to Kotlin](https://objectpartners.com/2016/02/23/an-introduction-to-kotlin/)
 * [Kotlin, superseding the language we love](http://www.endran.nl/blog/kotlin-super-seeding-the-language-we-love-2)
 * [Kotlin, the somewhat obscure modern Android-friendly programming language](https://medium.com/math-camp-engineering/kotlin-3e963864db9e#.4hxqlfnvn)
@@ -72,9 +72,9 @@ By the way, you can [join us on slack](http://kotlinslackin.herokuapp.com/) and 
   * [Part 1: Configuring Android Studio with Kotlin](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-1-e0f51fc1a8b3)
   * [Part 2: MainActivity.kt: Syntax, Null Safety and more...](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-2-e53317ffcbe9)
   * [Part 3: NewsFragment.kt: Extension Functions, Android Extensions...](https://medium.com/@juanchosaravia/keddit-part-3-extension-functions-android-extensions-and-more-faa7d232f232)
-  * [Part 4: RecyclerView — Delegate Adapters & Data Classes with Kotlin](https://medium.com/@juanchosaravia/keddit-part-4-recyclerview-delegate-adapters-data-classes-with-kotlin-9248f44327f7)
+  * [Part 4: RecyclerView — Delegate Adapters & Data Classes with Kotlin](https://medium.com/@juanchosaravia/keddit-part-4-recyclerview-delegate-adapters-data-classes-with-kotlin-9248f44327f7)
   * [Part 5: Kotlin, RxJava & RxAndroid](https://medium.com/@juanchosaravia/keddit-part-5-kotlin-rxjava-rxandroid-105f95bfcd22)
-  * [Part 6: API — Retrofit & Kotlin](https://medium.com/@juanchosaravia/keddit-part-6-api-retrofit-kotlin-d309074af0)
+  * [Part 6: API — Retrofit & Kotlin](https://medium.com/@juanchosaravia/keddit-part-6-api-retrofit-kotlin-d309074af0)
 * Kotlin Month series by Jacob Zimmerman
   * [Post 1: Assorted Features](https://programmingideaswithjake.wordpress.com/2016/02/27/kotlin-month-post-1-assorted-features/)
   * [Post 2: Inheritance and Defaults](https://programmingideaswithjake.wordpress.com/2016/03/05/kotlin-month-post-2-inheritance-and-defaults/)

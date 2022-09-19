@@ -6,7 +6,7 @@ import java.time.LocalDate
 
 // language=Markdown
 val body = """
-Team Android at Basecamp recently passed a fairly big milestone — over 25% of the [Basecamp 3 Android app](https://play.google.com/store/apps/details?id=com.basecamp.bc3) code base now runs on Kotlin! 🎉
+Team Android at Basecamp recently passed a fairly big milestone — over 25% of the [Basecamp 3 Android app](https://play.google.com/store/apps/details?id=com.basecamp.bc3) code base now runs on Kotlin! 🎉
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*pF4snICcl63et11YyuM_zw.png)
 _Github statistics for the Basecamp 3 Android app as of 5/27/16._
@@ -180,7 +180,7 @@ message?.let { println(it) }
 
 Here if _message_ is not null, Kotlin will _let_ the block (what’s inside the braces) run. If it’s null, it just skips it.
 
-There’s one other bit of awesomeness — notice the _println(it)_ statement? The _it_ keyword allows you to reference the object the _let_ began from.
+There’s one other bit of awesomeness — notice the _println(it)_ statement? The _it_ keyword allows you to reference the object the _let_ began from.
 
 #### 7. The Elvis operator
 

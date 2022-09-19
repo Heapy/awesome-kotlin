@@ -40,7 +40,7 @@ val inc: (Int) -> Int = { it + 1 }
 
 ### Why Kotlin and not “X”?
 
-We wanted to iterate on a lot of the software structure we came up with for our [Swift iOS app](http://tryroll.com), and for a bunch of pieces we needed a powerful type-system. So rather than just stick with Java — it’s way too verbose — we started looking at alternatives. We wanted a strong static type system, yet the obvious choice, Scala, has too much overhead for Android. Kotlin really stood out for us. [This document by Jake Wharton at Square](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit?hl=en&forcehl=1) made the decision easier. So we took the risk.
+We wanted to iterate on a lot of the software structure we came up with for our [Swift iOS app](http://tryroll.com), and for a bunch of pieces we needed a powerful type-system. So rather than just stick with Java — it’s way too verbose — we started looking at alternatives. We wanted a strong static type system, yet the obvious choice, Scala, has too much overhead for Android. Kotlin really stood out for us. [This document by Jake Wharton at Square](https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit?hl=en&forcehl=1) made the decision easier. So we took the risk.
 
 ### Great Features
 
@@ -149,7 +149,7 @@ Using these features, we’ve built:
 *   a single-atom-state functional reactive UI component framework
 *   and of course a fairly complex app.
 
-Android Studio’s Kotlin support is fantastic (good job JetBrains!) — it’s a pleasure to use.
+Android Studio’s Kotlin support is fantastic (good job JetBrains!) — it’s a pleasure to use.
 
 ### Build Time
 

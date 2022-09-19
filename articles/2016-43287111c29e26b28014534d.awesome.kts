@@ -51,7 +51,7 @@ Let’s create a tiny Android app which will convert temperature from Celsius to
 
 Then we can add simple unit tests for the same functionality in _java_ and _kotlin_ source folders written in Java and Kotlin respectively. Android Studio will mark both _test/java_ and _test/kotlin_ folders with the proper color to indicate them as test packages.
 
-Kotlin example unit test code could be as simple as the follows — it will be enough for our demo purposes.
+Kotlin example unit test code could be as simple as the follows — it will be enough for our demo purposes.
 
 ```kotlin
 class ThermoConverterTestKotlin {

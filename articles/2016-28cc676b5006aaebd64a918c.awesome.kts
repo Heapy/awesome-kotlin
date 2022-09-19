@@ -234,7 +234,7 @@ Hopefully the Kotlin designers change their mind and allow SAM conversions for f
 
 Every downside to Kotlin I’ve talked about so far are mostly small syntax details that are not quite as clean I’d like, but aren’t a big deal overall. But there’s one design decision that is going to cause a huge amount of pain in the future: All classes and functions in Kotlin are closed by default. It’s a design decision pushed by Effective Java, and it might sound nice in theory, but it’s an obviously bad choice to anyone who’s had to use a buggy or incomplete third-party library.
 
-> _Make all of your leaf classes final. After all, you’re done with the project — certainly no one else could possibly improve on your work by extending your classes. And it might even be a security flaw — after all, isn’t java.lang.String final for just this reason? If other coders in your project complain, tell them about the execution speed improvement you’re getting. — _[_Roedy Green, How to Write Unmaintainable Code_](http://www.mindprod.com/jgloss/unmaindesign.html)
+> _Make all of your leaf classes final. After all, you’re done with the project — certainly no one else could possibly improve on your work by extending your classes. And it might even be a security flaw — after all, isn’t java.lang.String final for just this reason? If other coders in your project complain, tell them about the execution speed improvement you’re getting. — _[_Roedy Green, How to Write Unmaintainable Code_](http://www.mindprod.com/jgloss/unmaindesign.html)
 
 The Kotlin documentation [actually has a paragraph trying to defend the choice](#), so I’ll address the three reasons they give.
 

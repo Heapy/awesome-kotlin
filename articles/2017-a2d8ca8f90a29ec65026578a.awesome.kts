@@ -19,7 +19,7 @@ We’ll be opening up registration soon with early-bird tickets, so make sure yo
 
 ## Call for Papers now open ##
 
-We have keynotes lined up by **Andrey Breslav** and **Erik Meijer**, and talks by some other speakers that we’ll be announcing shortly. But this is a community event and we want you, as members of the Kotlin community to also participate in the conference. As such, there is an open [Call for Papers][] where you can submit talks on things you’ve been doing with Kotlin and would like to share. While there is no rush, don’t delay because the call ends on the 1st of May 2017. 
+We have keynotes lined up by **Andrey Breslav** and **Erik Meijer**, and talks by some other speakers that we’ll be announcing shortly. But this is a community event and we want you, as members of the Kotlin community to also participate in the conference. As such, there is an open [Call for Papers][] where you can submit talks on things you’ve been doing with Kotlin and would like to share. While there is no rush, don’t delay because the call ends on the 1st of May 2017. 
 
 If you have any questions regarding the conference, please send an email to [info@kotlinconf.com][info_kotlinconf.com]. You can also ask questions on \#kotlinconf on [Slack][]. For sponsorship enquires, please email [sponsorship@kotlinconf.com][sponsorship_kotlinconf.com].
 

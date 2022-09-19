@@ -8,7 +8,7 @@ import java.time.LocalDate
 // language=Markdown
 val body = """
 ![1_OQsP3e0v1JDMPihSMl2DSQ.png][]
-Made with ❤️ in Chicago.
+Made with ❤️ in Chicago.
 
 We started our Kotlin journey a year ago based on two hunches: that it would 1) make a huge difference in programmer happiness and 2) wildly improve our work quality and speed.
 
@@ -20,7 +20,7 @@ Read on!
 
 ## 🤓 Wrap your head around the basics
 
-First thing’s first — take some time to get acclimated with the the language. There are free resources galore, but here are a few I’d recommend:
+First thing’s first — take some time to get acclimated with the the language. There are free resources galore, but here are a few I’d recommend:
 
  *  [Jake Wharton’s talk about Kotlin for Android][Jake Wharton_s talk about Kotlin for Android]. This was the lightbulb moment for me. After two watches, I really started to get it.
  *  [Some of my favorite Kotlin features][]. I wrote this a few months after we started with Kotlin. I specifically wrote it to be basic and straightforward so it’d be easy for beginners (which I was at the time!)
@@ -32,9 +32,9 @@ Writing your first bit of Kotlin is usually the hardest part of getting started.
 
 To alleviate the pressure, people will often suggest you start with tests or perhaps a Gradle plugin. And while that’s extremely sound advice, it doesn’t work for me. It’s too boring and obscure to get excited about.
 
-I propose something different — write real production code.
+I propose something different — write real production code.
 
-This is important because 1) it’s something you can see working in your app right away and 2) it’s more fun! That feeling of accomplishment and seeing something work shouldn’t be discounted — it builds your confidence and keeps you motivated.
+This is important because 1) it’s something you can see working in your app right away and 2) it’s more fun! That feeling of accomplishment and seeing something work shouldn’t be discounted — it builds your confidence and keeps you motivated.
 
 Of course I don’t recommend converting a giant class all at once on your first go. Instead try converting a utility or helper *method.* Take a single method from one of your util classes and rewrite it in Kotlin.
 
@@ -42,13 +42,13 @@ Done! You now have your first bit of production ready Kotlin.
 
 ## 😵 Don’t try to learn the whole language at once
 
-Kotlin has *a lot* of great stuff in it — so much that you might be tempted to use it all right away.
+Kotlin has *a lot* of great stuff in it — so much that you might be tempted to use it all right away.
 
 And while that can work, I wouldn’t recommend it. Instead find a few key concepts that click in *your* brain (not what others tell you are the best parts of the language), and practice using those to their fullest.
 
 When I got started, three areas clicked for me: [flow control][] (`when/if/for`), [extension functions][] (add functionality to any class you want), and [null safety][] (in particular the use of `let`). Focusing on just those few concepts helped me get started without feeling overwhelmed.
 
-Don’t be afraid to start small. You need space in your brain not only to pick up new things, but to let them stick. You’re already going to be dealing with basic syntactical differences — if you try to cram all the goodness all at once, something is bound to get overwritten in your brain.
+Don’t be afraid to start small. You need space in your brain not only to pick up new things, but to let them stick. You’re already going to be dealing with basic syntactical differences — if you try to cram all the goodness all at once, something is bound to get overwritten in your brain.
 
 ## 🔀 Learn from the auto converter
 
@@ -57,7 +57,7 @@ JetBrains has done a solid job with their Kotlin plugin and its ability to auto 
 There are two great ways to learn from this:
 
 1.  Auto convert the class, but keep the Java class handy. Put them side by side, and see how the Kotlin compares. You’ll pick up a ton by just seeing how the auto converter chose to implement the Java in Kotlin.
-2.  Auto convert the class, but don’t leave it in that state — while the 60% version will run, that last 40% is what makes the difference between OK code and great code. Attack everything for clarity and conciseness and look for ways to follow [Kotlin idioms][] that the auto converter couldn’t figure out.
+2.  Auto convert the class, but don’t leave it in that state — while the 60% version will run, that last 40% is what makes the difference between OK code and great code. Attack everything for clarity and conciseness and look for ways to follow [Kotlin idioms][] that the auto converter couldn’t figure out.
 
 ## 🤔 Question all your Java habits
 
@@ -75,7 +75,7 @@ So regularly question whether you are doing something the “Kotlin way”. When
 
 A good way to keep your code heading in the right direction is to tidy up small bits of Java as you pass by. As the saying goes, leave the campsite cleaner than you found it.
 
-A lot of times when building something new, you’ll incidentally need to make a small change to an existing Java class — add an attribute, change a type, etc. These are often small classes like a model or utility class.
+A lot of times when building something new, you’ll incidentally need to make a small change to an existing Java class — add an attribute, change a type, etc. These are often small classes like a model or utility class.
 
 Convert them! Don’t be lazy and leave them be. This incremental, slow approach over time will save you and your team much frustration in the long run.
 
@@ -105,7 +105,7 @@ I fully support the argument that programmer happiness leads to great code and u
 
 But as with all good things, you need to find the right balance. Converting all your Java to Kotlin might be a fun goal for you, but meanwhile your customers might be struggling with a nagging bug.
 
-The great thing is that those two things aren’t mutually exclusive. Grab those bugs and squash them with Kotlin — it’s a win-win! (If we’re being honest, Java probably caused the bug in the first place anyway).
+The great thing is that those two things aren’t mutually exclusive. Grab those bugs and squash them with Kotlin — it’s a win-win! (If we’re being honest, Java probably caused the bug in the first place anyway).
 
 ## 👯 Don’t go it alone
 
@@ -115,7 +115,7 @@ There is no question that I’m more proficient at Kotlin because of my buddy [J
 
 Sometimes that stuff happens in informal chats, but the by far the most valuable place to learn is in pull requests. You can let your code speak for itself, and the feedback can do the same. When it comes to learning Kotlin (or any new language really), this is absolutely crucial.
 
-Alright, you made it! I know that’s quite a bit to chew on — maybe some obvious, maybe some not. But I hope it helps get you on the right path to joining us in Kotlinland!
+Alright, you made it! I know that’s quite a bit to chew on — maybe some obvious, maybe some not. But I hope it helps get you on the right path to joining us in Kotlinland!
 
 *If this article was helpful to you, please do hit the* 💚 *button below. Thanks!*
 
@@ -135,7 +135,7 @@ Alright, you made it! I know that’s quite a bit to chew on — maybe some 
 """
 
 Article(
-  title = "How we made Basecamp 3’s Android app 100% Kotlin",
+  title = "How we made Basecamp 3’s Android app 100% Kotlin",
   url = "https://m.signalvnoise.com/how-we-made-basecamp-3s-android-app-100-kotlin-35e4e1c0ef12",
   categories = listOf(
     "Kotlin"

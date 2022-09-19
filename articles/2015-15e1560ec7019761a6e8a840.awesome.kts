@@ -359,7 +359,7 @@ fun transfer(from: Int, to: Int, amount: Int) {
 ```
 
 
-A ThreadBox is a simple class that takes a pointer to some object in its constructor. It keeps that pointer privately. So, if there’s no other reference to the passed object it can only be accessed via the ThreadBox. When we declare _bank_, we use the object keyword to create an anonymous object and pass it in — so we know the only way to reach the accounts array is via the ThreadBox. And the ThreadBox only gives out that pointer inside an atomic block.
+A ThreadBox is a simple class that takes a pointer to some object in its constructor. It keeps that pointer privately. So, if there’s no other reference to the passed object it can only be accessed via the ThreadBox. When we declare _bank_, we use the object keyword to create an anonymous object and pass it in — so we know the only way to reach the accounts array is via the ThreadBox. And the ThreadBox only gives out that pointer inside an atomic block.
 
 The compiler won’t let us access the array outside an atomic block ... unless we let a reference escape. So this is not as strong as the Haskell type system approach, but it’s a good start.
 

@@ -37,7 +37,7 @@ Either of the above works. (Comments are either /* .. */ for blocks or // for si
 
 ```kotlin
 val a: Int = 10000 // read-only
-val b: Int = 0x0F   // hexadecimal read-only
+val b: Int = 0x0F   // hexadecimal read-only
 var c = 0b1011 // binary also type inferred
 
 println("a = ${"$"}a b = ${"$"}b c = ${"$"}c")
@@ -77,10 +77,10 @@ fun cases(obj: Any) {
 
     when (obj) {
         1           -> print("One")
-        "Hello"     -> print("Greeting")
-        is Long     -> print("Long") // checks if type is long
+        "Hello"     -> print("Greeting")
+        is Long     -> print("Long") // checks if type is long
         !is String  -> print("Not a string") if type is not a string
-        else        -> print("Unknown")
+        else        -> print("Unknown")
     }
 }
 ```

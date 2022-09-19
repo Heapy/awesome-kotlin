@@ -20,13 +20,13 @@ As we [noted][] earlier, all binaries produced by pre-release versions are outla
 
 Up until now, you could run the Kotlin compiler under any version of Java starting with Java 6, but this is about to change – starting with one of the first 1.1.x updates, the compiler will only run under Java 8 or 9. To prepare you for the migration, the compiler now emits a warning if you run it under Java 6 or 7. Note that this only affects the build environment; **the compiled code is still compatible with Java 6 by default**, and we have no plans to remove the support for that.
 
-The `.javaClass` extension property is now deprecated. As a replacement, please use `::class.java`. The IDE offers a quickfix to update usages, both individually and across the entire project.
+The `.javaClass` extension property is now deprecated. As a replacement, please use `::class.java`. The IDE offers a quickfix to update usages, both individually and across the entire project.
 
 To reduce the size of the JavaScript standard library, we’ve deprecated a lot of helper functions in the `kotlin.dom` and `kotlin.dom.build` packages, and we’re going to remove them in a future update.
 
 ## How to try it ##
 
-**In Maven/Gradle:** Add `http://dl.bintray.com/kotlin/kotlin-eap-1.1` as a repository for the build script and your projects; use `1.1.0-rc-91` as the version number for the compiler and the standard library.
+**In Maven/Gradle:** Add `http://dl.bintray.com/kotlin/kotlin-eap-1.1` as a repository for the build script and your projects; use `1.1.0-rc-91` as the version number for the compiler and the standard library.
 
 **In IntelliJ IDEA:** Go to *Tools → Kotlin → Configure Kotlin Plugin Updates*, then select “Early Access Preview 1.1” in the *Update channel* drop-down list, then press *Check for updates*.
 

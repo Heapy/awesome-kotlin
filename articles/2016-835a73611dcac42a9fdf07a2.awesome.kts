@@ -123,7 +123,7 @@ inline fun <reified TV : View> ViewGroup.v(init: TV.() -> Unit) : TV {
 ```
 [gist](https://gist.github.com/CodingDoug/43d17d44459805e51072)
 
-You can see that we’re removing the first argument to each function (Context and ViewGroup), and instead, expecting those references to come from the instance of the class they are extending. The functions now have just a single argument — the lambda with receiver that modifies the created View.
+You can see that we’re removing the first argument to each function (Context and ViewGroup), and instead, expecting those references to come from the instance of the class they are extending. The functions now have just a single argument — the lambda with receiver that modifies the created View.
 
 With these modified functions, if we’re coding inside an Activity (which is a subclass of Context), we refer to v as a member of the Activity object. We can take advantage of this to build nested views even easier like this:
 
@@ -157,7 +157,7 @@ v<TextView> {
 ```
 [gist](https://gist.github.com/CodingDoug/6119424973b9c0f3824d)
 
-It’s pretty ugly to mix a method call to setPadding() with the synthetic property accessors for layoutParams and text. setPadding() is causing us problems here because it’s not a JavaBeans-style setter — it has more than one argument. Therefore, Kotlin can’t assign a synthetic property to it. But fear not! This can be fixed with clever use of another Kotlin language feature, as we’ll discover in the upcoming part 5.
+It’s pretty ugly to mix a method call to setPadding() with the synthetic property accessors for layoutParams and text. setPadding() is causing us problems here because it’s not a JavaBeans-style setter — it has more than one argument. Therefore, Kotlin can’t assign a synthetic property to it. But fear not! This can be fixed with clever use of another Kotlin language feature, as we’ll discover in the upcoming part 5.
 
 If you want to stay on top of this series, you can follow me both [here on Medium](https://medium.com/@CodingDoug) and [on Twitter](https://twitter.com/CodingDoug) as CodingDoug and get instant notification of future parts!
 

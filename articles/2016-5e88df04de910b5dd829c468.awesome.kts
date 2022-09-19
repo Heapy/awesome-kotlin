@@ -121,7 +121,7 @@ fun main(args: Array<String>) {
 
 This sample shows how amazing Kotlin is and what kind of crazy structures we can create. In addition similar approach was used to build Anko. I am not saying that this is the best solution, but at least it is worth to be aware of.
 
-> Functional programming is like a blessed curse. Purity feels amazing but you feel like you can’t program the “dirty” way anymore. — ([André Staltz](https://twitter.com/andrestaltz/status/696716396626124801))
+> Functional programming is like a blessed curse. Purity feels amazing but you feel like you can’t program the “dirty” way anymore. — ([André Staltz](https://twitter.com/andrestaltz/status/696716396626124801))
 
 _If this was interesting to you, please do hit the heart button ❤ or_ [_let me know on Twitter_](https://twitter.com/SliskiCode)_._
 

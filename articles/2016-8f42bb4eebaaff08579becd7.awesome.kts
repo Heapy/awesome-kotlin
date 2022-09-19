@@ -8,7 +8,7 @@ import java.time.LocalDate
 val body = """
 ### Writing a RESTful backend using Kotlin and Spring Boot
 
-Being here, I guess you already have an idea what a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) [backend](https://en.wikipedia.org/wiki/Front_and_back_ends) is and at least have heard of [Kotlin](https://kotlinlang.org) and [Spring [Boot]](http://projects.spring.io/spring-boot/). Beside that you will also need to know what is [Gradle](http://gradle.org) and download [IntelliJ IDEA](https://www.jetbrains.com/idea/). If not — click those few links and find out more before continuing.
+Being here, I guess you already have an idea what a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) [backend](https://en.wikipedia.org/wiki/Front_and_back_ends) is and at least have heard of [Kotlin](https://kotlinlang.org) and [Spring [Boot]](http://projects.spring.io/spring-boot/). Beside that you will also need to know what is [Gradle](http://gradle.org) and download [IntelliJ IDEA](https://www.jetbrains.com/idea/). If not — click those few links and find out more before continuing.
 
 At the end of this tutorial you will have a running RESTful backend packed inside a Jar together with an embedded Tomcat web server.
 
@@ -350,7 +350,7 @@ After this point we are able to test our backend in a browser. After starting th
 
 As you can see, we don’t have to worry about the format of the output. Spring is clever enough to figure out that we are returning an object (or a list of objects) from our method and serialise that to JSON.
 
-I guess you already figured it out that our application doesn’t allow duplicate books in our database. So we will need to find a way to inform the user when he tries to do that. According to the RESTfull specifications, when that happens, we will need to return the **HTTP 409 — Conflict** status back to the user. Luckily for us, Spring has a simple way of doing that.
+I guess you already figured it out that our application doesn’t allow duplicate books in our database. So we will need to find a way to inform the user when he tries to do that. According to the RESTfull specifications, when that happens, we will need to return the **HTTP 409 — Conflict** status back to the user. Luckily for us, Spring has a simple way of doing that.
 
 First we will need to define an exception with a special Spring annotation, that defines the HTTP error code and later in our **addBook** method, we will just have to throw that exception in case the user tries to insert a duplicate item.
 

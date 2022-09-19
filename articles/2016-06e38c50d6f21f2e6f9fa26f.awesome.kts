@@ -10,11 +10,11 @@ val body = """
 
 In this article I thought I should cover some of the libraries (that I use regularly), like Retrofit and Realm in the context of Kotlin and Rx.
 
-If you’re new to Retrofit... Then I suggest you visit this [article](https://medium.com/@ahmedrizwan/rxandroid-and-retrofit-2-0-66dc52725fff#.51syz2rr5) — and things will (hopefully) be crystal clear! And if you’re new to Rx & Kotlin — go [here](https://medium.com/@ahmedrizwan/rxandroid-and-kotlin-part-1-f0382dc26ed8#.i0smhvwlm)!
+If you’re new to Retrofit... Then I suggest you visit this [article](https://medium.com/@ahmedrizwan/rxandroid-and-retrofit-2-0-66dc52725fff#.51syz2rr5) — and things will (hopefully) be crystal clear! And if you’re new to Rx & Kotlin — go [here](https://medium.com/@ahmedrizwan/rxandroid-and-kotlin-part-1-f0382dc26ed8#.i0smhvwlm)!
 
 #### So let’s begin : Kotlin + Rx + Retrofit + Realm
 
-If you’re anything like me, then you absolutely hate writing unnecessary code. *cough Java 6 cough*. And in my Android development experience, I’ve come across many situations where I was like — “But... Why?!”
+If you’re anything like me, then you absolutely hate writing unnecessary code. *cough Java 6 cough*. And in my Android development experience, I’ve come across many situations where I was like — “But... Why?!”
 
 In the context of Languages, I think Kotlin is definitely a life-saver. And libraries like Retrofit, Realm and RxAndroid also significantly reduce the amount of unnecessary code.
 
@@ -40,15 +40,15 @@ This is what I’d be making... An extremely simple example... Which should hope
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*CLjgK7p_Cdro4oh0gu4_Qg.png)
 
-_Nothing fancy — Just plain old me and my github info!_
+_Nothing fancy — Just plain old me and my github info!_
 
 Let me walk you through on how I would go about creating this app...
 
 #### Creating the Project and Enabling Kotlin
 
-The first thing we do is enable Kotlin in the project — Just make sure the Kotlin Plugin is installed in your Android Studio.
+The first thing we do is enable Kotlin in the project — Just make sure the Kotlin Plugin is installed in your Android Studio.
 
-I created an Empty project with a single MainActivity — Went straight into the build.gradle file and... Triggered the action...
+I created an Empty project with a single MainActivity — Went straight into the build.gradle file and... Triggered the action...
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*pI9K9b0ww9jAduIrjZ10eg.png)
 
@@ -60,13 +60,13 @@ _Select the modules and click OK_
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*w-WHqk_EDQm8uu09fTyTXg.png)
 
-_After clicking OK — this gets added to the build file — *Sync Changes*_
+_After clicking OK — this gets added to the build file — *Sync Changes*_
 
 Cool! Now we can write code in Kotlin!
 
 ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*gUTF_1dfhJLGJbQZxiJ-nA.png)
 
-_MainActivity.java at the moment — Pretty standard stuff_
+_MainActivity.java at the moment — Pretty standard stuff_
 
 We can (magically) convert the existing java code to Kotlin... By doing the following...
 
@@ -80,7 +80,7 @@ Now the MainActivity becomes...
 
 _Holy mother of Kotlin!_
 
-#### Adding Rx — Retrofit — Realm Dependencies
+#### Adding Rx — Retrofit — Realm Dependencies
 
 Time to add some dependencies!
 
@@ -152,7 +152,7 @@ _\*\_\*_
 
 Ok, lots of things to cover here... Starting off from the _RealmClass_ annotation... For Realm, this annotation is necessary for Realm’s code generation in Kotlin... _PrimaryKey_ annotation is also a Realm annotation, representing the Primary Key field (duh!)... Rest of the annotations are for Gson...
 
-Now the **open** keyword! In kotlin it’s the opposite of **final** in Java. By default, Kotlin classes are final — that means if you want a class to be inherrited — we explicitly have to declare it as **open**. Same is the case with properties. Like in our model, _name_ is a property, with an actual getter and a setter (thanks to Kotlin). And in order for the getter/setter to be overridable (which Realm requires them to be), we put the keyword **open** along with the declaration of the property. Which makes sense (to me at least).
+Now the **open** keyword! In kotlin it’s the opposite of **final** in Java. By default, Kotlin classes are final — that means if you want a class to be inherrited — we explicitly have to declare it as **open**. Same is the case with properties. Like in our model, _name_ is a property, with an actual getter and a setter (thanks to Kotlin). And in order for the getter/setter to be overridable (which Realm requires them to be), we put the keyword **open** along with the declaration of the property. Which makes sense (to me at least).
 
 #### Retrofit Interface
 

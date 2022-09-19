@@ -90,7 +90,7 @@ _Ten consecutive incremental builds with one core file changed_
 
 You can see that the Gradle daemon still takes two or three runs to warm up, but after that the performance of both languages is very similar. With no changes, Java takes 4.6 seconds per warm build, while Kotlin averages 4.5 seconds. When we change a file that isn’t used by any other files, Java requires an average of 7.0 seconds to do a warm build, and Kotlin clocks in at 6.1. And finally, when we change a file that is imported by many other files in the project, Java requires 7.1 seconds to do an incremental build once the Gradle daemon is warmed up, while Kotlin averages 6.0 seconds.
 
-> In the most common configuration — partial builds with incremental compilation enabled — Kotlin compiles as fast or slightly faster than Java.
+> In the most common configuration — partial builds with incremental compilation enabled — Kotlin compiles as fast or slightly faster than Java.
 
 ### Conclusion
 

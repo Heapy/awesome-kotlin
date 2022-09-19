@@ -235,7 +235,7 @@ $ ls -lha hello
 """
 
 Article(
-  title = "Creating a self-contained Kotlin program using Avian",
+  title = "Creating a self-contained Kotlin program using Avian",
   url = "https://hackernoon.com/creating-a-self-contained-kotlin-app-using-avian-ca7f2987fdd5",
   categories = listOf(
     "Kotlin"

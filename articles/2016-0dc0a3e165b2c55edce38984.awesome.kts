@@ -14,9 +14,9 @@ val body = """
 * [Part 1:](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-1-e0f51fc1a8b3) [Configuring Android Studio with Kotlin](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-1-e0f51fc1a8b3)
 * [Part 2: MainActivity.kt: Syntax, Null Safety and more...](https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-part-2-e53317ffcbe9)
 * [Part 3: NewsFragment.kt: Extension Functions, Android Extensions...](https://medium.com/@juanchosaravia/keddit-part-3-extension-functions-android-extensions-and-more-faa7d232f232)
-* [Part 4: RecyclerView — Delegate Adapters & Data Classes with Kotlin](https://medium.com/@juanchosaravia/keddit-part-4-recyclerview-delegate-adapters-data-classes-with-kotlin-9248f44327f7)
+* [Part 4: RecyclerView — Delegate Adapters & Data Classes with Kotlin](https://medium.com/@juanchosaravia/keddit-part-4-recyclerview-delegate-adapters-data-classes-with-kotlin-9248f44327f7)
 * [Part 5: Kotlin, RxJava & RxAndroid](https://medium.com/@juanchosaravia/keddit-part-5-kotlin-rxjava-rxandroid-105f95bfcd22)
-* [Part 6: API — Retrofit & Kotlin](https://medium.com/@juanchosaravia/keddit-part-6-api-retrofit-kotlin-d309074af0)
+* [Part 6: API — Retrofit & Kotlin](https://medium.com/@juanchosaravia/keddit-part-6-api-retrofit-kotlin-d309074af0)
 * [Part 7: Infinite Scroll: Higher-Order functions & Lambdas](https://medium.com/@juanchosaravia/keddit-part-7-infinite-scroll-higher-order-functions-lambdas-3a11fbd5090e)
 * Part 8: Orientation Change (Parcelables & Data Classes)
 * Part 9: Unit & Integration Tests
@@ -171,7 +171,7 @@ See you in the next story!
 """
 
 Article(
-  title = "Keddit — Part 7: Infinite Scroll: Higher-Order functions & Lambdas",
+  title = "Keddit — Part 7: Infinite Scroll: Higher-Order functions & Lambdas",
   url = "https://medium.com/@juanchosaravia/keddit-part-7-infinite-scroll-higher-order-functions-lambdas-3a11fbd5090e#.cdsuea4kc",
   categories = listOf(
     "Android",
