@@ -1542,8 +1542,8 @@ category("Libraries/Frameworks") {
   }
   subcategory("Raspberry Pi") {
     link {
-      github = "mhashim6/Pi4K"
-      desc = "Pi4J Kotlin bindings."
+      github = "Pi4J/pi4j-kotlin"
+      desc = "Pi4J Kotlin DSL and API."
       setTags("raspberry-pi", "raspberrypi", "gpio", "dsl", "pi4j")
     }
   }
