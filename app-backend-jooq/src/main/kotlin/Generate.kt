@@ -2,11 +2,26 @@ import org.flywaydb.core.Flyway
 import org.jooq.codegen.GenerationTool
 import org.jooq.meta.jaxb.*
 import org.jooq.meta.jaxb.Target
+import org.postgresql.ds.PGSimpleDataSource
 import java.util.*
 
 fun main() {
+    drop()
     flyway()
     jooq()
+}
+
+fun drop() {
+    PGSimpleDataSource().apply {
+        setURL("jdbc:postgresql://localhost:9567/awesome_kotlin")
+        user = "awesome_kotlin"
+        password = "awesome_kotlin"
+    }.connection.use { connection ->
+        connection.createStatement().use { statement ->
+            statement.execute("DROP SCHEMA public CASCADE;")
+            statement.execute("CREATE SCHEMA public;")
+        }
+    }
 }
 
 fun flyway() {

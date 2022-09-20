@@ -2,7 +2,7 @@
 version: "2.4"
 services:
   awesome_kotlin_database:
-    image: postgres:14.2
+    image: postgres:14.5
     container_name: awesome_kotlin_database
     restart: always
     mem_limit: 128m

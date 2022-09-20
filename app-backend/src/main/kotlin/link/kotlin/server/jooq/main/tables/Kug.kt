@@ -73,17 +73,17 @@ open class Kug(
     /**
      * The column <code>public.kug.name</code>.
      */
-    val NAME: TableField<KugRecord, String?> = createField(DSL.name("name"), SQLDataType.VARCHAR(100).nullable(false), this, "")
+    val NAME: TableField<KugRecord, String?> = createField(DSL.name("name"), SQLDataType.VARCHAR(500).nullable(false), this, "")
 
     /**
      * The column <code>public.kug.country</code>.
      */
-    val COUNTRY: TableField<KugRecord, String?> = createField(DSL.name("country"), SQLDataType.VARCHAR(100).nullable(false), this, "")
+    val COUNTRY: TableField<KugRecord, String?> = createField(DSL.name("country"), SQLDataType.VARCHAR(500).nullable(false), this, "")
 
     /**
      * The column <code>public.kug.url</code>.
      */
-    val URL: TableField<KugRecord, String?> = createField(DSL.name("url"), SQLDataType.VARCHAR(100).nullable(false), this, "")
+    val URL: TableField<KugRecord, String?> = createField(DSL.name("url"), SQLDataType.VARCHAR(500).nullable(false), this, "")
 
     /**
      * The column <code>public.kug.latitude</code>.
