@@ -337,6 +337,12 @@ category("Projects") {
       desc = "Kotlin Unit Testing Examples."
       setTags("unit-test", "junit4", "junit5", "kotlintest", "spek", "mockito", "mockk", "strikt")
     }
+    link {
+      github="itmaginationdemos/KMM-Sample-App"
+      desc="A sample app written with the help of KMM (Kotlin Multiplatform). File System access, voice recording, and persistence."
+      setTags("example", "kmm", "compose")
+      setPlatforms(ANDROID, IOS)
+    }
   }
   subcategory("Idea Plugins") {
     link {
