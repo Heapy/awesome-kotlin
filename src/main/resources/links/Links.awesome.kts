@@ -249,6 +249,11 @@ category("Links") {
       href = "https://youtu.be/F9UC9DY-vIU"
       desc = "Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development."
     }
+    link {
+      name = "CS194A Android Development"
+      href = "https://www.youtube.com/playlist?list=PL7NYbSE8uaBDcLkbXsQADdvBnVbavonGn"
+      desc = "Learn basic, foundational techniques for developing Android mobile applications and apply those toward building a single or multi page, networked Android application"
+    }
   }
   subcategory("Books") {
     link {
