@@ -470,5 +470,11 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("cryptocurrency", "kotlin", "android", "app")
     }
+    link {
+      github = "MohsinAli0899/Book Summary App"
+      desc = "BookHub is an Android application that helps users to view books and add them to favorites."
+      setPlatforms(ANDROID)
+      setTags("booksummary", "kotlin", "android", "app")
+    }
   }
 }
