@@ -12,6 +12,8 @@ Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: *
 
 :octocat: [Awesome Kotlin - README.md](https://github.com/KotlinBy/awesome-kotlin/blob/readme/README.md) - README with links
 
+🔎 [Explore Kotlin](https://kandi.openweaver.com/explore/kotlin) - Discover & find a curated list of popular & new libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
+
 ## Spread Awesome Kotlin!
 
 Here is the awesome badge for your project:
