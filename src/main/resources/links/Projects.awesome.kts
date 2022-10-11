@@ -476,5 +476,11 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("booksummary", "kotlin", "android", "app")
     }
+    link {
+      github = "zt64/Hyperion"
+      desc = "An alternative YouTube front-end using modern Android architecture and Material 3"
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "mvvm", "koin", "material3")
+    }
   }
 }
