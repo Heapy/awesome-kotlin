@@ -254,6 +254,11 @@ category("Links") {
       href = "https://www.youtube.com/playlist?list=PL7NYbSE8uaBDcLkbXsQADdvBnVbavonGn"
       desc = "Learn basic, foundational techniques for developing Android mobile applications and apply those toward building a single or multi page, networked Android application"
     }
+    link {
+      name = "Server-side with Kotlin Series"
+      href = "https://www.youtube.com/playlist?list=PLlFc5cFwUnmx-dpq9nkdaVJX0GnrM1Mp1"
+      desc = "Learn how to use Kotlin for a variety of purposes such as Functional Programming, Image Detection, Building Microservices, Developing Backend, etc."
+    }
   }
   subcategory("Books") {
     link {
