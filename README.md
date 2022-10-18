@@ -212,6 +212,7 @@ Here is the awesome badge for your project:
 * [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) - From Java to Kotlin Cheat Sheet
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin
+* [Explore Kotlin](https://kandi.openweaver.com/explore/kotlin) - Discover & find a curated list of popular & new libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
 
 ### <a name="links-blogs"></a>Blogs <sup>[Back ⇈](#links-blogs-subcategory)</sup>
 * [Antonio Leiva - Android and any other monsters](https://antonioleiva.com/) 
