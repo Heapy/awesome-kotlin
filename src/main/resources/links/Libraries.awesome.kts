@@ -1142,6 +1142,11 @@ category("Libraries/Frameworks") {
       desc = "Ockero: Kotlin OpenGl Game Engine"
       setPlatforms(JVM)
     }
+    link {
+      github = "littlektframework/littlekt"
+      desc = "A Kotlin multiplatform 2D game development framework based on OpenGL that is inspired by libGDX and KorGE. Current platforms: JVM, Web, and Android."
+      setTags("multiplatform", "desktop", "webgl", "android", "games", "game-dev")
+    }
   }
   subcategory("Misc") {
     link {
