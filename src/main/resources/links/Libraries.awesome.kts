@@ -1078,33 +1078,33 @@ category("Libraries/Frameworks") {
     link {
       github = "jneen/rouge"
       desc = "A pure-ruby code highlighter that is compatible with pygments. (wip)"
-      setTags("syntax", "higlight")
+      setTags("syntax", "highlight")
     }
     link {
       github = "isagalaev/highlight.js"
       desc = "Javascript syntax highlighter. (out-of-date)"
-      setTags("syntax", "higlight")
+      setTags("syntax", "highlight")
     }
     link {
       github = "github/linguist"
       desc = "For Ruby/Github, uses Sublime package"
-      setTags("syntax", "higlight")
+      setTags("syntax", "highlight")
     }
     link {
       bitbucket = "birkenfeld/pygments-main"
       desc = "Python syntax highlighter."
-      setTags("syntax", "higlight")
+      setTags("syntax", "highlight")
     }
     link {
       github = "cansik/kotlin-latex-listing"
       desc = "A syntax highlighting template for the Kotlin language in LaTeX listings."
-      setTags("syntax", "higlight")
+      setTags("syntax", "highlight")
     }
   }
   subcategory("Game Development") {
     link {
       github = "zeganstyl/thelema-engine"
-      desc = "3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Koltin/JS, Kotlin/Native. See live demo: [TeaVM](https://zeganstyl.github.io/thelema-teavm-tests/), [Kotlin/JS](https://zeganstyl.github.io/thelema-kxjs-demo/)"
+      desc = "3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Kotlin/JS, Kotlin/Native. See live demo: [TeaVM](https://zeganstyl.github.io/thelema-teavm-tests/), [Kotlin/JS](https://zeganstyl.github.io/thelema-kxjs-demo/)"
       setTags("thelema-engine", "game dev", "games", "desktop", "webgl")
     }
     link {
@@ -1884,7 +1884,7 @@ category("Libraries/Frameworks") {
     }
     link {
       github = "Kotlin/multik"
-      desc = "A Kotlin library for working with multi-demensional arrays"
+      desc = "A Kotlin library for working with multi-dimensional arrays"
       setTags("multidimensional array")
       setPlatforms(JVM)
     }
@@ -2051,7 +2051,7 @@ category("Libraries/Frameworks") {
   subcategory("Jetpack-Compose"){
     link{
       github = "CuriousNikhil/neumorphic-compose"
-      desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifer = Modifier.neumorphic()"
+      desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifier = Modifier.neumorphic()"
       setTags("jetpack-compose", "compose", "kotlin", "ui")
       setPlatforms(ANDROID)
     }
