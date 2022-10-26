@@ -379,7 +379,7 @@ category("Android") {
   subcategory("Frameworks") {
     link {
       github = "nekocode/kotgo"
-      desc = "An android development framwork on kotlin using MVP architecture."
+      desc = "An android development framework on kotlin using MVP architecture."
     }
     link {
       github = "lightningkite/kotlin-core"
@@ -533,7 +533,7 @@ category("Android") {
     }
     link {
       github = "massivedisaster/AFM"
-      desc = "An library to help android developers working easly with activities and fragments with Kotlin"
+      desc = "A library to help android developers work easily with activities and fragments with Kotlin"
       setTags("utils", "library", "material", "ui", "fragment", "activity", "sharedelements")
     }
     link {
