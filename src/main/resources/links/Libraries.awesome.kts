@@ -1512,6 +1512,12 @@ category("Libraries/Frameworks") {
       setTags("object-mapping", "utility", "conversion", "spring")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "touchlab/KMMBridge"
+      desc = "KMMBridge is a set of Gradle tooling that facilitates publishing and consuming pre-built KMM (Kotlin Multiplatform Mobile) Xcode Framework binaries."
+      setTags("gradle", "multiplatform", "tooling")
+      setPlatforms(NATIVE, IOS, ANDROID)
+    }
   }
   subcategory("Parsers") {
     link {
