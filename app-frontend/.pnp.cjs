@@ -1726,7 +1726,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.2.7"],
             ["@types/webpack", null],
             ["icss-utils", "virtual:4ae8b71c65ad6a0439b4c994d8cf0b81c7c7620eb386ee4811ba01d193facf9268d20ff83270bddbe54be9822a0f157a629195f6abab9cf293ada197eaf6ec29#npm:5.1.0"],
-            ["loader-utils", "npm:2.0.0"],
+            ["loader-utils", "npm:2.0.3"],
             ["postcss", "npm:8.3.11"],
             ["postcss-modules-extract-imports", "virtual:4ae8b71c65ad6a0439b4c994d8cf0b81c7c7620eb386ee4811ba01d193facf9268d20ff83270bddbe54be9822a0f157a629195f6abab9cf293ada197eaf6ec29#npm:3.0.0"],
             ["postcss-modules-local-by-default", "virtual:4ae8b71c65ad6a0439b4c994d8cf0b81c7c7620eb386ee4811ba01d193facf9268d20ff83270bddbe54be9822a0f157a629195f6abab9cf293ada197eaf6ec29#npm:4.0.0"],
@@ -3896,10 +3896,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["loader-utils", [
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/loader-utils-npm-2.0.0-cf7d5aadbf-6856423131.zip/node_modules/loader-utils/",
+        ["npm:2.0.3", {
+          "packageLocation": "./.yarn/cache/loader-utils-npm-2.0.3-4d761d6a51-d055c61ce5.zip/node_modules/loader-utils/",
           "packageDependencies": [
-            ["loader-utils", "npm:2.0.0"],
+            ["loader-utils", "npm:2.0.3"],
             ["big.js", "npm:5.2.2"],
             ["emojis-list", "npm:3.0.0"],
             ["json5", "npm:2.2.0"]
@@ -6322,7 +6322,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["style-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:2.0.0"],
             ["@types/webpack", null],
-            ["loader-utils", "npm:2.0.0"],
+            ["loader-utils", "npm:2.0.3"],
             ["schema-utils", "npm:3.1.1"],
             ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.59.1"]
           ],
