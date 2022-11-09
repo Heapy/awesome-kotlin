@@ -2341,11 +2341,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eventsource", [
-        ["npm:1.1.0", {
-          "packageLocation": "./.yarn/cache/eventsource-npm-1.1.0-6a04120a6b-78338b7e75.zip/node_modules/eventsource/",
+        ["npm:1.1.2", {
+          "packageLocation": "./.yarn/cache/eventsource-npm-1.1.2-7fcd82f3f4-fe8f2ac3c7.zip/node_modules/eventsource/",
           "packageDependencies": [
-            ["eventsource", "npm:1.1.0"],
-            ["original", "npm:1.0.2"]
+            ["eventsource", "npm:1.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -4680,16 +4679,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["original", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/original-npm-1.0.2-2250635ba0-8dca9311da.zip/node_modules/original/",
-          "packageDependencies": [
-            ["original", "npm:1.0.2"],
-            ["url-parse", "npm:1.5.3"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["p-finally", [
         ["npm:1.0.0", {
           "packageLocation": "./.yarn/cache/p-finally-npm-1.0.0-35fbaa57c6-93a654c53d.zip/node_modules/p-finally/",
@@ -6056,7 +6045,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["sockjs-client", "npm:1.5.2"],
             ["debug", "virtual:f40e59172633be4c7855771c0607bb2d974d35ba9281f460e4514315aa447dbb3983c198be66321e29356b1b67dc72482299d717b77ab0c48c189f6bf13b1f21#npm:3.2.7"],
-            ["eventsource", "npm:1.1.0"],
+            ["eventsource", "npm:1.1.2"],
             ["faye-websocket", "npm:0.11.4"],
             ["inherits", "npm:2.0.4"],
             ["json3", "npm:3.3.3"],
