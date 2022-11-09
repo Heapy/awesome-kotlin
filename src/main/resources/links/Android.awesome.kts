@@ -375,6 +375,13 @@ category("Android") {
       setTags("android", "kotlin", "ui", "toggle", "switch", "heart", "ui-components", "heart-shaped-curve", "toggle-switch", "jetpack-compose", "heart-shape")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "itmaginationdemos/OTPComposable"
+      name = "OTPComposable"
+      desc = "A library dedicated to making OTP (One Time Password) components a breeze to implement"
+      setTags("android", "kotlin", "ui", "jetpack-compose")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
