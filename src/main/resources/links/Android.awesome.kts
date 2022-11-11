@@ -653,6 +653,11 @@ category("Android") {
       desc = "Free and open source effective link management app with no ads."
       setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines")
     }
+    link {
+      github = "AnkitSuda/Rebound"
+      desc = "Feature Rich & Highly Customizable Workout Log App."
+      setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines", "flow", "jetpack-compose", "room", "workout", "multi-module")
+    }
   }
   subcategory("Extensions") {
     link {
