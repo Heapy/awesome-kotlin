@@ -6117,7 +6117,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["faye-websocket", "npm:0.11.4"],
             ["inherits", "npm:2.0.4"],
             ["json3", "npm:3.3.3"],
-            ["url-parse", "npm:1.5.3"]
+            ["url-parse", "npm:1.5.10"]
           ],
           "linkType": "HARD",
         }]
@@ -6715,10 +6715,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["url-parse", [
-        ["npm:1.5.3", {
-          "packageLocation": "./.yarn/cache/url-parse-npm-1.5.3-225ab9cae7-c6b32fff83.zip/node_modules/url-parse/",
+        ["npm:1.5.10", {
+          "packageLocation": "./.yarn/cache/url-parse-npm-1.5.10-64fa2bcd6d-fbdba6b1d8.zip/node_modules/url-parse/",
           "packageDependencies": [
-            ["url-parse", "npm:1.5.3"],
+            ["url-parse", "npm:1.5.10"],
             ["querystringify", "npm:2.2.0"],
             ["requires-port", "npm:1.0.0"]
           ],
