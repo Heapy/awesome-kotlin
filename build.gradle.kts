@@ -1,7 +1,6 @@
-@Suppress("DSL_SCOPE_VIOLATION") // https://youtrack.jetbrains.com/issue/KTIJ-19369
 plugins {
     application
-    alias(libs.plugins.kt.jvm)
+    kotlin("jvm").version("1.7.21")
 }
 
 application {
@@ -10,7 +9,6 @@ application {
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://repo.kotlin.link") }
 }
 
 tasks.test {
@@ -24,31 +22,30 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 }
 
 dependencies {
-    implementation(libs.kotlin.stdlib)
-    implementation(libs.kotlin.reflect)
-    implementation(libs.kotlin.coroutines)
+    implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("reflect"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4")
 
-    implementation(libs.jackson.module.kotlin)
-    implementation(libs.jackson.datatype.jsr310)
-    implementation(libs.jackson.dataformat.xml)
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.0")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.0")
 
-    implementation(libs.slf4j.api)
-    implementation(libs.logback)
+    implementation("ch.qos.logback:logback-classic:1.4.4")
 
-    implementation(libs.rome)
-    implementation(libs.sitemapgen4j)
-    implementation(libs.jsoup)
+    implementation("com.rometools:rome:1.18.0")
+    implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
+    implementation("org.jsoup:jsoup:1.15.3")
 
-    implementation(libs.kotlin.scripting.common)
-    implementation(libs.kotlin.scripting.jvm)
-    implementation(libs.kotlin.scripting.jvm.host)
+    implementation(kotlin("scripting-common"))
+    implementation(kotlin("scripting-jvm"))
+    implementation(kotlin("scripting-jvm-host"))
 
-    implementation(libs.commonmark)
-    implementation(libs.commonmark.ext.gfm.tables)
+    implementation("org.commonmark:commonmark:0.20.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.20.0")
 
-    implementation(libs.ktor.client.apache)
-    implementation(libs.ktor.client.jackson)
+    implementation("io.ktor:ktor-client-apache:1.6.3")
+    implementation("io.ktor:ktor-client-jackson:1.6.3")
 
-    testImplementation(libs.mockk)
-    testImplementation(libs.junit)
+    testImplementation("io.mockk:mockk:1.13.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
 }

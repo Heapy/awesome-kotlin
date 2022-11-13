@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm")
+    kotlin("jvm").version("1.7.21")
 }
 
 repositories {
@@ -7,9 +7,8 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.jooq.codegen)
-    implementation(libs.flyway)
-    implementation(libs.postgresql)
-    implementation(libs.slf4j.api)
-    implementation(libs.slf4j.simple)
+    implementation("org.jooq:jooq-codegen:3.17.5")
+    implementation("org.flywaydb:flyway-core:9.7.0")
+    implementation("org.postgresql:postgresql:42.5.0")
+    implementation("ch.qos.logback:logback-classic:1.4.4")
 }
