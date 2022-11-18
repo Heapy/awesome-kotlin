@@ -275,6 +275,11 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Ninja-Squad/springmockk"
+      desc = "SpringMockK: MockBean and SpyBean, but for MockK instead of Mockito"
+      setTags("spring", "mock")
+    }
+    link {
       github = "mvysny/DynaTest"
       desc = "Write your tests in DSL way. Runs on JUnit5 Platform."
       setTags("test", "assert", "dsl")
