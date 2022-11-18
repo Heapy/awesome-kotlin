@@ -74,12 +74,7 @@ Build started with following configuration:
     },
     plugins: createListOfPlugins({NODE_ENV}, APP_DIR),
     devServer: {
-      stats: {
-        chunkModules: false,
-        colors: true
-      },
-      historyApiFallback: true,
-      inline: false
+      historyApiFallback: true
     }
   }
 };

@@ -4,33 +4,32 @@
   "description": "Awesome list for Kotlin",
   "main": "app/src/main.tsx",
   "dependencies": {
-    "copy-to-clipboard": "^3.3.1",
-    "core-js": "^3.14.0",
+    "copy-to-clipboard": "^3.3.3",
+    "core-js": "^3.26.1",
     "normalize.css": "^8.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router": "^6.0.2",
-    "react-router-dom": "^6.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
-    "@types/history": "^4.7.9",
-    "@types/node": "^15.14.9",
-    "@types/react": "^17.0.35",
-    "@types/react-dom": "^17.0.11",
-    "autoprefixer": "^10.2.6",
-    "copy-webpack-plugin": "^9.0.0",
-    "css-loader": "^5.2.6",
-    "html-webpack-plugin": "^5.3.1",
-    "less": "^4.1.1",
-    "less-loader": "^9.0.0",
-    "postcss": "^8.3.0",
-    "postcss-loader": "^5.3.0",
-    "style-loader": "^2.0.0",
-    "ts-loader": "^9.2.2",
-    "typescript": "^4.3.2",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "autoprefixer": "^10.4.13",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
     "prestart": "yarn install",
@@ -51,5 +50,5 @@
     "url": "https://github.com/KotlinBy/awesome-kotlin/issues"
   },
   "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme",
-  "packageManager": "yarn@3.1.0-rc.13"
+  "packageManager": "yarn@3.3.0"
 }

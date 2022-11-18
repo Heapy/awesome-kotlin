@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: 18.x
       - run: yarn install --check-cache
         working-directory: app-frontend
   build:
-    name: "Build on JDK 11 and Node.JS 14.x"
+    name: "Build on JDK 11 and Node.JS 18.x"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -45,7 +45,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: 18.x
       - run: yarn install
         working-directory: app-frontend
       - run: yarn run build
