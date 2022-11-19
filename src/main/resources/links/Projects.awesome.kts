@@ -81,6 +81,11 @@ category("Projects") {
       desc = "Basic URL shortener built with Kotlin, Redis and Javalin"
       setTags("javalin", "url-shortener", "redis", "web", "gradle", "kotlin")
     }
+    link {
+      github = "Ahoo-Wang/CoSky"
+      desc = "High-performance, low-cost microservice governance platform. Service Discovery and Configuration Service"
+      setTags("microservice", "service-discovery", "configuration-service", "service-registry", "redis", "kotlin")
+    }
   }
   subcategory("Build tools") {
     link {
