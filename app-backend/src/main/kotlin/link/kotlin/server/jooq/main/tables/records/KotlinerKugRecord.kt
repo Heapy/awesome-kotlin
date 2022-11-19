@@ -20,15 +20,15 @@ import org.jooq.impl.TableRecordImpl
 @Suppress("UNCHECKED_CAST")
 open class KotlinerKugRecord() : TableRecordImpl<KotlinerKugRecord>(KotlinerKug.KOTLINER_KUG), Record3<Long?, Long?, LocalDate?> {
 
-    var kotlinerId: Long?
+    open var kotlinerId: Long?
         set(value): Unit = set(0, value)
         get(): Long? = get(0) as Long?
 
-    var kugId: Long?
+    open var kugId: Long?
         set(value): Unit = set(1, value)
         get(): Long? = get(1) as Long?
 
-    var joinDate: LocalDate?
+    open var joinDate: LocalDate?
         set(value): Unit = set(2, value)
         get(): LocalDate? = get(2) as LocalDate?
 

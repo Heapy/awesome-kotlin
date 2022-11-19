@@ -19,6 +19,51 @@ data class KotlinerMeta(
 ): Serializable {
 
 
+    override fun equals(other: Any?): Boolean {
+        if (this === other)
+            return true
+        if (other === null)
+            return false
+        if (this::class != other::class)
+            return false
+        val o: KotlinerMeta = other as KotlinerMeta
+        if (this.kotlinerId === null) {
+            if (o.kotlinerId !== null)
+                return false
+        }
+        else if (this.kotlinerId != o.kotlinerId)
+            return false
+        if (this.id === null) {
+            if (o.id !== null)
+                return false
+        }
+        else if (this.id != o.id)
+            return false
+        if (this.metaKey === null) {
+            if (o.metaKey !== null)
+                return false
+        }
+        else if (this.metaKey != o.metaKey)
+            return false
+        if (this.metaValue === null) {
+            if (o.metaValue !== null)
+                return false
+        }
+        else if (this.metaValue != o.metaValue)
+            return false
+        return true
+    }
+
+    override fun hashCode(): Int {
+        val prime = 31
+        var result = 1
+        result = prime * result + (if (this.kotlinerId === null) 0 else this.kotlinerId.hashCode())
+        result = prime * result + (if (this.id === null) 0 else this.id.hashCode())
+        result = prime * result + (if (this.metaKey === null) 0 else this.metaKey.hashCode())
+        result = prime * result + (if (this.metaValue === null) 0 else this.metaValue.hashCode())
+        return result
+    }
+
     override fun toString(): String {
         val sb = StringBuilder("KotlinerMeta (")
 

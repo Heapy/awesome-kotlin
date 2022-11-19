@@ -21,43 +21,43 @@ import org.jooq.impl.UpdatableRecordImpl
 @Suppress("UNCHECKED_CAST")
 open class FlywaySchemaHistoryRecord() : UpdatableRecordImpl<FlywaySchemaHistoryRecord>(FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY), Record10<Int?, String?, String?, String?, String?, Int?, String?, LocalDateTime?, Int?, Boolean?> {
 
-    var installedRank: Int?
+    open var installedRank: Int?
         set(value): Unit = set(0, value)
         get(): Int? = get(0) as Int?
 
-    var version: String?
+    open var version: String?
         set(value): Unit = set(1, value)
         get(): String? = get(1) as String?
 
-    var description: String?
+    open var description: String?
         set(value): Unit = set(2, value)
         get(): String? = get(2) as String?
 
-    var type: String?
+    open var type: String?
         set(value): Unit = set(3, value)
         get(): String? = get(3) as String?
 
-    var script: String?
+    open var script: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    var checksum: Int?
+    open var checksum: Int?
         set(value): Unit = set(5, value)
         get(): Int? = get(5) as Int?
 
-    var installedBy: String?
+    open var installedBy: String?
         set(value): Unit = set(6, value)
         get(): String? = get(6) as String?
 
-    var installedOn: LocalDateTime?
+    open var installedOn: LocalDateTime?
         set(value): Unit = set(7, value)
         get(): LocalDateTime? = get(7) as LocalDateTime?
 
-    var executionTime: Int?
+    open var executionTime: Int?
         set(value): Unit = set(8, value)
         get(): Int? = get(8) as Int?
 
-    var success: Boolean?
+    open var success: Boolean?
         set(value): Unit = set(9, value)
         get(): Boolean? = get(9) as Boolean?
 

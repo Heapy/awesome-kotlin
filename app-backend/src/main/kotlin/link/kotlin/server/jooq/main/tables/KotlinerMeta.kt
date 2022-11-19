@@ -4,6 +4,8 @@
 package link.kotlin.server.jooq.main.tables
 
 
+import java.util.function.Function
+
 import kotlin.collections.List
 
 import link.kotlin.server.jooq.main.Public
@@ -17,8 +19,10 @@ import org.jooq.ForeignKey
 import org.jooq.Identity
 import org.jooq.Name
 import org.jooq.Record
+import org.jooq.Records
 import org.jooq.Row4
 import org.jooq.Schema
+import org.jooq.SelectField
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -118,8 +122,12 @@ open class KotlinerMeta(
 
         return _kotliner;
     }
+
+    val kotliner: Kotliner
+        get(): Kotliner = kotliner()
     override fun `as`(alias: String): KotlinerMeta = KotlinerMeta(DSL.name(alias), this)
     override fun `as`(alias: Name): KotlinerMeta = KotlinerMeta(alias, this)
+    override fun `as`(alias: Table<*>): KotlinerMeta = KotlinerMeta(alias.getQualifiedName(), this)
 
     /**
      * Rename this table
@@ -131,8 +139,24 @@ open class KotlinerMeta(
      */
     override fun rename(name: Name): KotlinerMeta = KotlinerMeta(name, null)
 
+    /**
+     * Rename this table
+     */
+    override fun rename(name: Table<*>): KotlinerMeta = KotlinerMeta(name.getQualifiedName(), null)
+
     // -------------------------------------------------------------------------
     // Row4 type methods
     // -------------------------------------------------------------------------
     override fun fieldsRow(): Row4<Long?, Long?, String?, String?> = super.fieldsRow() as Row4<Long?, Long?, String?, String?>
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     */
+    fun <U> mapping(from: (Long?, Long?, String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Class,
+     * Function)}.
+     */
+    fun <U> mapping(toType: Class<U>, from: (Long?, Long?, String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
 }

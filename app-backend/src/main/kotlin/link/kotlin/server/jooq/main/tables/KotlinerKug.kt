@@ -5,6 +5,7 @@ package link.kotlin.server.jooq.main.tables
 
 
 import java.time.LocalDate
+import java.util.function.Function
 
 import kotlin.collections.List
 
@@ -18,8 +19,10 @@ import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Name
 import org.jooq.Record
+import org.jooq.Records
 import org.jooq.Row3
 import org.jooq.Schema
+import org.jooq.SelectField
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -114,6 +117,9 @@ open class KotlinerKug(
         return _kotliner;
     }
 
+    val kotliner: Kotliner
+        get(): Kotliner = kotliner()
+
     /**
      * Get the implicit join path to the <code>public.kug</code> table.
      */
@@ -123,8 +129,12 @@ open class KotlinerKug(
 
         return _kug;
     }
+
+    val kug: Kug
+        get(): Kug = kug()
     override fun `as`(alias: String): KotlinerKug = KotlinerKug(DSL.name(alias), this)
     override fun `as`(alias: Name): KotlinerKug = KotlinerKug(alias, this)
+    override fun `as`(alias: Table<*>): KotlinerKug = KotlinerKug(alias.getQualifiedName(), this)
 
     /**
      * Rename this table
@@ -136,8 +146,24 @@ open class KotlinerKug(
      */
     override fun rename(name: Name): KotlinerKug = KotlinerKug(name, null)
 
+    /**
+     * Rename this table
+     */
+    override fun rename(name: Table<*>): KotlinerKug = KotlinerKug(name.getQualifiedName(), null)
+
     // -------------------------------------------------------------------------
     // Row3 type methods
     // -------------------------------------------------------------------------
     override fun fieldsRow(): Row3<Long?, Long?, LocalDate?> = super.fieldsRow() as Row3<Long?, Long?, LocalDate?>
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     */
+    fun <U> mapping(from: (Long?, Long?, LocalDate?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Class,
+     * Function)}.
+     */
+    fun <U> mapping(toType: Class<U>, from: (Long?, Long?, LocalDate?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
 }

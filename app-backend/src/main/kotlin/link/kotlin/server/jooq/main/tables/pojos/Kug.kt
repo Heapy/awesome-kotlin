@@ -24,6 +24,79 @@ data class Kug(
 ): Serializable {
 
 
+    override fun equals(other: Any?): Boolean {
+        if (this === other)
+            return true
+        if (other === null)
+            return false
+        if (this::class != other::class)
+            return false
+        val o: Kug = other as Kug
+        if (this.id === null) {
+            if (o.id !== null)
+                return false
+        }
+        else if (this.id != o.id)
+            return false
+        if (this.continent === null) {
+            if (o.continent !== null)
+                return false
+        }
+        else if (this.continent != o.continent)
+            return false
+        if (this.name === null) {
+            if (o.name !== null)
+                return false
+        }
+        else if (this.name != o.name)
+            return false
+        if (this.country === null) {
+            if (o.country !== null)
+                return false
+        }
+        else if (this.country != o.country)
+            return false
+        if (this.url === null) {
+            if (o.url !== null)
+                return false
+        }
+        else if (this.url != o.url)
+            return false
+        if (this.latitude === null) {
+            if (o.latitude !== null)
+                return false
+        }
+        else if (this.latitude != o.latitude)
+            return false
+        if (this.longitude === null) {
+            if (o.longitude !== null)
+                return false
+        }
+        else if (this.longitude != o.longitude)
+            return false
+        if (this.created === null) {
+            if (o.created !== null)
+                return false
+        }
+        else if (this.created != o.created)
+            return false
+        return true
+    }
+
+    override fun hashCode(): Int {
+        val prime = 31
+        var result = 1
+        result = prime * result + (if (this.id === null) 0 else this.id.hashCode())
+        result = prime * result + (if (this.continent === null) 0 else this.continent.hashCode())
+        result = prime * result + (if (this.name === null) 0 else this.name.hashCode())
+        result = prime * result + (if (this.country === null) 0 else this.country.hashCode())
+        result = prime * result + (if (this.url === null) 0 else this.url.hashCode())
+        result = prime * result + (if (this.latitude === null) 0 else this.latitude.hashCode())
+        result = prime * result + (if (this.longitude === null) 0 else this.longitude.hashCode())
+        result = prime * result + (if (this.created === null) 0 else this.created.hashCode())
+        return result
+    }
+
     override fun toString(): String {
         val sb = StringBuilder("Kug (")
 

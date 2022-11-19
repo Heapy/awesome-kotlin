@@ -5,6 +5,7 @@ package link.kotlin.server.jooq.main.tables
 
 
 import java.time.LocalDate
+import java.util.function.Function
 
 import link.kotlin.server.jooq.main.Public
 import link.kotlin.server.jooq.main.keys.KUG_PKEY
@@ -15,8 +16,10 @@ import org.jooq.ForeignKey
 import org.jooq.Identity
 import org.jooq.Name
 import org.jooq.Record
+import org.jooq.Records
 import org.jooq.Row8
 import org.jooq.Schema
+import org.jooq.SelectField
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -124,6 +127,7 @@ open class Kug(
     override fun getPrimaryKey(): UniqueKey<KugRecord> = KUG_PKEY
     override fun `as`(alias: String): Kug = Kug(DSL.name(alias), this)
     override fun `as`(alias: Name): Kug = Kug(alias, this)
+    override fun `as`(alias: Table<*>): Kug = Kug(alias.getQualifiedName(), this)
 
     /**
      * Rename this table
@@ -135,8 +139,24 @@ open class Kug(
      */
     override fun rename(name: Name): Kug = Kug(name, null)
 
+    /**
+     * Rename this table
+     */
+    override fun rename(name: Table<*>): Kug = Kug(name.getQualifiedName(), null)
+
     // -------------------------------------------------------------------------
     // Row8 type methods
     // -------------------------------------------------------------------------
     override fun fieldsRow(): Row8<Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?> = super.fieldsRow() as Row8<Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?>
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     */
+    fun <U> mapping(from: (Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+
+    /**
+     * Convenience mapping calling {@link SelectField#convertFrom(Class,
+     * Function)}.
+     */
+    fun <U> mapping(toType: Class<U>, from: (Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
 }

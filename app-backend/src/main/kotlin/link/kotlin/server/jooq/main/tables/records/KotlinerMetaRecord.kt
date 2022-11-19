@@ -19,19 +19,19 @@ import org.jooq.impl.UpdatableRecordImpl
 @Suppress("UNCHECKED_CAST")
 open class KotlinerMetaRecord() : UpdatableRecordImpl<KotlinerMetaRecord>(KotlinerMeta.KOTLINER_META), Record4<Long?, Long?, String?, String?> {
 
-    var kotlinerId: Long?
+    open var kotlinerId: Long?
         set(value): Unit = set(0, value)
         get(): Long? = get(0) as Long?
 
-    var id: Long?
+    open var id: Long?
         set(value): Unit = set(1, value)
         get(): Long? = get(1) as Long?
 
-    var metaKey: String?
+    open var metaKey: String?
         set(value): Unit = set(2, value)
         get(): String? = get(2) as String?
 
-    var metaValue: String?
+    open var metaValue: String?
         set(value): Unit = set(3, value)
         get(): String? = get(3) as String?
 

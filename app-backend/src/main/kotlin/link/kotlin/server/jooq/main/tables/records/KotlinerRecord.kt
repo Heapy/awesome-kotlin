@@ -19,43 +19,43 @@ import org.jooq.impl.UpdatableRecordImpl
 @Suppress("UNCHECKED_CAST")
 open class KotlinerRecord() : UpdatableRecordImpl<KotlinerRecord>(Kotliner.KOTLINER), Record10<Long?, String?, String?, String?, String?, String?, String?, String?, String?, String?> {
 
-    var id: Long?
+    open var id: Long?
         set(value): Unit = set(0, value)
         get(): Long? = get(0) as Long?
 
-    var avatar: String?
+    open var avatar: String?
         set(value): Unit = set(1, value)
         get(): String? = get(1) as String?
 
-    var description: String?
+    open var description: String?
         set(value): Unit = set(2, value)
         get(): String? = get(2) as String?
 
-    var normalizedEmail: String?
+    open var normalizedEmail: String?
         set(value): Unit = set(3, value)
         get(): String? = get(3) as String?
 
-    var originalEmail: String?
+    open var originalEmail: String?
         set(value): Unit = set(4, value)
         get(): String? = get(4) as String?
 
-    var firstName: String?
+    open var firstName: String?
         set(value): Unit = set(5, value)
         get(): String? = get(5) as String?
 
-    var lastName: String?
+    open var lastName: String?
         set(value): Unit = set(6, value)
         get(): String? = get(6) as String?
 
-    var nickname: String?
+    open var nickname: String?
         set(value): Unit = set(7, value)
         get(): String? = get(7) as String?
 
-    var password: String?
+    open var password: String?
         set(value): Unit = set(8, value)
         get(): String? = get(8) as String?
 
-    var totp: String?
+    open var totp: String?
         set(value): Unit = set(9, value)
         get(): String? = get(9) as String?
 
