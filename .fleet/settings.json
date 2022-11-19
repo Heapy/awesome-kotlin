@@ -1,0 +1,17 @@
+{
+    "toolchains": [
+        {
+            "name": "Gradle",
+        },
+        {
+            "name": "JavaScript",
+            "path": "app-frontend/",
+        }
+    ],
+    "excluded": [
+        "app-frontend/dist"
+    ],
+    "editor.guides": [
+        80
+    ]
+}
