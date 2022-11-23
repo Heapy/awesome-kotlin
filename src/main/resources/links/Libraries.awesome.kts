@@ -1523,6 +1523,11 @@ category("Libraries/Frameworks") {
       setTags("gradle", "multiplatform", "tooling")
       setPlatforms(NATIVE, IOS, ANDROID)
     }
+    link {
+      github = "Ahoo-Wang/CoCache"
+      desc = "Level 2 Distributed Coherence Cache Framework"
+      setTags("cache", "redis", "distributed", "coherence", "spring-boot")
+    }
   }
   subcategory("Parsers") {
     link {
