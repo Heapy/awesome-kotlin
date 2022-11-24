@@ -204,6 +204,11 @@ category("Libraries/Frameworks") {
       setPlatforms(JS)
       setTags("web", "framework", "fullstack")
     }
+    link {
+      github = "Ahoo-Wang/CoSec"
+      desc = "RBAC-based And Policy-based Multi-Tenant Security Framework."
+      setTags("kotlin", "security", "rbac", "policy", "multi-tenant", "jwt", "reactive", "web-flux", "spring-boot", "spring-cloud-gateway")
+    }
   }
   subcategory("Testing") {
     link {
