@@ -213,7 +213,7 @@ category("Libraries/Frameworks") {
       github = "nacular/doodle"
       href = "https://nacular.github.io/doodle/"
       desc = "A pure Kotlin UI framework for the Web (and Desktop)"
-      setTags("web", "javascript", "kotlin-js", "framework")
+      setTags("web", "javascript", "kotlin-js", "framework", "desktop")
       setPlatforms(COMMON, JVM, JS)
     }
   }
@@ -996,13 +996,6 @@ category("Libraries/Frameworks") {
       desc = "Lightweight JavaFX Framework for Kotlin/"
       setTags("javafx", "desktop", "application")
     }
-    link {
-      github = "nacular/doodle"
-      href = "https://nacular.github.io/doodle/"
-      desc = "A pure Kotlin UI framework for the Web (and Desktop)"
-      setTags("web", "javascript", "kotlin-js", "framework")
-      setPlatforms(COMMON, JVM, JS)
-    }
   }
   subcategory("Http Clients") {
     link {
@@ -1546,12 +1539,6 @@ category("Libraries/Frameworks") {
       github = "Ahoo-Wang/CoCache"
       desc = "Level 2 Distributed Coherence Cache Framework"
       setTags("cache", "redis", "distributed", "coherence", "spring-boot")
-    }
-    link {
-      github = "nacular/measured"
-      desc = "Type-safe, intuitive units of measure"
-      setTags("multiplatform", "framework")
-      setPlatforms(COMMON, JVM, JS)
     }
   }
   subcategory("Parsers") {

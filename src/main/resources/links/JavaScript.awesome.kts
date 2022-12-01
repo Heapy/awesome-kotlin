@@ -64,13 +64,6 @@ category("Kotlin JavaScript") {
       github = "fortytwoapps/kstitch"
       desc = "An object oriented toolkit for MongoDB Stitch in KotlinJS."
     }
-    link {
-      github = "nacular/doodle"
-      href = "https://nacular.github.io/doodle/"
-      desc = "A pure Kotlin UI framework for the Web (and Desktop)"
-      setTags("web", "javascript", "kotlin-js", "framework")
-      setPlatforms(COMMON, JVM, JS)
-    }
   }
   subcategory("Frontend") {
     link {
