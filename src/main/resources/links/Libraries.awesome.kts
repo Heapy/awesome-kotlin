@@ -209,6 +209,13 @@ category("Libraries/Frameworks") {
       desc = "RBAC-based And Policy-based Multi-Tenant Security Framework."
       setTags("kotlin", "security", "rbac", "policy", "multi-tenant", "jwt", "reactive", "web-flux", "spring-boot", "spring-cloud-gateway")
     }
+    link {
+      github = "nacular/doodle"
+      href = "https://nacular.github.io/doodle/"
+      desc = "A pure Kotlin UI framework for the Web (and Desktop)"
+      setTags("web", "javascript", "kotlin-js", "framework", "desktop")
+      setPlatforms(COMMON, JVM, JS)
+    }
   }
   subcategory("Testing") {
     link {
@@ -1034,7 +1041,7 @@ category("Libraries/Frameworks") {
       desc = "Integration with mbedtls library to provide DTLS client and server in jvm"
       setPlatforms(JVM)
       setTags("networking", "udp", "dtls", "tls")
-    }   
+    }
   }
   subcategory("Editors") {
     link {
@@ -1605,6 +1612,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "tools", "text", "diff", "myers", "algorithm")
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
+    link {
+      github = "nacular/measured"
+      desc = "Type-safe, intuitive units of measure"
+      setTags("multiplatform", "framework")
+      setPlatforms(COMMON, JVM, JS)
+    }
   }
   subcategory("DSL") {
     link {
@@ -1855,7 +1868,7 @@ category("Libraries/Frameworks") {
       github = "mipt-npm/kmath"
       desc = "A (not so numpy-like) multiplatform mathematical library with higher level abstractions."
       awesome()
-    }    
+    }
     link {
       github = "unipu-ict/ksdtoolkit"
       desc = "Kotlin System Dynamics Toolkit - for system dynamics modelling and simulation with Kotlin."
@@ -2076,7 +2089,7 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "ui")
       setPlatforms(ANDROID)
     }
-    
+
     link{
       github = "CuriousNikhil/compose-particle-system"
       desc = "A lightweight particle system for Jetpack Compose - Quarks"
