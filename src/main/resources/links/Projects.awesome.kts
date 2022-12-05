@@ -330,6 +330,12 @@ category("Projects") {
       setTags("examples", "kotlin-multiplatform", "testing", "stubbing-http", "Ktor", "ktor-client-mock")
     }
     link {
+      github = "TobseF/Candy-Crush-Clone"
+      desc = "A Kotlin Multiplatform match 3 sample game build to teach, made with KorGE."
+      setTags("examples", "kotlin-multiplatform", "KorGE", "game", "native", "tutorial")
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
+    }
+    link {
       github = "mrcsxsiq/Kotlin-Pokedex"
       desc = "A Pokedex demo app built with Kotlin using ViewModel, LiveData, Room and Navigation"
     }
