@@ -855,6 +855,12 @@ category("Libraries/Frameworks") {
       setTags("spring", "spring-data", "requery", "java", "kotlin", "kotlin-coroutines", "orm", "jpa")
       setPlatforms(JVM)
     }
+    link {
+      github = "ctripcorp/SQLlin"
+      desc = "A DSL SQLite library for Kotlin Multiplatform"
+      setTags("multiplatform", "android", "native", "sql", "sqlite", "database", "orm", "dsl", "ksp")
+      setPlatforms(COMMON, ANDROID, IOS, NATIVE)
+    }
   }
   subcategory("Tools") {
     link {
@@ -1617,6 +1623,12 @@ category("Libraries/Frameworks") {
       desc = "Type-safe, intuitive units of measure"
       setTags("multiplatform", "framework")
       setPlatforms(COMMON, JVM, JS)
+    }
+    link {
+      github = "ctripcorp/mmkv-kotlin"
+      desc = "The Kotlin Multiplatform wrapper for MMKV"
+      setTags("multiplatform", "android", "native", "key-value", "store")
+      setPlatforms(COMMON, ANDROID, IOS, NATIVE)
     }
   }
   subcategory("DSL") {
