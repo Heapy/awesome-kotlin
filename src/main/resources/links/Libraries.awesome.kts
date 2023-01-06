@@ -1343,6 +1343,11 @@ category("Libraries/Frameworks") {
       setTags("dimensional-analysis", "typesafety", "metaprogramming")
     }
     link {
+      github = "https://github.com/vsirotin/si-units"
+      desc = "KotUniL: Kotlin function and objects for working with SI units like meter, second, as well as currencies and general units like percent."
+      setTags("si-units", "dimensional-analysis", "typesafety", "physics")
+    }
+    link {
       github = "spoptchev/kotlin-preconditions"
       desc = "Precondition error checking in kotlin."
       setTags("preconditions")
