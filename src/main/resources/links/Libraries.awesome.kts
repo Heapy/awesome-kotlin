@@ -1343,7 +1343,8 @@ category("Libraries/Frameworks") {
       setTags("dimensional-analysis", "typesafety", "metaprogramming")
     }
     link {
-      github = "https://github.com/vsirotin/si-units"
+      github = "vsirotin/si-units"
+      name = "KotUniL"
       desc = "KotUniL: Kotlin function and objects for working with SI units like meter, second, as well as currencies and general units like percent."
       setTags("si-units", "dimensional-analysis", "typesafety", "physics")
     }
