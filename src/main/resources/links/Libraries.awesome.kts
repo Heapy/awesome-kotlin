@@ -2064,6 +2064,16 @@ category("Libraries/Frameworks") {
       desc = "Multiplatform AWS SDK for Kotlin"
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "MoviebaseApp/tmdb-api"
+      desc = "Modern powerful TMDB API to fetch movies and TV shows for Kotlin Multiplatform."
+      setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
+    }
+    link {
+      github = "MoviebaseApp/trakt-api"
+      desc = "Modern powerful Trakt API to track, discover and share your movies & TV shows."
+      setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
+    }
   }
   subcategory("Internationalisation and Localization") {
     link {
