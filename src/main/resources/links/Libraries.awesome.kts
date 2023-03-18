@@ -861,6 +861,11 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "android", "native", "sql", "sqlite", "database", "orm", "dsl", "ksp")
       setPlatforms(COMMON, ANDROID, IOS, NATIVE)
     }
+    link {
+      github = "komapper/komapper"
+      desc = "Komapper is an ORM library for server-side Kotlin with JDBC and R2DBC support."
+      setTags("database", "orm", "query", "sql", "jdbc", "r2dbc")
+    }
   }
   subcategory("Tools") {
     link {
