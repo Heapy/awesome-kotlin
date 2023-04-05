@@ -409,6 +409,11 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin library for auto generating models for tests."
       setTags("test", "model-generation", "fixtures")
     }
+    link {
+      github = "Trendyol/stove4k"
+      desc = "The easiest way of writing e2e tests for your back-end API with all physical dependencies in Kotlin."
+      setTags("test", "e2e-testing", "testing-framework", "docker")
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
