@@ -1562,6 +1562,11 @@ category("Libraries/Frameworks") {
       desc = "Level 2 Distributed Coherence Cache Framework"
       setTags("cache", "redis", "distributed", "coherence", "spring-boot")
     }
+    link {
+      github = "kryptokrona/kryptokrona-kotlin-sdk"
+      desc = "Kryptokrona SDK in Kotlin for building decentralized private communication and payment systems."
+      setTags("blockchain", "cryptocurrency", "cryptography", "sdk", "crypto")
+    }
   }
   subcategory("Parsers") {
     link {
