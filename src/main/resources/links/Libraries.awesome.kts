@@ -1562,6 +1562,13 @@ category("Libraries/Frameworks") {
       desc = "Level 2 Distributed Coherence Cache Framework"
       setTags("cache", "redis", "distributed", "coherence", "spring-boot")
     }
+    link {
+      github = "lpicanco/krate"
+      desc = "Krate is a rate limiter library designed specifically for Kotlin applications. In memory, Redis and Caffeine support."
+      href = "https://lpicanco.github.io/krate"
+      setTags("rate-limit", "token-bucket", "redis")
+      setPlatforms(JVM, ANDROID)
+    }    
   }
   subcategory("Parsers") {
     link {
