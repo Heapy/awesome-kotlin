@@ -1567,6 +1567,13 @@ category("Libraries/Frameworks") {
       desc = "Kryptokrona SDK in Kotlin for building decentralized private communication and payment systems."
       setTags("blockchain", "cryptocurrency", "cryptography", "sdk", "crypto")
     }
+    link {
+      github = "lpicanco/krate"
+      desc = "Krate is a rate limiter library designed specifically for Kotlin applications. In memory, Redis and Caffeine support."
+      href = "https://lpicanco.github.io/krate"
+      setTags("rate-limit", "token-bucket", "redis")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Parsers") {
     link {
