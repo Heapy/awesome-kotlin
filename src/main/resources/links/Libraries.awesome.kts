@@ -1574,6 +1574,11 @@ category("Libraries/Frameworks") {
       setTags("rate-limit", "token-bucket", "redis")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "Ahoo-Wang/Simba"
+      desc = "Distributed lock service"
+      setTags("lock", "mutex", "distributed", "scheduler", "redis", "zookeeper", "jdbc", "spring-boot")
+    }
   }
   subcategory("Parsers") {
     link {
