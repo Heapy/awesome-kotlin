@@ -715,12 +715,17 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS)
       setTags("validation", "dsl")
     }
-
     link {
       github = "LeoColman/SimpleCpfValidator"
       desc = "Simple Brazilian taxpayer document (CPF) validator"
       setPlatforms(JVM)
       setTags("validation", "validator", "cpf", "brazil")
+    }
+    link {
+      github = "kciter/thing"
+      desc = "A rule-based entity management library written in Kotlin"
+      setPlatforms(JVM)
+      setTags("validation", "validator", "spring", "entity")
     }
   }
   subcategory("Database") {
