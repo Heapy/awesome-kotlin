@@ -216,6 +216,11 @@ category("Libraries/Frameworks") {
       setTags("web", "javascript", "kotlin-js", "framework", "desktop")
       setPlatforms(COMMON, JVM, JS)
     }
+    link {
+      github = "Ahoo-Wang/Wow"
+      desc = "A Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing."
+      setTags("kotlin", "ddd", "cqrs", "eventsourcing", "eda", "microservice", "reactive", "mongodb", "r2dbc", "kafka", "test-driven", "opentelemetry", "webflux", "spring-boot")
+    }
   }
   subcategory("Testing") {
     link {
