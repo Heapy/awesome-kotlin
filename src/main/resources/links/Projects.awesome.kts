@@ -233,6 +233,11 @@ category("Projects") {
       desc = "A Multiplatform GUI for Hashing, written in Compose for Desktop."
       setTags("hashing", "compose-for-desktop")
     }
+    link {
+      github = "krud-dev/ostara"
+      desc = "A desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator."
+      setTags("spring", "spring-boot", "spring-actuator")
+    }
   }
   subcategory("Examples") {
     link {
