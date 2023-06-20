@@ -419,6 +419,12 @@ category("Libraries/Frameworks") {
       desc = "The easiest way of writing e2e tests for your back-end API with all physical dependencies in Kotlin."
       setTags("test", "e2e-testing", "testing-framework", "docker")
     }
+    link {
+      github = "Kotlin/kotlinx-benchmark"
+      desc = "A powerful library for benchmarking in Kotlin."
+      setTags("benchmark", "performance", "multiplatform")
+      setPlatforms(JVM, JS, NATIVE)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
