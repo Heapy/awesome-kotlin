@@ -1060,6 +1060,12 @@ category("Libraries/Frameworks") {
       desc = "Kotlin library to handle offline mode easily with OkHttp."
       setTags("http", "http client", "offline", "okhttp")
     }
+    link {
+      github = "corbella83/kotliny.network"
+      desc = "Simple, powerful and lightweight Kotlin Multiplatform Network Client"
+      setTags("http", "http client", "multiplatform")
+      setPlatforms(ANDROID, COMMON, IOS, JVM, NATIVE)
+    }
   }
   subcategory("Networking") {
     link {
