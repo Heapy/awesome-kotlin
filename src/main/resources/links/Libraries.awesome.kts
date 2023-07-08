@@ -1685,6 +1685,18 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "android", "native", "key-value", "store")
       setPlatforms(COMMON, ANDROID, IOS, NATIVE)
     }
+    link {
+      github = "Ashampoo/kim"
+      desc = "Kotlin Multiplatform library for reading and writing image metadata"
+      setTags("multiplatform", "metadata", "native", "jpg", "png", "tiff")
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
+    }
+    link {
+      github = "Ashampoo/xmpcore"
+      desc = "Kotlin Multiplatform port of Adobe's XMP SDK"
+      setTags("multiplatform", "metadata", "native", "xmp")
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
+    }
   }
   subcategory("DSL") {
     link {
