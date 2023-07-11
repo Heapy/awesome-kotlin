@@ -2197,5 +2197,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "jetpack-android", "android")
       setPlatforms(ANDROID)
     }
+    link{
+      github = "mahozad/wavy-slider"
+      desc = "Multiplatform UI widget that recreates the Android 13 squiggly progress bar"
+      setTags("jetpack-compose", "compose", "kotlin", "compose-desktop", "ui")
+      setPlatforms(JVM, ANDROID, JS)
+    }
   }
 }
