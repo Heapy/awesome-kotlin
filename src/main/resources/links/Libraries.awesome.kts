@@ -1704,6 +1704,11 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin DSL for regular expressions"
       setPlatforms(JVM)
     }
+    link {
+      github = "bipokot/Kabu"
+      desc = "The fastest way to create complex Kotlin DSL"
+      setTags("dsl", "kotlin", "codegenerator")
+    }
   }
   subcategory("Extensions") {
     link {
