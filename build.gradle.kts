@@ -1,6 +1,6 @@
 plugins {
     application
-    kotlin("jvm").version("1.7.21")
+    kotlin("jvm").version("1.9.0")
 }
 
 application {
@@ -15,37 +15,41 @@ tasks.test {
     useJUnitPlatform()
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.3")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.0")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.0")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
 
-    implementation("ch.qos.logback:logback-classic:1.4.4")
+    implementation("ch.qos.logback:logback-classic:1.4.11")
 
-    implementation("com.rometools:rome:1.18.0")
+    implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
-    implementation("org.jsoup:jsoup:1.15.3")
+    implementation("org.jsoup:jsoup:1.16.1")
 
     implementation(kotlin("scripting-common"))
     implementation(kotlin("scripting-jvm"))
     implementation(kotlin("scripting-jvm-host"))
 
-    implementation("org.commonmark:commonmark:0.20.0")
-    implementation("org.commonmark:commonmark-ext-gfm-tables:0.20.0")
+    implementation("org.commonmark:commonmark:0.21.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.21.0")
 
-    implementation("io.ktor:ktor-client-apache:1.6.3")
-    implementation("io.ktor:ktor-client-jackson:1.6.3")
+    implementation("io.ktor:ktor-client-apache:2.3.3")
+    implementation("io.ktor:ktor-client-jackson:2.3.3")
 
-    testImplementation("io.mockk:mockk:1.13.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
+    testImplementation("io.mockk:mockk:1.13.5")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
 }
