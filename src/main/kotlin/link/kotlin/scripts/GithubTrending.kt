@@ -71,7 +71,7 @@ private class JSoupGithubTrending(
         return if (isAvailable) {
             val links = doc.select(".Box-row").map {
                 Link(
-                    github = it.select("h1 a").attr("href").removePrefix("/")
+                    github = it.select("h2 a").attr("href").removePrefix("/")
                 )
             }
 
@@ -83,6 +83,10 @@ private class JSoupGithubTrending(
             null
         }
     }
+}
+
+suspend fun main() {
+    println(JSoupGithubTrending().fetch())
 }
 
 fun GithubTrending.Companion.default(
