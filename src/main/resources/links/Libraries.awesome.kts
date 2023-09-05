@@ -9,6 +9,14 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "ktorio/ktor"
+      href = "https://ktor.io/"
+      desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
+      setPlatforms(JVM, ANDROID, NATIVE, IOS)
+      setTags("web")
+      awesome()
+    }
+    link {
       github = "darkredz/zeko-restapi-framework"
       setTags("web", "http", "rest", "vert.x", "swagger", "openapi", "microframework", "rest-api", "reactive", "mvc")
     }
