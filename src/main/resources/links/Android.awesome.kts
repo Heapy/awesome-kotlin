@@ -378,7 +378,7 @@ category("Android") {
     link {
       github = "popovanton0/Blueprint"
       name = "Blueprint"
-      desc = "A library that draws a blueprint on top of your Jetpack Compose composables. It visualizes dimensions, like paddings and sizes."
+      desc = "📐 A library that draws a blueprint on top of your Jetpack Compose composables. It visualizes dimensions, like paddings and sizes."
       href = "https://github.com/popovanton0/Blueprint"
       setTags("android", "kotlin", "jetpack-compose", "ui", "layout", "ui-components", "debug", "debugging")
       setPlatforms(ANDROID)
