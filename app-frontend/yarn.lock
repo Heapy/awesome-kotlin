@@ -339,10 +339,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.4.9":
-  version: 20.4.9
-  resolution: "@types/node@npm:20.4.9"
-  checksum: 504e3da96274f3865c1251830f4750bb0a8f6ef6f8648902cd3bba33370c5f219235471bfbf55cce726b25c8eacfcc8e2aad0ec3b13e27ea6708b00d4a9a46c8
+"@types/node@npm:^20.6.0":
+  version: 20.6.0
+  resolution: "@types/node@npm:20.6.0"
+  checksum: 52611801af5cf151c6fac1963aa4a8a8ca2e388a9e9ed82b01b70bca762088ded5b32cc789c5564220d5d7dccba2b8dd34446a3d4fc74736805e1f2cf262e29d
   languageName: node
   linkType: hard
 
@@ -387,14 +387,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.20":
-  version: 18.2.20
-  resolution: "@types/react@npm:18.2.20"
+"@types/react@npm:^18.2.21":
+  version: 18.2.21
+  resolution: "@types/react@npm:18.2.21"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 30f699c60e5e4bfef273ce64d320651cdd60f5c6a08361c6c7eca8cebcccda1ac953d2ee57c9f321b5ae87f8a62c72b6d35ca42df0e261d337849952daab2141
+  checksum: ffed203bfe7aad772b8286f7953305c9181ac3a8f27d3f5400fbbc2a8e27ca8e5bbff818ee014f39ca0d19d2b3bb154e5bdbec7e232c6f80b59069375aa78349
   languageName: node
   linkType: hard
 
@@ -878,12 +878,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.14":
-  version: 10.4.14
-  resolution: "autoprefixer@npm:10.4.14"
+"autoprefixer@npm:^10.4.15":
+  version: 10.4.15
+  resolution: "autoprefixer@npm:10.4.15"
   dependencies:
-    browserslist: ^4.21.5
-    caniuse-lite: ^1.0.30001464
+    browserslist: ^4.21.10
+    caniuse-lite: ^1.0.30001520
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -892,7 +892,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: e9f18e664a4e4a54a8f4ec5f6b49ed228ec45afaa76efcae361c93721795dc5ab644f36d2fdfc0dea446b02a8067b9372f91542ea431994399e972781ed46d95
+  checksum: d490b14fb098c043e109fc13cd23628f146af99a493d35b9df3a26f8ec0b4dd8937c5601cdbaeb465b98ea31d3ea05aa7184711d4d93dfb52358d073dcb67032
   languageName: node
   linkType: hard
 
@@ -900,19 +900,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "awesome-kotlin@workspace:."
   dependencies:
-    "@types/node": ^20.4.9
-    "@types/react": ^18.2.20
+    "@types/node": ^20.6.0
+    "@types/react": ^18.2.21
     "@types/react-dom": ^18.2.7
-    autoprefixer: ^10.4.14
+    autoprefixer: ^10.4.15
     copy-to-clipboard: ^3.3.3
     copy-webpack-plugin: ^11.0.0
-    core-js: ^3.32.0
+    core-js: ^3.32.2
     css-loader: ^6.8.1
     html-webpack-plugin: ^5.5.3
     less: ^4.2.0
     less-loader: ^11.1.3
     normalize.css: ^8.0.1
-    postcss: ^8.4.27
+    postcss: ^8.4.29
     postcss-loader: ^7.3.3
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -920,7 +920,7 @@ __metadata:
     react-router-dom: ^6.15.0
     style-loader: ^3.3.3
     ts-loader: ^9.4.4
-    typescript: ^5.1.6
+    typescript: ^5.2.2
     webpack: ^5.88.2
     webpack-cli: ^5.1.4
     webpack-dev-server: ^4.15.1
@@ -1021,7 +1021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.21.5":
+"browserslist@npm:^4.21.10":
   version: 4.21.10
   resolution: "browserslist@npm:4.21.10"
   dependencies:
@@ -1116,10 +1116,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001464, caniuse-lite@npm:^1.0.30001517":
+"caniuse-lite@npm:^1.0.30001517":
   version: 1.0.30001519
   resolution: "caniuse-lite@npm:1.0.30001519"
   checksum: 66085133ede05d947e30b62fed2cbae18e5767afda8b0de38840883e1cfe5846bf1568ddbafd31647544e59112355abedaf9c867ac34541bfc20d69e7a19d94c
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001520":
+  version: 1.0.30001532
+  resolution: "caniuse-lite@npm:1.0.30001532"
+  checksum: 613abeb15e03dde307d543195a7860f7ba7450c9c9262d45642b2c8fbe097914fa060d68c8647f9d443947b1f62b09d891858bde7d2cac94fae8133a0b518b28
   languageName: node
   linkType: hard
 
@@ -1387,10 +1394,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.32.0":
-  version: 3.32.0
-  resolution: "core-js@npm:3.32.0"
-  checksum: 52921395028550e4c9d21d47b9836439bb5b6b9eefc34d45a3948a68d81fdd093acc0fadf69f9cf632b82f01f95f22f484408a93dd9e940b19119ac204cd2925
+"core-js@npm:^3.32.2":
+  version: 3.32.2
+  resolution: "core-js@npm:3.32.2"
+  checksum: d6fac7e8eb054eefc211c76cd0a0ff07447a917122757d085f469f046ec888d122409c7db1a9601c3eb5fa767608ed380bcd219eace02bdf973da155680edeec
   languageName: node
   linkType: hard
 
@@ -3608,7 +3615,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.21, postcss@npm:^8.4.27":
+"postcss@npm:^8.4.21":
   version: 8.4.27
   resolution: "postcss@npm:8.4.27"
   dependencies:
@@ -3616,6 +3623,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 1cdd0c298849df6cd65f7e646a3ba36870a37b65f55fd59d1a165539c263e9b4872a402bf4ed1ca1bc31f58b68b2835545e33ea1a23b161a1f8aa6d5ded81e78
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.29":
+  version: 8.4.29
+  resolution: "postcss@npm:8.4.29"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
   languageName: node
   linkType: hard
 
@@ -4530,23 +4548,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.1.6":
-  version: 5.1.6
-  resolution: "typescript@npm:5.1.6"
+"typescript@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
+  checksum: 7912821dac4d962d315c36800fe387cdc0a6298dba7ec171b350b4a6e988b51d7b8f051317786db1094bd7431d526b648aba7da8236607febb26cf5b871d2d3c
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
-  version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
+"typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=14eedb"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
   languageName: node
   linkType: hard
 
