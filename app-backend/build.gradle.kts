@@ -51,7 +51,7 @@ dependencies {
     implementation("io.ktor:ktor-server-call-logging:2.3.3")
     implementation("io.ktor:ktor-server-default-headers:2.3.3")
     implementation("io.ktor:ktor-server-caching-headers:2.3.4")
-    implementation("io.ktor:ktor-server-status-pages:2.3.3")
+    implementation("io.ktor:ktor-server-status-pages:2.3.4")
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2")
