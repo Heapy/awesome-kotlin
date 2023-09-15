@@ -32,7 +32,7 @@ dependencies {
     implementation("com.charleskorn.kaml:kaml:0.55.0")
 
     implementation("org.flywaydb:flyway-core:9.21.1")
-    implementation("org.jooq:jooq:3.17.5")
+    implementation("org.jooq:jooq:3.18.6")
     implementation("org.postgresql:postgresql:42.6.0")
     implementation("com.zaxxer:HikariCP:5.0.1")
 
