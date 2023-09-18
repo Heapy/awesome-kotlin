@@ -38,7 +38,7 @@ dependencies {
 
     implementation("at.favre.lib:bcrypt:0.10.2")
 
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.3")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.4")
     implementation("io.ktor:ktor-client-cio:2.3.3")
     implementation("io.ktor:ktor-server-content-negotiation:2.3.3")
     implementation("io.ktor:ktor-server-cio:2.3.3")
