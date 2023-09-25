@@ -9,11 +9,23 @@ updates:
     directory: "/app-frontend/"
     schedule:
       interval: "weekly"
+    groups:
+       all:
+          patterns:
+            - "*"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+       all:
+          patterns:
+            - "*"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+       all:
+          patterns:
+            - "*"
