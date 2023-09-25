@@ -31,7 +31,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.0")
     implementation("com.charleskorn.kaml:kaml:0.55.0")
 
-    implementation("org.flywaydb:flyway-core:9.21.1")
+    implementation("org.flywaydb:flyway-core:9.22.2")
     implementation("org.jooq:jooq:3.18.6")
     implementation("org.postgresql:postgresql:42.6.0")
     implementation("com.zaxxer:HikariCP:5.0.1")
@@ -40,7 +40,7 @@ dependencies {
 
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.4")
     implementation("io.ktor:ktor-client-cio:2.3.4")
-    implementation("io.ktor:ktor-server-content-negotiation:2.3.3")
+    implementation("io.ktor:ktor-server-content-negotiation:2.3.4")
     implementation("io.ktor:ktor-server-cio:2.3.4")
     implementation("io.ktor:ktor-server-locations:2.3.4")
     implementation("io.ktor:ktor-server-websockets:2.3.4")
