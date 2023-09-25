@@ -44,7 +44,7 @@ dependencies {
     implementation("io.ktor:ktor-server-cio:2.3.4")
     implementation("io.ktor:ktor-server-locations:2.3.4")
     implementation("io.ktor:ktor-server-websockets:2.3.4")
-    implementation("io.ktor:ktor-client-content-negotiation:2.3.3")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.4")
     implementation("io.ktor:ktor-server-auth-jwt:2.3.4")
     implementation("io.ktor:ktor-server-metrics-micrometer:2.3.4")
     implementation("io.micrometer:micrometer-registry-prometheus:1.11.4")
