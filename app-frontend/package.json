@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.6.5",
-    "@types/react": "^18.2.21",
+    "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.16",
     "copy-webpack-plugin": "^11.0.0",
