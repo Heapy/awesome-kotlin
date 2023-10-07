@@ -9,6 +9,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Flaxoos/flax-ktor-plugins"
+      href = "https://github.com/Flaxoos/flax-ktor-plugins"
+      desc = "A Ktor plugins repository for servers and clients, including a kafka client plugin, circuit breaker and more"
+      setPlatforms(JVM, ANDROID, NATIVE, IOS)
+      setTags("web", "mobile", "ktor", "plugins", "server", "client", "kafka", "rate-limiting", "circuit-breaker")
+    }
+    link {
       github = "darkredz/zeko-restapi-framework"
       setTags("web", "http", "rest", "vert.x", "swagger", "openapi", "microframework", "rest-api", "reactive", "mvc")
     }
