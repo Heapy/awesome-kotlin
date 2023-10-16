@@ -31,8 +31,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.0")
     implementation("com.charleskorn.kaml:kaml:0.55.0")
 
-    implementation("org.flywaydb:flyway-core:9.22.2")
-    implementation("org.jooq:jooq:3.18.6")
+    implementation("org.flywaydb:flyway-core:9.22.3")
+    implementation("org.jooq:jooq:3.18.7")
     implementation("org.postgresql:postgresql:42.6.0")
     implementation("com.zaxxer:HikariCP:5.0.1")
 
@@ -47,15 +47,15 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:2.3.5")
     implementation("io.ktor:ktor-server-auth-jwt:2.3.5")
     implementation("io.ktor:ktor-server-metrics-micrometer:2.3.5")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.11.4")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.11.5")
     implementation("io.ktor:ktor-server-call-logging:2.3.5")
     implementation("io.ktor:ktor-server-default-headers:2.3.5")
     implementation("io.ktor:ktor-server-caching-headers:2.3.5")
     implementation("io.ktor:ktor-server-status-pages:2.3.5")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.2")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.3")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.3")
 
     implementation("ch.qos.logback:logback-classic:1.4.11")
 
