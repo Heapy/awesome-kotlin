@@ -339,10 +339,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.8.3":
-  version: 20.8.3
-  resolution: "@types/node@npm:20.8.3"
-  checksum: bfb88b341faeb19f8fd37306a3bf433721b876c6491d10fcb0b13fd26601fa36ee45113dd82b1e1c23e3c957dff5b99f81a16493cefa03abe797e41a2487a4f7
+"@types/node@npm:^20.8.6":
+  version: 20.8.6
+  resolution: "@types/node@npm:20.8.6"
+  dependencies:
+    undici-types: ~5.25.1
+  checksum: ccfb7ac482c5a96edeb239893c5c099f5257fcc2ed9ae62fefdfbc782b79e16dbc2af9a85b379665237bf759904b44ca2be68e75d239e0297882aad42f61905c
   languageName: node
   linkType: hard
 
@@ -367,12 +369,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.2.11":
-  version: 18.2.11
-  resolution: "@types/react-dom@npm:18.2.11"
+"@types/react-dom@npm:^18.2.13":
+  version: 18.2.13
+  resolution: "@types/react-dom@npm:18.2.13"
   dependencies:
     "@types/react": "*"
-  checksum: 70dbdd2f8836a797ab8a3771c773f51023aab187d4d88ed3733bb3f2cbc2146057788a0095a03637101aeab9a48fce0ea369f96a35fc07e785ef53b8ab870885
+  checksum: 22ba066b141dca5a5a9227fae0afc7c94b470fff8e8a38ade72649da57a8ea04d0cb2ba3e22005e7d8e772d49bddd28855b1dd98e6defd033bba6afb6edff883
   languageName: node
   linkType: hard
 
@@ -387,14 +389,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.25":
-  version: 18.2.25
-  resolution: "@types/react@npm:18.2.25"
+"@types/react@npm:^18.2.28":
+  version: 18.2.28
+  resolution: "@types/react@npm:18.2.28"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 177515cd44135d56191ec6c5c10edd490c96c175d37624d9c37bc2007c3abcf6cc2d2137d2a073d692cdc5129d5d5785bd60a6ddd315f695da5d8b989fa2afc5
+  checksum: 81381bedeba83278f4c9febb0b83e0bd3f42a25897a50b9cb36ef53651d34b3d50f87ebf11211ea57ea575131f85d31e93e496ce46478a00b0f9bf7b26b5917a
   languageName: node
   linkType: hard
 
@@ -900,9 +902,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "awesome-kotlin@workspace:."
   dependencies:
-    "@types/node": ^20.8.3
-    "@types/react": ^18.2.25
-    "@types/react-dom": ^18.2.11
+    "@types/node": ^20.8.6
+    "@types/react": ^18.2.28
+    "@types/react-dom": ^18.2.13
     autoprefixer: ^10.4.16
     copy-to-clipboard: ^3.3.3
     copy-webpack-plugin: ^11.0.0
@@ -921,7 +923,7 @@ __metadata:
     style-loader: ^3.3.3
     ts-loader: ^9.5.0
     typescript: ^5.2.2
-    webpack: ^5.88.2
+    webpack: ^5.89.0
     webpack-cli: ^5.1.4
     webpack-dev-server: ^4.15.1
   languageName: unknown
@@ -4576,6 +4578,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~5.25.1":
+  version: 5.25.3
+  resolution: "undici-types@npm:5.25.3"
+  checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^1.1.1":
   version: 1.1.1
   resolution: "unique-filename@npm:1.1.1"
@@ -4791,9 +4800,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.88.2":
-  version: 5.88.2
-  resolution: "webpack@npm:5.88.2"
+"webpack@npm:^5.89.0":
+  version: 5.89.0
+  resolution: "webpack@npm:5.89.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^1.0.0
@@ -4824,7 +4833,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 79476a782da31a21f6dd38fbbd06b68da93baf6a62f0d08ca99222367f3b8668f5a1f2086b7bb78e23172e31fa6df6fa7ab09b25e827866c4fc4dc2b30443ce2
+  checksum: 43fe0dbc30e168a685ef5a86759d5016a705f6563b39a240aa00826a80637d4a3deeb8062e709d6a4b05c63e796278244c84b04174704dc4a37bedb0f565c5ed
   languageName: node
   linkType: hard
 
