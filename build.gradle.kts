@@ -38,7 +38,7 @@ dependencies {
 
     implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
-    implementation("org.jsoup:jsoup:1.16.1")
+    implementation("org.jsoup:jsoup:1.16.2")
 
     implementation(kotlin("scripting-common"))
     implementation(kotlin("scripting-jvm"))
