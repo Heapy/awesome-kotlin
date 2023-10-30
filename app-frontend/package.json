@@ -13,8 +13,8 @@
     "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.7",
-    "@types/react": "^18.2.31",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.4.16",
     "copy-webpack-plugin": "^11.0.0",
