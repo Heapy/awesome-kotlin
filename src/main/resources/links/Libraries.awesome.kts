@@ -1028,6 +1028,11 @@ category("Libraries/Frameworks") {
       github = "jhipster/jhipster-kotlin"
       desc = "A scaffold generator to generate web apps or APIs using springboot and angularJS or React"
     }
+    link {
+      name = "Bootify.io"
+      href = "https://bootify.io"
+      desc = "Pure Spring Boot prototypes in the browser with custom database and Thymeleaf frontend"
+    }
   }
   subcategory("Desktop") {
     link {
