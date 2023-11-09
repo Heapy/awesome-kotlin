@@ -1,6 +1,6 @@
 plugins {
     application
-    kotlin("jvm").version("1.9.0")
+    kotlin("jvm").version("1.9.20")
 }
 
 application {
@@ -17,6 +17,11 @@ tasks.test {
 
 kotlin {
     jvmToolchain(17)
+    sourceSets.all {
+        languageSettings {
+            languageVersion = "2.0"
+        }
+    }
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {

@@ -1,5 +1,13 @@
 plugins {
-    kotlin("jvm").version("1.9.0")
+    kotlin("jvm")
+}
+
+kotlin {
+    sourceSets.all {
+        languageSettings {
+            languageVersion = "2.0"
+        }
+    }
 }
 
 repositories {

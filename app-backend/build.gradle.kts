@@ -1,7 +1,7 @@
 plugins {
     application
-    kotlin("jvm").version("1.9.0")
-    kotlin("plugin.serialization").version("1.9.0")
+    kotlin("jvm")
+    kotlin("plugin.serialization")
 }
 
 application {
@@ -14,13 +14,26 @@ repositories {
 }
 
 kotlin {
-    jvmToolchain(17)
+    sourceSets.all {
+        languageSettings {
+            languageVersion = "2.0"
+        }
+    }
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
         jvmTarget = "17"
+        freeCompilerArgs = freeCompilerArgs + listOf(
+            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
+            "-opt-in=io.ktor.server.locations.KtorExperimentalLocationsAPI",
+        )
     }
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
 
 dependencies {
