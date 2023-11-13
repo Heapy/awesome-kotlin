@@ -13,9 +13,9 @@
     "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.10",
-    "@types/react": "^18.2.35",
-    "@types/react-dom": "^18.2.14",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
     "autoprefixer": "^10.4.16",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
