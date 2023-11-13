@@ -31,6 +31,7 @@ internal object LinkScriptCompilationConfiguration : ScriptCompilationConfigurat
             "awesome-kotlin",
             "kotlin-stdlib"
         )
+        compilerOptions("-Xskip-prerelease-check", "-Xallow-unstable-dependencies")
     }
 
     ide {

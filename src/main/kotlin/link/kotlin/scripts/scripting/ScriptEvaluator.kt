@@ -2,7 +2,6 @@ package link.kotlin.scripts.scripting
 
 import link.kotlin.scripts.utils.Cache
 import link.kotlin.scripts.utils.cacheKey
-import link.kotlin.scripts.utils.default
 import kotlin.reflect.KClass
 import kotlin.script.experimental.api.ResultValue
 import kotlin.script.experimental.api.valueOrThrow
