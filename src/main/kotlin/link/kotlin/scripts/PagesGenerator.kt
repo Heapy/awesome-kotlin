@@ -126,8 +126,8 @@ fun getFeatures(features: List<ArticleFeature>): String {
             mathjax -> """<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>"""
             highlightjs -> """
                 <link rel="stylesheet" href="/github.css">
-                <script src="/highlight.pack.js"></script>
-                <script>hljs.initHighlightingOnLoad();</script>
+                <script src="/highlight.min.js"></script>
+                <script>hljs.highlightAll();</script>
                 """
         }
     }

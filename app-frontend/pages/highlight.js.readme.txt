@@ -1,0 +1,11 @@
+https://highlightjs.org/download
+
+bash
+css
+java
+javascript
+json
+kotlin
+markdown
+sql
+xml
