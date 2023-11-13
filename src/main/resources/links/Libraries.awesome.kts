@@ -1608,6 +1608,13 @@ category("Libraries/Frameworks") {
       desc = "Distributed lock service"
       setTags("lock", "mutex", "distributed", "scheduler", "redis", "zookeeper", "jdbc", "spring-boot")
     }
+    link {
+      github = "nsk90/kstatemachine"
+      desc = "KStateMachine is a Kotlin DSL library for creating state machines and statecharts."
+      setTags("state machine", "coroutines", "multiplatform", "dsl")
+      setPlatforms(JVM, ANDROID, IOS)
+    }
+
   }
   subcategory("Parsers") {
     link {
