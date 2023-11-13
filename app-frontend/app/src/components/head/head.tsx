@@ -31,7 +31,7 @@ export function Header() {
 
     if (logo.link) {
       return (
-        <a href={logo.link} target="_blank">
+        <a href={logo.link} target="_blank" rel="noopener noreferrer">
           <img src={logo.src}
                alt={logo.alt()}
                title={logo.alt()}
