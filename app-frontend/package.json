@@ -5,15 +5,15 @@
   "main": "app/src/main.tsx",
   "dependencies": {
     "copy-to-clipboard": "^3.3.3",
-    "core-js": "^3.33.2",
+    "core-js": "^3.33.3",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.18.0",
-    "react-router-dom": "^6.18.0"
+    "react-router": "^6.19.0",
+    "react-router-dom": "^6.19.0"
   },
   "devDependencies": {
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.9.2",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "autoprefixer": "^10.4.16",
@@ -25,7 +25,7 @@
     "postcss": "^8.4.31",
     "postcss-loader": "^7.3.3",
     "style-loader": "^3.3.3",
-    "ts-loader": "^9.5.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.2.2",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
