@@ -3394,11 +3394,11 @@
                 },
                 {
                     "name": null,
-                    "github": "krzema12/github-actions-kotlin-dsl",
+                    "github": "typesafegithub/github-workflows-kt",
                     "bitbucket": null,
                     "kug": null,
                     "href": null,
-                    "desc": "Authoring GitHub Actions workflows in Kotlin.",
+                    "desc": "Authoring GitHub Actions workflows in Kotlin. You won't go back to YAML!",
                     "platforms": [
                         "JVM"
                     ],
