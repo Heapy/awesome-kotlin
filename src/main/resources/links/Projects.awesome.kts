@@ -1,6 +1,11 @@
 category("Projects") {
   subcategory("Web") {
     link {
+      github = "jillesvangurp/rankquest-studio"
+      desc = "Rankquest Studio is a web based tool that you can use to benchmark search query metrics for your search APIs. Written in Kotlin & Fritz2"
+      setTags("search-ranking","application","kotlin-js","fritz2")
+    }
+    link {
       github = "sdeleuze/spring-boot-kotlin-demo"
       desc = "Basic Spring Boot app in Kotlin."
       setTags("spring", "spring-boot")
@@ -358,6 +363,12 @@ category("Projects") {
       desc="A sample app written with the help of KMM (Kotlin Multiplatform). File System access, voice recording, and persistence."
       setTags("example", "kmm", "compose")
       setPlatforms(ANDROID, IOS)
+    }
+    link {
+      github="formation-res/kt-fullstack-demo"
+      desc="This demo kotlin-js project implements a UI and server for a little recipe search engine to demonstrate fritz2, kotlin-js, localization with mozilla fluent, use of koin in a webapp."
+      setPlatforms(JS)
+      setTags("fritz2","fluent-kotlin","koin","kotlin-js","webui","examples")
     }
   }
   subcategory("Idea Plugins") {

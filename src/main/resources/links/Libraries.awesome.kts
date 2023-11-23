@@ -1614,7 +1614,18 @@ category("Libraries/Frameworks") {
       setTags("state machine", "coroutines", "multiplatform", "dsl")
       setPlatforms(JVM, ANDROID, IOS)
     }
-
+    link {
+      github = "jillesvangurp/geogeometry"
+      desc = "GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates"
+      setTags("gis", "geo-spatial","utm","mgrs","ups","geojson","alhorithms")
+      setPlatforms(JVM, JS, NATIVE, IOS)
+    }
+    link {
+      github = "jillesvangurp/querylight"
+      desc = "In memory search engine for simple in app search. Implements tf/idf and a some basic queries, tokenizers and analyzers."
+      setTags("search","tf/idf")
+      setPlatforms(COMMON, JVM, JS)
+    }
   }
   subcategory("Parsers") {
     link {
@@ -2129,6 +2140,18 @@ category("Libraries/Frameworks") {
   }
   subcategory("API Clients") {
     link {
+      github = "jillesvangurp/kt-search"
+      desc = "Kotlin multiplatform library for Elasticsearch and Opensearch"
+      setPlatforms(COMMON, JS, JVM, NATIVE)
+      setTags("elasticsearch", "opensearch", "api-client","co-routines", "dsl")
+    }
+    link {
+      github = "formation-res/overpass-kotlin-client"
+      desc = "A simple client for overpass that uses ktor-client and kotlinx.serialization for parsing JSON responses."
+      setPlatforms(COMMON, JS, JVM)
+      setTags("overpass","api-client","openstreetmap","gis")
+    }
+    link {
       github = "JetBrains/space-kotlin-sdk"
       desc = "Kotlin client for JetBrains Space HTTP API"
       setPlatforms(COMMON, JS, JVM)
@@ -2167,6 +2190,12 @@ category("Libraries/Frameworks") {
       desc = "Kotlin tooling implementation of ProjectFluent. Read, write, and transform Fluent files."
       setTags("L10n")
       setPlatforms(JVM)
+    }
+    link {
+      github = "formation-res/fluent-kotlin"
+      desc = "Kotlin multi platdform localization for js and jvm based on project fluent."
+      setTags("localization", "mozilla-fluent")
+      setPlatforms(JVM, JS)
     }
   }
   subcategory("Logging") {
