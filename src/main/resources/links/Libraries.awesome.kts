@@ -985,8 +985,8 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
     }
     link {
-      github = "krzema12/github-actions-kotlin-dsl"
-      desc = "Authoring GitHub Actions workflows in Kotlin."
+      github = "typesafegithub/github-workflows-kt"
+      desc = "Authoring GitHub Actions workflows in Kotlin. You won't go back to YAML!"
       setTags("github", "dsl", "scripting")
       setPlatforms(JVM)
     }
