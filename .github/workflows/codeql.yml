@@ -36,7 +36,8 @@ jobs:
         java-version: "17"
         distribution: "liberica"
     - uses: gradle/gradle-build-action@v2
-      cache-disabled: true
+      with:
+        cache-disabled: true
     - run: echo "kotlin.daemon.jvmargs=-Xmx2g" >> gradle.properties
     - run: ./gradlew build -x test -x distTar
     - name: Perform CodeQL Analysis
