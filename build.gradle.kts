@@ -40,7 +40,7 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.0")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.0")
 
-    implementation("ch.qos.logback:logback-classic:1.4.11")
+    implementation("ch.qos.logback:logback-classic:1.4.14")
 
     implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
