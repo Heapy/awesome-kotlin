@@ -41,7 +41,7 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.3")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.2")
     implementation("com.charleskorn.kaml:kaml:0.55.0")
 
     implementation("org.flywaydb:flyway-core:10.1.0")
@@ -70,7 +70,7 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.0")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.0")
 
-    implementation("ch.qos.logback:logback-classic:1.4.11")
+    implementation("ch.qos.logback:logback-classic:1.4.14")
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     testImplementation("io.mockk:mockk:1.13.8")
