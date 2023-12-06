@@ -19,7 +19,8 @@ private val files = listOf(
     "Android.awesome.kts",
     "JavaScript.awesome.kts",
     "Native.awesome.kts",
-    "UserGroups.awesome.kts"
+    "WebAssembly.awesome.kts",
+    "UserGroups.awesome.kts",
 )
 
 private class FileSystemLinksSource(
