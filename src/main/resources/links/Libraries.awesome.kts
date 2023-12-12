@@ -1947,6 +1947,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Kotlin/kandy"
+      desc = "Kotlin plotting library"
+      href = "https://github.com/Kotlin/kandy"
+      setTags("data science", "data analysis", "plot")
+      awesome()
+    }
+    link {
       github = "JetBrains/lets-plot-kotlin"
       desc = "Grammar of graphics visualization for Kotlin"
       awesome()
