@@ -1981,12 +1981,6 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
-      github = "holgerbrandl/krangl"
-      desc = "krangl is a {K}otlin library for data w{rangl}ing."
-      setTags("data science", "data wrangling")
-      awesome()
-    }
-    link {
       github = "kyonifer/koma"
       desc = "A scientific computing library for Kotlin."
       setTags("data science", "plot", "matlab", "numpy")
