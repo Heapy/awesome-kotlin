@@ -2040,8 +2040,8 @@ category("Libraries/Frameworks") {
     link {
       github = "Kotlin/multik"
       desc = "A Kotlin library for working with multi-dimensional arrays"
-      setTags("multidimensional array")
-      setPlatforms(JVM)
+      setTags("data science", "math", "multidimensional array")
+      setPlatforms(COMMON, JVM, JS, NATIVE, WASM)
     }
     link {
       github = "breandan/kaliningraph"
