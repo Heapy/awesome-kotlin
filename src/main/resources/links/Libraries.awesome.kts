@@ -1939,6 +1939,14 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Kotlin/dataframe"
+      desc = "A Kotlin library for in-memory data manipulation"
+      href = "https://github.com/Kotlin/dataframe"
+      setTags("data science", "data analysis", "data wrangling", "csv", "json")
+      setPlatforms(JVM)
+      awesome()
+    }
+    link {
       github = "JetBrains/lets-plot-kotlin"
       desc = "Grammar of graphics visualization for Kotlin"
       awesome()
@@ -2029,12 +2037,6 @@ category("Libraries/Frameworks") {
       github = "Kotlin/multik"
       desc = "A Kotlin library for working with multi-dimensional arrays"
       setTags("multidimensional array")
-      setPlatforms(JVM)
-    }
-    link {
-      github = "Kotlin/dataframe"
-      desc = "A Kotlin library for in-memory data manipulation"
-      setTags("data wrangling", "csv")
       setPlatforms(JVM)
     }
     link {
