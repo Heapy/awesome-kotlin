@@ -1961,7 +1961,7 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
-      github = "JetBrains/KotlinDL"
+      github = "Kotlin/KotlinDL"
       desc = "High-level Deep Learning Framework written in Kotlin and inspired by Keras."
       href = "https://github.com/Kotlin/kotlindl"
       setTags("data science", "neural-networks", "deep-learning", "machine-learning", "artificial-intelligence")
