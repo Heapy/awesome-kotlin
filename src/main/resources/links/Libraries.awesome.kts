@@ -931,6 +931,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      name = "Kotlin Notebook"
+      desc = "Kotlin notebooks are interactive worksheets with rich outputs."
+      href = "https://plugins.jetbrains.com/plugin/16340-kotlin-notebook"
+      setTags("scripting", "kts")
+      awesome()
+    }
+    link {
       github = "saveourtool/diktat"
       desc = "Strict coding standard for Kotlin and a custom set of rules for detecting and autofixing code smells."
       setTags("style", "linter", "static-analysis", "check style", "code smell")
