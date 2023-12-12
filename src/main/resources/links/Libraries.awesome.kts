@@ -1956,6 +1956,8 @@ category("Libraries/Frameworks") {
     link {
       github = "JetBrains/lets-plot-kotlin"
       desc = "Grammar of graphics visualization for Kotlin"
+      href = "https://github.com/JetBrains/lets-plot-kotlin"
+      setTags("data science", "data analysis", "plot")
       awesome()
     }
     link {
