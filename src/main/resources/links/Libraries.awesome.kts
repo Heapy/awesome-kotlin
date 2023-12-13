@@ -931,6 +931,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      name = "Kotlin Notebook"
+      desc = "Kotlin notebooks are interactive worksheets with rich outputs."
+      href = "https://plugins.jetbrains.com/plugin/16340-kotlin-notebook"
+      setTags("scripting", "kts")
+      awesome()
+    }
+    link {
       github = "saveourtool/diktat"
       desc = "Strict coding standard for Kotlin and a custom set of rules for detecting and autofixing code smells."
       setTags("style", "linter", "static-analysis", "check style", "code smell")
@@ -1939,14 +1946,31 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
-      github = "JetBrains/lets-plot-kotlin"
-      desc = "Grammar of graphics visualization for Kotlin"
+      github = "Kotlin/dataframe"
+      desc = "A Kotlin library for in-memory data manipulation"
+      href = "https://github.com/Kotlin/dataframe"
+      setTags("data science", "data analysis", "data wrangling", "csv", "json")
+      setPlatforms(JVM)
       awesome()
     }
     link {
-      github = "JetBrains/KotlinDL"
+      github = "Kotlin/kandy"
+      desc = "Kotlin plotting library"
+      href = "https://github.com/Kotlin/kandy"
+      setTags("data science", "data analysis", "plot")
+      awesome()
+    }
+    link {
+      github = "JetBrains/lets-plot-kotlin"
+      desc = "Grammar of graphics visualization for Kotlin"
+      href = "https://github.com/JetBrains/lets-plot-kotlin"
+      setTags("data science", "data analysis", "plot")
+      awesome()
+    }
+    link {
+      github = "Kotlin/KotlinDL"
       desc = "High-level Deep Learning Framework written in Kotlin and inspired by Keras."
-      href = "https://jetbrains.github.io/KotlinDL/"
+      href = "https://github.com/Kotlin/kotlindl"
       setTags("data science", "neural-networks", "deep-learning", "machine-learning", "artificial-intelligence")
       awesome()
     }
@@ -1954,18 +1978,6 @@ category("Libraries/Frameworks") {
       github = "Kotlin/kotlin-jupyter"
       desc = "Official Kotlin Jupyter kernel"
       setTags("data science", "juputer", "repl")
-      awesome()
-    }
-    link {
-      github = "thomasnield/kotlin-statistics"
-      desc = "Advanced math and statistical extensions for Kotlin."
-      setTags("data science", "extensions")
-      awesome()
-    }
-    link {
-      github = "holgerbrandl/krangl"
-      desc = "krangl is a {K}otlin library for data w{rangl}ing."
-      setTags("data science", "data wrangling")
       awesome()
     }
     link {
@@ -2028,14 +2040,8 @@ category("Libraries/Frameworks") {
     link {
       github = "Kotlin/multik"
       desc = "A Kotlin library for working with multi-dimensional arrays"
-      setTags("multidimensional array")
-      setPlatforms(JVM)
-    }
-    link {
-      github = "Kotlin/dataframe"
-      desc = "A Kotlin library for in-memory data manipulation"
-      setTags("data wrangling", "csv")
-      setPlatforms(JVM)
+      setTags("data science", "math", "multidimensional array")
+      setPlatforms(COMMON, JVM, JS, NATIVE, WASM)
     }
     link {
       github = "breandan/kaliningraph"
