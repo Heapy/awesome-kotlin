@@ -1729,6 +1729,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "metadata", "native", "xmp")
       setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
     }
+    link {
+      github = "divyanshupundir/mavlink-kotlin"
+      desc = "A modern MAVLink library for Kotlin Multiplatform."
+      setTags("multiplatform", "mavlink", "drone", "uav", "px4", "ardupilot")
+      setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE)
+    }
   }
   subcategory("DSL") {
     link {
