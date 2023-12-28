@@ -15,8 +15,8 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jooq:jooq-codegen:3.18.7")
-    implementation("org.flywaydb:flyway-core:10.2.0")
+    implementation("org.jooq:jooq-codegen:3.19.1")
+    implementation("org.flywaydb:flyway-core:10.4.1")
     implementation("org.postgresql:postgresql:42.7.1")
     implementation("ch.qos.logback:logback-classic:1.4.14")
 }
