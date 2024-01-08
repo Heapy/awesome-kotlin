@@ -56,6 +56,6 @@ dependencies {
     implementation("io.ktor:ktor-client-apache:2.3.7")
     implementation("io.ktor:ktor-client-jackson:2.3.7")
 
-    testImplementation("io.mockk:mockk:1.13.8")
+    testImplementation("io.mockk:mockk:1.13.9")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
