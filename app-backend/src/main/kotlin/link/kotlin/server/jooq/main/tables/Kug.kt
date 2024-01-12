@@ -4,22 +4,37 @@
 package link.kotlin.server.jooq.main.tables
 
 
-import java.time.LocalDate
-import java.util.function.Function
+import java.time.OffsetDateTime
+
+import kotlin.collections.Collection
+import kotlin.collections.List
 
 import link.kotlin.server.jooq.main.Public
+import link.kotlin.server.jooq.main.enums.KugStatusEnum
+import link.kotlin.server.jooq.main.keys.KUG_EVENT__KUG_EVENT_KUG_ID_FKEY
+import link.kotlin.server.jooq.main.keys.KUG_MEMBER__KUG_MEMBER_KUG_ID_FKEY
 import link.kotlin.server.jooq.main.keys.KUG_PKEY
+import link.kotlin.server.jooq.main.keys.KUG__KUG_CREATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.KUG__KUG_UPDATED_BY_FKEY
+import link.kotlin.server.jooq.main.tables.Kotliner.KotlinerPath
+import link.kotlin.server.jooq.main.tables.KugEvent.KugEventPath
+import link.kotlin.server.jooq.main.tables.KugMember.KugMemberPath
 import link.kotlin.server.jooq.main.tables.records.KugRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Identity
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row8
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -36,19 +51,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Kug(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, KugRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, KugRecord>?,
+    parentPath: InverseForeignKey<out Record, KugRecord>?,
     aliased: Table<KugRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<KugRecord>(
     alias,
     Public.PUBLIC,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -67,6 +86,31 @@ open class Kug(
      * The column <code>public.kug.id</code>.
      */
     val ID: TableField<KugRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+
+    /**
+     * The column <code>public.kug.created</code>.
+     */
+    val CREATED: TableField<KugRecord, OffsetDateTime?> = createField(DSL.name("created"), SQLDataType.TIMESTAMPWITHTIMEZONE(6).nullable(false), this, "")
+
+    /**
+     * The column <code>public.kug.updated</code>.
+     */
+    val UPDATED: TableField<KugRecord, OffsetDateTime?> = createField(DSL.name("updated"), SQLDataType.TIMESTAMPWITHTIMEZONE(6).nullable(false), this, "")
+
+    /**
+     * The column <code>public.kug.created_by</code>.
+     */
+    val CREATED_BY: TableField<KugRecord, Long?> = createField(DSL.name("created_by"), SQLDataType.BIGINT, this, "")
+
+    /**
+     * The column <code>public.kug.updated_by</code>.
+     */
+    val UPDATED_BY: TableField<KugRecord, Long?> = createField(DSL.name("updated_by"), SQLDataType.BIGINT.nullable(false), this, "")
+
+    /**
+     * The column <code>public.kug.status</code>.
+     */
+    val STATUS: TableField<KugRecord, KugStatusEnum?> = createField(DSL.name("status"), SQLDataType.VARCHAR.nullable(false).asEnumDataType(KugStatusEnum::class.java), this, "")
 
     /**
      * The column <code>public.kug.continent</code>.
@@ -89,6 +133,11 @@ open class Kug(
     val URL: TableField<KugRecord, String?> = createField(DSL.name("url"), SQLDataType.VARCHAR(500).nullable(false), this, "")
 
     /**
+     * The column <code>public.kug.slug</code>.
+     */
+    val SLUG: TableField<KugRecord, String?> = createField(DSL.name("slug"), SQLDataType.VARCHAR(500).nullable(false), this, "")
+
+    /**
      * The column <code>public.kug.latitude</code>.
      */
     val LATITUDE: TableField<KugRecord, Double?> = createField(DSL.name("latitude"), SQLDataType.DOUBLE, this, "")
@@ -99,12 +148,13 @@ open class Kug(
     val LONGITUDE: TableField<KugRecord, Double?> = createField(DSL.name("longitude"), SQLDataType.DOUBLE, this, "")
 
     /**
-     * The column <code>public.kug.created</code>.
+     * The column <code>public.kug.version</code>.
      */
-    val CREATED: TableField<KugRecord, LocalDate?> = createField(DSL.name("created"), SQLDataType.LOCALDATE.nullable(false), this, "")
+    val VERSION: TableField<KugRecord, Long?> = createField(DSL.name("version"), SQLDataType.BIGINT.nullable(false).defaultValue(DSL.field(DSL.raw("0"), SQLDataType.BIGINT)), this, "")
 
-    private constructor(alias: Name, aliased: Table<KugRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<KugRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<KugRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<KugRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<KugRecord>?, where: Condition): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>public.kug</code> table reference
@@ -121,13 +171,96 @@ open class Kug(
      */
     constructor(): this(DSL.name("kug"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, KugRecord>): this(Internal.createPathAlias(child, key), child, key, KUG, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, KugRecord>?, parentPath: InverseForeignKey<out Record, KugRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, KUG, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class KugPath : Kug, Path<KugRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, KugRecord>?, parentPath: InverseForeignKey<out Record, KugRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<KugRecord>): super(alias, aliased)
+        override fun `as`(alias: String): KugPath = KugPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): KugPath = KugPath(alias, this)
+        override fun `as`(alias: Table<*>): KugPath = KugPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIdentity(): Identity<KugRecord, Long?> = super.getIdentity() as Identity<KugRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<KugRecord> = KUG_PKEY
+    override fun getReferences(): List<ForeignKey<KugRecord, *>> = listOf(KUG__KUG_CREATED_BY_FKEY, KUG__KUG_UPDATED_BY_FKEY)
+
+    private lateinit var _kugCreatedByFkey: KotlinerPath
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table, via
+     * the <code>kug_created_by_fkey</code> key.
+     */
+    fun kugCreatedByFkey(): KotlinerPath {
+        if (!this::_kugCreatedByFkey.isInitialized)
+            _kugCreatedByFkey = KotlinerPath(this, KUG__KUG_CREATED_BY_FKEY, null)
+
+        return _kugCreatedByFkey;
+    }
+
+    val kugCreatedByFkey: KotlinerPath
+        get(): KotlinerPath = kugCreatedByFkey()
+
+    private lateinit var _kugUpdatedByFkey: KotlinerPath
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table, via
+     * the <code>kug_updated_by_fkey</code> key.
+     */
+    fun kugUpdatedByFkey(): KotlinerPath {
+        if (!this::_kugUpdatedByFkey.isInitialized)
+            _kugUpdatedByFkey = KotlinerPath(this, KUG__KUG_UPDATED_BY_FKEY, null)
+
+        return _kugUpdatedByFkey;
+    }
+
+    val kugUpdatedByFkey: KotlinerPath
+        get(): KotlinerPath = kugUpdatedByFkey()
+
+    private lateinit var _kugEvent: KugEventPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug_event</code>
+     * table
+     */
+    fun kugEvent(): KugEventPath {
+        if (!this::_kugEvent.isInitialized)
+            _kugEvent = KugEventPath(this, null, KUG_EVENT__KUG_EVENT_KUG_ID_FKEY.inverseKey)
+
+        return _kugEvent;
+    }
+
+    val kugEvent: KugEventPath
+        get(): KugEventPath = kugEvent()
+
+    private lateinit var _kugMember: KugMemberPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug_member</code>
+     * table
+     */
+    fun kugMember(): KugMemberPath {
+        if (!this::_kugMember.isInitialized)
+            _kugMember = KugMemberPath(this, null, KUG_MEMBER__KUG_MEMBER_KUG_ID_FKEY.inverseKey)
+
+        return _kugMember;
+    }
+
+    val kugMember: KugMemberPath
+        get(): KugMemberPath = kugMember()
+
+    /**
+     * Get the implicit many-to-many join path to the
+     * <code>public.kotliner</code> table
+     */
+    val kotliner: KotlinerPath
+        get(): KotlinerPath = kugMember().kotliner()
     override fun `as`(alias: String): Kug = Kug(DSL.name(alias), this)
     override fun `as`(alias: Name): Kug = Kug(alias, this)
-    override fun `as`(alias: Table<*>): Kug = Kug(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Kug = Kug(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -142,21 +275,55 @@ open class Kug(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Kug = Kug(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row8 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row8<Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?> = super.fieldsRow() as Row8<Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?>
+    override fun rename(name: Table<*>): Kug = Kug(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition): Kug = Kug(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (Long?, String?, String?, String?, String?, Double?, Double?, LocalDate?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Kug = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition): Kug = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>): Kug = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Kug = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Kug = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Kug = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Kug = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Kug = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Kug = where(DSL.notExists(select))
 }

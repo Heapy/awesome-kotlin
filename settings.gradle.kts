@@ -1,4 +1,4 @@
 rootProject.name = "awesome-kotlin"
 
 include(":app-backend")
-include(":app-backend-jooq")
+include(":app-backend-dataops")

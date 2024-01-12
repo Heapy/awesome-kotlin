@@ -8,24 +8,24 @@ interface ShutdownManager {
 }
 
 class JvmShutdownManager(
-    private val handlers: List<() -> Unit>
+    private val handlers: List<() -> Unit>,
 ) : ShutdownManager {
     override fun registerHook() {
         Runtime.getRuntime().addShutdownHook(thread(
             start = false,
-            name = "ShutdownManager"
+            name = "ShutdownManager",
         ) {
             handlers.forEach { handler ->
                 try {
                     handler()
                 } catch (e: Exception) {
-                    LOGGER.error("Error while calling shutdown handler", e)
+                    log.error("Error while calling shutdown handler", e)
                 }
             }
         })
     }
 
     private companion object {
-        private val LOGGER = logger<JvmShutdownManager>()
+        private val log = logger<JvmShutdownManager>()
     }
 }

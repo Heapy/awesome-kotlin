@@ -1,0 +1,403 @@
+CREATE SEQUENCE ENTITY_ID_SEQ;
+
+CREATE TYPE KOTLINER_STATUS_ENUM AS ENUM (
+    'UNVERIFIED',
+    'ACTIVE',
+    'BANNED',
+    'DELETED'
+);
+
+CREATE TABLE KOTLINER
+(
+    ID               BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    CREATED          TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED          TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED_BY       BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    STATUS           KOTLINER_STATUS_ENUM     NOT NULL,
+    AVATAR           VARCHAR(500) NULL,
+    DESCRIPTION      TEXT                     NOT NULL,
+    NORMALIZED_EMAIL VARCHAR(500)             NOT NULL,
+    ORIGINAL_EMAIL   VARCHAR(500)             NOT NULL,
+    FIRST_NAME       VARCHAR(100) NULL,
+    LAST_NAME        VARCHAR(100) NULL,
+    NICKNAME         VARCHAR(100)             NOT NULL,
+    PASSWORD         VARCHAR(500)             NOT NULL,
+    TOTP             VARCHAR(500) NULL,
+    META             JSONB NULL,
+    VERSION          BIGINT                   NOT NULL DEFAULT 0,
+    CONSTRAINT UNIQUE_KOTLINER_EMAIL UNIQUE (NORMALIZED_EMAIL),
+    CONSTRAINT UNIQUE_KOTLINER_NICKNAME UNIQUE (NICKNAME)
+);
+
+CREATE TYPE KUG_STATUS_ENUM AS ENUM (
+    'ACTIVE',
+    'INACTIVE',
+    'HIDDEN',
+    'DELETED'
+);
+
+CREATE TABLE KUG
+(
+    ID         BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    CREATED    TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED    TIMESTAMP WITH TIME ZONE NOT NULL,
+    CREATED_BY BIGINT NULL REFERENCES KOTLINER (ID),
+    UPDATED_BY BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    STATUS     KUG_STATUS_ENUM          NOT NULL,
+    CONTINENT  VARCHAR(500)             NOT NULL,
+    NAME       VARCHAR(500)             NOT NULL,
+    COUNTRY    VARCHAR(500)             NOT NULL,
+    URL        VARCHAR(500)             NOT NULL,
+    SLUG       VARCHAR(500)             NOT NULL,
+    LATITUDE   DOUBLE PRECISION NULL,
+    LONGITUDE  DOUBLE PRECISION NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0
+);
+
+CREATE TYPE KUG_EVENT_STATUS_ENUM AS ENUM (
+    'DRAFT',
+    'PUBLISHED',
+    'CANCELLED'
+);
+
+CREATE TABLE KUG_EVENT
+(
+    ID         BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    CREATED    TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED    TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED_BY BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    STATUS     KUG_EVENT_STATUS_ENUM    NOT NULL,
+    KUG_ID     BIGINT                   NOT NULL REFERENCES KUG (ID),
+    TITLE      VARCHAR(500)             NOT NULL,
+    LATITUDE   DOUBLE PRECISION NULL,
+    LONGITUDE  DOUBLE PRECISION NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE COMPANY
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    NAME        VARCHAR(500) NOT NULL,
+    DESCRIPTION TEXT         NOT NULL,
+    URL         VARCHAR(500) NOT NULL,
+    LOGO        VARCHAR(500) NOT NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0
+);
+
+CREATE TYPE KUG_MEMBER_STATUS_ENUM AS ENUM (
+    'UNAPPROVED',
+    'APPROVED',
+    'BANNED'
+);
+
+CREATE TABLE KUG_MEMBER
+(
+    KOTLINER_ID BIGINT                 NOT NULL REFERENCES KOTLINER (ID),
+    KUG_ID      BIGINT                 NOT NULL REFERENCES KUG (ID),
+    ROLE        VARCHAR(500)           NOT NULL,
+    JOIN_DATE   DATE                   NOT NULL,
+    STATUS      KUG_MEMBER_STATUS_ENUM NOT NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0,
+    CONSTRAINT UNIQUE_KOTLINER_KUG UNIQUE (KOTLINER_ID, KUG_ID)
+);
+
+CREATE TABLE KOTLIN_VERSION
+(
+    ID      BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE   VARCHAR(500)             NOT NULL,
+    CREATED TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE TABLE ARTICLE
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED_BY  BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    CREATED_BY  BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    STATUS      VARCHAR(50)              NOT NULL,
+    TITLE       VARCHAR(500)             NOT NULL,
+    ORIGINAL_ID BIGINT NULL REFERENCES ARTICLE (ID),
+    LANGUAGE    VARCHAR(50)              NOT NULL,
+    URL         VARCHAR(2000)            NOT NULL,
+    CONTENT     TEXT                     NOT NULL,
+    THUMBNAIL   VARCHAR(500)             NOT NULL,
+    PUBLISHED   TIMESTAMP WITH TIME ZONE NOT NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0
+);
+
+-- single article can have multiple authors
+CREATE TABLE ARTICLE_AUTHOR
+(
+    ARTICLE_ID  BIGINT NOT NULL REFERENCES ARTICLE (ID),
+    KOTLINER_ID BIGINT NOT NULL REFERENCES KOTLINER (ID),
+    PRIMARY KEY (ARTICLE_ID, KOTLINER_ID)
+);
+
+-- Article can have multiple kotlin versions
+CREATE TABLE ARTICLE_KOTLIN_VERSION
+(
+    ARTICLE_ID        BIGINT NOT NULL REFERENCES ARTICLE (ID),
+    KOTLIN_VERSION_ID BIGINT NOT NULL REFERENCES KOTLIN_VERSION (ID),
+    PRIMARY KEY (ARTICLE_ID, KOTLIN_VERSION_ID)
+);
+
+CREATE TABLE TOPIC
+(
+    ID          BIGINT PRIMARY KEY                DEFAULT nextval('ENTITY_ID_SEQ'),
+    PARENT_ID   BIGINT NULL REFERENCES TOPIC (ID),
+    NAME        VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    VERSION     BIGINT                   NOT NULL DEFAULT 0
+);
+
+-- Article can have multiple topics
+CREATE TABLE ARTICLE_TOPIC
+(
+    ARTICLE_ID  BIGINT NOT NULL REFERENCES ARTICLE (ID),
+    TOPIC_ID BIGINT NOT NULL REFERENCES TOPIC (ID),
+    PRIMARY KEY (ARTICLE_ID, TOPIC_ID)
+);
+
+-- TODO: TOPICS, RATING, KOTLIN PLATFORMS, KOTLIN VERSIONS
+-- Link to Library, Repo just for getting likes
+CREATE TABLE REPOSITORY
+(
+    NAME        VARCHAR(1000)            NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    VERSION     BIGINT                   NOT NULL DEFAULT 0,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE TABLE COMMENT
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    PARENT_ID   BIGINT NULL REFERENCES COMMENT (ID),
+    KOTLINER_ID BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    CONTENT     TEXT                     NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    VERSION BIGINT NOT NULL DEFAULT 0
+);
+
+-- TODO
+CREATE TABLE LIBRARY
+(
+    ID    BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE VARCHAR(500) NOT NULL
+);
+
+-- TODO
+CREATE TABLE LIBRARY_VERSION
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    LIBRARY_ID  BIGINT                   NOT NULL REFERENCES LIBRARY (ID),
+    GROUP_ID    VARCHAR(1000)            NOT NULL,
+    ARTIFACT_ID VARCHAR(1000)            NOT NULL,
+    VERSION     VARCHAR(100)             NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+-- single article can reference multiple libraries
+CREATE TABLE ARTICLE_LIBRARY
+(
+    ARTICLE_ID BIGINT NOT NULL REFERENCES ARTICLE (ID),
+    LIBRARY_ID BIGINT NOT NULL REFERENCES LIBRARY (ID),
+    PRIMARY KEY (ARTICLE_ID, LIBRARY_ID)
+);
+
+-- vacancy for kotlin jobs
+CREATE TABLE VACANCY
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE       VARCHAR(500)             NOT NULL,
+    LOCATION    VARCHAR(500)             NOT NULL,
+    COMPANY_ID  BIGINT                   NOT NULL REFERENCES COMPANY (ID),
+    KOTLINER_ID BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    WORKPLACE   VARCHAR(500)             NOT NULL,
+    EMPLOYMENT  VARCHAR(500)             NOT NULL,
+    SALARY      VARCHAR(500)             NOT NULL,
+    CONTACT     VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE TABLE VIDEO
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE       VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    LANGUAGE    VARCHAR(50)              NOT NULL,
+    URL         VARCHAR(500)             NOT NULL,
+    DURATION    INT                      NOT NULL,
+    THUMBNAIL   VARCHAR(500)             NOT NULL,
+    PUBLISHED   TIMESTAMP WITH TIME ZONE NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+-- single video can have multiple authors
+CREATE TABLE VIDEO_SPEAKER
+(
+    VIDEO_ID    BIGINT NOT NULL REFERENCES VIDEO (ID),
+    KOTLINER_ID BIGINT NOT NULL REFERENCES KOTLINER (ID),
+    PRIMARY KEY (VIDEO_ID, KOTLINER_ID)
+);
+
+-- single video can reference multiple libraries
+CREATE TABLE VIDEO_LIBRARY
+(
+    VIDEO_ID   BIGINT NOT NULL REFERENCES VIDEO (ID),
+    LIBRARY_ID BIGINT NOT NULL REFERENCES LIBRARY (ID),
+    PRIMARY KEY (VIDEO_ID, LIBRARY_ID)
+);
+
+CREATE TABLE COURSE
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE       VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    LANGUAGE    VARCHAR(50)              NOT NULL,
+    PRICE       INT                      NOT NULL,
+    URL         VARCHAR(500)             NOT NULL,
+    THUMBNAIL   VARCHAR(500)             NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+-- single course can have multiple authors
+CREATE TABLE COURSE_SPEAKER
+(
+    COURSE_ID   BIGINT NOT NULL REFERENCES COURSE (ID),
+    KOTLINER_ID BIGINT NOT NULL REFERENCES KOTLINER (ID),
+    PRIMARY KEY (COURSE_ID, KOTLINER_ID)
+);
+
+-- single course can reference multiple libraries
+CREATE TABLE COURSE_LIBRARY
+(
+    COURSE_ID  BIGINT NOT NULL REFERENCES COURSE (ID),
+    LIBRARY_ID BIGINT NOT NULL REFERENCES LIBRARY (ID),
+    PRIMARY KEY (COURSE_ID, LIBRARY_ID)
+);
+
+CREATE TABLE BOOK
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE       VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    LANGUAGE    VARCHAR(50)              NOT NULL,
+    PRICE       INT                      NOT NULL,
+    URL         VARCHAR(500)             NOT NULL,
+    THUMBNAIL   VARCHAR(500)             NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+-- single book can have multiple authors
+CREATE TABLE BOOK_SPEAKER
+(
+    BOOK_ID     BIGINT NOT NULL REFERENCES BOOK (ID),
+    KOTLINER_ID BIGINT NOT NULL REFERENCES KOTLINER (ID),
+    PRIMARY KEY (BOOK_ID, KOTLINER_ID)
+);
+
+-- single book can reference multiple libraries
+CREATE TABLE BOOK_LIBRARY
+(
+    BOOK_ID    BIGINT NOT NULL REFERENCES BOOK (ID),
+    LIBRARY_ID BIGINT NOT NULL REFERENCES LIBRARY (ID),
+    PRIMARY KEY (BOOK_ID, LIBRARY_ID)
+);
+
+-- aggregate of likes per entity, built using KOTLINER_ENTITY_STATE data
+CREATE TABLE DM_LIKES
+(
+    ENTITY_ID BIGINT                   NOT NULL PRIMARY KEY,
+    LIKES     INT                      NOT NULL,
+    DISLIKES  INT                      NOT NULL,
+    -- Will be used to optimistically update count,
+    -- until offline process catchup with user action:
+    --
+    -- DM_LIKES
+    --   ENTITY_ID | LIKES | DISLIKES | UPDATED
+    --   1         | 10    | 5        | 2022-12-18 00:00:00
+    --
+    -- KOTLINER_ENTITY_STATE
+    --   KOTLINER_ID | ENTITY_ID | LIKE_STATE | READ_STATE | CREATED
+    --   1           | 1         | LIKE       | READ       | 2022-12-18 00:00:01
+    --
+    -- UI will show 11 likes and "clicked" state of a like button,
+    --  since KOTLINER_ENTITY_STATE has newer CREATED timestamp
+    UPDATED   TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE TYPE READ_STATE_ENUM AS ENUM ('READ', 'UNREAD', 'IN_QUEUE');
+
+-- user can add to backlog any entity
+CREATE TABLE KOTLINER_READ_ENTITY_STATE
+(
+    KOTLINER_ID BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    ENTITY_ID   BIGINT                   NOT NULL,
+    READ_STATE  READ_STATE_ENUM          NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    PRIMARY KEY (KOTLINER_ID, ENTITY_ID)
+);
+
+CREATE TYPE LIKE_STATE_ENUM AS ENUM ('LIKE', 'DISLIKE', 'NEUTRAL');
+
+-- user can like/dislike any entity
+CREATE TABLE KOTLINER_LIKE_ENTITY_STATE
+(
+    KOTLINER_ID BIGINT                   NOT NULL REFERENCES KOTLINER (ID),
+    ENTITY_ID   BIGINT                   NOT NULL,
+    LIKE_STATE  LIKE_STATE_ENUM          NOT NULL,
+    -- DM: likes:50 timestamp:1
+    -- STATE: LIKE timestamp:1 (adjustment ignored)
+    -- UPDATE: DISLIKE timestamp:2 (adjustment set to -1, since updating from even timestamp) -> UI will show 49 + adjustment likes -> 48 (expected 48)
+    -- UPDATE: LIKE timestamp:3 -> UI will show 51 + adjustment likes -> 50 (expected 50)
+    -- UPDATE: NEUTRAL timestamp:4 -> UI will show 50 + adjustment likes -> 49 (expected 49)
+
+    -- DM: likes:50 timestamp:1
+    -- STATE: DISLIKE timestamp:1 (adjustment ignored)
+    -- UPDATE: LIKE timestamp:2 (adjustment set to +1, since updating from even timestamp) -> UI will show 51 + adjustment likes -> 52 (expected 52)
+    -- UPDATE: DISLIKE timestamp:3 -> UI will show 49 + adjustment likes -> 50 (expected 50)
+    -- UPDATE: NEUTRAL timestamp:4 -> UI will show 50 + adjustment likes -> 51 (expected 51)
+
+    -- DM: likes:50 timestamp:1
+    -- STATE: NEUTRAL timestamp:1 (adjustment ignored)
+    -- UPDATE: LIKE timestamp:2 (adjustment set to 0, since updating from even timestamp) -> UI will show 51 + adjustment likes -> 51 (expected 51)
+    -- UPDATE: DISLIKE timestamp:3 -> UI will show 49 + adjustment likes -> 49 (expected 49)
+    -- UPDATE: NEUTRAL timestamp:4 -> UI will show 50 + adjustment likes -> 50 (expected 50)
+    ADJUSTMENT  INT                      NOT NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    -- UPDATED will be used for sorting, recent updated going to the top of reading list
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    PRIMARY KEY (KOTLINER_ID, ENTITY_ID)
+);
+
+-- each entity can have multiple topics
+CREATE TABLE ENTITY_TOPIC
+(
+    ENTITY_ID BIGINT                   NOT NULL,
+    TOPIC     VARCHAR(100)             NOT NULL,
+    CREATED   TIMESTAMP WITH TIME ZONE NOT NULL
+);
+
+CREATE TABLE BOOKMARK
+(
+    ID          BIGINT PRIMARY KEY DEFAULT nextval('ENTITY_ID_SEQ'),
+    TITLE       VARCHAR(500)             NOT NULL,
+    DESCRIPTION TEXT                     NOT NULL,
+    LANGUAGE    VARCHAR(50)              NOT NULL,
+    URL         VARCHAR(500)             NOT NULL,
+    THUMBNAIL   VARCHAR(500) NULL,
+    CREATED     TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED     TIMESTAMP WITH TIME ZONE NOT NULL
+);

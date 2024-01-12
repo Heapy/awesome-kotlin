@@ -4,6 +4,9 @@ package link.kotlin.server
 
 import at.favre.lib.crypto.bcrypt.BCrypt
 import at.favre.lib.crypto.bcrypt.LongPasswordStrategies
+import com.charleskorn.kaml.Yaml
+import com.fasterxml.jackson.dataformat.xml.XmlMapper
+import com.fasterxml.jackson.module.kotlin.kotlinModule
 import link.kotlin.server.plugins.configureMonitoring
 import link.kotlin.server.plugins.configureSockets
 import com.typesafe.config.Config
@@ -30,12 +33,14 @@ import link.kotlin.server.dao.DefaultKotlinerDao
 import link.kotlin.server.dao.DefaultKugDao
 import link.kotlin.server.dao.KotlinerDao
 import link.kotlin.server.dao.KugDao
+import link.kotlin.server.kug.KugModule
 import link.kotlin.server.routes.LinkSource
 import link.kotlin.server.routes.kugs
 import link.kotlin.server.routes.links
 import link.kotlin.server.routes.login
 import link.kotlin.server.routes.ping
 import link.kotlin.server.routes.register
+import link.kotlin.server.utils.close
 import link.kotlin.server.utils.logger
 import org.flywaydb.core.Flyway
 import org.jooq.DSLContext
@@ -54,7 +59,39 @@ fun main() {
     ApplicationFactory().run()
 }
 
-open class ApplicationFactory {
+open class SharedModule : AutoCloseable {
+    open val httpClient by lazy {
+        _httpClient.value
+    }
+
+    private val _httpClient = lazy {
+        HttpClient(ClientCIO) {
+            install(ContentNegotiation) {
+                json(json = Json {
+                    ignoreUnknownKeys = true
+                })
+            }
+        }
+    }
+
+    open val xmlMapper by lazy {
+        XmlMapper().apply {
+            registerModule(kotlinModule { })
+        }
+    }
+
+    open val yaml by lazy {
+        Yaml.default
+    }
+
+    override fun close() {
+        if (_httpClient.isInitialized()) _httpClient.value.close {}
+    }
+}
+
+open class ApplicationFactory(
+    open val sharedModule: SharedModule = SharedModule(),
+) {
     open val shutdownHandler: ShutdownManager by lazy {
         JvmShutdownManager(
             listOf(
@@ -75,14 +112,10 @@ open class ApplicationFactory {
         LinkSource()
     }
 
-    open val httpClient by lazy {
-        HttpClient(ClientCIO) {
-            install(ContentNegotiation) {
-                json(json = Json {
-                    ignoreUnknownKeys = true
-                })
-            }
-        }
+    open val kugModule by lazy {
+        KugModule(
+            sharedModule = sharedModule,
+        )
     }
 
     open val ktorServer by lazy {
@@ -98,7 +131,7 @@ open class ApplicationFactory {
                 login(jwtConfig, bcryptVerifier, kotlinerDao)
                 register(bcryptHasher, kotlinerDao)
                 links(linkSource.get())
-                kugs(httpClient, kugDao)
+                kugs(kugModule.kugDownloadService, kugDao)
 
                 authenticate("jwt") {
 
@@ -117,14 +150,14 @@ open class ApplicationFactory {
         shutdownHandler.registerHook()
         flyway.migrate()
         ktorServer.start(wait = true)
-        logger.info("Server started in {}", runtimeMXBean.uptime.milliseconds)
+        log.info("Server started in {}", runtimeMXBean.uptime.milliseconds)
     }
 
     open val runtimeMXBean: RuntimeMXBean by lazy {
         ManagementFactory.getRuntimeMXBean()
     }
 
-    open val logger: Logger by lazy {
+    open val log: Logger by lazy {
         logger<ApplicationFactory>()
     }
 

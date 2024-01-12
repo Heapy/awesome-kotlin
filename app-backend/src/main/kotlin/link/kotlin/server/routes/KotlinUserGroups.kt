@@ -1,8 +1,5 @@
 package link.kotlin.server.routes
 
-import io.ktor.client.HttpClient
-import io.ktor.client.call.body
-import io.ktor.client.request.get
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.application.call
 import io.ktor.server.response.respond
@@ -10,10 +7,12 @@ import io.ktor.server.routing.Routing
 import io.ktor.server.routing.get
 import io.ktor.server.routing.post
 import kotlinx.serialization.Serializable
+import link.kotlin.server.dao.KugCreatePrj
 import link.kotlin.server.dao.KugDao
+import link.kotlin.server.kug.KugDownloadService
 
 fun Routing.kugs(
-    httpClient: HttpClient,
+    kugDownloadService: KugDownloadService,
     kugDao: KugDao,
 ) {
     get("/kugs") {
@@ -21,21 +20,20 @@ fun Routing.kugs(
     }
 
     post("/kugs") {
-        httpClient
-            .get("https://kotlinlang.org/data/user-groups.json")
-            .body<List<KotlinUserGroups>>()
-            .forEach { kugs ->
-                kugs.groups.forEach { kug ->
-                    kugDao.create(KugDao.CreateView(
-                        continent = kugs.section,
-                        name = kug.name,
-                        country = kug.country,
-                        url = kug.url,
-                        latitude = kug.position?.lat,
-                        longitude = kug.position?.lng
-                    ))
+        kugDownloadService.pull()
+            .map { section ->
+                section.groups.map { group ->
+                    KugCreatePrj(
+                        continent = section.section,
+                        name = group.name,
+                        country = group.country,
+                        url = group.url,
+                        latitude = group.position?.lat,
+                        longitude = group.position?.lng
+                    )
                 }
             }
+            .flatten()
 
         call.respond(HttpStatusCode.Accepted)
     }

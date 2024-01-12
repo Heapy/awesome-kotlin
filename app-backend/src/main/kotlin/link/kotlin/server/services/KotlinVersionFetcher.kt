@@ -17,6 +17,7 @@ interface KotlinVersionFetcher {
 }
 
 private class MavenCentralKotlinVersionFetcher(
+    private val xmlMapper: XmlMapper,
     private val httpClient: HttpClient,
 ) : KotlinVersionFetcher {
     override suspend fun getLatestVersions(
@@ -26,11 +27,7 @@ private class MavenCentralKotlinVersionFetcher(
 
         val xml = httpClient.get(url).bodyAsText()
 
-        val mapper = XmlMapper().also {
-            it.registerModule(kotlinModule { })
-        }
-
-        val metadata = mapper.readValue(xml, MavenMetadata::class.java)
+        val metadata = xmlMapper.readValue(xml, MavenMetadata::class.java)
         val versions = metadata.versioning.versions
 
         return branches.map { findMax(versions, it) }

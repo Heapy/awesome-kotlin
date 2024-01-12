@@ -5,6 +5,11 @@ package link.kotlin.server.jooq.main.tables.pojos
 
 
 import java.io.Serializable
+import java.time.OffsetDateTime
+
+import link.kotlin.server.jooq.main.enums.KotlinerStatusEnum
+
+import org.jooq.JSONB
 
 
 /**
@@ -13,6 +18,10 @@ import java.io.Serializable
 @Suppress("UNCHECKED_CAST")
 data class Kotliner(
     var id: Long? = null,
+    var created: OffsetDateTime? = null,
+    var updated: OffsetDateTime? = null,
+    var updatedBy: Long? = null,
+    var status: KotlinerStatusEnum? = null,
     var avatar: String? = null,
     var description: String? = null,
     var normalizedEmail: String? = null,
@@ -21,77 +30,115 @@ data class Kotliner(
     var lastName: String? = null,
     var nickname: String? = null,
     var password: String? = null,
-    var totp: String? = null
+    var totp: String? = null,
+    var meta: JSONB? = null,
+    var version: Long? = null
 ): Serializable {
 
 
     override fun equals(other: Any?): Boolean {
         if (this === other)
             return true
-        if (other === null)
+        if (other == null)
             return false
         if (this::class != other::class)
             return false
         val o: Kotliner = other as Kotliner
-        if (this.id === null) {
-            if (o.id !== null)
+        if (this.id == null) {
+            if (o.id != null)
                 return false
         }
         else if (this.id != o.id)
             return false
-        if (this.avatar === null) {
-            if (o.avatar !== null)
+        if (this.created == null) {
+            if (o.created != null)
+                return false
+        }
+        else if (this.created != o.created)
+            return false
+        if (this.updated == null) {
+            if (o.updated != null)
+                return false
+        }
+        else if (this.updated != o.updated)
+            return false
+        if (this.updatedBy == null) {
+            if (o.updatedBy != null)
+                return false
+        }
+        else if (this.updatedBy != o.updatedBy)
+            return false
+        if (this.status == null) {
+            if (o.status != null)
+                return false
+        }
+        else if (this.status != o.status)
+            return false
+        if (this.avatar == null) {
+            if (o.avatar != null)
                 return false
         }
         else if (this.avatar != o.avatar)
             return false
-        if (this.description === null) {
-            if (o.description !== null)
+        if (this.description == null) {
+            if (o.description != null)
                 return false
         }
         else if (this.description != o.description)
             return false
-        if (this.normalizedEmail === null) {
-            if (o.normalizedEmail !== null)
+        if (this.normalizedEmail == null) {
+            if (o.normalizedEmail != null)
                 return false
         }
         else if (this.normalizedEmail != o.normalizedEmail)
             return false
-        if (this.originalEmail === null) {
-            if (o.originalEmail !== null)
+        if (this.originalEmail == null) {
+            if (o.originalEmail != null)
                 return false
         }
         else if (this.originalEmail != o.originalEmail)
             return false
-        if (this.firstName === null) {
-            if (o.firstName !== null)
+        if (this.firstName == null) {
+            if (o.firstName != null)
                 return false
         }
         else if (this.firstName != o.firstName)
             return false
-        if (this.lastName === null) {
-            if (o.lastName !== null)
+        if (this.lastName == null) {
+            if (o.lastName != null)
                 return false
         }
         else if (this.lastName != o.lastName)
             return false
-        if (this.nickname === null) {
-            if (o.nickname !== null)
+        if (this.nickname == null) {
+            if (o.nickname != null)
                 return false
         }
         else if (this.nickname != o.nickname)
             return false
-        if (this.password === null) {
-            if (o.password !== null)
+        if (this.password == null) {
+            if (o.password != null)
                 return false
         }
         else if (this.password != o.password)
             return false
-        if (this.totp === null) {
-            if (o.totp !== null)
+        if (this.totp == null) {
+            if (o.totp != null)
                 return false
         }
         else if (this.totp != o.totp)
+            return false
+        if (this.meta == null) {
+            if (o.meta != null)
+                return false
+        }
+        else if (this.meta != o.meta)
+            return false
+        if (this.version == null) {
+            if (o.version != null)
+                return false
+        }
+        else if (this.version != o.version)
             return false
         return true
     }
@@ -99,16 +146,22 @@ data class Kotliner(
     override fun hashCode(): Int {
         val prime = 31
         var result = 1
-        result = prime * result + (if (this.id === null) 0 else this.id.hashCode())
-        result = prime * result + (if (this.avatar === null) 0 else this.avatar.hashCode())
-        result = prime * result + (if (this.description === null) 0 else this.description.hashCode())
-        result = prime * result + (if (this.normalizedEmail === null) 0 else this.normalizedEmail.hashCode())
-        result = prime * result + (if (this.originalEmail === null) 0 else this.originalEmail.hashCode())
-        result = prime * result + (if (this.firstName === null) 0 else this.firstName.hashCode())
-        result = prime * result + (if (this.lastName === null) 0 else this.lastName.hashCode())
-        result = prime * result + (if (this.nickname === null) 0 else this.nickname.hashCode())
-        result = prime * result + (if (this.password === null) 0 else this.password.hashCode())
-        result = prime * result + (if (this.totp === null) 0 else this.totp.hashCode())
+        result = prime * result + (if (this.id == null) 0 else this.id.hashCode())
+        result = prime * result + (if (this.created == null) 0 else this.created.hashCode())
+        result = prime * result + (if (this.updated == null) 0 else this.updated.hashCode())
+        result = prime * result + (if (this.updatedBy == null) 0 else this.updatedBy.hashCode())
+        result = prime * result + (if (this.status == null) 0 else this.status.hashCode())
+        result = prime * result + (if (this.avatar == null) 0 else this.avatar.hashCode())
+        result = prime * result + (if (this.description == null) 0 else this.description.hashCode())
+        result = prime * result + (if (this.normalizedEmail == null) 0 else this.normalizedEmail.hashCode())
+        result = prime * result + (if (this.originalEmail == null) 0 else this.originalEmail.hashCode())
+        result = prime * result + (if (this.firstName == null) 0 else this.firstName.hashCode())
+        result = prime * result + (if (this.lastName == null) 0 else this.lastName.hashCode())
+        result = prime * result + (if (this.nickname == null) 0 else this.nickname.hashCode())
+        result = prime * result + (if (this.password == null) 0 else this.password.hashCode())
+        result = prime * result + (if (this.totp == null) 0 else this.totp.hashCode())
+        result = prime * result + (if (this.meta == null) 0 else this.meta.hashCode())
+        result = prime * result + (if (this.version == null) 0 else this.version.hashCode())
         return result
     }
 
@@ -116,6 +169,10 @@ data class Kotliner(
         val sb = StringBuilder("Kotliner (")
 
         sb.append(id)
+        sb.append(", ").append(created)
+        sb.append(", ").append(updated)
+        sb.append(", ").append(updatedBy)
+        sb.append(", ").append(status)
         sb.append(", ").append(avatar)
         sb.append(", ").append(description)
         sb.append(", ").append(normalizedEmail)
@@ -125,6 +182,8 @@ data class Kotliner(
         sb.append(", ").append(nickname)
         sb.append(", ").append(password)
         sb.append(", ").append(totp)
+        sb.append(", ").append(meta)
+        sb.append(", ").append(version)
 
         sb.append(")")
         return sb.toString()

@@ -4,10 +4,11 @@
 package link.kotlin.server.jooq.main.tables.daos
 
 
-import java.time.LocalDate
+import java.time.OffsetDateTime
 
 import kotlin.collections.List
 
+import link.kotlin.server.jooq.main.enums.KugStatusEnum
 import link.kotlin.server.jooq.main.tables.Kug
 import link.kotlin.server.jooq.main.tables.records.KugRecord
 
@@ -43,6 +44,61 @@ open class KugDao(configuration: Configuration?) : DAOImpl<KugRecord, link.kotli
      * Fetch a unique record that has <code>id = value</code>
      */
     fun fetchOneById(value: Long): link.kotlin.server.jooq.main.tables.pojos.Kug? = fetchOne(Kug.KUG.ID, value)
+
+    /**
+     * Fetch records that have <code>created BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfCreated(lowerInclusive: OffsetDateTime?, upperInclusive: OffsetDateTime?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.CREATED, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>created IN (values)</code>
+     */
+    fun fetchByCreated(vararg values: OffsetDateTime): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.CREATED, *values)
+
+    /**
+     * Fetch records that have <code>updated BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfUpdated(lowerInclusive: OffsetDateTime?, upperInclusive: OffsetDateTime?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.UPDATED, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>updated IN (values)</code>
+     */
+    fun fetchByUpdated(vararg values: OffsetDateTime): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.UPDATED, *values)
+
+    /**
+     * Fetch records that have <code>created_by BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfCreatedBy(lowerInclusive: Long?, upperInclusive: Long?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.CREATED_BY, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>created_by IN (values)</code>
+     */
+    fun fetchByCreatedBy(vararg values: Long): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.CREATED_BY, *values.toTypedArray())
+
+    /**
+     * Fetch records that have <code>updated_by BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfUpdatedBy(lowerInclusive: Long?, upperInclusive: Long?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.UPDATED_BY, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>updated_by IN (values)</code>
+     */
+    fun fetchByUpdatedBy(vararg values: Long): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.UPDATED_BY, *values.toTypedArray())
+
+    /**
+     * Fetch records that have <code>status BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfStatus(lowerInclusive: KugStatusEnum?, upperInclusive: KugStatusEnum?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.STATUS, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>status IN (values)</code>
+     */
+    fun fetchByStatus(vararg values: KugStatusEnum): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.STATUS, *values)
 
     /**
      * Fetch records that have <code>continent BETWEEN lowerInclusive AND
@@ -89,6 +145,17 @@ open class KugDao(configuration: Configuration?) : DAOImpl<KugRecord, link.kotli
     fun fetchByUrl(vararg values: String): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.URL, *values)
 
     /**
+     * Fetch records that have <code>slug BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfSlug(lowerInclusive: String?, upperInclusive: String?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.SLUG, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>slug IN (values)</code>
+     */
+    fun fetchBySlug(vararg values: String): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.SLUG, *values)
+
+    /**
      * Fetch records that have <code>latitude BETWEEN lowerInclusive AND
      * upperInclusive</code>
      */
@@ -111,13 +178,13 @@ open class KugDao(configuration: Configuration?) : DAOImpl<KugRecord, link.kotli
     fun fetchByLongitude(vararg values: Double): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.LONGITUDE, *values.toTypedArray())
 
     /**
-     * Fetch records that have <code>created BETWEEN lowerInclusive AND
+     * Fetch records that have <code>version BETWEEN lowerInclusive AND
      * upperInclusive</code>
      */
-    fun fetchRangeOfCreated(lowerInclusive: LocalDate?, upperInclusive: LocalDate?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.CREATED, lowerInclusive, upperInclusive)
+    fun fetchRangeOfVersion(lowerInclusive: Long?, upperInclusive: Long?): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetchRange(Kug.KUG.VERSION, lowerInclusive, upperInclusive)
 
     /**
-     * Fetch records that have <code>created IN (values)</code>
+     * Fetch records that have <code>version IN (values)</code>
      */
-    fun fetchByCreated(vararg values: LocalDate): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.CREATED, *values)
+    fun fetchByVersion(vararg values: Long): List<link.kotlin.server.jooq.main.tables.pojos.Kug> = fetch(Kug.KUG.VERSION, *values.toTypedArray())
 }

@@ -4,12 +4,16 @@
 package link.kotlin.server.jooq.main.tables.daos
 
 
+import java.time.OffsetDateTime
+
 import kotlin.collections.List
 
+import link.kotlin.server.jooq.main.enums.KotlinerStatusEnum
 import link.kotlin.server.jooq.main.tables.Kotliner
 import link.kotlin.server.jooq.main.tables.records.KotlinerRecord
 
 import org.jooq.Configuration
+import org.jooq.JSONB
 import org.jooq.impl.DAOImpl
 
 
@@ -41,6 +45,50 @@ open class KotlinerDao(configuration: Configuration?) : DAOImpl<KotlinerRecord, 
      * Fetch a unique record that has <code>id = value</code>
      */
     fun fetchOneById(value: Long): link.kotlin.server.jooq.main.tables.pojos.Kotliner? = fetchOne(Kotliner.KOTLINER.ID, value)
+
+    /**
+     * Fetch records that have <code>created BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfCreated(lowerInclusive: OffsetDateTime?, upperInclusive: OffsetDateTime?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.CREATED, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>created IN (values)</code>
+     */
+    fun fetchByCreated(vararg values: OffsetDateTime): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.CREATED, *values)
+
+    /**
+     * Fetch records that have <code>updated BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfUpdated(lowerInclusive: OffsetDateTime?, upperInclusive: OffsetDateTime?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.UPDATED, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>updated IN (values)</code>
+     */
+    fun fetchByUpdated(vararg values: OffsetDateTime): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.UPDATED, *values)
+
+    /**
+     * Fetch records that have <code>updated_by BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfUpdatedBy(lowerInclusive: Long?, upperInclusive: Long?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.UPDATED_BY, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>updated_by IN (values)</code>
+     */
+    fun fetchByUpdatedBy(vararg values: Long): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.UPDATED_BY, *values.toTypedArray())
+
+    /**
+     * Fetch records that have <code>status BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfStatus(lowerInclusive: KotlinerStatusEnum?, upperInclusive: KotlinerStatusEnum?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.STATUS, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>status IN (values)</code>
+     */
+    fun fetchByStatus(vararg values: KotlinerStatusEnum): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.STATUS, *values)
 
     /**
      * Fetch records that have <code>avatar BETWEEN lowerInclusive AND
@@ -150,4 +198,26 @@ open class KotlinerDao(configuration: Configuration?) : DAOImpl<KotlinerRecord, 
      * Fetch records that have <code>totp IN (values)</code>
      */
     fun fetchByTotp(vararg values: String): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.TOTP, *values)
+
+    /**
+     * Fetch records that have <code>meta BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfMeta(lowerInclusive: JSONB?, upperInclusive: JSONB?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.META, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>meta IN (values)</code>
+     */
+    fun fetchByMeta(vararg values: JSONB): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.META, *values)
+
+    /**
+     * Fetch records that have <code>version BETWEEN lowerInclusive AND
+     * upperInclusive</code>
+     */
+    fun fetchRangeOfVersion(lowerInclusive: Long?, upperInclusive: Long?): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetchRange(Kotliner.KOTLINER.VERSION, lowerInclusive, upperInclusive)
+
+    /**
+     * Fetch records that have <code>version IN (values)</code>
+     */
+    fun fetchByVersion(vararg values: Long): List<link.kotlin.server.jooq.main.tables.pojos.Kotliner> = fetch(Kotliner.KOTLINER.VERSION, *values.toTypedArray())
 }

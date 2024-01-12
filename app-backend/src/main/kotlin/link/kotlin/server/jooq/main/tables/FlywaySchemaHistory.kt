@@ -5,8 +5,8 @@ package link.kotlin.server.jooq.main.tables
 
 
 import java.time.LocalDateTime
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import link.kotlin.server.jooq.main.Public
@@ -14,21 +14,24 @@ import link.kotlin.server.jooq.main.indexes.FLYWAY_SCHEMA_HISTORY_S_IDX
 import link.kotlin.server.jooq.main.keys.FLYWAY_SCHEMA_HISTORY_PK
 import link.kotlin.server.jooq.main.tables.records.FlywaySchemaHistoryRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row10
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
-import org.jooq.impl.Internal
 import org.jooq.impl.SQLDataType
 import org.jooq.impl.TableImpl
 
@@ -39,19 +42,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class FlywaySchemaHistory(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, FlywaySchemaHistoryRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, FlywaySchemaHistoryRecord>?,
+    parentPath: InverseForeignKey<out Record, FlywaySchemaHistoryRecord>?,
     aliased: Table<FlywaySchemaHistoryRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<FlywaySchemaHistoryRecord>(
     alias,
     Public.PUBLIC,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -104,7 +111,7 @@ open class FlywaySchemaHistory(
     /**
      * The column <code>public.flyway_schema_history.installed_on</code>.
      */
-    val INSTALLED_ON: TableField<FlywaySchemaHistoryRecord, LocalDateTime?> = createField(DSL.name("installed_on"), SQLDataType.LOCALDATETIME(6).nullable(false).defaultValue(DSL.field("now()", SQLDataType.LOCALDATETIME)), this, "")
+    val INSTALLED_ON: TableField<FlywaySchemaHistoryRecord, LocalDateTime?> = createField(DSL.name("installed_on"), SQLDataType.LOCALDATETIME(6).nullable(false).defaultValue(DSL.field(DSL.raw("now()"), SQLDataType.LOCALDATETIME)), this, "")
 
     /**
      * The column <code>public.flyway_schema_history.execution_time</code>.
@@ -116,8 +123,9 @@ open class FlywaySchemaHistory(
      */
     val SUCCESS: TableField<FlywaySchemaHistoryRecord, Boolean?> = createField(DSL.name("success"), SQLDataType.BOOLEAN.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<FlywaySchemaHistoryRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<FlywaySchemaHistoryRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<FlywaySchemaHistoryRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<FlywaySchemaHistoryRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<FlywaySchemaHistoryRecord>?, where: Condition): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>public.flyway_schema_history</code> table
@@ -135,14 +143,12 @@ open class FlywaySchemaHistory(
      * Create a <code>public.flyway_schema_history</code> table reference
      */
     constructor(): this(DSL.name("flyway_schema_history"), null)
-
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, FlywaySchemaHistoryRecord>): this(Internal.createPathAlias(child, key), child, key, FLYWAY_SCHEMA_HISTORY, null)
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIndexes(): List<Index> = listOf(FLYWAY_SCHEMA_HISTORY_S_IDX)
     override fun getPrimaryKey(): UniqueKey<FlywaySchemaHistoryRecord> = FLYWAY_SCHEMA_HISTORY_PK
     override fun `as`(alias: String): FlywaySchemaHistory = FlywaySchemaHistory(DSL.name(alias), this)
     override fun `as`(alias: Name): FlywaySchemaHistory = FlywaySchemaHistory(alias, this)
-    override fun `as`(alias: Table<*>): FlywaySchemaHistory = FlywaySchemaHistory(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): FlywaySchemaHistory = FlywaySchemaHistory(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -157,21 +163,55 @@ open class FlywaySchemaHistory(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): FlywaySchemaHistory = FlywaySchemaHistory(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row10 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row10<Int?, String?, String?, String?, String?, Int?, String?, LocalDateTime?, Int?, Boolean?> = super.fieldsRow() as Row10<Int?, String?, String?, String?, String?, Int?, String?, LocalDateTime?, Int?, Boolean?>
+    override fun rename(name: Table<*>): FlywaySchemaHistory = FlywaySchemaHistory(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (Int?, String?, String?, String?, String?, Int?, String?, LocalDateTime?, Int?, Boolean?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition): FlywaySchemaHistory = FlywaySchemaHistory(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (Int?, String?, String?, String?, String?, Int?, String?, LocalDateTime?, Int?, Boolean?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): FlywaySchemaHistory = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition): FlywaySchemaHistory = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>): FlywaySchemaHistory = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): FlywaySchemaHistory = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): FlywaySchemaHistory = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): FlywaySchemaHistory = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): FlywaySchemaHistory = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): FlywaySchemaHistory = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): FlywaySchemaHistory = where(DSL.notExists(select))
 }

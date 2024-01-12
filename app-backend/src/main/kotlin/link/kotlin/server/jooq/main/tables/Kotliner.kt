@@ -4,25 +4,64 @@
 package link.kotlin.server.jooq.main.tables
 
 
-import java.util.function.Function
+import java.time.OffsetDateTime
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import link.kotlin.server.jooq.main.Public
+import link.kotlin.server.jooq.main.enums.KotlinerStatusEnum
+import link.kotlin.server.jooq.main.keys.ARTICLE_AUTHOR__ARTICLE_AUTHOR_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.ARTICLE__ARTICLE_CREATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.ARTICLE__ARTICLE_UPDATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.BOOK_SPEAKER__BOOK_SPEAKER_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.COMMENT__COMMENT_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.COURSE_SPEAKER__COURSE_SPEAKER_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.KOTLINER_LIKE_ENTITY_STATE__KOTLINER_LIKE_ENTITY_STATE_KOTLINER_ID_FKEY
 import link.kotlin.server.jooq.main.keys.KOTLINER_PKEY
+import link.kotlin.server.jooq.main.keys.KOTLINER_READ_ENTITY_STATE__KOTLINER_READ_ENTITY_STATE_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.KOTLINER__KOTLINER_UPDATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.KUG_MEMBER__KUG_MEMBER_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.KUG__KUG_CREATED_BY_FKEY
+import link.kotlin.server.jooq.main.keys.KUG__KUG_UPDATED_BY_FKEY
 import link.kotlin.server.jooq.main.keys.UNIQUE_KOTLINER_EMAIL
 import link.kotlin.server.jooq.main.keys.UNIQUE_KOTLINER_NICKNAME
+import link.kotlin.server.jooq.main.keys.VACANCY__VACANCY_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.keys.VIDEO_SPEAKER__VIDEO_SPEAKER_KOTLINER_ID_FKEY
+import link.kotlin.server.jooq.main.tables.Article.ArticlePath
+import link.kotlin.server.jooq.main.tables.ArticleAuthor.ArticleAuthorPath
+import link.kotlin.server.jooq.main.tables.Book.BookPath
+import link.kotlin.server.jooq.main.tables.BookSpeaker.BookSpeakerPath
+import link.kotlin.server.jooq.main.tables.Comment.CommentPath
+import link.kotlin.server.jooq.main.tables.Course.CoursePath
+import link.kotlin.server.jooq.main.tables.CourseSpeaker.CourseSpeakerPath
+import link.kotlin.server.jooq.main.tables.Kotliner.KotlinerPath
+import link.kotlin.server.jooq.main.tables.KotlinerLikeEntityState.KotlinerLikeEntityStatePath
+import link.kotlin.server.jooq.main.tables.KotlinerReadEntityState.KotlinerReadEntityStatePath
+import link.kotlin.server.jooq.main.tables.Kug.KugPath
+import link.kotlin.server.jooq.main.tables.KugEvent.KugEventPath
+import link.kotlin.server.jooq.main.tables.KugMember.KugMemberPath
+import link.kotlin.server.jooq.main.tables.Vacancy.VacancyPath
+import link.kotlin.server.jooq.main.tables.Video.VideoPath
+import link.kotlin.server.jooq.main.tables.VideoSpeaker.VideoSpeakerPath
 import link.kotlin.server.jooq.main.tables.records.KotlinerRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Identity
+import org.jooq.InverseForeignKey
+import org.jooq.JSONB
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row10
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -39,19 +78,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Kotliner(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, KotlinerRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, KotlinerRecord>?,
+    parentPath: InverseForeignKey<out Record, KotlinerRecord>?,
     aliased: Table<KotlinerRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<KotlinerRecord>(
     alias,
     Public.PUBLIC,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -70,6 +113,26 @@ open class Kotliner(
      * The column <code>public.kotliner.id</code>.
      */
     val ID: TableField<KotlinerRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+
+    /**
+     * The column <code>public.kotliner.created</code>.
+     */
+    val CREATED: TableField<KotlinerRecord, OffsetDateTime?> = createField(DSL.name("created"), SQLDataType.TIMESTAMPWITHTIMEZONE(6).nullable(false), this, "")
+
+    /**
+     * The column <code>public.kotliner.updated</code>.
+     */
+    val UPDATED: TableField<KotlinerRecord, OffsetDateTime?> = createField(DSL.name("updated"), SQLDataType.TIMESTAMPWITHTIMEZONE(6).nullable(false), this, "")
+
+    /**
+     * The column <code>public.kotliner.updated_by</code>.
+     */
+    val UPDATED_BY: TableField<KotlinerRecord, Long?> = createField(DSL.name("updated_by"), SQLDataType.BIGINT.nullable(false), this, "")
+
+    /**
+     * The column <code>public.kotliner.status</code>.
+     */
+    val STATUS: TableField<KotlinerRecord, KotlinerStatusEnum?> = createField(DSL.name("status"), SQLDataType.VARCHAR.nullable(false).asEnumDataType(KotlinerStatusEnum::class.java), this, "")
 
     /**
      * The column <code>public.kotliner.avatar</code>.
@@ -116,8 +179,19 @@ open class Kotliner(
      */
     val TOTP: TableField<KotlinerRecord, String?> = createField(DSL.name("totp"), SQLDataType.VARCHAR(500), this, "")
 
-    private constructor(alias: Name, aliased: Table<KotlinerRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<KotlinerRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    /**
+     * The column <code>public.kotliner.meta</code>.
+     */
+    val META: TableField<KotlinerRecord, JSONB?> = createField(DSL.name("meta"), SQLDataType.JSONB, this, "")
+
+    /**
+     * The column <code>public.kotliner.version</code>.
+     */
+    val VERSION: TableField<KotlinerRecord, Long?> = createField(DSL.name("version"), SQLDataType.BIGINT.nullable(false).defaultValue(DSL.field(DSL.raw("0"), SQLDataType.BIGINT)), this, "")
+
+    private constructor(alias: Name, aliased: Table<KotlinerRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<KotlinerRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<KotlinerRecord>?, where: Condition): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>public.kotliner</code> table reference
@@ -134,14 +208,300 @@ open class Kotliner(
      */
     constructor(): this(DSL.name("kotliner"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, KotlinerRecord>): this(Internal.createPathAlias(child, key), child, key, KOTLINER, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, KotlinerRecord>?, parentPath: InverseForeignKey<out Record, KotlinerRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, KOTLINER, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class KotlinerPath : Kotliner, Path<KotlinerRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, KotlinerRecord>?, parentPath: InverseForeignKey<out Record, KotlinerRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<KotlinerRecord>): super(alias, aliased)
+        override fun `as`(alias: String): KotlinerPath = KotlinerPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): KotlinerPath = KotlinerPath(alias, this)
+        override fun `as`(alias: Table<*>): KotlinerPath = KotlinerPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIdentity(): Identity<KotlinerRecord, Long?> = super.getIdentity() as Identity<KotlinerRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<KotlinerRecord> = KOTLINER_PKEY
     override fun getUniqueKeys(): List<UniqueKey<KotlinerRecord>> = listOf(UNIQUE_KOTLINER_EMAIL, UNIQUE_KOTLINER_NICKNAME)
+    override fun getReferences(): List<ForeignKey<KotlinerRecord, *>> = listOf(KOTLINER__KOTLINER_UPDATED_BY_FKEY)
+
+    private lateinit var _kotliner: KotlinerPath
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table.
+     */
+    fun kotliner(): KotlinerPath {
+        if (!this::_kotliner.isInitialized)
+            _kotliner = KotlinerPath(this, KOTLINER__KOTLINER_UPDATED_BY_FKEY, null)
+
+        return _kotliner;
+    }
+
+    val kotliner: KotlinerPath
+        get(): KotlinerPath = kotliner()
+
+    private lateinit var _articleCreatedByFkey: ArticlePath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.article</code>
+     * table, via the <code>article_created_by_fkey</code> key
+     */
+    fun articleCreatedByFkey(): ArticlePath {
+        if (!this::_articleCreatedByFkey.isInitialized)
+            _articleCreatedByFkey = ArticlePath(this, null, ARTICLE__ARTICLE_CREATED_BY_FKEY.inverseKey)
+
+        return _articleCreatedByFkey;
+    }
+
+    val articleCreatedByFkey: ArticlePath
+        get(): ArticlePath = articleCreatedByFkey()
+
+    private lateinit var _articleUpdatedByFkey: ArticlePath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.article</code>
+     * table, via the <code>article_updated_by_fkey</code> key
+     */
+    fun articleUpdatedByFkey(): ArticlePath {
+        if (!this::_articleUpdatedByFkey.isInitialized)
+            _articleUpdatedByFkey = ArticlePath(this, null, ARTICLE__ARTICLE_UPDATED_BY_FKEY.inverseKey)
+
+        return _articleUpdatedByFkey;
+    }
+
+    val articleUpdatedByFkey: ArticlePath
+        get(): ArticlePath = articleUpdatedByFkey()
+
+    private lateinit var _articleAuthor: ArticleAuthorPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.article_author</code> table
+     */
+    fun articleAuthor(): ArticleAuthorPath {
+        if (!this::_articleAuthor.isInitialized)
+            _articleAuthor = ArticleAuthorPath(this, null, ARTICLE_AUTHOR__ARTICLE_AUTHOR_KOTLINER_ID_FKEY.inverseKey)
+
+        return _articleAuthor;
+    }
+
+    val articleAuthor: ArticleAuthorPath
+        get(): ArticleAuthorPath = articleAuthor()
+
+    private lateinit var _bookSpeaker: BookSpeakerPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.book_speaker</code> table
+     */
+    fun bookSpeaker(): BookSpeakerPath {
+        if (!this::_bookSpeaker.isInitialized)
+            _bookSpeaker = BookSpeakerPath(this, null, BOOK_SPEAKER__BOOK_SPEAKER_KOTLINER_ID_FKEY.inverseKey)
+
+        return _bookSpeaker;
+    }
+
+    val bookSpeaker: BookSpeakerPath
+        get(): BookSpeakerPath = bookSpeaker()
+
+    private lateinit var _comment: CommentPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.comment</code>
+     * table
+     */
+    fun comment(): CommentPath {
+        if (!this::_comment.isInitialized)
+            _comment = CommentPath(this, null, COMMENT__COMMENT_KOTLINER_ID_FKEY.inverseKey)
+
+        return _comment;
+    }
+
+    val comment: CommentPath
+        get(): CommentPath = comment()
+
+    private lateinit var _courseSpeaker: CourseSpeakerPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.course_speaker</code> table
+     */
+    fun courseSpeaker(): CourseSpeakerPath {
+        if (!this::_courseSpeaker.isInitialized)
+            _courseSpeaker = CourseSpeakerPath(this, null, COURSE_SPEAKER__COURSE_SPEAKER_KOTLINER_ID_FKEY.inverseKey)
+
+        return _courseSpeaker;
+    }
+
+    val courseSpeaker: CourseSpeakerPath
+        get(): CourseSpeakerPath = courseSpeaker()
+
+    private lateinit var _kotlinerLikeEntityState: KotlinerLikeEntityStatePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.kotliner_like_entity_state</code> table
+     */
+    fun kotlinerLikeEntityState(): KotlinerLikeEntityStatePath {
+        if (!this::_kotlinerLikeEntityState.isInitialized)
+            _kotlinerLikeEntityState = KotlinerLikeEntityStatePath(this, null, KOTLINER_LIKE_ENTITY_STATE__KOTLINER_LIKE_ENTITY_STATE_KOTLINER_ID_FKEY.inverseKey)
+
+        return _kotlinerLikeEntityState;
+    }
+
+    val kotlinerLikeEntityState: KotlinerLikeEntityStatePath
+        get(): KotlinerLikeEntityStatePath = kotlinerLikeEntityState()
+
+    private lateinit var _kotlinerReadEntityState: KotlinerReadEntityStatePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.kotliner_read_entity_state</code> table
+     */
+    fun kotlinerReadEntityState(): KotlinerReadEntityStatePath {
+        if (!this::_kotlinerReadEntityState.isInitialized)
+            _kotlinerReadEntityState = KotlinerReadEntityStatePath(this, null, KOTLINER_READ_ENTITY_STATE__KOTLINER_READ_ENTITY_STATE_KOTLINER_ID_FKEY.inverseKey)
+
+        return _kotlinerReadEntityState;
+    }
+
+    val kotlinerReadEntityState: KotlinerReadEntityStatePath
+        get(): KotlinerReadEntityStatePath = kotlinerReadEntityState()
+
+    private lateinit var _kugCreatedByFkey: KugPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug</code> table,
+     * via the <code>kug_created_by_fkey</code> key
+     */
+    fun kugCreatedByFkey(): KugPath {
+        if (!this::_kugCreatedByFkey.isInitialized)
+            _kugCreatedByFkey = KugPath(this, null, KUG__KUG_CREATED_BY_FKEY.inverseKey)
+
+        return _kugCreatedByFkey;
+    }
+
+    val kugCreatedByFkey: KugPath
+        get(): KugPath = kugCreatedByFkey()
+
+    private lateinit var _kugUpdatedByFkey: KugPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug</code> table,
+     * via the <code>kug_updated_by_fkey</code> key
+     */
+    fun kugUpdatedByFkey(): KugPath {
+        if (!this::_kugUpdatedByFkey.isInitialized)
+            _kugUpdatedByFkey = KugPath(this, null, KUG__KUG_UPDATED_BY_FKEY.inverseKey)
+
+        return _kugUpdatedByFkey;
+    }
+
+    val kugUpdatedByFkey: KugPath
+        get(): KugPath = kugUpdatedByFkey()
+
+    private lateinit var _kugEvent: KugEventPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug_event</code>
+     * table
+     */
+    fun kugEvent(): KugEventPath {
+        if (!this::_kugEvent.isInitialized)
+            _kugEvent = KugEventPath(this, null, KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY.inverseKey)
+
+        return _kugEvent;
+    }
+
+    val kugEvent: KugEventPath
+        get(): KugEventPath = kugEvent()
+
+    private lateinit var _kugMember: KugMemberPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug_member</code>
+     * table
+     */
+    fun kugMember(): KugMemberPath {
+        if (!this::_kugMember.isInitialized)
+            _kugMember = KugMemberPath(this, null, KUG_MEMBER__KUG_MEMBER_KOTLINER_ID_FKEY.inverseKey)
+
+        return _kugMember;
+    }
+
+    val kugMember: KugMemberPath
+        get(): KugMemberPath = kugMember()
+
+    private lateinit var _vacancy: VacancyPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.vacancy</code>
+     * table
+     */
+    fun vacancy(): VacancyPath {
+        if (!this::_vacancy.isInitialized)
+            _vacancy = VacancyPath(this, null, VACANCY__VACANCY_KOTLINER_ID_FKEY.inverseKey)
+
+        return _vacancy;
+    }
+
+    val vacancy: VacancyPath
+        get(): VacancyPath = vacancy()
+
+    private lateinit var _videoSpeaker: VideoSpeakerPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.video_speaker</code> table
+     */
+    fun videoSpeaker(): VideoSpeakerPath {
+        if (!this::_videoSpeaker.isInitialized)
+            _videoSpeaker = VideoSpeakerPath(this, null, VIDEO_SPEAKER__VIDEO_SPEAKER_KOTLINER_ID_FKEY.inverseKey)
+
+        return _videoSpeaker;
+    }
+
+    val videoSpeaker: VideoSpeakerPath
+        get(): VideoSpeakerPath = videoSpeaker()
+
+    /**
+     * Get the implicit many-to-many join path to the
+     * <code>public.article</code> table
+     */
+    val article: ArticlePath
+        get(): ArticlePath = articleAuthor().article()
+
+    /**
+     * Get the implicit many-to-many join path to the <code>public.book</code>
+     * table
+     */
+    val book: BookPath
+        get(): BookPath = bookSpeaker().book()
+
+    /**
+     * Get the implicit many-to-many join path to the <code>public.course</code>
+     * table
+     */
+    val course: CoursePath
+        get(): CoursePath = courseSpeaker().course()
+
+    /**
+     * Get the implicit many-to-many join path to the <code>public.kug</code>
+     * table
+     */
+    val kug: KugPath
+        get(): KugPath = kugMember().kug()
+
+    /**
+     * Get the implicit many-to-many join path to the <code>public.video</code>
+     * table
+     */
+    val video: VideoPath
+        get(): VideoPath = videoSpeaker().video()
     override fun `as`(alias: String): Kotliner = Kotliner(DSL.name(alias), this)
     override fun `as`(alias: Name): Kotliner = Kotliner(alias, this)
-    override fun `as`(alias: Table<*>): Kotliner = Kotliner(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Kotliner = Kotliner(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -156,21 +516,55 @@ open class Kotliner(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Kotliner = Kotliner(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row10 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row10<Long?, String?, String?, String?, String?, String?, String?, String?, String?, String?> = super.fieldsRow() as Row10<Long?, String?, String?, String?, String?, String?, String?, String?, String?, String?>
+    override fun rename(name: Table<*>): Kotliner = Kotliner(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (Long?, String?, String?, String?, String?, String?, String?, String?, String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition): Kotliner = Kotliner(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (Long?, String?, String?, String?, String?, String?, String?, String?, String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Kotliner = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition): Kotliner = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>): Kotliner = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Kotliner = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Kotliner = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Kotliner = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Kotliner = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Kotliner = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Kotliner = where(DSL.notExists(select))
 }

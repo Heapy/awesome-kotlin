@@ -29,67 +29,67 @@ data class FlywaySchemaHistory(
     override fun equals(other: Any?): Boolean {
         if (this === other)
             return true
-        if (other === null)
+        if (other == null)
             return false
         if (this::class != other::class)
             return false
         val o: FlywaySchemaHistory = other as FlywaySchemaHistory
-        if (this.installedRank === null) {
-            if (o.installedRank !== null)
+        if (this.installedRank == null) {
+            if (o.installedRank != null)
                 return false
         }
         else if (this.installedRank != o.installedRank)
             return false
-        if (this.version === null) {
-            if (o.version !== null)
+        if (this.version == null) {
+            if (o.version != null)
                 return false
         }
         else if (this.version != o.version)
             return false
-        if (this.description === null) {
-            if (o.description !== null)
+        if (this.description == null) {
+            if (o.description != null)
                 return false
         }
         else if (this.description != o.description)
             return false
-        if (this.type === null) {
-            if (o.type !== null)
+        if (this.type == null) {
+            if (o.type != null)
                 return false
         }
         else if (this.type != o.type)
             return false
-        if (this.script === null) {
-            if (o.script !== null)
+        if (this.script == null) {
+            if (o.script != null)
                 return false
         }
         else if (this.script != o.script)
             return false
-        if (this.checksum === null) {
-            if (o.checksum !== null)
+        if (this.checksum == null) {
+            if (o.checksum != null)
                 return false
         }
         else if (this.checksum != o.checksum)
             return false
-        if (this.installedBy === null) {
-            if (o.installedBy !== null)
+        if (this.installedBy == null) {
+            if (o.installedBy != null)
                 return false
         }
         else if (this.installedBy != o.installedBy)
             return false
-        if (this.installedOn === null) {
-            if (o.installedOn !== null)
+        if (this.installedOn == null) {
+            if (o.installedOn != null)
                 return false
         }
         else if (this.installedOn != o.installedOn)
             return false
-        if (this.executionTime === null) {
-            if (o.executionTime !== null)
+        if (this.executionTime == null) {
+            if (o.executionTime != null)
                 return false
         }
         else if (this.executionTime != o.executionTime)
             return false
-        if (this.success === null) {
-            if (o.success !== null)
+        if (this.success == null) {
+            if (o.success != null)
                 return false
         }
         else if (this.success != o.success)
@@ -100,16 +100,16 @@ data class FlywaySchemaHistory(
     override fun hashCode(): Int {
         val prime = 31
         var result = 1
-        result = prime * result + (if (this.installedRank === null) 0 else this.installedRank.hashCode())
-        result = prime * result + (if (this.version === null) 0 else this.version.hashCode())
-        result = prime * result + (if (this.description === null) 0 else this.description.hashCode())
-        result = prime * result + (if (this.type === null) 0 else this.type.hashCode())
-        result = prime * result + (if (this.script === null) 0 else this.script.hashCode())
-        result = prime * result + (if (this.checksum === null) 0 else this.checksum.hashCode())
-        result = prime * result + (if (this.installedBy === null) 0 else this.installedBy.hashCode())
-        result = prime * result + (if (this.installedOn === null) 0 else this.installedOn.hashCode())
-        result = prime * result + (if (this.executionTime === null) 0 else this.executionTime.hashCode())
-        result = prime * result + (if (this.success === null) 0 else this.success.hashCode())
+        result = prime * result + (if (this.installedRank == null) 0 else this.installedRank.hashCode())
+        result = prime * result + (if (this.version == null) 0 else this.version.hashCode())
+        result = prime * result + (if (this.description == null) 0 else this.description.hashCode())
+        result = prime * result + (if (this.type == null) 0 else this.type.hashCode())
+        result = prime * result + (if (this.script == null) 0 else this.script.hashCode())
+        result = prime * result + (if (this.checksum == null) 0 else this.checksum.hashCode())
+        result = prime * result + (if (this.installedBy == null) 0 else this.installedBy.hashCode())
+        result = prime * result + (if (this.installedOn == null) 0 else this.installedOn.hashCode())
+        result = prime * result + (if (this.executionTime == null) 0 else this.executionTime.hashCode())
+        result = prime * result + (if (this.success == null) 0 else this.success.hashCode())
         return result
     }
 

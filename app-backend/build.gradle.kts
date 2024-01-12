@@ -44,7 +44,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.2")
     implementation("com.charleskorn.kaml:kaml:0.56.0")
 
-    implementation("org.flywaydb:flyway-core:10.4.1")
+    implementation("org.flywaydb:flyway-database-postgresql:10.4.1")
     implementation("org.jooq:jooq:3.19.1")
     implementation("org.postgresql:postgresql:42.7.1")
     implementation("com.zaxxer:HikariCP:5.1.0")
