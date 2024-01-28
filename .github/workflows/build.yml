@@ -21,12 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: "Compiled Scripts Cache"
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/awesome-kotlin
           key: kotlin-scripts-cache
       - name: "Gradle Cache"
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.gradle/caches
