@@ -36,7 +36,7 @@ jobs:
       with:
         java-version: "17"
         distribution: "liberica"
-    - uses: gradle/gradle-build-action@v2
+    - uses: gradle/gradle-build-action@v3
       with:
         cache-disabled: true
     - run: echo "kotlin.daemon.jvmargs=-Xmx2g" >> gradle.properties
