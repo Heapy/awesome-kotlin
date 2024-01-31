@@ -1735,6 +1735,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "mavlink", "drone", "uav", "px4", "ardupilot")
       setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE)
     }
+    link {
+      github = "L-Briand/KTM"
+      desc = "Mustache templating in kotlin multiplatform"
+      setTags("multiplatform", "template", "template-engine", "mustache")
+      setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE)
+    }
   }
   subcategory("DSL") {
     link {
