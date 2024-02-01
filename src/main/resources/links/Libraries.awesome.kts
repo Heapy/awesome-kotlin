@@ -1695,11 +1695,6 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
     link {
-      github = "ionspin/kotlin-multiplatform-libsodium"
-      desc = "Kotlin multiplatform wrapper for Libsodium cryptographic library."
-      setTags("multiplatform", "libsodium", "cryptography")
-    }
-    link {
       github = "petertrr/kotlin-multiplatform-diff"
       desc = "Multiplatform kotlin library for calculating text differences. Based on java-diff-utils."
       setTags("multiplatform", "tools", "text", "diff", "myers", "algorithm")
@@ -1740,6 +1735,18 @@ category("Libraries/Frameworks") {
       desc = "Mustache templating in kotlin multiplatform"
       setTags("multiplatform", "template", "template-engine", "mustache")
       setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE)
+    }
+  }
+  subcategory("Cryptography") {
+    link {
+      github = "ionspin/kotlin-multiplatform-libsodium"
+      desc = "Kotlin multiplatform wrapper for Libsodium cryptographic library."
+      setTags("multiplatform", "libsodium", "cryptography")
+    }
+    link {
+      github = "appmattus/crypto"
+      desc = "A collection of Kotlin Multiplatform Mobile cryptographic hashing functions."
+      setTags("multiplatform", "cryptography", "CRC", "Adler-32", "CityHash", "FarmHash", "HighwayHash", "MetroHash", "MurmurHash", "t1ha", "xxHash", "wyhash", "Blake", "HMAC", "Skein", "BMW", "cSHAKE", "CubeHash", "ECHO", "Fugue", "GOST", "Groestl", "Hamsi", "Haraka", "HAVAL", "JH", "Keccak", "Kupyna", "Luffa", "MessageDigest", "MD5", "PANAMA", "RadioGatun", "RIPEMD", "SHA", "Shabal", "SHAKE", "SIMD", "SM3", "Tiger", "Whirlpool")
     }
   }
   subcategory("DSL") {
