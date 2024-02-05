@@ -92,11 +92,10 @@ jobs:
       - name: "Build and push"
         uses: docker/build-push-action@v5
         with:
+          platforms: linux/amd64,linux/arm64
           push: true
           context: app-frontend
-          tags: |
-            ghcr.io/kotlinby/awesome-kotlin:main
-            ghcr.io/kotlinby/awesome-kotlin:b${{ github.run_number }}
+          tags: ghcr.io/kotlinby/awesome-kotlin:main
       - name: "Deploy Readme"
         uses: peaceiris/actions-gh-pages@v3
         with:
