@@ -53,9 +53,9 @@ dependencies {
     implementation("org.commonmark:commonmark:0.21.0")
     implementation("org.commonmark:commonmark-ext-gfm-tables:0.21.0")
 
-    implementation("io.ktor:ktor-client-apache:2.3.7")
-    implementation("io.ktor:ktor-client-jackson:2.3.7")
+    implementation("io.ktor:ktor-client-apache:2.3.8")
+    implementation("io.ktor:ktor-client-jackson:2.3.8")
 
     testImplementation("io.mockk:mockk:1.13.9")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
