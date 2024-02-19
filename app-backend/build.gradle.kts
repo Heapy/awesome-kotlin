@@ -39,12 +39,12 @@ tasks.test {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.0")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.3")
     implementation("com.charleskorn.kaml:kaml:0.57.0")
 
-    implementation("org.flywaydb:flyway-database-postgresql:10.7.2")
+    implementation("org.flywaydb:flyway-database-postgresql:10.8.1")
     implementation("org.jooq:jooq:3.19.3")
     implementation("org.postgresql:postgresql:42.7.1")
     implementation("com.zaxxer:HikariCP:5.1.0")
@@ -60,7 +60,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:2.3.8")
     implementation("io.ktor:ktor-server-auth-jwt:2.3.8")
     implementation("io.ktor:ktor-server-metrics-micrometer:2.3.8")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.12.2")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.12.3")
     implementation("io.ktor:ktor-server-call-logging:2.3.8")
     implementation("io.ktor:ktor-server-default-headers:2.3.8")
     implementation("io.ktor:ktor-server-caching-headers:2.3.8")
@@ -70,9 +70,9 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.1")
 
-    implementation("ch.qos.logback:logback-classic:1.4.14")
+    implementation("ch.qos.logback:logback-classic:1.5.0")
 
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
     testImplementation("io.mockk:mockk:1.13.9")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
