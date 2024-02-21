@@ -432,6 +432,12 @@ category("Libraries/Frameworks") {
       setTags("benchmark", "performance", "multiplatform")
       setPlatforms(JVM, JS, NATIVE)
     }
+    link {
+      github = "diffplug/selfie"
+      href = "https://selfie.dev/jvm"
+      desc = "Snapshot testing (inline, on disk, and memoization)"
+      setTags("test", "snapshot", "multiplatform")
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
