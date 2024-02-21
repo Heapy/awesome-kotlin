@@ -2076,6 +2076,13 @@ category("Libraries/Frameworks") {
       github = "grinisrit/noa-atra"
       desc = "Analytics for Trading with NOA"
     }
+    link {
+      github = "sigbla/sigbla-app"
+      desc = "Sigbla is a framework for working with data in tables, supporting various data types, reactive programming and events, user input, charts, and more"
+      href = "https://github.com/sigbla/sigbla-app"
+      setTags("data science", "data analysis", "data wrangling", "table", "plot")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Command Line Interface") {
     link {
