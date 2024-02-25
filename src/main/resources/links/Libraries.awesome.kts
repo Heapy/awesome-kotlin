@@ -1293,6 +1293,11 @@ category("Libraries/Frameworks") {
       setTags("time", "date")
     }
     link {
+      github = "seljabali/java-time-fun"
+      desc = "java.time Kotlin extension functions library."
+      setTags("time", "date", "conversion")
+    }
+    link {
       github = "ingokegel/jclasslib"
       desc = "jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode."
       setTags("bytecode")
