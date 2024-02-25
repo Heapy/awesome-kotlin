@@ -23,7 +23,7 @@ kotlin {
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "21"
         freeCompilerArgs = freeCompilerArgs + listOf(
             "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
             "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
