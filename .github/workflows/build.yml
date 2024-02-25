@@ -16,7 +16,7 @@ jobs:
       - run: yarn install --check-cache
         working-directory: app-frontend
   build:
-    name: "Build on JDK 17 and Node.JS 20.x"
+    name: "Build on JDK 21 and Node.JS 20.x"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,19 +25,11 @@ jobs:
         with:
           path: ~/.cache/awesome-kotlin
           key: kotlin-scripts-cache
-      - name: "Gradle Cache"
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts', '**/gradle-wrapper.properties') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
       - uses: actions/setup-java@v4
         with:
-          java-version: "17"
+          java-version: "21"
           distribution: "liberica"
+      - uses: gradle/actions/setup-gradle@v3
       - run: ./gradlew check installDist
       - name: "Generate data for frontend"
         run: ./build/install/awesome-kotlin/bin/awesome-kotlin
@@ -60,12 +52,6 @@ jobs:
           name: "Readme"
           path: "readme/"
           retention-days: 1
-      - name: "Cleanup Gradle Cache"
-        # Remove some files from the Gradle cache, so they aren't cached by GitHub Actions.
-        # Restoring these files from a GitHub Actions cache might cause problems for future builds.
-        run: |
-          rm -f ~/.gradle/caches/modules-2/modules-2.lock
-          rm -f ~/.gradle/caches/modules-2/gc.properties
   build-and-push-image:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest

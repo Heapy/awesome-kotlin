@@ -34,7 +34,7 @@ jobs:
         languages: ${{ matrix.language }}
     - uses: actions/setup-java@v4
       with:
-        java-version: "17"
+        java-version: "21"
         distribution: "liberica"
     - uses: gradle/gradle-build-action@v3
       with:

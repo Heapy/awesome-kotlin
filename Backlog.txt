@@ -1,3 +1,10 @@
+Technology Radar
+Passkeys
+Followers
+Tags -> Topics
+Topic: Graph
+https://awesomejava.resamvi.io/
+
 Possible categories:
 Serialization
 Text processing

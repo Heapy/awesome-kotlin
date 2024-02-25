@@ -1,6 +1,9 @@
 # Generated
 /readme/README.md
 
+# Local Configuration
+.env
+
 # Intellij Idea
 .idea
 out

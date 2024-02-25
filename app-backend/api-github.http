@@ -1,0 +1,2 @@
+GET {{host}}/auth/github/redirect
+Content-Type: application/json

@@ -5,7 +5,7 @@ plugins {
 }
 
 application {
-    mainClass.set("link.kotlin.server.Application")
+    mainClass.set("Application")
     applicationName = "awesome"
 }
 

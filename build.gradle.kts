@@ -1,7 +1,7 @@
 plugins {
     application
-    kotlin("jvm").version("2.0.0-Beta2")
-    kotlin("plugin.serialization").version("2.0.0-Beta2")
+    kotlin("jvm").version("2.0.0-Beta4")
+    kotlin("plugin.serialization").version("2.0.0-Beta4")
 }
 
 application {
@@ -17,7 +17,7 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
     sourceSets.all {
         languageSettings {
             languageVersion = "2.0"
@@ -27,7 +27,7 @@ kotlin {
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "21"
     }
 }
 

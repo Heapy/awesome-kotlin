@@ -63,7 +63,7 @@ fun jooq() {
             }
 
             target = Target().apply {
-                packageName = "link.kotlin.server.jooq.main"
+                packageName = "jooq.main"
                 directory = "./app-backend/src/main/kotlin"
                 locale = Locale.ROOT.toLanguageTag()
             }

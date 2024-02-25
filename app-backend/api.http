@@ -29,17 +29,13 @@ Content-Type: application/json
     ]
 }
 
-> {% client.global.set("auth_token", response.body.json.token); %}
-
 ###
 
 GET {{host}}/
-Authorization: Bearer {{auth_token}}
 
 ###
 
 GET {{host}}/ping/test
-Authorization: Bearer {{auth_token}}
 
 ###
 
@@ -52,3 +48,7 @@ POST {{host}}/kugs
 ###
 
 GET {{host}}/metrics-micrometer
+
+###
+
+GET {{host}}/test
