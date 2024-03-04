@@ -45,7 +45,7 @@ dependencies {
     implementation("com.charleskorn.kaml:kaml:0.57.0")
 
     implementation("org.flywaydb:flyway-database-postgresql:10.8.1")
-    implementation("org.jooq:jooq:3.19.4")
+    implementation("org.jooq:jooq:3.19.5")
     implementation("org.postgresql:postgresql:42.7.2")
     implementation("com.zaxxer:HikariCP:5.1.0")
 
@@ -70,9 +70,9 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.1")
 
-    implementation("ch.qos.logback:logback-classic:1.5.0")
+    implementation("ch.qos.logback:logback-classic:1.5.2")
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
-    testImplementation("io.mockk:mockk:1.13.9")
+    testImplementation("io.mockk:mockk:1.13.10")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
