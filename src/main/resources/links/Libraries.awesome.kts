@@ -2051,6 +2051,12 @@ category("Libraries/Frameworks") {
       setTags("data science", "artificial-intelligence", "mathematical-optimization", "constraint-solving")
     }
     link {
+      github = "timefoldai/timefold-solver"
+      desc = "AI solver to optimize scheduling of vehicle routes, employees, maintenance, jobs, etc."
+      href = "https://timefold.ai"
+      setTags("data science", "artificial-intelligence", "mathematical-optimization", "constraint-solving")
+    }
+    link {
       github = "holgerbrandl/kalasim"
       desc = "Discrete event simulator that enables complex, dynamic process models."
       href = "https://www.kalasim.org"
