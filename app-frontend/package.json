@@ -9,13 +9,13 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router": "^6.22.2",
-    "react-router-dom": "^6.22.2"
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
     "autoprefixer": "^10.4.18",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.10.0",
@@ -26,7 +26,7 @@
     "postcss-loader": "^8.1.1",
     "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.2"
