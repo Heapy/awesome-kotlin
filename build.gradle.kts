@@ -36,9 +36,9 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.0")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.2")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.2")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.2")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.0")
 
     implementation("ch.qos.logback:logback-classic:1.5.3")
 
@@ -50,8 +50,8 @@ dependencies {
     implementation(kotlin("scripting-jvm"))
     implementation(kotlin("scripting-jvm-host"))
 
-    implementation("org.commonmark:commonmark:0.21.0")
-    implementation("org.commonmark:commonmark-ext-gfm-tables:0.21.0")
+    implementation("org.commonmark:commonmark:0.22.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.22.0")
 
     implementation("io.ktor:ktor-client-apache:2.3.9")
     implementation("io.ktor:ktor-client-jackson:2.3.9")
