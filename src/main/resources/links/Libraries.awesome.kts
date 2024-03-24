@@ -1747,6 +1747,12 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "template", "template-engine", "mustache")
       setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE)
     }
+    link {
+      github = "respawn-app/FlowMVI"
+      desc = "A Kotlin Multiplatform architectural framework based on coroutines with an extensive feature set, powerful plugin system and a rich DSL."
+      setTags("multiplatform", "arch", "architecture", "mvi")
+      setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE, WASM)
+    }
   }
   subcategory("Cryptography") {
     link {
