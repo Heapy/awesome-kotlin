@@ -1509,6 +1509,16 @@ category("Libraries/Frameworks") {
       desc = "Mathematical expression engine written in Kotlin, running on JVM."
     }
     link {
+      github = "eriksencosta/math-common"
+      desc = "Mathematical conventions to reduce boilerplate code"
+      setTags("math", "rounding", "exponentiation")
+    }
+    link {
+      github = "eriksencosta/math-percentage"
+      desc = "Percentage calculations made easy"
+      setTags("math", "percentage")
+    }
+    link {
       github = "vendelieu/telegram-bot"
       desc = "A lightweight, feature-rich wrapper for the Telegram Bot API"
       setTags("telegram", "bot", "Kotlin")
