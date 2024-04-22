@@ -464,13 +464,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.78":
-  version: 18.2.78
-  resolution: "@types/react@npm:18.2.78"
+"@types/react@npm:^18.2.79":
+  version: 18.2.79
+  resolution: "@types/react@npm:18.2.79"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/a4bf8104c580fab40535cc6058425ac6a47c19b8dad45b566cdb38aaafa3ffa1f24e7b65ec95e391a6c18ccf4a33738a591c1f723c00300f13d61fc456a1eb8d
+  checksum: 10/2ef833e7d0a5c226beddbbe090811582371f6ae5e2f092a3d9f47cc6087c8bce0b96ee33e351de6d1d470f0a0ec5892d971933f841ef31538c1821681fc6569e
   languageName: node
   linkType: hard
 
@@ -1017,12 +1017,12 @@ __metadata:
   resolution: "awesome-kotlin@workspace:."
   dependencies:
     "@types/node": "npm:^20.12.7"
-    "@types/react": "npm:^18.2.78"
+    "@types/react": "npm:^18.2.79"
     "@types/react-dom": "npm:^18.2.25"
     autoprefixer: "npm:^10.4.19"
     copy-to-clipboard: "npm:^3.3.3"
     copy-webpack-plugin: "npm:^12.0.2"
-    core-js: "npm:^3.36.1"
+    core-js: "npm:^3.37.0"
     css-loader: "npm:^7.1.1"
     html-webpack-plugin: "npm:^5.6.0"
     less: "npm:^4.2.0"
@@ -1532,10 +1532,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.36.1":
-  version: 3.36.1
-  resolution: "core-js@npm:3.36.1"
-  checksum: 10/ce1e1bfc1034b6f2ff7c91077319e8abdd650ee606ffe6e80073e64ab9d8aad2d6a6d953461b01f331a6f796ad2fd766a3386b88aa371b45d44fa7c0b9913ce6
+"core-js@npm:^3.37.0":
+  version: 3.37.0
+  resolution: "core-js@npm:3.37.0"
+  checksum: 10/97feac0b54b95d928bda6a6e611cf34963a265a5fe8ab46ed35bbc9d32a14221bf6bede5d6cd4b0c0f30e8440cf1eff0c4f0c242d719c561e5dd73d3b005d63c
   languageName: node
   linkType: hard
 
