@@ -124,6 +124,11 @@ category("Links") {
       desc = "Learn how to use kotlin's standard library with lambda functions"
       href = "https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326"
     }
+    link {
+      name = "Kotlin: An Illustrated Guide"
+      desc = "Illustrated guide to learn Kotlin"
+      href = "https://typealias.com/start/"
+    }
   }
   subcategory("Blogs") {
     link {
