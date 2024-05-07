@@ -44,8 +44,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.3")
     implementation("com.charleskorn.kaml:kaml:0.59.0")
 
-    implementation("org.flywaydb:flyway-database-postgresql:10.11.1")
-    implementation("org.jooq:jooq:3.19.7")
+    implementation("org.flywaydb:flyway-database-postgresql:10.12.0")
+    implementation("org.jooq:jooq:3.19.8")
     implementation("org.postgresql:postgresql:42.7.3")
     implementation("com.zaxxer:HikariCP:5.1.0")
 
@@ -66,9 +66,9 @@ dependencies {
     implementation("io.ktor:ktor-server-caching-headers:2.3.10")
     implementation("io.ktor:ktor-server-status-pages:2.3.10")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.0")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.1")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.1")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.1")
 
     implementation("ch.qos.logback:logback-classic:1.5.6")
 
