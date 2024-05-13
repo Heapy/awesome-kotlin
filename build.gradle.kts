@@ -34,7 +34,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.1")
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.1")
@@ -53,8 +53,8 @@ dependencies {
     implementation("org.commonmark:commonmark:0.22.0")
     implementation("org.commonmark:commonmark-ext-gfm-tables:0.22.0")
 
-    implementation("io.ktor:ktor-client-apache:2.3.10")
-    implementation("io.ktor:ktor-client-jackson:2.3.10")
+    implementation("io.ktor:ktor-client-apache:2.3.11")
+    implementation("io.ktor:ktor-client-jackson:2.3.11")
 
     testImplementation("io.mockk:mockk:1.13.10")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
