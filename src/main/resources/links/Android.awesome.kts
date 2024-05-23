@@ -704,7 +704,7 @@ category("Android") {
   }
   subcategory("Tests") {
     link {
-      github = "agoda-com/Kakao"
+      github = "KakaoCup/Kakao"
       desc =  "Nice and simple DSL for Espresso in Kotlin"
       setTags("espresso", "dsl")
       setPlatforms(ANDROID)
