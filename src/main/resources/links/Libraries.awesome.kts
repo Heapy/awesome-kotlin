@@ -900,6 +900,11 @@ category("Libraries/Frameworks") {
       desc = "Komapper is an ORM library for server-side Kotlin with JDBC and R2DBC support."
       setTags("database", "orm", "query", "sql", "jdbc", "r2dbc")
     }
+    link {
+      github = "objectbox/objectbox-java"
+      desc = "Embedded on-device object database for Mobile Apps and IoT."
+      setTags("android", "database", "nosql")
+    }
   }
   subcategory("Tools") {
     link {
