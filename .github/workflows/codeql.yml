@@ -10,7 +10,6 @@ on:
 
 jobs:
   analyze_kt:
-    if: false
     name: "Analyze Kotlin Code"
     runs-on: 'ubuntu-latest'
     timeout-minutes: 120
