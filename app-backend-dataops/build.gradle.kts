@@ -2,14 +2,6 @@ plugins {
     kotlin("jvm")
 }
 
-kotlin {
-    sourceSets.all {
-        languageSettings {
-            languageVersion = "2.0"
-        }
-    }
-}
-
 repositories {
     mavenCentral()
 }

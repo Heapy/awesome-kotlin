@@ -1,7 +1,7 @@
 plugins {
     application
-    kotlin("jvm").version("2.0.0-Beta4")
-    kotlin("plugin.serialization").version("2.0.0-Beta4")
+    kotlin("jvm").version("2.0.0")
+    kotlin("plugin.serialization").version("2.0.0")
 }
 
 application {
@@ -14,21 +14,6 @@ repositories {
 
 tasks.test {
     useJUnitPlatform()
-}
-
-kotlin {
-    jvmToolchain(21)
-    sourceSets.all {
-        languageSettings {
-            languageVersion = "2.0"
-        }
-    }
-}
-
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
-    kotlinOptions {
-        jvmTarget = "21"
-    }
 }
 
 dependencies {
