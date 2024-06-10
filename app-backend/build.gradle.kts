@@ -33,10 +33,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.1")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.3")
-    implementation("com.charleskorn.kaml:kaml:0.59.0")
+    implementation("com.charleskorn.kaml:kaml:0.60.0")
 
-    implementation("org.flywaydb:flyway-database-postgresql:10.13.0")
-    implementation("org.jooq:jooq:3.19.8")
+    implementation("org.flywaydb:flyway-database-postgresql:10.14.0")
+    implementation("org.jooq:jooq:3.19.9")
     implementation("org.postgresql:postgresql:42.7.3")
     implementation("com.zaxxer:HikariCP:5.1.0")
 
