@@ -2196,6 +2196,13 @@ category("Libraries/Frameworks") {
       setTags("rsocket", "rx", "reactive-streams")
     }
     link {
+      github = "lepicekmichal/SignalRKore"
+      href = "https://github.com/lepicekmichal/SignalRKore"
+      desc = "Kotlin multiplatform implementation of SignalR."
+      setPlatforms(ANDROID, IOS, JVM)
+      setTags("signalr", "websocket", "multiplatform", "signalrkore")
+    }
+    link {
       github = "Dynamium/EVCalc"
       desc = "EVCalc is a calculation engine for mobile electric venicles (Electric scooters, electric unicycles, and so on) written in Kotlin."
       setPlatforms(JVM)
