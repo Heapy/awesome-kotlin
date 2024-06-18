@@ -6180,7 +6180,7 @@ const RAW_RUNTIME_STATE =
           ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.92.0"],\
           ["webpack-cli", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.1.4"],\
           ["webpack-dev-middleware", "virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:7.1.1"],\
-          ["ws", "virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.16.0"]\
+          ["ws", "virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.17.1"]\
         ],\
         "packagePeers": [\
           "@types/webpack-cli",\
@@ -6293,17 +6293,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ws", [\
-      ["npm:8.16.0", {\
-        "packageLocation": "./.yarn/cache/ws-npm-8.16.0-46943f6199-7c511c59e9.zip/node_modules/ws/",\
+      ["npm:8.17.1", {\
+        "packageLocation": "./.yarn/cache/ws-npm-8.17.1-f57fb24a2c-4264ae92c0.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "npm:8.16.0"]\
+          ["ws", "npm:8.17.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.16.0", {\
-        "packageLocation": "./.yarn/__virtual__/ws-virtual-5196496dce/0/cache/ws-npm-8.16.0-46943f6199-7c511c59e9.zip/node_modules/ws/",\
+      ["virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.17.1", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-4cd62f04ea/0/cache/ws-npm-8.17.1-f57fb24a2c-4264ae92c0.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.16.0"],\
+          ["ws", "virtual:515696affac2f9aebfc97193930f169c132be4824a5d9dbaa8ae57076f881fac7f084ac10c78981f407f6785e7a4cee1b1637815d457accea3d3ff6fbce8d14f#npm:8.17.1"],\
           ["@types/bufferutil", null],\
           ["@types/utf-8-validate", null],\
           ["bufferutil", null],\
