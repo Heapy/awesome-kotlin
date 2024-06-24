@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 /* eslint-disable */
+// @ts-nocheck
 "use strict";
 
 const RAW_RUNTIME_STATE =
@@ -46,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:6.23.1"],\
           ["style-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:4.0.0"],\
           ["ts-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:9.5.1"],\
-          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=5adc0c"],\
+          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
           ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.92.1"],\
           ["webpack-cli", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.1.4"],\
           ["webpack-dev-server", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.0.4"]\
@@ -1327,7 +1328,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:6.23.1"],\
           ["style-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:4.0.0"],\
           ["ts-loader", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:9.5.1"],\
-          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=5adc0c"],\
+          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
           ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.92.1"],\
           ["webpack-cli", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.1.4"],\
           ["webpack-dev-server", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.0.4"]\
@@ -5804,7 +5805,7 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.4"],\
           ["semver", "npm:7.3.8"],\
           ["source-map", "npm:0.7.4"],\
-          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=5adc0c"],\
+          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
           ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.92.1"]\
         ],\
         "packagePeers": [\
@@ -5844,10 +5845,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=5adc0c", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-2b02f17773-28b3de2dda.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-7885ea9a13-ac3145f65c.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=5adc0c"]\
+          ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7652,6 +7653,12 @@ class ProxiedFS extends FakeFS {
   rmdirSync(p, opts) {
     return this.baseFs.rmdirSync(this.mapToBase(p), opts);
   }
+  async rmPromise(p, opts) {
+    return this.baseFs.rmPromise(this.mapToBase(p), opts);
+  }
+  rmSync(p, opts) {
+    return this.baseFs.rmSync(this.mapToBase(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return this.baseFs.linkPromise(this.mapToBase(existingP), this.mapToBase(newP));
   }
@@ -8032,6 +8039,18 @@ class NodeFS extends BasePortableFakeFS {
   }
   rmdirSync(p, opts) {
     return this.realFs.rmdirSync(npath.fromPortablePath(p), opts);
+  }
+  async rmPromise(p, opts) {
+    return await new Promise((resolve, reject) => {
+      if (opts) {
+        this.realFs.rm(npath.fromPortablePath(p), opts, this.makeCallback(resolve, reject));
+      } else {
+        this.realFs.rm(npath.fromPortablePath(p), this.makeCallback(resolve, reject));
+      }
+    });
+  }
+  rmSync(p, opts) {
+    return this.realFs.rmSync(npath.fromPortablePath(p), opts);
   }
   async linkPromise(existingP, newP) {
     return await new Promise((resolve, reject) => {
@@ -8688,6 +8707,20 @@ class MountFS extends BasePortableFakeFS {
       return mountFs.rmdirSync(subPath, opts);
     });
   }
+  async rmPromise(p, opts) {
+    return await this.makeCallPromise(p, async () => {
+      return await this.baseFs.rmPromise(p, opts);
+    }, async (mountFs, { subPath }) => {
+      return await mountFs.rmPromise(subPath, opts);
+    });
+  }
+  rmSync(p, opts) {
+    return this.makeCallSync(p, () => {
+      return this.baseFs.rmSync(p, opts);
+    }, (mountFs, { subPath }) => {
+      return mountFs.rmSync(subPath, opts);
+    });
+  }
   async linkPromise(existingP, newP) {
     return await this.makeCallPromise(newP, async () => {
       return await this.baseFs.linkPromise(existingP, newP);
@@ -9326,6 +9359,7 @@ const SYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `realpathSync`,
   `renameSync`,
   `rmdirSync`,
+  `rmSync`,
   `statSync`,
   `symlinkSync`,
   `truncateSync`,
@@ -9361,6 +9395,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `readlinkPromise`,
   `renamePromise`,
   `rmdirPromise`,
+  `rmPromise`,
   `statPromise`,
   `symlinkPromise`,
   `truncatePromise`,
@@ -11384,6 +11419,27 @@ class ZipFS extends BasePortableFakeFS {
     const index = this.entries.get(resolvedP);
     if (typeof index === `undefined`)
       throw EINVAL(`rmdir '${p}'`);
+    this.deleteEntry(p, index);
+  }
+  async rmPromise(p, opts) {
+    return this.rmSync(p, opts);
+  }
+  rmSync(p, { recursive = false } = {}) {
+    if (this.readOnly)
+      throw EROFS(`rm '${p}'`);
+    if (recursive) {
+      this.removeSync(p);
+      return;
+    }
+    const resolvedP = this.resolveFilename(`rm '${p}'`, p);
+    const directoryListing = this.listings.get(resolvedP);
+    if (!directoryListing)
+      throw ENOTDIR(`rm '${p}'`);
+    if (directoryListing.size > 0)
+      throw ENOTEMPTY(`rm '${p}'`);
+    const index = this.entries.get(resolvedP);
+    if (typeof index === `undefined`)
+      throw EINVAL(`rm '${p}'`);
     this.deleteEntry(p, index);
   }
   hydrateDirectory(resolvedP) {

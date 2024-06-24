@@ -50,5 +50,5 @@
     "url": "https://github.com/KotlinBy/awesome-kotlin/issues"
   },
   "homepage": "https://github.com/KotlinBy/awesome-kotlin#readme",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.3.1"
 }
