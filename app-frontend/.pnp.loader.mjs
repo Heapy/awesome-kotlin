@@ -1,9 +1,12 @@
+/* eslint-disable */
+// @ts-nocheck
+
 import fs from 'fs';
 import { URL as URL$1, fileURLToPath, pathToFileURL } from 'url';
 import path from 'path';
 import { createHash } from 'crypto';
 import { EOL } from 'os';
-import moduleExports, { isBuiltin } from 'module';
+import esmModule, { createRequire, isBuiltin } from 'module';
 import assert from 'assert';
 
 const SAFE_TIME = 456789e3;
@@ -830,6 +833,12 @@ class ProxiedFS extends FakeFS {
   rmdirSync(p, opts) {
     return this.baseFs.rmdirSync(this.mapToBase(p), opts);
   }
+  async rmPromise(p, opts) {
+    return this.baseFs.rmPromise(this.mapToBase(p), opts);
+  }
+  rmSync(p, opts) {
+    return this.baseFs.rmSync(this.mapToBase(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return this.baseFs.linkPromise(this.mapToBase(existingP), this.mapToBase(newP));
   }
@@ -1211,6 +1220,18 @@ class NodeFS extends BasePortableFakeFS {
   rmdirSync(p, opts) {
     return this.realFs.rmdirSync(npath.fromPortablePath(p), opts);
   }
+  async rmPromise(p, opts) {
+    return await new Promise((resolve, reject) => {
+      if (opts) {
+        this.realFs.rm(npath.fromPortablePath(p), opts, this.makeCallback(resolve, reject));
+      } else {
+        this.realFs.rm(npath.fromPortablePath(p), this.makeCallback(resolve, reject));
+      }
+    });
+  }
+  rmSync(p, opts) {
+    return this.realFs.rmSync(npath.fromPortablePath(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return await new Promise((resolve, reject) => {
       this.realFs.link(npath.fromPortablePath(existingP), npath.fromPortablePath(newP), this.makeCallback(resolve, reject));
@@ -1403,6 +1424,8 @@ const URL = Number(process.versions.node.split('.', 1)[0]) < 20 ? URL$1 : global
 const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
 const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 const HAS_LAZY_LOADED_TRANSLATORS = major === 20 && minor < 6 || major === 19 && minor >= 3;
+const SUPPORTS_IMPORT_ATTRIBUTES = major >= 21 || major === 20 && minor >= 10 || major === 18 && minor >= 20;
+const SUPPORTS_IMPORT_ATTRIBUTES_ONLY = major >= 22;
 
 function readPackageScope(checkPath) {
   const rootSeparatorIndex = checkPath.indexOf(npath.sep);
@@ -1493,10 +1516,21 @@ async function load$1(urlString, context, nextLoad) {
   const format = getFileFormat(filePath);
   if (!format)
     return nextLoad(urlString, context, nextLoad);
-  if (format === `json` && context.importAssertions?.type !== `json`) {
-    const err = new TypeError(`[ERR_IMPORT_ASSERTION_TYPE_MISSING]: Module "${urlString}" needs an import assertion of type "json"`);
-    err.code = `ERR_IMPORT_ASSERTION_TYPE_MISSING`;
-    throw err;
+  if (format === `json`) {
+    if (SUPPORTS_IMPORT_ATTRIBUTES_ONLY) {
+      if (context.importAttributes?.type !== `json`) {
+        const err = new TypeError(`[ERR_IMPORT_ATTRIBUTE_MISSING]: Module "${urlString}" needs an import attribute of "type: json"`);
+        err.code = `ERR_IMPORT_ATTRIBUTE_MISSING`;
+        throw err;
+      }
+    } else {
+      const type = `importAttributes` in context ? context.importAttributes?.type : context.importAssertions?.type;
+      if (type !== `json`) {
+        const err = new TypeError(`[ERR_IMPORT_ASSERTION_TYPE_MISSING]: Module "${urlString}" needs an import ${SUPPORTS_IMPORT_ATTRIBUTES ? `attribute` : `assertion`} of type "json"`);
+        err.code = `ERR_IMPORT_ASSERTION_TYPE_MISSING`;
+        throw err;
+      }
+    }
   }
   if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
     const pathToSend = pathToFileURL(
@@ -1941,6 +1975,13 @@ function packageImportsResolve({ name, base, conditions, readFileSyncFn }) {
   throwImportNotDefined(name, packageJSONUrl, base);
 }
 
+let findPnpApi = esmModule.findPnpApi;
+if (!findPnpApi) {
+  const require = createRequire(import.meta.url);
+  const pnpApi = require(`./.pnp.cjs`);
+  pnpApi.setup();
+  findPnpApi = esmModule.findPnpApi;
+}
 const pathRegExp = /^(?![a-zA-Z]:[\\/]|\\\\|\.{0,2}(?:\/|$))((?:node:)?(?:@[^/]+\/)?[^/]+)\/*(.*|)$/;
 const isRelativeRegexp = /^\.{0,2}\//;
 function tryReadFile(filePath) {
@@ -1968,7 +2009,6 @@ async function resolvePrivateRequest(specifier, issuer, context, nextResolve) {
   }
 }
 async function resolve$1(originalSpecifier, context, nextResolve) {
-  const { findPnpApi } = moduleExports;
   if (!findPnpApi || isBuiltin(originalSpecifier))
     return nextResolve(originalSpecifier, context, nextResolve);
   let specifier = originalSpecifier;
