@@ -2254,6 +2254,11 @@ category("Libraries/Frameworks") {
       desc = "Modern powerful Trakt API to track, discover and share your movies & TV shows."
       setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
     }
+    link {
+      github = "InsanusMokrassar/ktgbotapi"
+      desc = "Strongly typed API wrapper for Telegram Bots API"
+      setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
+    }
   }
   subcategory("Internationalisation and Localization") {
     link {
@@ -2286,6 +2291,12 @@ category("Libraries/Frameworks") {
       github = "Foso/Cabret-Log"
       desc = "Method call logging for Kotlin Multiplatform"
       setPlatforms(JVM, JS, ANDROID, NATIVE, IOS, COMMON)
+    }
+    link {
+      github = "InsanusMokrassar/KSLog"
+      desc = "Simple Kotlin Logging"
+      setPlatforms(ANDROID, NATIVE, COMMON, JVM, JS)
+      setTags("logging", "multiplatform")
     }
   }
   subcategory("Mail") {
