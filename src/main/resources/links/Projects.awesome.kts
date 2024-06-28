@@ -42,6 +42,11 @@ category("Projects") {
       setTags("spark java", "vertx", "wasabi", "ktor", "akka", "example")
     }
     link {
+      github = "FirstArtaxer/karbitrage"
+      desc = "Kotlin-based project designed to extract cryptocurrency prices from various exchanges using the Ktor framework."
+      setTags("ktor", "cryptocurrency", "web", "exposed", "kotlin", "coroutines", "koin", "reflection")
+    }
+    link {
       github = "ivanpopelyshev/vertx-facebook-messenger"
       desc = "Seed project for facebook messenger bots. Vertx, Kotlin."
       setTags("chat bot", "vert.x", "facebook")
