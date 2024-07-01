@@ -32,7 +32,7 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.8.1")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.6.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.7.1")
     implementation("com.charleskorn.kaml:kaml:0.60.0")
 
     implementation("org.flywaydb:flyway-database-postgresql:10.15.0")
@@ -65,5 +65,5 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.1")
     testImplementation("io.mockk:mockk:1.13.11")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.3")
 }
