@@ -905,6 +905,12 @@ category("Libraries/Frameworks") {
       desc = "Embedded on-device object database for Mobile Apps and IoT."
       setTags("android", "database", "nosql")
     }
+    link {
+      github = "smyrgeorge/sqlx4k"
+      desc = "A small non-blocking database driver written in Kotlin for the Native platform."
+      setTags("database", "SQL", "driver", "query", "postgres", "postgresql", "mysql", "async", "async-io", "non-blocking")
+      setPlatforms(NATIVE)
+    }
   }
   subcategory("Tools") {
     link {
