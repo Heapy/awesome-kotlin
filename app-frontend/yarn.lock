@@ -207,10 +207,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@remix-run/router@npm:1.17.0"
-  checksum: 10/bffc96ebe5c5658c2ea0585f7b2b7fd4760366ad63cdc05062f84ea84ba0f88dd70e75d802ed938f08b17be5348a8add8e4eef30e1d6422ea27a0ecb02cda66e
+"@remix-run/router@npm:1.17.1":
+  version: 1.17.1
+  resolution: "@remix-run/router@npm:1.17.1"
+  checksum: 10/5efc598626cd81688ac26e0abd08204b980831ead8cd2c4b8a27e0c169ee4777fc609fa289c093b93efc3a1e335304698c6961276c2309348444ec7209836c83
   languageName: node
   linkType: hard
 
@@ -414,12 +414,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.14.9":
-  version: 20.14.9
-  resolution: "@types/node@npm:20.14.9"
+"@types/node@npm:^20.14.10":
+  version: 20.14.10
+  resolution: "@types/node@npm:20.14.10"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10/f313b06c79be92f5d3541159ef813b9fc606941f951ecf826e940658c6d4952755ca2f06277b746326cef0697ed79a04676ecde053d32e1121b3352c8168d2e9
+  checksum: 10/672892cf94d0d95cf052f11271990686a0fd204cd1e5fe7a4ef240e5315e06711765dc47b9ec98627d3adac18b8c92bb7e2d8db21d18faa20bc3e3203a143e79
   languageName: node
   linkType: hard
 
@@ -1016,7 +1016,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "awesome-kotlin@workspace:."
   dependencies:
-    "@types/node": "npm:^20.14.9"
+    "@types/node": "npm:^20.14.10"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     autoprefixer: "npm:^10.4.19"
@@ -1032,11 +1032,11 @@ __metadata:
     postcss-loader: "npm:^8.1.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    react-router: "npm:^6.24.0"
-    react-router-dom: "npm:^6.24.0"
+    react-router: "npm:^6.24.1"
+    react-router-dom: "npm:^6.24.1"
     style-loader: "npm:^4.0.0"
     ts-loader: "npm:^9.5.1"
-    typescript: "npm:^5.5.2"
+    typescript: "npm:^5.5.3"
     webpack: "npm:^5.92.1"
     webpack-cli: "npm:^5.1.4"
     webpack-dev-server: "npm:^5.0.4"
@@ -4025,27 +4025,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.24.0":
-  version: 6.24.0
-  resolution: "react-router-dom@npm:6.24.0"
+"react-router-dom@npm:^6.24.1":
+  version: 6.24.1
+  resolution: "react-router-dom@npm:6.24.1"
   dependencies:
-    "@remix-run/router": "npm:1.17.0"
-    react-router: "npm:6.24.0"
+    "@remix-run/router": "npm:1.17.1"
+    react-router: "npm:6.24.1"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10/a6622bc53dd7652bbfb9f5c6f2c1bff4aa93a24cc91e048aa2908d096f7106de3707b5d4cf4bd9cf0b67d4475c7718add7fd96045430f7435c7d78da04708a30
+  checksum: 10/98eeeec3d36695b3d6d8000d8373ba3cefa9afc49ee44f646f3b721e8b47a80f5ce3737ad1f752cccf19caf01e370918750a4bc86a06a99e491731b454d5ec55
   languageName: node
   linkType: hard
 
-"react-router@npm:6.24.0, react-router@npm:^6.24.0":
-  version: 6.24.0
-  resolution: "react-router@npm:6.24.0"
+"react-router@npm:6.24.1, react-router@npm:^6.24.1":
+  version: 6.24.1
+  resolution: "react-router@npm:6.24.1"
   dependencies:
-    "@remix-run/router": "npm:1.17.0"
+    "@remix-run/router": "npm:1.17.1"
   peerDependencies:
     react: ">=16.8"
-  checksum: 10/71d750e4422d74e1981b38f54c0dd02a7af7b1059cab471d96e4dc3374824557f6eec8449fe557c0ed8af18569554de8d565bbfd708c1fc90d3421b3d6c6ac82
+  checksum: 10/18ac968171dee286a2f067dc8568faf73c759f833e88e09f1b34ff6e9376d1fd5eade8697a86be83093225956b256b398d935ce2f681c1bf711fb3c058c19839
   languageName: node
   linkType: hard
 
@@ -4913,23 +4913,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.5.2":
-  version: 5.5.2
-  resolution: "typescript@npm:5.5.2"
+"typescript@npm:^5.5.3":
+  version: 5.5.3
+  resolution: "typescript@npm:5.5.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/9118b20f248e76b0dbff8737fef65dfa89d02668d4e633d2c5ceac99033a0ca5e8a1c1a53bc94da68e8f67677a88f318663dde859c9e9a09c1e116415daec2ba
+  checksum: 10/11a867312419ed497929aafd2f1d28b2cd41810a5eb6c6e9e169559112e9ea073d681c121a29102e67cd4478d0a4ae37a306a5800f3717f59c4337e6a9bd5e8d
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.5.2#optional!builtin<compat/typescript>":
-  version: 5.5.2
-  resolution: "typescript@patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"
+"typescript@patch:typescript@npm%3A^5.5.3#optional!builtin<compat/typescript>":
+  version: 5.5.3
+  resolution: "typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/ac3145f65cf9e72ab29f2196e05d5816b355dc1a9195b9f010d285182a12457cfacd068be2dd22c877f88ebc966ac6e0e83f51c8586412b16499a27e3670ff4b
+  checksum: 10/7cf7acb78a80f749b82842f2ffe01e90e7b3e709a6f4268588e0b7599c41dca1059be217f47778fe1a380bfaf60933021ef20d002c426d4d7745e1b36c11467b
   languageName: node
   linkType: hard
 
