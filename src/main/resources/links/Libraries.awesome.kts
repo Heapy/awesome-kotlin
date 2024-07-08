@@ -422,9 +422,9 @@ category("Libraries/Frameworks") {
       setTags("test", "model-generation", "fixtures")
     }
     link {
-      github = "Trendyol/stove4k"
-      desc = "The easiest way of writing e2e tests for your back-end API with all physical dependencies in Kotlin."
-      setTags("test", "e2e-testing", "testing-framework", "docker")
+      github = "Trendyol/stove"
+      desc = "The easiest way of writing e2e tests for your JVM back-end API with Kotlin"
+      setTags("test", "e2e-testing", "testing-framework", "docker", "ktor", "spring", "test-automation")
     }
     link {
       github = "Kotlin/kotlinx-benchmark"
