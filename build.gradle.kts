@@ -29,7 +29,7 @@ dependencies {
 
     implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
-    implementation("org.jsoup:jsoup:1.17.2")
+    implementation("org.jsoup:jsoup:1.18.1")
 
     implementation(kotlin("scripting-common"))
     implementation(kotlin("scripting-jvm"))
