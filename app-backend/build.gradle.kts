@@ -51,7 +51,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:2.3.12")
     implementation("io.ktor:ktor-server-auth-jwt:2.3.12")
     implementation("io.ktor:ktor-server-metrics-micrometer:2.3.12")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.13.1")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.13.2")
     implementation("io.ktor:ktor-server-call-logging:2.3.12")
     implementation("io.ktor:ktor-server-default-headers:2.3.12")
     implementation("io.ktor:ktor-server-caching-headers:2.3.12")
