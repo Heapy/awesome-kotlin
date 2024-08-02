@@ -767,6 +767,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "mongodb/mongo-java-driver"
+      desc = "The official MongoDB Kotlin Driver allows developers to build server-side Kotlin applications with MongoDB."
+      setTags("database", "java", "kotlin", "mongodb", "query", "nosql", "db")
+      awesome()
+    }
+    link {
       github = "ebean-orm/ebean"
       desc = "Ebean is a Java & Kotlin ORM including type safe kotlin queries"
       setTags("database", "sql", "orm", "query", "type-safe builder", "jpa")
