@@ -48,6 +48,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "allangomes/kotlinwind.css"
+      desc = "Kotlin DSL for CSS based on Tailwind."
+      setTags("web", "html", "tailwind", "css")
+      awesome()
+    }
+    link {
       github = "celtric/kotlin-html"
       desc = "A library to generate HTML in Kotlin."
       setPlatforms(JVM)
