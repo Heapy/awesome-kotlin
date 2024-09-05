@@ -1680,6 +1680,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Parsers") {
     link {
+      github = "fleeksoft/ksoup"
+      desc = "Kotlin Multiplatform library for working with HTML and XML. It's a port of the renowned Java library Jsoup."
+      setPlatforms(JVM, ANDROID, IOS, NATIVE, JS, WASM)
+      setTags("html", "xml", "parser")
+      awesome()
+    }
+    link {
       github = "ParserKt/ParserKt"
       setPlatforms(COMMON, JS, JVM)
     }
