@@ -81,7 +81,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           context: app-frontend
-          tags: ghcr.io/kotlinby/awesome-kotlin:main
+          tags: ghcr.io/heapy/awesome-kotlin:main
       - name: "Deploy Readme"
         uses: peaceiris/actions-gh-pages@v4
         with:

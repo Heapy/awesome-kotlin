@@ -6,7 +6,7 @@ import java.time.LocalDate
 
 // language=Markdown
 val body = """
-Few days back I was developing a Kotlin desktop application and needed a database system like Sqlite to store data. I started searching on google & github for a Sqlite ORM library and after spending few hours I figure out [some library](https://github.com/KotlinBy/awesome-kotlin#database) but no one fulfil my requirements. So I decide to write one by myself. As I am too lazy so I tried to develop something easier and straightforward. I don’t want the developer to write some queries and use the ORM system. So I develop the library keep in mind that not only me but everyone needs something easy, something more handy, something more flexible which will do everything. Ok I have started writing PultusORM a sqlite ORM library for Kotlin.
+Few days back I was developing a Kotlin desktop application and needed a database system like Sqlite to store data. I started searching on google & github for a Sqlite ORM library and after spending few hours I figure out [some library](https://github.com/Heapy/awesome-kotlin#database) but no one fulfil my requirements. So I decide to write one by myself. As I am too lazy so I tried to develop something easier and straightforward. I don’t want the developer to write some queries and use the ORM system. So I develop the library keep in mind that not only me but everyone needs something easy, something more handy, something more flexible which will do everything. Ok I have started writing PultusORM a sqlite ORM library for Kotlin.
 
 [PultusORM](https://github.com/s4kibs4mi/PultusORM) is an opensource project available on github under MIT license.
 

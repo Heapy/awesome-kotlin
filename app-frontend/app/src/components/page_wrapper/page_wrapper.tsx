@@ -96,7 +96,7 @@ export function LinksPageComponent(props: PageProps) {
         {
           name: "Github",
           title: "Fork me!",
-          href: "https://github.com/KotlinBy/awesome-kotlin",
+          href: "https://github.com/Heapy/awesome-kotlin",
         },
       ]}/>
 
