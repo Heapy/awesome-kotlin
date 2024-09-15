@@ -16,6 +16,11 @@ category("Kotlin Native") {
       desc = "Simple spinner-like game intended to demonstrate capabilities of Kotlin/Native software stack."
       setTags("native", "llvm", "android", "ios", "backend", "linux")
     }
+    link {
+      github = "trueangle/kotlin-native-aws-lambda-runtime"
+      desc = "A runtime for executing AWS Lambda functions written in Kotlin/Native, designed to reduce cold start issues common with the JVM platform."
+      setTags("native", "linux")
+    }
   }
   subcategory("Frameworks") {
     link {
