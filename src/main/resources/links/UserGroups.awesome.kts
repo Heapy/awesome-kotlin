@@ -308,6 +308,12 @@ category("Kotlin User Groups") {
       setTags("France")
     }
     link {
+      kug = "BordeauxKt"
+      desc = "France"
+      href = "https://bordeauxkt.io"
+      setTags("France")
+    }
+    link {
       kug = "Rhein-Main Kotlin"
       desc = "Germany"
       href = "https://www.meetup.com/de-DE/Kotlin-Rhein-Main/"
