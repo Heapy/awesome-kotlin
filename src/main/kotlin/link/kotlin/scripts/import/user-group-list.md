@@ -57,6 +57,7 @@ https://github.com/JetBrains/kotlin-web-site/blob/master/pages/user-groups/user-
 * [Oslo Kotlin User Group](https://www.meetup.com/meetup-group-nWeRbyMu/), Norway
 * [Omsk Kotlin User Group](https://vk.com/omskkotlin), Russia
 * [Paris Kotlin User Group](https://www.meetup.com/Kotlin-Paris-Meetup/), France
+* [BordeauxKt](https://bordeauxkt.io), France
 * [Rhein-Main Kotlin](https://www.meetup.com/de-DE/Kotlin-Rhein-Main/), Germany
 * [Rostov Kotlin User Group](https://vk.com/rndkotlin), Russia
 * [Samara Kotlin User Group](https://sitc.community/communities/kug/), Russia
