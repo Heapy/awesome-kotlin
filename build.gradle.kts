@@ -35,8 +35,8 @@ dependencies {
     implementation(kotlin("scripting-jvm"))
     implementation(kotlin("scripting-jvm-host"))
 
-    implementation("org.commonmark:commonmark:0.22.0")
-    implementation("org.commonmark:commonmark-ext-gfm-tables:0.22.0")
+    implementation("org.commonmark:commonmark:0.23.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.23.0")
 
     implementation("io.ktor:ktor-client-apache:2.3.12")
     implementation("io.ktor:ktor-client-jackson:2.3.12")
