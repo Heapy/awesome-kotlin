@@ -1051,6 +1051,12 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
       setTags("data-class", "compiler-plugin", "value-based-classes", "binary-compatibility")
     }
+    link {
+      github = "Mr-Mappie/mappie"
+      desc = "Kotlin compiler plugin generating type-safe and performant object mapping code."
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+      setTags("compiler-plugin", "object-mapping", "utility", "conversion")
+    }
   }
   subcategory("Continuous Integration") {
     link {
