@@ -701,6 +701,11 @@ category("Android") {
       desc = "CLI tool that helps to set up the environment for Kotlin Multiplatform Mobile app development."
       setTags("kmm", "multiplatform")
     }
+    link {
+      github = "jzbrooks/vgo"
+      desc = "vgo is a tool for optimizing and converting between vector artwork representations."
+      setTags("drawables", "icons", "gradle-plugin")
+    }
   }
   subcategory("Tests") {
     link {
