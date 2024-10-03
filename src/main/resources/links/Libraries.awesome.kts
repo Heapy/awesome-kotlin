@@ -1596,6 +1596,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "vendelieu/re.this"
+      desc = "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use. "
+      href = "https://vendelieu.github.io/re.this/"
+      setTags("multiplatform", "coroutines", "redis", "client")
+      setPlatforms(COMMON, IOS, JVM, NATIVE)
+    }
+    link {
       github = "oolong-kt/oolong"
       href = "https://oolong-kt.org"
       desc = "Elm inspired Model-View-Update (MVU) implementation for Kotlin multiplatform."
