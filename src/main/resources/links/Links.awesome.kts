@@ -364,5 +364,10 @@ category("Links") {
       desc = "A practical book dedicated to Kotlin Coroutines, common use-cases, best practices and deep understanding."
       href = "https://kt.academy/book/coroutines"
     }
+    link {
+      name = "Kotlin Crash Course"
+      desc = "Quickly master Kotlin by practicing what you learn in eight interactive projects, including REST APIs, serverless deployments, and more."
+      href = "https://www.amazon.com/dp/9355516304"
+    }
   }
 }
