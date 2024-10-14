@@ -10,5 +10,5 @@ dependencies {
     implementation("org.jooq:jooq-codegen:3.19.13")
     implementation("org.flywaydb:flyway-database-postgresql:10.19.0")
     implementation("org.postgresql:postgresql:42.7.4")
-    implementation("ch.qos.logback:logback-classic:1.5.8")
+    implementation("ch.qos.logback:logback-classic:1.5.10")
 }
