@@ -1548,6 +1548,11 @@ category("Libraries/Frameworks") {
       setTags("math", "percentage")
     }
     link {
+      github = "eriksencosta/money"
+      desc = "Monetary calculations and allocations made easy"
+      setTags("money", "currency", "cryptocurrency", "foreign-exchange")
+    }
+    link {
       github = "vendelieu/telegram-bot"
       desc = "A lightweight, feature-rich wrapper for the Telegram Bot API"
       setTags("telegram", "bot", "Kotlin")
