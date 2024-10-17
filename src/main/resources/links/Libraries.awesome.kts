@@ -744,6 +744,7 @@ category("Libraries/Frameworks") {
       desc = "Simple Brazilian taxpayer document (CPF) validator"
       setPlatforms(JVM)
       setTags("validation", "validator", "cpf", "brazil")
+      awesome()
     }
     link {
       github = "kciter/thing"
