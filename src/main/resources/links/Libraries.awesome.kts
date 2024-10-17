@@ -305,6 +305,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+        github = "lupuuss/Mokkery"
+        desc = "The mocking library for Kotlin Multiplatform, easy to use, boilerplate-free and compiler plugin driven."
+        setTags("test", "mock")
+        setPlatforms(JVM, ANDROID, NATIVE, IOS)
+    }
+    link {
       github = "Ninja-Squad/springmockk"
       desc = "SpringMockK: MockBean and SpyBean, but for MockK instead of Mockito"
       setTags("spring", "mock")
