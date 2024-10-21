@@ -25,7 +25,7 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.0")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.0")
 
-    implementation("ch.qos.logback:logback-classic:1.5.8")
+    implementation("ch.qos.logback:logback-classic:1.5.11")
 
     implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
@@ -38,9 +38,9 @@ dependencies {
     implementation("org.commonmark:commonmark:0.23.0")
     implementation("org.commonmark:commonmark-ext-gfm-tables:0.23.0")
 
-    implementation("io.ktor:ktor-client-apache:2.3.12")
-    implementation("io.ktor:ktor-client-jackson:2.3.12")
+    implementation("io.ktor:ktor-client-apache:3.0.0")
+    implementation("io.ktor:ktor-client-jackson:3.0.0")
 
-    testImplementation("io.mockk:mockk:1.13.12")
+    testImplementation("io.mockk:mockk:1.13.13")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.2")
 }
