@@ -14,11 +14,11 @@ import io.ktor.server.application.install
 import io.ktor.server.auth.authentication
 import io.ktor.server.auth.jwt.JWTPrincipal
 import io.ktor.server.auth.jwt.jwt
-import io.ktor.server.locations.Locations
 import io.ktor.server.plugins.cachingheaders.CachingHeaders
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.server.plugins.defaultheaders.DefaultHeaders
 import io.ktor.server.plugins.statuspages.StatusPages
+import io.ktor.server.resources.Resources
 import io.ktor.server.response.respond
 import kotlinx.serialization.Serializable
 import usecases.signup.JwtModule
@@ -28,7 +28,7 @@ import kotlin.time.Duration.Companion.days
 fun Application.defaults(
     jwtConfig: JwtModule.JwtConfig,
 ) {
-    install(Locations)
+    install(Resources)
 
     install(ContentNegotiation) {
         json()
