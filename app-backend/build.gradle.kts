@@ -35,7 +35,7 @@ dependencies {
     implementation("com.charleskorn.kaml:kaml:0.61.0")
 
     implementation("org.flywaydb:flyway-database-postgresql:10.20.0")
-    implementation("org.jooq:jooq:3.19.13")
+    implementation("org.jooq:jooq:3.19.14")
     implementation("org.postgresql:postgresql:42.7.4")
     implementation("com.zaxxer:HikariCP:6.0.0")
 
@@ -64,5 +64,5 @@ dependencies {
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
     testImplementation("io.mockk:mockk:1.13.13")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
 }

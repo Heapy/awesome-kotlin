@@ -35,12 +35,12 @@ dependencies {
     implementation(kotlin("scripting-jvm"))
     implementation(kotlin("scripting-jvm-host"))
 
-    implementation("org.commonmark:commonmark:0.23.0")
-    implementation("org.commonmark:commonmark-ext-gfm-tables:0.23.0")
+    implementation("org.commonmark:commonmark:0.24.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.24.0")
 
     implementation("io.ktor:ktor-client-apache:3.0.0")
     implementation("io.ktor:ktor-client-jackson:3.0.0")
 
     testImplementation("io.mockk:mockk:1.13.13")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
 }
