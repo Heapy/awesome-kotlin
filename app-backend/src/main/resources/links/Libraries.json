@@ -396,11 +396,11 @@
                 },
                 {
                     "name": null,
-                    "github": "hexagonkt/hexagon",
+                    "github": "hexagontk/hexagon",
                     "bitbucket": null,
                     "kug": null,
-                    "href": null,
-                    "desc": "A Microservices framework that takes care of HTTP, serialization and storage.",
+                    "href": "https://hexagontk.com",
+                    "desc": "A Microservices toolkit that takes care of HTTP, serialization and templates.",
                     "platforms": [],
                     "tags": [
                         "web",
