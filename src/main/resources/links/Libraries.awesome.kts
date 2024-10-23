@@ -120,8 +120,9 @@ category("Libraries/Frameworks") {
       setTags("web", "rest", "http")
     }
     link {
-      github = "hexagonkt/hexagon"
-      desc = "A Microservices framework that takes care of HTTP, serialization and storage."
+      github = "hexagontk/hexagon"
+      href = "https://hexagontk.com"
+      desc = "A Microservices toolkit that takes care of HTTP, serialization and templates."
       setTags("web", "rest", "http")
     }
     link {
