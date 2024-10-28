@@ -34,7 +34,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.7.3")
     implementation("com.charleskorn.kaml:kaml:0.61.0")
 
-    implementation("org.flywaydb:flyway-database-postgresql:10.20.0")
+    implementation("org.flywaydb:flyway-database-postgresql:10.20.1")
     implementation("org.jooq:jooq:3.19.14")
     implementation("org.postgresql:postgresql:42.7.4")
     implementation("com.zaxxer:HikariCP:6.0.0")
@@ -60,7 +60,7 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.0")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.0")
 
-    implementation("ch.qos.logback:logback-classic:1.5.11")
+    implementation("ch.qos.logback:logback-classic:1.5.12")
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
     testImplementation("io.mockk:mockk:1.13.13")
