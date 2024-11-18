@@ -32,12 +32,12 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.9.0")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-hocon:1.7.3")
-    implementation("com.charleskorn.kaml:kaml:0.62.2")
+    implementation("com.charleskorn.kaml:kaml:0.65.0")
 
     implementation("org.flywaydb:flyway-database-postgresql:10.21.0")
     implementation("org.jooq:jooq:3.19.15")
     implementation("org.postgresql:postgresql:42.7.4")
-    implementation("com.zaxxer:HikariCP:6.1.0")
+    implementation("com.zaxxer:HikariCP:6.2.0")
 
     implementation("at.favre.lib:bcrypt:0.10.2")
 
@@ -50,7 +50,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:3.0.1")
     implementation("io.ktor:ktor-server-auth-jwt:3.0.1")
     implementation("io.ktor:ktor-server-metrics-micrometer:3.0.1")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.13.6")
+    implementation("io.micrometer:micrometer-registry-prometheus:1.14.1")
     implementation("io.ktor:ktor-server-call-logging:3.0.1")
     implementation("io.ktor:ktor-server-default-headers:3.0.1")
     implementation("io.ktor:ktor-server-caching-headers:3.0.1")
