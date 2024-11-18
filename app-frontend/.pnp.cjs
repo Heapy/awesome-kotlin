@@ -1858,10 +1858,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-e1a13869d2.zip/node_modules/cross-spawn/",\
+      ["npm:7.0.5", {\
+        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.5-cf92562a27-c95062469d.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.5"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -5921,7 +5921,7 @@ const RAW_RUNTIME_STATE =
           ["@webpack-cli/serve", "virtual:70107c6df97c23e7ffea997862719fc56e8c798db627c927e548afe5b808d3f70a461a98dd5e6b7ee98cc0aa7530ba3e5ef825a577fd9637b1e35123d5c5be3e#npm:2.0.5"],\
           ["colorette", "npm:2.0.16"],\
           ["commander", "npm:10.0.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.5"],\
           ["envinfo", "npm:7.8.1"],\
           ["fastest-levenshtein", "npm:1.0.12"],\
           ["import-local", "npm:3.0.3"],\
