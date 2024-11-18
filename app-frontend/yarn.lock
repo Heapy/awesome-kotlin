@@ -993,7 +993,7 @@ __metadata:
     less: "npm:^4.2.0"
     less-loader: "npm:^12.2.0"
     normalize.css: "npm:^8.0.1"
-    postcss: "npm:^8.4.48"
+    postcss: "npm:^8.4.49"
     postcss-loader: "npm:^8.1.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -3776,14 +3776,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.48":
-  version: 8.4.48
-  resolution: "postcss@npm:8.4.48"
+"postcss@npm:^8.4.49":
+  version: 8.4.49
+  resolution: "postcss@npm:8.4.49"
   dependencies:
     nanoid: "npm:^3.3.7"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10/94d7b2255752607d120fb7de7b2a7f895ba1594a0e1b566cb01972ca4a7b04a65ed2a1783109f86bb28cfb421c5a58c54b9330942bedaa2fd35c5c605fa6beb8
+  checksum: 10/28fe1005b1339870e0a5006375ba5ac1213fd69800f79e7db09c398e074421ba6e162898e94f64942fed554037fd292db3811d87835d25ab5ef7f3c9daacb6ca
   languageName: node
   linkType: hard
 
