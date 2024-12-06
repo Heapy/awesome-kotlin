@@ -574,6 +574,12 @@ category("Libraries/Frameworks") {
       setTags("Thread", "Coroutines", "Multithreading", "JVM")
       setPlatforms(JVM)
     }
+    link {
+      github = "huanshankeji/compose-html-material"
+      desc = "Compose HTML Material 3 wrapper components based on Material Web"
+      setTags("Compose HTML", "Material Design", "Material", "Material 3", "Material Web", "Web Components")
+      setPlatforms(JS)
+    }
   }
   subcategory("Functional Programming") {
     link {
