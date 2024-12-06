@@ -2401,5 +2401,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "compose-desktop", "ui")
       setPlatforms(JVM, ANDROID, JS)
     }
+    link {
+      github = "huanshankeji/compose-multiplatform-html-unified"
+      desc = "Unified Compose Multiplatform wrappers of common and Material Design APIs for rendering-based Compose UI and DOM-based Compose HTML"
+      setTags("Compose Multiplatform", "Compose UI", "Compose HTML", "compose", "compose-desktop", "ui", "Material Design", "Material", "Material 2", "Material 3", "Material Web", "Kobweb")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM, JS)
+    }
   }
 }
