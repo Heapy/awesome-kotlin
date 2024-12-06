@@ -936,6 +936,12 @@ category("Libraries/Frameworks") {
       setTags("database", "SQL", "driver", "query", "postgres", "postgresql", "mysql", "async", "async-io", "non-blocking")
       setPlatforms(NATIVE)
     }
+    link {
+      github = "huanshankeji/exposed-vertx-sql-client"
+      desc = "Exposed on top of Vert.x Reactive SQL Client"
+      setTags("Exposed", "Vert.x", "vertx", "database", "query", "SQL", "postgres", "postgresql", "async", "async-io", "non-blocking")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
