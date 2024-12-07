@@ -574,12 +574,6 @@ category("Libraries/Frameworks") {
       setTags("Thread", "Coroutines", "Multithreading", "JVM")
       setPlatforms(JVM)
     }
-    link {
-      github = "huanshankeji/compose-html-material"
-      desc = "Compose HTML Material 3 wrapper components based on Material Web"
-      setTags("Compose HTML", "Material Design", "Material", "Material 3", "Material Web", "Web Components")
-      setPlatforms(JS)
-    }
   }
   subcategory("Functional Programming") {
     link {
@@ -2406,6 +2400,12 @@ category("Libraries/Frameworks") {
       desc = "Unified Compose Multiplatform wrappers of common and Material Design APIs for rendering-based Compose UI and DOM-based Compose HTML"
       setTags("Compose Multiplatform", "Compose UI", "Compose HTML", "compose", "compose-desktop", "ui", "Material Design", "Material", "Material 2", "Material 3", "Material Web", "Kobweb")
       setPlatforms(COMMON, ANDROID, JVM, IOS, WASM, JS)
+    }
+    link {
+      github = "huanshankeji/compose-html-material"
+      desc = "Compose HTML Material 3 wrapper components based on Material Web"
+      setTags("Compose HTML", "Material Design", "Material", "Material 3", "Material Web", "Web Components")
+      setPlatforms(JS)
     }
   }
 }
