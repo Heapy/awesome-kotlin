@@ -131,7 +131,6 @@ Here is the awesome badge for your project:
 * [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
 * [tanujnotes/Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF Launcher for Android. Reduce your screen time. Daily wallpapers.
 * [keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source) - Source code of extensions for Tachiyomi/Mihon and variants.
-* [fumiama/copymanga](https://github.com/fumiama/copymanga) - 拷贝漫画的第三方APP，优化阅读/下载体验
 * [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - 自动跳过APP开屏广告
 * [ReVanced/revanced-patches](https://github.com/ReVanced/revanced-patches) - 🧩 Patches for ReVanced
 * [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
@@ -139,6 +138,7 @@ Here is the awesome badge for your project:
 * [XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) - DataBackup for Android 7.0+
 * [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Android Video/Audio Downloader app using yt-dlp
 * [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
+* [z-huang/InnerTune](https://github.com/z-huang/InnerTune) - A Material 3 YouTube Music client for Android
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
 * [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) - AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.
 * [ethereum-lists/chains](https://github.com/ethereum-lists/chains) - provides metadata for chains
@@ -151,31 +151,35 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [DerGoogler/MMRL](https://github.com/DerGoogler/MMRL) - MMRL is an Android app that helps manage your own modules repository.
-* [android/snippets](https://github.com/android/snippets) - Main repository for snippets surfaced on developer.android.com.
-* [aws/aws-toolkit-jetbrains](https://github.com/aws/aws-toolkit-jetbrains) - AWS Toolkit for JetBrains - a plugin for interacting with AWS from JetBrains IDEs
 * [null2264/yokai](https://github.com/null2264/yokai) - Free and open source manga reader for Android
+* [element-hq/element-x-android](https://github.com/element-hq/element-x-android) - Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose
 * [lizongying/my-tv-0](https://github.com/lizongying/my-tv-0) - 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
-* [MM2-0/Kvaesitso](https://github.com/MM2-0/Kvaesitso) - A search-focused Android launcher
 * [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 * [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime
+* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) - SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
+* [firebase/quickstart-android](https://github.com/firebase/quickstart-android) - Firebase Quickstart Samples for Android
 * [Shabinder/SpotiFlyer](https://github.com/Shabinder/SpotiFlyer) - Kotlin Multiplatform Music Downloader, Supports Spotify /   Gaana / Youtube Music / Jio Saavn / SoundCloud.
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp, designed with Material You
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [dessalines/thumb-key](https://github.com/dessalines/thumb-key) - A privacy-conscious Android keyboard made for your thumbs
+* [aws/aws-toolkit-jetbrains](https://github.com/aws/aws-toolkit-jetbrains) - AWS Toolkit for JetBrains - a plugin for interacting with AWS from JetBrains IDEs
 * [getsentry/sentry-java](https://github.com/getsentry/sentry-java) - A Sentry SDK for Java, Android and other JVM languages.
 * [stripe/stripe-android](https://github.com/stripe/stripe-android) - Stripe Android SDK
+* [FossifyOrg/Gallery](https://github.com/FossifyOrg/Gallery) - Browse your memories without any interruptions with this photo and video gallery
 * [rnmapbox/maps](https://github.com/rnmapbox/maps) - A Mapbox react native module for creating custom maps
+* [cashapp/paparazzi](https://github.com/cashapp/paparazzi) - Render your Android screens without a physical device or emulator
 * [wordpress-mobile/WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android) - WordPress for Android
-* [oblador/react-native-keychain](https://github.com/oblador/react-native-keychain) - :key: Keychain Access for React Native
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
+* [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) - Koin - a pragmatic lightweight dependency injection framework for Kotlin &amp; Kotlin Multiplatform
 * [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - IdeaVim – A Vim engine for JetBrains IDEs
-* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
-* [google/flexbox-layout](https://github.com/google/flexbox-layout) - Flexbox for Android
-* [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
-* [CymChad/BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) - BRVAH:Powerful and flexible RecyclerAdapter
+* [lottie-react-native/lottie-react-native](https://github.com/lottie-react-native/lottie-react-native) - Lottie wrapper for React Native.
+* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
 * [square/leakcanary](https://github.com/square/leakcanary) - A memory leak detection library for Android.
+* [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
+* [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -961,8 +965,8 @@ Here is the awesome badge for your project:
 * [Karumi/KataScreenshotKotlin](https://github.com/Karumi/KataScreenshotKotlin) - An full exercise to learn how to create screenshot tests for Android
 * [ziggy42/Blum-kotlin](https://github.com/ziggy42/Blum-kotlin) - A simple android Twitter client written in Kotlin
 * [Karumi/KataSuperHeroesKotlin](https://github.com/Karumi/KataSuperHeroesKotlin) - A full exercise to learn how to create espresso tests using test doubles and a dependency injector for Android written in Kotlin.
-* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [halilozel1903/KotlinTutorials](https://github.com/halilozel1903/KotlinTutorials) - It's a project that contains lessons and examples about Kotlin programming language.
+* [adrielcafe/ChromaAndroidApp](https://github.com/adrielcafe/ChromaAndroidApp) - Chromatic tuner app.
 * [AmrDeveloper/Linkhub](https://github.com/AmrDeveloper/Linkhub) - Free and open source effective link management app with no ads.
 * [dgngulcan/droid-feed](https://github.com/dgngulcan/droid-feed) - News feed aggregated exclusively for Android Developers.
 * [SidneyXu/AndroidDemoIn4Languages](https://github.com/SidneyXu/AndroidDemoIn4Languages) - Comparison between Java, Groovy, Scala, Kotlin in Android Development.
