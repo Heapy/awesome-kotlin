@@ -971,8 +971,8 @@ __metadata:
     postcss-loader: "npm:^8.1.1"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    react-router: "npm:^7.1.0"
-    react-router-dom: "npm:^7.1.0"
+    react-router: "npm:^7.1.1"
+    react-router-dom: "npm:^7.1.1"
     style-loader: "npm:^4.0.0"
     ts-loader: "npm:^9.5.1"
     typescript: "npm:^5.7.2"
@@ -3872,21 +3872,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "react-router-dom@npm:7.1.0"
+"react-router-dom@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "react-router-dom@npm:7.1.1"
   dependencies:
-    react-router: "npm:7.1.0"
+    react-router: "npm:7.1.1"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10/ec037e2db3ab293a8698402b766b83c62ebb6627d13d0d9dcf00b05a2084a18951eaaaefbdbbf037ce1a11c646f79d80e2425e2218447911cb6cbc91e15e65a2
+  checksum: 10/d7b978959f89051cf6705cdc0907d92167e39f2835b20b78508cc69e46ebecdbb0b7b95c4d2f954b60c01cdfc70ffc842ee261c0b7b22507a51990e4cebc41ee
   languageName: node
   linkType: hard
 
-"react-router@npm:7.1.0, react-router@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "react-router@npm:7.1.0"
+"react-router@npm:7.1.1, react-router@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "react-router@npm:7.1.1"
   dependencies:
     "@types/cookie": "npm:^0.6.0"
     cookie: "npm:^1.0.1"
@@ -3898,7 +3898,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 10/b5197efd889ced97915d7ba1235e8757f93cca1bbbc775e666ddbc79c420dea442c0587f3b54e96b6afd3756c6f086cb69f08cb5570c3351c290c2f8d32ff75e
+  checksum: 10/f12e229d79bd6de561e697b64556959361365610450c12bfd89116fccca8428728d7c372a096eff570a917ef02473ef4f5145beb6a2881d6935f69fe25bebcfd
   languageName: node
   linkType: hard
 
