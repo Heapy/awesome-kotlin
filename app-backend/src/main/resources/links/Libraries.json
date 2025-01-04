@@ -3206,6 +3206,26 @@
                 },
                 {
                     "name": null,
+                    "github": "nadal/ktlint-intellij-plugin",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "An anti-bikeshedding Kotlin linter with built-in formatter. Get instant formating with Ktlint in your IDEA.",
+                    "platforms": [],
+                    "tags": [
+                        "style",
+                        "linter",
+                        "Intellij IDEA",
+                        "Android Studio"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
+                },
+                {
+                    "name": null,
                     "github": "cqfn/diktat",
                     "bitbucket": null,
                     "kug": null,
