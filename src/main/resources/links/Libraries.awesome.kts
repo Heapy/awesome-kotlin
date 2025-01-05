@@ -973,6 +973,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "nadal/ktlint-intellij-plugin"
+      desc = "An anti-bikeshedding Kotlin linter with built-in formatter. Get instant formating with Ktlint in your IDEA."
+      setTags("style", "linter","Intellij IDEA, Android Studio")
+      awesome()
+    }
+    link {
       name = "Kotlin Notebook"
       desc = "Kotlin notebooks are interactive worksheets with rich outputs."
       href = "https://plugins.jetbrains.com/plugin/16340-kotlin-notebook"
