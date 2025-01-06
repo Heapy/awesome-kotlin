@@ -60,7 +60,7 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.2")
 
-    implementation("ch.qos.logback:logback-classic:1.5.15")
+    implementation("ch.qos.logback:logback-classic:1.5.16")
 
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.1")
     testImplementation("io.mockk:mockk:1.13.14")
