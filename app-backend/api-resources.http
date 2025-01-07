@@ -1,0 +1,14 @@
+### Atom feed, 20 latest
+GET {{host}}/rss.xml
+
+### Atom feed, all
+GET {{host}}/rss-full.xml
+
+### Sitemap
+GET {{host}}/sitemap.xml
+
+### Articles
+GET {{host}}/articles
+
+### README.md
+GET {{host}}/readme.md

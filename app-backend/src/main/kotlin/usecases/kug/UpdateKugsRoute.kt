@@ -1,34 +1,38 @@
 package usecases.kug
 
-import io.ktor.http.*
-import io.ktor.server.application.*
-import io.ktor.server.response.*
-import io.ktor.server.routing.*
+import infra.db.transaction.TransactionContext
+import infra.ktor.auth.UserContext
+import infra.ktor.easy.EasyKtorRoute
+import io.ktor.http.HttpMethod
+import io.ktor.http.HttpStatusCode
+import io.ktor.server.response.respond
+import io.ktor.server.routing.RoutingContext
 import kotlinx.serialization.Serializable
-import ktor.KtorRoute
 
 class UpdateKugsRoute(
     private val kugDownloadService: KugDownloadService,
-) : KtorRoute {
-    override fun Routing.install() {
-        post("/kugs") {
-            kugDownloadService.pull()
-                .map { section ->
-                    section.groups.map { group ->
-                        KugCreatePrj(
-                            continent = section.section,
-                            name = group.name,
-                            country = group.country,
-                            url = group.url,
-                            latitude = group.position?.lat,
-                            longitude = group.position?.lng
-                        )
-                    }
-                }
-                .flatten()
+) : EasyKtorRoute {
+    override val path = "/api/kugs"
 
-            call.respond(HttpStatusCode.Accepted)
-        }
+    override val method = HttpMethod.Post
+
+    context(_: TransactionContext, _: UserContext)
+    override suspend fun RoutingContext.handle() {
+        kugDownloadService.pull()
+            .flatMap { section ->
+                section.groups.map { group ->
+                    CreateKugRequest(
+                        continent = section.section,
+                        name = group.name,
+                        country = group.country,
+                        url = group.url,
+                        latitude = group.position?.lat,
+                        longitude = group.position?.lng
+                    )
+                }
+            }
+
+        call.respond(HttpStatusCode.Accepted)
     }
 }
 

@@ -1,0 +1,60 @@
+.kotlin_version {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  position: relative;
+
+  &:hover {
+    background-color: var(--link-color);
+    border-color: var(--link-color);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+// Dark theme overrides
+.kotlin_version {
+  [data-theme="dark"] & {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    color: var(--text-color);
+    box-shadow: 
+      0 1px 3px 0 rgba(0, 0, 0, 0.3), 
+      0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-color: var(--link-color);
+      border-color: var(--link-color);
+      color: white;
+      box-shadow: 
+        0 4px 6px -1px rgba(0, 0, 0, 0.4), 
+        0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    }
+  }
+}

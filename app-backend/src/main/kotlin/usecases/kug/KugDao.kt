@@ -1,11 +1,10 @@
 package usecases.kug
 
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
-import serialization.OffsetDateTimeSerializer
+import infra.db.transaction.TransactionContext
+import infra.db.transaction.dslContext
+import infra.serialization.serializers.OffsetDateTimeSerializer
 import jooq.main.tables.references.KUG
-import org.jooq.DSLContext
+import kotlinx.serialization.Serializable
 import java.time.OffsetDateTime
 
 @Serializable
@@ -21,7 +20,7 @@ data class Kug(
     val created: OffsetDateTime,
 )
 
-data class KugCreatePrj(
+data class CreateKugRequest(
     val continent: String,
     val name: String,
     val country: String,
@@ -30,15 +29,9 @@ data class KugCreatePrj(
     val longitude: Double?,
 )
 
-interface KugDao {
-    suspend fun getAll(): List<Kug>
-    suspend fun create(kug: KugCreatePrj): Kug
-}
-
-class DefaultKugDao(
-    private val dslContext: DSLContext,
-) : KugDao {
-    override suspend fun getAll(): List<Kug> = withContext(Dispatchers.IO) {
+class KugDao() {
+    context(_: TransactionContext)
+    fun getAll(): List<Kug> = dslContext { dslContext ->
         dslContext
             .select(
                 KUG.ID,
@@ -54,9 +47,10 @@ class DefaultKugDao(
             .fetchInto(Kug::class.java)
     }
 
-    override suspend fun create(
-        kug: KugCreatePrj,
-    ): Kug = withContext(Dispatchers.IO) {
+    context(_: TransactionContext)
+    fun create(
+        kug: CreateKugRequest,
+    ): Kug = dslContext { dslContext ->
         dslContext
             .insertInto(
                 KUG,

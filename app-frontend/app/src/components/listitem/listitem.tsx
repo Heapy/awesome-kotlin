@@ -1,13 +1,14 @@
 import * as React from "react";
 import {Link, LinkState} from "../../model";
 import {classes} from "../../styles";
-import "./listitem.less";
+import "./listitem.scss";
+import {memo} from "react";
 
 function split(str: string): string {
   return str.replace("/", "/​"); // replace "/" with "/ and https://en.wikipedia.org/wiki/Zero-width_space"
 }
 
-export function Listitem({link}: ListitemProps) {
+function ListItem({link}: ListitemProps) {
   return (
     <li className={classes({
       ["listitem"]: true,
@@ -69,3 +70,5 @@ function getLastUpdated(link) {
     );
   }
 }
+
+export default memo(ListItem);

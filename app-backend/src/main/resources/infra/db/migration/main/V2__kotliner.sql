@@ -1,0 +1,27 @@
+CREATE TYPE KOTLINER_STATUS_ENUM AS ENUM (
+    'UNVERIFIED',
+    'ACTIVE',
+    'BANNED',
+    'DELETED'
+    );
+
+CREATE TABLE KOTLINER
+(
+    ID               BIGINT PRIMARY KEY                DEFAULT nextval('ENTITY_ID_SEQ'),
+    CREATED          TIMESTAMP WITH TIME ZONE NOT NULL,
+    UPDATED          TIMESTAMP WITH TIME ZONE NOT NULL,
+    STATUS           KOTLINER_STATUS_ENUM     NOT NULL,
+    AVATAR           VARCHAR(500)             NULL,
+    DESCRIPTION      TEXT                     NOT NULL,
+    NORMALIZED_EMAIL VARCHAR(500)             NOT NULL,
+    ORIGINAL_EMAIL   VARCHAR(500)             NOT NULL,
+    FIRST_NAME       VARCHAR(100)             NULL,
+    LAST_NAME        VARCHAR(100)             NULL,
+    NICKNAME         VARCHAR(100)             NOT NULL,
+    PASSWORD         VARCHAR(500)             NOT NULL,
+    TOTP             VARCHAR(500)             NULL,
+    META             JSONB                    NULL,
+    VERSION          BIGINT                   NOT NULL DEFAULT 0,
+    CONSTRAINT UNIQUE_KOTLINER_EMAIL UNIQUE (NORMALIZED_EMAIL),
+    CONSTRAINT UNIQUE_KOTLINER_NICKNAME UNIQUE (NICKNAME)
+);

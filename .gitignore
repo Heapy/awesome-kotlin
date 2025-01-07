@@ -1,6 +1,3 @@
-# Generated
-/readme/README.md
-
 # Local Configuration
 .env
 
@@ -9,6 +6,12 @@
 out
 *.iml
 
+# Kotlin
+.kotlin
+
 # Gradle
 .gradle
 build
+
+# macOS
+.DS_Store

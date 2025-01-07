@@ -1,0 +1,245 @@
+@use "sass:color";
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.not-found-container {
+  min-height: calc(100vh - 200px);
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  
+  .not-found-content {
+    max-width: 600px;
+    text-align: center;
+    background: $light-background;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    box-shadow: $shadow-lg;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.not-found-illustration {
+  position: relative;
+  margin-bottom: 2rem;
+  
+  .error-code {
+    font-size: 8rem;
+    font-weight: 900;
+    color: $primary;
+    background: linear-gradient(135deg, $primary 0%, $primary-dark 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 8px rgba(99, 102, 241, 0.3);
+    
+    @include mobile {
+      font-size: 6rem;
+    }
+  }
+  
+  .error-icon {
+    color: $primary;
+    opacity: 0.8;
+    animation: float 3s ease-in-out infinite;
+    
+    svg {
+      filter: drop-shadow(0 4px 8px rgba(99, 102, 241, 0.2));
+    }
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.not-found-text {
+  margin-bottom: 2.5rem;
+  
+  .error-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $light-text;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
+  
+  .error-description {
+    font-size: 1.125rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  
+  .primary-button {
+    @include primary-button;
+  }
+  
+  .secondary-button {
+    @include secondary-button;
+  }
+  
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    
+    .primary-button,
+    .secondary-button {
+      width: 100%;
+      justify-content: center;
+      max-width: 200px;
+    }
+  }
+}
+
+.helpful-links {
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $light-text;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    
+    .help-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 1rem;
+      background: #f8fafc;
+      border: 1px solid $border-color;
+      border-radius: 12px;
+      text-decoration: none;
+      color: $light-text;
+      transition: all 0.2s ease;
+      
+      span:first-child {
+        font-size: 1.5rem;
+      }
+      
+      span:last-child {
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+      
+      &:hover {
+        background: #f1f5f9;
+        border-color: $primary;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: $primary;
+      }
+    }
+  }
+}
+
+// Dark theme support
+@include dark-theme {
+  .not-found-container {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    
+    .not-found-content {
+      background: $dark-background;
+      border-color: #374151;
+    }
+  }
+  
+  .not-found-text {
+    .error-title {
+      color: $dark-text;
+    }
+    
+    .error-description {
+      color: #9ca3af;
+    }
+  }
+  
+  .not-found-actions {
+    .secondary-button {
+      color: $dark-text;
+      border-color: #374151;
+      
+      &:hover {
+        background: #374151;
+        border-color: $primary;
+        color: $primary;
+      }
+    }
+  }
+  
+  .helpful-links {
+    h3 {
+      color: $dark-text;
+    }
+    
+    .link-grid {
+      .help-link {
+        background: #374151;
+        border-color: #4b5563;
+        color: $dark-text;
+        
+        &:hover {
+          background: #4b5563;
+          border-color: $primary;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@include tablet {
+  .not-found-container {
+    padding: 1rem;
+    
+    .not-found-content {
+      padding: 2rem 1.5rem;
+    }
+  }
+  
+  .helpful-links {
+    .link-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .helpful-links {
+    .link-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

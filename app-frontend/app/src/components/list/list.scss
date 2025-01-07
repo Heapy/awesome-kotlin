@@ -1,0 +1,56 @@
+.list {
+  display: inline-block;
+  width: calc(100% / 3);
+  padding: 0.75rem 1.25rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 0;
+
+  @media screen and (max-width: 1024px) {
+    width: calc(100% / 2);
+    padding: 0.75rem 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+  }
+
+  &_title a {
+    font-size: 1.25rem;
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+
+    &:hover {
+      color: var(--text-color);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 1.125rem;
+    }
+  }
+
+  &_list {
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+  }
+}
+
+// Dark theme overrides
+.list {
+  &_title a {
+    [data-theme="dark"] & {
+      color: var(--link-color);
+
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+  }
+}

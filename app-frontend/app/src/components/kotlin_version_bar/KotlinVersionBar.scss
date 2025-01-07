@@ -1,0 +1,48 @@
+.bar {
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  &_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      content: 'Current Kotlin Versions:';
+      font-weight: 600;
+      color: var(--text-color);
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+
+      &::before {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+// Dark theme overrides
+.bar {
+  [data-theme="dark"] & {
+    background-color: var(--background-color);
+    border-bottom-color: var(--border-color);
+  }
+}

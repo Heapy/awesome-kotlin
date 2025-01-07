@@ -1,0 +1,109 @@
+@use 'variables' as *;
+
+// Button base styles
+@mixin button-base {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@mixin primary-button {
+  @include button-base;
+  background: linear-gradient(135deg, $primary 0%, $primary-dark 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.5);
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@mixin secondary-button {
+  @include button-base;
+  background: transparent;
+  color: $light-text;
+  border: 2px solid $border-color;
+  
+  &:hover {
+    background: #f9fafb;
+    border-color: $primary;
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+// Dark theme mixin
+@mixin dark-theme {
+  @at-root [data-theme="dark"] #{&} {
+    @content;
+  }
+}
+
+// Responsive mixins
+@mixin mobile {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin wide {
+  @media (max-width: $breakpoint-wide) {
+    @content;
+  }
+}
+
+// Container mixin
+@mixin container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacing-sm;
+  
+  @include wide {
+    padding: 0 $spacing-md;
+  }
+  
+  @include tablet {
+    padding: 0 $spacing-sm;
+  }
+}
+
+// Card mixin
+@mixin card {
+  background: $light-background;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  box-shadow: $shadow;
+  
+  @include dark-theme {
+    background: $dark-background;
+    border-color: #374151;
+  }
+}

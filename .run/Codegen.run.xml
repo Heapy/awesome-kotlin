@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Codegen" type="JetRunConfigurationType">
+    <option name="MAIN_CLASS_NAME" value="GenerateKt" />
+    <module name="awesome-kotlin.app-backend-dataops.main" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

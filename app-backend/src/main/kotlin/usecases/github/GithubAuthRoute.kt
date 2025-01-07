@@ -1,23 +1,27 @@
 package usecases.github
 
+import infra.db.transaction.TransactionContext
+import infra.ktor.easy.EasyKtorRoute
 import io.ktor.server.response.*
-import io.ktor.server.routing.Routing
-import io.ktor.server.routing.get
-import ktor.KtorRoute
+import infra.ktor.auth.UserContext
+import io.ktor.http.*
+import io.ktor.server.routing.RoutingContext
 
 class GithubCallbackRoute(
     private val githubAccessToken: GithubAccessToken,
-) : KtorRoute {
-    override fun Routing.install() {
-        get("/auth/github") {
-            val code = call.request.queryParameters["code"]
-                ?: error("No code provided")
+) : EasyKtorRoute {
+    override val path = "/auth/github"
 
-            val accessToken = githubAccessToken(code)
+    context(_: TransactionContext, _: UserContext)
+    override suspend fun RoutingContext.handle() {
+        val code = call.request.queryParameters["code"]
+            ?: error("No code provided")
 
-            println(accessToken)
+        val accessToken = githubAccessToken.exchange(code)
 
-            call.respond("Hello, Github! $accessToken")
-        }
+        // set cookie and redirect
+        call.response.cookies.append("accessToken", "Bearer $accessToken")
+        call.response.headers.append(HttpHeaders.Location, "/")
+        call.respond(HttpStatusCode.TemporaryRedirect)
     }
 }

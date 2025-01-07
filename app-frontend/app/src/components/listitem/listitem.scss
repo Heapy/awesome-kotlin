@@ -1,0 +1,130 @@
+.listitem {
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-bottom-color: var(--border-color);
+  }
+
+  &_archived,
+  &_unsupported {
+    opacity: 0.5;
+  }
+
+  &_link {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--link-color);
+      text-decoration: underline;
+    }
+  }
+
+  &_description {
+    font-size: 0.875rem;
+    color: var(--text-color);
+    opacity: 0.7;
+    margin: 0;
+    line-height: 1.4;
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &_star {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.125rem;
+
+    + .listitem_link {
+      padding-right: 4rem;
+    }
+
+    &_icon {
+      display: inline-block;
+      vertical-align: top;
+      width: 16px;
+      height: 16px;
+      background-size: 16px 16px;
+      color: #fbbf24;
+      opacity: 0.8;
+    }
+
+    &_count {
+      display: inline-block;
+      vertical-align: top;
+      color: var(--text-color);
+      font-size: 0.875rem;
+      line-height: 16px;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+  }
+}
+
+// Dark theme overrides
+.listitem {
+  [data-theme="dark"] & {
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-bottom-color: var(--border-color);
+    }
+  }
+
+  &_link {
+    [data-theme="dark"] & {
+      color: var(--text-color);
+
+      &:hover {
+        color: var(--link-color);
+      }
+    }
+  }
+
+  &_description {
+    [data-theme="dark"] & {
+      color: var(--text-color);
+
+      a {
+        color: var(--link-color);
+      }
+    }
+  }
+
+  &_star {
+    &_icon {
+      [data-theme="dark"] & {
+        color: #fbbf24;
+      }
+    }
+
+    &_count {
+      [data-theme="dark"] & {
+        color: var(--text-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+// Custom navbar styles to replace Bulma classes
+.navbar {
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  min-height: 3.25rem;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  
+  .navbar-item {
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+    
+    // Override active styles for logo
+    &.active {
+      background-color: transparent;
+      font-weight: normal;
+      
+      &::after {
+        display: none;
+      }
+    }
+    
+    // Remove outline on focus/click
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    
+    img {
+      max-height: 1.75rem;
+    }
+  }
+}
+
+.navbar-burger {
+  cursor: pointer;
+  display: none;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  margin-left: auto;
+  
+  span {
+    background-color: var(--text-color);
+    display: block;
+    height: 1px;
+    left: calc(50% - 8px);
+    position: absolute;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: background-color, opacity, transform;
+    transition-timing-function: ease-out;
+    width: 16px;
+    
+    &:nth-child(1) {
+      top: calc(50% - 6px);
+    }
+    
+    &:nth-child(2) {
+      top: calc(50% - 1px);
+    }
+    
+    &:nth-child(3) {
+      top: calc(50% + 4px);
+    }
+  }
+  
+  &.is-active {
+    span {
+      &:nth-child(1) {
+        transform: translateY(5px) rotate(45deg);
+      }
+      
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      
+      &:nth-child(3) {
+        transform: translateY(-5px) rotate(-45deg);
+      }
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  
+  @media (max-width: 1024px) {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    
+    &.is-active {
+      display: flex;
+    }
+  }
+}
+
+.navbar-start {
+  display: flex;
+  align-items: center;
+  
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.navbar-end {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+  .navbar-item:hover {
+    background-color: transparent !important;
+  }
+  
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
+.navbar-item {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: var(--link-color);
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  &.active {
+    color: var(--link-color);
+    background-color: rgba(99, 102, 241, 0.1);
+    font-weight: 600;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: var(--link-color);
+      border-radius: 1px;
+    }
+  }
+  
+  .navbar-end & {
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    justify-content: center;
+    
+    &.active::after {
+      bottom: auto;
+      top: 0;
+      height: 2px;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  
+  &.is-light {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    
+    &:hover {
+      background-color: var(--link-color);
+      border-color: var(--link-color);
+      color: white;
+    }
+    
+    &.active {
+      background-color: var(--link-color) !important;
+      border-color: var(--link-color) !important;
+      color: white !important;
+      font-weight: 600;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.theme-toggle {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: var(--link-color);
+    color: var(--link-color);
+  }
+  
+  &:focus {
+    outline: none;
+    border-color: var(--link-color);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+  }
+  
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+// Dark theme overrides
+.navbar {
+  [data-theme="dark"] & {
+    background-color: var(--background-color);
+    border-bottom-color: var(--border-color);
+  }
+}
+
+.navbar-item {
+  [data-theme="dark"] & {
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    &.active {
+      background-color: rgba(129, 140, 248, 0.15);
+    }
+  }
+  
+  // Remove hover background for navbar-end items in dark theme
+  [data-theme="dark"] .navbar-end & {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+.navbar-brand .navbar-item {
+  [data-theme="dark"] & {
+    &:hover {
+      background-color: transparent;
+    }
+    
+    &.active {
+      background-color: transparent;
+    }
+  }
+}
+
+.button.is-light {
+  [data-theme="dark"] & {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    
+    &:hover {
+      background-color: var(--link-color);
+      border-color: var(--link-color);
+    }
+    
+    &.active {
+      background-color: var(--link-color) !important;
+      border-color: var(--link-color) !important;
+      color: white !important;
+      font-weight: 600;
+    }
+  }
+}
+
+.theme-toggle {
+  [data-theme="dark"] & {
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+    color: var(--text-color);
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: var(--link-color);
+      color: var(--link-color);
+    }
+    
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.2);
+    }
+  }
+}

@@ -1,0 +1,93 @@
+// GitHub login button styling
+.login-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.github-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background-color: #24292f;
+  color: white;
+  border: 1px solid #24292f;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  gap: 0.75rem;
+  min-height: 48px;
+
+  &:hover {
+    background-color: #1c2128;
+    border-color: #1c2128;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(36, 41, 47, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(36, 41, 47, 0.3);
+  }
+
+  &:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+}
+
+.github-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1); // Make sure icon is white
+  }
+}
+
+.button-text {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+// Dark theme adjustments
+.github-login-button {
+  [data-theme="dark"] & {
+    background-color: #21262d;
+    border-color: #30363d;
+    
+    &:hover {
+      background-color: #30363d;
+      border-color: #484f58;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    
+    &:active {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+// Mobile responsiveness
+@media (max-width: 480px) {
+  .github-login-button {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    
+    .github-icon img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+// Generic layout classes that can be used across components
+.wrapper {
+  width: 100%;  // Full-width background
+}
+
+.container {
+  @include container;
+}
+
+.content {
+  background-color: $light-background;
+  padding: 2rem 0;
+  min-height: 60vh;
+
+  .container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-gap: 2rem;
+    align-items: start;
+
+    @include desktop {
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
+    }
+  }
+}
+
+.sidebar {
+  @include card;
+  padding: $spacing-md;
+  
+  h2 {
+    color: $light-text;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+  }
+  
+  @include desktop {
+    width: 100%;
+  }
+}
+
+.main-content {
+  @include card;
+  padding: $spacing-lg;
+  
+  h2 {
+    color: $light-text;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  @include desktop {
+    width: 100%;
+  }
+}
+
+.top-bar {
+  background: linear-gradient(135deg, $primary 0%, $primary-dark 100%);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: $shadow;
+  
+  h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.025em;
+  }
+}

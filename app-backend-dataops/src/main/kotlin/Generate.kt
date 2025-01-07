@@ -30,7 +30,7 @@ fun drop() {
 fun flyway() {
     Flyway
         .configure()
-        .locations("filesystem:./app-backend/src/main/resources/db/migration/main")
+        .locations("filesystem:./app-backend/src/main/resources/infra/db/migration/main")
         .dataSource(
             "jdbc:postgresql://localhost:9567/awesome_kotlin",
             "awesome_kotlin",
@@ -55,11 +55,6 @@ fun jooq() {
                 name = "org.jooq.meta.postgres.PostgresDatabase"
                 includes = ".*"
                 inputSchema = "public"
-            }
-
-            generate = Generate().apply {
-                isDaos = true
-                isPojosAsKotlinDataClasses = true
             }
 
             target = Target().apply {

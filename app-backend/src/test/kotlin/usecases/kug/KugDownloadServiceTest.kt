@@ -1,24 +1,16 @@
 package usecases.kug
 
-import ApplicationFactory
 import kotlinx.coroutines.test.runTest
-import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.AssertionFailureBuilder.assertionFailure
 import org.junit.jupiter.api.Assertions.*
-import org.junit.jupiter.api.Test
-import utils.close
+import types.IntegrationTest
 
 class KugDownloadServiceTest {
-    private val application = ApplicationFactory()
-
-    @AfterEach
-    fun close() {
-        application.close {}
-    }
-
-    @Test
+    @IntegrationTest
     fun `test getting yaml file with user groups`() = runTest {
-        val yaml = application.kugModule.kugDownloadService.get.download()
+        val yaml = createKugModule {}
+            .kugDownloadService
+            .download()
 
         if (!yaml.contains("https://bkug.by/")) {
             assertionFailure()
@@ -29,9 +21,11 @@ class KugDownloadServiceTest {
         }
     }
 
-    @Test
+    @IntegrationTest
     fun `test parsing yaml file with user groups`() = runTest {
-        val sections = application.kugModule.kugDownloadService.get.pull()
+        val sections = createKugModule {}
+            .kugDownloadService
+            .pull()
         val bkug = sections.find { it.section == "Europe" }
             ?.groups
             ?.find { it.url == "https://bkug.by/" }

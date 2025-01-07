@@ -1,16 +1,21 @@
 package usecases.kug
 
-import io.ktor.server.application.*
+import infra.db.transaction.TransactionContext
+import infra.ktor.easy.EasyKtorRoute
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import ktor.KtorRoute
+import infra.ktor.auth.UserContext
 
 class GetKugsRoute(
     private val kugDao: KugDao,
-) : KtorRoute {
-    override fun Routing.install() {
-        get("/kugs") {
-            call.respond(kugDao.getAll())
-        }
+) : EasyKtorRoute {
+    override val path = "/api/kugs"
+
+    context(
+        _: TransactionContext,
+        _: UserContext
+    )
+    override suspend fun RoutingContext.handle() {
+        call.respond(kugDao.getAll())
     }
 }

@@ -1,65 +1,43 @@
 package usecases.signup
 
-import JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
-import at.favre.lib.crypto.bcrypt.LongPasswordStrategies
-import di.bean
+import infra.db.transaction.TransactionContext
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
-import io.ktor.server.routing.Routing
-import io.ktor.server.routing.post
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
-import ktor.KtorRoute
-import java.security.SecureRandom
-
-open class RegisterModule(
-    private val jooqModule: JooqModule,
-) {
-    open val bcryptHasher by bean<BCrypt.Hasher> {
-        BCrypt.with(
-            BCrypt.Version.VERSION_2A,
-            SecureRandom(),
-            LongPasswordStrategies.hashSha512(BCrypt.Version.VERSION_2A)
-        )
-    }
-
-    open val kotlinerDao by bean<KotlinerDao> {
-        DefaultKotlinerDao(jooqModule.dslContext.get)
-    }
-
-    open val route by bean {
-        RegisterRoute(
-            bcryptHasher = bcryptHasher.get,
-            kotlinerDao = kotlinerDao.get,
-        )
-    }
-}
+import infra.ktor.auth.UserContext
+import infra.ktor.easy.EasyKtorRoute
+import io.ktor.http.HttpMethod
+import io.ktor.server.routing.RoutingContext
+import kotlinx.coroutines.CoroutineDispatcher
 
 class RegisterRoute(
     private val bcryptHasher: BCrypt.Hasher,
     private val kotlinerDao: KotlinerDao,
-) : KtorRoute {
-    override fun Routing.install() {
-        post("/register") {
-            val request = call.receive<RegisterBody>()
+    private val defaultDispatcher: CoroutineDispatcher,
+) : EasyKtorRoute {
+    override val method = HttpMethod.Post
+    override val path = "/register"
 
-            val password = withContext(Dispatchers.IO) {
-                bcryptHasher.hashToString(11, request.password)
-            }
+    context(_: TransactionContext, _: UserContext)
+    override suspend fun RoutingContext.handle() {
+        val request = call.receive<RegisterBody>()
 
-            kotlinerDao.save(
-                KotlinerDao.SaveView(
-                    nickname = request.nickname,
-                    email = request.email,
-                    password = password
-                )
-            )
-
-            call.respond(HttpStatusCode.OK)
+        val password = withContext(defaultDispatcher) {
+            bcryptHasher.hashToString(11, request.password)
         }
+
+        kotlinerDao.save(
+            KotlinerDao.SaveView(
+                nickname = request.nickname,
+                email = request.email,
+                password = password
+            )
+        )
+
+        call.respond(HttpStatusCode.OK)
     }
 
     @Serializable
