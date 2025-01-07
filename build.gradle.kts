@@ -1,7 +1,7 @@
 plugins {
     application
-    kotlin("jvm").version("2.0.21")
-    kotlin("plugin.serialization").version("2.0.21")
+    kotlin("jvm").version("2.1.0")
+    kotlin("plugin.serialization").version("2.1.0")
 }
 
 application {
@@ -43,4 +43,13 @@ dependencies {
 
     testImplementation("io.mockk:mockk:1.13.14")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+tasks.distZip {
+    enabled = false
+}
+
+tasks.distTar {
+    enabled = false
 }

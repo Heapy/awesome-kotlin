@@ -9,6 +9,9 @@
 out
 *.iml
 
+# Kotlin
+.kotlin
+
 # Gradle
 .gradle
 build

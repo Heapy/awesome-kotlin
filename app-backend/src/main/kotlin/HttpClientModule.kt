@@ -1,4 +1,4 @@
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.plugins.contentnegotiation.*
@@ -18,6 +18,6 @@ open class HttpClientModule : AutoCloseable {
     }
 
     override fun close() {
-        if (httpClient.isInitialized) httpClient.get.close {}
+        if (httpClient.isInitialized) httpClient.value.close {}
     }
 }

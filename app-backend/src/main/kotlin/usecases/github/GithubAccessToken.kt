@@ -1,6 +1,5 @@
 package usecases.github
 
-import di.SuspendBean1
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.request.*
@@ -8,13 +7,12 @@ import io.ktor.http.*
 import io.ktor.server.util.*
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import usecases.github.GithubAccessToken.GithubAccessTokenResponse
 
 class GithubAccessToken(
     private val githubAuthConfig: GithubAuthConfig,
     private val httpClient: HttpClient,
-) : SuspendBean1<String, GithubAccessTokenResponse> {
-    override suspend fun invoke(p: String): GithubAccessTokenResponse {
+) {
+    suspend operator fun invoke(p: String): GithubAccessTokenResponse {
         return httpClient.post(accessTokenUrl(p))
             .body()
     }

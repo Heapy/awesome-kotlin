@@ -1,13 +1,12 @@
 package usecases.github
 
-import di.Bean0
 import io.ktor.http.*
 import io.ktor.server.util.*
 
 class GithubRedirectUrl(
     private val githubAuthConfig: GithubAuthConfig,
-) : Bean0<String> {
-    override fun invoke(): String {
+) {
+    operator fun invoke(): String {
         return url {
             protocol = URLProtocol.HTTPS
             host = "github.com"

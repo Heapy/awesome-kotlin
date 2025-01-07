@@ -2,7 +2,7 @@ package usecases.signup
 
 import JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import io.ktor.http.*
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
@@ -23,15 +23,15 @@ open class LoginModule(
 
     open val kotlinerDao by bean {
         DefaultKotlinerDao(
-            dslContext = jooqModule.dslContext.get,
+            dslContext = jooqModule.dslContext.value,
         )
     }
 
     open val route by bean {
         LoginRoute(
-            generateJwt = jwtModule.generateJwt.get,
-            bcryptVerifier = bcryptVerifier.get,
-            kotlinerDao = kotlinerDao.get,
+            generateJwt = jwtModule.generateJwt.value,
+            bcryptVerifier = bcryptVerifier.value,
+            kotlinerDao = kotlinerDao.value,
         )
     }
 }

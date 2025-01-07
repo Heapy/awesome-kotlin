@@ -3,7 +3,7 @@ package usecases.kug
 import HttpClientModule
 import JooqModule
 import YamlModule
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 
 open class KugModule(
     private val httpClientModule: HttpClientModule,
@@ -12,24 +12,24 @@ open class KugModule(
 ) {
     open val kugDownloadService by bean {
         KugDownloadService(
-            yaml = yamlModule.yaml.get,
-            httpClient = httpClientModule.httpClient.get,
+            yaml = yamlModule.yaml.value,
+            httpClient = httpClientModule.httpClient.value,
         )
     }
 
     open val kugDao by bean<KugDao> {
-        DefaultKugDao(jooqModule.dslContext.get)
+        DefaultKugDao(jooqModule.dslContext.value)
     }
 
     open val updateKugsRoute by bean {
         UpdateKugsRoute(
-            kugDownloadService = kugDownloadService.get,
+            kugDownloadService = kugDownloadService.value,
         )
     }
 
     val getKugRoute by bean {
         GetKugsRoute(
-            kugDao = kugDao.get,
+            kugDao = kugDao.value,
         )
     }
 }

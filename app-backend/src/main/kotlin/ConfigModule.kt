@@ -1,7 +1,7 @@
 import com.typesafe.config.Config
 import com.typesafe.config.ConfigFactory
 import config.dotenv
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 
 open class ConfigModule {
     open val overrides by bean {
@@ -13,7 +13,7 @@ open class ConfigModule {
     }
 
     open val config by bean<Config> {
-        (overrides.get + dotenv.get).forEach {
+        (overrides.value + dotenv.value).forEach {
             System.setProperty(it.key, it.value)
         }
 

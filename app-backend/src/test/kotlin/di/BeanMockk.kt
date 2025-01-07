@@ -1,5 +1,7 @@
 package di
 
+import io.heapy.komok.tech.di.delegate.MutableBean
+
 inline fun <reified V : Any> MutableBean<V>.mockk() {
     mock { io.mockk.mockk() }
 }

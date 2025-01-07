@@ -18,7 +18,7 @@ class KugDownloadServiceTest {
 
     @Test
     fun `test getting yaml file with user groups`() = runTest {
-        val yaml = application.kugModule.kugDownloadService.get.download()
+        val yaml = application.kugModule.kugDownloadService.value.download()
 
         if (!yaml.contains("https://bkug.by/")) {
             assertionFailure()
@@ -31,7 +31,7 @@ class KugDownloadServiceTest {
 
     @Test
     fun `test parsing yaml file with user groups`() = runTest {
-        val sections = application.kugModule.kugDownloadService.get.pull()
+        val sections = application.kugModule.kugDownloadService.value.pull()
         val bkug = sections.find { it.section == "Europe" }
             ?.groups
             ?.find { it.url == "https://bkug.by/" }

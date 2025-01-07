@@ -41,6 +41,8 @@ dependencies {
 
     implementation("at.favre.lib:bcrypt:0.10.2")
 
+    implementation("io.heapy.komok:komok-tech-to-been-injected:1.0.7")
+
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.0.3")
     implementation("io.ktor:ktor-client-cio:3.0.3")
     implementation("io.ktor:ktor-server-content-negotiation:3.0.3")
@@ -65,4 +67,9 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.1")
     testImplementation("io.mockk:mockk:1.13.14")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+tasks.distZip {
+    enabled = false
 }

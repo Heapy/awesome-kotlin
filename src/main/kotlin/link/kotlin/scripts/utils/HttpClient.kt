@@ -47,13 +47,13 @@ private suspend fun HttpAsyncClient.execute(request: HttpUriRequest): HttpRespon
             }
         })
 
-        cont.cancelFutureOnCancellation(future)
+        cont.invokeOnCancellation { future.cancel(false) }
         Unit
     }
 }
 
 fun HttpClient.Companion.default(): HttpClient {
-    val ua = "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0"
+    val ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0"
 
     val asyncClient = HttpAsyncClients.custom()
         .setUserAgent(ua)

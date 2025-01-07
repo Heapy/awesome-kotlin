@@ -1,6 +1,6 @@
 package usecases.links
 
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import io.ktor.server.response.respond
 import io.ktor.server.routing.Routing
 import io.ktor.server.routing.get
@@ -15,7 +15,7 @@ open class LinksModule {
 
     open val route by bean {
         LinksRoute(
-            links = linkSource.get,
+            links = linkSource.value,
         )
     }
 }

@@ -3,7 +3,7 @@ package usecases.signup
 import JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
 import at.favre.lib.crypto.bcrypt.LongPasswordStrategies
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
@@ -27,13 +27,13 @@ open class RegisterModule(
     }
 
     open val kotlinerDao by bean<KotlinerDao> {
-        DefaultKotlinerDao(jooqModule.dslContext.get)
+        DefaultKotlinerDao(jooqModule.dslContext.value)
     }
 
     open val route by bean {
         RegisterRoute(
-            bcryptHasher = bcryptHasher.get,
-            kotlinerDao = kotlinerDao.get,
+            bcryptHasher = bcryptHasher.value,
+            kotlinerDao = kotlinerDao.value,
         )
     }
 }

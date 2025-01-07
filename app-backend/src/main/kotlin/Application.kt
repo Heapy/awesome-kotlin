@@ -1,6 +1,6 @@
 @file:JvmName("Application")
 
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import usecases.github.GithubModule
 import usecases.kug.KugModule
 import usecases.links.LinksModule
@@ -117,11 +117,11 @@ open class ApplicationFactory : AutoCloseable {
     }
 
     open suspend fun run() {
-        val gracefulShutdown = lifecycleModule.gracefulShutdown.get
-        lifecycleModule.shutdownHandler.get.registerHook()
-        flywayModule.flyway.get.migrate()
-        serverModule.ktorServer.get.start(wait = false)
-        log.get.info("Server started in {}", runtimeMXBean.get.uptime.milliseconds)
+        val gracefulShutdown = lifecycleModule.gracefulShutdown.value
+        lifecycleModule.shutdownHandler.value.registerHook()
+        flywayModule.flyway.value.migrate()
+        serverModule.ktorServer.value.start(wait = false)
+        log.value.info("Server started in {}", runtimeMXBean.value.uptime.milliseconds)
         gracefulShutdown.waitForShutdown()
     }
 

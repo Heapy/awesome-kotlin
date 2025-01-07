@@ -1,4 +1,4 @@
-import di.bean
+import io.heapy.komok.tech.di.delegate.bean
 import io.micrometer.prometheusmetrics.PrometheusConfig
 import io.micrometer.prometheusmetrics.PrometheusMeterRegistry
 
