@@ -2,21 +2,11 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.dsl.Category
 
-interface ReadmeGenerator {
-    fun generate(links: List<Category>): String
-
-    companion object
-}
-
-private class MarkdownReadmeGenerator : ReadmeGenerator {
-    override fun generate(links: List<Category>): String {
+class MarkdownReadmeGenerator {
+    fun generate(links: List<Category>): String {
         val readmeLinks = links.filterNot { it.name == "Kotlin User Groups" }
         return generateReadme(readmeLinks)
     }
-}
-
-fun ReadmeGenerator.Companion.default(): ReadmeGenerator {
-    return MarkdownReadmeGenerator()
 }
 
 internal fun normalizeName(name: String): String {

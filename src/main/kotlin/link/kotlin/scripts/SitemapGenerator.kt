@@ -2,19 +2,11 @@ package link.kotlin.scripts
 
 import link.kotlin.scripts.dsl.Article
 import link.kotlin.scripts.model.ApplicationConfiguration
-import link.kotlin.scripts.model.default
 
-interface SitemapGenerator {
-    fun generate(articles: List<Article>): String
-
-    companion object
-}
-
-private class DefaultSitemapGenerator(
+class SitemapGenerator(
     private val configuration: ApplicationConfiguration
-) : SitemapGenerator {
-
-    override fun generate(articles: List<Article>): String {
+) {
+    fun generate(articles: List<Article>): String {
         return sitemap {
             +SitemapUrl(configuration.siteUrl)
 
@@ -23,12 +15,4 @@ private class DefaultSitemapGenerator(
             }
         }
     }
-}
-
-fun SitemapGenerator.Companion.default(
-    configuration: ApplicationConfiguration = ApplicationConfiguration.default()
-): SitemapGenerator {
-    return DefaultSitemapGenerator(
-        configuration = configuration
-    )
 }

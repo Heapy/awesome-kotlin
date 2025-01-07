@@ -2,29 +2,17 @@
 
 package link.kotlin.scripts
 
-import link.kotlin.scripts.utils.logger
-import kotlin.system.exitProcess
-
 fun main() {
-    try {
-        val generator = AwesomeKotlinGenerator.default()
+    val generator = createApplicationModule {}
+        .awesomeKotlinGenerator
 
-        // Load data
-        val articles = generator.getArticles()
-        val links = generator.getLinks()
+    // Load data
+    val articles = generator.getArticles()
+    val links = generator.getLinks()
 
-        // Create README.md
-        generator.generateReadme(links)
+    // Create README.md
+    generator.generateReadme(links)
 
-        // Generate resources for site
-        generator.generateSiteResources(links, articles)
-
-        LOGGER.info("Done, exit.")
-        exitProcess(0)
-    } catch (e: Exception) {
-        LOGGER.error("Failed, exit.", e)
-        exitProcess(1)
-    }
+    // Generate resources for site
+    generator.generateSiteResources(links, articles)
 }
-
-private val LOGGER = logger {}

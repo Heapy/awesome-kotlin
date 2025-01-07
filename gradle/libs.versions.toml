@@ -1,0 +1,76 @@
+[versions]
+bouncycastle = "1.78.1"
+flyway = "11.1.0"
+hikari = "6.2.1"
+jooq = "3.19.16"
+junit = "5.11.4"
+kaml = "0.67.0"
+komok = "1.0.8"
+kotlin = "2.1.0"
+kotlinx-coroutines = "1.10.1"
+kotlinx-serialization = "1.8.0"
+ksp = "2.1.0-1.0.29"
+ktor = "3.0.3"
+logback = "1.5.16"
+micrometer = "1.14.2"
+mockk = "1.13.14"
+postgresql = "42.7.4"
+xmlutil = "0.90.1"
+
+[libraries]
+bouncycastle-bcpkix = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
+
+flyway-database-postgresql = { module = "org.flywaydb:flyway-database-postgresql", version.ref = "flyway" }
+
+hikari = { module = "com.zaxxer:HikariCP", version.ref = "hikari" }
+
+jooq-codegen = { module = "org.jooq:jooq-codegen", version.ref = "jooq" }
+jooq-core = { module = "org.jooq:jooq", version.ref = "jooq" }
+
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+
+kaml = { module = "com.charleskorn.kaml:kaml", version.ref = "kaml" }
+
+komok-tech-di = { module = "io.heapy.komok:komok-tech-di", version.ref = "komok" }
+komok-tech-di-lib = { module = "io.heapy.komok:komok-tech-di-lib", version.ref = "komok" }
+komok-tech-to-be-injected = { module = "io.heapy.komok:komok-tech-to-be-injected", version.ref = "komok" }
+komok-tech-dotenv = { module = "io.heapy.komok:komok-tech-dotenv", version.ref = "komok" }
+komok-tech-logging = { module = "io.heapy.komok:komok-tech-logging", version.ref = "komok" }
+
+kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
+
+kotlinx-serialization-hocon = { module = "org.jetbrains.kotlinx:kotlinx-serialization-hocon", version.ref = "kotlinx-serialization" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version.ref = "ktor" }
+ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version.ref = "ktor" }
+ktor-server-resources = { group = "io.ktor", name = "ktor-server-resources", version.ref = "ktor" }
+ktor-server-websockets = { group = "io.ktor", name = "ktor-server-websockets", version.ref = "ktor" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
+ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metrics-micrometer", version.ref = "ktor" }
+ktor-server-call-logging = { group = "io.ktor", name = "ktor-server-call-logging", version.ref = "ktor" }
+ktor-server-default-headers = { group = "io.ktor", name = "ktor-server-default-headers", version.ref = "ktor" }
+ktor-server-caching-headers = { group = "io.ktor", name = "ktor-server-caching-headers", version.ref = "ktor" }
+ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor" }
+ktor-server-test-host = { group = "io.ktor", name = "ktor-server-test-host", version.ref = "ktor" }
+
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+
+micrometer-registry-prometheus = { module = "io.micrometer:micrometer-registry-prometheus", version.ref = "micrometer" }
+
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+
+xmlutil = { module = "io.github.pdvrieze.xmlutil:serialization", version.ref = "xmlutil" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

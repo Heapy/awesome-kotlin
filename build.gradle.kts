@@ -1,7 +1,8 @@
 plugins {
     application
-    kotlin("jvm").version("2.1.0")
-    kotlin("plugin.serialization").version("2.1.0")
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp)
 }
 
 application {
@@ -12,6 +13,12 @@ repositories {
     mavenCentral()
 }
 
+kotlin {
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
 tasks.test {
     useJUnitPlatform()
 }
@@ -19,13 +26,18 @@ tasks.test {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.10.1")
+    implementation(libs.kotlinx.coroutines.jdk8)
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.2")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.2")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.2")
 
-    implementation("ch.qos.logback:logback-classic:1.5.16")
+    implementation(libs.logback)
+
+    ksp(libs.komok.tech.di)
+    implementation(libs.komok.tech.di.lib)
+    implementation(libs.komok.tech.dotenv)
+    implementation(libs.komok.tech.logging)
 
     implementation("com.rometools:rome:2.1.0")
     implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
@@ -41,9 +53,9 @@ dependencies {
     implementation("io.ktor:ktor-client-apache:3.0.3")
     implementation("io.ktor:ktor-client-jackson:3.0.3")
 
-    testImplementation("io.mockk:mockk:1.13.14")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation(libs.mockk)
+    testImplementation(libs.junit.jupiter)
+    testRuntimeOnly(libs.junit.platform.launcher)
 }
 
 tasks.distZip {
