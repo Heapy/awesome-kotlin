@@ -35,7 +35,7 @@ kaml = { module = "com.charleskorn.kaml:kaml", version.ref = "kaml" }
 komok-tech-di = { module = "io.heapy.komok:komok-tech-di", version.ref = "komok" }
 komok-tech-di-lib = { module = "io.heapy.komok:komok-tech-di-lib", version.ref = "komok" }
 komok-tech-to-be-injected = { module = "io.heapy.komok:komok-tech-to-be-injected", version.ref = "komok" }
-komok-tech-dotenv = { module = "io.heapy.komok:komok-tech-dotenv", version.ref = "komok" }
+komok-tech-config-dotenv = { module = "io.heapy.komok:komok-tech-config-dotenv", version.ref = "komok" }
 komok-tech-logging = { module = "io.heapy.komok:komok-tech-logging", version.ref = "komok" }
 
 kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "kotlinx-coroutines" }

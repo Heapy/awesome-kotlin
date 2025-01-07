@@ -43,7 +43,7 @@ dependencies {
     implementation("at.favre.lib:bcrypt:0.10.2")
 
     implementation(libs.komok.tech.to.be.injected)
-    implementation(libs.komok.tech.dotenv)
+    implementation(libs.komok.tech.config.dotenv)
     implementation(libs.komok.tech.logging)
 
     implementation(libs.ktor.serialization.kotlinx.json)

@@ -36,7 +36,7 @@ dependencies {
 
     ksp(libs.komok.tech.di)
     implementation(libs.komok.tech.di.lib)
-    implementation(libs.komok.tech.dotenv)
+    implementation(libs.komok.tech.config.dotenv)
     implementation(libs.komok.tech.logging)
 
     implementation("com.rometools:rome:2.1.0")
