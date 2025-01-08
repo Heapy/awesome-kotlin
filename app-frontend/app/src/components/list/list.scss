@@ -1,0 +1,30 @@
+@import "../../vars.scss";
+
+.list {
+  display: inline-block;
+  width: calc(100% / 3);
+  padding: 10px 20px;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 0;
+
+  @media screen and (max-width: $tb) {
+    width: calc(100% / 2);
+  }
+
+  @media screen and (max-width: $mb) {
+    width: 100%;
+  }
+
+  &_title a {
+    font-size: 24px;
+    color: darken($accent, 5%);
+    text-decoration: none;
+  }
+
+  &_list {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+  }
+}

@@ -4,6 +4,15 @@ Followers
 Tags -> Topics
 Topic: Graph
 https://awesomejava.resamvi.io/
+https://akkurate.dev/
+https://github.com/UselessMnemonic/Pak
+https://github.com/daniel-rusu/pods4k/tree/main
+https://github.com/Saumya-Bhatt/karya
+https://github.com/nbadal/ktlint-intellij-plugin
+https://github.com/mockoon/mockoon
+https://github.com/kevincianfarini/alchemist
+https://strikt.io/
+https://github.com/fluxo-kt/fluxo
 
 Possible categories:
 Serialization

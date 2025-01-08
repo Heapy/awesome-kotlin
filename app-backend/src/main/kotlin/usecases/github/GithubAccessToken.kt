@@ -12,8 +12,11 @@ class GithubAccessToken(
     private val githubAuthConfig: GithubAuthConfig,
     private val httpClient: HttpClient,
 ) {
-    suspend operator fun invoke(p: String): GithubAccessTokenResponse {
-        return httpClient.post(accessTokenUrl(p))
+    suspend operator fun invoke(
+        code: String,
+    ): GithubAccessTokenResponse {
+        return httpClient
+            .post(accessTokenUrl(code))
             .body()
     }
 

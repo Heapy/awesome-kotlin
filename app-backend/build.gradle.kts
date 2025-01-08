@@ -1,5 +1,6 @@
 plugins {
     application
+    alias(libs.plugins.ksp)
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.kotlin.serialization)
 }
@@ -13,17 +14,22 @@ repositories {
     mavenCentral()
 }
 
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+kotlin {
     compilerOptions {
         freeCompilerArgs.addAll(
-            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-            "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
+            "-Xcontext-receivers",
         )
+    }
+
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
 tasks.test {
-    useJUnitPlatform()
+    useJUnitPlatform {
+        includeTags("unit", "integration")
+    }
 }
 
 dependencies {
@@ -34,6 +40,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlinx.serialization.hocon)
     implementation(libs.kaml)
+    implementation(libs.xmlutil)
 
     implementation(libs.flyway.database.postgresql)
     implementation(libs.jooq.core)
@@ -41,8 +48,20 @@ dependencies {
     implementation(libs.hikari)
 
     implementation("at.favre.lib:bcrypt:0.10.2")
+    implementation(libs.bouncycastle.bcpkix)
 
-    implementation(libs.komok.tech.to.be.injected)
+    implementation("com.rometools:rome:2.1.0")
+
+    // todo: review this dependency
+    implementation("com.github.dfabulich:sitemapgen4j:1.1.2")
+
+    implementation("org.commonmark:commonmark:0.24.0")
+    implementation("org.commonmark:commonmark-ext-gfm-tables:0.24.0")
+
+    implementation("org.jsoup:jsoup:1.18.3")
+
+    ksp(libs.komok.tech.di)
+    implementation(libs.komok.tech.di.lib)
     implementation(libs.komok.tech.config.dotenv)
     implementation(libs.komok.tech.logging)
 

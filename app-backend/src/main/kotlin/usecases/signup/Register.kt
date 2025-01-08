@@ -1,24 +1,25 @@
 package usecases.signup
 
-import JooqModule
+import infra.db.JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
 import at.favre.lib.crypto.bcrypt.LongPasswordStrategies
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
-import io.ktor.server.routing.Routing
 import io.ktor.server.routing.post
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
-import ktor.KtorRoute
+import infra.ktor.KtorRoute
+import io.ktor.server.routing.Route
 import java.security.SecureRandom
 
+@Module
 open class RegisterModule(
     private val jooqModule: JooqModule,
 ) {
-    open val bcryptHasher by bean<BCrypt.Hasher> {
+    open val bcryptHasher by lazy<BCrypt.Hasher> {
         BCrypt.with(
             BCrypt.Version.VERSION_2A,
             SecureRandom(),
@@ -26,14 +27,14 @@ open class RegisterModule(
         )
     }
 
-    open val kotlinerDao by bean<KotlinerDao> {
-        DefaultKotlinerDao(jooqModule.dslContext.value)
+    open val kotlinerDao by lazy<KotlinerDao> {
+        DefaultKotlinerDao(jooqModule.dslContext)
     }
 
-    open val route by bean {
+    open val route by lazy {
         RegisterRoute(
-            bcryptHasher = bcryptHasher.value,
-            kotlinerDao = kotlinerDao.value,
+            bcryptHasher = bcryptHasher,
+            kotlinerDao = kotlinerDao,
         )
     }
 }
@@ -42,7 +43,7 @@ class RegisterRoute(
     private val bcryptHasher: BCrypt.Hasher,
     private val kotlinerDao: KotlinerDao,
 ) : KtorRoute {
-    override fun Routing.install() {
+    override fun Route.install() {
         post("/register") {
             val request = call.receive<RegisterBody>()
 

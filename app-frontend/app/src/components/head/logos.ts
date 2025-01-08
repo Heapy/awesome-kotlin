@@ -8,17 +8,6 @@ export interface Logo {
 
 export const LOGOS: Logo[] = [
   {
-    src: require("./kotlin-14-event.png"),
-    alt: () => "Kotlin 1.4 Online Event",
-    show: () => {
-      const now = Date.now()
-
-      return (1601326800000 <= now) && (now <= 1602786600000);
-    },
-    exclusive: true,
-    link: "https://kotl.in/14event_media?utm_source=awesome_kotlin"
-  },
-  {
     src: require("./kotlin-force.svg"),
     alt: () => "Star Wars Day",
     show: () => {
@@ -77,19 +66,6 @@ export const LOGOS: Logo[] = [
     exclusive: false,
   },
   {
-    src: require("./10K.svg"),
-    alt: () => {
-      return `Celebrating 10 Years of Kotlin!`
-    },
-    show: () => {
-      const now = Date.now()
-
-      return (1623448800000 <= now) && (now <= 1624140000000);
-    },
-    exclusive: true,
-    link: "https://blog.jetbrains.com/kotlin/2021/05/10-years-of-kotlin-stories/"
-  },
-  {
     src: (() => {
       const maskots = [
         require('./maskots/01.svg'),
@@ -121,15 +97,15 @@ export const LOGOS: Logo[] = [
     exclusive: true,
     link: "https://forms.gle/yktEz3xCAwKEm9cx9"
   },
-  {
-    src: require("./ukraine.svg"),
-    alt: () => "War in Ukraine",
-    show: () => {
-      const now = Date.now()
-
-      return 1645675200000 <= now; // Until further notification
-    },
-    exclusive: true,
-    link: "https://bank.gov.ua/en/about/support-the-armed-forces"
-  },
+  // {
+  //   src: require("./ukraine.svg"),
+  //   alt: () => "War in Ukraine",
+  //   show: () => {
+  //     const now = Date.now()
+  //
+  //     return 1645675200000 <= now; // Until further notification
+  //   },
+  //   exclusive: true,
+  //   link: "https://bank.gov.ua/en/about/support-the-armed-forces"
+  // },
 ]

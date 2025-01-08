@@ -20,6 +20,7 @@ import jooq.main.tables.CourseLibrary
 import jooq.main.tables.CourseSpeaker
 import jooq.main.tables.DmLikes
 import jooq.main.tables.FlywaySchemaHistory
+import jooq.main.tables.GithubAuth
 import jooq.main.tables.KotlinVersion
 import jooq.main.tables.Kotliner
 import jooq.main.tables.KotlinerLikeEntityState
@@ -50,6 +51,7 @@ import jooq.main.tables.records.CourseRecord
 import jooq.main.tables.records.CourseSpeakerRecord
 import jooq.main.tables.records.DmLikesRecord
 import jooq.main.tables.records.FlywaySchemaHistoryRecord
+import jooq.main.tables.records.GithubAuthRecord
 import jooq.main.tables.records.KotlinVersionRecord
 import jooq.main.tables.records.KotlinerLikeEntityStateRecord
 import jooq.main.tables.records.KotlinerReadEntityStateRecord
@@ -92,6 +94,7 @@ val COURSE_LIBRARY_PKEY: UniqueKey<CourseLibraryRecord> = Internal.createUniqueK
 val COURSE_SPEAKER_PKEY: UniqueKey<CourseSpeakerRecord> = Internal.createUniqueKey(CourseSpeaker.COURSE_SPEAKER, DSL.name("course_speaker_pkey"), arrayOf(CourseSpeaker.COURSE_SPEAKER.COURSE_ID, CourseSpeaker.COURSE_SPEAKER.KOTLINER_ID), true)
 val DM_LIKES_PKEY: UniqueKey<DmLikesRecord> = Internal.createUniqueKey(DmLikes.DM_LIKES, DSL.name("dm_likes_pkey"), arrayOf(DmLikes.DM_LIKES.ENTITY_ID), true)
 val FLYWAY_SCHEMA_HISTORY_PK: UniqueKey<FlywaySchemaHistoryRecord> = Internal.createUniqueKey(FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY, DSL.name("flyway_schema_history_pk"), arrayOf(FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY.INSTALLED_RANK), true)
+val GITHUB_AUTH_PKEY: UniqueKey<GithubAuthRecord> = Internal.createUniqueKey(GithubAuth.GITHUB_AUTH, DSL.name("github_auth_pkey"), arrayOf(GithubAuth.GITHUB_AUTH.ID), true)
 val KOTLIN_VERSION_PKEY: UniqueKey<KotlinVersionRecord> = Internal.createUniqueKey(KotlinVersion.KOTLIN_VERSION, DSL.name("kotlin_version_pkey"), arrayOf(KotlinVersion.KOTLIN_VERSION.ID), true)
 val KOTLINER_PKEY: UniqueKey<KotlinerRecord> = Internal.createUniqueKey(Kotliner.KOTLINER, DSL.name("kotliner_pkey"), arrayOf(Kotliner.KOTLINER.ID), true)
 val UNIQUE_KOTLINER_EMAIL: UniqueKey<KotlinerRecord> = Internal.createUniqueKey(Kotliner.KOTLINER, DSL.name("unique_kotliner_email"), arrayOf(Kotliner.KOTLINER.NORMALIZED_EMAIL), true)

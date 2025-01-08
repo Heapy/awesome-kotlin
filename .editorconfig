@@ -11,5 +11,5 @@ indent_size=2
 [build.gradle.kts]
 indent_size=4
 
-[*.{js,ts,tsx,less,html,yml,json}]
+[*.{js,ts,tsx,scss,html,yml,json}]
 indent_size=2

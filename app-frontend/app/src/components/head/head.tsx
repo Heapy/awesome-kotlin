@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Logo, LOGOS} from "./logos";
-import "./head.less";
-import {useState} from "react";
+import "./head.scss";
+import {memo, useState} from "react";
 
 function getLogos(): Logo[] {
   const activeLogos = LOGOS.filter(it => it.show());
@@ -14,7 +14,7 @@ function getLogos(): Logo[] {
   }
 }
 
-export function Header() {
+function Header() {
   const [logos] = useState(() => getLogos());
   const [index, setIndex] = useState(() => 0);
 
@@ -56,3 +56,5 @@ export function Header() {
     </section>
   );
 }
+
+export default memo(Header)

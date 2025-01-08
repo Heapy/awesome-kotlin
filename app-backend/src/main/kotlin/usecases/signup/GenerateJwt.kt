@@ -7,7 +7,9 @@ import java.util.Date
 class GenerateJwt(
     private val jwtConfig: JwtModule.JwtConfig,
 ) {
-    operator fun invoke(id: String): String {
+    operator fun invoke(
+        id: String,
+    ): String {
         return JWT.create()
             .withAudience(jwtConfig.audience)
             .withIssuer(jwtConfig.issuer)

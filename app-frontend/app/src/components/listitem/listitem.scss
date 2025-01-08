@@ -1,0 +1,67 @@
+@import "../../vars.scss";
+
+.listitem {
+  padding: 10px 5px;
+
+  &_archived,
+  &_unsupported {
+    opacity: 0.4;
+  }
+
+  &_link {
+    display: block;
+    text-decoration: none;
+    color: darken($blue, 15%);
+
+    &:hover {
+      color: darken($blue, 30%);
+    }
+  }
+
+  &_description {
+    font-size: 14px;
+    color: $gray;
+    margin: 0;
+
+    & p {
+      margin: 0;
+    }
+
+    & a {
+      color: $gray;
+
+      &:hover {
+        color: darken($gray, 15%);
+      }
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &_star {
+    float: right;
+
+    + .listitem_link {
+      padding-right: 60px;
+    }
+
+    &_icon {
+      display: inline-block;
+      vertical-align: top;
+      width: 20px;
+      height: 20px;
+      background-size: 20px 20px;
+      color: $light-blue;
+    }
+
+    &_count {
+      display: inline-block;
+      vertical-align: top;
+      color: darken($blue, 15%);
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

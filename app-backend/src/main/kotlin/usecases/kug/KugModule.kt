@@ -1,36 +1,36 @@
 package usecases.kug
 
-import HttpClientModule
-import JooqModule
-import YamlModule
-import io.heapy.komok.tech.di.delegate.bean
+import infra.HttpClientModule
+import infra.db.JooqModule
+import infra.serialization.YamlModule
+import io.heapy.komok.tech.di.lib.Module
 
+@Module
 open class KugModule(
     private val httpClientModule: HttpClientModule,
     private val yamlModule: YamlModule,
     private val jooqModule: JooqModule,
 ) {
-    open val kugDownloadService by bean {
+    open val kugDownloadService by lazy {
         KugDownloadService(
-            yaml = yamlModule.yaml.value,
-            httpClient = httpClientModule.httpClient.value,
+            yaml = yamlModule.yaml,
+            httpClient = httpClientModule.httpClient,
         )
     }
 
-    open val kugDao by bean<KugDao> {
-        DefaultKugDao(jooqModule.dslContext.value)
+    open val kugDao by lazy<KugDao> {
+        DefaultKugDao(jooqModule.dslContext)
     }
 
-    open val updateKugsRoute by bean {
+    open val updateKugsRoute by lazy {
         UpdateKugsRoute(
-            kugDownloadService = kugDownloadService.value,
+            kugDownloadService = kugDownloadService,
         )
     }
 
-    val getKugRoute by bean {
+    val getKugRoute by lazy {
         GetKugsRoute(
-            kugDao = kugDao.value,
+            kugDao = kugDao,
         )
     }
 }
-

@@ -1,128 +1,90 @@
 import * as React from "react";
-import {useState} from "react";
-import {Header} from "../head/head";
+import {memo, useEffect, useState} from "react";
 import {Search} from "../search/search";
-import {Category} from "../category/category";
-import {Bar} from "../bar/bar";
+import Category from "../category/category";
 import {Links} from "../../model";
-import {Navigation} from "../navigation/Navigation";
-import "./page_wrapper.less";
+import "./page_wrapper.scss";
+import {useLinksStore} from "../../store/useLinksStore";
+import SupportUkraine from "../war/SupportUkraine";
+import DefaultNavbar from "../navigation/navbar_default";
+import Bar from "../bar/bar";
+import Header from "../head/head";
+import Footer from "../footer/Footer";
 
-const versions = require("../../../versions.json");
+function LinksPage(props: PageProps) {
+  const [query, setQuery] = useState(null);
+  const fetchLinks = useLinksStore(state => state.fetchLinks);
+  const links: Links = useLinksStore(state => state.links);
 
-function reduceCategory(category, searchTerm) {
-  const subcategories = category.subcategories.reduce(function (acc, subcategory) {
-    const subcategoryFiltered = reduceSubcategory(subcategory, searchTerm);
-
-    if (subcategoryFiltered.links.length) {
-      acc.push(subcategoryFiltered);
-    }
-
-    return acc;
-  }, []);
-
-  return {
-    name: category.name,
-    subcategories
-  };
-}
-
-function reduceSubcategory(subcategory, searchTerm) {
-  const links = subcategory.links.reduce(function (acc, link) {
-    if (linkMatches(link, searchTerm)) {
-      acc.push(link);
-    }
-    return acc;
-  }, []);
-
-  return {
-    name: subcategory.name,
-    links
-  };
-}
-
-function linkMatches(link, searchTerm) {
-  if (matches(searchTerm, link.name)) {
-    return true;
-  } else if (matches(searchTerm, link.desc)) {
-    return true;
-  } else if (link.tags && link.tags.filter(tag => matches(searchTerm, tag)).length) {
-    return true;
-  }
-
-  return false;
-}
-
-function filterData(categories: Links, value) {
-  const searchTerm = toLower(value);
-
-  return categories.reduce(function (acc: Links, category) {
-    const categoryFiltered = reduceCategory(category, searchTerm);
-
-    if (categoryFiltered.subcategories.length) {
-      acc.push(categoryFiltered);
-    }
-
-    return acc;
-  }, []);
-}
-
-export function LinksPageComponent(props: PageProps) {
-  const [data, setData] = useState(props.displayLinks);
-
-  function onSearchValueChanged(value: string) {
-    if (value) {
-      setData(filterData(props.searchLinks, value))
+  useEffect(() => {
+    let params;
+    if (props.pageType === PageType.AWESOME) {
+      params = { awesome: "true", query }
+    } else if (props.pageType === PageType.KUGS) {
+      params = { kugs: "true", query }
     } else {
-      setData(props.displayLinks)
+      params = { query }
     }
-  }
+    const controller = new AbortController();
+    fetchLinks(controller, params);
+    return () => controller.abort();
+  }, [fetchLinks, props.pageType, query]);
 
   return (
-    <div>
-      <Navigation links={[
-        {
-          name: "Essential",
-          href: "/",
-        },
-        {
-          name: "Everything",
-          href: "/resources",
-        },
-        {
-          name: "Kotlin User Groups",
-          href: "/kugs",
-        },
-        {
-          name: "Github",
-          title: "Fork me!",
-          href: "https://github.com/Heapy/awesome-kotlin",
-        },
-      ]}/>
+    <>
+      <SupportUkraine/>
+      <DefaultNavbar/>
 
       <Header/>
 
-      <Search onChange={onSearchValueChanged}/>
+      <Search onChange={setQuery}/>
 
-      <Bar versions={versions}/>
+      <Bar/>
 
-      {data.map((category, i) => {
+      <div className="wrapper">
+        <header className="top-bar">
+          <div className="container">
+            <h1>Top Bar</h1>
+          </div>
+        </header>
+
+        <div className="content">
+          <div className="container">
+            <aside className="sidebar">
+              <h2>Sidebar</h2>
+            </aside>
+            <main className="main-content">
+              <h2>Main Content</h2>
+            </main>
+          </div>
+        </div>
+
+        <footer className="footer">
+          <div className="container">
+            <div className="footer-column">Footer Column 1</div>
+            <div className="footer-column">Footer Column 2</div>
+            <div className="footer-column">Footer Column 3</div>
+          </div>
+        </footer>
+      </div>
+
+      {links.map((category, i) => {
         return <Category category={category} key={i}/>;
       })}
-    </div>
+
+      <Footer/>
+    </>
   );
 }
 
+export enum PageType {
+  ALL = "all",
+  AWESOME = "awesome",
+  KUGS = "kugs"
+}
 
 interface PageProps {
-  readonly displayLinks: Links;
-  readonly searchLinks: Links;
+  readonly pageType: PageType;
 }
 
-function toLower(string) {
-  return string.toLowerCase();
-}
-
-function matches(search, text) {
-  return text && toLower(text).includes(toLower(search));
-}
+export default memo(LinksPage);

@@ -118,22 +118,7 @@ open class VideoLibrary(
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getPrimaryKey(): UniqueKey<VideoLibraryRecord> = VIDEO_LIBRARY_PKEY
-    override fun getReferences(): List<ForeignKey<VideoLibraryRecord, *>> = listOf(VIDEO_LIBRARY__VIDEO_LIBRARY_VIDEO_ID_FKEY, VIDEO_LIBRARY__VIDEO_LIBRARY_LIBRARY_ID_FKEY)
-
-    private lateinit var _video: VideoPath
-
-    /**
-     * Get the implicit join path to the <code>public.video</code> table.
-     */
-    fun video(): VideoPath {
-        if (!this::_video.isInitialized)
-            _video = VideoPath(this, VIDEO_LIBRARY__VIDEO_LIBRARY_VIDEO_ID_FKEY, null)
-
-        return _video;
-    }
-
-    val video: VideoPath
-        get(): VideoPath = video()
+    override fun getReferences(): List<ForeignKey<VideoLibraryRecord, *>> = listOf(VIDEO_LIBRARY__VIDEO_LIBRARY_LIBRARY_ID_FKEY, VIDEO_LIBRARY__VIDEO_LIBRARY_VIDEO_ID_FKEY)
 
     private lateinit var _library: LibraryPath
 
@@ -149,6 +134,21 @@ open class VideoLibrary(
 
     val library: LibraryPath
         get(): LibraryPath = library()
+
+    private lateinit var _video: VideoPath
+
+    /**
+     * Get the implicit join path to the <code>public.video</code> table.
+     */
+    fun video(): VideoPath {
+        if (!this::_video.isInitialized)
+            _video = VideoPath(this, VIDEO_LIBRARY__VIDEO_LIBRARY_VIDEO_ID_FKEY, null)
+
+        return _video;
+    }
+
+    val video: VideoPath
+        get(): VideoPath = video()
     override fun `as`(alias: String): VideoLibrary = VideoLibrary(DSL.name(alias), this)
     override fun `as`(alias: Name): VideoLibrary = VideoLibrary(alias, this)
     override fun `as`(alias: Table<*>): VideoLibrary = VideoLibrary(alias.qualifiedName, this)

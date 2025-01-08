@@ -147,22 +147,7 @@ open class Comment(
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIdentity(): Identity<CommentRecord, Long?> = super.getIdentity() as Identity<CommentRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<CommentRecord> = COMMENT_PKEY
-    override fun getReferences(): List<ForeignKey<CommentRecord, *>> = listOf(COMMENT__COMMENT_PARENT_ID_FKEY, COMMENT__COMMENT_KOTLINER_ID_FKEY)
-
-    private lateinit var _comment: CommentPath
-
-    /**
-     * Get the implicit join path to the <code>public.comment</code> table.
-     */
-    fun comment(): CommentPath {
-        if (!this::_comment.isInitialized)
-            _comment = CommentPath(this, COMMENT__COMMENT_PARENT_ID_FKEY, null)
-
-        return _comment;
-    }
-
-    val comment: CommentPath
-        get(): CommentPath = comment()
+    override fun getReferences(): List<ForeignKey<CommentRecord, *>> = listOf(COMMENT__COMMENT_KOTLINER_ID_FKEY, COMMENT__COMMENT_PARENT_ID_FKEY)
 
     private lateinit var _kotliner: KotlinerPath
 
@@ -178,6 +163,21 @@ open class Comment(
 
     val kotliner: KotlinerPath
         get(): KotlinerPath = kotliner()
+
+    private lateinit var _comment: CommentPath
+
+    /**
+     * Get the implicit join path to the <code>public.comment</code> table.
+     */
+    fun comment(): CommentPath {
+        if (!this::_comment.isInitialized)
+            _comment = CommentPath(this, COMMENT__COMMENT_PARENT_ID_FKEY, null)
+
+        return _comment;
+    }
+
+    val comment: CommentPath
+        get(): CommentPath = comment()
     override fun `as`(alias: String): Comment = Comment(DSL.name(alias), this)
     override fun `as`(alias: Name): Comment = Comment(alias, this)
     override fun `as`(alias: Table<*>): Comment = Comment(alias.qualifiedName, this)

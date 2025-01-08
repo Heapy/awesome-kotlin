@@ -1,7 +1,9 @@
 import * as React from "react";
-import {LinksPageComponent} from "../../components/page_wrapper/page_wrapper";
-import {all, awesome} from "../../links";
+import LinksPage, {PageType} from "../../components/page_wrapper/page_wrapper";
+import {memo} from "react";
 
-export default function Home() {
-  return <LinksPageComponent displayLinks={awesome} searchLinks={all}/>
+function HomePage() {
+  return <LinksPage pageType={PageType.AWESOME}/>
 }
+
+export default memo(HomePage);

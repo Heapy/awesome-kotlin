@@ -1,9 +1,10 @@
 import * as React from "react";
-import {Listitem} from "../listitem/listitem";
 import {Link, LinkState, Subcategory} from "../../model";
-import "./list.less";
+import "./list.scss";
+import ListItem from "../listitem/listitem";
+import {memo} from "react";
 
-export function Subcategories({subcategory, prefix}: SubcategoriesProps) {
+function Subcategories({subcategory, prefix}: SubcategoriesProps) {
   return (
     <section className="list">
       <h3 id={getAnchor(prefix, subcategory.name)} className="list_title">
@@ -30,10 +31,12 @@ function getAnchor(prefix: string, suffix: string): string {
 
 function renderLinks(links: Link[]) {
   return links.sort((a, b) => b.star - a.star)
-    .map((link, i) => <Listitem link={link} key={i}/>)
+    .map((link, i) => <ListItem link={link} key={i}/>)
 }
 
 interface SubcategoriesProps {
   readonly prefix: string;
   readonly subcategory: Subcategory;
 }
+
+export default memo(Subcategories);

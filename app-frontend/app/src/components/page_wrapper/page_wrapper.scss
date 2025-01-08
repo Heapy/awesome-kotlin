@@ -1,0 +1,77 @@
+// Theme variables
+$purple: #7f52ff;
+$light-background: #f5f5f5;
+$dark-background: #1e1e1e;
+$light-text: #333;
+$dark-text: #ddd;
+
+.wrapper {
+  width: 100%;  // Full-width background
+}
+
+.container {
+  max-width: 950px;  // Limit content width to 950px
+  margin: 0 auto;  // Center the content
+  padding: 0 1rem;  // Add padding for small screens
+}
+
+.top-bar {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+// Content area with fixed width
+.content {
+  background-color: lighten($purple, 40%);  // Full-width background
+  padding: 2rem 0;
+
+  .container {
+    display: grid;
+    grid-template-columns: 200px 732px;  // Sidebar and content with fixed widths
+    grid-gap: 1rem;
+
+    @media (max-width: 960px) {  // On small screens, stack sidebar and content
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.sidebar {
+  background-color: lighten($purple, 20%);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;  // Fixed width for the sidebar
+}
+
+.main-content {
+  background-color: lighten($purple, 30%);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 732px;  // Fixed width for the main content
+}
+
+// Footer styling with full width and limited container for columns
+.footer {
+  background-color: $purple;
+  color: white;
+  padding: 2rem 0;  // Full-width footer background
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    @media (max-width: 768px) {  // On smaller screens, stack the footer columns
+      grid-template-columns: 1fr;
+    }
+
+    .footer-column {
+      padding: 1rem;
+      background-color: lighten($purple, 15%);
+      border-radius: 8px;
+      text-align: center;
+    }
+  }
+}

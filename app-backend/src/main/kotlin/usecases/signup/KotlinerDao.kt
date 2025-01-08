@@ -6,8 +6,8 @@ import kotlinx.coroutines.withContext
 import jooq.main.keys.UNIQUE_KOTLINER_EMAIL
 import jooq.main.keys.UNIQUE_KOTLINER_NICKNAME
 import jooq.main.tables.references.KOTLINER
-import ktor.plugins.ConstraintViolationException
-import ktor.plugins.ConstraintViolationFields
+import infra.ktor.features.ConstraintViolationException
+import infra.ktor.features.ConstraintViolationFields
 import org.jooq.DSLContext
 import org.jooq.exception.DataAccessException
 import usecases.signup.KotlinerDao.LoginView

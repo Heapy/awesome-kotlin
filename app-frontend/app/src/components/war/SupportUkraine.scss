@@ -1,0 +1,25 @@
+$ukraine-blue: #0057b7;
+$ukraine-yellow: #ffd700;
+
+.support-ukraine-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+
+  background-color: $ukraine-yellow;
+  color: $ukraine-blue;
+
+  html[data-theme="dark"] & {
+    background-color: $ukraine-blue;
+    color: $ukraine-yellow;
+  }
+
+  p {
+    margin: 0;
+  }
+}

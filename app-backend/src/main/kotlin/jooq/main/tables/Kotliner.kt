@@ -218,6 +218,22 @@ open class Kotliner(
     override fun getPrimaryKey(): UniqueKey<KotlinerRecord> = KOTLINER_PKEY
     override fun getUniqueKeys(): List<UniqueKey<KotlinerRecord>> = listOf(UNIQUE_KOTLINER_EMAIL, UNIQUE_KOTLINER_NICKNAME)
 
+    private lateinit var _articleAuthor: ArticleAuthorPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>public.article_author</code> table
+     */
+    fun articleAuthor(): ArticleAuthorPath {
+        if (!this::_articleAuthor.isInitialized)
+            _articleAuthor = ArticleAuthorPath(this, null, ARTICLE_AUTHOR__ARTICLE_AUTHOR_KOTLINER_ID_FKEY.inverseKey)
+
+        return _articleAuthor;
+    }
+
+    val articleAuthor: ArticleAuthorPath
+        get(): ArticleAuthorPath = articleAuthor()
+
     private lateinit var _articleCreatedByFkey: ArticlePath
 
     /**
@@ -249,22 +265,6 @@ open class Kotliner(
 
     val articleUpdatedByFkey: ArticlePath
         get(): ArticlePath = articleUpdatedByFkey()
-
-    private lateinit var _articleAuthor: ArticleAuthorPath
-
-    /**
-     * Get the implicit to-many join path to the
-     * <code>public.article_author</code> table
-     */
-    fun articleAuthor(): ArticleAuthorPath {
-        if (!this::_articleAuthor.isInitialized)
-            _articleAuthor = ArticleAuthorPath(this, null, ARTICLE_AUTHOR__ARTICLE_AUTHOR_KOTLINER_ID_FKEY.inverseKey)
-
-        return _articleAuthor;
-    }
-
-    val articleAuthor: ArticleAuthorPath
-        get(): ArticleAuthorPath = articleAuthor()
 
     private lateinit var _bookSpeaker: BookSpeakerPath
 
@@ -362,22 +362,6 @@ open class Kotliner(
     val kugCreatedByFkey: KugPath
         get(): KugPath = kugCreatedByFkey()
 
-    private lateinit var _kugUpdatedByFkey: KugPath
-
-    /**
-     * Get the implicit to-many join path to the <code>public.kug</code> table,
-     * via the <code>kug_updated_by_fkey</code> key
-     */
-    fun kugUpdatedByFkey(): KugPath {
-        if (!this::_kugUpdatedByFkey.isInitialized)
-            _kugUpdatedByFkey = KugPath(this, null, KUG__KUG_UPDATED_BY_FKEY.inverseKey)
-
-        return _kugUpdatedByFkey;
-    }
-
-    val kugUpdatedByFkey: KugPath
-        get(): KugPath = kugUpdatedByFkey()
-
     private lateinit var _kugEvent: KugEventPath
 
     /**
@@ -409,6 +393,22 @@ open class Kotliner(
 
     val kugMember: KugMemberPath
         get(): KugMemberPath = kugMember()
+
+    private lateinit var _kugUpdatedByFkey: KugPath
+
+    /**
+     * Get the implicit to-many join path to the <code>public.kug</code> table,
+     * via the <code>kug_updated_by_fkey</code> key
+     */
+    fun kugUpdatedByFkey(): KugPath {
+        if (!this::_kugUpdatedByFkey.isInitialized)
+            _kugUpdatedByFkey = KugPath(this, null, KUG__KUG_UPDATED_BY_FKEY.inverseKey)
+
+        return _kugUpdatedByFkey;
+    }
+
+    val kugUpdatedByFkey: KugPath
+        get(): KugPath = kugUpdatedByFkey()
 
     private lateinit var _vacancy: VacancyPath
 

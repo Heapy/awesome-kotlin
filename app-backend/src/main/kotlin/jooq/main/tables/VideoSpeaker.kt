@@ -118,22 +118,7 @@ open class VideoSpeaker(
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getPrimaryKey(): UniqueKey<VideoSpeakerRecord> = VIDEO_SPEAKER_PKEY
-    override fun getReferences(): List<ForeignKey<VideoSpeakerRecord, *>> = listOf(VIDEO_SPEAKER__VIDEO_SPEAKER_VIDEO_ID_FKEY, VIDEO_SPEAKER__VIDEO_SPEAKER_KOTLINER_ID_FKEY)
-
-    private lateinit var _video: VideoPath
-
-    /**
-     * Get the implicit join path to the <code>public.video</code> table.
-     */
-    fun video(): VideoPath {
-        if (!this::_video.isInitialized)
-            _video = VideoPath(this, VIDEO_SPEAKER__VIDEO_SPEAKER_VIDEO_ID_FKEY, null)
-
-        return _video;
-    }
-
-    val video: VideoPath
-        get(): VideoPath = video()
+    override fun getReferences(): List<ForeignKey<VideoSpeakerRecord, *>> = listOf(VIDEO_SPEAKER__VIDEO_SPEAKER_KOTLINER_ID_FKEY, VIDEO_SPEAKER__VIDEO_SPEAKER_VIDEO_ID_FKEY)
 
     private lateinit var _kotliner: KotlinerPath
 
@@ -149,6 +134,21 @@ open class VideoSpeaker(
 
     val kotliner: KotlinerPath
         get(): KotlinerPath = kotliner()
+
+    private lateinit var _video: VideoPath
+
+    /**
+     * Get the implicit join path to the <code>public.video</code> table.
+     */
+    fun video(): VideoPath {
+        if (!this::_video.isInitialized)
+            _video = VideoPath(this, VIDEO_SPEAKER__VIDEO_SPEAKER_VIDEO_ID_FKEY, null)
+
+        return _video;
+    }
+
+    val video: VideoPath
+        get(): VideoPath = video()
     override fun `as`(alias: String): VideoSpeaker = VideoSpeaker(DSL.name(alias), this)
     override fun `as`(alias: Name): VideoSpeaker = VideoSpeaker(alias, this)
     override fun `as`(alias: Table<*>): VideoSpeaker = VideoSpeaker(alias.qualifiedName, this)

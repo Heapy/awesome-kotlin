@@ -1,7 +1,9 @@
 name: "Build"
+
 on:
   push:
   pull_request:
+
 jobs:
   check:
     if: ${{ github.event_name == 'pull_request' }}

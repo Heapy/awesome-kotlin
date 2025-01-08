@@ -1,59 +1,50 @@
 import * as React from "react";
-import {ChangeEvent, KeyboardEvent, useEffect, useRef, useState} from "react";
-import {useLocation, useNavigate, useParams} from "react-router-dom";
-import "./search.less";
-import {searchString} from "../../locations";
+import {useEffect} from "react";
+import useNavigationStore from "../../store/useNavigationStore";
+import "./search.scss";
+import useFocus from "../../hooks/useFocus";
+
+interface SearchProps {
+  onChange: (value: string) => void;
+}
 
 export function Search(props: SearchProps) {
-  const [query, setQuery] = useState("");
-  const location = useLocation();
-  const navigate = useNavigate();
-  const params = useParams();
-  const searchInputRef = useRef(null);
+  const inputRef = useFocus();
+
+  const queryParams = useNavigationStore(state => state.queryParams);
+  const setQueryParam = useNavigationStore(state => state.setQueryParam);
 
   useEffect(() => {
-    const q = new URLSearchParams(location.search).get("q");
+    const q = queryParams.q || "";
     if (q) {
-      setQuery(q);
       props.onChange(q);
-
-      navigate({
-        search: searchString({...params, q}),
-      });
     }
-    searchInputRef.current.focus();
-  }, []);
+  }, [queryParams, props]);
 
-  function handleChange(event: ChangeEvent<HTMLInputElement>) {
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     const q = event.target.value;
-    setQuery(q);
+    setQueryParam("q", q);
     props.onChange(q);
-    navigate({
-      search: searchString({...params, q})
-    });
   }
 
   return (
     <section className="search">
-      <form className="search_wrapper">
-        <input className="search_field"
-               ref={searchInputRef}
-               onKeyPress={handleKeyPress}
-               onChange={handleChange}
-               placeholder="Type to Filter"
-               value={query}/>
+      <form
+        className="search_wrapper"
+        onSubmit={onFormSubmit}
+      >
+        <input
+          className="search_field"
+          ref={inputRef}
+          onChange={handleChange}
+          placeholder="Type to Filter"
+          value={queryParams.q || ""}
+        />
       </form>
     </section>
   );
 }
 
-function handleKeyPress(event: KeyboardEvent<Element>) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    return false;
-  }
-}
-
-interface SearchProps {
-  onChange: (value: string) => void;
+function onFormSubmit(event: React.FormEvent) {
+  return event.preventDefault();
 }

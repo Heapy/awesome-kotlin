@@ -1,21 +1,24 @@
 package usecases.signup
 
-import ConfigModule
-import io.heapy.komok.tech.di.delegate.bean
+import infra.config.ConfigModule
+import com.auth0.jwt.JWT
+import com.auth0.jwt.algorithms.Algorithm
+import infra.config.decode
+import io.heapy.komok.tech.di.lib.Module
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.hocon.Hocon
-import kotlinx.serialization.hocon.decodeFromConfig
+import java.util.*
 
+@Module
 open class JwtModule(
     private val configModule: ConfigModule,
 ) {
-    open val jwtConfig by bean<JwtConfig> {
-        Hocon.decodeFromConfig(configModule.config.value.getConfig("jwt"))
+    open val jwtConfig: JwtConfig by lazy {
+        configModule.decode("jwt", JwtConfig.serializer())
     }
 
-    open val generateJwt by bean {
+    open val generateJwt by lazy {
         GenerateJwt(
-            jwtConfig = jwtConfig.value,
+            jwtConfig = jwtConfig,
         )
     }
 

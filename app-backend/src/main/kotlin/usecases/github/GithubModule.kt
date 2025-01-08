@@ -1,41 +1,41 @@
 package usecases.github
 
-import ConfigModule
-import HttpClientModule
-import io.heapy.komok.tech.di.delegate.bean
-import kotlinx.serialization.hocon.Hocon
-import kotlinx.serialization.hocon.decodeFromConfig
+import infra.config.ConfigModule
+import infra.HttpClientModule
+import infra.config.decode
+import io.heapy.komok.tech.di.lib.Module
 
+@Module
 open class GithubModule(
     private val configModule: ConfigModule,
     private val httpClientModule: HttpClientModule,
 ) {
-    open val githubAuthConfig by bean<GithubAuthConfig> {
-        Hocon.decodeFromConfig(configModule.config.value.getConfig("github"))
+    open val githubAuthConfig: GithubAuthConfig by lazy {
+        configModule.decode("github_auth", GithubAuthConfig.serializer())
     }
 
-    open val githubRedirectUrl by bean {
+    open val githubRedirectUrl by lazy {
         GithubRedirectUrl(
-            githubAuthConfig = githubAuthConfig.value,
+            githubAuthConfig = githubAuthConfig,
         )
     }
 
-    open val githubRedirectRoute by bean {
+    open val githubRedirectRoute by lazy {
         GithubRedirectRoute(
-            githubRedirectUrl = githubRedirectUrl.value,
+            githubRedirectUrl = githubRedirectUrl,
         )
     }
 
-    open val githubAccessToken by bean {
+    open val githubAccessToken by lazy {
         GithubAccessToken(
-            githubAuthConfig = githubAuthConfig.value,
-            httpClient = httpClientModule.httpClient.value,
+            githubAuthConfig = githubAuthConfig,
+            httpClient = httpClientModule.httpClient,
         )
     }
 
-    open val githubCallbackRoute by bean {
+    open val githubCallbackRoute by lazy {
         GithubCallbackRoute(
-            githubAccessToken = githubAccessToken.value,
+            githubAccessToken = githubAccessToken,
         )
     }
 }

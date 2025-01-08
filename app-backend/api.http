@@ -1,3 +1,4 @@
+###
 POST {{host}}/register
 Content-Type: application/json
 
@@ -14,7 +15,6 @@ Content-Type: application/json
 }
 
 ###
-
 POST {{host}}/login
 Content-Type: application/json
 
@@ -30,25 +30,22 @@ Content-Type: application/json
 }
 
 ###
-
 GET {{host}}/
 
 ###
-
-GET {{host}}/ping/test
-
-###
-
 GET {{host}}/kugs
 
 ###
-
 POST {{host}}/kugs
 
-###
+### Prometheus Metrics
+GET {{host}}/metrics
 
-GET {{host}}/metrics-micrometer
+### Healthcheck
+GET {{host}}/healthcheck
 
-###
-
+### Test
 GET {{host}}/test
+
+### Home Page
+GET {{host}}/home

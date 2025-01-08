@@ -22,6 +22,7 @@ import jooq.main.tables.CourseSpeaker
 import jooq.main.tables.DmLikes
 import jooq.main.tables.EntityTopic
 import jooq.main.tables.FlywaySchemaHistory
+import jooq.main.tables.GithubAuth
 import jooq.main.tables.KotlinVersion
 import jooq.main.tables.Kotliner
 import jooq.main.tables.KotlinerLikeEntityState
@@ -51,7 +52,7 @@ import org.jooq.impl.SchemaImpl
  */
 @Suppress("UNCHECKED_CAST")
 open class Public : SchemaImpl("public", DefaultCatalog.DEFAULT_CATALOG) {
-    public companion object {
+    companion object {
 
         /**
          * The reference instance of <code>public</code>
@@ -143,6 +144,11 @@ open class Public : SchemaImpl("public", DefaultCatalog.DEFAULT_CATALOG) {
      * The table <code>public.flyway_schema_history</code>.
      */
     val FLYWAY_SCHEMA_HISTORY: FlywaySchemaHistory get() = FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY
+
+    /**
+     * The table <code>public.github_auth</code>.
+     */
+    val GITHUB_AUTH: GithubAuth get() = GithubAuth.GITHUB_AUTH
 
     /**
      * The table <code>public.kotlin_version</code>.
@@ -243,6 +249,7 @@ open class Public : SchemaImpl("public", DefaultCatalog.DEFAULT_CATALOG) {
         DmLikes.DM_LIKES,
         EntityTopic.ENTITY_TOPIC,
         FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY,
+        GithubAuth.GITHUB_AUTH,
         KotlinVersion.KOTLIN_VERSION,
         Kotliner.KOTLINER,
         KotlinerLikeEntityState.KOTLINER_LIKE_ENTITY_STATE,

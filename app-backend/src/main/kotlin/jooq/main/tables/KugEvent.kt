@@ -163,22 +163,7 @@ open class KugEvent(
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIdentity(): Identity<KugEventRecord, Long?> = super.getIdentity() as Identity<KugEventRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<KugEventRecord> = KUG_EVENT_PKEY
-    override fun getReferences(): List<ForeignKey<KugEventRecord, *>> = listOf(KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY, KUG_EVENT__KUG_EVENT_KUG_ID_FKEY)
-
-    private lateinit var _kotliner: KotlinerPath
-
-    /**
-     * Get the implicit join path to the <code>public.kotliner</code> table.
-     */
-    fun kotliner(): KotlinerPath {
-        if (!this::_kotliner.isInitialized)
-            _kotliner = KotlinerPath(this, KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY, null)
-
-        return _kotliner;
-    }
-
-    val kotliner: KotlinerPath
-        get(): KotlinerPath = kotliner()
+    override fun getReferences(): List<ForeignKey<KugEventRecord, *>> = listOf(KUG_EVENT__KUG_EVENT_KUG_ID_FKEY, KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY)
 
     private lateinit var _kug: KugPath
 
@@ -194,6 +179,21 @@ open class KugEvent(
 
     val kug: KugPath
         get(): KugPath = kug()
+
+    private lateinit var _kotliner: KotlinerPath
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table.
+     */
+    fun kotliner(): KotlinerPath {
+        if (!this::_kotliner.isInitialized)
+            _kotliner = KotlinerPath(this, KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY, null)
+
+        return _kotliner;
+    }
+
+    val kotliner: KotlinerPath
+        get(): KotlinerPath = kotliner()
     override fun `as`(alias: String): KugEvent = KugEvent(DSL.name(alias), this)
     override fun `as`(alias: Name): KugEvent = KugEvent(alias, this)
     override fun `as`(alias: Table<*>): KugEvent = KugEvent(alias.qualifiedName, this)

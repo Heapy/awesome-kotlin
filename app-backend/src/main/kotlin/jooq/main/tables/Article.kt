@@ -194,23 +194,7 @@ open class Article(
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
     override fun getIdentity(): Identity<ArticleRecord, Long?> = super.getIdentity() as Identity<ArticleRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<ArticleRecord> = ARTICLE_PKEY
-    override fun getReferences(): List<ForeignKey<ArticleRecord, *>> = listOf(ARTICLE__ARTICLE_UPDATED_BY_FKEY, ARTICLE__ARTICLE_CREATED_BY_FKEY, ARTICLE__ARTICLE_ORIGINAL_ID_FKEY)
-
-    private lateinit var _articleUpdatedByFkey: KotlinerPath
-
-    /**
-     * Get the implicit join path to the <code>public.kotliner</code> table, via
-     * the <code>article_updated_by_fkey</code> key.
-     */
-    fun articleUpdatedByFkey(): KotlinerPath {
-        if (!this::_articleUpdatedByFkey.isInitialized)
-            _articleUpdatedByFkey = KotlinerPath(this, ARTICLE__ARTICLE_UPDATED_BY_FKEY, null)
-
-        return _articleUpdatedByFkey;
-    }
-
-    val articleUpdatedByFkey: KotlinerPath
-        get(): KotlinerPath = articleUpdatedByFkey()
+    override fun getReferences(): List<ForeignKey<ArticleRecord, *>> = listOf(ARTICLE__ARTICLE_CREATED_BY_FKEY, ARTICLE__ARTICLE_ORIGINAL_ID_FKEY, ARTICLE__ARTICLE_UPDATED_BY_FKEY)
 
     private lateinit var _articleCreatedByFkey: KotlinerPath
 
@@ -242,6 +226,22 @@ open class Article(
 
     val article: ArticlePath
         get(): ArticlePath = article()
+
+    private lateinit var _articleUpdatedByFkey: KotlinerPath
+
+    /**
+     * Get the implicit join path to the <code>public.kotliner</code> table, via
+     * the <code>article_updated_by_fkey</code> key.
+     */
+    fun articleUpdatedByFkey(): KotlinerPath {
+        if (!this::_articleUpdatedByFkey.isInitialized)
+            _articleUpdatedByFkey = KotlinerPath(this, ARTICLE__ARTICLE_UPDATED_BY_FKEY, null)
+
+        return _articleUpdatedByFkey;
+    }
+
+    val articleUpdatedByFkey: KotlinerPath
+        get(): KotlinerPath = articleUpdatedByFkey()
 
     private lateinit var _articleAuthor: ArticleAuthorPath
 

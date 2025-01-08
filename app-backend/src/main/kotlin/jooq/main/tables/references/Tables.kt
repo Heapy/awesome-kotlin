@@ -21,6 +21,7 @@ import jooq.main.tables.CourseSpeaker
 import jooq.main.tables.DmLikes
 import jooq.main.tables.EntityTopic
 import jooq.main.tables.FlywaySchemaHistory
+import jooq.main.tables.GithubAuth
 import jooq.main.tables.KotlinVersion
 import jooq.main.tables.Kotliner
 import jooq.main.tables.KotlinerLikeEntityState
@@ -123,6 +124,11 @@ val ENTITY_TOPIC: EntityTopic = EntityTopic.ENTITY_TOPIC
  * The table <code>public.flyway_schema_history</code>.
  */
 val FLYWAY_SCHEMA_HISTORY: FlywaySchemaHistory = FlywaySchemaHistory.FLYWAY_SCHEMA_HISTORY
+
+/**
+ * The table <code>public.github_auth</code>.
+ */
+val GITHUB_AUTH: GithubAuth = GithubAuth.GITHUB_AUTH
 
 /**
  * The table <code>public.kotlin_version</code>.

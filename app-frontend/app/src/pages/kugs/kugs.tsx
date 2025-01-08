@@ -1,7 +1,9 @@
 import * as React from "react";
-import {LinksPageComponent} from "../../components/page_wrapper/page_wrapper";
-import {kugs} from "../../links";
+import LinksPage, {PageType} from "../../components/page_wrapper/page_wrapper";
+import {memo} from "react";
 
-export default function Kugs() {
-  return <LinksPageComponent displayLinks={kugs} searchLinks={kugs}/>
+function KugsPage() {
+  return <LinksPage pageType={PageType.KUGS}/>
 }
+
+export default memo(KugsPage);

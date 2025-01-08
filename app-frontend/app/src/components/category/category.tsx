@@ -1,8 +1,9 @@
 import * as React from "react";
-import {Subcategories} from "../list/list";
-import "./category.less";
+import Subcategories from "../list/list";
+import "./category.scss";
+import {memo} from "react";
 
-export function Category({category}) {
+function Category({category}) {
   return (
     <section className="category">
       <div className="category_wrapper">
@@ -11,7 +12,7 @@ export function Category({category}) {
           {category.subcategories.map((subcategory, i) => {
             return (
               <Subcategories
-                key={i}
+                key={category.name}
                 prefix={category.name}
                 subcategory={subcategory}
               />
@@ -22,3 +23,5 @@ export function Category({category}) {
     </section>
   );
 }
+
+export default memo(Category)
