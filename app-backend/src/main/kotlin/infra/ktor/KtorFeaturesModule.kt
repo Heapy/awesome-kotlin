@@ -4,20 +4,12 @@ import infra.ktor.features.*
 import io.heapy.komok.tech.di.lib.Module
 import infra.metrics.MetricsModule
 import usecases.reload.NotificationChannelModule
-import usecases.signup.JwtModule
 
 @Module
 open class KtorFeaturesModule(
-    private val jwtModule: JwtModule,
     private val metricsModule: MetricsModule,
     private val notificationChannelModule: NotificationChannelModule,
 ) {
-    open val authenticationFeature by lazy {
-        AuthenticationFeature(
-            jwtConfig = jwtModule.jwtConfig,
-        )
-    }
-
     open val cachingFeature by lazy {
         CachingFeature()
     }
@@ -53,7 +45,6 @@ open class KtorFeaturesModule(
 
     open val features by lazy {
         listOf(
-            authenticationFeature,
             cachingFeature,
             contentNegotiationFeature,
             resourcesFeature,

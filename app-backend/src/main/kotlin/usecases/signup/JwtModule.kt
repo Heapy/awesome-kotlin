@@ -1,32 +1,32 @@
 package usecases.signup
 
 import infra.config.ConfigModule
-import com.auth0.jwt.JWT
-import com.auth0.jwt.algorithms.Algorithm
 import infra.config.decode
+import infra.jwt.Jwt
 import io.heapy.komok.tech.di.lib.Module
+import io.heapy.komok.tech.time.TimeSourceModule
 import kotlinx.serialization.Serializable
-import java.util.*
+import kotlinx.serialization.json.Json
 
 @Module
 open class JwtModule(
     private val configModule: ConfigModule,
+    private val timeSourceModule: TimeSourceModule,
 ) {
     open val jwtConfig: JwtConfig by lazy {
         configModule.decode("jwt", JwtConfig.serializer())
     }
 
-    open val generateJwt by lazy {
-        GenerateJwt(
-            jwtConfig = jwtConfig,
+    open val jwt by lazy {
+        Jwt(
+            timeSource = timeSourceModule.timeSource,
+            secret = jwtConfig.secret,
+            json = Json,
         )
     }
 
     @Serializable
     data class JwtConfig(
-        val audience: String,
-        val realm: String,
-        val issuer: String,
         val secret: String,
     )
 }

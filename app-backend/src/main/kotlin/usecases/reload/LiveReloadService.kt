@@ -5,13 +5,13 @@ import io.heapy.komok.tech.logging.Logger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
-import server.KtorServerModule
+import server.ServerConfig
 import java.nio.file.Path
 
 class LiveReloadService(
     private val fileMonitor: FileMonitor,
     private val notificationChannel: NotificationChannel,
-    private val serverConfig: KtorServerModule.ServerConfig,
+    private val serverConfig: ServerConfig,
 ) {
     private val job = SupervisorJob()
 

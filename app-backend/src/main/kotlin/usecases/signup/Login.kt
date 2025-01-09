@@ -2,6 +2,7 @@ package usecases.signup
 
 import infra.db.JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
+import infra.jwt.Jwt
 import io.heapy.komok.tech.di.lib.Module
 import io.ktor.http.*
 import io.ktor.server.request.receive
@@ -30,17 +31,17 @@ open class LoginModule(
 
     open val route by lazy {
         LoginRoute(
-            generateJwt = jwtModule.generateJwt,
             bcryptVerifier = bcryptVerifier,
             kotlinerDao = kotlinerDao,
+            jwt = jwtModule.jwt,
         )
     }
 }
 
 class LoginRoute(
-    private val generateJwt: GenerateJwt,
     private val bcryptVerifier: BCrypt.Verifyer,
     private val kotlinerDao: KotlinerDao,
+    private val jwt: Jwt,
 ) : KtorRoute {
     override fun Route.install() {
         post("/api/login") {
@@ -55,7 +56,7 @@ class LoginRoute(
             )
 
             if (result.verified) {
-                val token = generateJwt(db.id.toString())
+                val token = jwt.generateTokenDefaultDuration(db.id.toString())
                 call.response.cookies.append(Cookie(
                     name ="token",
                     value = token,

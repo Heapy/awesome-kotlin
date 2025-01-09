@@ -5,7 +5,7 @@ hikari = "6.2.1"
 jooq = "3.19.16"
 junit = "5.11.4"
 kaml = "0.67.0"
-komok = "1.0.10"
+komok = "1.0.11"
 kotlin = "2.1.0"
 kotlinx-coroutines = "1.10.1"
 kotlinx-serialization = "1.8.0"
@@ -34,9 +34,9 @@ kaml = { module = "com.charleskorn.kaml:kaml", version.ref = "kaml" }
 
 komok-tech-di = { module = "io.heapy.komok:komok-tech-di", version.ref = "komok" }
 komok-tech-di-lib = { module = "io.heapy.komok:komok-tech-di-lib", version.ref = "komok" }
-komok-tech-to-be-injected = { module = "io.heapy.komok:komok-tech-to-be-injected", version.ref = "komok" }
 komok-tech-config-dotenv = { module = "io.heapy.komok:komok-tech-config-dotenv", version.ref = "komok" }
 komok-tech-logging = { module = "io.heapy.komok:komok-tech-logging", version.ref = "komok" }
+komok-tech-time = { module = "io.heapy.komok:komok-tech-time", version.ref = "komok" }
 
 kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
@@ -51,7 +51,6 @@ ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version.ref = "
 ktor-server-resources = { group = "io.ktor", name = "ktor-server-resources", version.ref = "ktor" }
 ktor-server-websockets = { group = "io.ktor", name = "ktor-server-websockets", version.ref = "ktor" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
-ktor-server-auth-jwt = { group = "io.ktor", name = "ktor-server-auth-jwt", version.ref = "ktor" }
 ktor-server-metrics-micrometer = { group = "io.ktor", name = "ktor-server-metrics-micrometer", version.ref = "ktor" }
 ktor-server-call-logging = { group = "io.ktor", name = "ktor-server-call-logging", version.ref = "ktor" }
 ktor-server-default-headers = { group = "io.ktor", name = "ktor-server-default-headers", version.ref = "ktor" }

@@ -18,6 +18,7 @@ kotlin {
     compilerOptions {
         freeCompilerArgs.addAll(
             "-Xcontext-receivers",
+            "-Xsuppress-warning=CONTEXT_RECEIVERS_DEPRECATED",
         )
     }
 
@@ -64,6 +65,7 @@ dependencies {
     implementation(libs.komok.tech.di.lib)
     implementation(libs.komok.tech.config.dotenv)
     implementation(libs.komok.tech.logging)
+    implementation(libs.komok.tech.time)
 
     implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.ktor.client.cio)
@@ -72,7 +74,6 @@ dependencies {
     implementation(libs.ktor.server.resources)
     implementation(libs.ktor.server.websockets)
     implementation(libs.ktor.client.content.negotiation)
-    implementation(libs.ktor.server.auth.jwt)
     implementation(libs.ktor.server.metrics.micrometer)
     implementation(libs.micrometer.registry.prometheus)
     implementation(libs.ktor.server.call.logging)
@@ -86,6 +87,7 @@ dependencies {
 
     implementation(libs.logback)
 
+    testImplementation(testFixtures(libs.komok.tech.time))
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.mockk)

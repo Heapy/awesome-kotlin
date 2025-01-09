@@ -2,20 +2,15 @@ package server
 
 import infra.config.ConfigModule
 import infra.config.decode
-import io.heapy.komok.tech.di.lib.Module
-import io.ktor.server.auth.*
-import io.ktor.server.auth.jwt.*
-import io.ktor.server.cio.*
-import io.ktor.server.engine.*
-import io.ktor.server.http.content.*
-import io.ktor.server.response.*
-import io.ktor.server.routing.*
-import kotlinx.serialization.Serializable
 import infra.ktor.KtorFeaturesModule
 import infra.lifecycle.LifecycleModule
 import infra.utils.withEach
+import io.heapy.komok.tech.di.lib.Module
+import io.ktor.server.cio.CIO
+import io.ktor.server.engine.embeddedServer
+import io.ktor.server.http.content.staticFiles
+import io.ktor.server.routing.routing
 import java.io.File
-import kotlin.time.Duration
 
 @Module
 open class KtorServerModule(
@@ -27,16 +22,12 @@ open class KtorServerModule(
     open val ktorServer by lazy {
         System.setProperty("io.ktor.server.engine.ShutdownHook", "false")
 
-        val features = ktorFeaturesModule.features
-        val unauthenticatedRoutes = ktorRoutesModule.unauthenticatedRoutes
-        val serverConfig = serverConfig
-
         embeddedServer(
             factory = CIO,
             port = serverConfig.port,
             host = serverConfig.host,
         ) {
-            features.withEach {
+            ktorFeaturesModule.features.withEach {
                 install()
             }
 
@@ -45,17 +36,8 @@ open class KtorServerModule(
                     default("index.html")
                 }
 
-                unauthenticatedRoutes.withEach {
+                ktorRoutesModule.routes.withEach {
                     install()
-                }
-
-                authenticate("jwt") {
-                    get("/test") {
-                        val principal = call.principal<JWTPrincipal>()
-                        principal?.getClaim("id", Long::class)?.let { id ->
-                            call.respond("Hello, $id!")
-                        } ?: call.respond("Hello, world!")
-                    }
                 }
             }
         }.also { server ->
@@ -74,12 +56,4 @@ open class KtorServerModule(
             deserializer = ServerConfig.serializer(),
         )
     }
-
-    @Serializable
-    data class ServerConfig(
-        val port: Int,
-        val host: String,
-        val gracefulShutdownTimeout: Duration,
-        val reactDistPath: String,
-    )
 }

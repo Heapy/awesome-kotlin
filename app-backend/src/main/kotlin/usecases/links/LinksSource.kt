@@ -1,5 +1,6 @@
 package usecases.links
 
+import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.serialization.builtins.ListSerializer
@@ -10,7 +11,7 @@ class LinksSource(
     private val githubTrendingLinkSource: GithubTrendingLinkSource,
     private val categoryProcessor: CategoryProcessor,
 ) {
-    private val links = GlobalScope.async {
+    private val links = GlobalScope.async(start = CoroutineStart.LAZY) {
         getLinksInternal()
     }
 

@@ -31,7 +31,7 @@ open class KtorRoutesModule(
     private val readmeModule: ReadmeModule,
     private val articlesModule: ArticlesModule,
 ) {
-    open val unauthenticatedRoutes by lazy {
+    open val routes by lazy {
         listOf(
             githubModule.githubRedirectRoute,
             githubModule.githubCallbackRoute,
