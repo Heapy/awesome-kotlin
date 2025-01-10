@@ -13,7 +13,7 @@ ksp = "2.1.0-1.0.29"
 ktor = "3.0.3"
 logback = "1.5.16"
 micrometer = "1.14.2"
-mockk = "1.13.14"
+mockk = "1.13.16"
 postgresql = "42.7.4"
 xmlutil = "0.90.1"
 
