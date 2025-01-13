@@ -1,8 +1,8 @@
 [versions]
-bouncycastle = "1.78.1"
-flyway = "11.1.0"
+bouncycastle = "1.79"
+flyway = "11.1.1"
 hikari = "6.2.1"
-jooq = "3.19.16"
+jooq = "3.19.17"
 junit = "5.11.4"
 kaml = "0.67.0"
 komok = "1.0.11"
@@ -15,7 +15,7 @@ logback = "1.5.16"
 micrometer = "1.14.2"
 mockk = "1.13.16"
 postgresql = "42.7.4"
-xmlutil = "0.90.1"
+xmlutil = "0.90.3"
 
 [libraries]
 bouncycastle-bcpkix = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
