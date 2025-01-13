@@ -68,20 +68,20 @@ export const LOGOS: Logo[] = [
   {
     src: (() => {
       const maskots = [
-        require('./maskots/01.svg'),
-        require('./maskots/02.svg'),
-        require('./maskots/03.svg'),
-        require('./maskots/04.svg'),
-        require('./maskots/05.svg'),
-        require('./maskots/06.svg'),
-        require('./maskots/07.svg'),
-        require('./maskots/08.svg'),
-        require('./maskots/09.svg'),
-        require('./maskots/10.svg'),
-        require('./maskots/11.svg'),
-        require('./maskots/12.svg'),
-        require('./maskots/13.svg'),
-        require('./maskots/14.svg'),
+        require("./maskots/01.svg"),
+        require("./maskots/02.svg"),
+        require("./maskots/03.svg"),
+        require("./maskots/04.svg"),
+        require("./maskots/05.svg"),
+        require("./maskots/06.svg"),
+        require("./maskots/07.svg"),
+        require("./maskots/08.svg"),
+        require("./maskots/09.svg"),
+        require("./maskots/10.svg"),
+        require("./maskots/11.svg"),
+        require("./maskots/12.svg"),
+        require("./maskots/13.svg"),
+        require("./maskots/14.svg"),
       ]
 
       return maskots[Math.floor(Math.random() * maskots.length)]

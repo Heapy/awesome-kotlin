@@ -1,5 +1,5 @@
 import * as React from "react";
-import {createRoot} from 'react-dom/client';
+import {createRoot} from "react-dom/client";
 import "./style.scss";
 import useNavigationStore from "./store/useNavigationStore";
 import {parseQueryParams} from "./utils/queryParams";

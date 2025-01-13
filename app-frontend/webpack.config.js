@@ -80,8 +80,8 @@ module.exports = function (options = {}) {
 function createListOfPlugins({NODE_ENV}, APP_DIR) {
   return [
     new MiniCssExtractPlugin({
-      filename: '[name]_[contenthash].css',
-      chunkFilename: '[id]_[contenthash].css',
+      filename: "[name]_[contenthash].css",
+      chunkFilename: "[id]_[contenthash].css",
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(APP_DIR, "index.html"),

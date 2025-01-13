@@ -26,11 +26,11 @@ type Cache<T> = Record<string, T>
  */
 type Action<T> =
 /** Indicates that the request is in progress. */
-  | { type: 'loading' }
+  | { type: "loading" }
   /** Indicates that the request has been successfully fetched. */
-  | { type: 'fetched'; payload: T }
+  | { type: "fetched"; payload: T }
   /** Indicates that an error occurred during the request. */
-  | { type: 'error'; payload: Error }
+  | { type: "error"; payload: Error }
 
 const cache = {}
 
@@ -62,11 +62,11 @@ export function useFetch<T>(
   // Keep state logic separated
   const fetchReducer = (state: State<T>, action: Action<T>): State<T> => {
     switch (action.type) {
-      case 'loading':
+      case "loading":
         return {...initialState}
-      case 'fetched':
+      case "fetched":
         return {...initialState, data: action.payload}
-      case 'error':
+      case "error":
         return {...initialState, error: action.payload}
       default:
         return state
@@ -82,12 +82,12 @@ export function useFetch<T>(
     cancelRequest.current = false
 
     const fetchData = async () => {
-      dispatch({type: 'loading'})
+      dispatch({type: "loading"})
 
       // If a cache exists for this url, return it
       const currentCache = cache[url]
       if (currentCache) {
-        dispatch({type: 'fetched', payload: currentCache})
+        dispatch({type: "fetched", payload: currentCache})
         return
       } else {
         // Prevent race loading if the cache is empty
@@ -104,11 +104,11 @@ export function useFetch<T>(
         cache[url] = data
         if (cancelRequest.current) return
 
-        dispatch({type: 'fetched', payload: data})
+        dispatch({type: "fetched", payload: data})
       } catch (error) {
         if (cancelRequest.current) return
 
-        dispatch({type: 'error', payload: error as Error})
+        dispatch({type: "error", payload: error as Error})
       }
     }
 
