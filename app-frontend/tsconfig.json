@@ -5,9 +5,8 @@
     "jsx": "react",
     "lib": [
       "dom",
-      "es5",
-      "es6",
-      "es7"
-    ]
+      "dom.iterable",
+      "esnext"
+    ],
   }
 }
