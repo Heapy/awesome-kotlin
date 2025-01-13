@@ -1,5 +1,6 @@
 import * as React from "react";
 import {PropsWithChildren} from "react";
+import { useShallow } from "zustand/shallow";
 import useNavigationStore from "../store/useNavigationStore";
 
 interface NavLinkProps {
@@ -20,11 +21,11 @@ const NavLink: React.FC<PropsWithChildren<NavLinkProps>> = (
     title,
   }
 ) => {
-  const {currentPage, queryParams: currentQueryParams, push} = useNavigationStore((state) => ({
+  const {currentPage, queryParams: currentQueryParams, push} = useNavigationStore(useShallow((state) => ({
     currentPage: state.currentPage,
     queryParams: state.queryParams,
     push: state.push,
-  }));
+  })));
 
   const handleClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     event.preventDefault();
