@@ -53,6 +53,7 @@ jobs:
           retention-days: 1
 
   build-and-push-image:
+    if: ${{ github.event_name == 'push' }}
     name: "Build and push docker image"
     runs-on: ubuntu-latest
     needs: [kotlin-build, react-build]

@@ -21,7 +21,7 @@ updates:
        all:
           patterns:
             - "*"
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
