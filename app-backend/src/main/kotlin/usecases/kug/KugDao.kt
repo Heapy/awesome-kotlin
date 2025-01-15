@@ -3,7 +3,7 @@ package usecases.kug
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
-import infra.serialization.OffsetDateTimeSerializer
+import infra.serialization.serializers.OffsetDateTimeSerializer
 import jooq.main.tables.references.KUG
 import org.jooq.DSLContext
 import java.time.OffsetDateTime

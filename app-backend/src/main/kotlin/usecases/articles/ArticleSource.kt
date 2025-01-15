@@ -1,6 +1,6 @@
 package usecases.articles
 
-import infra.serialization.LocalDateTimeSerializer
+import infra.serialization.serializers.LocalDateTimeSerializer
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
