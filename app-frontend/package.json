@@ -11,15 +11,15 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.6",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "sass": "^1.83.1",
+    "sass": "^1.83.4",
     "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.2",
