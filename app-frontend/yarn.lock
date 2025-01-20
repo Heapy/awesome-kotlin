@@ -397,12 +397,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.10.5":
+"@types/node@npm:*":
   version: 22.10.5
   resolution: "@types/node@npm:22.10.5"
   dependencies:
     undici-types: "npm:~6.20.0"
   checksum: 10/a5366961ffa9921e8f15435bc18ea9f8b7a7bb6b3d92dd5e93ebcd25e8af65708872bd8e6fee274b4655bab9ca80fbff9f0e42b5b53857790f13cf68cf4cbbfc
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.10.7":
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
+  dependencies:
+    undici-types: "npm:~6.20.0"
+  checksum: 10/64cde1c2f5e5f7d597d3bd462f52c3c2d688a66623eb75d25e1d1d63d384ef553a27100635ad0dbb7d74da517048aa636947863eb624cf85f25d2f22370ce474
   languageName: node
   linkType: hard
 
@@ -415,12 +424,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.0.6":
-  version: 19.0.6
-  resolution: "@types/react@npm:19.0.6"
+"@types/react@npm:^19.0.7":
+  version: 19.0.7
+  resolution: "@types/react@npm:19.0.7"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/dc7604e4a0ee338447acaf6fded732e3a9528c4411ad8d6a2504ffb45c3613d5347a02a426d0b314015673317010977e3db01f69bb0257219cacda1884ce31f4
+  checksum: 10/09522132bde715888e57c61fc89a87db06699872535450296f1c975c5014a7953ff08c3bff6b37d4a4515ceeb65b09cc5f841513cc8fede65fec788790b21154
   languageName: node
   linkType: hard
 
@@ -753,8 +762,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "awesome-kotlin@workspace:."
   dependencies:
-    "@types/node": "npm:^22.10.5"
-    "@types/react": "npm:^19.0.6"
+    "@types/node": "npm:^22.10.7"
+    "@types/react": "npm:^19.0.7"
     "@types/react-dom": "npm:^19.0.3"
     copy-to-clipboard: "npm:^3.3.3"
     copy-webpack-plugin: "npm:^12.0.2"
@@ -765,7 +774,7 @@ __metadata:
     mini-css-extract-plugin: "npm:^2.9.2"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    sass: "npm:^1.83.1"
+    sass: "npm:^1.83.4"
     sass-loader: "npm:^16.0.4"
     style-loader: "npm:^4.0.0"
     ts-loader: "npm:^9.5.2"
@@ -3063,9 +3072,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.83.1":
-  version: 1.83.1
-  resolution: "sass@npm:1.83.1"
+"sass@npm:^1.83.4":
+  version: 1.83.4
+  resolution: "sass@npm:1.83.4"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -3076,7 +3085,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10/ee4ea5573faddeed375479eda6ac87a6f34dc6fc5391c6cc2743993f24827f4709f950fba6ef1ad0694215a1df40d43f4ed9006327daa3743c8e3ad1979d3c32
+  checksum: 10/9a7d1c6be1a9e711a1c561d189b9816aa7715f6d0ec0b2ec181f64163788d0caaf4741924eeadce558720b58b1de0e9b21b9dae6a0d14489c4d2a142d3f3b12e
   languageName: node
   linkType: hard
 
