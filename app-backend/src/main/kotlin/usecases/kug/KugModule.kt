@@ -1,7 +1,6 @@
 package usecases.kug
 
 import infra.HttpClientModule
-import infra.db.JooqModule
 import infra.serialization.YamlModule
 import io.heapy.komok.tech.di.lib.Module
 
@@ -9,7 +8,6 @@ import io.heapy.komok.tech.di.lib.Module
 open class KugModule(
     private val httpClientModule: HttpClientModule,
     private val yamlModule: YamlModule,
-    private val jooqModule: JooqModule,
 ) {
     open val kugDownloadService by lazy {
         KugDownloadService(
@@ -19,7 +17,7 @@ open class KugModule(
     }
 
     open val kugDao by lazy<KugDao> {
-        DefaultKugDao(jooqModule.dslContext)
+        KugDao()
     }
 
     open val updateKugsRoute by lazy {

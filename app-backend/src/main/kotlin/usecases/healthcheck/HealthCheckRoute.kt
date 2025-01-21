@@ -1,17 +1,20 @@
 package usecases.healthcheck
 
+import infra.db.transaction.TransactionContext
+import infra.ktor.easy.EasyKtorRoute
 import io.ktor.server.response.respondText
 import io.ktor.server.routing.*
-import infra.ktor.KtorRoute
+import infra.ktor.auth.UserContext
 
-class HealthCheckRoute : KtorRoute {
-    override fun Route.install() {
-        get("/healthcheck") {
-            call.respondText(
-                text = """{"status":"ok"}""",
-                contentType = io.ktor.http.ContentType.Application.Json,
-            )
-        }
+class HealthCheckRoute : EasyKtorRoute {
+    override val path: String = "/healthcheck"
+
+    context(_: TransactionContext, _: UserContext)
+    override suspend fun RoutingContext.handle() {
+        call.respondText(
+            text = """{"status":"ok"}""",
+            contentType = io.ktor.http.ContentType.Application.Json,
+        )
     }
 }
 

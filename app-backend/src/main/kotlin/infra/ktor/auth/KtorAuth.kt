@@ -1,31 +1,49 @@
 package infra.ktor.auth
 
+import infra.db.transaction.TransactionContext
+import infra.jwt.Jwt
 import infra.ktor.features.AuthenticationException
+import infra.ktor.features.AuthorizationException
 import io.ktor.server.routing.RoutingContext
 
 class KtorAuth(
-
+    private val jwt: Jwt,
 ) {
-    context(RoutingContext)
-    fun <T> auth(
-        accessControl: AccessControl = AlwaysAllow,
-        body: context(UserContext) () -> T,
+    context(
+        routing: RoutingContext,
+        _: TransactionContext
+    )
+    suspend fun auth(
+        accessControl: AccessControl,
+        body: suspend UserContext.() -> Unit,
     ) {
-        val token = call.request.cookies["token"]
+        val userContext = if (accessControl == Anonymous) {
+            AnonymousUserContext
+        } else {
+            val token = routing.call.request.cookies["token"]
 
-        if (token == null) {
-            throw AuthenticationException()
+            if (token == null) {
+                throw AuthenticationException()
+            }
+
+            val parseToken = jwt.parseToken(token).getOrNull()
+
+            if (parseToken == null) {
+                throw AuthenticationException()
+            }
+
+            // No roles or permissions ATM
+            DefaultUserContext(
+                id = parseToken.sub,
+                roles = setOf(),
+                permissions = setOf(),
+            )
         }
-//
-//        val userContext = validateTokenAndGetUserContext(token)
-//
-//        if (!isAuthorized(userContext, permission)) {
-//            throw AuthorizationException("User is not authorized")
-//        }
-//
-//        with(userContext) {
-//            body()
-//        }
+
+        if (!isAuthorized(userContext, accessControl)) {
+            throw AuthorizationException()
+        }
+
+        userContext.body()
     }
 }
-

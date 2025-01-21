@@ -16,17 +16,22 @@ data class Role(val role: String) : AccessControl
 data class Permission(val permission: String) : AccessControl
 data class AllOf(val accessControls: List<AccessControl>) : AccessControl
 data class AnyOf(val accessControls: List<AccessControl>) : AccessControl
-object AlwaysAllow : AccessControl
+object Anonymous : AccessControl
+object LoggedIn : AccessControl
 
 fun isAuthorized(
     userContext: UserContext,
     accessControl: AccessControl,
 ): Boolean {
     return when (accessControl) {
+        is Anonymous -> true
         is Role -> userContext.roles.contains(accessControl.role)
         is Permission -> userContext.permissions.contains(accessControl.permission)
         is AllOf -> accessControl.accessControls.all { isAuthorized(userContext, it) }
         is AnyOf -> accessControl.accessControls.any { isAuthorized(userContext, it) }
-        is AlwaysAllow -> true
+        is LoggedIn -> when (userContext) {
+            AnonymousUserContext -> false
+            is DefaultUserContext -> true
+        }
     }
 }

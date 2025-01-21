@@ -1,77 +1,54 @@
 package usecases.signup
 
-import infra.db.JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
+import infra.db.transaction.TransactionContext
 import infra.jwt.Jwt
-import io.heapy.komok.tech.di.lib.Module
 import io.ktor.http.*
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
-import io.ktor.server.routing.post
 import kotlinx.serialization.Serializable
-import infra.ktor.KtorRoute
+import infra.ktor.auth.UserContext
+import infra.ktor.easy.EasyKtorRoute
 import infra.ktor.features.AuthenticationException
-import io.ktor.server.routing.Route
+import io.ktor.server.routing.RoutingContext
 import kotlin.time.Duration.Companion.days
-
-@Module
-open class LoginModule(
-    private val jooqModule: JooqModule,
-    private val jwtModule: JwtModule,
-) {
-    open val bcryptVerifier by lazy<BCrypt.Verifyer> {
-        BCrypt.verifyer()
-    }
-
-    open val kotlinerDao by lazy {
-        DefaultKotlinerDao(
-            dslContext = jooqModule.dslContext,
-        )
-    }
-
-    open val route by lazy {
-        LoginRoute(
-            bcryptVerifier = bcryptVerifier,
-            kotlinerDao = kotlinerDao,
-            jwt = jwtModule.jwt,
-        )
-    }
-}
 
 class LoginRoute(
     private val bcryptVerifier: BCrypt.Verifyer,
     private val kotlinerDao: KotlinerDao,
     private val jwt: Jwt,
-) : KtorRoute {
-    override fun Route.install() {
-        post("/api/login") {
-            val request = call.receive<LoginBody>()
-            val db = kotlinerDao.get(request.email)
+) : EasyKtorRoute {
+    override val path = "/api/login"
+    override val method = HttpMethod.Post
 
-            db ?: throw AuthenticationException()
+    context(_: TransactionContext, _: UserContext)
+    override suspend fun RoutingContext.handle() {
+        val request = call.receive<LoginBody>()
+        val db = kotlinerDao.get(request.email)
 
-            val result = bcryptVerifier.verify(
-                request.password,
-                db.password
-            )
+        db ?: throw AuthenticationException()
 
-            if (result.verified) {
-                val token = jwt.generateTokenDefaultDuration(db.id.toString())
-                call.response.cookies.append(Cookie(
-                    name ="token",
-                    value = token,
-                    secure = true,
-                    httpOnly = true,
-                    maxAge = 30.days.inWholeSeconds.toInt(),
-                    path = "/",
-                    extensions = mapOf(
-                        "SameSite" to "Strict",
-                    )
-                ))
-                call.respond(HttpStatusCode.Accepted)
-            } else {
-                throw AuthenticationException()
-            }
+        val result = bcryptVerifier.verify(
+            request.password,
+            db.password
+        )
+
+        if (result.verified) {
+            val token = jwt.generateTokenDefaultDuration(db.id.toString())
+            call.response.cookies.append(Cookie(
+                name ="token",
+                value = token,
+                secure = true,
+                httpOnly = true,
+                maxAge = 30.days.inWholeSeconds.toInt(),
+                path = "/",
+                extensions = mapOf(
+                    "SameSite" to "Strict",
+                )
+            ))
+            call.respond(HttpStatusCode.Accepted)
+        } else {
+            throw AuthenticationException()
         }
     }
 

@@ -35,7 +35,10 @@ open class JdbcModule(
     }
 
     open val jdbcConfig: JdbcConfig by lazy {
-        configModule.decode("jdbc", JdbcConfig.serializer())
+        configModule.decode(
+            path = "jdbc",
+            deserializer = JdbcConfig.serializer(),
+        )
     }
 
     @Serializable

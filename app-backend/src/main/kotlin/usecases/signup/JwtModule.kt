@@ -14,7 +14,10 @@ open class JwtModule(
     private val timeSourceModule: TimeSourceModule,
 ) {
     open val jwtConfig: JwtConfig by lazy {
-        configModule.decode("jwt", JwtConfig.serializer())
+        configModule.decode(
+            path = "jwt",
+            deserializer = JwtConfig.serializer(),
+        )
     }
 
     open val jwt by lazy {

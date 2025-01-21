@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Assertions.*
 import types.UnitTest
 
 class AccessControlTest {
-    private val userContext = UserContext(
-        id = 1,
+    private val userContext = DefaultUserContext(
+        id = "1",
         roles = setOf("admin", "editor"),
         permissions = setOf("read", "write", "delete")
     )
@@ -72,8 +72,13 @@ class AccessControlTest {
     }
 
     @UnitTest
-    fun `AlwaysAllow is authorized`() {
-        assertTrue(isAuthorized(userContext, AlwaysAllow))
+    fun `Anonymous is authorized`() {
+        assertTrue(isAuthorized(userContext, Anonymous))
+    }
+
+    @UnitTest
+    fun `Anonymous is not logged in`() {
+        assertFalse(isAuthorized(AnonymousUserContext, LoggedIn))
     }
 
     @UnitTest

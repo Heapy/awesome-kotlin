@@ -1,11 +1,10 @@
 package usecases.kug
 
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
+import infra.db.transaction.TransactionContext
+import infra.db.transaction.dslContext
 import kotlinx.serialization.Serializable
 import infra.serialization.serializers.OffsetDateTimeSerializer
 import jooq.main.tables.references.KUG
-import org.jooq.DSLContext
 import java.time.OffsetDateTime
 
 @Serializable
@@ -30,16 +29,11 @@ data class KugCreatePrj(
     val longitude: Double?,
 )
 
-interface KugDao {
-    suspend fun getAll(): List<Kug>
-    suspend fun create(kug: KugCreatePrj): Kug
-}
-
-class DefaultKugDao(
-    private val dslContext: DSLContext,
-) : KugDao {
-    override suspend fun getAll(): List<Kug> = withContext(Dispatchers.IO) {
-        dslContext
+class KugDao() {
+    context(transactionContext: TransactionContext)
+    fun getAll(): List<Kug> {
+        return transactionContext
+            .dslContext
             .select(
                 KUG.ID,
                 KUG.CONTINENT,
@@ -54,10 +48,12 @@ class DefaultKugDao(
             .fetchInto(Kug::class.java)
     }
 
-    override suspend fun create(
+    context(transactionContext: TransactionContext)
+    fun create(
         kug: KugCreatePrj,
-    ): Kug = withContext(Dispatchers.IO) {
-        dslContext
+    ): Kug {
+        return transactionContext
+            .dslContext
             .insertInto(
                 KUG,
                 KUG.CONTINENT,

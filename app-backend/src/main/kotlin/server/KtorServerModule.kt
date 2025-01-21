@@ -52,7 +52,7 @@ open class KtorServerModule(
 
     open val serverConfig: ServerConfig by lazy {
         configModule.decode(
-            "server",
+            path = "server",
             deserializer = ServerConfig.serializer(),
         )
     }

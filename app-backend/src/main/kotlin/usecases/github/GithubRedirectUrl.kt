@@ -6,7 +6,7 @@ import io.ktor.server.util.*
 class GithubRedirectUrl(
     private val githubAuthConfig: GithubAuthConfig,
 ) {
-    operator fun invoke(): String {
+    fun get(): String {
         return url {
             protocol = URLProtocol.HTTPS
             host = "github.com"
