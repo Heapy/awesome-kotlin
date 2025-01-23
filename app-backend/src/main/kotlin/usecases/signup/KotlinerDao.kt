@@ -1,22 +1,17 @@
 package usecases.signup
 
+import infra.db.transaction.TransactionContext
+import infra.db.transaction.dslContext
 import jooq.main.enums.KotlinerStatusEnum
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import jooq.main.keys.UNIQUE_KOTLINER_EMAIL
 import jooq.main.keys.UNIQUE_KOTLINER_NICKNAME
 import jooq.main.tables.references.KOTLINER
 import infra.ktor.features.ConstraintViolationException
 import infra.ktor.features.ConstraintViolationFields
-import org.jooq.DSLContext
 import org.jooq.exception.DataAccessException
-import usecases.signup.KotlinerDao.LoginView
 import java.time.OffsetDateTime
 
-interface KotlinerDao {
-    suspend fun get(email: String): LoginView?
-    suspend fun save(kotlin: SaveView)
-
+class KotlinerDao {
     class LoginView(
         val id: Long,
         val password: CharArray,
@@ -27,12 +22,9 @@ interface KotlinerDao {
         val email: String,
         val password: String,
     )
-}
 
-class DefaultKotlinerDao(
-    private val dslContext: DSLContext,
-) : KotlinerDao {
-    override suspend fun get(email: String): LoginView? = withContext(Dispatchers.IO) {
+    context(transactionContext: TransactionContext)
+    fun get(email: String): LoginView? = transactionContext.dslContext {
         val db = dslContext.select(KOTLINER.ID, KOTLINER.PASSWORD)
             .from(KOTLINER)
             .where(KOTLINER.NORMALIZED_EMAIL.eq(email.normalize()))
@@ -46,7 +38,8 @@ class DefaultKotlinerDao(
         }
     }
 
-    override suspend fun save(kotlin: KotlinerDao.SaveView) = withContext(Dispatchers.IO) {
+    context(transactionContext: TransactionContext)
+    fun save(kotlin: SaveView) = transactionContext.dslContext {
         try {
             dslContext
                 .insertInto(
@@ -80,7 +73,7 @@ class DefaultKotlinerDao(
                         ConstraintViolationFields(
                             message = UNIQUE_KOTLINER_EMAIL.name,
                             fields = listOf(
-                                KotlinerDao.SaveView::email.name
+                                SaveView::email.name
                             ),
                         ),
                     ),
@@ -91,7 +84,7 @@ class DefaultKotlinerDao(
                         ConstraintViolationFields(
                             message = UNIQUE_KOTLINER_NICKNAME.name,
                             fields = listOf(
-                                KotlinerDao.SaveView::nickname.name
+                                SaveView::nickname.name
                             ),
                         ),
                     ),

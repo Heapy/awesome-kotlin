@@ -1,12 +1,10 @@
 package usecases.signup
 
 import at.favre.lib.crypto.bcrypt.BCrypt
-import infra.db.JooqModule
 import io.heapy.komok.tech.di.lib.Module
 
 @Module
 open class LoginModule(
-    private val jooqModule: JooqModule,
     private val jwtModule: JwtModule,
 ) {
     open val bcryptVerifier by lazy<BCrypt.Verifyer> {
@@ -14,9 +12,7 @@ open class LoginModule(
     }
 
     open val kotlinerDao by lazy {
-        DefaultKotlinerDao(
-            dslContext = jooqModule.dslContext,
-        )
+        KotlinerDao()
     }
 
     open val route by lazy {

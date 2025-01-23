@@ -24,7 +24,7 @@ class RegisterRoute(
     override suspend fun RoutingContext.handle() {
         val request = call.receive<RegisterBody>()
 
-        val password = withContext(Dispatchers.IO) {
+        val password = withContext(Dispatchers.Default) {
             bcryptHasher.hashToString(11, request.password)
         }
 
