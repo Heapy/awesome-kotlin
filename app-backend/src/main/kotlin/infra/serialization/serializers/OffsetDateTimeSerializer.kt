@@ -10,7 +10,7 @@ import java.time.OffsetDateTime
 
 object OffsetDateTimeSerializer : KSerializer<OffsetDateTime> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor(
-        serialName = "OffsetDateTime",
+        serialName = "java.time.OffsetDateTime",
         kind = PrimitiveKind.STRING,
     )
 

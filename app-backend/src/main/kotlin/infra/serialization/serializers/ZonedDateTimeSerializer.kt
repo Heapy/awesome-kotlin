@@ -10,7 +10,7 @@ import java.time.ZonedDateTime
 
 object ZonedDateTimeSerializer : KSerializer<ZonedDateTime> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor(
-        serialName = "ZonedDateTime",
+        serialName = "java.time.ZonedDateTime",
         kind = PrimitiveKind.STRING,
     )
 

@@ -10,7 +10,7 @@ import java.time.LocalDate
 
 object LocalDateTimeSerializer : KSerializer<LocalDate> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor(
-        serialName = "LocalDate",
+        serialName = "java.time.LocalDate",
         kind = PrimitiveKind.STRING,
     )
 
