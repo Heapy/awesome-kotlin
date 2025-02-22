@@ -514,5 +514,11 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("android", "kotlin", "compose", "mvvm", "koin", "material3")
     }
+    link {
+      github = "1sao/Space-Cards-Multiplatform"
+      desc = "An astrophotography browser built with Compose Multiplatform. Featuring Clean Architecture, MVI and a custom paging solution."
+      setPlatforms(ANDROID, JVM, COMMON)
+      setTags("android", "desktop", "jvm", "pager", "pagination")
+    }
   }
 }
