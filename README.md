@@ -133,31 +133,31 @@ Here is the awesome badge for your project:
 * [SuperMonster003/AutoJs6](https://github.com/SuperMonster003/AutoJs6) - 安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)
 * [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
 * [unit-mesh/auto-dev](https://github.com/unit-mesh/auto-dev) - 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
-* [lizongying/my-tv-0](https://github.com/lizongying/my-tv-0) - 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
 * [KotatsuApp/Kotatsu](https://github.com/KotatsuApp/Kotatsu) - Manga reader for Android
 * [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 * [androidx/androidx](https://github.com/androidx/androidx) - Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP.
 * [T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox) - 🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options
 * [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless Mobile UI Automation
-* [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
+* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp, designed with Material You
 * [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
-* [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
 * [home-assistant/android](https://github.com/home-assistant/android) - :iphone: Home Assistant Companion for Android
+* [keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source) - Source code of extensions for Tachiyomi/Mihon and variants.
 * [jing332/tts-server-android](https://github.com/jing332/tts-server-android) - 这是一个Android系统TTS应用，内置微软演示接口，可自定义HTTP请求，可导入其他本地TTS引擎，以及根据中文双引号的简单旁白/对话识别朗读 ，还有自动重试，备用配置，文本替换等更多功能。
 * [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full Featured Video/Audio Downloader for Android using yt-dlp
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [ethereum-lists/chains](https://github.com/ethereum-lists/chains) - provides metadata for chains
 * [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) - Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
+* [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [android/nowinandroid](https://github.com/android/nowinandroid) - A fully functional Android app built entirely with Kotlin and Jetpack Compose
 * [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
+* [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
 * [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
 * [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls &amp; full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
@@ -165,17 +165,16 @@ Here is the awesome badge for your project:
 * [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
-* [plateaukao/einkbro](https://github.com/plateaukao/einkbro) - A small, fast web browser based on Android WebView. It's tailored for E-Ink devices but also works great on normal android devices.
-* [OxygenCobalt/Auxio](https://github.com/OxygenCobalt/Auxio) - A simple, rational music player for android
-* [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - 自动跳过APP开屏广告
-* [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
+* [nightscout/AndroidAPS](https://github.com/nightscout/AndroidAPS) - Opensource automated insulin delivery system (closed loop)
+* [null2264/yokai](https://github.com/null2264/yokai) - Free and open source manga reader for Android
+* [Mahmud0808/Iconify](https://github.com/Mahmud0808/Iconify) - Iconify lets you customize your Android 12+ device easily. Change icons, colors, shapes, and even the notification panel for a personalized look that suits your style.
 * [jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv) - Android TV Client for Jellyfin
-* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
-* [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [yujincheng08/BiliRoaming](https://github.com/yujincheng08/BiliRoaming) - 哔哩漫游，解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能。An Xposed module that unblocks bangumi area limit of BILIBILI with miscellaneous features.
+* [Droid-ify/client](https://github.com/Droid-ify/client) - F-Droid client with Material UI.
+* [Ashinch/ReadYou](https://github.com/Ashinch/ReadYou) - An Android RSS reader presented in Material You style.
+* [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime
+* [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
+* [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A Material Design Weather Application
 * [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
-* [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -529,10 +528,10 @@ Here is the awesome badge for your project:
 * [jillesvangurp/querylight](https://github.com/jillesvangurp/querylight) - In memory search engine for simple in app search. Implements tf/idf and a some basic queries, tokenizers and analyzers.
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
 * [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
-* [InsanusMokrassar/KSLog](https://github.com/InsanusMokrassar/KSLog) - Fully customizable and lightweight logging library for Kotlin
 * [pearxteam/kpastebin](https://github.com/pearxteam/kpastebin) - Multiplatform Kotlin library to interact with the pastebin.com API
 * [Ahoo-Wang/CoCache](https://github.com/Ahoo-Wang/CoCache) - Level 2 Distributed Coherence Cache Framework
 * [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
+* [InsanusMokrassar/KSLog](https://github.com/InsanusMokrassar/KSLog) - Fully customizable and lightweight logging library for Kotlin
 * [Lewik/klog](https://github.com/Lewik/klog) - Minimalistic and multiplatform logging for Kotlin
 * [RationalityFrontline/kevent](https://github.com/RationalityFrontline/kevent) - A powerful in-process event dispatcher based on Kotlin and Coroutines.
 * [nickhristov/krakdown](https://github.com/nickhristov/krakdown) - A native markdown parser written in Kotlin.
@@ -743,6 +742,7 @@ Here is the awesome badge for your project:
 
 
 ### <a name="libraries-frameworks-jetpack-compose"></a>Jetpack-Compose <sup>[Back ⇈](#libraries-frameworks-jetpack-compose-subcategory)</sup>
+* [jocoand/compose-showcase](https://github.com/jocoand/compose-showcase) - A Jetpack Compose library for highlighting / showcasing your feature
 * [huanshankeji/compose-multiplatform-html-unified](https://github.com/huanshankeji/compose-multiplatform-html-unified) - Unified Compose Multiplatform wrappers of common and Material Design APIs for rendering-based Compose UI and DOM-based Compose HTML
 * [huanshankeji/compose-html-material](https://github.com/huanshankeji/compose-html-material) - Compose HTML Material 3 wrapper components based on Material Web
 * [CuriousNikhil/compose-particle-system](https://github.com/CuriousNikhil/compose-particle-system) - A lightweight particle system for Jetpack Compose - Quarks
