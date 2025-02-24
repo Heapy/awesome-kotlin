@@ -2413,5 +2413,11 @@ category("Libraries/Frameworks") {
       setTags("Compose HTML", "Material Design", "Material", "Material 3", "Material Web", "Web Components")
       setPlatforms(JS)
     }
+    link {
+      github = "jocoand/compose-showcase"
+      desc = "A Jetpack Compose library for highlighting / showcasing your feature"
+      setTags("jetpack-compose", "compose", "kotlin", "ui")
+      setPlatforms(ANDROID)
+    }
   }
 }
