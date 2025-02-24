@@ -848,6 +848,7 @@ Here is the awesome badge for your project:
 
 ### <a name="projects-android"></a>Android <sup>[Back ⇈](#projects-android-subcategory)</sup>
 * [MohsinAli0899/Book Summary App](https://github.com/MohsinAli0899/Book Summary App) - BookHub is an Android application that helps users to view books and add them to favorites.
+* [1sao/Space-Cards-Multiplatform](https://github.com/1sao/Space-Cards-Multiplatform) - An astrophotography browser built with Compose Multiplatform. Featuring Clean Architecture, MVI and a custom paging solution.
 * [deva666/NewsReader](https://github.com/deva666/NewsReader) - Android app for reading news
 * [pranayairan/CoinBit](https://github.com/pranayairan/CoinBit) - CoinBit is completely free Bitcoin &amp; cryptocurrency portfolio tracker app. It helps you over 4000+ cryptocurrencies on 150+ platforms including Binance, GDAX, Kraken etc
 * [SimonSchubert/NewsOut](https://github.com/SimonSchubert/NewsOut) - Android and iOS mobile client for Nextcloud News app
