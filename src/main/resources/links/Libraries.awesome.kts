@@ -1746,6 +1746,12 @@ category("Libraries/Frameworks") {
       setTags("search","tf/idf")
       setPlatforms(COMMON, JVM, JS)
     }
+    link {
+      github = "clovis-ai/pedestal"
+      desc = "Caching, error tracking, progress tracking, weak references, and more…"
+      setTags("cache", "error", "progress", "weak")
+      setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
   }
   subcategory("Parsers") {
     link {
