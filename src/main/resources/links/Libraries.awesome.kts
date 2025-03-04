@@ -936,6 +936,13 @@ category("Libraries/Frameworks") {
       setTags("Exposed", "Vert.x", "vertx", "database", "query", "SQL", "postgres", "postgresql", "async", "async-io", "non-blocking")
       setPlatforms(JVM)
     }
+    link {
+      github = "clovis-ai/ktmongo"
+      href = "https://opensavvy.gitlab.io/ktmongo/docs"
+      desc = "Modern typesafe MongoDB DSL for Kotlin."
+      setTags("database", "NoSQL", "driver", "query", "mongodb", "bson", "async", "async-io", "non-blocking")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
