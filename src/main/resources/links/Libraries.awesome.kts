@@ -451,6 +451,13 @@ category("Libraries/Frameworks") {
       desc = "Snapshot testing (inline, on disk, and memoization)"
       setTags("test", "snapshot", "multiplatform")
     }
+    link {
+      github = "clovis-ai/prepared"
+      href = "https://opensavvy.gitlab.io/groundwork/prepared/docs/index.html"
+      desc = "Magicless testing framework for Kotlin Multiplatform, featuring time management, parameterization and isolated features."
+      setTags("test", "testing", "multiplatform")
+      setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
