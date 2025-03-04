@@ -1058,6 +1058,12 @@ category("Libraries/Frameworks") {
       setTags("template", "template-engine")
       setPlatforms(JVM)
     }
+    link {
+      github = "clovis-ai/Dokka-MkDocs"
+      href = "https://opensavvy.gitlab.io/automation/dokka-material-mkdocs/docs"
+      desc = "Embed your kdoc comments into an MkDocs website."
+      setTags("documentation")
+    }
   }
   subcategory("Compiler Plugins") {
     link {
