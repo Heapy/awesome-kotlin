@@ -1109,6 +1109,12 @@ category("Libraries/Frameworks") {
       desc = "Stop saying \"you forgot to …\" in code review in Kotlin"
       setTags("danger", "ci", "continuous", "integration", "code", "review")
     }
+    link {
+      github = "CLOVIS-AI/gitlab.main.kts"
+      href = "https://opensavvy.gitlab.io/automation/gitlab-ci.kt/docs/"
+      desc = "Replace your GitLab CI YAML files by Kotlin scripts"
+      setTags("ci", "continuous", "integration", "gitlab")
+    }
   }
   subcategory("Code Generators") {
     link {
