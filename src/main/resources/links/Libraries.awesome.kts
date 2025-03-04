@@ -1071,6 +1071,12 @@ category("Libraries/Frameworks") {
       desc = "Embed your kdoc comments into an MkDocs website."
       setTags("documentation")
     }
+    link {
+      github = "CLOVIS-AI/Kotlin-Transitive-Resources"
+      desc = "Include resource files into a KotlinJS library"
+      setTags("build", "resource", "gradle")
+      setPlatforms(JS)
+    }
   }
   subcategory("Compiler Plugins") {
     link {
