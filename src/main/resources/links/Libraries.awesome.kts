@@ -1714,6 +1714,12 @@ category("Libraries/Frameworks") {
       setTags("search","tf/idf")
       setPlatforms(COMMON, JVM, JS)
     }
+    link {
+      github = "daniel-rusu/pods4k"
+      desc = "Performance-oriented data structures for Kotlin, including Immutable Arrays"
+      setTags("kotlin", "data-structure", "performance", "efficient")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Parsers") {
     link {
