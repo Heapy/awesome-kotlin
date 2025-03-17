@@ -983,7 +983,6 @@ category("Libraries/Frameworks") {
       href = "https://plugins.jetbrains.com/plugin/26488-kdocgen"
       desc = "KDocGen – an IntelliJ IDEA plugin that automatically generates KDoc, completes missing code, creates Kotest tests, and adds meaningful comments with a single shortcut!"
       setTags("artificial-intelligence", "code-generation", "documentation", "Intellij IDEA, Android Studio")
-      awesome()
     }
     link {
       name = "Kotlin Notebook"
