@@ -979,6 +979,13 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "sapotero/DocGenPlugin"
+      href = "https://plugins.jetbrains.com/plugin/26488-kdocgen"
+      desc = "KDocGen – an IntelliJ IDEA plugin that automatically generates KDoc, completes missing code, creates Kotest tests, and adds meaningful comments with a single shortcut!"
+      setTags("artificial-intelligence", "code-generation", "documentation", "Intellij IDEA, Android Studio")
+      awesome()
+    }
+    link {
       name = "Kotlin Notebook"
       desc = "Kotlin notebooks are interactive worksheets with rich outputs."
       href = "https://plugins.jetbrains.com/plugin/16340-kotlin-notebook"
