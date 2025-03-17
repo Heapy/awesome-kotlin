@@ -993,6 +993,12 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "sapotero/DocGenPlugin"
+      href = "https://plugins.jetbrains.com/plugin/26488-kdocgen"
+      desc = "KDocGen – an IntelliJ IDEA plugin that automatically generates KDoc, completes missing code, creates Kotest tests, and adds meaningful comments with a single shortcut!"
+      setTags("artificial-intelligence", "code-generation", "documentation", "Intellij IDEA, Android Studio")
+    }
+    link {
       name = "Kotlin Notebook"
       desc = "Kotlin notebooks are interactive worksheets with rich outputs."
       href = "https://plugins.jetbrains.com/plugin/16340-kotlin-notebook"
@@ -1751,6 +1757,12 @@ category("Libraries/Frameworks") {
       desc = "Caching, error tracking, progress tracking, weak references, and more…"
       setTags("cache", "error", "progress", "weak")
       setPlatforms(COMMON, JVM, JS, NATIVE)
+    }
+    link {
+      github = "daniel-rusu/pods4k"
+      desc = "Performance-oriented data structures for Kotlin, including Immutable Arrays"
+      setTags("kotlin", "data-structure", "performance", "efficient")
+      setPlatforms(JVM, ANDROID)
     }
   }
   subcategory("Parsers") {
