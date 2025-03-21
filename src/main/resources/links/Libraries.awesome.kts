@@ -2425,7 +2425,7 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin client for Solana that allows building and sending transactions, reading data from the blockchain, performing operations with public and private keys, and more."
       href = "https://sol4k.org"
       setPlatforms(JVM, ANDROID, COMMON)
-      setTags("blockchain", "solana", "rpc-client")
+      setTags("blockchain", "solana", "web3", "rpc-client")
     }
   }
   subcategory("Jetpack-Compose"){
