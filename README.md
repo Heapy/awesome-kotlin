@@ -86,6 +86,7 @@ Here is the awesome badge for your project:
 * <a name="libraries-frameworks-internationalisation-and-localization-subcategory"></a>[Internationalisation and Localization](#libraries-frameworks-internationalisation-and-localization)
 * <a name="libraries-frameworks-logging-subcategory"></a>[Logging](#libraries-frameworks-logging)
 * <a name="libraries-frameworks-mail-subcategory"></a>[Mail](#libraries-frameworks-mail)
+* <a name="libraries-frameworks-blockchain-subcategory"></a>[Blockchain](#libraries-frameworks-blockchain)
 * <a name="libraries-frameworks-jetpack-compose-subcategory"></a>[Jetpack-Compose](#libraries-frameworks-jetpack-compose)
 
 ### <a name="projects-category"></a>[Projects](#projects)
@@ -750,6 +751,9 @@ Here is the awesome badge for your project:
 
 ### <a name="libraries-frameworks-mail"></a>Mail <sup>[Back ⇈](#libraries-frameworks-mail-subcategory)</sup>
 
+
+### <a name="libraries-frameworks-blockchain"></a>Blockchain <sup>[Back ⇈](#libraries-frameworks-blockchain-subcategory)</sup>
+* [sol4k/sol4k](https://sol4k.org) - A Kotlin client for Solana that allows building and sending transactions, reading data from the blockchain, performing operations with public and private keys, and more.
 
 ### <a name="libraries-frameworks-jetpack-compose"></a>Jetpack-Compose <sup>[Back ⇈](#libraries-frameworks-jetpack-compose-subcategory)</sup>
 * [huanshankeji/compose-multiplatform-html-unified](https://github.com/huanshankeji/compose-multiplatform-html-unified) - Unified Compose Multiplatform wrappers of common and Material Design APIs for rendering-based Compose UI and DOM-based Compose HTML
