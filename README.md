@@ -128,17 +128,17 @@ Here is the awesome badge for your project:
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [fuqiuluo/Portal](https://github.com/fuqiuluo/Portal) - Android Lab FakeLocation Service（安卓7~15的虚拟定位服务）
 * [KreitinnSoftware/MiceWine-Application](https://github.com/KreitinnSoftware/MiceWine-Application) - MiceWine is a project that aims to run Windows applications and games on Android smartphones.
+* [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
 * [element-hq/element-x-android](https://github.com/element-hq/element-x-android) - Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose
 * [aaa1115910/bv](https://github.com/aaa1115910/bv) - 哔哩哔哩 的第三方 Android TV 应用。A third-party Android TV app for Bilibili.
 * [YenalyLiew/Han1meViewer](https://github.com/YenalyLiew/Han1meViewer) - [Deprecated]
+* [tanujnotes/Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF Launcher for Android. Reduce your screen time. Daily wallpapers.
+* [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
 * [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
-* [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android
 * [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile app for Android.
 * [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
-* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) - SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [hectorqin/reader](https://github.com/hectorqin/reader) - 阅读3服务器版，桌面端，iOS可用。后端 Kotlin + Spring Boot + Vert.x + Coroutine ；前端 Vue.js + Element。麻烦点点star，关注一下公众号【假装大佬】❗️
 * [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) - An alternative frontend for YouTube, for Android.
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
@@ -148,27 +148,29 @@ Here is the awesome badge for your project:
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [suqi8/OShin](https://github.com/suqi8/OShin) - 一个专为ColorOS系统设计的辅助模块
 * [parallelcc/MiCTS](https://github.com/parallelcc/MiCTS) - Trigger Circle to Search on any Android 9–15 device
-* [tanujnotes/Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF Launcher for Android. Reduce your screen time. Daily wallpapers.
+* [stantanasi/streamflix](https://github.com/stantanasi/streamflix) - An Android TV and mobile app to stream movies and TV shows for free
 * [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) - An Xposed module to intercept applist detections
 * [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
+* [z-huang/InnerTune](https://github.com/z-huang/InnerTune) - A Material 3 YouTube Music client for Android
 * [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A Material Design Weather Application
+* [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) - SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 * [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
 * [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls &amp; full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [shrimqy/Sefirah-Android](https://github.com/shrimqy/Sefirah-Android) - Phone link / KDE Connect alternative
-* [VegaBobo/DSU-Sideloader](https://github.com/VegaBobo/DSU-Sideloader) - A simple app made to help users easily install GSIs via DSU's Android feature.
-* [GuoXiCheng/SKIP](https://github.com/GuoXiCheng/SKIP) - 自动跳过APP开屏广告
-* [jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv) - Android TV Client for Jellyfin
-* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
-* [AlmasB/FXGL](https://github.com/AlmasB/FXGL) - Java / JavaFX / Kotlin Game Library (Engine)
-* [T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox) - 🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options
+* [CCBlueX/LiquidBounce](https://github.com/CCBlueX/LiquidBounce) - A free Minecraft hacked client (utility mod) for Fabric
+* [samolego/Canta](https://github.com/samolego/Canta) - Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, no PC required.
+* [MM2-0/Kvaesitso](https://github.com/MM2-0/Kvaesitso) - A search-focused Android launcher
+* [wordpress-mobile/WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android) - WordPress for Android
+* [KotatsuApp/Kotatsu](https://github.com/KotatsuApp/Kotatsu) - Manga reader for Android
 * [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
+* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
+* [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) - Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
 * [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
+* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
