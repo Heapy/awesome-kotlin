@@ -409,8 +409,8 @@ Here is the awesome badge for your project:
 * [huanshankeji/exposed-vertx-sql-client](https://github.com/huanshankeji/exposed-vertx-sql-client) - Exposed on top of Vert.x Reactive SQL Client
 * [Ganet/rxaerospike](https://github.com/Ganet/rxaerospike) - RxJava2 wrapper for aerospike-client-java.
 * [shyiko/levelkt](https://github.com/shyiko/levelkt) - LevelDB client for Kotlin and/or Java 8+.
-* [SubiyaCryolite/jds](https://github.com/SubiyaCryolite/jds) - Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining.
 * [KotlinPorts/kt-postgresql-async](https://github.com/KotlinPorts/kt-postgresql-async) - Kotlin/Gradle port of mauricio's async driver for postgres/mysql.
+* [SubiyaCryolite/jds](https://github.com/SubiyaCryolite/jds) - Jenesis Data Store: a dynamic, cross platform, high performance, ORM data-mapper. Designed to assist in rapid development and data mining.
 * [pm-dev/kotlin-gremlin-ogm](https://github.com/pm-dev/kotlin-gremlin-ogm) - Kotlin-gremlin-ogm is a type-safe object/graph mapping library for Gremlin enabled graph databases.
 * [fluidsonic/fluid-mongo](https://github.com/fluidsonic/fluid-mongo) - Coroutine support for MongoDB built on top of the official Reactive Streams Java Driver
 * [coupang/spring-data-requery](https://github.com/coupang/spring-data-requery) - Spring Data for Requery (lightweight ORM)
@@ -609,8 +609,8 @@ Here is the awesome badge for your project:
 * [ParserKt/ParserKt](https://github.com/ParserKt/ParserKt) - Naive one-pass recursive descent, scannerless parser framework for Kotlin
 * [sargunster/CakeParse](https://github.com/sargunster/CakeParse) - Simple parser combinator library for Kotlin.
 * [fork-handles/parser4k](https://github.com/fork-handles/forkhandles/tree/trunk/parser4k) - Recursive descent parser combinator library
-* [fleeksoft/ksoup](https://github.com/fleeksoft/ksoup) - Kotlin Multiplatform library for working with HTML and XML. It's a port of the renowned Java library Jsoup.
 * [h0tk3y/better-parse](https://github.com/h0tk3y/better-parse) - A nice parser combinator library for Kotlin
+* [fleeksoft/ksoup](https://github.com/fleeksoft/ksoup) - Kotlin Multiplatform library for working with HTML and XML. It's a port of the renowned Java library Jsoup.
 
 ### <a name="libraries-frameworks-raspberry-pi"></a>Raspberry Pi <sup>[Back ⇈](#libraries-frameworks-raspberry-pi-subcategory)</sup>
 * [Pi4J/pi4j-kotlin](https://github.com/Pi4J/pi4j-kotlin) - Pi4J Kotlin DSL and API.
@@ -683,8 +683,8 @@ Here is the awesome badge for your project:
 * [cdietze/euklid](https://github.com/cdietze/euklid) - A cross-platform geometry library in Kotlin
 * [unipu-ict/ksdtoolkit](https://github.com/unipu-ict/ksdtoolkit) - Kotlin System Dynamics Toolkit - for system dynamics modelling and simulation with Kotlin.
 * [lamba92/KGraph](https://github.com/lamba92/KGraph) - A Kotlin multi-platform library for graph data structures
-* [grinisrit/noa-atra](https://github.com/grinisrit/noa-atra) - Analytics for Trading with NOA
 * [sigbla/sigbla-app](https://github.com/sigbla/sigbla-app) - Sigbla is a framework for working with data in tables, supporting various data types, reactive programming and events, user input, charts, and more
+* [grinisrit/noa-atra](https://github.com/grinisrit/noa-atra) - Analytics for Trading with NOA
 * [sanity/pairAdjacentViolators](https://github.com/sanity/pairAdjacentViolators) - A Kotlin implementation of the Pair Adjacent Violators algorithm for isotonic regression.
 * [holgerbrandl/kalasim](https://www.kalasim.org) - Discrete event simulator that enables complex, dynamic process models.
 * [breandan/kaliningraph](https://github.com/breandan/kaliningraph) - 🕸️ Graphs, finite fields and discrete dynamical systems in Kotlin
@@ -869,6 +869,7 @@ Here is the awesome badge for your project:
 ### <a name="android-libraries"></a>Libraries <sup>[Back ⇈](#android-libraries-subcategory)</sup>
 * [evilthreads669966/WakeService](https://github.com/evilthreads669966/WakeService) - An IntentService that keeps your processor awake while doing work.
 * [evilthreads669966/EasyShells](https://github.com/evilthreads669966/EasyShells) - A simple shell for executing Linux commands with responses
+* [smtrz/FilesCrypter](https://github.com/smtrz/FilesCrypter) - A lightweight Kotlin library for secure file encryption on Android.
 * [OTPComposable](https://github.com/itmaginationdemos/OTPComposable) - A library dedicated to making OTP (One Time Password) components a breeze to implement
 * [yundom/RxVan](https://github.com/yundom/RxVan) - A lightweight event bus written in Kotlin and RxJava.
 * [mr-wizman/Consent](https://github.com/mr-wizman/Consent) - Easy Android permissions. Powered by Kotlin.
