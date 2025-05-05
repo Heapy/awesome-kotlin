@@ -390,6 +390,12 @@ category("Android") {
       setTags("android", "kotlin", "ui", "jetpack-compose")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "smtrz/FilesCrypter"
+      desc = "A lightweight Kotlin library for secure file encryption on Android."
+      setTags("android","encryption", "security", "files", "cryptography")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Frameworks") {
     link {
