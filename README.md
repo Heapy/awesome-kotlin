@@ -126,11 +126,10 @@ Here is the awesome badge for your project:
 
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
+* [modelcontextprotocol/kotlin-sdk](https://github.com/modelcontextprotocol/kotlin-sdk) - The official Kotlin SDK for Model Context Protocol servers and clients. Maintained in collaboration with JetBrains
 * [fuqiuluo/Portal](https://github.com/fuqiuluo/Portal) - Android Lab FakeLocation Service（安卓7~15的虚拟定位服务）
 * [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
 * [element-hq/element-x-android](https://github.com/element-hq/element-x-android) - Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose
-* [aaa1115910/bv](https://github.com/aaa1115910/bv) - 哔哩哔哩 的第三方 Android TV 应用。A third-party Android TV app for Bilibili.
-* [Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker) - An open-source auto clicker on images for Android
 * [YenalyLiew/Han1meViewer](https://github.com/YenalyLiew/Han1meViewer) - [Deprecated]
 * [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
 * [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
@@ -140,20 +139,22 @@ Here is the awesome badge for your project:
 * [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) - SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
 * [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) - An alternative frontend for YouTube, for Android.
-* [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
+* [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp, designed with Material You
+* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [android/nowinandroid](https://github.com/android/nowinandroid) - A fully functional Android app built entirely with Kotlin and Jetpack Compose
 * [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
-* [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
+* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [stantanasi/streamflix](https://github.com/stantanasi/streamflix) - An Android TV and mobile app to stream movies and TV shows for free
-* [z-huang/InnerTune](https://github.com/z-huang/InnerTune) - A Material 3 YouTube Music client for Android
+* [aaa1115910/bv](https://github.com/aaa1115910/bv) - 哔哩哔哩 的第三方 Android TV 应用。A third-party Android TV app for Bilibili.
+* [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
+* [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full Featured Video/Audio Downloader for Android using yt-dlp
 * [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
 * [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A Material Design Weather Application
 * [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) - Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
-* [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
 * [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls &amp; full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
@@ -161,20 +162,18 @@ Here is the awesome badge for your project:
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [solkin/appteka-android](https://github.com/solkin/appteka-android) - 💊 Appteka is an alternative store for Android
 * [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
-* [komikku-app/komikku](https://github.com/komikku-app/komikku) - Free and open source manga reader for Android
+* [JetBrains/compose-hot-reload](https://github.com/JetBrains/compose-hot-reload) - Compose Hot Reload: Make changes to your UI code in a Compose Multiplatform application, and see the results in real time. No restarts required. Compose Hot Reload runs your application on the JetBrains Runtime and intelligently reloads your code whenever it is changed.
+* [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) - A suite of tools to automate software compliance checks.
+* [rnmapbox/maps](https://github.com/rnmapbox/maps) - A Mapbox react native module for creating custom maps
 * [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
-* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
-* [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
 * [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) - Best Material You Design music player for Android
-* [androidx/androidx](https://github.com/androidx/androidx) - Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP.
+* [kizitonwose/Calendar](https://github.com/kizitonwose/Calendar) - A highly customizable calendar view and compose library for Android and Kotlin Multiplatform.
+* [sqldelight/sqldelight](https://github.com/sqldelight/sqldelight) - SQLDelight - Generates typesafe Kotlin APIs from SQL
+* [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless E2E Automation for Mobile and Web
 * [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - IdeaVim – A Vim engine for JetBrains IDEs
-* [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
+* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android and Compose Multiplatform.
 * [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
-* [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
-* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
-* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 * [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
 
 
