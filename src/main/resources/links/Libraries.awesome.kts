@@ -1665,6 +1665,12 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, IOS, JVM, NATIVE)
     }
     link {
+      github = "sapotero/dice-db-client"
+      desc = "DiceDB Kotlin Client - strongly typed, coroutine-based, and easy to use."
+      setTags("coroutines", "dice-db", "client")
+      setPlatforms(COMMON, JVM)
+    }
+    link {
       github = "oolong-kt/oolong"
       href = "https://oolong-kt.org"
       desc = "Elm inspired Model-View-Update (MVU) implementation for Kotlin multiplatform."
