@@ -132,8 +132,8 @@ Here is the awesome badge for your project:
 * [Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker) - An open-source auto clicker on images for Android
 * [keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source) - Source code of extensions in https://github.com/keiyoushi/extensions
 * [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
-* [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full Featured Video/Audio Downloader for Android using yt-dlp
 * [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
+* [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A Material Design Weather Application
 * [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile apps (Password Manager and Authenticator) for Android.
 * [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless E2E Automation for Mobile and Web
 * [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers — from ideas to papers, presentations and books.
@@ -145,39 +145,34 @@ Here is the awesome badge for your project:
 * [android/nowinandroid](https://github.com/android/nowinandroid) - A fully functional Android app built entirely with Kotlin and Jetpack Compose
 * [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
-* [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
 * [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
+* [yuzono/aniyomi-extensions](https://github.com/yuzono/aniyomi-extensions) - Source code of extensions for Anikku / Aniyomi &amp; forks.
+* [dead8309/Kizzy](https://github.com/dead8309/Kizzy) - A Discord Rich Presence manager for Android fully written in Kotlin. Made with jetpack compose and material3
 * [guardianproject/orbot-android](https://github.com/guardianproject/orbot-android) - The Github home of Orbot: Tor on Android (Also available on gitlab!)
 * [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
+* [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
 * [Droid-ify/client](https://github.com/Droid-ify/client) - F-Droid client with Material UI.
-* [KotatsuApp/Kotatsu](https://github.com/KotatsuApp/Kotatsu) - Manga reader for Android
-* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 * [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
 * [firebase/quickstart-android](https://github.com/firebase/quickstart-android) - Firebase Quickstart Samples for Android
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [JetBrains/ideavim](https://github.com/JetBrains/ideavim) - IdeaVim – A Vim engine for JetBrains IDEs
-* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android and Compose Multiplatform.
-* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
 * [ktorio/ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort
-* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 * [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
+* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [parallelcc/MiCTS](https://github.com/parallelcc/MiCTS) - Trigger Circle to Search on any Android 9–15 device
 * [RPCSX/rpcsx-ui-android](https://github.com/RPCSX/rpcsx-ui-android) 
-* [KreitinnSoftware/MiceWine-Application](https://github.com/KreitinnSoftware/MiceWine-Application) - MiceWine is a project that aims to run Windows applications and games on Android smartphones.
-* [jellyfin/jellyfin-android](https://github.com/jellyfin/jellyfin-android) - Android Client for Jellyfin
-* [MM2-0/Kvaesitso](https://github.com/MM2-0/Kvaesitso) - A search-focused Android launcher
-* [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
-* [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
+* [zacharee/InstallWithOptions](https://github.com/zacharee/InstallWithOptions) - Simple-ish app using Shizuku to install APKs on-device with advanced options
+* [CCBlueX/LiquidBounce](https://github.com/CCBlueX/LiquidBounce) - A free Minecraft hacked client (utility mod) for Fabric
+* [OxygenCobalt/Auxio](https://github.com/OxygenCobalt/Auxio) - A simple, rational music player for android
 * [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime
+* [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android
 * [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
-* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
+* [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
+* [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp, designed with Material You
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -517,8 +512,8 @@ Here is the awesome badge for your project:
 
 ### <a name="libraries-frameworks-game-development"></a>Game Development <sup>[Back ⇈](#libraries-frameworks-game-development-subcategory)</sup>
 * [vassilibykov/AdventKT](https://github.com/vassilibykov/AdventKT) - A Kotlin-based DSL for text adventures, with a partial replica of the classic Colossal Cave as an example.
-* [KogeLabs/Ockero](https://github.com/KogeLabs/Ockero) - Ockero: Kotlin OpenGl Game Engine
 * [zeganstyl/thelema-engine](https://github.com/zeganstyl/thelema-engine) - 3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Kotlin/JS, Kotlin/Native. See live demo: <a href="https://zeganstyl.github.io/thelema-teavm-tests/">TeaVM</a>, <a href="https://zeganstyl.github.io/thelema-kxjs-demo/">Kotlin/JS</a>
+* [KogeLabs/Ockero](https://github.com/KogeLabs/Ockero) - Ockero: Kotlin OpenGl Game Engine
 * [icela/FriceEngine](https://github.com/icela/FriceEngine) - Make game developing easy again!
 * [littlektframework/littlekt](https://github.com/littlektframework/littlekt) - A Kotlin multiplatform 2D game development framework based on OpenGL that is inspired by libGDX and KorGE. Current platforms: JVM, Web, and Android.
 * [Hexworks/zircon](https://github.com/Hexworks/zircon) - An extensible text GUI library which targets multiple platforms and designed specifically for game developers, written in Kotlin.
