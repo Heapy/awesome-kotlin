@@ -96,6 +96,11 @@ category("Projects") {
       desc = "High-performance, low-cost microservice governance platform. Service Discovery and Configuration Service"
       setTags("microservice", "service-discovery", "configuration-service", "service-registry", "redis", "kotlin")
     }
+    link {
+      github = "kuvasz-uptime/kuvasz"
+      desc = "Kuvasz is an open-source, self-hosted uptime & SSL monitoring service, built with Kotlin."
+      setTags("monitoring", "uptime", "ssl", "devops", "cloud-native")
+    }
   }
   subcategory("Build tools") {
     link {
