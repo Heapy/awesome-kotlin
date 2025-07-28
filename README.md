@@ -130,15 +130,14 @@ Here is the awesome badge for your project:
 * [CCBlueX/LiquidBounce](https://github.com/CCBlueX/LiquidBounce) - A free Minecraft hacked client (utility mod) for Fabric
 * [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
 * [embabel/embabel-agent](https://github.com/embabel/embabel-agent) - Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/
+* [samolego/Canta](https://github.com/samolego/Canta) - Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, no PC required.
 * [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
-* [ReVanced/revanced-patches](https://github.com/ReVanced/revanced-patches) - 🧩 Patches for ReVanced
 * [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [Droid-ify/client](https://github.com/Droid-ify/client) - Clutterfree F-Droid client
 * [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 * [KotatsuApp/Kotatsu](https://github.com/KotatsuApp/Kotatsu) - Manga reader for Android
 * [florisboard/florisboard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android which respects your privacy. Currently in early-beta.
 * [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A Material Design Weather Application
-* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 * [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless E2E Automation for Mobile and Web
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 * [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) - AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.
@@ -146,28 +145,33 @@ Here is the awesome badge for your project:
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 * [android/nowinandroid](https://github.com/android/nowinandroid) - A fully functional Android app built entirely with Kotlin and Jetpack Compose
+* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
+* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
 * [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) - The Magic Mask for Android
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [horsemail/yourtv](https://github.com/horsemail/yourtv) - 安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.
-* [chsbuffer/ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed) - ReVanced LSPosed module. YouTube &amp; YT Music Remove ads, Background playback
 * [butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher) - Activity launcher creates shortcuts for any installed app and hidden activities to launch them with ease
 * [element-hq/element-x-android](https://github.com/element-hq/element-x-android) - Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose
-* [FossifyOrg/Gallery](https://github.com/FossifyOrg/Gallery) - Browse your memories without any interruptions with this photo and video gallery
+* [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
+* [lizongying/my-tv-0](https://github.com/lizongying/my-tv-0) - 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
 * [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX) - Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.
-* [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
+* [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 * [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp, designed with Material You
+* [gedoor/legado](https://github.com/gedoor/legado) - Legado 3.0 Book Reader with powerful controls &amp; full functions❤️阅读3.0, 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [yuzono/aniyomi-extensions](https://github.com/yuzono/aniyomi-extensions) - Source code of extensions for Anikku / Aniyomi &amp; forks.
-* [Ackites/Nrfr](https://github.com/Ackites/Nrfr) - 🌍 免 Root 的 SIM 卡国家码修改工具 | 解决国际漫游时的兼容性问题，帮助使用海外 SIM 卡获得更好的本地化体验，解锁运营商限制，突破区域限制
-* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
-* [XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) - DataBackup for Android 7.0+
+* [knighthat/Kreate](https://github.com/knighthat/Kreate) - A multilingual YouTube Music frontend for Android, prioritize performance
+* [keymapperorg/KeyMapper](https://github.com/keymapperorg/KeyMapper) - An Android app to remap the buttons on your devices
+* [VegaBobo/DSU-Sideloader](https://github.com/VegaBobo/DSU-Sideloader) - A simple app made to help users easily install GSIs via DSU's Android feature.
+* [guardianproject/orbot-android](https://github.com/guardianproject/orbot-android) - The Github home of Orbot: Tor on Android (Also available on gitlab!)
+* [d4rken-org/sdmaid-se](https://github.com/d4rken-org/sdmaid-se) - SD Maid 2/SE is Android's most thorough cleaning tool.
+* [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile apps (Password Manager and Authenticator) for Android.
+* [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) - An alternative frontend for YouTube, for Android.
 * [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
-* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
