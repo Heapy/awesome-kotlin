@@ -771,6 +771,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("validation", "validator", "spring", "entity")
     }
+    link {
+      github = "mbalatsko/emailverifier-kt"
+      desc = "Composable, pluggable Kotlin library for validating email addresses beyond just their syntax. It's built with a clear focus: help developers reliably assess whether a given email is real, meaningful, and worth accepting."
+      setPlatforms(JVM)
+      setTags("validation", "validator", "email", "kotlin")
+    }
   }
   subcategory("Database") {
     link {
