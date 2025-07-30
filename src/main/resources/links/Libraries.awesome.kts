@@ -1788,12 +1788,6 @@ category("Libraries/Frameworks") {
       setTags("kotlin", "data-structure", "performance", "efficient")
       setPlatforms(JVM, ANDROID)
     }
-    link {
-      github = "cdpdriver/kdriver"
-      desc = "A blazing fast, coroutine-first, undetectable web scraping / browser automation CDP-based library for Kotlin"
-      setTags("web-scraping", "browser-automation", "cdp", "chrome")
-      setPlatforms(COMMON, JVM)
-    }
   }
   subcategory("Parsers") {
     link {
@@ -2319,6 +2313,12 @@ category("Libraries/Frameworks") {
     link {
       github = "wendigo/chrome-reactive-kotlin"
       setTags("web", "chrome", "automation", "browser")
+    }
+    link {
+      github = "cdpdriver/kdriver"
+      desc = "A blazing fast, coroutine-first, undetectable web scraping / browser automation CDP-based library for Kotlin"
+      setTags("web-scraping", "browser-automation", "cdp", "chrome")
+      setPlatforms(COMMON, JVM)
     }
   }
   subcategory("I/O") {
