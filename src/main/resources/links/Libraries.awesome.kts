@@ -1114,6 +1114,12 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
       setTags("compiler-plugin", "object-mapping", "utility", "conversion")
     }
+    link {
+      github = "guimauvedigital/zodable"
+      desc = "Generate zod & pydantic schemas from Kotlin data classes."
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
+      setTags("compiler-plugin", "data-class", "schema", "zod", "pydantic")
+    }
   }
   subcategory("Continuous Integration") {
     link {
@@ -1191,6 +1197,12 @@ category("Libraries/Frameworks") {
       desc = "Integration with mbedtls library to provide DTLS client and server in jvm"
       setPlatforms(JVM)
       setTags("networking", "udp", "dtls", "tls")
+    }
+    link {
+      github = "guimauvedigital/kourier"
+      desc = "Pure Kotlin AMQP client and protocol implementation, optimized for KMP and coroutines."
+      setPlatforms(COMMON, ANDROID, IOS, JS, JVM, NATIVE)
+      setTags("networking", "amqp", "rabbitmq", "kmp", "coroutines")
     }
   }
   subcategory("Editors") {
@@ -1775,6 +1787,12 @@ category("Libraries/Frameworks") {
       desc = "Performance-oriented data structures for Kotlin, including Immutable Arrays"
       setTags("kotlin", "data-structure", "performance", "efficient")
       setPlatforms(JVM, ANDROID)
+    }
+    link {
+      github = "cdpdriver/kdriver"
+      desc = "A blazing fast, coroutine-first, undetectable web scraping / browser automation CDP-based library for Kotlin"
+      setTags("web-scraping", "browser-automation", "cdp", "chrome")
+      setPlatforms(COMMON, JVM)
     }
   }
   subcategory("Parsers") {
