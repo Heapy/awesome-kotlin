@@ -165,7 +165,7 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
 * [knighthat/Kreate](https://github.com/knighthat/Kreate) - A multilingual YouTube Music frontend for Android, prioritize performance
-* [Raival-e/Prism-File-Explorer](https://github.com/Raival-e/Prism-File-Explorer) - An Android file explorer written in Kotlin and Jetpack Compose
+* [Raival-e/Prism-File-Explorer](https://github.com/Raival-e/Prism-File-Explorer) - A modern, feature-rich, and lightweight file manager for Android, built entirely with Kotlin and Jetpack Compose.
 * [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
 * [getsentry/sentry-java](https://github.com/getsentry/sentry-java) - A Sentry SDK for Java, Android and other JVM languages.
 * [Kotlin/kotlin-lsp](https://github.com/Kotlin/kotlin-lsp) - Kotlin Language Server and plugin for Visual Studio Code
@@ -399,14 +399,15 @@ Here is the awesome badge for your project:
 * [s4kibs4mi/kotlin-jsonq](https://github.com/s4kibs4mi/kotlin-jsonq) - A simple Kotlin library to Query over Json Data.
 * [fluidsonic/fluid-json](https://github.com/fluidsonic/fluid-json) - A JSON library written in pure Kotlin.
 * [Jire/KTON](https://github.com/Jire/KTON) - Object notation in pure Kotlin!
-* [knbt](https://github.com/BenWoodworth/knbt) - Minecraft NBT support for kotlinx.serialization
 * [lectra-tech/koson](https://github.com/lectra-tech/koson) - A concise and lightweight Kotlin DSL to build JSON objects and render their String representations
+* [knbt](https://github.com/BenWoodworth/knbt) - Minecraft NBT support for kotlinx.serialization
 * [aafanasev/kson](https://github.com/aafanasev/kson) - Auto-generate GSON type adapters for Kotlin data classes
 * [FasterXML/jackson-module-kotlin](https://github.com/FasterXML/jackson-module-kotlin) - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
 * [cbeust/klaxon](https://github.com/cbeust/klaxon) - Lightweight library to parse JSON in Kotlin.
 * [Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format reflectionless serialization
 
 ### <a name="libraries-frameworks-validation"></a>Validation <sup>[Back ⇈](#libraries-frameworks-validation-subcategory)</sup>
+* [mbalatsko/emailverifier-kt](https://github.com/mbalatsko/emailverifier-kt) - Composable, pluggable Kotlin library for validating email addresses beyond just their syntax. It's built with a clear focus: help developers reliably assess whether a given email is real, meaningful, and worth accepting.
 * [deva666/KValidation](https://github.com/deva666/KValidation) - Validation library
 * [LeoColman/SimpleCpfValidator](https://github.com/LeoColman/SimpleCpfValidator) - Simple Brazilian taxpayer document (CPF) validator
 * [kciter/thing](https://github.com/kciter/thing) - A rule-based entity management library written in Kotlin
