@@ -2409,13 +2409,13 @@ category("Libraries/Frameworks") {
       github = "ivangarzab/barK"
       desc = "Kotlin multiplatform logging library with automatic tag detection and test run support"
       setPlatforms(ANDROID, NATIVE, IOS, COMMON)
-      setTags("logging", "multiplatform", "android")
+      setTags("logging", "multiplatform", "android", "testing")
     }
     link {
       github = "LighthouseGames/KmLogging"
       desc = "Kotlin multiplatform logging. High performance, composable and simple to use."
       setPlatforms(ANDROID, NATIVE, IOS, COMMON, JVM, JS)
-      setTags("logging", "multiplatform", "android", "testing")
+      setTags("logging", "multiplatform")
     }
     link {
       github = "Foso/Cabret-Log"
