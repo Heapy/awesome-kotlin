@@ -750,6 +750,7 @@ Here is the awesome badge for your project:
 * [cashapp/barber](https://github.com/cashapp/barber) - A type safe Kotlin JVM library for building up localized, fillable, themed documents using Mustache templating.
 
 ### <a name="libraries-frameworks-logging"></a>Logging <sup>[Back ⇈](#libraries-frameworks-logging-subcategory)</sup>
+* [ivangarzab/barK](https://github.com/ivangarzab/barK) - Kotlin multiplatform logging library with automatic tag detection and test run support
 * [InsanusMokrassar/KSLog](https://github.com/InsanusMokrassar/KSLog) - Simple Kotlin Logging
 * [LighthouseGames/KmLogging](https://github.com/LighthouseGames/KmLogging) - Kotlin multiplatform logging. High performance, composable and simple to use.
 
