@@ -581,6 +581,12 @@ category("Libraries/Frameworks") {
       setTags("Thread", "Coroutines", "Multithreading", "JVM")
       setPlatforms(JVM)
     }
+    link {
+      github = "Anamorphosee/stacktrace-decoroutinator"
+      desc = "Library for recovering stack traces in Kotlin coroutines."
+      setTags("debug", "stack-trace", "exceptions")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Functional Programming") {
     link {
