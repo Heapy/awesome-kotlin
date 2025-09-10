@@ -102,7 +102,7 @@ category("Projects") {
       setTags("monitoring", "uptime", "ssl", "devops", "cloud-native")
     }
     link {
-      github = "gemy411/multi-research-agents"
+      github = "gemy411/multi-agents-research"
       desc = "A KTOR server/MCP server written in Kotlin applying multi-agents schools in a flexible research system"
       setTags("ktor", "mcp", "agents", "research", "server")
     }
