@@ -5070,14 +5070,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["serialize-javascript", [\
-      ["npm:6.0.1", {\
-        "packageLocation": "./.yarn/cache/serialize-javascript-npm-6.0.1-fac87289ed-f756b1ff34.zip/node_modules/serialize-javascript/",\
-        "packageDependencies": [\
-          ["serialize-javascript", "npm:6.0.1"],\
-          ["randombytes", "npm:2.1.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:6.0.2", {\
         "packageLocation": "./.yarn/cache/serialize-javascript-npm-6.0.2-cc09461d45-445a420a6f.zip/node_modules/serialize-javascript/",\
         "packageDependencies": [\
@@ -5552,7 +5544,7 @@ const RAW_RUNTIME_STATE =
           ["esbuild", null],\
           ["jest-worker", "npm:27.5.1"],\
           ["schema-utils", "npm:3.1.1"],\
-          ["serialize-javascript", "npm:6.0.1"],\
+          ["serialize-javascript", "npm:6.0.2"],\
           ["terser", "npm:5.27.0"],\
           ["uglify-js", null],\
           ["webpack", "virtual:026f71f91d5b94b20495b2f24e52cddc6d7e3023d7a70aadc346c81127f7c580d7560314395375f36a9c8d59fabdada8cbdf66c7dc6b1a4cc4ed5bb3274ae62c#npm:5.97.1"]\
