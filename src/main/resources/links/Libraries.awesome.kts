@@ -70,7 +70,7 @@ category("Libraries/Frameworks") {
       setTags("web", "http", "rest", "vert.x", "undertow")
     }
     link {
-      github = "aPureBase/KGraphQL"
+      github = "stuebingerb/KGraphQL"
       desc = "A GraphQL implementation written in Kotlin"
       setTags("graphql", "web")
     }
