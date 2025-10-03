@@ -129,53 +129,50 @@ Here is the awesome badge for your project:
 * [theovilardo/PixelPlay](https://github.com/theovilardo/PixelPlay) 
 * [beakthoven/TrickyStoreOSS](https://github.com/beakthoven/TrickyStoreOSS) - Open source alternative to proprietary Tricky Store module
 * [RPCSX/rpcsx-ui-android](https://github.com/RPCSX/rpcsx-ui-android) 
+* [kavishdevar/librepods](https://github.com/kavishdevar/librepods) - AirPods libreated from Apple's ecosystem.
 * [wxxsfxyzm/InstallerX-Revived](https://github.com/wxxsfxyzm/InstallerX-Revived) - More Expressive InstallerX !
 * [android/androidify](https://github.com/android/androidify) - Sample app for Androidify
-* [kyujin-cho/pixel-volte-patch](https://github.com/kyujin-cho/pixel-volte-patch) - Pixel IMS: Rootless replacement for Tensor Pixel VoLTE patch
+* [AAswordman/Operit](https://github.com/AAswordman/Operit) - The most powerful AI agent and AI chat software on Android
 * [komikku-app/komikku](https://github.com/komikku-app/komikku) - Free and open source manga reader for Android
-* [ReVanced/revanced-patcher](https://github.com/ReVanced/revanced-patcher) - 💉 ReVanced Patcher used to patch Android applications
 * [anilbeesetti/nextplayer](https://github.com/anilbeesetti/nextplayer) - An Android native video player
 * [keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source) - Source code of extensions in https://github.com/keiyoushi/extensions
+* [jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv) - Android TV Client for Jellyfin
 * [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
 * [fcitx5-android/fcitx5-android](https://github.com/fcitx5-android/fcitx5-android) - Fcitx5 input method framework and engines ported to Android
 * [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full-featured audio/video downloader for Android using yt-dlp
 * [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
 * [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) - Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
-* [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
-* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
+* [android/compose-samples](https://github.com/android/compose-samples) - Official Jetpack Compose samples.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [Sam42a/DUNE](https://github.com/Sam42a/DUNE) - Dune is a Jellyfin Android tv Client
 * [meshtastic/Meshtastic-Android](https://github.com/meshtastic/Meshtastic-Android) - Android application for Meshtastic
-* [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
-* [futo-org/grayjay-android](https://github.com/futo-org/grayjay-android) - Read-only mirror of Grayjay repo for issue tracking
-* [AAswordman/Operit](https://github.com/AAswordman/Operit) - The most powerful AI agent and AI chat software on Android
+* [chsbuffer/ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed) - ReVanced LSPosed module. YouTube &amp; YT Music Remove ads, Background playback
 * [guardianproject/orbot-android](https://github.com/guardianproject/orbot-android) - The Github home of Orbot: Tor on Android (Also available on gitlab!)
-* [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
+* [Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker) - An open-source auto clicker on images for Android
+* [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
+* [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
-* [T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox) - 🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp
 * [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
-* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 * [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
 * [xororz/local-dream](https://github.com/xororz/local-dream) - Run Stable Diffusion on Android Devices with Snapdragon NPU acceleration. Also supports CPU/GPU inference.
-* [FossifyOrg/File-Manager](https://github.com/FossifyOrg/File-Manager) - Easy app for managing your files without ads, respecting your privacy &amp; security
-* [chsbuffer/ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed) - ReVanced LSPosed module. YouTube &amp; YT Music Remove ads, Background playback
+* [Ayush0Chaudhary/blurr](https://github.com/Ayush0Chaudhary/blurr) - AI agents can now use real Android, just like a human.
+* [horsemail/yourtv](https://github.com/horsemail/yourtv) - 安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.
+* [ycngmn/Nobook](https://github.com/ycngmn/Nobook) - Ad-free facebook lite for Android.
+* [aws/aws-toolkit-jetbrains](https://github.com/aws/aws-toolkit-jetbrains) - AWS Toolkit for JetBrains - a plugin for interacting with AWS from JetBrains IDEs
 * [lihenggui/blocker](https://github.com/lihenggui/blocker) - Utilize an integrated firewall to manage application components.
-* [JetBrains/koog](https://github.com/JetBrains/koog) - Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
+* [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
 * [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
 * [lizongying/my-tv-0](https://github.com/lizongying/my-tv-0) - 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
-* [nextcloud/android](https://github.com/nextcloud/android) - 📱 Nextcloud Android app
-* [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
-* [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless E2E Automation for Mobile and Web
-* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
-* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
-* [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
+* [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime
+* [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile apps (Password Manager and Authenticator) for Android.
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -538,8 +535,8 @@ Here is the awesome badge for your project:
 * [eriksencosta/math-percentage](https://github.com/eriksencosta/math-percentage) - Percentage calculations made easy
 * [mobiletoly/urlsome](https://github.com/mobiletoly/urlsome) - URL builder library for Kotlin
 * [JoelW-S/groothy](https://github.com/JoelW-S/groothy) - Kotlin implementation of Groovy Truth.
-* [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
 * [jillesvangurp/querylight](https://github.com/jillesvangurp/querylight) - In memory search engine for simple in app search. Implements tf/idf and a some basic queries, tokenizers and analyzers.
+* [sandjelkovic/kxjtime](https://github.com/sandjelkovic/kxjtime) - Lightweight Kotlin extensions for java.time API
 * [clovis-ai/pedestal](https://github.com/clovis-ai/pedestal) - Caching, error tracking, progress tracking, weak references, and more…
 * [pearxteam/kpastebin](https://github.com/pearxteam/kpastebin) - Multiplatform Kotlin library to interact with the pastebin.com API
 * [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
