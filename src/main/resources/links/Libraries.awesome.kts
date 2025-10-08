@@ -1833,6 +1833,12 @@ category("Libraries/Frameworks") {
       setTags("XML", "StAX", "DSL", "parser")
       setPlatforms(JVM)
     }
+    link {
+      github = "muhrifqii/ParseRSS"
+      desc = "Extensible kotlin library to parse RSS for android, included with retrofit and fuel converter factory"
+      setTags("rss", "feed", "parser", "retrofit")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Raspberry Pi") {
     link {
