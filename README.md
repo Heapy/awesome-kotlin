@@ -128,17 +128,17 @@ Here is the awesome badge for your project:
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
 * [horsemail/yourtv](https://github.com/horsemail/yourtv) - 安卓电视直播APK：IPTV/網頁視頻支持X5，可自定義源(支持webview://格式)，IPTV支持畫中畫和熄屏播放。 Android TV Live APK: IPTV/web video supports X5, customizable sources (support webview:// format), IPTV supports picture-in-picture and off-screen playback.
 * [android/nav3-recipes](https://github.com/android/nav3-recipes) - Implement common use cases with Jetpack Navigation 3
-* [theovilardo/PixelPlay](https://github.com/theovilardo/PixelPlay) 
 * [chsbuffer/ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed) - ReVanced LSPosed module. YouTube &amp; YT Music Remove ads, Background playback
+* [element-hq/element-x-android](https://github.com/element-hq/element-x-android) - Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose
+* [AAswordman/Operit](https://github.com/AAswordman/Operit) - The most powerful AI agent and AI chat software on Android
+* [jellyfin/jellyfin-android](https://github.com/jellyfin/jellyfin-android) - Android Client for Jellyfin
 * [kyujin-cho/pixel-volte-patch](https://github.com/kyujin-cho/pixel-volte-patch) - Pixel IMS: Rootless replacement for Tensor Pixel VoLTE patch
+* [keiyoushi/extensions-source](https://github.com/keiyoushi/extensions-source) - Source code of extensions in https://github.com/keiyoushi/extensions
 * [jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv) - Android TV Client for Jellyfin
-* [mikepenz/AboutLibraries](https://github.com/mikepenz/AboutLibraries) - AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments
 * [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) - A simple music app using YouTube Music for backend
-* [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full-featured audio/video downloader for Android using yt-dlp
 * [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) - An app for manga and anime
-* [KotatsuApp/Kotatsu](https://github.com/KotatsuApp/Kotatsu) - Manga reader for Android
+* [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full-featured audio/video downloader for Android using yt-dlp
 * [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
-* [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) - Painless E2E Automation for Mobile and Web
 * [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 * [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
@@ -149,34 +149,30 @@ Here is the awesome badge for your project:
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
 * [PranavPurwar/AppLock](https://github.com/PranavPurwar/AppLock) - Powerful Privacy tool to secure your sensitive apps.
+* [edneyosf/Edconv](https://github.com/edneyosf/Edconv) - A user-friendly FFmpeg GUI
 * [xororz/local-dream](https://github.com/xororz/local-dream) - Run Stable Diffusion on Android Devices with Snapdragon NPU acceleration. Also supports CPU/GPU inference.
 * [crimera/piko](https://github.com/crimera/piko) - revanced-patches for twitter
 * [google/ksp](https://github.com/google/ksp) - Kotlin Symbol Processing API
-* [aaa1115910/bv](https://github.com/aaa1115910/bv) - 哔哩哔哩 的第三方 Android 应用。A third-party Android app for Bilibili.
-* [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
 * [CypherpunkArmory/UserLAnd](https://github.com/CypherpunkArmory/UserLAnd) - Main UserLAnd Repository
-* [dovecoteescapee/ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid) - App to bypass censorship on Android
+* [androidx/androidx](https://github.com/androidx/androidx) - Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP.
 * [yairm210/Unciv](https://github.com/yairm210/Unciv) - Open-source Android/Desktop remake of Civ V
 * [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) - AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.
 * [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) - Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)
-* [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
-* [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
-* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp
 * [2dust/v2rayNG](https://github.com/2dust/v2rayNG) - A V2Ray client for Android, support Xray core and v2fly core
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [yuzono/aniyomi-extensions](https://github.com/yuzono/aniyomi-extensions) - Source code of extensions for Anikku / Aniyomi &amp; forks.
-* [dmzz-yyhyy/LightNovelReader](https://github.com/dmzz-yyhyy/LightNovelReader) - 一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。
+* [ycngmn/Nobook](https://github.com/ycngmn/Nobook) - Ad-free facebook lite for Android.
 * [android/snippets](https://github.com/android/snippets) - Main repository for snippets surfaced on developer.android.com.
+* [openai/openai-java](https://github.com/openai/openai-java) - The official Java library for the OpenAI API
 * [embabel/embabel-agent](https://github.com/embabel/embabel-agent) - Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/
 * [JetBrains/koog](https://github.com/JetBrains/koog) - Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
-* [duckduckgo/Android](https://github.com/duckduckgo/Android) - DuckDuckGo Android App
-* [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) - Share your VPN connection over hotspot or repeater! (root required)
-* [T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox) - 🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options
-* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android and Compose Multiplatform.
+* [mostafaalagamy/Metrolist](https://github.com/mostafaalagamy/Metrolist) - YouTube Music client for Android
+* [Ackites/Nrfr](https://github.com/Ackites/Nrfr) - 🌍 免 Root 的 SIM 卡国家码修改工具 | 解决国际漫游时的兼容性问题，帮助使用海外 SIM 卡获得更好的本地化体验，解锁运营商限制，突破区域限制
+* [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile apps (Password Manager and Authenticator) for Android.
+* [Kotlin/kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Library support for Kotlin coroutines
+* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
 * [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
-* [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) - 翻墙-科学上网
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
