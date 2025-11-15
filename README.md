@@ -396,8 +396,8 @@ Here is the awesome badge for your project:
 * [s4kibs4mi/kotlin-jsonq](https://github.com/s4kibs4mi/kotlin-jsonq) - A simple Kotlin library to Query over Json Data.
 * [fluidsonic/fluid-json](https://github.com/fluidsonic/fluid-json) - A JSON library written in pure Kotlin.
 * [Jire/KTON](https://github.com/Jire/KTON) - Object notation in pure Kotlin!
-* [knbt](https://github.com/BenWoodworth/knbt) - Minecraft NBT support for kotlinx.serialization
 * [lectra-tech/koson](https://github.com/lectra-tech/koson) - A concise and lightweight Kotlin DSL to build JSON objects and render their String representations
+* [knbt](https://github.com/BenWoodworth/knbt) - Minecraft NBT support for kotlinx.serialization
 * [aafanasev/kson](https://github.com/aafanasev/kson) - Auto-generate GSON type adapters for Kotlin data classes
 * [FasterXML/jackson-module-kotlin](https://github.com/FasterXML/jackson-module-kotlin) - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
 * [cbeust/klaxon](https://github.com/cbeust/klaxon) - Lightweight library to parse JSON in Kotlin.
