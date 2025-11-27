@@ -558,16 +558,16 @@ Here is the awesome badge for your project:
 * [MiloszKrajewski/stateful4k](https://github.com/MiloszKrajewski/stateful4k) - State Machine Construction Kit for Kotlin
 * [lpicanco/krate](https://lpicanco.github.io/krate) - Krate is a rate limiter library designed specifically for Kotlin applications. In memory, Redis and Caffeine support.
 * [jershell/kbson](https://github.com/jershell/kbson) - Bson support for kotlinx.serialization
-* [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [evoasm/kasm](https://github.com/evoasm/kasm) - x64/x86-64 assembler and execution library
+* [czyzby/kotlin-times](https://github.com/czyzby/kotlin-times) - A simple utility library for readable loops.
 * [cesarferreira/kotlin-pluralizer](https://github.com/cesarferreira/kotlin-pluralizer) - Kotlin extension to pluralize and singularize strings.
 * [kryptokrona/kryptokrona-kotlin-sdk](https://github.com/kryptokrona/kryptokrona-kotlin-sdk) - Kryptokrona SDK in Kotlin for building decentralized private communication and payment systems.
 * [seljabali/java-time-fun](https://github.com/seljabali/java-time-fun) - java.time Kotlin extension functions library.
 * [Rasalexman/KDispatcher](https://github.com/Rasalexman/KDispatcher) - Simple and light-weight event dispatcher for Kotlin
 * [aminography/PrimeCalendar](https://github.com/aminography/PrimeCalendar) - Provides all of the java.util.Calendar functionalities for Civil, Persian, Hijri, Japanese, etc, as well as their conversion to each other.
 * [Jire/Strukt](https://github.com/Jire/Strukt) - Value types on the JVM, today!
-* [vendelieu/re.this](https://vendelieu.github.io/re.this/) - Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.
 * [s1monw1/TLSLibrary](https://github.com/s1monw1/TLSLibrary) - Simple TlsLibrary written in Kotlin - Provides DSL for creating TLS connections
+* [vendelieu/re.this](https://vendelieu.github.io/re.this/) - Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
 * [debop/koda-time](https://github.com/debop/koda-time) - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
