@@ -458,6 +458,12 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "multiplatform")
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
+    link {
+      href = "https://bitdive.io"
+      desc = "Zero-code integration testing platform that generates tests from runtime application behavior."
+      setTags("test", "testing", "integration-testing", "zero-code", "spring-boot")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
