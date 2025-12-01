@@ -1794,6 +1794,12 @@ category("Libraries/Frameworks") {
       setTags("kotlin", "data-structure", "performance", "efficient")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "eignex/kpermute"
+      desc = "Use bijective integer permutations with fast cycle-walking hash mixing to shuffle lists too big for memory or for ID obfuscation. "
+      setTags("algorithm", "shuffling", "data-masking", "efficient")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Parsers") {
     link {
