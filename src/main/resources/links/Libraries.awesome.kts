@@ -1210,6 +1210,12 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS, JS, JVM, NATIVE)
       setTags("networking", "amqp", "rabbitmq", "kmp", "coroutines")
     }
+    link {
+      github = "iCalDAV/iCalDAV.github.io"
+      desc = "Modern CalDAV and iCalendar library for JVM and Android with sync engine, RFC 5545/4791/6578 support"
+      setPlatforms(JVM, ANDROID)
+      setTags("networking", "caldav", "icalendar", "calendar", "sync", "webdav", "coroutines")
+    }
   }
   subcategory("Editors") {
     link {
