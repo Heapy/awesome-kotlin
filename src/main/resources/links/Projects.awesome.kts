@@ -211,6 +211,11 @@ category("Projects") {
       desc = "Shared expenses tracking Telegram bot"
       setTags("telegram")
     }
+    link {
+      github = "iamgio/quarkdown"
+      desc = "Markdown-based typesetting system for papers, presentations, static sites, and more."
+      setTags("typesetting", "cli")
+    }
   }
   subcategory("Desktop") {
     link {
