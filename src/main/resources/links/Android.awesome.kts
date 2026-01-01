@@ -698,6 +698,11 @@ category("Android") {
       setTags("debug")
     }
     link {
+      github = "kseongbin/CrashWatcher"
+      desc = "Lightweight crash and ANR detection library with detailed stack traces and device info. Zero permissions required."
+      setTags("crash-reporting", "anr-detection", "debugging", "error-tracking")
+    }
+    link {
       github = "didi/booster"
       desc = "Booster is an optimization toolkit for Android applications"
       setTags("optimizer", "gradle-plugin", "bytecode-manipulation", "static-analysis")
