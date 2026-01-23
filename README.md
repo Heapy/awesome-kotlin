@@ -190,7 +190,7 @@ Here is the awesome badge for your project:
 * [Try Kotlin!](https://try.kotlinlang.org/) 
 * [Blog](https://blog.jetbrains.com/kotlin/) 
 * [Issue Tracker](https://youtrack.jetbrains.com/issues/KT) 
-* [Twitter](https://twitter.com/kotlin) 
+* [X.com (Twitter)](https://x.com/kotlin) 
 * [Kotlin Forum](https://discuss.kotlinlang.org/) 
 * [Kotlin/KEEP](https://github.com/Kotlin/KEEP) - Kotlin Evolution and Enhancement Process
 * [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
@@ -204,13 +204,13 @@ Here is the awesome badge for your project:
 * [Programming Community Curated Resources for learning Kotlin](https://hackr.io/tutorials/learn-kotlin) 
 * [LinkedIn: Kotlin Developers (Join!)](https://www.linkedin.com/groups/7417237/profile) 
 * [Kotlin Cheat Sheet](https://speakerdeck.com/agiuliani/kotlin-cheat-sheet) 
-* [Kotlin Kōans Android app](https://play.google.com/store/apps/details?id=me.vickychijwani.kotlinkoans) - Learn Kotlin with short coding challenges on your Android device
 * [Kotlin Guide](https://kotlin.guide) - An introduction to Kotlin
 * [Kotlin Quiz](https://kotlinquiz.com) - Are You a Kotlin Expert? Test Your Skills with the Kotlin Quiz!
 * [Kotlin syntax cheat sheet](https://blog.kotlin-academy.com/kotlin-cheat-sheet-1137588c75a) 
 * [Kotlin Standard Functions cheat-sheet ](https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326) - Learn how to use kotlin's standard library with lambda functions
 * [Kotlin: An Illustrated Guide](https://typealias.com/start/) - Illustrated guide to learn Kotlin
 * [AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin](https://github.com/AlexeySoshin/Hands-on-Design-Patterns-with-Kotlin) - Code examples for 'Hands-on Design Patterns with Kotlin' book
+* [Kotlin Kōans Android app](https://github.com/vickychijwani/kotlin-koans-android) - Learn Kotlin with short coding challenges on your Android device
 * [From Java To Kotlin](https://github.com/fabiomsr/from-java-to-kotlin) - From Java to Kotlin Cheat Sheet
 * [dbacinski/Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin) - Design Patterns implemented in Kotlin
 
@@ -221,7 +221,6 @@ Here is the awesome badge for your project:
 * [SuperKotlin](https://superkotlin.com) - A website about Kotlin
 * [Kt. Academy Medium](https://blog.kotlin-academy.com/) - Blog that teach about Kotlin
 * [Kt. Academy](https://kt.academy/article) - Publication with regular Kotlin posts.
-* [KotlinTesting Blog](https://kotlintesting.com) - Blog about testing with Kotlin
 
 ### <a name="links-courses"></a>Courses <sup>[Back ⇈](#links-courses-subcategory)</sup>
 * [Jetbrain's Hyperskill Academy](https://hyperskill.org/onboarding/tracks/3) - An interactive learning platform for Kotlin and other languages
@@ -231,13 +230,11 @@ Here is the awesome badge for your project:
 * [Kotlin Programming: Next Level Java Development](https://www.udemy.com/kotlin-course/) - Learn coding in Kotlin from scratch!
 * [Introduction to Kotlin Programming by Hadi Hariri](https://shop.oreilly.com/product/0636920052982.do) - From Hello World to Interoperability with Java
 * [Advanced Kotlin Programming](https://shop.oreilly.com/product/0636920052999.do) - From Nested Functions to Asynchronous Programming
-* [Kotlin an Introduction - Caster.io](https://caster.io/courses/introduction-to-kotlin/) - Kotlin introductory course at Caster.io
 * [Building Android Apps with Kotlin: Getting Started - Alex Dunn](https://www.pluralsight.com/courses/building-android-apps-kotlin-getting-started) - Dive into the language set to replace Java while building Android applications. This course will give you a foundation of both Kotlin and Android skills to allow you to build apps faster and cleaner than ever before.
 * [Kotlin Bootcamp for Programmers - Google](https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011) - Language fundamentals for developers
 * [Developing Android Apps with Kotlin - Google](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012) - Create concise, secure and performant apps with Kotlin
 * [Kotlin for Android Developers](https://www.udacity.com/course/kotlin-for-android-developers--ud888) - Convert an Android app from Java to Kotlin
 * [Kotlin for Java Developers - JetBrains](https://www.coursera.org/learn/kotlin-for-java-developers) - Detailed Kotlin introductory course for Java developers
-* [Kotlin Online Courses at Classpert](https://classpert.com/kotlin-programming) - Over 80 Kotlin Online Courses - Classpert Online Course and MOOC Search
 * [Test-Driven Development Tutorial for Android: Getting Started - By Victoria Gonda](https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started) - Learn the basics of test-driven development, or TDD, and discover how to use TDD effectively when developing your Android apps!
 * [Kotlin Course - Tutorial for Beginners by freeCodeCamp.org](https://youtu.be/F9UC9DY-vIU) - Learn the Kotlin programming language in this introduction to Kotlin. Kotlin is a general purpose, open source, statically typed “pragmatic” programming language. It is used for many things, including Android development.
 * [CS194A Android Development](https://www.youtube.com/playlist?list=PL7NYbSE8uaBDcLkbXsQADdvBnVbavonGn) - Learn basic, foundational techniques for developing Android mobile applications and apply those toward building a single or multi page, networked Android application
@@ -881,7 +878,6 @@ Here is the awesome badge for your project:
 * [evilthreads669966/EvadeMe](https://github.com/evilthreads669966/EvadeMe) - A heuristics evasion library that prevents your code from being analyzed or tested.
 * [evilthreads669966/BootLaces](https://github.com/evilthreads669966/BootLaces) - Turns your background service persistent.
 * [evilthreads669966/WakeService](https://github.com/evilthreads669966/WakeService) - An IntentService that keeps your processor awake while doing work.
-* [evilthreads669966/Pickpocket](https://github.com/evilthreads669966/Pickpocket) - An asynchronous Android library for content providers and more.
 * [evilthreads669966/EasyShells](https://github.com/evilthreads669966/EasyShells) - A simple shell for executing Linux commands with responses
 * [smtrz/FilesCrypter](https://github.com/smtrz/FilesCrypter) - A lightweight Kotlin library for secure file encryption on Android.
 * [OTPComposable](https://github.com/itmaginationdemos/OTPComposable) - A library dedicated to making OTP (One Time Password) components a breeze to implement
