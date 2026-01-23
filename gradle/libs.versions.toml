@@ -1,10 +1,10 @@
 [versions]
-jackson = "3.0.3"
+jackson = "3.0.4"
 komok = "1.0.13"
 junit = "6.0.2"
 kotlin = "2.3.0"
 kotlinx-coroutines = "1.10.2"
-ktor = "3.3.3"
+ktor = "3.4.0"
 logback = "1.5.25"
 mockk = "1.14.7"
 
