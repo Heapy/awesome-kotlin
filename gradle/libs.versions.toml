@@ -1,6 +1,6 @@
 [versions]
 bcrypt = "0.10.2"
-bouncycastle = "1.80"
+bouncycastle = "1.83"
 commonmark = "0.27.1"
 flyway = "11.20.2"
 hikari = "7.0.2"
@@ -15,13 +15,13 @@ kotlinx-coroutines = "1.10.2"
 kotlinx-serialization = "1.10.0"
 ksp = "2.3.4"
 ktor = "3.4.0"
-logback = "1.5.25"
+logback = "1.5.26"
 micrometer = "1.16.2"
 mockk = "1.14.7"
 postgresql = "42.7.9"
 rome = "2.1.0"
 sitemapgen4j = "1.1.2"
-xmlutil = "0.90.3"
+xmlutil = "0.91.3"
 
 [libraries]
 bcrypt = { module = "at.favre.lib:bcrypt", version.ref = "bcrypt" }
