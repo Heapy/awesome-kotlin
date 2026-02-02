@@ -415,6 +415,7 @@ Here is the awesome badge for your project:
 * [coupang/spring-data-requery](https://github.com/coupang/spring-data-requery) - Spring Data for Requery (lightweight ORM)
 * [bloomberg/selekt](https://bloomberg.github.io/selekt) - Android SQL database library wrapping the community edition of SQLCipher, an SQLite extension that provides 256-bit AES encryption. Selekt realises the maximum concurrency offered by SQLite3.
 * [darkredz/Zeko-SQL-Builder](https://github.com/darkredz/Zeko-SQL-Builder) - Zeko SQL Builder is a high-performance lightweight SQL query library written for Kotlin language
+* [kakao/actionbase](https://actionbase.io) - Database for user interactions (likes, views, follows) with precomputed reads at write time.
 * [andrewoma/kwery](https://github.com/andrewoma/kwery) - Kwery is an SQL library for Kotlin.
 * [cheptsov/kotlin-nosql](https://github.com/cheptsov/kotlin-nosql) - NoSQL database query and access library for Kotlin.
 * [seratch/kotliquery](https://github.com/seratch/kotliquery) - A handy database access library in Kotlin.
@@ -525,7 +526,6 @@ Here is the awesome badge for your project:
 * [themichailov/kache](https://github.com/themichailov/kache) - Kotlin functions caching library, reducing count of function executions.
 * [spoptchev/kotlin-preconditions](https://github.com/spoptchev/kotlin-preconditions) - Precondition error checking in kotlin.
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
-* [vendelieu/re.this](https://vendelieu.github.io/re.this/) - Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.
 * [sapotero/dice-db-client](https://github.com/sapotero/dice-db-client) - DiceDB Kotlin Client - strongly typed, coroutine-based, and easy to use.
 * [eriksencosta/math-common](https://github.com/eriksencosta/math-common) - Mathematical conventions to reduce boilerplate code
 * [d-max/dsl-logger](https://github.com/d-max/dsl-logger) - Simple DSL for logging with logger abstraction layer
@@ -566,6 +566,7 @@ Here is the awesome badge for your project:
 * [ziggy42/kolor](https://github.com/ziggy42/kolor) - A library to print colored strings, with Kotlin.
 * [debop/koda-time](https://github.com/debop/koda-time) - Joda Time Extensions in Kotlin. (From Java 8 use java.time instead)
 * [vjames19/kotlin-futures](https://github.com/vjames19/kotlin-futures) - A collections of extension functions to make the JVM Future, CompletableFuture, ListenableFuture API more functional and Kotlin like.
+* [vendelieu/re.this](https://vendelieu.github.io/re.this/) - Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use.
 * [justwrote/kjob](https://github.com/justwrote/kjob) - A coroutine based persistent background scheduler written in Kotlin.
 * [kohesive/solr-undertow](https://github.com/kohesive/solr-undertow) - Solr Standalone Tiny and High performant server.
 * [kunalsheth/units-of-measure](https://github.com/kunalsheth/units-of-measure) - A type-safe dimensional analysis library for Kotlin.
