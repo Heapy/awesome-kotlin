@@ -962,6 +962,13 @@ category("Libraries/Frameworks") {
       setTags("database", "NoSQL", "driver", "query", "mongodb", "bson", "async", "async-io", "non-blocking")
       setPlatforms(JVM)
     }
+    link {
+      github = "kakao/actionbase"
+      href = "https://actionbase.io"
+      desc = "Database for user interactions (likes, views, follows) with precomputed reads at write time."
+      setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
