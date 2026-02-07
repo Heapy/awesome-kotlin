@@ -708,6 +708,11 @@ category("Android") {
       setTags("kmm", "multiplatform")
     }
     link {
+      github = "iamironz/android-nvim-plugin"
+      desc = "Neovim plugin for Android/Gradle build, deploy, and logcat."
+      setTags("android", "gradle", "logcat", "neovim")
+    }
+    link {
       github = "jzbrooks/vgo"
       desc = "vgo is a tool for optimizing and converting between vector artwork representations."
       setTags("drawables", "icons", "gradle-plugin")
