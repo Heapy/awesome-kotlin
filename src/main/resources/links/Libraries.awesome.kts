@@ -1352,6 +1352,11 @@ category("Libraries/Frameworks") {
       setTags("collections", "immutable", "multiplatform", "data-structures", "algorithms")
     }
     link {
+      github = "DmitryNekrasov/kodvent"
+      desc = "Kotlin Multiplatform utility library with battle-tested, zero-dependency implementations of algorithms and data structures for competitive programming and Advent of Code."
+      setTags("algorithms", "data-structures", "competitive-programming", "advent-of-code", "multiplatform")
+    }
+    link {
       github = "RationalityFrontline/kevent"
       desc = "A powerful in-process event dispatcher based on Kotlin and Coroutines."
       setTags("eventbus", "event-dispatcher", "event-driven", "publish–subscribe", "android", "swing", "javafx", "coroutines", "functional-programming")
