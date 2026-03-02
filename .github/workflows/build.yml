@@ -42,12 +42,12 @@ jobs:
         working-directory: app-frontend
       - run: yarn run build
         working-directory: app-frontend
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: "Frontend Application"
           path: "app-frontend/dist/"
           retention-days: 1
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: "Readme"
           path: "readme/"
@@ -58,11 +58,11 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v7
+      - uses: actions/download-artifact@v8
         with:
           name: "Frontend Application"
           path: "app-frontend/dist/"
-      - uses: actions/download-artifact@v7
+      - uses: actions/download-artifact@v8
         with:
           name: "Readme"
           path: "readme/"
