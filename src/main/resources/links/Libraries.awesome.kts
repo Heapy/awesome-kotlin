@@ -1347,6 +1347,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "Kotlin/kotlinx.collections.immutable"
+      desc = "Immutable persistent collections for Kotlin."
+      setTags("collections", "immutable", "multiplatform", "data-structures", "algorithms")
+    }
+    link {
       github = "DmitryNekrasov/kodvent"
       desc = "Kotlin Multiplatform utility library with battle-tested, zero-dependency implementations of algorithms and data structures for competitive programming and Advent of Code."
       setTags("algorithms", "data-structures", "competitive-programming", "advent-of-code", "multiplatform")
