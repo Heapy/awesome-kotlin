@@ -1817,6 +1817,12 @@ category("Libraries/Frameworks") {
       setTags("algorithm", "shuffling", "data-masking", "efficient")
       setPlatforms(JVM)
     }
+    link {
+      github = "jogakdal/data-processors-with-excel"
+      desc = "A template-based Excel report generator for Kotlin/JVM. Bind data to Excel templates with support for list expansion, charts, conditional formatting, and streaming mode."
+      setTags("excel", "report", "template", "poi", "spreadsheet", "data-binding", "report-generator", "streaming", "sxssf", "chart", "conditional-formatting", "excel-template")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Parsers") {
     link {
