@@ -525,6 +525,7 @@ Here is the awesome badge for your project:
 * [spoptchev/kotlin-preconditions](https://github.com/spoptchev/kotlin-preconditions) - Precondition error checking in kotlin.
 * [spoptchev/scientist](https://github.com/spoptchev/scientist) - A kotlin library for refactoring code. Port of GitHub's scientist.
 * [sapotero/dice-db-client](https://github.com/sapotero/dice-db-client) - DiceDB Kotlin Client - strongly typed, coroutine-based, and easy to use.
+* [jogakdal/data-processors-with-excel](https://github.com/jogakdal/data-processors-with-excel) - A template-based Excel report generator for Kotlin/JVM. Bind data to Excel templates with support for list expansion, charts, conditional formatting, and streaming mode.
 * [d-max/dsl-logger](https://github.com/d-max/dsl-logger) - Simple DSL for logging with logger abstraction layer
 * [eriksencosta/math-common](https://github.com/eriksencosta/math-common) - Mathematical conventions to reduce boilerplate code
 * [mobiletoly/urlsome](https://github.com/mobiletoly/urlsome) - URL builder library for Kotlin
