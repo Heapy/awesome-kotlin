@@ -126,9 +126,8 @@ Here is the awesome badge for your project:
 
 ## <a name="github-trending"></a>Github Trending <sup>[Back ⇈](#github-trending-category)</sup>
 ### <a name="github-trending-monthly"></a>Monthly <sup>[Back ⇈](#github-trending-monthly-subcategory)</sup>
-* [CherretGit/zaprett-app](https://github.com/CherretGit/zaprett-app) 
+* [fast4x/RiPlay](https://github.com/fast4x/RiPlay) - Multiplatform Music Player
 * [PortSwigger/mcp-server](https://github.com/PortSwigger/mcp-server) - MCP Server for Burp
-* [ZalithLauncher/ZalithLauncher2](https://github.com/ZalithLauncher/ZalithLauncher2) - A Minecraft: Java Edition Launcher for Android
 * [JingMatrix/TEESimulator](https://github.com/JingMatrix/TEESimulator) - Software simulation for Android hardware-backed key pairs with key attestation
 * [Arturo254/OpenTune](https://github.com/Arturo254/OpenTune) - Un cliente de YouTube Music con Material Design 3, para Android
 * [zly2006/zhihu-plus-plus](https://github.com/zly2006/zhihu-plus-plus) - Zhihu++ | 知乎++: Ad-free, low cost, AI powered zhihu android 3rd-party client. 去广告、占用低、AI大模型的新时代知乎安卓端体验
@@ -139,32 +138,36 @@ Here is the awesome badge for your project:
 * [bitwarden/android](https://github.com/bitwarden/android) - Bitwarden mobile apps (Password Manager and Authenticator) for Android.
 * [recloudstream/cloudstream](https://github.com/recloudstream/cloudstream) - Android app for streaming and downloading media.
 * [breezy-weather/breezy-weather](https://github.com/breezy-weather/breezy-weather) - A feature-rich weather app with good visualizations and more than 50 sources.
+* [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
 * [open-ani/animeko](https://github.com/open-ani/animeko) - 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 * [mihonapp/mihon](https://github.com/mihonapp/mihon) - Free and open source manga reader for Android
 * [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
 * [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) - Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 
 ### <a name="github-trending-weekly"></a>Weekly <sup>[Back ⇈](#github-trending-weekly-subcategory)</sup>
-* [nightscout/AndroidAPS](https://github.com/nightscout/AndroidAPS) - Opensource automated insulin delivery system (closed loop)
 * [sam1am/anyapk](https://github.com/sam1am/anyapk) - Install any apk on the device you own.
 * [lavalink-devs/Lavalink](https://github.com/lavalink-devs/Lavalink) - Standalone audio sending node based on Lavaplayer.
-* [HapeLee/legado-with-MD3](https://github.com/HapeLee/legado-with-MD3) - 使用 Material Design 3 全新设计的阅读 3.0
 * [KernelSU-Next/KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) - An advanced Kernel based root solution for Android
 * [home-assistant/android](https://github.com/home-assistant/android) - Home Assistant Companion for Android
 * [AAswordman/Operit](https://github.com/AAswordman/Operit) - The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大的AI Agent
+* [bmax121/APatch](https://github.com/bmax121/APatch) - The patching of Android kernel and Android system
 * [deniscerri/ytdlnis](https://github.com/deniscerri/ytdlnis) - Full-featured audio/video downloader for Android using yt-dlp
-* [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
 * [tiann/KernelSU](https://github.com/tiann/KernelSU) - A Kernel based root solution for Android
 * [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) - A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
 
 ### <a name="github-trending-daily"></a>Daily <sup>[Back ⇈](#github-trending-daily-subcategory)</sup>
-* [koiverse/ArchiveTune](https://github.com/koiverse/ArchiveTune) - The Cutest Material 3 Expressive Youtube Music client for Android, built for performance and extensibility.
-* [ProtonVPN/android-app](https://github.com/ProtonVPN/android-app) - Official ProtonVPN Android app
-* [anilbeesetti/nextplayer](https://github.com/anilbeesetti/nextplayer) - An Android native video player
-* [Dr-TSNG/Hide-My-Applist](https://github.com/Dr-TSNG/Hide-My-Applist) - An Xposed module to intercept applist detections
-* [iSoron/uhabits](https://github.com/iSoron/uhabits) - Loop Habit Tracker, a mobile app for creating and maintaining long-term positive habits
-* [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) - A Download Manager that speeds up your downloads
-* [JunkFood02/Seal](https://github.com/JunkFood02/Seal) - 🦭 Video/Audio Downloader for Android, based on yt-dlp
+* [nightscout/AndroidAPS](https://github.com/nightscout/AndroidAPS) - Opensource automated insulin delivery system (closed loop)
+* [android/nav3-recipes](https://github.com/android/nav3-recipes) - Implement common use cases with Jetpack Navigation 3
+* [Turbo1123/roubao](https://github.com/Turbo1123/roubao) - Android Automation Tool Based on Vision-Language Models
+* [MMRLApp/MMRL](https://github.com/MMRLApp/MMRL) - A app for managing, sharing, and exploring Magisk modules across repositories
+* [spacecowboy/Feeder](https://github.com/spacecowboy/Feeder) - Android feed reader app
+* [JetBrains/koog](https://github.com/JetBrains/koog) - Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
+* [samolego/Canta](https://github.com/samolego/Canta) - Uninstall any Android app without root (with power of Shizuku). Debloat your device as you wish, no PC required.
+* [JetBrains/Exposed](https://github.com/JetBrains/Exposed) - Kotlin SQL Framework
+* [coil-kt/coil](https://github.com/coil-kt/coil) - Image loading for Android and Compose Multiplatform.
+* [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) - A private messenger for Android.
+* [android/architecture-samples](https://github.com/android/architecture-samples) - A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
+* [JetBrains/kotlin](https://github.com/JetBrains/kotlin) - The Kotlin Programming Language.
 
 
 ## <a name="links"></a>Links <sup>[Back ⇈](#links-category)</sup>
@@ -530,8 +533,8 @@ Here is the awesome badge for your project:
 * [pearxteam/kpastebin](https://github.com/pearxteam/kpastebin) - Multiplatform Kotlin library to interact with the pastebin.com API
 * [DragonKnightOfBreeze/breeze-framework](https://github.com/DragonKnightOfBreeze/breeze-framework) - Integrated code framework base on Kotlin, provide many useful extensions for standard library and some frameworks.
 * [Lewik/klog](https://github.com/Lewik/klog) - Minimalistic and multiplatform logging for Kotlin
-* [DmitryNekrasov/kodvent](https://github.com/DmitryNekrasov/kodvent) - Kotlin Multiplatform utility library with battle-tested, zero-dependency implementations of algorithms and data structures for competitive programming and Advent of Code.
 * [Ahoo-Wang/CoCache](https://github.com/Ahoo-Wang/CoCache) - Level 2 Distributed Coherence Cache Framework
+* [DmitryNekrasov/kodvent](https://github.com/DmitryNekrasov/kodvent) - Kotlin Multiplatform utility library with battle-tested, zero-dependency implementations of algorithms and data structures for competitive programming and Advent of Code.
 * [InsanusMokrassar/KSLog](https://github.com/InsanusMokrassar/KSLog) - Fully customizable and lightweight logging library for Kotlin
 * [RationalityFrontline/kevent](https://github.com/RationalityFrontline/kevent) - A powerful in-process event dispatcher based on Kotlin and Coroutines.
 * [nickhristov/krakdown](https://github.com/nickhristov/krakdown) - A native markdown parser written in Kotlin.
