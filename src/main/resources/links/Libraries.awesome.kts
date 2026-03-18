@@ -458,6 +458,11 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "multiplatform")
       setPlatforms(COMMON, JVM, JS, NATIVE)
     }
+    link {
+      github = "anschnapp/mutflow"
+      desc = "Lightweight mutation testing that compiles once and runs directly in your test suite — implemented as a Kotlin K2 compiler plugin."
+      setTags("test", "testing", "mutation-testing", "compiler-plugin")
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
