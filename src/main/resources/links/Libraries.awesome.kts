@@ -981,6 +981,12 @@ category("Libraries/Frameworks") {
       setTags("scripting", "ide", "linter", "language")
     }
     link {
+      github = "Shashwat-Gupta57/Jctx"
+      desc = "Python-powered CLI (v2.0.0) that extracts structured, architecture-aware context from Kotlin and Java codebases for LLMs."
+      setPlatforms(JVM, ANDROID)
+      setTags("tools", "cli", "ai", "llm", "context", "kotlin", "java", "dependency-graph")
+    }
+    link {
       github = "Kotlin/dokka"
       desc = "Documentation Engine for Kotlin."
       awesome()
