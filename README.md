@@ -10,6 +10,7 @@ Discuss this project in [Kotlin Slack](http://slack.kotlinlang.org/), channel: *
 
 :newspaper: [RSS Feed of articles, videos, slides, updates (full archive)](http://kotlin.link/rss-full.xml)
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for multi-agent development orchestration, automated code review, and quality validation. MIT licensed.
 ## Spread Awesome Kotlin!
 
 Here is the awesome badge for your project:
