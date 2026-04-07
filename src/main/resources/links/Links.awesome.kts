@@ -47,6 +47,11 @@ category("Links") {
   }
   subcategory("Resources") {
     link {
+      name = "RemoteOpenClaw"
+      desc = "Open marketplace for AI skills and personas built on OpenClaw"
+      href = "https://remoteopenclaw.com"
+    }
+    link {
       name = "Awesome Kotlin Jobs"
       desc = "A curated list of companies using Kotlin"
       href = "https://github.com/vinigmoraes/awesome-kotlin-jobs"
