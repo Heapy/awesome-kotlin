@@ -19,3 +19,4 @@ Here is the awesome badge for your project:
 ```
 
 To contribute, check [CONTRIBUTING.md](https://github.com/Heapy/awesome-kotlin/blob/main/.github/contributing.md).
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=Heapy_awesome-kotlin) - Follow developers on GitHub and get a feed of what they star and build.
