@@ -2065,6 +2065,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Graphics") {
     link {
+      github = "sceneview/sceneview"
+      desc = "3D and AR SDK for Jetpack Compose (Filament) and SwiftUI (RealityKit). Declarative scene graph, 26+ composable node types, ARCore/ARKit integration, Kotlin Multiplatform core."
+      setTags("3d", "ar", "compose", "filament", "arcore", "realitykit", "multiplatform")
+    }
+    link {
       github = "data2viz/data2viz"
       desc = "multiplatform dataviz library, d3js port"
       setTags("d3js", "multiplatform", "svg", "javafx")
@@ -2573,3 +2578,5 @@ category("Libraries/Frameworks") {
     }
   }
 }
+
+# This is wrong - I need to insert inside the Graphics subcategory
