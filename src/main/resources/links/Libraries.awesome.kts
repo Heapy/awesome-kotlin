@@ -2566,6 +2566,12 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID)
     }
     link {
+      github = "composablehorizons/compose-unstyled"
+      desc = "Unstyled, accessible UI primitives for Jetpack Compose and Compose Multiplatform."
+      setTags("jetpack-compose", "compose", "kotlin", "ui", "compose-multiplatform", "accessibility")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM, JS)
+    }
+    link {
       github = "kronos-orm/kronos-orm"
       desc = "A modern ORM framework designed for Kotlin based on the compiler plugin, which is suitable for both backend and mobile applications, support multi-database. Powerful, high performance, easy to use."
       setTags("ORM", "compiler-plugin", "dsl", "jdbc", "logging", "codegen", "ktor", "spring", "android")
