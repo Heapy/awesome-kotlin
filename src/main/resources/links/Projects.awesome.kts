@@ -106,6 +106,12 @@ category("Projects") {
       desc = "A KTOR server/MCP server written in Kotlin applying multi-agents schools in a flexible research system"
       setTags("ktor", "mcp", "agents", "research", "server")
     }
+    link {
+      name = "Casino Engine"
+      desc = "Open-source iGaming game-mechanics engine — provider aggregator integrations, session, betting and freespin lifecycle. Powers casinos on 1638.cloud."
+      href = "https://github.com/nekzabirov/IGaming-Game-Engine"
+      tags { +"Kotlin" + "Ktor" + "gRPC" + "iGaming" }
+    }  
   }
   subcategory("Build tools") {
     link {
