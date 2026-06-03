@@ -235,6 +235,12 @@ category("Libraries/Frameworks") {
       desc = "A Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing."
       setTags("kotlin", "ddd", "cqrs", "eventsourcing", "eda", "microservice", "reactive", "mongodb", "r2dbc", "kafka", "test-driven", "opentelemetry", "webflux", "spring-boot")
     }
+    link {
+      github = "BK202503/bk-spring-idempotent"
+      desc = "Stripe-style @Idempotent annotation for Spring Boot. One annotation, production-ready idempotency-key handling: replay, body-mismatch 422, concurrent 409, pluggable storage (H2/Postgres)."
+      setPlatforms(JVM)
+      setTags("kotlin", "spring-boot", "idempotency", "rest-api", "coroutines", "microservice", "jdbc", "postgres", "annotation-based")
+    }
   }
   subcategory("Testing") {
     link {
