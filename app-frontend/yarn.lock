@@ -1109,7 +1109,7 @@ __metadata:
     postcss-loader: "npm:^8.2.0"
     react: "npm:^19.2.3"
     react-dom: "npm:^19.2.3"
-    react-router: "npm:^7.13.0"
+    react-router: "npm:^7.15.0"
     react-router-dom: "npm:^7.13.0"
     style-loader: "npm:^4.0.0"
     ts-loader: "npm:^9.5.4"
@@ -3976,7 +3976,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:7.13.0, react-router@npm:^7.13.0":
+"react-router@npm:7.13.0":
   version: 7.13.0
   resolution: "react-router@npm:7.13.0"
   dependencies:
@@ -3989,6 +3989,22 @@ __metadata:
     react-dom:
       optional: true
   checksum: 10/8bc0a1eebf37136851ee345e53b137b5a7ec0de10c842861a06810bb54c0a389826734a7454f4afe8731daf39499948ba73657e60a6bd2acb93b3e567fd79127
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^7.15.0":
+  version: 7.15.0
+  resolution: "react-router@npm:7.15.0"
+  dependencies:
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10/98681e75fab2eddc2b18bd478840341a85b5eab796ed29c638be986faab0c63ff16ad72c9889192a4f5c6f559f20aad3273fdffbeb1edf104d2cf2381373c9ca
   languageName: node
   linkType: hard
 
