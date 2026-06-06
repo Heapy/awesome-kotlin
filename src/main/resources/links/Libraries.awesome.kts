@@ -1106,6 +1106,11 @@ category("Libraries/Frameworks") {
       setTags("build", "resource", "gradle")
       setPlatforms(JS)
     }
+    link {
+      github = "krishgok/localdevstack"
+      desc = "Instantly scaffold a containerised local development environment for any service and database"
+      setTags("developer-tools", "cli-tool", "docker")
+    }
   }
   subcategory("Compiler Plugins") {
     link {
