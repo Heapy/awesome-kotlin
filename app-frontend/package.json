@@ -9,7 +9,7 @@
     "normalize.css": "^8.0.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router": "^7.13.0",
+    "react-router": "^7.15.1",
     "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
