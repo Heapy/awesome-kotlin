@@ -216,6 +216,13 @@ category("Projects") {
       desc = "Markdown-based typesetting system for papers, presentations, static sites, and more."
       setTags("typesetting", "cli")
     }
+    link {
+      github = "kuml-dev/kUML"
+      href = "https://kuml.dev"
+      desc = "Type-safe Kotlin DSL for UML 2.x, SysML 2 and C4. Renders SVG/PNG, MDA model transforms, CLI, Gradle plugin, and IDE integration."
+      setPlatforms(JVM)
+      setTags("uml", "sysml", "c4", "dsl", "diagram", "modeling", "mda", "code-generation", "cli")
+    }
   }
   subcategory("Desktop") {
     link {
