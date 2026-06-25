@@ -1046,6 +1046,11 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "JasminGuberinic/kotlin-security-scanner"
+      desc = "Detekt plugin with 200+ OWASP Top 10 security rules for Kotlin — Spring Boot, Quarkus, Dropwizard, Ktor & Micronaut."
+      setTags("security", "static-analysis", "sast", "owasp", "detekt", "linter")
+    }
+    link {
       github = "Kotlin/kotlinx-kover"
       desc = "Gradle plugin for Kotlin code coverage agents."
       setTags("coverage", "code coverage", "jacoco")
