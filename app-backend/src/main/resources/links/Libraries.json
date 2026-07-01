@@ -770,6 +770,28 @@
                     "archived": false,
                     "unsupported": false,
                     "awesome": false
+                },
+                {
+                    "name": null,
+                    "github": "Goldziher/spikard",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": "Rust-powered polyglot HTTP framework with type-safe routing, tower middleware, and OpenAPI/GraphQL/JSON-RPC codegen — a Kotlin/Android binding over a Rust core.",
+                    "platforms": [
+                        "JVM",
+                        "ANDROID"
+                    ],
+                    "tags": [
+                        "web",
+                        "http",
+                        "framework"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": true
                 }
             ]
         },
