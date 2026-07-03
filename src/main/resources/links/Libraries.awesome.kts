@@ -2571,5 +2571,11 @@ category("Libraries/Frameworks") {
       setTags("ORM", "compiler-plugin", "dsl", "jdbc", "logging", "codegen", "ktor", "spring", "android")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "brianmwas/koog-compose"
+      desc = "Compose UI integration for the Koog AI agent framework"
+      setTags("jetpack-compose", "compose", "kotlin", "koog", "ai", "agent", "compose-multiplatform")
+      setPlatforms(COMMON, ANDROID, IOS)
+    }
   }
 }
