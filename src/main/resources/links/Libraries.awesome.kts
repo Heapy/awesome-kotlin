@@ -1027,6 +1027,12 @@ category("Libraries/Frameworks") {
       setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
       setPlatforms(JVM)
     }
+    link {
+      github = "NaCode-Studios/Kdrant"
+      desc = "An idiomatic, coroutine-first Kotlin client for the Qdrant vector database. Suspend APIs, type-safe DSLs, and Spring AI / LangChain4j integrations."
+      setTags("database", "vector-database", "vector-search", "qdrant", "rag", "embeddings", "coroutines")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
