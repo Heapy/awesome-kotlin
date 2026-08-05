@@ -4543,11 +4543,11 @@
                 },
                 {
                     "name": null,
-                    "github": "consoleau/kassava",
+                    "github": "nemecec/kassava",
                     "bitbucket": null,
                     "kug": null,
                     "href": null,
-                    "desc": "This library provides some useful kotlin extension functions for implementing toString() and equals() without all of the boilerplate.",
+                    "desc": "This library provides some useful kotlin extension functions for implementing toString(), equals() and hashCode() without all of the boilerplate.",
                     "platforms": [],
                     "tags": [
                         "hashCode",
