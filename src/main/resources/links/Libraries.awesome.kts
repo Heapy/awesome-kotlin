@@ -1955,6 +1955,13 @@ category("Libraries/Frameworks") {
       setTags("multiplatform", "arch", "architecture", "mvi")
       setPlatforms(COMMON, JVM, JS, ANDROID, IOS, NATIVE, WASM)
     }
+    link {
+      github = "Meet-Miyani/admob-compose-multiplatform"
+      href = "https://ads.avinya.dev"
+      desc = "Google AdMob SDK for Compose Multiplatform (Android & iOS) supporting Banner, Interstitial, Rewarded, App Open, and Native ads."
+      setPlatforms(COMMON, ANDROID, IOS)
+      setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
+    }
   }
   subcategory("Cryptography") {
     link {
