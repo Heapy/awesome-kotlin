@@ -973,6 +973,12 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "kormium/kormium"
+      desc = "Type-safe ORM and SQL DSL for Kotlin Multiplatform, with tables, entities, transactions and migrations shared across server and client."
+      setTags("database", "orm", "sql", "query", "type-safe builder", "migrations", "postgres", "mysql", "sqlite", "jdbc", "r2dbc", "ktor", "multiplatform")
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE, JS, WASM)
+    }
   }
   subcategory("Tools") {
     link {
