@@ -973,6 +973,13 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
@@ -2570,13 +2577,6 @@ category("Libraries/Frameworks") {
       desc = "A modern ORM framework designed for Kotlin based on the compiler plugin, which is suitable for both backend and mobile applications, support multi-database. Powerful, high performance, easy to use."
       setTags("ORM", "compiler-plugin", "dsl", "jdbc", "logging", "codegen", "ktor", "spring", "android")
       setPlatforms(JVM, ANDROID)
-    }
-    link {
-      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
-      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
-      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
-      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
-      setPlatforms(JVM)
     }
   }
 }
