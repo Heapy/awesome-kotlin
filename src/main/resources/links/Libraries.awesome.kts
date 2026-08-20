@@ -2571,5 +2571,12 @@ category("Libraries/Frameworks") {
       setTags("ORM", "compiler-plugin", "dsl", "jdbc", "logging", "codegen", "ktor", "spring", "android")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
 }
