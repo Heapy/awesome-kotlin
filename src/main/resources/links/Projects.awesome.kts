@@ -216,6 +216,11 @@ category("Projects") {
       desc = "Markdown-based typesetting system for papers, presentations, static sites, and more."
       setTags("typesetting", "cli")
     }
+    link {
+      github = "Kotlin/kotlin-swe-bench"
+      desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
+      setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
+    }
   }
   subcategory("Desktop") {
     link {
