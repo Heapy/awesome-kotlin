@@ -2566,7 +2566,7 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
     }
     link {
-      github = "shopsavvy/shopsavvy-sdk-kotlin"
+      github = "shopsavvy/sdk-kotlin"
       desc = "Kotlin SDK for the ShopSavvy Data API — product lookups, real-time pricing, and price history."
       setPlatforms(JVM, ANDROID)
       setTags("api-client", "shopping", "e-commerce", "price-comparison")
