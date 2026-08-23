@@ -973,6 +973,13 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
