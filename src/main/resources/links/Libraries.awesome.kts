@@ -235,6 +235,12 @@ category("Libraries/Frameworks") {
       desc = "A Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing."
       setTags("kotlin", "ddd", "cqrs", "eventsourcing", "eda", "microservice", "reactive", "mongodb", "r2dbc", "kafka", "test-driven", "opentelemetry", "webflux", "spring-boot")
     }
+    link {
+      github = "BK202503/bk-spring-saga"
+      desc = "Kotlin-first, coroutine-native Saga orchestrator for Spring Boot. Durable resume of interrupted sagas, JDBC (H2/Postgres) and Kafka event modules, autoconfigure starter."
+      setPlatforms(JVM)
+      setTags("kotlin", "spring-boot", "saga", "coroutines", "microservice", "distributed-transactions", "jdbc", "postgres", "kafka")
+    }
   }
   subcategory("Testing") {
     link {
@@ -278,6 +284,11 @@ category("Libraries/Frameworks") {
       github = "dmcg/konsent"
       desc = "An acceptance test library for Kotlin."
       setTags("test", "bdd", "gherkin")
+    }
+    link {
+      github = "kensa-dev/kensa"
+      desc = "A code-first BDD testing framework for Kotlin."
+      setTags("test", "bdd", "junit", "kotest", "testng", "hamkrest")
     }
     link {
       github = "EPadronU/balin"
@@ -871,6 +882,12 @@ category("Libraries/Frameworks") {
       setTags("database", "query", "jpa")
     }
     link {
+      github = "HarryJhin/querydsl-ktx"
+      desc = "Null-safe infix Kotlin extensions for QueryDSL dynamic queries."
+      setTags("database", "sql", "querydsl", "jpa", "spring-data", "type-safe builder")
+      setPlatforms(JVM)
+    }
+    link {
       github = "Ganet/rxaerospike"
       desc = "RxJava2 wrapper for aerospike-client-java."
       setTags("database", "arospike", "rx", "rxjava2")
@@ -973,12 +990,25 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
       github = "SonarSource/sonarlint-intellij"
       desc = "An IDE extension that helps you detect and fix quality issues as you write code."
       setTags("scripting", "ide", "linter", "language")
+    }
+    link {
+      github = "Shashwat-Gupta57/Jctx"
+      desc = "Python-powered CLI (v2.0.0) that extracts structured, architecture-aware context from Kotlin and Java codebases for LLMs."
+      setPlatforms(JVM, ANDROID)
+      setTags("tools", "cli", "ai", "llm", "context", "kotlin", "java", "dependency-graph")
     }
     link {
       github = "Kotlin/dokka"
@@ -1105,6 +1135,11 @@ category("Libraries/Frameworks") {
       desc = "Include resource files into a KotlinJS library"
       setTags("build", "resource", "gradle")
       setPlatforms(JS)
+    }
+    link {
+      github = "krishgok/localdevstack"
+      desc = "Instantly scaffold a containerised local development environment for any service and database"
+      setTags("developer-tools", "cli-tool", "docker")
     }
   }
   subcategory("Compiler Plugins") {
