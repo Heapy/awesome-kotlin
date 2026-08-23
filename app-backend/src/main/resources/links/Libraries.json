@@ -4544,6 +4544,7 @@
                 {
                     "name": null,
                     "github": "nemecec/kassava",
+                    "forkOf": "consoleau/kassava",
                     "bitbucket": null,
                     "kug": null,
                     "href": null,
