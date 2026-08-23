@@ -236,6 +236,12 @@ category("Libraries/Frameworks") {
       setTags("kotlin", "ddd", "cqrs", "eventsourcing", "eda", "microservice", "reactive", "mongodb", "r2dbc", "kafka", "test-driven", "opentelemetry", "webflux", "spring-boot")
     }
     link {
+      github = "BK202503/bk-spring-outbox"
+      desc = "Transactional Outbox for Spring Boot. Kotlin-first, coroutine-native, autoconfigured. Pluggable storage (H2/Postgres) and Kafka publisher; pairs with bk-spring-saga."
+      setPlatforms(JVM)
+      setTags("kotlin", "spring-boot", "outbox", "transactional-outbox", "microservice", "kafka", "jdbc", "postgres", "coroutines", "eventing")
+    }
+    link {
       github = "BK202503/bk-spring-idempotent"
       desc = "Stripe-style @Idempotent annotation for Spring Boot. One annotation, production-ready idempotency-key handling: replay, body-mismatch 422, concurrent 409, pluggable storage (H2/Postgres)."
       setPlatforms(JVM)
