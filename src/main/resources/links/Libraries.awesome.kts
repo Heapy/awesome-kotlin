@@ -1266,6 +1266,12 @@ category("Libraries/Frameworks") {
       setTags("http", "http client", "offline", "okhttp")
     }
     link {
+      github = "xberg-io/crawlberg"
+      desc = "High-performance web crawling and scraping engine with HTML-to-Markdown conversion and a headless-Chrome fallback — a Kotlin binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("crawler", "scraping", "http")
+    }
+    link {
       github = "corbella83/kotliny.network"
       desc = "Simple, powerful and lightweight Kotlin Multiplatform Network Client"
       setTags("http", "http client", "multiplatform")
@@ -1828,6 +1834,18 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
     }
     link {
+      github = "xberg-io/xberg"
+      desc = "Document intelligence library that extracts text, tables, and metadata from PDFs, Office documents, images, and 97+ formats with optional OCR — a Kotlin/Android binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("document", "extraction", "ocr", "pdf")
+    }
+    link {
+      github = "xberg-io/html-to-markdown"
+      desc = "Fast, CommonMark-compliant HTML to Markdown converter — a Kotlin binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("html", "markdown")
+    }
+    link {
       github = "krud-dev/shapeshift"
       desc = "A Kotlin library for intelligent object mapping and conversion between objects."
       setTags("object-mapping", "utility", "conversion", "spring")
@@ -1941,6 +1959,12 @@ category("Libraries/Frameworks") {
       desc = "Extensible XML parser DSL, based on StAX"
       setTags("XML", "StAX", "DSL", "parser")
       setPlatforms(JVM)
+    }
+    link {
+      github = "xberg-io/tree-sitter-language-pack"
+      desc = "Pre-built tree-sitter grammars for 300+ languages with a unified parser API — a Kotlin/Android binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("parser", "tree-sitter")
     }
     link {
       github = "muhrifqii/ParseRSS"
@@ -2519,6 +2543,12 @@ category("Libraries/Frameworks") {
       github = "awslabs/aws-sdk-kotlin"
       desc = "Multiplatform AWS SDK for Kotlin"
       setPlatforms(JVM, ANDROID)
+    }
+    link {
+      github = "xberg-io/liter-llm"
+      desc = "Universal LLM API client for 142+ providers with a unified interface and streaming — a Kotlin binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("llm", "api", "openai")
     }
     link {
       github = "MoviebaseApp/tmdb-api"
