@@ -1,5 +1,3 @@
-import org.commonmark.internal.Bracket.link
-
 category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
@@ -493,7 +491,6 @@ category("Libraries/Frameworks") {
       desc = "Test Parametetisation plugin with a beautiful dsl to write tabular data."
       setTags("test", "testing", "gradle-plugin")
       setPlatforms(COMMON, JVM, ANDROID, JS, NATIVE)
-      awesome()
     }
   }
   subcategory("Mocks and Fakes") {
