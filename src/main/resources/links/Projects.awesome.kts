@@ -217,6 +217,13 @@ category("Projects") {
       setTags("typesetting", "cli")
     }
     link {
+      github = "kuml-dev/kUML"
+      href = "https://kuml.dev"
+      desc = "Type-safe Kotlin DSL for UML 2.x, SysML 2 and C4. Renders SVG/PNG, MDA model transforms, CLI, Gradle plugin, and IDE integration."
+      setPlatforms(JVM)
+      setTags("uml", "sysml", "c4", "dsl", "diagram", "modeling", "mda", "code-generation", "cli")
+    }
+    link {
       github = "Kotlin/kotlin-swe-bench"
       desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
       setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
