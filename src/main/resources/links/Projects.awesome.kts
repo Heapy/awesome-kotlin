@@ -106,6 +106,12 @@ category("Projects") {
       desc = "A KTOR server/MCP server written in Kotlin applying multi-agents schools in a flexible research system"
       setTags("ktor", "mcp", "agents", "research", "server")
     }
+    link {
+      github = "nekzabirov/IGaming-Game-Engine"
+      desc = "Open-source iGaming game-mechanics engine — provider aggregator integrations, session, betting and freespin lifecycle. Powers casinos on 1638.cloud."
+      setPlatforms(JVM)
+      setTags("kotlin", "ktor", "grpc", "igaming")
+    }
   }
   subcategory("Build tools") {
     link {
@@ -215,6 +221,18 @@ category("Projects") {
       github = "iamgio/quarkdown"
       desc = "Markdown-based typesetting system for papers, presentations, static sites, and more."
       setTags("typesetting", "cli")
+    }
+    link {
+      github = "kuml-dev/kUML"
+      href = "https://kuml.dev"
+      desc = "Type-safe Kotlin DSL for UML 2.x, SysML 2 and C4. Renders SVG/PNG, MDA model transforms, CLI, Gradle plugin, and IDE integration."
+      setPlatforms(JVM)
+      setTags("uml", "sysml", "c4", "dsl", "diagram", "modeling", "mda", "code-generation", "cli")
+    }
+    link {
+      github = "Kotlin/kotlin-swe-bench"
+      desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
+      setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
     }
   }
   subcategory("Desktop") {
@@ -461,6 +479,11 @@ category("Projects") {
       github = "csense-oss/idea-kotlin-checked-exceptions"
       desc = "Plugin to help integrate with java and exceptions (highlights, warns when not catching exceptions and a lot more)"
       setTags("kotlin", "idea", "exceptions")
+    }
+    link {
+      github = "explyt/explyt"
+      desc = "AI agent for IntelliJ IDEA that uses the IDE's debugger, refactorings, and symbol navigation to fix Kotlin and Java code."
+      setTags("kotlin", "idea", "plugin", "ai", "agent")
     }
   }
   subcategory("Playground") {
