@@ -391,6 +391,12 @@ category("Android") {
       setTags("android","encryption", "security", "files", "cryptography")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "dappros/ethora-sdk-android"
+      desc = "Native Kotlin/Jetpack Compose chat SDK for Ethora — chat, messaging, AI agents/chatbots; JitPack-published; self-host or hosted."
+      setPlatforms(ANDROID)
+      setTags("chat", "messaging", "sdk", "ai-agents")
+    }
   }
   subcategory("Frameworks") {
     link {
