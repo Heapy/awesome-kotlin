@@ -216,6 +216,11 @@ category("Projects") {
       desc = "Markdown-based typesetting system for papers, presentations, static sites, and more."
       setTags("typesetting", "cli")
     }
+    link {
+      github = "Kotlin/kotlin-swe-bench"
+      desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
+      setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
+    }
   }
   subcategory("Desktop") {
     link {
@@ -461,6 +466,11 @@ category("Projects") {
       github = "csense-oss/idea-kotlin-checked-exceptions"
       desc = "Plugin to help integrate with java and exceptions (highlights, warns when not catching exceptions and a lot more)"
       setTags("kotlin", "idea", "exceptions")
+    }
+    link {
+      github = "explyt/explyt"
+      desc = "AI agent for IntelliJ IDEA that uses the IDE's debugger, refactorings, and symbol navigation to fix Kotlin and Java code."
+      setTags("kotlin", "idea", "plugin", "ai", "agent")
     }
   }
   subcategory("Playground") {

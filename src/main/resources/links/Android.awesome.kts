@@ -391,6 +391,12 @@ category("Android") {
       setTags("android","encryption", "security", "files", "cryptography")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "dappros/ethora-sdk-android"
+      desc = "Native Kotlin/Jetpack Compose chat SDK for Ethora — chat, messaging, AI agents/chatbots; JitPack-published; self-host or hosted."
+      setPlatforms(ANDROID)
+      setTags("chat", "messaging", "sdk", "ai-agents")
+    }
   }
   subcategory("Frameworks") {
     link {
@@ -716,6 +722,12 @@ category("Android") {
       github = "jzbrooks/vgo"
       desc = "vgo is a tool for optimizing and converting between vector artwork representations."
       setTags("drawables", "icons", "gradle-plugin")
+    }
+    link {
+      github = "azikar24/WormaCeptor"
+      desc = "All-in-one on-device Android debugging toolkit with 20+ features including network inspection, performance monitoring, crash reporting, leak detection, and more."
+      setTags("debugging", "network-inspector", "okhttp", "ktor", "jetpack-compose")
+      setPlatforms(ANDROID)
     }
   }
   subcategory("Tests") {
