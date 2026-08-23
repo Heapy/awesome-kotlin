@@ -978,12 +978,25 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
       github = "SonarSource/sonarlint-intellij"
       desc = "An IDE extension that helps you detect and fix quality issues as you write code."
       setTags("scripting", "ide", "linter", "language")
+    }
+    link {
+      github = "Shashwat-Gupta57/Jctx"
+      desc = "Python-powered CLI (v2.0.0) that extracts structured, architecture-aware context from Kotlin and Java codebases for LLMs."
+      setPlatforms(JVM, ANDROID)
+      setTags("tools", "cli", "ai", "llm", "context", "kotlin", "java", "dependency-graph")
     }
     link {
       github = "Kotlin/dokka"
