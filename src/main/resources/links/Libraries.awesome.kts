@@ -219,6 +219,12 @@ category("Libraries/Frameworks") {
       setTags("web", "framework", "fullstack")
     }
     link {
+      github = "Goldziher/spikard"
+      desc = "Rust-powered polyglot HTTP framework with type-safe routing, tower middleware, and OpenAPI/GraphQL/JSON-RPC codegen — a Kotlin/Android binding over a Rust core."
+      setPlatforms(JVM, ANDROID)
+      setTags("web", "http", "framework")
+    }
+    link {
       github = "Ahoo-Wang/CoSec"
       desc = "RBAC-based And Policy-based Multi-Tenant Security Framework."
       setTags("kotlin", "security", "rbac", "policy", "multi-tenant", "jwt", "reactive", "web-flux", "spring-boot", "spring-cloud-gateway")
