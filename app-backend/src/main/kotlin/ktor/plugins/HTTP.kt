@@ -2,11 +2,11 @@ package ktor.plugins
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
-
+import io.heapy.komok.tech.logging.logger
 import io.ktor.http.CacheControl
 import io.ktor.http.ContentType
 import io.ktor.http.HttpStatusCode
-import io.ktor.http.auth.*
+import io.ktor.http.auth.parseAuthorizationHeader
 import io.ktor.http.content.CachingOptions
 import io.ktor.serialization.kotlinx.json.json
 import io.ktor.server.application.Application
@@ -22,7 +22,6 @@ import io.ktor.server.resources.Resources
 import io.ktor.server.response.respond
 import kotlinx.serialization.Serializable
 import usecases.signup.JwtModule
-import utils.logger
 import kotlin.time.Duration.Companion.days
 
 fun Application.defaults(

@@ -48,7 +48,6 @@ import kotlin.collections.List
 import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
-import org.jooq.Identity
 import org.jooq.InverseForeignKey
 import org.jooq.JSONB
 import org.jooq.Name
@@ -58,10 +57,10 @@ import org.jooq.QueryPart
 import org.jooq.Record
 import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.Select
 import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
+import org.jooq.TableLike
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
@@ -110,7 +109,7 @@ open class Kotliner(
     /**
      * The column <code>public.kotliner.id</code>.
      */
-    val ID: TableField<KotlinerRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+    val ID: TableField<KotlinerRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>public.kotliner.created</code>.
@@ -214,7 +213,6 @@ open class Kotliner(
         override fun `as`(alias: Table<*>): KotlinerPath = KotlinerPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
-    override fun getIdentity(): Identity<KotlinerRecord, Long?> = super.getIdentity() as Identity<KotlinerRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<KotlinerRecord> = KOTLINER_PKEY
     override fun getUniqueKeys(): List<UniqueKey<KotlinerRecord>> = listOf(UNIQUE_KOTLINER_EMAIL, UNIQUE_KOTLINER_NICKNAME)
 
@@ -498,7 +496,7 @@ open class Kotliner(
     /**
      * Create an inline derived table from this table
      */
-    override fun where(condition: Condition?): Kotliner = Kotliner(qualifiedName, if (aliased()) this else null, condition)
+    override fun where(condition: Condition?): Kotliner = Kotliner(qualifiedName, if (aliased()) this else null, Internal.condition(this, condition))
 
     /**
      * Create an inline derived table from this table
@@ -538,10 +536,10 @@ open class Kotliner(
     /**
      * Create an inline derived table from this table
      */
-    override fun whereExists(select: Select<*>): Kotliner = where(DSL.exists(select))
+    override fun whereExists(select: TableLike<*>): Kotliner = where(DSL.exists(select))
 
     /**
      * Create an inline derived table from this table
      */
-    override fun whereNotExists(select: Select<*>): Kotliner = where(DSL.notExists(select))
+    override fun whereNotExists(select: TableLike<*>): Kotliner = where(DSL.notExists(select))
 }

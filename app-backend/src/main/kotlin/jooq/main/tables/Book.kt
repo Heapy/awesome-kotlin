@@ -21,7 +21,6 @@ import kotlin.collections.Collection
 import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
-import org.jooq.Identity
 import org.jooq.InverseForeignKey
 import org.jooq.Name
 import org.jooq.Path
@@ -30,10 +29,10 @@ import org.jooq.QueryPart
 import org.jooq.Record
 import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.Select
 import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
+import org.jooq.TableLike
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
@@ -82,7 +81,7 @@ open class Book(
     /**
      * The column <code>public.book.id</code>.
      */
-    val ID: TableField<BookRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+    val ID: TableField<BookRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>public.book.title</code>.
@@ -156,7 +155,6 @@ open class Book(
         override fun `as`(alias: Table<*>): BookPath = BookPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
-    override fun getIdentity(): Identity<BookRecord, Long?> = super.getIdentity() as Identity<BookRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<BookRecord> = BOOK_PKEY
 
     private lateinit var _bookLibrary: BookLibraryPath
@@ -226,7 +224,7 @@ open class Book(
     /**
      * Create an inline derived table from this table
      */
-    override fun where(condition: Condition?): Book = Book(qualifiedName, if (aliased()) this else null, condition)
+    override fun where(condition: Condition?): Book = Book(qualifiedName, if (aliased()) this else null, Internal.condition(this, condition))
 
     /**
      * Create an inline derived table from this table
@@ -266,10 +264,10 @@ open class Book(
     /**
      * Create an inline derived table from this table
      */
-    override fun whereExists(select: Select<*>): Book = where(DSL.exists(select))
+    override fun whereExists(select: TableLike<*>): Book = where(DSL.exists(select))
 
     /**
      * Create an inline derived table from this table
      */
-    override fun whereNotExists(select: Select<*>): Book = where(DSL.notExists(select))
+    override fun whereNotExists(select: TableLike<*>): Book = where(DSL.notExists(select))
 }

@@ -21,7 +21,6 @@ import kotlin.collections.List
 import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
-import org.jooq.Identity
 import org.jooq.InverseForeignKey
 import org.jooq.Name
 import org.jooq.Path
@@ -30,10 +29,10 @@ import org.jooq.QueryPart
 import org.jooq.Record
 import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.Select
 import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
+import org.jooq.TableLike
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
@@ -82,7 +81,7 @@ open class KugEvent(
     /**
      * The column <code>public.kug_event.id</code>.
      */
-    val ID: TableField<KugEventRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+    val ID: TableField<KugEventRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>public.kug_event.created</code>.
@@ -161,7 +160,6 @@ open class KugEvent(
         override fun `as`(alias: Table<*>): KugEventPath = KugEventPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
-    override fun getIdentity(): Identity<KugEventRecord, Long?> = super.getIdentity() as Identity<KugEventRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<KugEventRecord> = KUG_EVENT_PKEY
     override fun getReferences(): List<ForeignKey<KugEventRecord, *>> = listOf(KUG_EVENT__KUG_EVENT_KUG_ID_FKEY, KUG_EVENT__KUG_EVENT_UPDATED_BY_FKEY)
 
@@ -198,7 +196,7 @@ open class KugEvent(
     /**
      * Create an inline derived table from this table
      */
-    override fun where(condition: Condition?): KugEvent = KugEvent(qualifiedName, if (aliased()) this else null, condition)
+    override fun where(condition: Condition?): KugEvent = KugEvent(qualifiedName, if (aliased()) this else null, Internal.condition(this, condition))
 
     /**
      * Create an inline derived table from this table
@@ -238,10 +236,10 @@ open class KugEvent(
     /**
      * Create an inline derived table from this table
      */
-    override fun whereExists(select: Select<*>): KugEvent = where(DSL.exists(select))
+    override fun whereExists(select: TableLike<*>): KugEvent = where(DSL.exists(select))
 
     /**
      * Create an inline derived table from this table
      */
-    override fun whereNotExists(select: Select<*>): KugEvent = where(DSL.notExists(select))
+    override fun whereNotExists(select: TableLike<*>): KugEvent = where(DSL.notExists(select))
 }

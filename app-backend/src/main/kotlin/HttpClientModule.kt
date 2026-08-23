@@ -1,23 +1,27 @@
-import io.heapy.komok.tech.di.delegate.bean
+import infra.lifecycle.AutoClosableModule
+import io.heapy.komok.tech.di.lib.Module
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
-import utils.close
 
-class HttpClientModule : AutoCloseable {
-    val httpClient by bean {
-        HttpClient(CIO) {
+@Module
+class HttpClientModule(
+    private val autoClosableModule: AutoClosableModule,
+) {
+    val httpClient by lazy {
+        val httpClient = HttpClient(engineFactory = CIO) {
             install(ContentNegotiation) {
                 json(json = Json {
                     ignoreUnknownKeys = true
                 })
             }
         }
-    }
 
-    override fun close() {
-        if (httpClient.isInitialized) httpClient.value.close {}
+        autoClosableModule.addClosable(
+            t = httpClient,
+            close = HttpClient::close,
+        )
     }
 }

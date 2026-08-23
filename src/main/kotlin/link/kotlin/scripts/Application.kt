@@ -16,9 +16,6 @@ fun main() {
         val articles = generator.getArticles()
         val links = generator.getLinks()
 
-        // Create README.md
-        generator.generateReadme(links)
-
         // Generate resources for site
         generator.generateSiteResources(links, articles)
 

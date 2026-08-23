@@ -3,7 +3,7 @@ package usecases.signup
 import JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
 import at.favre.lib.crypto.bcrypt.LongPasswordStrategies
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.request.receive
 import io.ktor.server.response.respond
@@ -15,10 +15,11 @@ import kotlinx.serialization.Serializable
 import ktor.KtorRoute
 import java.security.SecureRandom
 
+@Module
 class RegisterModule(
     private val jooqModule: JooqModule,
 ) {
-    val bcryptHasher by bean<BCrypt.Hasher> {
+    val bcryptHasher: BCrypt.Hasher by lazy {
         BCrypt.with(
             BCrypt.Version.VERSION_2A,
             SecureRandom(),
@@ -26,14 +27,14 @@ class RegisterModule(
         )
     }
 
-    val kotlinerDao by bean<KotlinerDao> {
-        DefaultKotlinerDao(jooqModule.dslContext.value)
+    val kotlinerDao: KotlinerDao by lazy {
+        DefaultKotlinerDao(jooqModule.dslContext)
     }
 
-    val route by bean {
+    val route by lazy {
         RegisterRoute(
-            bcryptHasher = bcryptHasher.value,
-            kotlinerDao = kotlinerDao.value,
+            bcryptHasher = bcryptHasher,
+            kotlinerDao = kotlinerDao,
         )
     }
 }

@@ -1,6 +1,6 @@
 package usecases.github
 
-import io.ktor.server.response.*
+import io.ktor.server.response.respond
 import io.ktor.server.routing.Routing
 import io.ktor.server.routing.get
 import ktor.KtorRoute

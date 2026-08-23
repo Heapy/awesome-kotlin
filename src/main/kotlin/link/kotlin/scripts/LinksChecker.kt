@@ -1,7 +1,7 @@
 package link.kotlin.scripts
 
+import io.heapy.komok.tech.logging.Logger
 import link.kotlin.scripts.utils.HttpClient
-import link.kotlin.scripts.utils.logger
 import org.apache.http.client.methods.HttpHead
 
 interface LinksChecker {
@@ -13,9 +13,7 @@ internal class NoopLinksChecker : LinksChecker {
         log.info("Skipping link check for $url")
     }
 
-    companion object {
-        val log = logger<NoopLinksChecker>()
-    }
+    companion object : Logger()
 }
 
 internal class DefaultLinksChecker(
@@ -26,14 +24,12 @@ internal class DefaultLinksChecker(
             val response = httpClient.execute(HttpHead(url))
 
             if (response.statusLine.statusCode != 200) {
-                LOGGER.error("[$url]: Response code: ${response.statusLine.statusCode}.")
+                log.error("[$url]: Response code: ${response.statusLine.statusCode}.")
             }
         } catch (e: Exception) {
-            LOGGER.error("Error ({}) checking link [$url].", e.message)
+            log.error("Error ({}) checking link [$url].", e.message)
         }
     }
 
-    companion object {
-        private val LOGGER = logger<DefaultLinksChecker>()
-    }
+    companion object : Logger()
 }

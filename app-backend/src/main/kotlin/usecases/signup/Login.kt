@@ -2,7 +2,7 @@ package usecases.signup
 
 import JooqModule
 import at.favre.lib.crypto.bcrypt.BCrypt
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import io.ktor.http.Cookie
 import io.ktor.http.HttpStatusCode
 import io.ktor.server.request.receive
@@ -14,25 +14,26 @@ import ktor.KtorRoute
 import ktor.plugins.AuthenticationException
 import kotlin.time.Duration.Companion.days
 
+@Module
 class LoginModule(
     private val jooqModule: JooqModule,
     private val jwtModule: JwtModule,
 ) {
-    val bcryptVerifier by bean<BCrypt.Verifyer> {
+    val bcryptVerifier: BCrypt.Verifyer by lazy {
         BCrypt.verifyer()
     }
 
-    val kotlinerDao by bean {
+    val kotlinerDao by lazy {
         DefaultKotlinerDao(
-            dslContext = jooqModule.dslContext.value,
+            dslContext = jooqModule.dslContext,
         )
     }
 
-    val route by bean {
+    val route by lazy {
         LoginRoute(
-            generateJwt = jwtModule.generateJwt.value,
-            bcryptVerifier = bcryptVerifier.value,
-            kotlinerDao = kotlinerDao.value,
+            generateJwt = jwtModule.generateJwt,
+            bcryptVerifier = bcryptVerifier,
+            kotlinerDao = kotlinerDao,
         )
     }
 }

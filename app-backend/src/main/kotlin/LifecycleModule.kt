@@ -1,16 +1,17 @@
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import lifecycle.GracefulShutdown
 import lifecycle.JvmShutdownManager
 import lifecycle.ShutdownManager
 
+@Module
 class LifecycleModule {
-    val shutdownHandler by bean<ShutdownManager> {
+    val shutdownHandler: ShutdownManager by lazy {
         JvmShutdownManager()
     }
 
-    val gracefulShutdown by bean {
+    val gracefulShutdown by lazy {
         GracefulShutdown().also {
-            shutdownHandler.value.addHandler(it::shutdown)
+            shutdownHandler.addHandler(it::shutdown)
         }
     }
 }

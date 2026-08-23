@@ -6,10 +6,8 @@ import link.kotlin.scripts.DefaultRssGenerator
 import link.kotlin.scripts.DefaultSiteGenerator
 import link.kotlin.scripts.DefaultSitemapGenerator
 import link.kotlin.scripts.KotlinVersionFetcher
-import link.kotlin.scripts.MarkdownReadmeGenerator
 import link.kotlin.scripts.MavenCentralKotlinVersionFetcher
 import link.kotlin.scripts.PagesGenerator
-import link.kotlin.scripts.ReadmeGenerator
 import link.kotlin.scripts.RssGenerator
 import link.kotlin.scripts.SiteGenerator
 import link.kotlin.scripts.SitemapGenerator
@@ -19,10 +17,6 @@ class SiteModule(
     private val configurationModule: ConfigurationModule,
     private val utilsModule: UtilsModule,
 ) {
-    val readmeGenerator by bean<ReadmeGenerator> {
-        MarkdownReadmeGenerator()
-    }
-
     val kotlinVersionFetcher by bean<KotlinVersionFetcher> {
         MavenCentralKotlinVersionFetcher(httpClient = utilsModule.httpClient.value)
     }

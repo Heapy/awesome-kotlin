@@ -13,6 +13,9 @@ updates:
        all:
           patterns:
             - "*"
+    labels:
+      - "dependencies"
+      - "javascript"
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
@@ -21,7 +24,10 @@ updates:
        all:
           patterns:
             - "*"
-  - package-ecosystem: github-actions
+    labels:
+      - "dependencies"
+      - "kotlin"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -29,3 +35,6 @@ updates:
        all:
           patterns:
             - "*"
+    labels:
+      - "dependencies"
+      - "github-actions"

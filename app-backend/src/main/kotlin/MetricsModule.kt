@@ -1,9 +1,10 @@
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import io.micrometer.prometheusmetrics.PrometheusConfig
 import io.micrometer.prometheusmetrics.PrometheusMeterRegistry
 
+@Module
 class MetricsModule {
-    val meterRegistry by bean {
+    val meterRegistry by lazy {
         PrometheusMeterRegistry(PrometheusConfig.DEFAULT)
     }
 }

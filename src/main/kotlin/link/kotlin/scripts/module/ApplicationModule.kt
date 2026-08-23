@@ -14,7 +14,6 @@ class ApplicationModule(
         val implementation = DefaultAwesomeKotlinGenerator(
             linksSource = linksModule.linksSource.value,
             articlesSource = articlesModule.articlesSource.value,
-            readmeGenerator = siteModule.readmeGenerator.value,
             siteGenerator = siteModule.siteGenerator.value
         )
         callLogger<AwesomeKotlinGenerator>(implementation)

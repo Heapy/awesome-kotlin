@@ -2,9 +2,7 @@
 
 ## Adding to this list
 
-This awesome list contains two views: standard github README page view, and nice website with search.
-
-**To contribute** to both places you need:
+**To contribute** to the website:
 
 1. Checkout `main` branch;
 2. Edit  **[src/main/resources/links/](https://github.com/Heapy/awesome-kotlin/tree/main/src/main/resources/links)${category}.awesome.kts**;
@@ -12,6 +10,6 @@ This awesome list contains two views: standard github README page view, and nice
 
 *Happy contributing!*
 
-## How to update website/readme?
+## How to update the website?
 
-Build on Travis CI automatically updates website and readme on pushes to **main** branch.
+Build on CI automatically updates the website on pushes to **main** branch.

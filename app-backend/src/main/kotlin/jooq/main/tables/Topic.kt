@@ -21,7 +21,6 @@ import kotlin.collections.List
 import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
-import org.jooq.Identity
 import org.jooq.InverseForeignKey
 import org.jooq.Name
 import org.jooq.Path
@@ -30,10 +29,10 @@ import org.jooq.QueryPart
 import org.jooq.Record
 import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.Select
 import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
+import org.jooq.TableLike
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
@@ -82,7 +81,7 @@ open class Topic(
     /**
      * The column <code>public.topic.id</code>.
      */
-    val ID: TableField<TopicRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+    val ID: TableField<TopicRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>public.topic.parent_id</code>.
@@ -146,7 +145,6 @@ open class Topic(
         override fun `as`(alias: Table<*>): TopicPath = TopicPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
-    override fun getIdentity(): Identity<TopicRecord, Long?> = super.getIdentity() as Identity<TopicRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<TopicRecord> = TOPIC_PKEY
     override fun getReferences(): List<ForeignKey<TopicRecord, *>> = listOf(TOPIC__TOPIC_PARENT_ID_FKEY)
 
@@ -200,7 +198,7 @@ open class Topic(
     /**
      * Create an inline derived table from this table
      */
-    override fun where(condition: Condition?): Topic = Topic(qualifiedName, if (aliased()) this else null, condition)
+    override fun where(condition: Condition?): Topic = Topic(qualifiedName, if (aliased()) this else null, Internal.condition(this, condition))
 
     /**
      * Create an inline derived table from this table
@@ -240,10 +238,10 @@ open class Topic(
     /**
      * Create an inline derived table from this table
      */
-    override fun whereExists(select: Select<*>): Topic = where(DSL.exists(select))
+    override fun whereExists(select: TableLike<*>): Topic = where(DSL.exists(select))
 
     /**
      * Create an inline derived table from this table
      */
-    override fun whereNotExists(select: Select<*>): Topic = where(DSL.notExists(select))
+    override fun whereNotExists(select: TableLike<*>): Topic = where(DSL.notExists(select))
 }

@@ -1,11 +1,11 @@
 package usecases.signup
 
 import jooq.main.enums.KotlinerStatusEnum
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import jooq.main.keys.UNIQUE_KOTLINER_EMAIL
 import jooq.main.keys.UNIQUE_KOTLINER_NICKNAME
 import jooq.main.tables.references.KOTLINER
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import ktor.plugins.ConstraintViolationException
 import ktor.plugins.ConstraintViolationFields
 import org.jooq.DSLContext

@@ -1,10 +1,10 @@
 package usecases.version
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-import tools.jackson.dataformat.xml.XmlMapper
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
+import tools.jackson.dataformat.xml.XmlMapper
 
 /**
  * Fetch latest kotlin versions from maven central.

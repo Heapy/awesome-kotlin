@@ -1,0 +1,55 @@
+# docker-compose -f docker-compose.dev.yml up -d
+name: "awesome_kotlin"
+
+services:
+  database:
+    image: "postgres:18.3"
+    restart: "always"
+    mem_limit: "128m"
+    memswap_limit: "0m"
+    environment:
+      POSTGRES_PASSWORD: "awesome_kotlin"
+      POSTGRES_USER: "awesome_kotlin"
+      POSTGRES_DB: "awesome_kotlin"
+    volumes:
+      - "pgdata:/var/lib/postgresql"
+    ports:
+      - "127.0.0.1:9567:5432"
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    mem_limit: "512m"
+    memswap_limit: "0m"
+    ports:
+      - "9566:9566"
+    depends_on:
+      - database
+    environment:
+      AWESOME__JWT__SECRET: "dev-secret"
+      AWESOME__GITHUB__CLIENT_ID: "${AWESOME__GITHUB__CLIENT_ID}"
+      AWESOME__GITHUB__CLIENT_SECRET: "${AWESOME__GITHUB__CLIENT_SECRET}"
+      AWESOME__GITHUB__REDIRECT_URL: "http://localhost:9566/auth/github"
+      AWESOME__JDBC__PORT: "5432"
+      AWESOME__JDBC__HOST: "database"
+      AWESOME__JDBC__USERNAME: "awesome_kotlin"
+      AWESOME__JDBC__PASSWORD: "awesome_kotlin"
+      AWESOME__JDBC__DATABASE_NAME: "awesome_kotlin"
+      AWESOME__SERVER__PORT: "9566"
+      AWESOME__SERVER__HOST: "0.0.0.0"
+      AWESOME__SERVER__GRACEFUL_SHUTDOWN_TIMEOUT: "10s"
+      AWESOME__SERVER__REACT_DIST_PATH: "/app/frontend/"
+      AWESOME__WEB__INTERNAL__HOST: "localhost"
+      AWESOME__WEB__INTERNAL__PORT: "9566"
+      AWESOME__WEB__INTERNAL__PROTOCOL: "http"
+      AWESOME__WEB__EXTERNAL__HOST: "localhost"
+      AWESOME__WEB__EXTERNAL__PORT: "9566"
+      AWESOME__WEB__EXTERNAL__PROTOCOL: "http"
+      GH_TOKEN: "${GH_TOKEN}"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9566/healthcheck" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+volumes:
+  pgdata:

@@ -2,8 +2,8 @@ package link.kotlin.scripts.dsl
 
 import link.kotlin.scripts.dsl.ArticleFeature.highlightjs
 import link.kotlin.scripts.dsl.LanguageCodes.EN
-import java.time.LocalDate
 import link.kotlin.scripts.model.Link
+import java.time.LocalDate
 
 enum class PlatformType {
     ANDROID,
@@ -29,24 +29,18 @@ data class Category(
     operator fun Subcategory.unaryPlus() = subcategories.add(this)
 }
 
-@DslMarker
-annotation class LinkDSL
-
-@LinkDSL
 fun category(name: String, config: Category.() -> Unit): Category {
     return Category(name = name, subcategories = mutableListOf()).apply {
         config(this)
     }
 }
 
-@LinkDSL
 fun Category.subcategory(name: String, config: Subcategory.() -> Unit) {
     val subcategory = Subcategory(name = name, links = mutableListOf())
     config(subcategory)
     this.subcategories.add(subcategory)
 }
 
-@LinkDSL
 fun Subcategory.link(config: LinkBuilder.() -> Unit) {
     val linkBuilder = LinkBuilder()
     config(linkBuilder)
@@ -63,25 +57,21 @@ class LinkBuilder {
     var kug: String? = null
 
     private var awesome: Boolean = false
-    @LinkDSL
     fun awesome() {
         this.awesome = true
     }
 
     private var archived: Boolean = false
-    @LinkDSL
     fun archived(reason: String? = null) {
         this.archived = true
     }
 
     private var platforms: List<PlatformType> = emptyList()
-    @LinkDSL
     fun setPlatforms(vararg platforms: PlatformType) {
         this.platforms = platforms.toList()
     }
 
     private var tags: List<String> = emptyList()
-    @LinkDSL
     fun setTags(vararg tags: String) {
         this.tags = tags.toList()
     }
@@ -152,6 +142,6 @@ enum class LanguageCodes(val id: String) {
 
     companion object {
         fun contains(language: String) =
-            values().map(LanguageCodes::id).contains(language)
+            entries.map(LanguageCodes::id).contains(language)
     }
 }

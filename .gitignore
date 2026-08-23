@@ -1,5 +1,4 @@
 # Generated
-/readme/README.md
 /links.json
 /articles.json
 
@@ -8,9 +7,13 @@
 
 # Intellij Idea
 .idea
-out
-*.iml
+
+# Kotlin
+.kotlin
 
 # Gradle
 .gradle
 build
+
+# macOS
+.DS_Store

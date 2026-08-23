@@ -1,15 +1,61 @@
+https://github.com/mokksy/ai-mocks
+https://github.com/Kotlin/kotlin-notebook-integrations
+https://github.com/Kotlin/kotlin-jupyter
+https://github.com/Kotlin/kotlin-jupyter-libraries
+https://github.com/watermelonKode
+https://github.com/watermelonKode/kmp-wizard-template
+https://blog.watermelonkode.com/how-to-update-the-android-gradle-plugin-to-version-9-0-0-in-a-kotlin-multiplatform-kmp-agp-9-6a2261a6a8fd
+https://blog.frankel.ch/jar-to-macos-app/
+https://github.com/amzn/app-platform
+https://kilua.dev/
+https://github.com/codeyousef/Aether
 https://kopyk.at/
 https://serranofp.com/inikio/
 https://serranofp.com/blog/context-params.html
 https://mbonnin.net/2026-02-22-kotlin-versions/
+https://github.com/kyay10/KonTinuity
+https://github.com/moneat-io/moneat
+https://github.com/Him188/yamlkt
+https://github.com/krzema12/snakeyaml-engine-kmp
+https://github.com/fork-handles/forkhandles
+kaml -> https://github.com/Heapy/kotaml
+https://github.com/a-sit-plus/awesn1
+https://github.com/ensody/Kompressor
+https://github.com/Kotlin/kotlin-agent-skills
+https://github.com/connectrpc/connect-kotlin
+https://github.com/theopenconversationkit/tock
+https://github.com/bezsahara/TelegramKitty
+https://www.reddit.com/r/Kotlin/comments/1qv36fr/do_you_think_java_has_caught_up_with_kotlin/
+https://github.com/bezsahara/CustomIndy
+https://github.com/drewhamilton/Poko
 Technology Radar
 Passkeys
 Followers
 Tags -> Topics
 Topic: Graph
 https://awesomejava.resamvi.io/
+https://akkurate.dev/
+https://github.com/UselessMnemonic/Pak
+https://github.com/daniel-rusu/pods4k/tree/main
+https://github.com/Saumya-Bhatt/karya
+https://github.com/nbadal/ktlint-intellij-plugin
+https://github.com/mockoon/mockoon
+https://github.com/kevincianfarini/alchemist
+https://strikt.io/
+https://github.com/fluxo-kt/fluxo
 
 Possible categories:
+
+User Interface
+Networking & APIs
+Persistence & Storage
+Architecture Components
+Concurrency & Asynchronous Programming
+Image & Media Handling
+Analytics, Logging, & Monitoring
+Developer Tooling
+Frameworks
+Miscellaneous
 Serialization
 Text processing
 Graphics
@@ -20,6 +66,7 @@ Templating (Templating Engines)
 Operating system
 Automation
 Telegram (Clients?)
+Dependency Injection
 FS
 Game development
 User Interface toolkits
@@ -28,7 +75,7 @@ Syntax highlighting
 GitHub actions (CI/CD?)
 Blogs
 Books
-Cources
+Courses
 Tutorials
 Built With Kotlin
 Testing (+Assertion, Coverage)
@@ -44,7 +91,7 @@ Scripting
 Build Tools
 Serverless
 Benchmarking
-Compiller Plugins
+Compiler Plugins
 Boilerplates
 REPL
 Editor Support
@@ -686,6 +733,7 @@ https://medium.com/uptech-team/how-kotlin-became-our-primary-language-for-androi
 http://otfried.org/courses/cs109/index.html
 
 https://github.com/orangy/squash
+https://github.com/cashapp/misk
 https://github.com/ilya-g/gradle-multitarget-nested
 https://github.com/cy6erGn0m/kotlin-rxokhttp-websocket
 https://github.com/zengzhihao/rxpromise-kotlin
@@ -700,7 +748,7 @@ http://us12.campaign-archive2.com/?u=f39692e245b94f7fb693b6d82&id=5436cdfa62
 https://www.novoda.com/blog/composing-functions-in-kotlin-with-extensions-and-operators/
 https://www.raywenderlich.com/132381/kotlin-for-android-an-introduction
 https://www.linkedin.com/pulse/adventures-blot-rxkotlin-john-farrell
-
+https://github.com/connectrpc/connect-kotlin
 https://github.com/penemue/modular-arithmetik
 https://github.com/AntonRutkevich/annotation-processor-in-kotlin-setup
 
@@ -1955,3 +2003,6 @@ https://github.com/arunkumar9t2/transition-x
 https://blog.jetbrains.com/kotlin/2018/09/kotlin-1-3-rc-is-here-migrate-your-coroutines/
 https://chao2zhang.medium.com/unraveling-mockks-black-magic-e725c61ed9dd
 https://kmp.icerock.dev
+https://github.com/ZacSweers/metro
+https://github.com/square/wire
+https://github.com/cdpdriver/kdriver

@@ -1,13 +1,14 @@
-import io.heapy.komok.tech.di.delegate.bean
+import io.heapy.komok.tech.di.lib.Module
 import org.flywaydb.core.Flyway
 
+@Module
 class FlywayModule(
     private val jdbcModule: JdbcModule,
 ) {
-    val flyway by bean<Flyway> {
+    val flyway: Flyway by lazy {
         Flyway.configure()
             .locations("classpath:db/migration/main")
-            .dataSource(jdbcModule.dataSource.value)
+            .dataSource(jdbcModule.dataSource)
             .load()
     }
 }

@@ -2,7 +2,6 @@ package link.kotlin.scripts.utils
 
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.CancellationException
-import kotlinx.coroutines.cancelFutureOnCancellation
 import kotlinx.coroutines.suspendCancellableCoroutine
 import org.apache.http.HttpResponse
 import org.apache.http.client.methods.HttpUriRequest
@@ -42,7 +41,7 @@ private suspend fun HttpAsyncClient.execute(request: HttpUriRequest): HttpRespon
             }
         })
 
-        cont.cancelFutureOnCancellation(future)
+        cont.invokeOnCancellation { future.cancel(false) }
         Unit
     }
 }

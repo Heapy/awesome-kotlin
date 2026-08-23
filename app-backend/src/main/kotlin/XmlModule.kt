@@ -1,9 +1,10 @@
+import io.heapy.komok.tech.di.lib.Module
 import tools.jackson.dataformat.xml.XmlMapper
 import tools.jackson.module.kotlin.kotlinModule
-import io.heapy.komok.tech.di.delegate.bean
 
+@Module
 class XmlModule {
-    val xmlMapper by bean {
+    val xmlMapper: XmlMapper by lazy {
         XmlMapper.builder()
             .addModule(kotlinModule { })
             .build()

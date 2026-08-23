@@ -1,5 +1,7 @@
 package utils
 
+import io.heapy.komok.tech.logging.logger
+
 fun AutoCloseable.close(block: () -> Unit) {
     try {
         this.use {}

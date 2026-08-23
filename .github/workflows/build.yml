@@ -16,7 +16,7 @@ jobs:
       - run: yarn install --check-cache
         working-directory: app-frontend
   build:
-    name: "Build on JDK 21 and Node.JS 24.x"
+    name: "Build on JDK 25 and Node.JS 24.x"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -27,7 +27,7 @@ jobs:
           key: kotlin-scripts-cache
       - uses: actions/setup-java@v5
         with:
-          java-version: "21"
+          java-version: "25"
           distribution: "liberica"
       - uses: gradle/actions/setup-gradle@v6
       - run: ./gradlew check installDist
@@ -49,8 +49,8 @@ jobs:
           retention-days: 1
       - uses: actions/upload-artifact@v7
         with:
-          name: "Readme"
-          path: "readme/"
+          name: "Backend Application"
+          path: "app-backend/build/install/awesome/"
           retention-days: 1
   build-and-push-image:
     if: ${{ github.ref == 'refs/heads/main' }}
@@ -64,8 +64,8 @@ jobs:
           path: "app-frontend/dist/"
       - uses: actions/download-artifact@v8
         with:
-          name: "Readme"
-          path: "readme/"
+          name: "Backend Application"
+          path: "app-backend/build/install/awesome/"
       - run: ls -laR
       - name: "Set up Docker Buildx"
         uses: docker/setup-buildx-action@v4
@@ -80,11 +80,5 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          context: app-frontend
+          context: .
           tags: ghcr.io/heapy/awesome-kotlin:main
-      - name: "Deploy Readme"
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./readme
-          publish_branch: readme

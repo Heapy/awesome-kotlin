@@ -1,15 +1,17 @@
-import io.heapy.komok.tech.di.delegate.bean
+import infra.config.ConfigModule
+import infra.config.decode
+import infra.utils.withEach
+import io.heapy.komok.tech.di.lib.Module
 import io.ktor.server.auth.authenticate
 import io.ktor.server.auth.jwt.JWTPrincipal
 import io.ktor.server.auth.principal
 import io.ktor.server.cio.CIO
 import io.ktor.server.engine.embeddedServer
+import io.ktor.server.http.content.staticFiles
 import io.ktor.server.response.respond
 import io.ktor.server.routing.get
 import io.ktor.server.routing.routing
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.hocon.Hocon
-import kotlinx.serialization.hocon.decodeFromConfig
 import ktor.plugins.configureMonitoring
 import ktor.plugins.configureSockets
 import ktor.plugins.defaults
@@ -20,9 +22,10 @@ import usecases.ping.PingModule
 import usecases.signup.JwtModule
 import usecases.signup.LoginModule
 import usecases.signup.RegisterModule
-import utils.withEach
+import java.io.File
 import kotlin.time.Duration
 
+@Module
 class ServerModule(
     private val githubModule: GithubModule,
     private val pingModule: PingModule,
@@ -35,29 +38,27 @@ class ServerModule(
     private val lifecycleModule: LifecycleModule,
     private val configModule: ConfigModule,
 ) {
-    val unauthenticatedRoutes by bean {
+    val unauthenticatedRoutes by lazy {
         listOf(
-            githubModule.githubRedirectRoute.value,
-            githubModule.githubCallbackRoute.value,
+            githubModule.githubRedirectRoute,
+            githubModule.githubCallbackRoute,
 
-            pingModule.route.value,
+            pingModule.route,
 
-            loginModule.route.value,
-            registerModule.route.value,
+            loginModule.route,
+            registerModule.route,
 
-            linksModule.route.value,
-            kugModule.getKugRoute.value,
-            kugModule.updateKugsRoute.value,
+            linksModule.route,
+            kugModule.getKugRoute,
+            kugModule.updateKugsRoute,
         )
     }
 
-    val ktorServer by bean {
+    val ktorServer by lazy {
         System.setProperty("io.ktor.server.engine.ShutdownHook", "false")
 
-        val unauthenticatedRoutes = unauthenticatedRoutes.value
-        val jwtConfig = jwtModule.jwtConfig.value
-        val serverConfig = serverConfig.value
-        val meterRegistry = metricsModule.meterRegistry.value
+        val jwtConfig = jwtModule.jwtConfig
+        val meterRegistry = metricsModule.meterRegistry
 
         embeddedServer(
             factory = CIO,
@@ -67,6 +68,10 @@ class ServerModule(
             defaults(jwtConfig)
 
             routing {
+                staticFiles("/", File(serverConfig.reactDistPath)) {
+                    default("index.html")
+                }
+
                 unauthenticatedRoutes.withEach {
                     install()
                 }
@@ -83,7 +88,7 @@ class ServerModule(
             configureSockets()
             configureMonitoring(meterRegistry)
         }.also { server ->
-            lifecycleModule.shutdownHandler.value.addHandler {
+            lifecycleModule.shutdownHandler.addHandler {
                 server.stop(
                     gracePeriodMillis = serverConfig.gracefulShutdownTimeout.inWholeMilliseconds,
                     timeoutMillis = 5000,
@@ -92,8 +97,8 @@ class ServerModule(
         }
     }
 
-    val serverConfig by bean<ServerConfig> {
-        Hocon.decodeFromConfig(configModule.config.value.getConfig("server"))
+    val serverConfig: ServerConfig by lazy {
+        configModule.decode("server")
     }
 
     @Serializable
@@ -101,5 +106,6 @@ class ServerModule(
         val port: Int,
         val host: String,
         val gracefulShutdownTimeout: Duration,
+        val reactDistPath: String,
     )
 }

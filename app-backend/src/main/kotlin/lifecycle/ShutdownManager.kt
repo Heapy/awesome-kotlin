@@ -1,7 +1,7 @@
 package lifecycle
 
+import io.heapy.komok.tech.logging.Logger
 import kotlinx.coroutines.runBlocking
-import utils.logger
 import kotlin.concurrent.thread
 
 interface ShutdownManager {
@@ -35,7 +35,5 @@ class JvmShutdownManager : ShutdownManager {
         })
     }
 
-    private companion object {
-        private val log = logger<JvmShutdownManager>()
-    }
+    private companion object : Logger()
 }

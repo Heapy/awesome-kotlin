@@ -14,20 +14,20 @@ class KugDownloadServiceTest {
     private val yamlModule = buildModule<YamlModule>()
 
     private val kugDownloadService = KugDownloadService(
-        yaml = yamlModule.yaml.value,
-        httpClient = httpClientModule.httpClient.value,
+        yaml = yamlModule.yaml,
+        httpClient = httpClientModule.httpClient,
     )
 
     @AfterEach
     fun close() {
-        httpClientModule.close()
+        // TODO: autoclosableModule.close()
     }
 
     @Test
     fun `test getting yaml file with user groups`() = runTest {
         val yaml = kugDownloadService.download()
 
-        if (!yaml.contains("https://bkug.by/")) {
+        if (!yaml.contains("https://www.meetup.com/kotlin-amsterdam/")) {
             assertionFailure()
                 .message("yaml")
                 .expected("Yaml with Kotlin User Groups")
@@ -39,21 +39,21 @@ class KugDownloadServiceTest {
     @Test
     fun `test parsing yaml file with user groups`() = runTest {
         val sections = kugDownloadService.pull()
-        val bkug = sections.find { it.section == "Europe" }
+        val amsterdamKug = sections.find { it.section == "Europe" }
             ?.groups
-            ?.find { it.url == "https://bkug.by/" }
+            ?.find { it.url == "https://www.meetup.com/kotlin-amsterdam/" }
 
         assertEquals(
             KugDownloadService.Kug(
-                name = "Belarus KUG",
-                country = "Belarus",
-                url = "https://bkug.by/",
+                name = "Amsterdam KUG",
+                country = "Netherlands",
+                url = "https://www.meetup.com/kotlin-amsterdam/",
                 position = KugDownloadService.Position(
-                    lat = 53.709807,
-                    lng = 27.953389,
+                    lat = 52.3675734,
+                    lng = 4.9041389,
                 ),
             ),
-            bkug
+            amsterdamKug
         )
     }
 }

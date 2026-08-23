@@ -20,7 +20,6 @@ import kotlin.collections.List
 import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
-import org.jooq.Identity
 import org.jooq.InverseForeignKey
 import org.jooq.Name
 import org.jooq.Path
@@ -29,10 +28,10 @@ import org.jooq.QueryPart
 import org.jooq.Record
 import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.Select
 import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
+import org.jooq.TableLike
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
@@ -81,7 +80,7 @@ open class Comment(
     /**
      * The column <code>public.comment.id</code>.
      */
-    val ID: TableField<CommentRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false).identity(true), this, "")
+    val ID: TableField<CommentRecord, Long?> = createField(DSL.name("id"), SQLDataType.BIGINT.nullable(false), this, "")
 
     /**
      * The column <code>public.comment.parent_id</code>.
@@ -145,7 +144,6 @@ open class Comment(
         override fun `as`(alias: Table<*>): CommentPath = CommentPath(alias.qualifiedName, this)
     }
     override fun getSchema(): Schema? = if (aliased()) null else Public.PUBLIC
-    override fun getIdentity(): Identity<CommentRecord, Long?> = super.getIdentity() as Identity<CommentRecord, Long?>
     override fun getPrimaryKey(): UniqueKey<CommentRecord> = COMMENT_PKEY
     override fun getReferences(): List<ForeignKey<CommentRecord, *>> = listOf(COMMENT__COMMENT_KOTLINER_ID_FKEY, COMMENT__COMMENT_PARENT_ID_FKEY)
 
@@ -182,7 +180,7 @@ open class Comment(
     /**
      * Create an inline derived table from this table
      */
-    override fun where(condition: Condition?): Comment = Comment(qualifiedName, if (aliased()) this else null, condition)
+    override fun where(condition: Condition?): Comment = Comment(qualifiedName, if (aliased()) this else null, Internal.condition(this, condition))
 
     /**
      * Create an inline derived table from this table
@@ -222,10 +220,10 @@ open class Comment(
     /**
      * Create an inline derived table from this table
      */
-    override fun whereExists(select: Select<*>): Comment = where(DSL.exists(select))
+    override fun whereExists(select: TableLike<*>): Comment = where(DSL.exists(select))
 
     /**
      * Create an inline derived table from this table
      */
-    override fun whereNotExists(select: Select<*>): Comment = where(DSL.notExists(select))
+    override fun whereNotExists(select: TableLike<*>): Comment = where(DSL.notExists(select))
 }
