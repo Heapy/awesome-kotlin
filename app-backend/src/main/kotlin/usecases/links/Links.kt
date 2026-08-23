@@ -77,6 +77,13 @@ class LinkSource {
 data class LinkV1(
     val name: String? = null,
     val github: String? = null,
+    /**
+     * Upstream repository this entry was forked from.
+     *
+     * [github] points to the fork we show. If the upstream becomes more
+     * recently updated than the fork, the upstream should be shown instead.
+     */
+    val forkOf: String? = null,
     val bitbucket: String? = null,
     val kug: String? = null,
     val href: String? = null,
