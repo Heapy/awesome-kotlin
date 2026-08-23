@@ -717,6 +717,12 @@ category("Android") {
       desc = "vgo is a tool for optimizing and converting between vector artwork representations."
       setTags("drawables", "icons", "gradle-plugin")
     }
+    link {
+      github = "azikar24/WormaCeptor"
+      desc = "All-in-one on-device Android debugging toolkit with 20+ features including network inspection, performance monitoring, crash reporting, leak detection, and more."
+      setTags("debugging", "network-inspector", "okhttp", "ktor", "jetpack-compose")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Tests") {
     link {
