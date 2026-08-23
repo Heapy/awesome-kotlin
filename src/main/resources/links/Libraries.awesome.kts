@@ -2010,6 +2010,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
     }
     link {
+      github = "elzinko/kexpresso"
+      desc = "Fluent Kotlin Multiplatform DSL for building, analyzing, and explaining regular expressions. Includes ReDoS detection, AST-based example generation, and reverse engineering from raw regex. Compiles to standard Regex with zero match-time overhead."
+      setPlatforms(COMMON, JVM, JS, NATIVE, IOS, WASM)
+      setTags("multiplatform", "regex", "dsl", "redos", "analysis")
+    }
+    link {
       github = "bipokot/Kabu"
       desc = "The fastest way to create complex Kotlin DSL"
       setTags("dsl", "kotlin", "codegenerator")
