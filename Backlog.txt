@@ -2006,3 +2006,4 @@ https://kmp.icerock.dev
 https://github.com/ZacSweers/metro
 https://github.com/square/wire
 https://github.com/cdpdriver/kdriver
+https://github.com/emirhan-duman/Crisis-Connect - Crisis Connect: An open-source, offline-first mesh messaging app over Bluetooth built with Kotlin and Jetpack Compose.
