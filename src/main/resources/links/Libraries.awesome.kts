@@ -876,6 +876,12 @@ category("Libraries/Frameworks") {
       setTags("database", "query", "jpa")
     }
     link {
+      github = "HarryJhin/querydsl-ktx"
+      desc = "Null-safe infix Kotlin extensions for QueryDSL dynamic queries."
+      setTags("database", "sql", "querydsl", "jpa", "spring-data", "type-safe builder")
+      setPlatforms(JVM)
+    }
+    link {
       github = "Ganet/rxaerospike"
       desc = "RxJava2 wrapper for aerospike-client-java."
       setTags("database", "arospike", "rx", "rxjava2")
