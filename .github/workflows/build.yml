@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24.x
       - run: yarn install --check-cache
@@ -35,7 +35,7 @@ jobs:
         run: ./build/install/awesome-kotlin/bin/awesome-kotlin
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24.x
       - run: yarn install
