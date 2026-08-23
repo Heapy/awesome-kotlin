@@ -235,6 +235,12 @@ category("Libraries/Frameworks") {
       desc = "A Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing."
       setTags("kotlin", "ddd", "cqrs", "eventsourcing", "eda", "microservice", "reactive", "mongodb", "r2dbc", "kafka", "test-driven", "opentelemetry", "webflux", "spring-boot")
     }
+    link {
+      github = "BK202503/bk-spring-saga"
+      desc = "Kotlin-first, coroutine-native Saga orchestrator for Spring Boot. Durable resume of interrupted sagas, JDBC (H2/Postgres) and Kafka event modules, autoconfigure starter."
+      setPlatforms(JVM)
+      setTags("kotlin", "spring-boot", "saga", "coroutines", "microservice", "distributed-transactions", "jdbc", "postgres", "kafka")
+    }
   }
   subcategory("Testing") {
     link {
