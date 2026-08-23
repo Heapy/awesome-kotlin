@@ -280,6 +280,11 @@ category("Libraries/Frameworks") {
       setTags("test", "bdd", "gherkin")
     }
     link {
+      github = "kensa-dev/kensa"
+      desc = "A code-first BDD testing framework for Kotlin."
+      setTags("test", "bdd", "junit", "kotest", "testng", "hamkrest")
+    }
+    link {
       github = "EPadronU/balin"
       desc = "Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb."
       setTags("test", "selenium", "UI", "automation")
