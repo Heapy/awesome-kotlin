@@ -280,6 +280,11 @@ category("Libraries/Frameworks") {
       setTags("test", "bdd", "gherkin")
     }
     link {
+      github = "kensa-dev/kensa"
+      desc = "A code-first BDD testing framework for Kotlin."
+      setTags("test", "bdd", "junit", "kotest", "testng", "hamkrest")
+    }
+    link {
       github = "EPadronU/balin"
       desc = "Balin is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Geb."
       setTags("test", "selenium", "UI", "automation")
@@ -871,6 +876,12 @@ category("Libraries/Frameworks") {
       setTags("database", "query", "jpa")
     }
     link {
+      github = "HarryJhin/querydsl-ktx"
+      desc = "Null-safe infix Kotlin extensions for QueryDSL dynamic queries."
+      setTags("database", "sql", "querydsl", "jpa", "spring-data", "type-safe builder")
+      setPlatforms(JVM)
+    }
+    link {
       github = "Ganet/rxaerospike"
       desc = "RxJava2 wrapper for aerospike-client-java."
       setTags("database", "arospike", "rx", "rxjava2")
@@ -973,12 +984,25 @@ category("Libraries/Frameworks") {
       setTags("database", "hbase", "nosql", "user-interactions", "precomputed", "scale", "spring-webflux")
       setPlatforms(JVM)
     }
+    link {
+      github = "alfonsoristorato/jpa-spec-kotlin-dsl"
+      href = "https://alfonsoristorato.github.io/jpa-spec-kotlin-dsl"
+      desc = "Type-safe Kotlin DSL for building JPA Specification, PredicateSpecification and Predicate queries using property references."
+      setTags("database", "jpa", "spring", "spring-data", "dsl", "kotlin-dsl", "query", "jpa-specification")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
       github = "SonarSource/sonarlint-intellij"
       desc = "An IDE extension that helps you detect and fix quality issues as you write code."
       setTags("scripting", "ide", "linter", "language")
+    }
+    link {
+      github = "Shashwat-Gupta57/Jctx"
+      desc = "Python-powered CLI (v2.0.0) that extracts structured, architecture-aware context from Kotlin and Java codebases for LLMs."
+      setPlatforms(JVM, ANDROID)
+      setTags("tools", "cli", "ai", "llm", "context", "kotlin", "java", "dependency-graph")
     }
     link {
       github = "Kotlin/dokka"
