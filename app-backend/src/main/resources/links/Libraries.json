@@ -3694,28 +3694,6 @@
                     "archived": false,
                     "unsupported": false,
                     "awesome": false
-                },
-                {
-                    "name": null,
-                    "github": "xberg-io/crawlberg",
-                    "bitbucket": null,
-                    "kug": null,
-                    "href": null,
-                    "desc": "High-performance web crawling and scraping engine with HTML-to-Markdown conversion and a headless-Chrome fallback — a Kotlin binding over a Rust core.",
-                    "platforms": [
-                        "JVM",
-                        "ANDROID"
-                    ],
-                    "tags": [
-                        "crawler",
-                        "scraping",
-                        "http"
-                    ],
-                    "star": null,
-                    "update": null,
-                    "archived": false,
-                    "unsupported": false,
-                    "awesome": true
                 }
             ]
         },
@@ -5460,50 +5438,6 @@
                     "archived": false,
                     "unsupported": false,
                     "awesome": false
-                },
-                {
-                    "name": null,
-                    "github": "xberg-io/xberg",
-                    "bitbucket": null,
-                    "kug": null,
-                    "href": null,
-                    "desc": "Document intelligence library that extracts text, tables, and metadata from PDFs, Office documents, images, and 97+ formats with optional OCR — a Kotlin/Android binding over a Rust core.",
-                    "platforms": [
-                        "JVM",
-                        "ANDROID"
-                    ],
-                    "tags": [
-                        "document",
-                        "extraction",
-                        "ocr",
-                        "pdf"
-                    ],
-                    "star": null,
-                    "update": null,
-                    "archived": false,
-                    "unsupported": false,
-                    "awesome": true
-                },
-                {
-                    "name": null,
-                    "github": "xberg-io/html-to-markdown",
-                    "bitbucket": null,
-                    "kug": null,
-                    "href": null,
-                    "desc": "Fast, CommonMark-compliant HTML to Markdown converter — a Kotlin binding over a Rust core.",
-                    "platforms": [
-                        "JVM",
-                        "ANDROID"
-                    ],
-                    "tags": [
-                        "html",
-                        "markdown"
-                    ],
-                    "star": null,
-                    "update": null,
-                    "archived": false,
-                    "unsupported": false,
-                    "awesome": true
                 }
             ]
         },
@@ -5619,27 +5553,6 @@
                     "archived": false,
                     "unsupported": false,
                     "awesome": false
-                },
-                {
-                    "name": null,
-                    "github": "xberg-io/tree-sitter-language-pack",
-                    "bitbucket": null,
-                    "kug": null,
-                    "href": null,
-                    "desc": "Pre-built tree-sitter grammars for 300+ languages with a unified parser API — a Kotlin/Android binding over a Rust core.",
-                    "platforms": [
-                        "JVM",
-                        "ANDROID"
-                    ],
-                    "tags": [
-                        "parser",
-                        "tree-sitter"
-                    ],
-                    "star": null,
-                    "update": null,
-                    "archived": false,
-                    "unsupported": false,
-                    "awesome": true
                 }
             ]
         },
@@ -7291,28 +7204,6 @@
                     "archived": false,
                     "unsupported": false,
                     "awesome": false
-                },
-                {
-                    "name": null,
-                    "github": "xberg-io/liter-llm",
-                    "bitbucket": null,
-                    "kug": null,
-                    "href": null,
-                    "desc": "Universal LLM API client for 142+ providers with a unified interface and streaming — a Kotlin binding over a Rust core.",
-                    "platforms": [
-                        "JVM",
-                        "ANDROID"
-                    ],
-                    "tags": [
-                        "llm",
-                        "api",
-                        "openai"
-                    ],
-                    "star": null,
-                    "update": null,
-                    "archived": false,
-                    "unsupported": false,
-                    "awesome": true
                 }
             ]
         },
