@@ -1,13 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es2020",
+    "module": "preserve",
+    "moduleResolution": "bundler",
     "jsx": "react",
     "lib": [
       "dom",
-      "es5",
-      "es6",
-      "es7"
-    ]
+      "dom.iterable",
+      "es2020"
+    ],
+    "types": [
+      "node"
+    ],
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   }
 }
