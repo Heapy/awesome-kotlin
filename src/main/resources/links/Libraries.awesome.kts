@@ -486,6 +486,12 @@ category("Libraries/Frameworks") {
       desc = "Lightweight mutation testing that compiles once and runs directly in your test suite — implemented as a Kotlin K2 compiler plugin."
       setTags("test", "testing", "mutation-testing", "compiler-plugin")
     }
+    link {
+      github = "nielsfalk/kotlin-datatable-plugin"
+      desc = "Test Parametetisation plugin with a beautiful dsl to write tabular data."
+      setTags("test", "testing", "gradle-plugin")
+      setPlatforms(COMMON, JVM, ANDROID, JS, NATIVE)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
