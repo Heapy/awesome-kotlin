@@ -25,7 +25,7 @@ jobs:
         with:
           path: ~/.cache/awesome-kotlin
           key: kotlin-scripts-cache
-      - uses: actions/setup-java@v5
+      - uses: actions/setup-java@v6
         with:
           java-version: "25"
           distribution: "liberica"
