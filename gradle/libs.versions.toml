@@ -2,11 +2,11 @@
 bcrypt = "0.10.2"
 bouncycastle = "1.85"
 commonmark = "0.30.0"
-flyway = "13.3.0"
+flyway = "13.4.0"
 hikari = "7.1.0"
 jackson = "3.2.2"
 jooq = "3.21.7"
-jsoup = "1.23.1"
+jsoup = "1.23.2"
 junit = "6.1.3"
 kaml = "0.104.0"
 komok = "1.1.0"
@@ -21,7 +21,7 @@ mockk = "1.14.11"
 postgresql = "42.7.13"
 rome = "2.1.0"
 sitemapgen4j = "1.1.2"
-xmlutil = "1.0.2"
+xmlutil = "1.0.2.1"
 
 [libraries]
 bcrypt = { module = "at.favre.lib:bcrypt", version.ref = "bcrypt" }
