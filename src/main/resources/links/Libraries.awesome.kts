@@ -1431,6 +1431,11 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin multiplatform 2D game development framework based on OpenGL that is inspired by libGDX and KorGE. Current platforms: JVM, Web, and Android."
       setTags("multiplatform", "desktop", "webgl", "android", "games", "game-dev")
     }
+    link {
+      github = "nobodywho-ooo/nobodywho"
+      desc = "On-device LLM inference engine for embedding local, offline AI characters and dialogue in games - no server or API key. Rust + llama.cpp, with streaming generation, embeddings, GBNF grammar-constrained structured output and Whisper speech-to-text."
+      setTags("games", "game-dev", "llm", "ai", "native")
+    }
   }
   subcategory("Misc") {
     link {
