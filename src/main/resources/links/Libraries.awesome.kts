@@ -2062,6 +2062,30 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
     }
+    link {
+      github = "HarlonWang/kmp-webview"
+      desc = "Batteries-included WebView SDK for Kotlin Multiplatform: UI scaffolding, a two-way JS bridge and file/camera support."
+      setPlatforms(COMMON, ANDROID, IOS)
+      setTags("webview", "jsbridge", "compose-multiplatform", "kotlin-multiplatform", "android", "ios")
+    }
+    link {
+      github = "HarlonWang/quickjs-kmp"
+      desc = "Kotlin Multiplatform bindings for QuickJS, the ES2025 JavaScript engine by Fabrice Bellard."
+      setPlatforms(COMMON, ANDROID, IOS)
+      setTags("quickjs", "javascript", "javascript-engine", "kotlin-multiplatform", "android", "ios")
+    }
+    link {
+      github = "HarlonWang/eventbase-kt"
+      desc = "Kotlin Multiplatform analytics client with typed events, a persistent offline queue and batched upload. No device identifiers collected."
+      setPlatforms(COMMON, ANDROID, IOS)
+      setTags("analytics", "event-tracking", "offline-first", "ktor", "kotlin-multiplatform", "android", "ios")
+    }
+    link {
+      github = "HarlonWang/loginbase-kt"
+      desc = "Kotlin Multiplatform auth client: email OTP, social OAuth, session storage and single-flight token refresh."
+      setPlatforms(COMMON, ANDROID, IOS)
+      setTags("auth", "oauth2", "passwordless", "token-refresh", "ktor", "kotlin-multiplatform", "android", "ios")
+    }
   }
   subcategory("Cryptography") {
     link {
