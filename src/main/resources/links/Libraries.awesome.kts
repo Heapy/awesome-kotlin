@@ -2556,6 +2556,18 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, ANDROID)
     }
     link {
+      github = "christoph-sens/sqsoverflow"
+      desc = "Kotlin port of the Amazon SQS Extended Client Library: transparently offloads large message bodies to S3, built on aws-sdk-kotlin and coroutines."
+      setPlatforms(JVM)
+      setTags("aws", "sqs", "s3", "coroutines")
+    }
+    link {
+      github = "christoph-sens/snsoverflow"
+      desc = "Kotlin port of the Amazon SNS Extended Client Library: transparently offloads large message bodies to S3, built on aws-sdk-kotlin and coroutines."
+      setPlatforms(JVM)
+      setTags("aws", "sns", "s3", "coroutines")
+    }
+    link {
       github = "xberg-io/liter-llm"
       desc = "Universal LLM API client for 142+ providers with a unified interface and streaming — a Kotlin binding over a Rust core."
       setPlatforms(JVM, ANDROID)
