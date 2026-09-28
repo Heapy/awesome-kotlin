@@ -1431,6 +1431,11 @@ category("Libraries/Frameworks") {
       desc = "A Kotlin multiplatform 2D game development framework based on OpenGL that is inspired by libGDX and KorGE. Current platforms: JVM, Web, and Android."
       setTags("multiplatform", "desktop", "webgl", "android", "games", "game-dev")
     }
+    link {
+      github = "rehaancubess/joyframe-kmp"
+      desc = "Kotlin Multiplatform toolkit for smooth 3D games: OpenGL, Metal and WebGL rendering, chase camera, split screen, game controllers, tilt steering and non-blocking audio. Current platforms: Android, iOS, JVM desktop and Web (Wasm)."
+      setTags("multiplatform", "desktop", "android", "ios", "webgl", "wasm", "games", "game-dev")
+    }
   }
   subcategory("Misc") {
     link {
