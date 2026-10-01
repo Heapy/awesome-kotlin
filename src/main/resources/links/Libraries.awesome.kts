@@ -259,6 +259,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("kotlin", "spring-boot", "saga", "coroutines", "microservice", "distributed-transactions", "jdbc", "postgres", "kafka")
     }
+    link {
+      github = "Nick-Abbott/Mosaic"
+      desc = "A cleaner way to orchestrate backend application logic."
+      setPlatforms(JVM)
+      setTags("framework", "coroutines", "cache", "dsl", "dependency injection", "orchestration", "concurrency", "batching")
+    }
   }
   subcategory("Testing") {
     link {
