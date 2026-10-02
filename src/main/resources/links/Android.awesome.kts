@@ -673,6 +673,11 @@ category("Android") {
       desc = "Feature Rich & Highly Customizable Workout Log App."
       setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines", "flow", "jetpack-compose", "room", "workout", "multi-module")
     }
+    link {
+      github = "HarlonWang/TrendingAI"
+      desc = "Global tech trends from GitHub Trending, Hacker News and Product Hunt, picked and summarized by AI. Built with Kotlin Multiplatform and Compose Multiplatform for Android and iOS."
+      setTags("kotlin-multiplatform", "compose-multiplatform", "android", "ios", "ai")
+    }
   }
   subcategory("Extensions") {
     link {
