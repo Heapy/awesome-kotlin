@@ -504,6 +504,12 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "gradle-plugin")
       setPlatforms(COMMON, JVM, ANDROID, JS, NATIVE)
     }
+    link {
+      github = "supercorp-ai/supercov"
+      desc = "Line, branch and MC/DC coverage per test for JUnit, Kotest, Spock and TestNG, by wrapping the Gradle or Maven test command."
+      setTags("test", "testing", "coverage")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
