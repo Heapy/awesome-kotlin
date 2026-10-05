@@ -260,7 +260,7 @@ category("Libraries/Frameworks") {
       setTags("kotlin", "spring-boot", "saga", "coroutines", "microservice", "distributed-transactions", "jdbc", "postgres", "kafka")
     }
     link {
-      github = "Nick-Abbott/Mosaic"
+      github = "BuildMosaic/Mosaic"
       desc = "A cleaner way to orchestrate backend application logic."
       setPlatforms(JVM)
       setTags("framework", "coroutines", "cache", "dsl", "dependency injection", "orchestration", "concurrency", "batching")
