@@ -1045,6 +1045,12 @@ category("Libraries/Frameworks") {
       setTags("database", "vector-database", "vector-search", "qdrant", "rag", "embeddings", "coroutines")
       setPlatforms(JVM)
     }
+    link {
+      github = "imad213dev/outsync"
+      desc = "Offline-first sync engine for Android and Kotlin Multiplatform: local-first writes, a persistent outbox, automatic sync with WorkManager and pluggable conflict resolution, on top of your own database and API."
+      setTags("database", "offline-first", "sync", "local-first", "android", "workmanager", "conflict-resolution")
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Tools") {
     link {
