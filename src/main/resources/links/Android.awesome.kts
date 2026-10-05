@@ -673,6 +673,11 @@ category("Android") {
       desc = "Feature Rich & Highly Customizable Workout Log App."
       setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines", "flow", "jetpack-compose", "room", "workout", "multi-module")
     }
+    link {
+      github = "dracu-lah/TMPlayer"
+      desc = "An open-source Telegram video player for Android TV."
+      setTags("kotlin", "compose-multiplatform", "media3", "telegram")
+    }
   }
   subcategory("Extensions") {
     link {
