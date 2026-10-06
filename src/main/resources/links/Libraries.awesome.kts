@@ -1051,6 +1051,12 @@ category("Libraries/Frameworks") {
       setTags("database", "offline-first", "sync", "local-first", "android", "workmanager", "conflict-resolution")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "Cratis/Chronicle.Kotlin"
+      desc = "Event sourcing client for Kotlin and Java on the JVM for Cratis Chronicle, with a Spring Boot starter."
+      setTags("event-sourcing", "cqrs", "database", "java", "spring-boot", "projections")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
