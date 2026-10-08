@@ -261,6 +261,7 @@ category("Libraries/Frameworks") {
     }
     link {
       github = "BuildMosaic/Mosaic"
+      href = "https://BuildMosaic.org"
       desc = "A cleaner way to orchestrate backend application logic."
       setPlatforms(JVM)
       setTags("framework", "coroutines", "cache", "dsl", "dependency injection", "orchestration", "concurrency", "batching")
