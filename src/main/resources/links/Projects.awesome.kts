@@ -558,5 +558,11 @@ category("Projects") {
       setPlatforms(ANDROID, JVM, COMMON)
       setTags("android", "desktop", "jvm", "pager", "pagination")
     }
+    link {
+      github = "codecloud-dev/moxsh-suite"
+      desc = "The MoX family monorepo — an all-glass, Termux-compatible Linux terminal for Android, plus its website, design prototypes and plugin spec."
+      setPlatforms(ANDROID)
+      setTags("android", "terminal", "linux", "compose", "kotlin")
+    }
   }
 }
