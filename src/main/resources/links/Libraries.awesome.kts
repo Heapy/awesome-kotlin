@@ -200,6 +200,12 @@ category("Libraries/Frameworks") {
       setTags("web", "graphql")
     }
     link {
+      github = "shergin/baton"
+      desc = "Relay-style GraphQL client for Jetpack Compose and SwiftUI"
+      setTags("graphql", "jetpack-compose", "android")
+      setPlatforms(JVM, ANDROID)
+    }
+    link {
       github = "welvet/summer"
       desc = "Lightweight Jetty/JDBC wrapper library inspired by SparkJava and MyBatis with DI and Testing support for Kotlin"
       setTags("jdbc", "web", "di")
