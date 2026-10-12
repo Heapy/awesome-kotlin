@@ -2081,6 +2081,12 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
     }
+    link {
+      github = "deeptelar/telar"
+      desc = "AI agents and workflows for Kotlin Multiplatform, as small typed graphs: loops, parallel steps, streaming, save points and pauses for human approval."
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE, JS, WASM)
+      setTags("ai", "agent", "llm", "workflow", "multiplatform", "coroutines")
+    }
   }
   subcategory("Cryptography") {
     link {
