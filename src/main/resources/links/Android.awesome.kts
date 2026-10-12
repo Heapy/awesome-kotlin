@@ -678,6 +678,12 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "jev-chat/jev-chat-jarvis"
+      desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
+      setPlatforms(ANDROID)
+      setTags("android", "accessibility-service", "llm", "whatsapp", "chat-assistant")
+    }
   }
   subcategory("Extensions") {
     link {
