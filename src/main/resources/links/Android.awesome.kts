@@ -678,6 +678,11 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "Aster-Privacy/Aster-Android"
+      desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
+      setTags("kotlin", "jetpack-compose", "email", "encryption")
+    }
   }
   subcategory("Extensions") {
     link {
