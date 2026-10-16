@@ -266,6 +266,24 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM)
       setTags("framework", "coroutines", "cache", "dsl", "dependency injection", "orchestration", "concurrency", "batching")
     }
+    link {
+      github = "Guard-Core/ktor-guard"
+      desc = "Ktor plugin for application-layer API security: IP filtering, rate limiting with automatic bans, attack pattern detection and security headers."
+      setPlatforms(JVM)
+      setTags("web", "ktor", "security", "rate-limiting", "middleware")
+    }
+    link {
+      github = "Guard-Core/spring-boot-guard"
+      desc = "Spring Boot starter for application-layer API security: IP filtering, rate limiting with automatic bans, attack pattern detection and security headers."
+      setPlatforms(JVM)
+      setTags("web", "spring-boot", "security", "rate-limiting", "middleware")
+    }
+    link {
+      github = "Guard-Core/guard-core-jvm"
+      desc = "Framework-free API security engine for the JVM, the core behind the Ktor and Spring Boot Guard adapters."
+      setPlatforms(JVM)
+      setTags("web", "security", "rate-limiting", "ip-filtering", "engine")
+    }
   }
   subcategory("Testing") {
     link {
