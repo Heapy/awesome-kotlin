@@ -141,6 +141,12 @@ category("Projects") {
       setTags("json", "api", "web")
     }
     link {
+      name = "Tool Kumar"
+      href = "https://tools.vikasmaur.com/tools/json-to-kotlin"
+      desc = "Generate data classes with kotlinx.serialization annotations from JSON in the browser; no upload or login required."
+      setTags("json", "web", "code-generation", "serialization")
+    }
+    link {
       github = "lice-lang/lice"
       desc = "A Lisp-like language's interpreter written in Kotlin"
       setTags("lisp", "interpreter")
