@@ -678,6 +678,11 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "apoorvdarshan/verceltics"
+      desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
+      setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
+    }
   }
   subcategory("Extensions") {
     link {
