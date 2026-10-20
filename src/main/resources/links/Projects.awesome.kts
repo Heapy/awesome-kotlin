@@ -234,6 +234,13 @@ category("Projects") {
       desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
       setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
     }
+    link {
+      github = "elitekaycy/qkt-venue-gateway"
+      href = "https://venuegw.tryqkt.com"
+      desc = "Self-hosted gateway that gives a trading engine one HTTP API for futures and options venues (Deribit, Bybit, paper), with a journaled order log, idempotent orders and a kill switch outside the engine. Built with Ktor."
+      setPlatforms(JVM)
+      setTags("trading", "finance", "ktor", "gateway", "self-hosted")
+    }
   }
   subcategory("Desktop") {
     link {
