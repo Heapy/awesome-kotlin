@@ -678,6 +678,11 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "GeiserX/CashPilot-android"
+      desc = "Android companion app for CashPilot that detects which passive income apps are installed and running on a phone, without root, and reports them to the CashPilot fleet dashboard."
+      setTags("kotlin", "jetpack-compose", "notification-listener")
+    }
   }
   subcategory("Extensions") {
     link {
