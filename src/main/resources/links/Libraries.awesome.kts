@@ -522,6 +522,11 @@ category("Libraries/Frameworks") {
       github = "bluegroundltd/kfactory"
       desc = "Fixture factory in Kotlin"
     }
+    link {
+      github = "modaal-agent/kotlin-ksp-mocks"
+      desc = "KSP processor that generates recording-spy mocks for Kotlin interfaces into the test compilation only."
+      setTags("testing", "mocks", "ksp", "codegen")
+    }
   }
   subcategory("Dependency Injection") {
     link {
