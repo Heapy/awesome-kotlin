@@ -1328,6 +1328,12 @@ category("Libraries/Frameworks") {
       setPlatforms(JVM, ANDROID)
       setTags("networking", "caldav", "icalendar", "calendar", "sync", "webdav", "coroutines")
     }
+    link {
+      github = "kuicksilver/kuicksilver"
+      desc = "Kotlin Multiplatform QUIC v1/v2, HTTP/3 with QPACK and TLS 1.3 (OpenSSL 3.5), with Ktor client and server engines; one sans-IO core on JVM, Android, Linux, Apple and Windows."
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
+      setTags("networking", "quic", "http3", "tls", "udp", "ktor", "kmp", "coroutines")
+    }
   }
   subcategory("Editors") {
     link {
