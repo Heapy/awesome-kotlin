@@ -1810,6 +1810,14 @@ category("Libraries/Frameworks") {
       awesome()
     }
     link {
+      github = "Alox1d/dateparser-kotlin"
+      name = "DateParser Kotlin"
+      href = "https://alox1d.github.io/dateparser-kotlin/"
+      desc = "Offline natural-language date and time parser for Russian and English, with Kotlin Multiplatform targets for Android, JVM and iOS."
+      setPlatforms(COMMON, JVM, ANDROID, IOS)
+      setTags("multiplatform", "date", "time", "parser", "natural-language", "russian", "english")
+    }
+    link {
       github = "vendelieu/re.this"
       desc = "Kotlin Multiplatform Redis Client: coroutine-based, DSL-powered, and easy to use. "
       href = "https://vendelieu.github.io/re.this/"
