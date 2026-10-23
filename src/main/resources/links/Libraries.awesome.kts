@@ -2081,6 +2081,12 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
     }
+    link {
+      github = "modaal-agent/duet"
+      href = "https://docs.modaal.dev/duet"
+      desc = "Native iOS and Android apps from one shared Kotlin Multiplatform core: SwiftUI and Compose UIs, with recorded fixtures both platforms must replay byte-identically in CI."
+      setTags("multiplatform", "ios", "android", "swiftui", "compose", "testing")
+    }
   }
   subcategory("Cryptography") {
     link {
