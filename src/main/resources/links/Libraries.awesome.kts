@@ -2081,6 +2081,13 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
     }
+    link {
+      github = "Apadmi-Engineering/Mockzilla"
+      href = "https://mockzilla.apadmi.dev/"
+      desc = "A solution for running and configuring a local HTTP server to mimic REST API endpoints used by your Android, iOS, Flutter, or Kotlin Multiplatform application."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS)
+      setTags("compose-multiplatform", "kotlin-multiplatform", "mocking", "android", "ios", "ktor", "desktop")
+    }
   }
   subcategory("Cryptography") {
     link {
