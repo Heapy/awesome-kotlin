@@ -734,6 +734,12 @@ category("Android") {
       setTags("debugging", "network-inspector", "okhttp", "ktor", "jetpack-compose")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "codecloud-dev/moxsh-terminal"
+      desc = "Glassy Linux terminal for Android with a custom-built PRoot engine, bringing an iOS-smooth Linux experience to your phone."
+      setPlatforms(ANDROID)
+      setTags("android", "terminal", "linux", "proot")
+    }
   }
   subcategory("Tests") {
     link {
