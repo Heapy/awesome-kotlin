@@ -234,6 +234,13 @@ category("Projects") {
       desc = "SWE-bench-style benchmark for evaluating AI coding agents on real-world Kotlin GitHub issues."
       setTags("benchmark", "swe-bench", "ai-agents", "evaluation")
     }
+    link {
+      github = "elitekaycy/qkt"
+      href = "https://tryqkt.com"
+      desc = "Event-driven trading engine with a declarative strategy DSL: one strategy file runs in backtest, paper and live trading (MT5 brokers, Deribit, Bybit), and a JSON CLI lets scripts or LLM agents trade through it."
+      setPlatforms(JVM)
+      setTags("trading", "backtesting", "dsl", "finance", "cli")
+    }
   }
   subcategory("Desktop") {
     link {
