@@ -1305,6 +1305,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Networking") {
     link {
+      github = "linroid/Ketch"
+      desc = "Kotlin Multiplatform download manager with parallel downloads, pause and resume, queues, scheduling and speed limits."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS, NATIVE, WASM)
+      setTags("networking", "download", "http", "ftp", "bittorrent", "multiplatform", "coroutines")
+    }
+    link {
       github = "seniorjoinu/reliable-udp"
       desc = "Multiplexed, coroutine-powered reliable UDP for Kotlin using fountain codes"
       setPlatforms(JVM)
