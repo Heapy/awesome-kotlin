@@ -2726,5 +2726,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "koog", "ai", "agent", "compose-multiplatform")
       setPlatforms(COMMON, ANDROID, IOS)
     }
+    link {
+      github = "Apadmi-Engineering/CMPDevicePreview"
+      desc = "A CMP harness for simulating mobile devices in the web target."
+      setTags("jetpack-compose", "compose", "kotlin", "compose-multiplatform", "preview")
+      setPlatforms(COMMON, ANDROID, IOS, JS, WASM, JVM)
+    }
   }
 }
