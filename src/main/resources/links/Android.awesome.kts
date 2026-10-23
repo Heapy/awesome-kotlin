@@ -678,6 +678,12 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "dirtyfancy/easemic"
+      desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
+      setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Extensions") {
     link {
