@@ -2726,5 +2726,12 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "kotlin", "koog", "ai", "agent", "compose-multiplatform")
       setPlatforms(COMMON, ANDROID, IOS)
     }
+    link {
+      github = "jantursky/stipple"
+      href = "https://stipple-docs.vercel.app"
+      desc = "Dithered UI for Compose Multiplatform: a dither engine, modifiers that dither any element and ready-made components (charts, gauges, text, backgrounds)."
+      setTags("jetpack-compose", "compose", "compose-multiplatform", "kotlin", "ui", "dithering", "shader")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM)
+    }
   }
 }
