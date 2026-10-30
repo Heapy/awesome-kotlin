@@ -136,6 +136,13 @@ category("Projects") {
   }
   subcategory("Misc") {
     link {
+      github = "elitekaycy/qkt-venue-gateway"
+      href = "https://venuegw.tryqkt.com"
+      desc = "Self-hosted gateway that gives a trading engine one HTTP API for futures and options venues (Deribit, Bybit, paper), with a journaled order log, idempotent orders and a kill switch outside the engine. Built with Ktor."
+      setPlatforms(JVM)
+      setTags("trading", "finance", "ktor", "gateway", "self-hosted")
+    }
+    link {
       github = "elitekaycy/qkt"
       href = "https://tryqkt.com"
       desc = "Event-driven trading engine with a declarative strategy DSL: one strategy file runs in backtest, paper and live trading (MT5 brokers, Deribit, Bybit), and a JSON CLI lets scripts or LLM agents trade through it."
