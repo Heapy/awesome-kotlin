@@ -433,6 +433,12 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "dirtyfancy/easemic"
+      desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
+      setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
+      setPlatforms(ANDROID)
+    }
+    link {
       github = "BanDev/Buddha-Quotes"
       desc = "A collaborative project to create a Free and Open Source Buddha Quotes app."
     }
