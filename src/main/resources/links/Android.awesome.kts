@@ -397,6 +397,12 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("chat", "messaging", "sdk", "ai-agents")
     }
+    link {
+      github = "Desert-Ant-Labs/desert-ant-core"
+      desc = "On-device AI models for Android in Kotlin: speech recognition, PII redaction, content moderation and language detection."
+      setPlatforms(ANDROID)
+      setTags("machine-learning", "on-device", "speech-recognition", "sdk")
+    }
   }
   subcategory("Frameworks") {
     link {
