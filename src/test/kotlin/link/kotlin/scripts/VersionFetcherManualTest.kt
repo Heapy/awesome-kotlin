@@ -8,6 +8,6 @@ suspend fun main() {
     val client = utilsModule.httpClient.value
 
     val fetcher = MavenCentralKotlinVersionFetcher(client)
-    val versions = fetcher.getLatestVersions(listOf("2.2", "2.3"))
+    val versions = fetcher.getLatestVersions(listOf("2.3", "2.4", "2.5"))
     println(versions)
 }
