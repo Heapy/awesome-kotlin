@@ -1052,6 +1052,12 @@ category("Libraries/Frameworks") {
       setTags("database", "offline-first", "sync", "local-first", "android", "workmanager", "conflict-resolution")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "liberation-data/drivine4j"
+      desc = "Graph database client for Neo4j, Memgraph, FalkorDB and Amazon Neptune that compiles Cypher to SQL on Postgres, Oracle and SQLite, with an object manager for composed views, a type-safe query DSL and Spring Boot support."
+      setTags("database", "graph", "cypher", "orm", "falkordb", "memgraph", "postgres", "oracle", "sqlite", "spring-boot")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
