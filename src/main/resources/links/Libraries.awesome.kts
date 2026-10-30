@@ -511,6 +511,12 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "coverage")
       setPlatforms(JVM)
     }
+    link {
+      github = "jantursky/proctor"
+      desc = "Evaluation harness for on-device LLMs: write one eval suite in Kotlin Multiplatform and run it on Gemini Nano and Apple Foundation Models."
+      setTags("test", "testing", "llm", "evaluation")
+      setPlatforms(COMMON, ANDROID, IOS)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
