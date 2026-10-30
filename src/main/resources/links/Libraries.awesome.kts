@@ -1,6 +1,24 @@
 category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
+      github = "Guard-Core/guard-core-jvm"
+      desc = "Framework-free API security engine for the JVM, the core behind the Ktor and Spring Boot Guard adapters."
+      setPlatforms(JVM)
+      setTags("web", "security", "rate-limiting", "ip-filtering", "engine")
+    }
+    link {
+      github = "Guard-Core/spring-boot-guard"
+      desc = "Spring Boot starter for application-layer API security: IP filtering, rate limiting with automatic bans, attack pattern detection and security headers."
+      setPlatforms(JVM)
+      setTags("web", "spring-boot", "security", "rate-limiting", "middleware")
+    }
+    link {
+      github = "Guard-Core/ktor-guard"
+      desc = "Ktor plugin for application-layer API security: IP filtering, rate limiting with automatic bans, attack pattern detection and security headers."
+      setPlatforms(JVM)
+      setTags("web", "ktor", "security", "rate-limiting", "middleware")
+    }
+    link {
       github = "ktorio/ktor"
       href = "https://ktor.io/"
       desc = "Web backend framework for Kotlin. Easy to use, fun and asynchronous."
@@ -511,8 +529,19 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "coverage")
       setPlatforms(JVM)
     }
+    link {
+      github = "jantursky/proctor"
+      desc = "Evaluation harness for on-device LLMs: write one eval suite in Kotlin Multiplatform and run it on Gemini Nano and Apple Foundation Models."
+      setTags("test", "testing", "llm", "evaluation")
+      setPlatforms(COMMON, ANDROID, IOS)
+    }
   }
   subcategory("Mocks and Fakes") {
+    link {
+      github = "modaal-agent/kotlin-ksp-mocks"
+      desc = "KSP processor that generates recording-spy mocks for Kotlin interfaces into the test compilation only."
+      setTags("testing", "mocks", "ksp", "codegen")
+    }
     link {
       github = "moove-it/fakeit"
       desc = "Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment."
@@ -521,11 +550,6 @@ category("Libraries/Frameworks") {
     link {
       github = "bluegroundltd/kfactory"
       desc = "Fixture factory in Kotlin"
-    }
-    link {
-      github = "modaal-agent/kotlin-ksp-mocks"
-      desc = "KSP processor that generates recording-spy mocks for Kotlin interfaces into the test compilation only."
-      setTags("testing", "mocks", "ksp", "codegen")
     }
   }
   subcategory("Dependency Injection") {
@@ -1057,6 +1081,12 @@ category("Libraries/Frameworks") {
       setTags("database", "offline-first", "sync", "local-first", "android", "workmanager", "conflict-resolution")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "liberation-data/drivine4j"
+      desc = "Graph database client for Neo4j, Memgraph, FalkorDB and Amazon Neptune that compiles Cypher to SQL on Postgres, Oracle and SQLite, with an object manager for composed views, a type-safe query DSL and Spring Boot support."
+      setTags("database", "graph", "cypher", "orm", "falkordb", "memgraph", "postgres", "oracle", "sqlite", "spring-boot")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
@@ -1310,6 +1340,18 @@ category("Libraries/Frameworks") {
   }
   subcategory("Networking") {
     link {
+      github = "kuicksilver/kuicksilver"
+      desc = "Kotlin Multiplatform QUIC v1/v2, HTTP/3 with QPACK and TLS 1.3 (OpenSSL 3.5), with Ktor client and server engines; one sans-IO core on JVM, Android, Linux, Apple and Windows."
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
+      setTags("networking", "quic", "http3", "tls", "udp", "ktor", "kmp", "coroutines")
+    }
+    link {
+      github = "linroid/Ketch"
+      desc = "Kotlin Multiplatform download manager with parallel downloads, pause and resume, queues, scheduling and speed limits."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS, NATIVE, WASM)
+      setTags("networking", "download", "http", "ftp", "bittorrent", "multiplatform", "coroutines")
+    }
+    link {
       github = "seniorjoinu/reliable-udp"
       desc = "Multiplexed, coroutine-powered reliable UDP for Kotlin using fountain codes"
       setPlatforms(JVM)
@@ -1457,6 +1499,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Misc") {
+    link {
+      github = "muhammedalikcb/aspectify"
+      desc = "Annotation-driven AOP for Kotlin and Android on top of dynamic proxies: logging, retry, timeout, caching, debounce, rate limiting and role checks around interface calls, with suspend function support."
+      setTags("aop", "annotations", "proxy", "retry", "caching", "coroutines", "android")
+      setPlatforms(JVM, ANDROID)
+    }
     link {
       github = "Kotlin/kotlinx.collections.immutable"
       desc = "Immutable persistent collections for Kotlin."
@@ -2012,6 +2060,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Multiplatform") {
     link {
+      github = "modaal-agent/duet"
+      href = "https://docs.modaal.dev/duet"
+      desc = "Native iOS and Android apps from one shared Kotlin Multiplatform core: SwiftUI and Compose UIs, with recorded fixtures both platforms must replay byte-identically in CI."
+      setTags("multiplatform", "ios", "android", "swiftui", "compose", "testing")
+    }
+    link {
       github = "ionspin/kotlin-multiplatform-bignum"
       desc = "Pure kotlin multiplatform arbitrary precision arithmetic library."
       setTags("multiplatform", "bignum", "biginteger", "bigdecimal", "arbitrary-precision")
@@ -2085,6 +2139,13 @@ category("Libraries/Frameworks") {
       desc = "Google AdMob SDK for Compose Multiplatform (Android & iOS) supporting Banner, Interstitial, Rewarded, App Open, and Native ads."
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
+    }
+    link {
+      github = "Apadmi-Engineering/Mockzilla"
+      href = "https://mockzilla.apadmi.dev/"
+      desc = "A solution for running and configuring a local HTTP server to mimic REST API endpoints used by your Android, iOS, Flutter, or Kotlin Multiplatform application."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS)
+      setTags("compose-multiplatform", "kotlin-multiplatform", "mocking", "android", "ios", "ktor", "desktop")
     }
   }
   subcategory("Cryptography") {
@@ -2629,6 +2690,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Logging") {
     link {
+      github = "Luke-Popwell/forge-ops-tracker-kotlin"
+      desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
+      setPlatforms(JVM)
+      setTags("error-tracking", "monitoring", "privacy")
+    }
+    link {
       github = "ivangarzab/barK"
       desc = "Kotlin multiplatform logging library with automatic tag detection and test run support"
       setPlatforms(ANDROID, NATIVE, IOS, COMMON)
@@ -2670,6 +2737,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Jetpack-Compose"){
+    link {
+      github = "Apadmi-Engineering/CMPDevicePreview"
+      desc = "A CMP harness for simulating mobile devices in the web target."
+      setTags("jetpack-compose", "compose", "kotlin", "compose-multiplatform", "preview")
+      setPlatforms(COMMON, ANDROID, IOS, JS, WASM, JVM)
+    }
     link{
       github = "CuriousNikhil/neumorphic-compose"
       desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifier = Modifier.neumorphic()"
@@ -2730,6 +2803,13 @@ category("Libraries/Frameworks") {
       desc = "Compose UI integration for the Koog AI agent framework"
       setTags("jetpack-compose", "compose", "kotlin", "koog", "ai", "agent", "compose-multiplatform")
       setPlatforms(COMMON, ANDROID, IOS)
+    }
+    link {
+      github = "jantursky/stipple"
+      href = "https://stipple-docs.vercel.app"
+      desc = "Dithered UI for Compose Multiplatform: a dither engine, modifiers that dither any element and ready-made components (charts, gauges, text, backgrounds)."
+      setTags("jetpack-compose", "compose", "compose-multiplatform", "kotlin", "ui", "dithering", "shader")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM)
     }
   }
 }
