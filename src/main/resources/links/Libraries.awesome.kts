@@ -2643,6 +2643,18 @@ category("Libraries/Frameworks") {
   }
   subcategory("API Clients") {
     link {
+      github = "christoph-sens/snsoverflow"
+      desc = "Kotlin port of the Amazon SNS Extended Client Library: transparently offloads large message bodies to S3, built on aws-sdk-kotlin and coroutines."
+      setPlatforms(JVM)
+      setTags("aws", "sns", "s3", "coroutines")
+    }
+    link {
+      github = "christoph-sens/sqsoverflow"
+      desc = "Kotlin port of the Amazon SQS Extended Client Library: transparently offloads large message bodies to S3, built on aws-sdk-kotlin and coroutines."
+      setPlatforms(JVM)
+      setTags("aws", "sqs", "s3", "coroutines")
+    }
+    link {
       github = "jillesvangurp/kt-search"
       desc = "Kotlin multiplatform library for Elasticsearch and Opensearch"
       setPlatforms(COMMON, JS, JVM, NATIVE)
