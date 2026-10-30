@@ -433,6 +433,11 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "HarlonWang/TrendingAI"
+      desc = "Global tech trends from GitHub Trending, Hacker News and Product Hunt, picked and summarized by AI. Built with Kotlin Multiplatform and Compose Multiplatform for Android and iOS."
+      setTags("kotlin-multiplatform", "compose-multiplatform", "android", "ios", "ai")
+    }
+    link {
       github = "GeiserX/CashPilot-android"
       desc = "Android companion app for CashPilot that detects which passive income apps are installed and running on a phone, without root, and reports them to the CashPilot fleet dashboard."
       setTags("kotlin", "jetpack-compose", "notification-listener")
