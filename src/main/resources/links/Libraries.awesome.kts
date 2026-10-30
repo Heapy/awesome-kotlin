@@ -75,7 +75,6 @@ category("Libraries/Frameworks") {
       github = "allangomes/kotlinwind.css"
       desc = "Kotlin DSL for CSS based on Tailwind."
       setTags("web", "html", "tailwind", "css")
-      awesome()
     }
     link {
       github = "celtric/kotlin-html"
