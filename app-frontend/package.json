@@ -5,30 +5,30 @@
   "main": "app/src/main.tsx",
   "dependencies": {
     "copy-to-clipboard": "^4.0.2",
-    "core-js": "^3.50.0",
+    "core-js": "^3.51.0",
     "normalize.css": "^8.0.1",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "react-router": "^8.3.1"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.0"
   },
   "devDependencies": {
-    "@types/node": "^26.5.1",
+    "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "autoprefixer": "^10.6.0",
+    "autoprefixer": "^10.6.2",
     "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^7.1.5",
     "html-webpack-plugin": "^5.6.8",
     "less": "^4.9.1",
     "less-loader": "^13.0.0",
-    "postcss": "^8.5.28",
+    "postcss": "^8.5.32",
     "postcss-loader": "^8.2.1",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.6.2",
     "typescript": "^6.0.3",
-    "webpack": "^5.111.0",
+    "webpack": "^5.112.2",
     "webpack-cli": "^7.2.3",
-    "webpack-dev-server": "^6.0.0"
+    "webpack-dev-server": "^6.1.0"
   },
   "scripts": {
     "prestart": "yarn install",

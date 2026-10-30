@@ -433,6 +433,38 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "HarlonWang/TrendingAI"
+      desc = "Global tech trends from GitHub Trending, Hacker News and Product Hunt, picked and summarized by AI. Built with Kotlin Multiplatform and Compose Multiplatform for Android and iOS."
+      setTags("kotlin-multiplatform", "compose-multiplatform", "android", "ios", "ai")
+    }
+    link {
+      github = "GeiserX/CashPilot-android"
+      desc = "Android companion app for CashPilot that detects which passive income apps are installed and running on a phone, without root, and reports them to the CashPilot fleet dashboard."
+      setTags("kotlin", "jetpack-compose", "notification-listener")
+    }
+    link {
+      github = "jev-chat/jev-chat-jarvis"
+      desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
+      setPlatforms(ANDROID)
+      setTags("android", "accessibility-service", "llm", "whatsapp", "chat-assistant")
+    }
+    link {
+      github = "Aster-Privacy/Aster-Android"
+      desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
+      setTags("kotlin", "jetpack-compose", "email", "encryption")
+    }
+    link {
+      github = "apoorvdarshan/verceltics"
+      desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
+      setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
+    }
+    link {
+      github = "dirtyfancy/easemic"
+      desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
+      setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
+      setPlatforms(ANDROID)
+    }
+    link {
       github = "BanDev/Buddha-Quotes"
       desc = "A collaborative project to create a Free and Open Source Buddha Quotes app."
     }
@@ -674,9 +706,9 @@ category("Android") {
       setTags("kotlin", "mvvm", "hilt", "navigation", "room", "coroutines", "flow", "jetpack-compose", "room", "workout", "multi-module")
     }
     link {
-      github = "HarlonWang/TrendingAI"
-      desc = "Global tech trends from GitHub Trending, Hacker News and Product Hunt, picked and summarized by AI. Built with Kotlin Multiplatform and Compose Multiplatform for Android and iOS."
-      setTags("kotlin-multiplatform", "compose-multiplatform", "android", "ios", "ai")
+      github = "dracu-lah/TMPlayer"
+      desc = "An open-source Telegram video player for Android TV."
+      setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
   }
   subcategory("Extensions") {
