@@ -2648,6 +2648,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Logging") {
     link {
+      github = "Luke-Popwell/forge-ops-tracker-kotlin"
+      desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
+      setPlatforms(JVM)
+      setTags("error-tracking", "monitoring", "privacy")
+    }
+    link {
       github = "ivangarzab/barK"
       desc = "Kotlin multiplatform logging library with automatic tag detection and test run support"
       setPlatforms(ANDROID, NATIVE, IOS, COMMON)
