@@ -1316,6 +1316,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Networking") {
     link {
+      github = "kuicksilver/kuicksilver"
+      desc = "Kotlin Multiplatform QUIC v1/v2, HTTP/3 with QPACK and TLS 1.3 (OpenSSL 3.5), with Ktor client and server engines; one sans-IO core on JVM, Android, Linux, Apple and Windows."
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE)
+      setTags("networking", "quic", "http3", "tls", "udp", "ktor", "kmp", "coroutines")
+    }
+    link {
       github = "linroid/Ketch"
       desc = "Kotlin Multiplatform download manager with parallel downloads, pause and resume, queues, scheduling and speed limits."
       setPlatforms(COMMON, ANDROID, IOS, JVM, JS, NATIVE, WASM)
