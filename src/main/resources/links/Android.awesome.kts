@@ -433,6 +433,11 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "apoorvdarshan/verceltics"
+      desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
+      setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
+    }
+    link {
       github = "dirtyfancy/easemic"
       desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
       setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
