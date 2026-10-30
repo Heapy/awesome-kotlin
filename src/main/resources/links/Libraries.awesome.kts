@@ -874,6 +874,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Database") {
     link {
+      github = "Cratis/Chronicle.Kotlin"
+      desc = "Event sourcing client for Kotlin and Java on the JVM for Cratis Chronicle, with a Spring Boot starter."
+      setTags("event-sourcing", "cqrs", "database", "java", "spring-boot", "projections")
+      setPlatforms(JVM)
+    }
+    link {
       github = "JetBrains/Exposed"
       desc = "Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language."
       setTags("database", "query", "schema", "dao")
