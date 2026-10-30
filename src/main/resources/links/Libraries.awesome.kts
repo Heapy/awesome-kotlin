@@ -1464,6 +1464,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Game Development") {
     link {
+      github = "rehaancubess/joyframe-kmp"
+      desc = "Kotlin Multiplatform toolkit for smooth 3D games: OpenGL, Metal and WebGL rendering, chase camera, split screen, game controllers, tilt steering and non-blocking audio. Current platforms: Android, iOS, JVM desktop and Web (Wasm)."
+      setTags("multiplatform", "desktop", "android", "ios", "webgl", "wasm", "games", "game-dev")
+    }
+    link {
       github = "zeganstyl/thelema-engine"
       desc = "3d graphics engine in Kotlin, based on sources of libGDX. Platforms: JVM, TeaVM, Kotlin/JS, Kotlin/Native. See live demo: [TeaVM](https://zeganstyl.github.io/thelema-teavm-tests/), [Kotlin/JS](https://zeganstyl.github.io/thelema-kxjs-demo/)"
       setTags("thelema-engine", "game dev", "games", "desktop", "webgl")
