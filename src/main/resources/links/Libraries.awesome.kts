@@ -2696,6 +2696,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Jetpack-Compose"){
+    link {
+      github = "Apadmi-Engineering/CMPDevicePreview"
+      desc = "A CMP harness for simulating mobile devices in the web target."
+      setTags("jetpack-compose", "compose", "kotlin", "compose-multiplatform", "preview")
+      setPlatforms(COMMON, ANDROID, IOS, JS, WASM, JVM)
+    }
     link{
       github = "CuriousNikhil/neumorphic-compose"
       desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifier = Modifier.neumorphic()"
