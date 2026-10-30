@@ -433,6 +433,12 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "jev-chat/jev-chat-jarvis"
+      desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
+      setPlatforms(ANDROID)
+      setTags("android", "accessibility-service", "llm", "whatsapp", "chat-assistant")
+    }
+    link {
       github = "Aster-Privacy/Aster-Android"
       desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
       setTags("kotlin", "jetpack-compose", "email", "encryption")
