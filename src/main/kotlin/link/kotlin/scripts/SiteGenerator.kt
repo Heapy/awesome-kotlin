@@ -52,7 +52,7 @@ internal class DefaultSiteGenerator(
     }
 
     override fun generateKotlinVersionsJson() = runBlocking {
-        val versions = kotlinVersionFetcher.getLatestVersions(listOf("2.2", "2.3"))
+        val versions = kotlinVersionFetcher.getLatestVersions(listOf("2.3", "2.4", "2.5"))
         writeFile("$base/app/versions.json", mapper.writeValueAsString(versions))
     }
 
