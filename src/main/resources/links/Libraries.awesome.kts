@@ -1495,6 +1495,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "muhammedalikcb/aspectify"
+      desc = "Annotation-driven AOP for Kotlin and Android on top of dynamic proxies: logging, retry, timeout, caching, debounce, rate limiting and role checks around interface calls, with suspend function support."
+      setTags("aop", "annotations", "proxy", "retry", "caching", "coroutines", "android")
+      setPlatforms(JVM, ANDROID)
+    }
+    link {
       github = "Kotlin/kotlinx.collections.immutable"
       desc = "Immutable persistent collections for Kotlin."
       setTags("collections", "immutable", "multiplatform", "data-structures", "algorithms")
