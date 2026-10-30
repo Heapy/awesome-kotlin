@@ -2084,13 +2084,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Multiplatform") {
     link {
-      github = "HarlonWang/loginbase-kt"
+      github = "HarlonWang/loginbase-kmp"
       desc = "Kotlin Multiplatform auth client: email OTP, social OAuth, session storage and single-flight token refresh."
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("auth", "oauth2", "passwordless", "token-refresh", "ktor", "kotlin-multiplatform", "android", "ios")
     }
     link {
-      github = "HarlonWang/eventbase-kt"
+      github = "HarlonWang/eventbase-kmp"
       desc = "Kotlin Multiplatform analytics client with typed events, a persistent offline queue and batched upload. No device identifiers collected."
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("analytics", "event-tracking", "offline-first", "ktor", "kotlin-multiplatform", "android", "ios")
