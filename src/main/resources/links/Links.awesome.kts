@@ -170,6 +170,11 @@ category("Links") {
   }
   subcategory("Courses") {
     link {
+      name = "Coddy Kotlin Course"
+      href = "https://coddy.tech/landing/kotlin"
+      desc = "Free interactive Kotlin course in the browser, with 213 lessons, 212 coding challenges and 6 small projects. Each lesson has a code editor to write and run Kotlin."
+    }
+    link {
       name = "Jetbrain's Hyperskill Academy"
       desc = "An interactive learning platform for Kotlin and other languages"
       href = "https://hyperskill.org/onboarding/tracks/3"
@@ -264,11 +269,6 @@ category("Links") {
       name = "Advanced Programming in Kotlin"
       href = "https://www.coursera.org/learn/advanced-programming-in-kotlin"
       desc = "Get ready to expand on your Kotlin skills to create common advanced functionality that typical Android apps need."
-    }
-    link {
-      name = "Coddy Kotlin Course"
-      href = "https://coddy.tech/landing/kotlin"
-      desc = "Free interactive Kotlin course in the browser, with 213 lessons, 212 coding challenges and 6 small projects. Each lesson has a code editor to write and run Kotlin."
     }
   }
   subcategory("Books") {
