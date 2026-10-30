@@ -433,6 +433,28 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "jev-chat/jev-chat-jarvis"
+      desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
+      setPlatforms(ANDROID)
+      setTags("android", "accessibility-service", "llm", "whatsapp", "chat-assistant")
+    }
+    link {
+      github = "Aster-Privacy/Aster-Android"
+      desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
+      setTags("kotlin", "jetpack-compose", "email", "encryption")
+    }
+    link {
+      github = "apoorvdarshan/verceltics"
+      desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
+      setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
+    }
+    link {
+      github = "dirtyfancy/easemic"
+      desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
+      setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
+      setPlatforms(ANDROID)
+    }
+    link {
       github = "BanDev/Buddha-Quotes"
       desc = "A collaborative project to create a Free and Open Source Buddha Quotes app."
     }
@@ -677,12 +699,6 @@ category("Android") {
       github = "dracu-lah/TMPlayer"
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
-    }
-    link {
-      github = "jev-chat/jev-chat-jarvis"
-      desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
-      setPlatforms(ANDROID)
-      setTags("android", "accessibility-service", "llm", "whatsapp", "chat-assistant")
     }
   }
   subcategory("Extensions") {
