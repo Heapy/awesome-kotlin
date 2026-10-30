@@ -2055,6 +2055,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Multiplatform") {
     link {
+      github = "modaal-agent/duet"
+      href = "https://docs.modaal.dev/duet"
+      desc = "Native iOS and Android apps from one shared Kotlin Multiplatform core: SwiftUI and Compose UIs, with recorded fixtures both platforms must replay byte-identically in CI."
+      setTags("multiplatform", "ios", "android", "swiftui", "compose", "testing")
+    }
+    link {
       github = "ionspin/kotlin-multiplatform-bignum"
       desc = "Pure kotlin multiplatform arbitrary precision arithmetic library."
       setTags("multiplatform", "bignum", "biginteger", "bigdecimal", "arbitrary-precision")
