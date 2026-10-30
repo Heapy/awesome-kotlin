@@ -2664,6 +2664,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Jetpack-Compose"){
+    link {
+      github = "composablehorizons/compose-unstyled"
+      desc = "Unstyled, accessible UI primitives for Jetpack Compose and Compose Multiplatform."
+      setTags("jetpack-compose", "compose", "kotlin", "ui", "compose-multiplatform", "accessibility")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM, JS)
+    }
     link{
       github = "CuriousNikhil/neumorphic-compose"
       desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifier = Modifier.neumorphic()"
