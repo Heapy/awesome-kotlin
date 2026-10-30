@@ -433,6 +433,22 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "Aster-Privacy/Aster-Android"
+      desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
+      setTags("kotlin", "jetpack-compose", "email", "encryption")
+    }
+    link {
+      github = "apoorvdarshan/verceltics"
+      desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
+      setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
+    }
+    link {
+      github = "dirtyfancy/easemic"
+      desc = "Native Android comic and manga reader with local CBZ/ZIP, OPDS catalogs, and encrypted cloud storage support."
+      setTags("kotlin", "android", "jetpack-compose", "coroutines", "room", "opds", "application")
+      setPlatforms(ANDROID)
+    }
+    link {
       github = "BanDev/Buddha-Quotes"
       desc = "A collaborative project to create a Free and Open Source Buddha Quotes app."
     }
