@@ -1,6 +1,12 @@
 category("Libraries/Frameworks") {
   subcategory("Web") {
     link {
+      github = "shergin/baton"
+      desc = "Relay-style GraphQL client for Jetpack Compose and SwiftUI"
+      setTags("graphql", "jetpack-compose", "android")
+      setPlatforms(JVM, ANDROID)
+    }
+    link {
       github = "Guard-Core/guard-core-jvm"
       desc = "Framework-free API security engine for the JVM, the core behind the Ktor and Spring Boot Guard adapters."
       setPlatforms(JVM)
