@@ -433,6 +433,11 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "Aster-Privacy/Aster-Android"
+      desc = "Android app for Aster Mail, a private, end-to-end encrypted email service with post-quantum protection, PGP, aliases, and custom domains."
+      setTags("kotlin", "jetpack-compose", "email", "encryption")
+    }
+    link {
       github = "apoorvdarshan/verceltics"
       desc = "Native app for hosting, domains and site analytics: Vercel, Cloudflare, Netlify, registrars, Search Console and more."
       setTags("kotlin", "jetpack-compose", "material3", "coroutines", "android-keystore")
