@@ -511,6 +511,12 @@ category("Libraries/Frameworks") {
       setTags("test", "testing", "coverage")
       setPlatforms(JVM)
     }
+    link {
+      github = "jantursky/proctor"
+      desc = "Evaluation harness for on-device LLMs: write one eval suite in Kotlin Multiplatform and run it on Gemini Nano and Apple Foundation Models."
+      setTags("test", "testing", "llm", "evaluation")
+      setPlatforms(COMMON, ANDROID, IOS)
+    }
   }
   subcategory("Mocks and Fakes") {
     link {
@@ -1052,6 +1058,12 @@ category("Libraries/Frameworks") {
       setTags("database", "offline-first", "sync", "local-first", "android", "workmanager", "conflict-resolution")
       setPlatforms(JVM, ANDROID)
     }
+    link {
+      github = "liberation-data/drivine4j"
+      desc = "Graph database client for Neo4j, Memgraph, FalkorDB and Amazon Neptune that compiles Cypher to SQL on Postgres, Oracle and SQLite, with an object manager for composed views, a type-safe query DSL and Spring Boot support."
+      setTags("database", "graph", "cypher", "orm", "falkordb", "memgraph", "postgres", "oracle", "sqlite", "spring-boot")
+      setPlatforms(JVM)
+    }
   }
   subcategory("Tools") {
     link {
@@ -1304,6 +1316,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Networking") {
+    link {
+      github = "linroid/Ketch"
+      desc = "Kotlin Multiplatform download manager with parallel downloads, pause and resume, queues, scheduling and speed limits."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS, NATIVE, WASM)
+      setTags("networking", "download", "http", "ftp", "bittorrent", "multiplatform", "coroutines")
+    }
     link {
       github = "seniorjoinu/reliable-udp"
       desc = "Multiplexed, coroutine-powered reliable UDP for Kotlin using fountain codes"
@@ -2081,6 +2099,13 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS)
       setTags("admob", "ads", "compose-multiplatform", "kotlin-multiplatform", "monetization", "android", "ios")
     }
+    link {
+      github = "Apadmi-Engineering/Mockzilla"
+      href = "https://mockzilla.apadmi.dev/"
+      desc = "A solution for running and configuring a local HTTP server to mimic REST API endpoints used by your Android, iOS, Flutter, or Kotlin Multiplatform application."
+      setPlatforms(COMMON, ANDROID, IOS, JVM, JS)
+      setTags("compose-multiplatform", "kotlin-multiplatform", "mocking", "android", "ios", "ktor", "desktop")
+    }
   }
   subcategory("Cryptography") {
     link {
@@ -2624,6 +2649,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Logging") {
     link {
+      github = "Luke-Popwell/forge-ops-tracker-kotlin"
+      desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
+      setPlatforms(JVM)
+      setTags("error-tracking", "monitoring", "privacy")
+    }
+    link {
       github = "ivangarzab/barK"
       desc = "Kotlin multiplatform logging library with automatic tag detection and test run support"
       setPlatforms(ANDROID, NATIVE, IOS, COMMON)
@@ -2665,6 +2696,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Jetpack-Compose"){
+    link {
+      github = "Apadmi-Engineering/CMPDevicePreview"
+      desc = "A CMP harness for simulating mobile devices in the web target."
+      setTags("jetpack-compose", "compose", "kotlin", "compose-multiplatform", "preview")
+      setPlatforms(COMMON, ANDROID, IOS, JS, WASM, JVM)
+    }
     link{
       github = "CuriousNikhil/neumorphic-compose"
       desc = "Neumorphism UI on Android with Jetpack Compose. Just add one modifier = Modifier.neumorphic()"
@@ -2725,6 +2762,13 @@ category("Libraries/Frameworks") {
       desc = "Compose UI integration for the Koog AI agent framework"
       setTags("jetpack-compose", "compose", "kotlin", "koog", "ai", "agent", "compose-multiplatform")
       setPlatforms(COMMON, ANDROID, IOS)
+    }
+    link {
+      github = "jantursky/stipple"
+      href = "https://stipple-docs.vercel.app"
+      desc = "Dithered UI for Compose Multiplatform: a dither engine, modifiers that dither any element and ready-made components (charts, gauges, text, backgrounds)."
+      setTags("jetpack-compose", "compose", "compose-multiplatform", "kotlin", "ui", "dithering", "shader")
+      setPlatforms(COMMON, ANDROID, JVM, IOS, WASM)
     }
   }
 }
