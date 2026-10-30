@@ -2068,6 +2068,12 @@ category("Libraries/Frameworks") {
   }
   subcategory("Multiplatform") {
     link {
+      github = "deeptelar/telar"
+      desc = "AI agents and workflows for Kotlin Multiplatform, as small typed graphs: loops, parallel steps, streaming, save points and pauses for human approval."
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE, JS, WASM)
+      setTags("ai", "agent", "llm", "workflow", "multiplatform", "coroutines")
+    }
+    link {
       github = "modaal-agent/duet"
       href = "https://docs.modaal.dev/duet"
       desc = "Native iOS and Android apps from one shared Kotlin Multiplatform core: SwiftUI and Compose UIs, with recorded fixtures both platforms must replay byte-identically in CI."
