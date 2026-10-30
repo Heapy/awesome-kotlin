@@ -1499,6 +1499,14 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "Alox1d/dateparser-kotlin"
+      name = "DateParser Kotlin"
+      href = "https://alox1d.github.io/dateparser-kotlin/"
+      desc = "Offline natural-language date and time parser for Russian and English, with Kotlin Multiplatform targets for Android, JVM and iOS."
+      setPlatforms(COMMON, JVM, ANDROID, IOS)
+      setTags("multiplatform", "date", "time", "parser", "natural-language", "russian", "english")
+    }
+    link {
       github = "muhammedalikcb/aspectify"
       desc = "Annotation-driven AOP for Kotlin and Android on top of dynamic proxies: logging, retry, timeout, caching, debounce, rate limiting and role checks around interface calls, with suspend function support."
       setTags("aop", "annotations", "proxy", "retry", "caching", "coroutines", "android")
