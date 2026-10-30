@@ -433,6 +433,11 @@ category("Android") {
   }
   subcategory("Projects") {
     link {
+      github = "GeiserX/CashPilot-android"
+      desc = "Android companion app for CashPilot that detects which passive income apps are installed and running on a phone, without root, and reports them to the CashPilot fleet dashboard."
+      setTags("kotlin", "jetpack-compose", "notification-listener")
+    }
+    link {
       github = "jev-chat/jev-chat-jarvis"
       desc = "Android reply copilot for WhatsApp: reads the chat on screen, judges intent and risk, drafts two replies, and fills the one you pick. You press send."
       setPlatforms(ANDROID)
