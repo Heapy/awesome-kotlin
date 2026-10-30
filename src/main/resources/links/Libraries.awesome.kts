@@ -537,6 +537,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Mocks and Fakes") {
     link {
+      github = "modaal-agent/kotlin-ksp-mocks"
+      desc = "KSP processor that generates recording-spy mocks for Kotlin interfaces into the test compilation only."
+      setTags("testing", "mocks", "ksp", "codegen")
+    }
+    link {
       github = "moove-it/fakeit"
       desc = "Generates realistic fake data — like names, emails, dates, countries — to be used in your Android development environment."
       setTags("testing", "android", "utility")
