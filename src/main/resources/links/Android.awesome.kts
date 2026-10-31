@@ -397,6 +397,13 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("chat", "messaging", "sdk", "ai-agents")
     }
+    link {
+      github = "mohn93/android_ulink_sdk"
+      name = "Ulinkly Android SDK"
+      desc = "Deep linking SDK for Android App Links and custom schemes, backed by the hosted Ulinkly service (free tier; deferred deep linking and install attribution on paid plans)."
+      setPlatforms(ANDROID)
+      setTags("deep-linking", "app-links", "sdk")
+    }
   }
   subcategory("Frameworks") {
     link {
