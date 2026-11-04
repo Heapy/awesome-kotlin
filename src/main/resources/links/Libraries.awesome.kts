@@ -1278,6 +1278,12 @@ category("Libraries/Frameworks") {
       setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE)
       setTags("compiler-plugin", "data-class", "schema", "zod", "pydantic")
     }
+    link {
+      github = "Mole-Labs/aspectk"
+      desc = "Aspect-Oriented Programming (AOP) for Kotlin Multiplatform."
+      setPlatforms(ANDROID, COMMON, IOS, JS, JVM, NATIVE, WASM)
+      setTags("compiler-plugin", "aop", "aspect-oriented", "aspectj")
+    }
   }
   subcategory("Continuous Integration") {
     link {
