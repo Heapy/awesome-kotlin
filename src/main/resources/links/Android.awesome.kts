@@ -397,6 +397,21 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("chat", "messaging", "sdk", "ai-agents")
     }
+    link {
+      github = "ThalzeronLabs/llama-kotlin"
+      setPlatforms(ANDROID)
+      setTags("llm", "llama.cpp", "coroutines")
+    }
+    link {
+      github = "ThalzeronLabs/play-billing-kit"
+      setPlatforms(ANDROID)
+      setTags("billing", "in-app-purchases")
+    }
+    link {
+      github = "ThalzeronLabs/compose-bottom-sheets"
+      setPlatforms(ANDROID)
+      setTags("compose", "ui")
+    }
   }
   subcategory("Frameworks") {
     link {
