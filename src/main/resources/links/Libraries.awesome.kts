@@ -2789,6 +2789,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Blockchain") {
     link {
+      github = "janzeerOrg/janzeer-sdk-kotlin"
+      desc = "Kotlin/JVM and Android SDK for the Janzeer blockchain: key derivation and signing (secp256k1), transaction builders, REST, JSON-RPC and WebSocket clients, tested against public conformance vectors."
+      href = "https://janzeerorg.github.io/janzeer-sdk-kotlin/"
+      setPlatforms(JVM, ANDROID)
+      setTags("blockchain", "sdk", "json-rpc", "secp256k1")
+    }
+    link {
       github = "sol4k/sol4k"
       desc = "A Kotlin client for Solana that allows building and sending transactions, reading data from the blockchain, performing operations with public and private keys, and more."
       href = "https://sol4k.org"
