@@ -2750,6 +2750,13 @@ category("Libraries/Frameworks") {
   }
   subcategory("Logging") {
     link {
+      github = "LogBrewCo/sdk"
+      href = "https://github.com/LogBrewCo/sdk/tree/main/kotlin/logbrew-kotlin"
+      desc = "Error tracking, logs, and traces for JVM and Android apps with LogBrew, where any AI agent can read them too. Uses only the Kotlin standard library."
+      setPlatforms(JVM, ANDROID)
+      setTags("error-tracking", "monitoring", "logging", "tracing")
+    }
+    link {
       github = "Luke-Popwell/forge-ops-tracker-kotlin"
       desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
       setPlatforms(JVM)
