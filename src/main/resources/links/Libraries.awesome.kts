@@ -1875,6 +1875,11 @@ category("Libraries/Frameworks") {
       setTags("job-scheduler", "task", "job-queue", "kotlin", "runner", "job", "mongodb", "kotlin-library", "kotlin-coroutines", "queue", "job-processor")
     }
     link {
+      github = "stablemates/workhorse"
+      desc = "A durable task queue for PostgreSQL, with an embedded operator dashboard, durable waits, task groups, and concurrency and rate limits for each key. Maven Central: run.workhorse:workhorse-kotlin."
+      setTags("job-queue", "task-queue", "postgresql", "kotlin-library", "queue")
+    }
+    link {
       github = "fluidsonic/fluid-pdf"
       desc = "Easy PDF generation with HTML & CSS using Chromium or Google Chrome"
       setPlatforms(JVM)
