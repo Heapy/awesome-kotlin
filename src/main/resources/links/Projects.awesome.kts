@@ -112,6 +112,11 @@ category("Projects") {
       setPlatforms(JVM)
       setTags("kotlin", "ktor", "grpc", "igaming")
     }
+    link {
+      github = "codecloud-dev/mox-site"
+      desc = "The official Chinese portal for the MoX project family (agent-core / moxwebgpu / moxsh), built in Kotlin — docs and live demos for every sub-project."
+      setTags("web", "kotlin", "documentation", "portal")
+    }
   }
   subcategory("Build tools") {
     link {
