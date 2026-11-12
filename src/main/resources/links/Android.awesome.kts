@@ -766,6 +766,12 @@ category("Android") {
       setTags("debugging", "network-inspector", "okhttp", "ktor", "jetpack-compose")
       setPlatforms(ANDROID)
     }
+    link {
+      github = "hussainshirazi/droidmap"
+      desc = "Static checks for Android wiring that compiles but crashes (Room migrations and schemas, navigation routes, Hilt and Koin bindings, Gradle module rules), change impact for pull requests, and an MCP server for AI coding agents."
+      setTags("static-analysis", "room", "navigation", "hilt", "koin", "mcp")
+      setPlatforms(ANDROID)
+    }
   }
   subcategory("Tests") {
     link {
