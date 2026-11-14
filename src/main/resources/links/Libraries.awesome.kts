@@ -1627,11 +1627,6 @@ category("Libraries/Frameworks") {
       desc = "Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments."
     }
     link {
-      github = "MicroUtils/kotlin-logging"
-      desc = "Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions."
-      setTags("logging", "slf4j")
-    }
-    link {
       github = "InsanusMokrassar/KSLog"
       desc = "Fully customizable and lightweight logging library for Kotlin"
       setTags("logging")
@@ -2749,6 +2744,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Logging") {
+    link {
+      github = "oshai/kotlin-logging"
+      desc = "Lightweight multiplatform logging facade for Kotlin."
+      setPlatforms(COMMON, JVM, ANDROID, JS, NATIVE, IOS, WASM)
+      setTags("logging", "multiplatform", "slf4j")
+    }
     link {
       github = "Luke-Popwell/forge-ops-tracker-kotlin"
       desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
