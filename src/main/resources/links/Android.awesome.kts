@@ -397,6 +397,12 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("chat", "messaging", "sdk", "ai-agents")
     }
+    link {
+      github = "signOps-dev/signops-android"
+      desc = "Login approval with Android Keystore keys, passkeys through Credential Manager and push open reporting for the SignOps API. Maven Central dev.signops:android."
+      setPlatforms(ANDROID)
+      setTags("passkeys", "push-notifications", "2fa", "sdk")
+    }
   }
   subcategory("Frameworks") {
     link {
