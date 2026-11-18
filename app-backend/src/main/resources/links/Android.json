@@ -6,6 +6,25 @@
             "links": [
                 {
                     "name": null,
+                    "github": "findip-net/findip-shield-android",
+                    "bitbucket": null,
+                    "kug": null,
+                    "href": null,
+                    "desc": null,
+                    "platforms": [
+                        "ANDROID"
+                    ],
+                    "tags": [
+                        "security"
+                    ],
+                    "star": null,
+                    "update": null,
+                    "archived": false,
+                    "unsupported": false,
+                    "awesome": false
+                },
+                {
+                    "name": null,
                     "github": "JakeWharton/kotterknife",
                     "bitbucket": null,
                     "kug": null,
