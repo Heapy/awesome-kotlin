@@ -16,5 +16,11 @@ category("Kotlin WebAssembly") {
         "Explore a variety of Kotlin/Wasm example projects, showcasing applications like Compose Multiplatform, browser DOM API, Node.js, and WASI integration."
       setTags("wasm", "web", "nodejs", "deno", "wasi", "compose", "multiplatform")
     }
+    link {
+      github = "ardmn/remote-compose-storybook"
+      name = "Remote Compose Storybook"
+      desc = "Live catalog of the Jetpack Remote Compose creation API, built with Compose Multiplatform for Kotlin/Wasm: every component composed, captured and played in the browser."
+      setTags("wasm", "compose", "multiplatform", "android", "remote-compose")
+    }
   }
 }
