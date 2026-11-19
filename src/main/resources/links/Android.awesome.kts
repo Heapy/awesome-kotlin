@@ -716,6 +716,11 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "SunSinD/Sunlith"
+      desc = "A clean calendar app built with Jetpack Compose, with month, week and day views, tasks, reminders, an agenda widget and ICS import and export."
+      setTags("kotlin", "jetpack-compose", "calendar", "widget")
+    }
   }
   subcategory("Extensions") {
     link {
