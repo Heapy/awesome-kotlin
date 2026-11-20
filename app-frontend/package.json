@@ -21,7 +21,7 @@
     "html-webpack-plugin": "^5.6.8",
     "less": "^4.9.1",
     "less-loader": "^13.1.0",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "postcss-loader": "^8.2.1",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.6.2",
