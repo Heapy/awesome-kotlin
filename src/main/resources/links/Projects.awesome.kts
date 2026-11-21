@@ -579,5 +579,12 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("android", "kotlin", "compose", "material3", "ai", "ai-agents", "mcp", "ssh")
     }
+    link {
+      github = "SOVIS-Team/SoundVisualizer-Android"
+      href = "https://sovis-team.github.io/en/"
+      desc = "Accessibility app for deaf and hard-of-hearing people that shows the sound a phone is playing as a glow along the screen edges: its direction, loudness and type (ambient, human sounds or danger), sorted by an on-device sound classifier. Built with Kotlin, Jetpack Compose and ONNX Runtime."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "accessibility", "audio", "onnx")
+    }
   }
 }
