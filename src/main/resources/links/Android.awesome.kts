@@ -403,6 +403,12 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("passkeys", "push-notifications", "2fa", "sdk")
     }
+    link {
+      github = "simple-free-apps/compose-pcm-sfx"
+      desc = "Pure-Kotlin procedural 16-bit PCM AudioTrack sound-effect synthesizer library and Jetpack Compose waveform studio with zero bundled audio files."
+      setPlatforms(ANDROID)
+      setTags("audio", "sfx", "jetpack-compose", "audiotrack", "procedural-audio")
+    }
   }
   subcategory("Frameworks") {
     link {
