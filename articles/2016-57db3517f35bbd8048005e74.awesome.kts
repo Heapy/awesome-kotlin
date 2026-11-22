@@ -12,7 +12,7 @@ In the [previous post](https://medium.com/@OhadShai/logging-in-kotlin-95a4e76388
 
 [Anko](https://github.com/Kotlin/anko) is probably one of the most popular libraries in Kotlin today. It was written by JetBrains as a DSL (Domain Specific Language) for view editing instead of the plain old xml used in Android-Java.
 
-Along with that _anko_ provide other helpers for android development, among them is the [_AnkoLogger_](https://github.com/Kotlin/anko/blob/d40dfa016a9cf74286127de16273a131e48348bd/doc/ADVANCED.md#logging) for logging. I am going to observe this specific aspect and compare it to using [_kotlin-logging_](https://github.com/MicroUtils/kotlin-logging) for logging in android.
+Along with that _anko_ provide other helpers for android development, among them is the [_AnkoLogger_](https://github.com/Kotlin/anko/blob/d40dfa016a9cf74286127de16273a131e48348bd/doc/ADVANCED.md#logging) for logging. I am going to observe this specific aspect and compare it to using [_kotlin-logging_](https://github.com/oshai/kotlin-logging) for logging in android.
 
 ### Installation simplicity
 
@@ -77,7 +77,7 @@ I compared AnkoLogger with kotlin-logging for Android developers, that writes ap
 
 In case you would like to play with it a bit, I created a project with both frameworks in github: [https://github.com/MicroUtils/anko-vs-kotlin-logging](https://github.com/MicroUtils/anko-vs-kotlin-logging)
 
-For me the bottom line is that if you use anko in your application then probably AnkoLogger is the solution for you, otherwise I think [kotlin-logging](https://github.com/MicroUtils/kotlin-logging) is easier. The rest is a matter of style.
+For me the bottom line is that if you use anko in your application then probably AnkoLogger is the solution for you, otherwise I think [kotlin-logging](https://github.com/oshai/kotlin-logging) is easier. The rest is a matter of style.
 
 As always, comments are welcome.
 

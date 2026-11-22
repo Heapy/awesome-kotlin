@@ -1,6 +1,11 @@
 category("Android") {
   subcategory("Libraries") {
     link {
+      github = "findip-net/findip-shield-android"
+      setPlatforms(ANDROID)
+      setTags("security")
+    }
+    link {
       github = "JakeWharton/kotterknife"
       setPlatforms(ANDROID)
       setTags("bindings")
@@ -398,6 +403,34 @@ category("Android") {
       setTags("chat", "messaging", "sdk", "ai-agents")
     }
     link {
+      github = "signOps-dev/signops-android"
+      desc = "Login approval with Android Keystore keys, passkeys through Credential Manager and push open reporting for the SignOps API. Maven Central dev.signops:android."
+      setPlatforms(ANDROID)
+      setTags("passkeys", "push-notifications", "2fa", "sdk")
+    }
+    link {
+      github = "ThalzeronLabs/llama-kotlin"
+      setPlatforms(ANDROID)
+      setTags("llm", "llama.cpp", "coroutines")
+    }
+    link {
+      github = "ThalzeronLabs/play-billing-kit"
+      setPlatforms(ANDROID)
+      setTags("billing", "in-app-purchases")
+    }
+    link {
+      github = "ThalzeronLabs/compose-bottom-sheets"
+      setPlatforms(ANDROID)
+      setTags("compose", "ui")
+    }
+    link {
+      github = "mohn93/android_ulink_sdk"
+      name = "Ulinkly Android SDK"
+      desc = "Deep linking SDK for Android App Links and custom schemes, backed by the hosted Ulinkly service (free tier; deferred deep linking and install attribution on paid plans)."
+      setPlatforms(ANDROID)
+      setTags("deep-linking", "app-links", "sdk")
+    }
+    link {
       github = "AhmedAshour/apparent-sdks"
       name = "Apparent Android SDK"
       desc = "Product analytics for Android apps: screens (Compose too), events, purchases and crashes, with an offline queue. No advertising id, no Google Play services, only the Kotlin standard library."
@@ -772,6 +805,12 @@ category("Android") {
       github = "azikar24/WormaCeptor"
       desc = "All-in-one on-device Android debugging toolkit with 20+ features including network inspection, performance monitoring, crash reporting, leak detection, and more."
       setTags("debugging", "network-inspector", "okhttp", "ktor", "jetpack-compose")
+      setPlatforms(ANDROID)
+    }
+    link {
+      github = "hussainshirazi/droidmap"
+      desc = "Static checks for Android wiring that compiles but crashes (Room migrations and schemas, navigation routes, Hilt and Koin bindings, Gradle module rules), change impact for pull requests, and an MCP server for AI coding agents."
+      setTags("static-analysis", "room", "navigation", "hilt", "koin", "mcp")
       setPlatforms(ANDROID)
     }
   }

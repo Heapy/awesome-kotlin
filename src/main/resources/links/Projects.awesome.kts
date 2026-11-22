@@ -572,5 +572,19 @@ category("Projects") {
       setPlatforms(ANDROID, JVM, COMMON)
       setTags("android", "desktop", "jvm", "pager", "pagination")
     }
+    link {
+      github = "DIIIUA/ForgeMind"
+      href = "https://diiiua.github.io/ForgeMind/"
+      desc = "Autonomous AI engineering workspace for Android built with Kotlin and Jetpack Compose Material 3: 56 built-in tools, dual-pane SFTP, Sora code editor with rollback diffs, Termux/Cloudflare SSH, 8-tab agent browser, and bidirectional MCP."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "material3", "ai", "ai-agents", "mcp", "ssh")
+    }
+    link {
+      github = "parmarsanket/NEXPAD"
+      href = "https://play.google.com/store/apps/details?id=com.sanket.tools.nexpad"
+      desc = "Ultra-low latency virtual PC controller for Android with 200Hz gyro steering and Jetpack Compose HUD."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "gamepad", "controller", "vigembus")
+    }
   }
 }
