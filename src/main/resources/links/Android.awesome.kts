@@ -430,6 +430,14 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("deep-linking", "app-links", "sdk")
     }
+    link {
+      github = "AhmedAshour/apparent-sdks"
+      name = "Apparent Android SDK"
+      desc = "Product analytics for Android apps: screens (Compose too), events, purchases and crashes, with an offline queue. No advertising id, no Google Play services, only the Kotlin standard library."
+      href = "https://github.com/AhmedAshour/apparent-sdks/tree/main/kotlin"
+      setPlatforms(ANDROID)
+      setTags("analytics", "sdk", "jetpack-compose", "privacy")
+    }
   }
   subcategory("Frameworks") {
     link {
