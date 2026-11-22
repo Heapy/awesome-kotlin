@@ -2195,6 +2195,12 @@ category("Libraries/Frameworks") {
       setPlatforms(COMMON, ANDROID, IOS, JVM, JS)
       setTags("compose-multiplatform", "kotlin-multiplatform", "mocking", "android", "ios", "ktor", "desktop")
     }
+    link {
+      github = "DmitryNekrasov/tekst"
+      desc = "Kotlin Multiplatform library for working with text by graphemes, i.e. what a user sees as one character. It finds grapheme boundaries in any CharSequence, and its Utf8String is a string of graphemes stored as UTF-8 bytes."
+      setTags("multiplatform", "text", "string", "unicode", "grapheme", "utf-8")
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE, JS, WASM)
+    }
   }
   subcategory("Cryptography") {
     link {
