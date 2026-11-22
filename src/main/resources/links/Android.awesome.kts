@@ -1,6 +1,11 @@
 category("Android") {
   subcategory("Libraries") {
     link {
+      github = "findip-net/findip-shield-android"
+      setPlatforms(ANDROID)
+      setTags("security")
+    }
+    link {
       github = "JakeWharton/kotterknife"
       setPlatforms(ANDROID)
       setTags("bindings")
