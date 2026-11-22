@@ -1627,11 +1627,6 @@ category("Libraries/Frameworks") {
       desc = "Lightweight logging library for Kotlin/Multiplatform. Supports Android, iOS, JavaScript and plain JVM environments."
     }
     link {
-      github = "MicroUtils/kotlin-logging"
-      desc = "Lightweight logging framework for Kotlin. Used as a wrapper for slf4j with Kotlin extensions."
-      setTags("logging", "slf4j")
-    }
-    link {
       github = "InsanusMokrassar/KSLog"
       desc = "Fully customizable and lightweight logging library for Kotlin"
       setTags("logging")
@@ -1873,6 +1868,11 @@ category("Libraries/Frameworks") {
       github = "justwrote/kjob"
       desc = "A coroutine based persistent background scheduler written in Kotlin."
       setTags("job-scheduler", "task", "job-queue", "kotlin", "runner", "job", "mongodb", "kotlin-library", "kotlin-coroutines", "queue", "job-processor")
+    }
+    link {
+      github = "stablemates/workhorse"
+      desc = "A durable task queue for PostgreSQL, with an embedded operator dashboard, durable waits, task groups, and concurrency and rate limits for each key. Maven Central: run.workhorse:workhorse-kotlin."
+      setTags("job-queue", "task-queue", "postgresql", "kotlin-library", "queue")
     }
     link {
       github = "fluidsonic/fluid-pdf"
@@ -2194,6 +2194,12 @@ category("Libraries/Frameworks") {
       desc = "A solution for running and configuring a local HTTP server to mimic REST API endpoints used by your Android, iOS, Flutter, or Kotlin Multiplatform application."
       setPlatforms(COMMON, ANDROID, IOS, JVM, JS)
       setTags("compose-multiplatform", "kotlin-multiplatform", "mocking", "android", "ios", "ktor", "desktop")
+    }
+    link {
+      github = "DmitryNekrasov/tekst"
+      desc = "Kotlin Multiplatform library for working with text by graphemes, i.e. what a user sees as one character. It finds grapheme boundaries in any CharSequence, and its Utf8String is a string of graphemes stored as UTF-8 bytes."
+      setTags("multiplatform", "text", "string", "unicode", "grapheme", "utf-8")
+      setPlatforms(COMMON, JVM, ANDROID, IOS, NATIVE, JS, WASM)
     }
   }
   subcategory("Cryptography") {
@@ -2749,6 +2755,12 @@ category("Libraries/Frameworks") {
     }
   }
   subcategory("Logging") {
+    link {
+      github = "oshai/kotlin-logging"
+      desc = "Lightweight multiplatform logging facade for Kotlin."
+      setPlatforms(COMMON, JVM, ANDROID, JS, NATIVE, IOS, WASM)
+      setTags("logging", "multiplatform", "slf4j")
+    }
     link {
       github = "Luke-Popwell/forge-ops-tracker-kotlin"
       desc = "Coroutine-based error reporting for JVM server apps to the hosted ForgeOps service, with PII scrubbing and an optional strict privacy mode that sends no message text or raw paths."
