@@ -579,5 +579,12 @@ category("Projects") {
       setPlatforms(ANDROID)
       setTags("android", "kotlin", "compose", "material3", "ai", "ai-agents", "mcp", "ssh")
     }
+    link {
+      github = "parmarsanket/NEXPAD"
+      href = "https://play.google.com/store/apps/details?id=com.sanket.tools.nexpad"
+      desc = "Ultra-low latency virtual PC controller for Android with 200Hz gyro steering and Jetpack Compose HUD."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "gamepad", "controller", "vigembus")
+    }
   }
 }
