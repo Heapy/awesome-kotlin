@@ -444,6 +444,11 @@ category("Android") {
       setPlatforms(ANDROID)
       setTags("machine-learning", "on-device", "speech-recognition", "sdk")
     }
+    link {
+      github = "simple-free-apps/compose-pcm-sfx"
+      setPlatforms(ANDROID)
+      setTags("audio", "jetpack-compose", "gamedev")
+    }
   }
   subcategory("Frameworks") {
     link {
