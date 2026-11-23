@@ -2909,5 +2909,11 @@ category("Libraries/Frameworks") {
       setTags("jetpack-compose", "compose", "compose-multiplatform", "kotlin", "ui", "dithering", "shader")
       setPlatforms(COMMON, ANDROID, JVM, IOS, WASM)
     }
+    link {
+      github = "Amaanprobably/compose-fast-scrollbar"
+      desc = "Draggable fast scrollbar for LazyColumn, LazyRow and lazy grids in Jetpack Compose and Compose Multiplatform, with a label bubble, infinite feed support and custom icon thumbs."
+      setTags("jetpack-compose", "compose", "compose-multiplatform", "kotlin", "ui", "scrollbar", "fast-scroll", "lazycolumn")
+      setPlatforms(COMMON, ANDROID, JVM, IOS)
+    }
   }
 }
