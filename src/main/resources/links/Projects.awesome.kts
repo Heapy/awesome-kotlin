@@ -136,6 +136,20 @@ category("Projects") {
   }
   subcategory("Misc") {
     link {
+      github = "elitekaycy/qkt-venue-gateway"
+      href = "https://venuegw.tryqkt.com"
+      desc = "Self-hosted gateway that gives a trading engine one HTTP API for futures and options venues (Deribit, Bybit, paper), with a journaled order log, idempotent orders and a kill switch outside the engine. Built with Ktor."
+      setPlatforms(JVM)
+      setTags("trading", "finance", "ktor", "gateway", "self-hosted")
+    }
+    link {
+      github = "elitekaycy/qkt"
+      href = "https://tryqkt.com"
+      desc = "Event-driven trading engine with a declarative strategy DSL: one strategy file runs in backtest, paper and live trading (MT5 brokers, Deribit, Bybit), and a JSON CLI lets scripts or LLM agents trade through it."
+      setPlatforms(JVM)
+      setTags("trading", "backtesting", "dsl", "finance", "cli")
+    }
+    link {
       github = "quicktype/quicktype"
       desc = "Generate Kotlin types and converters from JSON, Schema, TypeScript, and GraphQL"
       setTags("json", "api", "web")
@@ -557,6 +571,20 @@ category("Projects") {
       desc = "An astrophotography browser built with Compose Multiplatform. Featuring Clean Architecture, MVI and a custom paging solution."
       setPlatforms(ANDROID, JVM, COMMON)
       setTags("android", "desktop", "jvm", "pager", "pagination")
+    }
+    link {
+      github = "DIIIUA/ForgeMind"
+      href = "https://diiiua.github.io/ForgeMind/"
+      desc = "Autonomous AI engineering workspace for Android built with Kotlin and Jetpack Compose Material 3: 56 built-in tools, dual-pane SFTP, Sora code editor with rollback diffs, Termux/Cloudflare SSH, 8-tab agent browser, and bidirectional MCP."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "material3", "ai", "ai-agents", "mcp", "ssh")
+    }
+    link {
+      github = "parmarsanket/NEXPAD"
+      href = "https://play.google.com/store/apps/details?id=com.sanket.tools.nexpad"
+      desc = "Ultra-low latency virtual PC controller for Android with 200Hz gyro steering and Jetpack Compose HUD."
+      setPlatforms(ANDROID)
+      setTags("android", "kotlin", "compose", "gamepad", "controller", "vigembus")
     }
   }
 }

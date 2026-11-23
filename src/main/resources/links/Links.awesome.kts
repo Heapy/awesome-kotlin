@@ -75,6 +75,12 @@ category("Links") {
       href = "https://hackr.io/tutorials/learn-kotlin"
     }
     link {
+      name = "Composables.com"
+      desc = "A catalog of Compose Multiplatform and Jetpack Compose components with examples."
+      href = "https://composables.com/"
+      setTags("compose", "compose-multiplatform", "jetpack-compose", "ui", "components")
+    }
+    link {
       name = "LinkedIn: Kotlin Developers (Join!)"
       href = "https://www.linkedin.com/groups/7417237/profile"
     }
@@ -169,6 +175,11 @@ category("Links") {
     }
   }
   subcategory("Courses") {
+    link {
+      name = "Coddy Kotlin Course"
+      href = "https://coddy.tech/landing/kotlin"
+      desc = "Free interactive Kotlin course in the browser, with 213 lessons, 212 coding challenges and 6 small projects. Each lesson has a code editor to write and run Kotlin."
+    }
     link {
       name = "Jetbrain's Hyperskill Academy"
       desc = "An interactive learning platform for Kotlin and other languages"
