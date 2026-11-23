@@ -1247,6 +1247,13 @@ category("Libraries/Frameworks") {
       desc = "Instantly scaffold a containerised local development environment for any service and database"
       setTags("developer-tools", "cli-tool", "docker")
     }
+    link {
+      github = "MohammadMD1383/jdx"
+      href = "https://mohammadmd1383.github.io/jdx/"
+      desc = "IDE for AI coding agents on JVM code: members, method bodies, usages, call graphs and API diffs for any jar, Maven coordinate or the JDK, with real Kotlin signatures from @Metadata. CLI and MCP server."
+      setPlatforms(JVM)
+      setTags("ai", "mcp", "cli", "tools", "bytecode")
+    }
   }
   subcategory("Compiler Plugins") {
     link {
