@@ -757,6 +757,12 @@ category("Android") {
       desc = "An open-source Telegram video player for Android TV."
       setTags("kotlin", "compose-multiplatform", "media3", "telegram")
     }
+    link {
+      github = "biolend83/tubehaus"
+      desc = "Private YouTube client with Kotlin apps for Android, Android TV and desktop, plus an optional self-hosted server. No Google account."
+      setPlatforms(ANDROID, JVM)
+      setTags("android", "kotlin", "compose", "material3", "android-tv", "self-hosted")
+    }
   }
   subcategory("Extensions") {
     link {
