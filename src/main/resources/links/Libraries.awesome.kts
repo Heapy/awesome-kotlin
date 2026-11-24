@@ -1522,6 +1522,14 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "adilsoncruz/open-pdf-generator"
+      name = "Open PDF Generator"
+      href = "https://adilsoncruz.github.io/open-pdf-generator/"
+      desc = "High-performance engine for generating PDFs from JSON templates (lightweight JasperReports alternative)."
+      setPlatforms(JVM)
+      setTags("pdf", "pdf-generator", "json-template", "reporting", "jasperreports", "openpdf")
+    }
+    link {
       github = "Alox1d/dateparser-kotlin"
       name = "DateParser Kotlin"
       href = "https://alox1d.github.io/dateparser-kotlin/"
