@@ -1247,6 +1247,13 @@ category("Libraries/Frameworks") {
       desc = "Instantly scaffold a containerised local development environment for any service and database"
       setTags("developer-tools", "cli-tool", "docker")
     }
+    link {
+      name = "Bumpwise"
+      href = "https://gilware.com/bumpwise/cli/"
+      desc = "Lists the places in a Kotlin or Java project that a dependency upgrade breaks (Maven Central and Google Maven, BOMs such as compose-bom), and checks a library build against its last release. Command line, MCP server for AI agents and a GitHub Action. Proprietary; the command line is free."
+      setPlatforms(JVM, ANDROID)
+      setTags("binary-compatibility", "dependencies", "cli", "mcp", "github-actions")
+    }
   }
   subcategory("Compiler Plugins") {
     link {
