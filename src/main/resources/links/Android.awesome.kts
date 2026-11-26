@@ -844,6 +844,13 @@ category("Android") {
       desc = "Multi-language framework for solving typical data security tasks: storage and messaging encryption, authentication, works for 14 languages."
       setTags("security", "cryptography", "crypto", "encryption", "kotlin multiplatform", "ios")
     }
+    link {
+      github = "r1b2ns/stack-audit"
+      name = "StackAudit"
+      desc = "Debug inspector for Android, iOS, Flutter and Kotlin Multiplatform: HTTP, WebSocket, storage, SQL, analytics and feature flags, with secrets masked on the device. No-op artifacts for release builds."
+      setPlatforms(ANDROID, IOS)
+      setTags("debugging", "inspector", "network", "kotlin multiplatform")
+    }
   }
   subcategory("Boilerplate") {
     link {
